@@ -25,14 +25,14 @@
 - [ZZ plant care](https://plantcare101.com/plants/zz-plant/): Water a ZZ plant only after the potting mix has dried completely, which Clemson Extension says works out to once or twice a month. Give it bright, indirect light if you can and low light if you must, never full sun, and keep it above 60°F.
 
 ## Problem guides
-- [Brown leaf tips](https://plantcare101.com/guides/brown-leaf-tips/)
-- [Pests](https://plantcare101.com/guides/houseplant-pests/)
-- [How often to water](https://plantcare101.com/guides/how-often-to-water-plants/)
-- [Repotting step by step](https://plantcare101.com/guides/how-to-repot-a-plant/)
-- [Leggy plants](https://plantcare101.com/guides/leggy-plants/)
-- [Overwatering vs underwatering](https://plantcare101.com/guides/overwatering-vs-underwatering/)
-- [Root rot](https://plantcare101.com/guides/root-rot/)
-- [Yellow leaves](https://plantcare101.com/guides/yellow-leaves/)
+- [Brown leaf tips](https://plantcare101.com/guides/brown-leaf-tips/): Brown leaf tips usually mean the leaf edge is the first place salt, fluoride or dry air does damage. Look for a white crust on the soil, think about your water and your heating, then flush the pot with plain water. The brown parts stay brown; new leaves show whether the fix worked.
+- [Pests](https://plantcare101.com/guides/houseplant-pests/): Most houseplant pests ride in on a new plant. Spider mites leave pale speckles and fine webbing, fungus gnats are tiny flies breeding in wet mix, and mealybugs look like white cotton in leaf joints. Isolate the plant, treat once a week for several weeks, and let the mix dry out to stop gnats.
+- [How often to water](https://plantcare101.com/guides/how-often-to-water-plants/): There is no fixed schedule. Water when the plant's own drying test says so: most houseplants when the top inch or two of mix feels dry, succulents only when the pot is dry throughout. Pot size, clay, light, season and humidity stretch or shorten the interval, which the calculator below estimates.
+- [Repotting step by step](https://plantcare101.com/guides/how-to-repot-a-plant/): Repot in spring or early summer, when the plant is growing. Pick a pot 1 or 2 inches wider with a drainage hole, slide the plant out, loosen or cut circling roots, set it at the same depth in fresh potting mix, press gently and water until it drains.
+- [Leggy plants](https://plantcare101.com/guides/leggy-plants/): A leggy plant has long, bare stems with small leaves spaced far apart, and the cause is almost always too little light. Move it closer to a window or add a grow light, then cut the stretched stems back above a leaf node. Old stretched growth never tightens up; only new growth does.
+- [Overwatering vs underwatering](https://plantcare101.com/guides/overwatering-vs-underwatering/): An overwatered plant droops with soft, limp leaves while its mix is still wet and the pot feels heavy. An underwatered plant droops with dry, crisp leaves in a light pot of dry mix. Feel the mix 2 inches down before adding water: wilting in wet mix means stop watering.
+- [Root rot](https://plantcare101.com/guides/root-rot/): Root rot shows as wilting in wet mix, a sour smell, and roots that are brown to black and soft instead of firm. Unpot the plant, rinse the roots, cut every rotten one back to firm tissue and repot in fresh, sterile mix. If most roots are dead, root cuttings instead.
+- [Yellow leaves](https://plantcare101.com/guides/yellow-leaves/): Most yellow leaves on a houseplant trace back to too much water: soggy mix starves the roots of oxygen and the plant sheds its oldest leaves first. Push a finger 2 inches into the mix. Wet means stop watering and look at the roots; dry means check light, feeding, pests and age.
 
 ## Tools
 - [Watering calculator](https://plantcare101.com/tools/watering-calculator/)

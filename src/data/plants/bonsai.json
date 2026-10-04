@@ -1,0 +1,394 @@
+{
+  "slug": "bonsai",
+  "commonName": "Bonsai",
+  "otherNames": [
+    "Ficus bonsai",
+    "Ginseng ficus",
+    "Juniper bonsai",
+    "Indoor bonsai tree"
+  ],
+  "botanicalName": "Ficus microcarpa, Ficus benjamina, Juniperus procumbens and others",
+  "formerNames": [],
+  "family": "Various (Moraceae for Ficus, Cupressaceae for juniper)",
+  "kind": "bonsai",
+  "isGroup": true,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [
+      150,
+      1500
+    ],
+    "lux": [
+      1615,
+      16146
+    ],
+    "windows": [
+      "east",
+      "west",
+      "south"
+    ],
+    "directSun": "tolerates",
+    "src": [
+      0,
+      1,
+      2,
+      3,
+      10
+    ]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Keep the compost just moist, checking the small pot often because it dries fast",
+    "winter": "Indoor ficus can dry slightly between waterings in winter, as Clemson advises for weeping figs; outdoor junipers still need checking, since the RHS warns a dry week in winter can catch you out.",
+    "factors": [
+      "Shallow bonsai containers hold little water, and the RHS notes the compost dries out quickly in warm, windy weather.",
+      "Rainwater reduces the mineral buildup that tap water leaves in a small volume of compost.",
+      "Weeping figs should never be waterlogged or left standing in a full saucer, Clemson warns."
+    ],
+    "src": [
+      0,
+      2
+    ]
+  },
+  "soil": {
+    "mix": "A gritty, free-draining bonsai compost; the RHS recipe is 2 parts peat-free potting compost, 2 parts sharp sand or lime-free grit and 1 part John Innes No 3.",
+    "components": [
+      "peat-free potting compost",
+      "horticultural sharp sand or lime-free alpine grit",
+      "loam-based compost (John Innes No 3)",
+      "controlled-release fertilizer, optional"
+    ],
+    "src": [
+      0,
+      6
+    ]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "The RHS says indoor bonsai need humidity; NC State calls 70 to 100 percent preferable for Ficus microcarpa, and Clemson says weeping figs prefer high humidity.",
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      65,
+      85
+    ],
+    "idealC": [
+      18,
+      29
+    ],
+    "minF": 65,
+    "minC": 18,
+    "src": [
+      1,
+      2
+    ]
+  },
+  "fertilizer": {
+    "season": "During the growing season, spring to autumn",
+    "everyWeeks": [
+      2,
+      8
+    ],
+    "strength": "full",
+    "type": "Balanced liquid fertilizer at the low dose on the label (RHS), or a liquid feed every month or two for ficus (Clemson)",
+    "winter": "none",
+    "src": [
+      0,
+      2
+    ]
+  },
+  "repotting": {
+    "everyYears": [
+      2,
+      3
+    ],
+    "signs": [
+      "Roots fill the container and water runs off instead of soaking in",
+      "New leaves come in small and growth slows, Clemson's signs of a crowded weeping fig",
+      "Two or three years have passed since the last root pruning"
+    ],
+    "season": "Spring, ideally before new growth resumes",
+    "rootType": "woody",
+    "prefersSnug": true,
+    "src": [
+      0,
+      2
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "unknown",
+    "humanNote": "None of the sources we used rates these trees for people; ficus has milky sap (NC State) and the ASPCA lists dermal irritation in pets, so wear gloves when pruning.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Weeping Fig (Ficus sp.)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+        "toxicPrinciples": "Proteolytic enzyme (ficin), psoralen (ficusin)"
+      },
+      {
+        "name": "Fig (Ficus benjamina)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fig",
+        "toxicPrinciples": "Proteolytic enzyme (ficin), psoralen (ficusin)",
+        "clinicalSigns": "Gastrointestinal and dermal irritation"
+      },
+      {
+        "name": "Silver Jade Plant (Crassula arborescens)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/silver-jade-plant",
+        "toxicPrinciples": "Unknown",
+        "clinicalSigns": "Nausea, retching"
+      }
+    ],
+    "src": [
+      1,
+      7,
+      8,
+      9,
+      11
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Ficus sheds green or yellow leaves all at once",
+      "causeKey": "drafts",
+      "cause": "A cold draft, a heat vent or a sudden move, all of which Clemson lists as triggers",
+      "remedy": "Find a bright spot away from vents and doors and leave the tree there; once it adjusts it stops dropping and pushes new growth."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Leaves drop steadily and new ones come in small and sparse",
+      "causeKey": "low-light",
+      "cause": "Too little light for a tree NC State calls very sensitive to light",
+      "remedy": "Move it right to an east or west window or near a south one; add a grow light in winter if the room is dim."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Juniper foliage browns and dies back from the tips and the interior",
+      "causeKey": "dormancy",
+      "cause": "A hardy outdoor conifer kept indoors without the winter rest and full sun it needs",
+      "remedy": "Move it outdoors to full sun, protect the pot from hard freezes in winter as NC State's bonsai garden does, and keep it outside for good."
+    },
+    {
+      "symptomKey": "wrinkled-leaves",
+      "symptom": "Leaves limp, curled or crisp after a warm day",
+      "causeKey": "underwatering",
+      "cause": "The small, shallow pot dried out completely",
+      "remedy": "Soak the whole pot until the compost is saturated, then check it daily in warm weather and water whenever the surface starts to dry."
+    },
+    {
+      "symptomKey": "white-crust",
+      "symptom": "White crust on the soil surface and pot edge",
+      "causeKey": "water-quality",
+      "cause": "Minerals from tap water and fertilizer building up in a small volume of compost",
+      "remedy": "Switch to rainwater as the RHS suggests, flush the pot with plenty of water, and feed at the low label dose."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky film on leaves with small brown bumps on stems",
+      "causeKey": "pests",
+      "cause": "Scale insects, a problem on bonsai (RHS) and on weeping figs (Clemson)",
+      "remedy": "Scrape off scales with a fingernail or cotton swab dipped in rubbing alcohol, wash the leaves, and repeat weekly until no new bumps appear."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and speckled, dull leaves",
+      "causeKey": "pests",
+      "cause": "Spider mites, which Clemson lists as frequent on weeping figs",
+      "remedy": "Rinse the canopy in the shower, raise humidity around the tree, and treat with insecticidal soap on both leaf surfaces."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings (ficus)",
+      "Air layering (ficus)"
+    ],
+    "season": "Summer for cuttings; air layering at any season"
+  },
+  "size": {
+    "note": "Height is set by pruning and by the small pot, not by the species: a bonsai stays the size its grower keeps it.",
+    "src": [
+      1,
+      4
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Ficus microcarpa 'Ginseng'",
+      "note": "Thick, swollen exposed roots under dense, glossy leaves; NC State lists it as used for bonsai."
+    },
+    {
+      "name": "Ficus microcarpa 'Golden Gate'",
+      "note": "Gray trunk and small, dark green oval leaves, another NC State bonsai selection."
+    },
+    {
+      "name": "Ficus benjamina 'Too Little'",
+      "note": "Miniature weeping fig with tiny glossy leaves on twiggy branchlets; Clemson calls it ideal for indoor bonsai."
+    },
+    {
+      "name": "Ficus benjamina 'Wasana'",
+      "note": "Weeping, irregular habit and shiny green leaves marked with white, suited to bonsai according to Clemson."
+    },
+    {
+      "name": "Juniperus procumbens 'Nana'",
+      "note": "Dwarf Japanese garden juniper, 6 to 12 inches tall, used for bonsai outdoors in USDA Zones 4 to 9."
+    },
+    {
+      "name": "Chinese elm, silver jade plant, olive",
+      "note": "Other species the RHS names as regularly used for indoor bonsai."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bonsai",
+      "publisher": "Royal Horticultural Society (RHS)",
+      "url": "https://www.rhs.org.uk/plants/types/trees/bonsai",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Ficus microcarpa (Chinese Banyan)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-microcarpa/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Weeping Ficus",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/weeping-ficus/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Ficus benjamina (Weeping Fig)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-benjamina/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Juniperus procumbens 'Nana' (Dwarf Japanese Garden Juniper)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/juniperus-procumbens-nana/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Bonsai Garden in Davidson County",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/garden_detail/bonsai-garden-in-davidson-county/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Juniperus procumbens",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=279628",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Weeping Fig",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Fig (Ficus benjamina)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fig",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Silver Jade Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/silver-jade-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Cats",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "seo": {
+    "title": "Bonsai Care: Indoor Ficus vs Outdoor Juniper Guide (2026)",
+    "description": "Bonsai care in 2026: grow ficus indoors above 65°F, keep junipers outside for their winter rest, and repot every 2 to 3 years. Watering calculator and fixes.",
+    "h1": "Bonsai care: indoor ficus and outdoor juniper"
+  },
+  "content": {
+    "answer": "Indoors, grow a tropical bonsai such as Ficus microcarpa: bright light, compost kept just moist in its shallow pot, warmth of 65°F or more, and a balanced liquid feed in the growing season. Juniper bonsai are outdoor trees that need a winter rest.",
+    "intro": "Bonsai is not a species. The RHS defines it as the art of growing dwarf trees and shrubs, kept small by training, pruning and container restriction, and the word itself means tray cultivation. That matters the moment you buy one, because the tree in the tray decides where it can live. A ficus, most often Ficus microcarpa, the Chinese banyan, is a tropical fig that NC State says suits temperatures above 68°F all year and is generally sold as a houseplant; it handles a bright room well. The juniper that fills garden-center bonsai shelves is something else: Juniperus procumbens 'Nana' is a hardy groundcover conifer for full sun in USDA Zones 4 to 9, and NC State's bonsai garden profile notes that most temperate bonsai need a winter rest, while only tropical species must be overwintered in heated space. Kept on a windowsill year-round, a juniper slowly fails. This guide covers both honestly.",
+    "light": [
+      "Light is the first limit for any tree in a pot this small. The RHS says indoor bonsai need lots of light, and Clemson grows weeping figs in bright, indirect or curtain-filtered sun, adding that they handle some direct sun if the humidity is high. NC State rates Ficus microcarpa for full sun to part shade. On the Illinois Extension scale, aim for bright light, about 300 foot-candles, right at an east or west window, or a spot within a few feet of a south window, where direct sun reaches 1,500 foot-candles.",
+      "Pick the spot and keep it. NC State warns that Ficus benjamina is very sensitive to light, so a moved tree may drop its leaves and grow new ones adapted to the new light. Junipers are a different case entirely: NC State lists Juniperus procumbens 'Nana' for full sun, six or more hours of direct sunlight a day, which no indoor window reliably gives."
+    ],
+    "water": [
+      "A bonsai holds so little compost that watering is a daily check, not a weekly chore. The RHS explains that the small, shallow containers restrict both water and nutrients and that the compost dries quickly in warm, windy weather. Its rule is simple: water as and when needed, aiming to keep the compost just moist. Outdoors in summer, the RHS says, that can mean once or twice a day.",
+      "Water gently and completely. The RHS recommends a fine rose so water soaks in rather than running off the surface, and rainwater where possible, because it reduces the buildup of minerals in the compost. Keep watering until it flows from the drainage holes, then let the pot drain fully. Clemson adds for weeping figs that the tree should never be waterlogged or left with water in its saucer.",
+      "Indoor ficus slow down in winter, and Clemson allows the soil to dry slightly between waterings then. Outdoor junipers resting through the cold still lose water, and the RHS cautions that a dry week in winter can catch you out, so keep checking the pot right through the season."
+    ],
+    "soil": [
+      "Bonsai compost has to drain in seconds yet hold enough moisture for a day. The RHS gives a home recipe: two parts by volume of peat-free potting compost, two parts horticultural sharp sand or lime-free alpine grit, and one part peat-free John Innes No 3, swapping in ericaceous compost for lime-hating species. A controlled-release fertilizer can go into the mix at the manufacturer's rate. Specialized bonsai mixes do the same job. Ordinary houseplant compost alone stays too wet in a shallow tray. Junipers are even less forgiving of wet roots: Missouri Botanical Garden calls Juniperus procumbens intolerant of wet soils and partial to a dryish, sandy one."
+    ],
+    "humidity": [
+      "Tropical bonsai want moist air. The RHS lists humidity alongside light and constant temperature as the needs of indoor bonsai, Clemson says weeping figs prefer high humidity, and NC State calls 70 to 100 percent preferable for Ficus microcarpa, noting that it favors aerial roots. Few homes come close in winter, so set the tray on a wide saucer of wet pebbles, keep the pot clear of the water, and run a humidifier nearby if the heating is on."
+    ],
+    "temperature": [
+      "Clemson's ideal for weeping figs is 65 to 70°F at night and 75 to 85°F by day, and NC State says Ficus microcarpa suits temperatures above 68°F all year long. NC State also calls Ficus benjamina intolerant of cold and very frost sensitive. Keep a ficus bonsai away from cold glass, outside doors and heat vents; Clemson warns that drafts and vents trigger heavy leaf drop. A summer outdoors in morning sun and afternoon shade suits it, as long as it comes back inside before nights turn cool."
+    ],
+    "fertilizer": [
+      "A small pot runs out of food quickly, but too much feeding produces soft growth. The RHS suggests a slow-release balanced fertilizer at repotting and, once that is spent, a balanced liquid feed at the low dose on the label every two weeks during the growing season, warning that overfeeding gives excessive growth prone to pests and disease. Clemson's schedule for a healthy weeping fig is a liquid fertilizer every month or two in the growing season. Stop in winter."
+    ],
+    "repotting": [
+      "Repotting a bonsai means root pruning, not moving up a size. The RHS says to do it every two to three years, more often for fast growers and every three to five for slow pines, in spring before new growth resumes. Lift the tree out, comb away the old compost, cut back long roots to leave a flat, circular root ball, and return it to the same container with fresh mix worked in around the roots with a chopstick. Water well and keep it in a sheltered, shady spot until it recovers. Clemson notes that a weeping fig tolerates being slightly root bound."
+    ],
+    "propagation": [
+      "Ficus is the easy one to multiply. NC State says Ficus microcarpa roots readily from cuttings, either in water or straight into sand or potting soil, and Clemson notes that weeping figs root best from cuttings taken in summer and can be air layered at any season. Air layering is the bonsai grower's shortcut: a thick branch rooted while still on the tree becomes a ready-made trunk. Expect years of pruning before a rooted cutting looks like a bonsai."
+    ],
+    "problems": [
+      "With ficus, the signature complaint is leaf drop. Clemson writes that weeping figs react to almost any stress by shedding leaves, listing overwatering, underwatering, drafts, lack of nitrogen and low light, and that they often drop leaves after a move or repotting before settling. The RHS names vine weevil, scale insects, slugs and powdery mildew as common bonsai problems, and Clemson adds spider mites and scale as frequent ficus pests. A juniper browning indoors is not a pest problem at all; it is in the wrong place."
+    ],
+    "petSafety": [
+      "The ASPCA lists ficus as toxic to cats, dogs and horses: its weeping fig and fig entries give a proteolytic enzyme, ficin, and psoralen, ficusin, as the toxic principles, with gastrointestinal and dermal irritation as the signs. Silver jade, another indoor bonsai the RHS names, is also toxic, with nausea and retching. We found no ASPCA entry for juniper in its cat or dog plant lists, so its risk is unrated rather than proven safe. Keep bonsai out of a pet's reach, and call your veterinarian or the ASPCA Animal Poison Control Center if one chews the tree."
+    ],
+    "faq": [
+      {
+        "q": "Can I keep a juniper bonsai indoors?",
+        "a": "Not long term. Juniperus procumbens 'Nana' is a hardy conifer for USDA Zones 4 to 9 that NC State lists for full sun, six or more hours a day. NC State's bonsai garden profile notes that most temperate bonsai need a winter rest, with the pots protected from hard cold, while only tropical species are overwintered in heated space. Bring a juniper inside only briefly for display, then return it outdoors."
+      },
+      {
+        "q": "Why is my ficus bonsai losing leaves?",
+        "a": "Almost any change can do it. Clemson says weeping figs shed leaves in response to overwatering, underwatering, drafts, lack of nitrogen, low light, a move or repotting, and NC State says a moved ficus drops leaves to regrow ones suited to the new light. Keep it in one bright spot away from vents, water when the compost starts to dry, and new leaves usually follow."
+      },
+      {
+        "q": "How often should I water an indoor bonsai tree?",
+        "a": "Whenever the compost starts to dry, which can be often. The RHS says to water as and when needed with the aim of keeping the compost just moist, and that in summer this can be once or twice a day for trees outdoors. Indoors, check by touch every day rather than following a calendar, and water until it drains from the holes."
+      },
+      {
+        "q": "What is the best bonsai tree for indoors?",
+        "a": "A tropical or semi-tropical species. Ficus microcarpa, often sold as ginseng ficus, is the most common, and NC State notes it is frequently used as an indoor tree and in bonsai. The RHS also names Chinese elm, silver jade plant, weeping fig, celtis and olive for indoor bonsai. Clemson recommends the miniature weeping fig 'Too Little' as ideal for indoor bonsai."
+      },
+      {
+        "q": "Is a ficus bonsai poisonous to cats?",
+        "a": "Yes. The ASPCA lists ficus as toxic to cats, dogs and horses, naming ficin, a proteolytic enzyme, and ficusin, a psoralen, as the toxic principles, with gastrointestinal and dermal irritation as the clinical signs. Place the tray on a shelf a cat cannot reach, sweep up pruning clippings promptly, and call a veterinarian or the ASPCA Animal Poison Control Center if your cat chews the tree."
+      }
+    ]
+  }
+}

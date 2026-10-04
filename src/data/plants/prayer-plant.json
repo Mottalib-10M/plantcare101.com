@@ -1,0 +1,341 @@
+{
+  "slug": "prayer-plant",
+  "commonName": "Prayer plant",
+  "otherNames": [
+    "Maranta",
+    "Red-veined prayer plant",
+    "Herringbone plant",
+    "Rabbit tracks",
+    "Banded arrowroot"
+  ],
+  "botanicalName": "Maranta leuconeura",
+  "formerNames": [
+    "Maranta kerchoveana",
+    "Maranta leuconeura var. erythroneura"
+  ],
+  "family": "Marantaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "medium",
+    "maxLevel": "high",
+    "fc": [
+      75,
+      300
+    ],
+    "lux": [
+      807,
+      3229
+    ],
+    "windows": [
+      "north",
+      "east",
+      "west"
+    ],
+    "directSun": "avoid",
+    "src": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Keep the potting mix evenly moist from spring through early fall",
+    "winter": "From autumn to late winter, let the soil dry between waterings, as the Illinois Extension, NC State and Missouri Botanical Garden all advise.",
+    "factors": [
+      "Water standing on the crowns rots the stems, the Illinois Extension warns.",
+      "NC State notes that leaves burn with high fluoride levels, a reason to try rainwater or filtered water if tips brown.",
+      "Root rot follows poorly drained soil, according to NC State and Missouri Botanical Garden."
+    ],
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "soil": {
+    "mix": "A regular, soil-based potting mix that holds moisture yet drains freely from a pot with a hole.",
+    "components": [
+      "soil-based houseplant potting mix",
+      "perlite for drainage"
+    ],
+    "src": [
+      0,
+      2
+    ]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "NC State says it requires high humidity and is intolerant of low humidity; use a humidified room or a tray of wet pebbles.",
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "temperature": {
+    "minF": 60,
+    "minC": 16,
+    "src": [
+      1,
+      2
+    ]
+  },
+  "fertilizer": {
+    "season": "Monthly during the growing season, much less from autumn to late winter",
+    "everyWeeks": [
+      4,
+      4
+    ],
+    "strength": "full",
+    "type": "Houseplant fertilizer at the label rate and never stronger, balanced (10-10-10) or 1:2:1",
+    "winter": "reduced",
+    "src": [
+      2,
+      5
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Rhizomes and stems crowd the surface right to the rim",
+      "Roots wind in a solid mass around the root ball",
+      "Water runs straight through and the mix dries out within a day or two"
+    ],
+    "season": "Spring or summer, when new leaves are unrolling",
+    "rootType": "rhizome",
+    "prefersSnug": false,
+    "src": [
+      1,
+      6
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "None of the sources we used rates the prayer plant for people; the ASPCA lists it as non-toxic to cats, dogs and horses.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Prayer Plant (listed by the ASPCA as Calathea insignis)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/prayer-plant",
+        "toxicPrinciples": "Non-toxic"
+      }
+    ],
+    "src": [
+      3
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Leaf pattern bleached and washed out on the window side",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sun, which NC State and Missouri Botanical Garden say bleaches the leaf colors",
+      "remedy": "Pull the plant back from the glass or hang a sheer curtain; new leaves will color up, faded ones will not recover."
+    },
+    {
+      "symptomKey": "slow-growth",
+      "symptom": "Dull pattern, pale undersides and few new leaves",
+      "causeKey": "low-light",
+      "cause": "A dim spot combined with little feeding; NC State notes colors fade in low light and low fertility",
+      "remedy": "Move it in front of a north window or a few feet from an east or west one, and feed monthly in spring and summer."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Brown, burned-looking leaf tips and margins",
+      "causeKey": "water-quality",
+      "cause": "Fluoride in tap water, which NC State says burns the leaves",
+      "remedy": "Water with rainwater or filtered water, flush the pot thoroughly, and trim brown tips along the leaf's natural shape."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Scorched brown patches soon after feeding",
+      "causeKey": "fertilizer-salts",
+      "cause": "Over-fertilization, the other leaf burn NC State names",
+      "remedy": "Leach the pot with a large volume of plain water, skip the next feeding, and never mix fertilizer stronger than the label."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Leaf edges dry, curled and papery",
+      "causeKey": "low-humidity",
+      "cause": "Dry indoor air, which the plant does not tolerate",
+      "remedy": "Set the pot on a tray of wet pebbles, run a humidifier or group it with other plants, especially while the heat is on."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Stems collapse and rot at soil level",
+      "causeKey": "overwatering",
+      "cause": "Water left standing on the crown or a pot that does not drain",
+      "remedy": "Water the soil around the edge, empty the saucer, and repot healthy rhizome pieces in fresh mix if the base has turned soft."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and speckled, dull leaves",
+      "causeKey": "pests",
+      "cause": "Spider mites, which favor dry air",
+      "remedy": "Rinse the foliage, raise humidity, and treat both sides of the leaves with insecticidal soap until no webbing returns."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of the rhizomes",
+      "Stem cuttings"
+    ],
+    "season": "Spring to early summer"
+  },
+  "size": {
+    "heightIn": [
+      6,
+      15
+    ],
+    "widthIn": [
+      6,
+      24
+    ],
+    "src": [
+      1,
+      2
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Red-veined (var. erythroneura)",
+      "note": "The common houseplant form, with red fishbone veins and a pale green to yellow band down the midrib."
+    },
+    {
+      "name": "Rabbit tracks (var. kerchoveana)",
+      "note": "Dark blotches on each side of the midrib, the pattern behind the common name rabbit tracks; once named Maranta kerchoveana."
+    },
+    {
+      "name": "Fascinator Tricolor",
+      "note": "Dark green leaves with light green margins, red rib veins and a yellow center."
+    },
+    {
+      "name": "Lemon Lime",
+      "note": "Dark green leaves with a yellowish-green center and striping instead of red veins."
+    },
+    {
+      "name": "Silver Band",
+      "note": "Dark green leaves with a broad silvery-green patch down the middle."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Prayer Plant",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/prayer-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Maranta leuconeura (Prayer Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/maranta-leuconeura/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Maranta leuconeura",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=292048",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Prayer Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/prayer-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "african-violet",
+    "snake-plant"
+  ],
+  "seo": {
+    "title": "Prayer Plant Care: Light, Humidity & Brown Tip Fixes (2026)",
+    "description": "Prayer plant care in 2026: bright indirect light, evenly moist soil, high humidity and nothing below 60°F. Watering calculator, pet safety and brown tip fixes.",
+    "h1": "Prayer plant care: light, humidity and watering"
+  },
+  "content": {
+    "answer": "Keep a prayer plant in bright, indirect light, never direct sun, with the mix evenly moist from spring to fall and a little drier in winter. Give it high humidity, monthly feeding in the growing season, and temperatures that stay above 60°F.",
+    "intro": "Maranta leuconeura moves. By day its oval leaves lie flat, held parallel to the ground; after dark they swing upright into the folded \"prayer\" position, and a plant on a coffee table can look like a different species by bedtime. NC State Extension describes the shift, and the University of Illinois Extension simply notes that the plant folds up its leaves in darkness. Native to Brazil, it is a low, clumping perennial that spreads from rhizomes, about 12 to 15 inches tall and as wide in Missouri Botanical Garden's description, with leaves up to 5 inches long marked by red fishbone veins and a pale stripe down the midrib. The patterned foliage is the whole point, and it is also the early warning system: too much sun bleaches it, dry air crisps its edges, and fluoride or excess fertilizer burns its tips. Read the leaves and the plant tells you what it needs.",
+    "light": [
+      "In the tropics this plant is used as a ground cover for shady areas, Missouri Botanical Garden notes, and indoors it wants light that is bright but filtered. The Illinois Extension recommends diffused sun or bright, indirect light, NC State says the plant tolerates low to medium light, and both NC State and Missouri Botanical Garden warn that strong direct sun bleaches out the leaf colors. In Illinois Extension terms that is low light at the bottom, around 75 foot-candles a few feet from a north window, and bright light, about 300 foot-candles, at the top, which you get right at an east or west window behind a sheer curtain.",
+      "The sweet spot for most homes is directly in front of a north window or a few feet back from an east or west one. Too little light shows as well: NC State notes that both leaf surfaces lose color in low light and low fertility, so a plant whose pattern looks dull and gray in a dark corner needs a brighter spot, not more water."
+    ],
+    "water": [
+      "During the growing season, keep the mix evenly moist, the instruction the Illinois Extension, NC State and Missouri Botanical Garden all give. Evenly moist means damp throughout like a wrung-out sponge, never sodden and never allowed to go bone dry. Water until it drains, empty the saucer, and check again when the surface just begins to feel dry.",
+      "Aim the spout at the soil, not into the cluster of stems. The Illinois Extension warns that water left standing on the crowns makes the stems rot easily, and NC State and Missouri Botanical Garden both list root rot in poorly drained soil. A pot with a drainage hole and a mix that does not stay waterlogged matter more than any schedule.",
+      "Two adjustments complete the routine. In winter, let the soil dry between waterings, as all three sources advise, because growth slows in short days. And watch the water itself: NC State says the leaves burn with high fluorides, so if brown tips appear despite good humidity, switch to rainwater or filtered water for a while."
+    ],
+    "soil": [
+      "No exotic mix is needed. The Illinois Extension calls for regular potting mix, and Missouri Botanical Garden says the plant performs well in a soil-based potting mix. Choose one that stays moist without packing down; adding a handful of perlite to a dense bagged mix keeps air around the rhizomes. Because the plant spreads sideways, NC State notes, a wide pot or a hanging basket shows it off better than a deep, narrow one."
+    ],
+    "humidity": [
+      "Humidity is where most prayer plants struggle. NC State says the plant requires high humidity and is intolerant of low humidity, and Missouri Botanical Garden suggests a humidified room or a pot standing on a tray of wet pebbles. The Illinois Extension notes that most homes fall below 30 percent humidity in winter, adds grouping plants together as an easy boost, and cautions that misting lifts humidity only briefly and can encourage disease if overdone. Crispy, curled leaf edges are the first sign the air is too dry."
+    ],
+    "temperature": [
+      "Warmth is part of the recipe. Missouri Botanical Garden says the plant prefers temperatures that do not dip below 60°F, and NC State calls it intolerant of low temperatures and cold drafts. Keep it away from winter windowpanes at night, exterior doors, and the blast of an air conditioner in summer. It is hardy outdoors only in USDA Zones 11 and 12, so in most of the country it stays inside year-round."
+    ],
+    "fertilizer": [
+      "Missouri Botanical Garden recommends feeding monthly during the growing season, then substantially reducing fertilizer from autumn to late winter. Use a houseplant fertilizer at the label rate; the Illinois Extension suggests balanced (10-10-10) or 1:2:1 formulas and warns never to mix it stronger than directed. This plant punishes excess: NC State says over-fertilization burns the leaves, so a monthly feeding at label strength is the ceiling, not the starting point. If you also see white crust on the soil, flush the pot with plain water."
+    ],
+    "repotting": [
+      "Repot in spring or summer, while new leaves are unrolling from their rolled tubes, and only when the rhizomes have filled the surface or roots wind around the root ball. Clemson's general guidance is a pot just 1 or 2 inches wider than the old one. Set the plant at the same depth it grew before; burying the stems deeper invites the crown rot the Illinois Extension warns about. Overgrown clumps are better divided than moved into a much bigger pot."
+    ],
+    "propagation": [
+      "NC State recommends propagating by dividing the rhizomes, and Missouri Botanical Garden adds stem cuttings. To divide, slide the plant out in spring, tease the clump apart so each section keeps several leaves and a piece of rhizome with roots, and pot the sections at their original depth in moist mix. For cuttings, take a stem just below a node, root it in water or damp mix in bright, indirect light, and keep humidity high around it while roots form."
+    ],
+    "problems": [
+      "Prayer plant problems are mostly cosmetic and mostly environmental. NC State reports no serious pests or diseases, though spider mites and mealybugs turn up, and Missouri Botanical Garden adds thrips, leaf spot, tip browning and cucumber mosaic virus. Before reaching for a spray, check the basics: light that is too strong or too weak, dry air, fluoride in tap water, too much fertilizer, or water sitting around the crown. Fixing those clears up most symptoms on new growth."
+    ],
+    "petSafety": [
+      "The ASPCA lists the prayer plant as non-toxic to cats, dogs and horses. Its entry carries the scientific name Calathea insignis rather than Maranta leuconeura, and the ASPCA's separate Maranta entry uses the same name, so both point to plants of the same family, all rated non-toxic. That makes the prayer plant a common choice for homes with pets. Non-toxic means no poisoning is expected, not that a pet should graze on it; call your veterinarian or the ASPCA Animal Poison Control Center if a pet that ate some seems unwell."
+    ],
+    "faq": [
+      {
+        "q": "Why are the tips of my prayer plant leaves turning brown?",
+        "a": "There are three usual causes. NC State says the leaves burn with high fluorides, so tap water is a suspect; try rainwater or filtered water. The same source lists over-fertilization, so feed no more than monthly in the growing season. Dry air is the third, since the plant is intolerant of low humidity. Trim browned tips with clean scissors; new leaves show whether the fix worked."
+      },
+      {
+        "q": "Can a prayer plant grow in a north-facing window?",
+        "a": "Yes, and it is often the best spot. NC State says the prayer plant tolerates low to medium light and dislikes direct sun. The Illinois Extension rates a position directly in front of a north window as medium light, about 150 foot-candles. Keep it close to the glass rather than across the room, where light drops to low and the leaf pattern fades."
+      },
+      {
+        "q": "Is a prayer plant the same thing as a calathea?",
+        "a": "Not quite. The true prayer plant is Maranta leuconeura, and calatheas belong to a different genus in the same arrowroot family, Marantaceae. The names blur because the ASPCA files its prayer plant entry under Calathea insignis. Care is similar, with bright indirect light, steady moisture and high humidity, and the ASPCA rates calatheas as non-toxic to pets too."
+      },
+      {
+        "q": "Should I mist my prayer plant every day?",
+        "a": "Misting helps less than it seems. The Illinois Extension notes that misting raises humidity for only a short time, must be repeated, and can increase disease when overdone. For a plant NC State calls intolerant of low humidity, a steadier fix works better: a tray of wet pebbles under the pot, a room humidifier, or a group of plants sharing the same moist air."
+      },
+      {
+        "q": "Is a prayer plant safe for cats and dogs?",
+        "a": "Yes. The ASPCA lists the prayer plant as non-toxic to cats, dogs and horses, under the scientific name Calathea insignis, and rates calatheas in general the same way. No poisoning is expected if a pet chews a leaf, though the plant will soon look ragged. Hang it in a basket if your cat treats it as salad, and call a veterinarian if a pet seems unwell after eating any plant."
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+---
+import HubLayout from '../components/HubLayout.astro';
+import PlantFilter from '../components/calc/PlantFilter';
+import { PLANTS, plantPath, filterPlants } from '../lib/plants';
+import { route } from '../i18n/routes';
+import { SRC } from '../data/general-sources';
+import { isPetSafe, LEVEL_LABEL } from '../lib/plant-text';
+import aspca from '../data/aspca-plants.json';
+const lang = 'en';
+const safe = PLANTS.filter(isPetSafe);
+const toxic = PLANTS.filter((p) => p.toxicity.cats === 'toxic' || p.toxicity.dogs === 'toxic');
+const data = aspca as { count: number; plants: Array<{ c: string | null; d: string | null }> };
+const bothSafe = data.plants.filter((r) => r.c === 'non-toxic' && r.d === 'non-toxic').length;
+const signs = toxic.flatMap((p) => p.toxicity.aspca.map((a) => ({ p, a }))).filter((x) => x.a.cats === 'toxic' || x.a.dogs === 'toxic');
+const faqs = [
+  { q: 'Are snake plants toxic to cats?', a: 'Yes. The ASPCA lists the snake plant, Sansevieria trifasciata, as toxic to cats and to dogs. It contains saponins, and the clinical signs the ASPCA gives are nausea, vomiting and diarrhea. Keep it on a high shelf a cat cannot reach, or choose a non-toxic plant such as a spider plant, which accepts similar light.' },
+  { q: 'Which houseplants are safe for both cats and dogs?', a: `Among our guides, the ASPCA lists ${safe.map((p) => p.commonName.toLowerCase()).join(', ')} as non-toxic to both. Across the full ASPCA lists, ${bothSafe.toLocaleString('en-US')} entries are rated non-toxic for cats and for dogs. Use the checker to look up any plant by common or botanical name before you buy it.` },
+  { q: 'Is a non-toxic plant completely harmless to my pet?', a: 'Not completely. Non-toxic means the ASPCA knows of no poisonous principle for that species. Eating plant material can still cause mild vomiting or stomach upset, and leaves may carry pesticide residue from the nursery. Rinse new plants, discourage chewing, and watch for repeated grazing, which can also signal a pet that needs a vet visit.' },
+  { q: 'Is the spider plant safe for cats even though they love to chew it?', a: 'The ASPCA lists the spider plant as non-toxic to cats and dogs, which is why it is a common recommendation for pet homes. Cats are often drawn to its long, arching leaves, and a cat that eats a lot of them may still vomit. Hang it where the cat can see it but not shred it if the leaves start disappearing.' },
+  { q: 'What should I do if my dog ate a toxic houseplant?', a: 'Take any remaining plant away, note the plant name and how much was eaten, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435. Do not make the dog vomit unless told to. The plant guides on this site list the clinical signs the ASPCA gives for each toxic plant.' },
+  { q: 'Are orchids and African violets safe for pets?', a: 'Yes. The ASPCA lists the moth orchid (Phalaenopsis) and the African violet as non-toxic to cats and dogs, which makes them two of the few flowering houseplants that are. Both have their own guide here, with the light and watering they need to bloom indoors.' },
+];
+---
+<HubLayout id="petfriendly" title="Plants Safe for Cats and Dogs: ASPCA Non-Toxic List (2026)"
+  h1="Houseplants safe for cats and dogs"
+  description="Plants safe for cats and dogs in 2026: pet-friendly houseplants from the ASPCA non-toxic lists, with full care guides, and the popular plants to keep away."
+  answer={`According to the ASPCA, ${safe.map((p) => p.commonName.toLowerCase()).join(', ')} are non-toxic to both cats and dogs. Popular plants such as the snake plant, pothos, monstera and peace lily are toxic to both. Filter below by your pet and your light.`}
+  intro={`If a cat or dog shares your home, toxicity decides the shortlist before light or looks. The reference in the United States is the ASPCA Animal Poison Control Center, which keeps one list for cats and one for dogs; together they cover ${data.count.toLocaleString('en-US')} plant entries, each marked toxic or non-toxic for that species. Every plant guide on this site records the ASPCA entry it relies on, the toxic principle and the clinical signs, and says plainly when the ASPCA has no entry at all. Of the ${PLANTS.length} plants we cover, ${safe.length} are non-toxic to both cats and dogs. The filter below starts from those, and you can switch it to cats or dogs only, or combine it with the light you have.`}
+  faqs={faqs} sources={[SRC.aspcaCats, SRC.aspcaDogs]} items={safe.map((p) => ({ name: p.commonName, href: plantPath(p.slug) }))}
+  related={[{ href: route('petsafe', lang), name: 'Pet-safe plant checker', description: `Search ${data.count.toLocaleString('en-US')} ASPCA entries` }, { href: route('lowlight', lang), name: 'Low light indoor plants', description: 'Combine with pet safety' }]}>
+  <PlantFilter slot="tool" client:load plants={filterPlants()} defaultPets="both" idPrefix="pets" />
+
+  <h2>Popular plants to keep away from pets</h2>
+  <p>These plants in our guides are toxic to cats, dogs or both according to the ASPCA. The signs below are the ASPCA's own wording.</p>
+  <div class="overflow-x-auto"><table>
+    <caption class="sr-only">Toxic plants with ASPCA clinical signs</caption>
+    <thead><tr><th scope="col">Plant</th><th scope="col">ASPCA entry</th><th scope="col">Toxic principle</th><th scope="col">Clinical signs</th></tr></thead>
+    <tbody>{signs.map(({ p, a }) => <tr><td><a href={plantPath(p.slug)}>{p.commonName}</a></td><td><a href={a.url} target="_blank" rel="nofollow noopener noreferrer">{a.name}</a></td><td>{a.toxicPrinciples ?? 'Not given'}</td><td>{a.clinicalSigns ?? 'Not given'}</td></tr>)}</tbody>
+  </table></div>
+
+  <h2>Pet-safe does not mean care-free</h2>
+  <p>A non-toxic plant still has to suit your home. The spider plant and the prayer plant accept lower light than the moth orchid or the Christmas cactus, which need brighter spots to flower; the calathea and the African violet want steady moisture, while succulents rated non-toxic, such as echeveria and haworthia, want the mix to dry out. Each guide gives the light range, from {LEVEL_LABEL.low.toLowerCase()} upward, and a watering calculator set to that plant.</p>
+  <p>Placement helps with toxic favorites you do not want to give up. Hanging baskets, high shelves and closed rooms keep leaves away from curious mouths, but cats climb, and fallen leaves end up on the floor. If a pet chews plants persistently, the safer course is a home stocked only with plants the ASPCA rates non-toxic for that animal.</p>
+
+  <h2>Why the lists sometimes disagree with plant tags</h2>
+  <p>Common names are slippery. The ASPCA's “rubber plant” is a Peperomia, not the Ficus elastica sold under that name, which is toxic; its “fiddle-leaf” is a philodendron, not the fiddle-leaf fig. Some plants, such as the ZZ plant, have no ASPCA entry at all, and our guide relies on extension sources that list it as toxic. Always match the botanical name on the plant label with the one on the ASPCA entry, and check plants we do not cover with the <a href={route('petsafe', lang)}>pet-safe plant checker</a>.</p>
+</HubLayout>

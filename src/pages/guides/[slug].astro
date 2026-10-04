@@ -1,0 +1,64 @@
+---
+/** Guide de problème : /guides/<slug>/, un fichier src/data/guides/<slug>.json. Mini-outil propre au
+ *  sujet juste après la réponse (RECETTE §9.3), chapeau citable replié, sections, FAQ, sources. */
+import PageLayout from '../../layouts/PageLayout.astro';
+import Clamp from '../../components/Clamp.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import WateringCalc from '../../components/calc/WateringCalc';
+import Diagnosis from '../../components/calc/Diagnosis';
+import LightFinder from '../../components/calc/LightFinder';
+import PotCalc from '../../components/calc/PotCalc';
+import { BrownTipsTool, OverUnderTool, RootRotTool, PestTool } from '../../components/calc/TroubleTools';
+import { GUIDES, guidePath } from '../../lib/guides';
+import { PLANTS, plantPath, plantOptions, diagPlants, lightPlants, potPlants, symptomOptions } from '../../lib/plants';
+import { route } from '../../i18n/routes';
+import { articleSchema, faqSchema, breadcrumbSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import type { Guide } from '../../lib/guide-schema';
+
+export function getStaticPaths() { return GUIDES.map((g) => ({ params: { slug: g.slug }, props: { g } })); }
+interface Props { g: Guide }
+const { g } = Astro.props;
+const lang = 'en';
+const path = guidePath(g.slug);
+const method = route('method', lang);
+const relP = g.relatedPlants.map((s) => PLANTS.find((p) => p.slug === s)).filter((p) => !!p);
+const relG = g.relatedGuides.map((s) => GUIDES.find((x) => x.slug === s)).filter((x) => !!x);
+const related = [
+  ...relG.map((x) => ({ href: guidePath(x!.slug), name: x!.nav, description: 'Problem guide' })),
+  ...relP.slice(0, 4).map((p) => ({ href: plantPath(p!.slug), name: `${p!.commonName} care`, description: 'Plant guide' })),
+  { href: route('diagnosis', lang), name: 'Plant problem diagnosis', description: 'Symptom to likely cause' },
+];
+const sources = g.sources.map((s) => ({ name: `${s.publisher}: ${s.title} (read ${displayDate(s.accessed, 'en-US')})`, url: s.url }));
+const jsonLd = [articleSchema({ title: g.seo.title, description: g.seo.description, path, lang }), faqSchema(g.faq, lang),
+  breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Problem guides', path: route('guides', lang) }, { name: g.nav, path }])];
+const k = g.tool.kind;
+---
+<PageLayout title={g.seo.title} description={g.seo.description} lang={lang} jsonLd={jsonLd} faqs={g.faq} related={related} sources={sources}
+  breadcrumbs={[{ label: 'Problem guides', href: route('guides', lang) }, { label: g.nav }]}>
+  <header class="mb-4"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">{g.seo.h1}</h1></header>
+  <p class="text-lg leading-relaxed text-navy-800">{g.answer}</p>
+  <div data-chrome class="mt-6">
+    <p class="mb-2 text-sm font-semibold text-navy-900">{g.tool.title}</p>
+    {k === 'diagnosis' && <Diagnosis client:load plants={diagPlants()} symptoms={symptomOptions()} defaultSymptom={g.tool.preset} />}
+    {k === 'brown-tips' && <BrownTipsTool client:load />}
+    {k === 'over-under' && <OverUnderTool client:load />}
+    {k === 'root-rot' && <RootRotTool client:load />}
+    {k === 'pests' && <PestTool client:load />}
+    {k === 'light' && <LightFinder client:load plants={lightPlants()} methodHref={method} defaultWindow="north" defaultDistance={6} />}
+    {k === 'pot' && <PotCalc client:load plants={potPlants()} />}
+    {k === 'watering' && <WateringCalc client:load plants={plantOptions()} defaultSlug={g.tool.preset ?? 'custom'} methodHref={method} toolHref={route('watering', lang)} />}
+  </div>
+  <div class="mt-8 text-navy-800"><Clamp id={`intro-${g.slug}`} text={g.intro} class="text-base leading-relaxed" /></div>
+  <article class="prose prose-slate mt-8 max-w-none">
+    {g.sections.map((s, i) => (
+      <>
+        <h2>{s.h2}</h2>
+        {s.paras.map((t) => <p>{t}</p>)}
+        {s.list && <ul>{s.list.map((t) => <li>{t}</li>)}</ul>}
+        {s.table && <div class="overflow-x-auto"><table><caption class="sr-only">{s.table.caption}</caption><thead><tr>{s.table.head.map((h) => <th scope="col">{h}</th>)}</tr></thead><tbody>{s.table.rows.map((r) => <tr>{r.map((c) => <td>{c}</td>)}</tr>)}</tbody></table></div>}
+        {i === 1 && <AdSlot slot={`${g.slug}-1`} />}
+      </>
+    ))}
+  </article>
+</PageLayout>

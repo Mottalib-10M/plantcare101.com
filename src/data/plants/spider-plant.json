@@ -1,0 +1,304 @@
+{
+  "slug": "spider-plant",
+  "commonName": "Spider plant",
+  "otherNames": [
+    "Ribbon plant",
+    "Spider ivy",
+    "Walking anthericum"
+  ],
+  "botanicalName": "Chlorophytum comosum",
+  "formerNames": [
+    "Anthericum comosum"
+  ],
+  "family": "Asparagaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "medium",
+    "maxLevel": "high",
+    "fc": [75, 300],
+    "lux": [807, 3229],
+    "windows": ["north", "east", "west"],
+    "directSun": "morning-only",
+    "src": [0, 1, 2, 5]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Let the upper inch of soil dry out briefly, then water thoroughly",
+    "winter": "Reduce watering in winter, as NC State advises, letting the surface dry a little further before each drink without leaving the roots parched.",
+    "factors": [
+      "Fluoride and chlorine in tap water burn the leaf tips; use rainwater or distilled water if your supply is fluoridated.",
+      "A small hanging basket in warm, bright air dries fast, so Clemson suggests checking the soil daily.",
+      "Avoid softened water, which the Illinois Extension warns against for houseplants.",
+      "The thick tuberous roots store water and carry the plant through a missed watering."
+    ],
+    "src": [0, 1, 3, 8]
+  },
+  "soil": {
+    "mix": "A general-purpose potting mix that drains well, in a pot with a drainage hole.",
+    "components": [
+      "general-purpose houseplant potting mix",
+      "perlite if the mix stays wet for long"
+    ],
+    "ph": [6, 8],
+    "src": [0, 1, 2]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Medium humidity is ideal; in dry winter air a humidifier or pebble tray keeps the leaf tips from browning.",
+    "src": [0, 1, 6]
+  },
+  "temperature": {
+    "idealF": [65, 75],
+    "idealC": [18, 24],
+    "minF": 45,
+    "minC": 7,
+    "maxF": 80,
+    "maxC": 27,
+    "src": [0, 1, 3]
+  },
+  "fertilizer": {
+    "season": "During active growth, March to September",
+    "everyWeeks": [4, 13],
+    "strength": "full",
+    "type": "Water-soluble or time-release houseplant fertilizer at the label rate; wait four to six months after repotting",
+    "winter": "none",
+    "src": [1, 0, 6]
+  },
+  "repotting": {
+    "everyYears": [1, 2],
+    "signs": [
+      "Fleshy white roots push out of the drainage holes or bulge the pot",
+      "The soil mass is packed with tuberous roots",
+      "The plant wilts within a day or two of watering"
+    ],
+    "season": "Any time of year, easiest in spring or early summer",
+    "rootType": "thick-fleshy",
+    "prefersSnug": true,
+    "src": [1, 2, 3, 7, 9]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "The ASPCA assesses pets only, and NC State lists no poison characteristics for spider plant; no toxic principle is reported.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Spider Plant (Chlorophytum comosum)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant"
+      }
+    ],
+    "src": [4, 0]
+  },
+  "problems": [
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Leaf tips turn brown and dry, starting on older leaves",
+      "causeKey": "water-quality",
+      "cause": "Fluoride and chlorine from treated tap water",
+      "remedy": "Switch to rainwater or distilled water, trim the brown ends at an angle with clean scissors, and flush the pot with plenty of clean water."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Brown tips with a white crust on the soil or pot rim",
+      "causeKey": "fertilizer-salts",
+      "cause": "Too much fertilizer or water high in soluble salts",
+      "remedy": "Leach the pot with a large volume of plain water, empty the saucer, and feed less often at no more than the label rate."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Dry, papery leaf ends in winter",
+      "causeKey": "low-humidity",
+      "cause": "Heated indoor air, often below 30 percent humidity",
+      "remedy": "Run a humidifier nearby or set the pot on a tray of wet pebbles, keeping the pot base above the water."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Leaves yellow and collapse while the soil is still wet",
+      "causeKey": "poor-drainage",
+      "cause": "Root rot in a mix that drains slowly or is watered too often",
+      "remedy": "Unpot, cut away brown, soft roots, keep firm white tubers, and replant in fresh, fast-draining mix in a pot with a hole."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale stippling on the leaves",
+      "causeKey": "pests",
+      "cause": "Spider mites",
+      "remedy": "Rinse the foliage in the shower, isolate the plant and treat with insecticidal soap until no new webbing appears."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky leaves, tiny white insects flying up when touched",
+      "causeKey": "pests",
+      "cause": "Whiteflies or aphids feeding on sap",
+      "remedy": "Wash the leaves, hang yellow sticky cards for whiteflies, and spray insecticidal soap labeled for houseplants on a repeat schedule."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Washed-out, scorched patches on leaves facing the window",
+      "causeKey": "too-much-sun",
+      "cause": "Midday sun through glass",
+      "remedy": "Move the plant back from a south or west window or to an east window where it gets only gentle morning light."
+    }
+  ],
+  "propagation": {
+    "methods": ["Plantlets (offshoots) from the runners", "Division of the root clump"],
+    "season": "Any time of year; runners form mostly as days shorten in fall"
+  },
+  "size": {
+    "heightIn": [12, 18],
+    "widthIn": [12, 30],
+    "src": [0, 1]
+  },
+  "varieties": [
+    {
+      "name": "Vittatum",
+      "note": "The most common variegated form: pale green leaves 4 to 8 inches long with a white central stripe."
+    },
+    {
+      "name": "Variegatum",
+      "note": "White-edged leaves 10 to 16 inches long and up to an inch wide."
+    },
+    {
+      "name": "Mandaianum",
+      "note": "Dwarf spider plant with dark green leaves only 4 to 6 inches long and a bright yellow stripe."
+    },
+    {
+      "name": "Solid green",
+      "note": "All-green plants exist but, according to UF/IFAS, are the rarest form in cultivation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Chlorophytum comosum (Spider Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Spider Plant (Chlorophytum comosum) (HGIC 1513)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/spider-plant/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Spider Plant",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/spider-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Spider Plant",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/spider-plant/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Spider Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "seo": {
+    "title": "Spider Plant Care: Brown Tips, Water & Babies Guide (2026)",
+    "description": "Spider plant care for 2026: let the top inch dry, use rainwater if tap water is fluoridated, keep it at 65 to 75°F. Watering calculator and brown tip fixes.",
+    "h1": "Spider plant care: water, light and brown tips"
+  },
+  "content": {
+    "answer": "Give a spider plant medium to bright indirect light, let the top inch of soil dry briefly between waterings, and use rainwater or distilled water if your tap water is fluoridated. Clemson Extension puts the ideal daytime range at 65 to 75°F.",
+    "intro": "A spider plant decides when to have babies by counting the hours of darkness. NC State Extension explains that the long, wiry stolons carrying its plantlets form only after the mother plant has had at least three weeks of short days, under 12 hours of light, with long, uninterrupted nights, and Clemson Extension notes that most offshoots appear as the days shorten in fall. That one detail explains a common puzzle: the mature plant under a lamp that burns every evening and never sends out a single runner. Chlorophytum comosum comes from tropical and southern Africa, grows from thick, fleshy tuberous roots that store water, and puts up with a wide range of light and the occasional missed watering. Its weak point is chemistry rather than neglect. Fluoride, chlorine and fertilizer salts carried in the water collect at the ends of the long, grassy leaves and burn their tips brown.",
+    "light": [
+      "The Illinois Extension rates spider plant a medium-light plant, roughly the brightness directly in front of a north window or a few feet back from an east or west one. It responds to more: Clemson says it grows best in bright, indirect light, and the Illinois Extension notes it prefers bright light yet adapts readily to medium. NC State adds that it will hang on in deep shade, though growth there is sparse and slow.",
+      "Hot sun is another matter. Clemson warns that midday light can scorch the leaves, and NC State calls the plant intolerant of direct sunlight, so an hour or two of soft morning sun through an east window is about the limit. Remember the photoperiod rule as well: a basket hung beside a lamp that stays on late into the evening may never form runners, because it never gets the long nights it needs."
+    ],
+    "water": [
+      "Spider plants sit between the drought-lovers and the ferns. UF/IFAS advises letting the upper inch of soil dry out briefly between waterings, and Clemson suggests checking the soil daily, since a plant in a small hanging basket in warm, bright air can go from moist to bone dry quickly. When the surface feels dry, water until it runs from the bottom, and empty the drip tray. NC State says the plant grows best in moist soil yet tolerates drought, and the fleshy roots will tide it over a missed watering or two.",
+      "Water quality matters more for this plant than for almost any other common houseplant. NC State advises against tap water because chlorine and fluoride cause leaf tip burn, and UF/IFAS describes spider plant as particularly sensitive to fluoridated water, recommending rainwater or distilled water where the supply is treated. Skip water from a softener too; the Illinois Extension warns against softened water for houseplants in general.",
+      "NC State recommends reducing watering in winter, when growth slows under short days and the mix dries more slowly. Letting the top inch dry a little further before each drink is enough of an adjustment. Leaving the roots parched for weeks browns the tips just as surely as hard water does."
+    ],
+    "soil": [
+      "Clemson and the Illinois Extension agree that a general-purpose potting mix is all a spider plant needs, provided it drains well. NC State lists a loamy soil that stays moist but drains freely, with a pH between 6.0 and 8.0, a range most bagged houseplant mixes fall within. Avoid mixes loaded with added fertilizer, which deliver salts straight to the tips, and use a container with a drainage hole; Clemson links root rot to mix that does not drain quickly."
+    ],
+    "humidity": [
+      "Average household humidity suits it, and NC State describes medium air humidity as ideal. In winter, when the Illinois Extension notes most heated homes fall below 30 percent, the long leaf ends are the first part to dry and brown. NC State suggests a humidifier or a tray of pebbles and water under the pot; keep the pot base above the waterline so the roots do not wick up standing water."
+    ],
+    "temperature": [
+      "Clemson gives ideal temperatures of 65 to 75°F by day and 50 to 55°F at night, and advises moving plants a few feet back from windows in winter to escape drafts. UF/IFAS considers anything below 55°F too cool and anything above 80°F too warm. NC State sets the hard floor lower, saying temperatures should stay above 45°F (about 7°C). The ordinary range of a heated home is right, and a basket hung near the ceiling in summer is the spot most likely to overheat."
+    ],
+    "fertilizer": [
+      "Spider plants need far less food than their growth rate suggests. Clemson recommends a water-soluble or time-release houseplant fertilizer during active growth, following the label, and the Illinois Extension's general guidance of once every 1 to 3 months from March to September is plenty. NC State gives a specific reason to hold back: over-fertilizing decreases plantlet formation. Surplus salts also burn the tips, so leach the pot with a large volume of plain water every 4 to 6 months, as the Illinois Extension suggests for houseplants. After repotting, Clemson advises waiting four to six months before feeding again."
+    ],
+    "repotting": [
+      "Check the roots before the leaves. Spider plants build thick, white, tuberous roots, and Clemson advises dividing and repotting before they expand enough to crack the container. UF/IFAS suggests repotting once a year while the plant is young and every other year once it matures. Roots pushing out of the drainage holes, or a pot that dries out within a day, are the practical cues.",
+      "There is a tradeoff worth knowing. The Illinois Extension notes that spider plants produce plantlets when potbound, so a plant kept a little crowded makes more runners. Clemson says repotting can happen at any time of year, though spring and early summer, the window the Illinois Extension recommends for houseplants, lets roots recover fastest. Move up only 1 or 2 inches in pot diameter, as Clemson advises."
+    ],
+    "propagation": [
+      "Few houseplants make propagation easier. Each plantlet dangling from a runner is a ready-made plant, and Clemson notes they root readily once they touch soil. The surest method is to pin a plantlet, still attached, onto a small pot of moist mix set beside the parent, then cut the runner once it has rooted. Plantlets already showing root nubs can be detached and potted straight into moist mix, which Clemson says works at any time of year.",
+      "Division suits an overgrown clump, and NC State lists it as the recommended strategy. Slide the plant out, pull or cut the fleshy root mass into sections that each carry several leaf rosettes, and replant them at their old depth."
+    ],
+    "problems": [
+      "Brown tips are the signature spider plant complaint. Clemson pins them on too much fertilizer or water high in soluble salts, with low humidity and very dry soil as secondary causes. Trim the brown ends at an angle with clean scissors to keep the natural taper, then correct the cause, or the browning simply returns. Root rot, from mix that drains slowly or too much water, is the other common failure. Clemson lists whiteflies, spider mites, scale and aphids as the pests most likely to appear, and NC State reports no significant disease problems."
+    ],
+    "petSafety": [
+      "The ASPCA lists the spider plant, Chlorophytum comosum, as non-toxic to both cats and dogs, and it appears on the ASPCA lists under several other names too, including ribbon plant, spider ivy and walking anthericum. That makes it one of the most popular choices for homes with pets. Cats in particular love to bat at and chew the dangling leaves and runners. Non-toxic does not mean the leaves are food, and a chewed plant quickly looks ragged, so hanging the basket out of reach protects both cat and plant. If a pet vomits repeatedly or seems unwell after chewing any plant, call your veterinarian or the ASPCA Animal Poison Control Center."
+    ],
+    "faq": [
+      {
+        "q": "Why does my spider plant have brown tips?",
+        "a": "Usually the water. Clemson Extension traces brown tips to excess fertilizer or water high in soluble salts, and NC State and UF/IFAS single out fluoride and chlorine in tap water. Switch to rainwater or distilled water, flush the pot with plain water, and feed less. Low humidity and letting the soil go very dry cause the same browning, so check those too."
+      },
+      {
+        "q": "Why is my spider plant not producing babies?",
+        "a": "Runners form only after short days. NC State says the plant needs less than 12 hours of light a day, with long, uninterrupted nights, for at least three weeks, so lamplight in the evening can prevent them. Young plants may simply be too small. The Illinois Extension notes plantlets come when the plant is potbound, and NC State says over-fertilizing reduces them."
+      },
+      {
+        "q": "Should I cut the babies off my spider plant?",
+        "a": "It is your choice. Clemson notes the plantlets can be detached to start new plants or left on to create a very full hanging basket, and leaving them does the mother plant no harm. If you want new plants, wait until the plantlets show small roots, or pin them onto moist mix until they root, then cut the runner."
+      },
+      {
+        "q": "Can I water my spider plant with tap water?",
+        "a": "You can, but it is a common source of brown tips. NC State advises against tap water because chlorine and fluoride cause tip burn, and UF/IFAS recommends rainwater or distilled water where the supply is fluoridated. Avoid water from a softener as well, which the Illinois Extension warns against; collected rainwater is the simplest fix."
+      },
+      {
+        "q": "Is a spider plant safe for cats?",
+        "a": "Yes. The ASPCA lists Chlorophytum comosum as non-toxic to cats and dogs, which is why it is a favorite for pet owners. Cats are drawn to the arching leaves and dangling plantlets, though, and will shred a plant within reach, so a hanging basket keeps it looking good. Call your veterinarian if a pet seems unwell after eating any plant."
+      }
+    ]
+  }
+}

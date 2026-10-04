@@ -1,0 +1,73 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { route } from '../i18n/routes';
+import { breadcrumbSchema, webPageSchema } from '../lib/seo';
+import { SRC } from '../data/general-sources';
+import { BASE_DAYS, MULT, FINGER_DEPTH_IN, WEIGHT_LOSS_SHARE, potFactor } from '../lib/engine/watering';
+import { ANCHORS, OBSTRUCTION } from '../lib/engine/light';
+import { LIGHT_LEVEL_FC, LUX_PER_FC } from '../lib/plant-schema';
+import { PLANTS } from '../lib/plants';
+import { RULE_TEXT, fmtUS } from '../lib/plant-text';
+import aspca from '../data/aspca-plants.json';
+const lang = 'en';
+const title = 'Plant Care Methodology: How We Calculate Watering (2026)';
+const description = 'How PlantCare101 calculates in 2026: watering ranges from drying rules and multipliers, the Illinois light table, pot sizes, fertilizer math and ASPCA data.';
+const path = route('method', lang);
+const jsonLd = [webPageSchema({ name: 'How we calculate', description, path, lang }), breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'How we calculate', path }])];
+const pct = (x: number) => `${x > 1 ? '+' : ''}${fmtUS((x - 1) * 100)}%`;
+const factorRows: Array<[string, string, string]> = [
+  ['Pot size (6 in reference)', `×${fmtUS(potFactor(4), 2)} at 4 in, ×${fmtUS(potFactor(10), 2)} at 10 in, ×${fmtUS(potFactor(14), 2)} at 14 in`, 'Square root of the diameter ratio, bounded: a bigger pot holds more water but loses it through a larger surface too.'],
+  ['Unglazed terracotta', `×${MULT.material.terracotta}`, 'Clemson HGIC and Illinois Extension: porous clay loses water through its walls.'],
+  ['Plastic or glazed ceramic', '×1', 'Reference: non-porous walls.'],
+  ['No drainage hole', `×${MULT.noDrainage}`, 'Water cannot leave the pot; less often and much less at a time.'],
+  ['Low light', `×${MULT.light.low}`, 'Clemson HGIC: a plant in a cool, low-light spot needs water less often.'],
+  ['Medium light', `×${MULT.light.medium}`, ''],
+  ['Bright indirect light', '×1', 'Reference.'],
+  ['Some direct sun', `×${MULT.light['direct-sun']}`, 'Clemson HGIC: warm, dry, sunny spots need water more often.'],
+  ['Spring / fall / winter', `×${MULT.season.spring} / ×${MULT.season.fall} / ×${MULT.season.winter}`, 'Clemson HGIC and Illinois Extension: plants rest in short winter days and need less water.'],
+  ['Dry / humid air', `×${MULT.humidity.dry} / ×${MULT.humidity.humid}`, 'Illinois Extension lists humidity among the factors; dry winter air speeds up drying.'],
+  ['Chunky aroid / gritty cactus / bark mix', `×${MULT.substrate.chunky} / ×${MULT.substrate.gritty} / ×${MULT.substrate.bark}`, 'Clemson HGIC: loose mixes of bark, sand and perlite hold less water than peat-heavy ones.'],
+  ['Peat or coir-heavy mix', `×${MULT.substrate['moisture-retentive']}`, 'Clemson HGIC: fine, peat-rich mixes hold more moisture.'],
+];
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} breadcrumbs={[{ label: 'How we calculate' }]}
+  sources={[SRC.clWatering, SRC.ilWatering, SRC.ilLight, SRC.clFert, SRC.clRepot, SRC.ilCare, SRC.ufCare, SRC.aspcaCats, SRC.aspcaDogs]}>
+  <header class="mb-6"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">How we calculate</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>This page sets out every rule behind the tools on PlantCare101, separating what comes from a published source from what is our own estimate. If a result looks wrong for your plant, this is where you can see why the tool said it, and where to <a href={route('contact', lang)}>tell us</a> it should change.</p>
+
+    <h2>The data: one file per plant</h2>
+    <p>Each of the {PLANTS.length} plants is a structured file with its light range, drying rule, soil, humidity, temperature, feeding, repotting, toxicity, problems, propagation, size, varieties and sources. Every care block lists the sources it comes from, each with the date it was read, and a schema rejects any file with a missing field, a title outside 50 to 60 characters or a source reference that does not exist. A figure that no accepted source gives is left empty rather than estimated. The accepted sources are the NC State Extension Plant Toolbox, Clemson HGIC, the University of Illinois Extension, UF/IFAS, the University of Minnesota Extension, the Missouri Botanical Garden, the Royal Horticultural Society and, for toxicity, the ASPCA.</p>
+
+    <h2>Watering calculator</h2>
+    <p>Neither Clemson HGIC nor the University of Illinois Extension gives a watering calendar; both say to water by feel because the interval depends on the plant, the pot, the mix, the light, the temperature and the humidity. We take that literally. The calculator starts from the drying rule the plant's sources give, assigns it a reference range for a standard situation, and multiplies that range by one factor for each condition those sources name. <strong>The reference ranges and the size of each multiplier are our estimates</strong>, chosen to be plausible and slightly cautious on the wet side; they are not measurements, and the result is always shown as a range to start checking, never as a date.</p>
+    <div class="overflow-x-auto"><table>
+      <caption>Reference ranges: 6-inch plastic pot with a hole, standard mix, bright indirect light, summer, 30 to 50% humidity</caption>
+      <thead><tr><th scope="col">Drying rule</th><th scope="col">Range</th><th scope="col">Finger test depth</th><th scope="col">Weight to lose</th></tr></thead>
+      <tbody>{Object.entries(BASE_DAYS).map(([r, d]) => <tr><td>{RULE_TEXT[r as keyof typeof RULE_TEXT]}</td><td>{d[0]} to {d[1]} days</td><td>{FINGER_DEPTH_IN[r as keyof typeof FINGER_DEPTH_IN] === null ? 'whole pot' : `${FINGER_DEPTH_IN[r as keyof typeof FINGER_DEPTH_IN]} in`}</td><td>{fmtUS(WEIGHT_LOSS_SHARE[r as keyof typeof WEIGHT_LOSS_SHARE] * 100)}% of the water held</td></tr>)}</tbody>
+    </table></div>
+    <div class="overflow-x-auto"><table>
+      <caption>Multipliers applied to the reference range</caption>
+      <thead><tr><th scope="col">Condition</th><th scope="col">Multiplier</th><th scope="col">Basis</th></tr></thead>
+      <tbody>{factorRows.map(([a, b, c]) => <tr><td>{a}</td><td>{b}</td><td>{c}</td></tr>)}</tbody>
+    </table></div>
+    <p>The multipliers are combined by product, the result rounded to whole days, and the upper bound kept at least one day above the lower. Water volume assumes a standard tapered pot about as tall as it is wide (volume ≈ 0.65 × π/4 × diameter³): with a drainage hole, pour about 20 to 30% of the pot volume, which is roughly what it takes for water to run out of the hole as Clemson HGIC recommends; without one, 10 to 15%. The weight test assumes a drained potting mix holds about 40% of its volume as water, 25% for gritty or bark mixes and 50% for peat-heavy ones. Plain tap water weighs about one gram per milliliter.</p>
+    <p>What the model ignores: root mass (a root-bound plant dries much faster), pot shape, heating vents and drafts, grow lights, and the weather of the week. That is why every result ends with the finger test and the weight test, which Clemson HGIC lists alongside tapping clay pots and judging soil color.</p>
+
+    <h2>Light estimate</h2>
+    <p>The University of Illinois Extension defines four light levels in foot-candles, which we use everywhere on the site: low {LIGHT_LEVEL_FC.low}, medium {LIGHT_LEVEL_FC.medium}, high {LIGHT_LEVEL_FC.high} and direct {fmtUS(LIGHT_LEVEL_FC.direct)}. Lux values are foot-candles × {LUX_PER_FC}. The same source places each level at a distance from each window direction, which gives the anchor points of the light finder:</p>
+    <ul>{(['south', 'east', 'north'] as const).map((w) => <li><strong>{w === 'east' ? 'East or west' : w[0].toUpperCase() + w.slice(1)}:</strong> {ANCHORS[w].map(([d, fc]) => `${d} ft ${fmtUS(fc)} fc`).join(', ')}</li>)}</ul>
+    <p>Between anchors the finder interpolates on a logarithmic scale, because light falls off steeply near the glass and slowly deeper in a room. The last point of each window and anything beyond it are our extrapolation and are flagged in the result. A sheer curtain or outdoor shade multiplies the estimate by {OBSTRUCTION.sheer}, both by {OBSTRUCTION.both}, an order of magnitude for factors Clemson HGIC names without quantifying. A plant “thrives” when the estimate reaches at least three quarters of its preferred level, “survives” when it is inside its range but lower, and is “too dark” below 80% of its minimum.</p>
+
+    <h2>Pot size, fertilizer, diagnosis</h2>
+    <p><strong>Pot size</strong> applies the Clemson HGIC rule of a pot 1 or 2 inches wider, narrowed to 1 inch for plants their guide describes as preferring a snug pot and for succulents and epiphytes, and to 2 inches from a 10-inch pot up. A plant that is not root-bound keeps its pot with fresh mix, as UF/IFAS suggests. The extra mix is the volume difference between the two standard pots.</p>
+    <p><strong>Fertilizer</strong> scales the label dose linearly to your volume of water and the strength you choose (full, half, quarter, or one-tenth for every watering, a route Clemson HGIC describes). Unit conversions use 1 teaspoon = 4.929 mL, 1 tablespoon = 14.787 mL, 1 US cup = 236.6 mL, 1 quart = 946.4 mL and 1 gallon = 3,785.4 mL. Nitrogen in parts per million is computed only when the dose is in grams: grams per liter × nitrogen percentage × 10. The N-P-K reading follows Clemson's definition of the three numbers as percentages by weight.</p>
+    <p><strong>Diagnosis</strong> counts, for the chosen symptom, how many plant guides attribute it to each cause, gives the chosen plant's own entries three times the weight, and doubles or divides by about three the causes that match or contradict the state of the potting mix. These weights are our choice; the shares shown are shares of matches, not probabilities.</p>
+
+    <h2>Pet safety data</h2>
+    <p>The pet-safe checker uses the ASPCA Animal Poison Control Center lists for cats and dogs, {(aspca as { count: number }).count.toLocaleString('en-US')} entries copied by a script that can be rerun at any time and that refuses to save a list that looks truncated. Each entry keeps the ASPCA's name, other names, botanical name, family and status for each species. Nothing is inferred: a plant absent from the lists is reported as not found. The plant guides quote the toxic principle and clinical signs from the ASPCA entry they cite.</p>
+
+    <h2>Checks before every update</h2>
+    <p>The engines are covered by automated tests that pin the reference cases above, the Illinois anchor values, the Clemson pot rule and the dilution arithmetic. The site build fails if a plant or guide file is incomplete, if a title or description falls outside its length, or if two pages share one. Sources are re-opened to catch dead links, and the whole site is reviewed at least once every twelve months, as set out in the <a href={route('editorial', lang)}>editorial policy</a>.</p>
+  </div>
+</PageLayout>

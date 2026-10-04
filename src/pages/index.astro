@@ -1,0 +1,108 @@
+---
+/** Accueil = page pilier (site en anglais seul, pas de racine de redirection). Calculateur
+ *  au-dessus de la ligne de flottaison, chapeau replié, articles longs en accordéon (RECETTE §26). */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from '../components/Clamp.astro';
+import AdSlot from '../components/AdSlot.astro';
+import WateringCalc from '../components/calc/WateringCalc';
+import { PLANTS, plantPath, plantOptions } from '../lib/plants';
+import { GUIDES, guidePath } from '../lib/guides';
+import { route } from '../i18n/routes';
+import { label, TOOL_IDS } from '../i18n/nav';
+import { websiteSchema, organizationSchema, webApplicationSchema, faqSchema } from '../lib/seo';
+import { SRC } from '../data/general-sources';
+import { BASE_DAYS, MULT } from '../lib/engine/watering';
+import { RULE_TEXT, isPetSafe, LEVEL_LABEL } from '../lib/plant-text';
+import aspca from '../data/aspca-plants.json';
+const lang = 'en';
+const n = PLANTS.length;
+const aspcaCount = (aspca as { count: number }).count.toLocaleString('en-US');
+const sourcePages = new Set(PLANTS.flatMap((p) => p.sources.map((s) => s.url))).size;
+const problemRows = PLANTS.reduce((a, p) => a + p.problems.length, 0);
+const safe = PLANTS.filter(isPetSafe);
+const low = PLANTS.filter((p) => p.light.minLevel === 'low');
+const dry = PLANTS.filter((p) => p.water.rule === 'fully-dry');
+const title = 'Houseplant Care: Watering Calculator and Plant Guides (2026)';
+const description = 'Houseplant care guides for indoor plants in 2026: a watering calculator by pot, light and season, sourced care, ASPCA pet safety and a plant problem diagnosis.';
+const faqs = [
+  { q: 'How often should I water my houseplants?', a: 'When the potting mix reaches the dryness your plant prefers, not on a fixed day. Clemson HGIC says the frequency depends on the species, the pot, the mix, the location and the weather, and the University of Illinois Extension recommends testing two inches down with a finger. The calculator above turns your plant and pot into a range of days to start checking.' },
+  { q: 'What is the easiest houseplant to keep alive?', a: `One that forgives both dim light and missed waterings. Among our ${n} guides, ${low.filter((p) => dry.includes(p)).map((p) => p.commonName.toLowerCase()).join(' and ')} accept low light and want their mix to dry out completely. Their weak point is the opposite of what beginners fear: they die from too much water far more often than from too little.` },
+  { q: 'Which houseplants are safe if I have a cat or a dog?', a: `The ASPCA lists ${safe.map((p) => p.commonName.toLowerCase()).join(', ')} among our plants as non-toxic to both cats and dogs. For any other plant, the pet-safe checker searches ${aspcaCount} entries of the ASPCA cat and dog lists by common or botanical name, and links to the ASPCA page.` },
+  { q: 'Why are my plant leaves turning yellow?', a: 'Most often from overwatering, according to Clemson HGIC, which also lists too little light, too little fertilizer, pests and mites. Old lower leaves yellowing one at a time can be normal aging. Check the mix two inches down first: soggy points to water, dry and crisp to thirst. The yellow leaves guide and the diagnosis tool rank the causes for your plant.' },
+  { q: 'Do houseplants need fertilizer?', a: 'A little, while they grow. The University of Illinois Extension says most houseplants need feeding no more than once every one to three months between March and September, at the label rate or weaker, and very little or none in winter. Overfeeding shows as a white crust on the soil and brown leaf tips.' },
+  { q: 'How do I know how much light my plant gets?', a: 'Use the light finder or a light meter app. The University of Illinois Extension rates the spot in front of a south window at about 1,500 foot-candles, in front of an east or west window at about 300, and a few feet back from a north window at about 75, which it calls low light. Each plant guide gives its range in the same units.' },
+  { q: 'Who writes the plant care guides on PlantCare101?', a: 'Radif Partners, an independent publisher of free calculators and guides. We are not a nursery and sell nothing on this site. Every care figure is read from a university extension service, a botanical garden or the ASPCA, cited on the page with the date it was checked, and the methods behind the tools are published on the methodology page.' },
+];
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webApplicationSchema({ name: 'Houseplant watering calculator', description, path: '/', lang }), faqSchema(faqs, lang)];
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} faqs={faqs}
+  sources={[SRC.clWatering, SRC.ilWatering, SRC.ilLight, SRC.clRepot, SRC.ilCare, SRC.aspcaCats, SRC.aspcaDogs]}>
+  <header class="mb-4">
+    <h1 class="text-3xl font-bold text-navy-900 md:text-4xl">Houseplant care, plant by plant</h1>
+  </header>
+  <p class="text-lg leading-relaxed text-navy-800">Pick your plant and your pot: the calculator turns its watering rule into a range of days for your window and the season. Then open its guide for light, soil, humidity, problems and pet safety, every figure sourced from extension services and the ASPCA.</p>
+  <div data-chrome class="mt-6">
+    <WateringCalc client:load plants={plantOptions()} defaultSlug="snake-plant" methodHref={route('method', lang)} share={false} idPrefix="wh" />
+  </div>
+
+  <div class="mt-8 text-navy-800"><Clamp id="intro-home" class="text-base leading-relaxed" text={`PlantCare101 covers ${n} of the houseplants Americans search for most, one guide per plant, all in the same format, and six tools that turn care advice into numbers for your home. The guides rest on ${sourcePages} source pages from university extension services, botanical gardens and the ASPCA, each cited with the date it was read, and a care figure that no source supports is simply left out. The tools apply published rules rather than opinions: the drying rules recorded for each plant, the window light table of the University of Illinois Extension, the 1-or-2-inch repotting rule of Clemson HGIC, and the ASPCA lists of plants toxic to cats and dogs. Watering gets the most attention because it causes the most deaths: Clemson calls overwatering the main killer of potted plants. Everything runs in your browser and nothing you type leaves it.`} /></div>
+
+  <section data-chrome class="mt-10">
+    <h2 class="font-serif text-2xl font-semibold text-navy-900">Plant care guides</h2>
+    <ul data-sommaire class="mt-4 grid grid-cols-2 gap-x-4 gap-y-2 sm:grid-cols-3 lg:grid-cols-4">
+      {PLANTS.map((p) => <li><a href={plantPath(p.slug)} class="text-accent-700 hover:underline">{p.commonName} care</a></li>)}
+    </ul>
+    <div class="mt-8 grid gap-8 md:grid-cols-2">
+      <div><h2 class="font-serif text-2xl font-semibold text-navy-900">Tools</h2><ul class="mt-3 space-y-1.5">{TOOL_IDS.map((id) => <li><a href={route(id, lang)} class="text-accent-700 hover:underline">{label(id)}</a></li>)}</ul></div>
+      <div><h2 class="font-serif text-2xl font-semibold text-navy-900">Problems</h2><ul class="mt-3 space-y-1.5">{GUIDES.map((g) => <li><a href={guidePath(g.slug)} class="text-accent-700 hover:underline">{g.nav}</a></li>)}</ul></div>
+    </div>
+  </section>
+
+  <AdSlot slot="home-1" />
+
+  <article class="prose prose-slate mt-10 max-w-none">
+    <h2>Why a watering range beats a watering schedule</h2>
+    <p>Ask an extension horticulturist how often to water and you will get a question back. Clemson HGIC answers that there is no pat answer: frequency depends on the plant species, its growth stage, its location, the type and size of its pot, the mix and the weather. The University of Illinois Extension is just as blunt: people want a schedule, and it usually does not work. So most care sites give you the drying rule, water when the top inch is dry, and stop there. That is correct, and it leaves you checking pots every day.</p>
+    <p>Our calculator goes one step further without pretending to know your plant better than you do. It starts from the rule each guide records, gives that rule a reference range of days for a standard situation, then scales it by the factors Clemson and Illinois name. Unglazed terracotta loses water through its walls, so it multiplies the interval by {MULT.material.terracotta}; low light by {MULT.light.low}; winter rest by {MULT.season.winter}; a gritty or bark mix shortens it; a pot without drainage lengthens it and cuts the volume to pour. The result is a window of days to start checking, not a date to obey, and it always comes with the finger test and the weight test that settle the question.</p>
+
+    <h2>What every plant guide contains</h2>
+    <p>Each guide opens with a direct answer of about forty words, then a care card with the same eight facts in the same order: light, water, humidity, temperature, soil, feeding, pets and size. Below that come the watering calculator set to the plant, an introduction you can expand, and sections on light, water, soil and pH, humidity, temperature, fertilizer, repotting with a pot size tool, propagation, common problems in a symptom, cause and remedy table, and pet safety with the ASPCA entry. Questions people ask, related plants and the dated list of sources close the page.</p>
+    <p>The light section converts each plant's range into foot-candles and lux using the Illinois Extension categories: about 75 for low, 150 for medium, 300 for high and 1,500 for direct sun. Across our guides the preferred light runs from {LEVEL_LABEL.medium.toLowerCase()} to {LEVEL_LABEL.direct.toLowerCase()}, and {low.length} plants accept low light, from the <a href={plantPath('snake-plant')}>snake plant</a> to the <a href={plantPath('pothos')}>pothos</a>.</p>
+
+    <details class="not-prose mt-8 rounded-lg border border-navy-200 bg-white px-5 py-4">
+      <summary class="cursor-pointer font-serif text-xl font-semibold text-navy-900">The six drying rules behind the calculator</summary>
+      <div class="prose prose-slate mt-3 max-w-none">
+        <p>Every plant on this site carries one of six rules, chosen from what its sources say. Here is the reference range each rule starts from, for a 6-inch plastic pot with a drainage hole, standard mix, bright indirect light, summer and average humidity.</p>
+        <ul>{Object.entries(BASE_DAYS).map(([r, d]) => <li><strong>{RULE_TEXT[r as keyof typeof RULE_TEXT]}:</strong> {d[0]} to {d[1]} days; {PLANTS.filter((p) => p.water.rule === r).map((p) => p.commonName).join(', ') || 'no plant yet'}</li>)}</ul>
+        <p>These reference ranges are our model, labeled as such on the <a href={route('method', lang)}>methodology page</a>. They are deliberately conservative on the wet side, since a plant left a day too long recovers and a plant drowned for weeks often does not.</p>
+      </div>
+    </details>
+
+    <details class="not-prose mt-4 rounded-lg border border-navy-200 bg-white px-5 py-4">
+      <summary class="cursor-pointer font-serif text-xl font-semibold text-navy-900">Pet safety, checked against the ASPCA</summary>
+      <div class="prose prose-slate mt-3 max-w-none">
+        <p>Toxicity on this site always comes from the ASPCA Animal Poison Control Center, which publishes separate lists for cats and dogs. Our pet-safe checker copies both lists, {aspcaCount} entries, with a script we can rerun at each review, and never adds a verdict of its own: a plant the ASPCA does not list is shown as unknown, not safe. Each plant guide quotes the ASPCA entry, the toxic principle and the clinical signs. Of our {n} plants, {safe.length} are non-toxic to both cats and dogs: {safe.map((p, i) => <>{i > 0 && ', '}<a href={plantPath(p.slug)}>{p.commonName.toLowerCase()}</a></>)}.</p>
+        <p>Common names cause most mistakes. The ASPCA's rubber plant is a Peperomia and its fiddle-leaf is a philodendron, neither of them the Ficus sold under those names. The guides point out each of these traps, and the checker shows the botanical name next to every match so you can compare it with your plant label.</p>
+      </div>
+    </details>
+
+    <details class="not-prose mt-4 rounded-lg border border-navy-200 bg-white px-5 py-4">
+      <summary class="cursor-pointer font-serif text-xl font-semibold text-navy-900">Diagnosing problems from {problemRows} sourced entries</summary>
+      <div class="prose prose-slate mt-3 max-w-none">
+        <p>Every guide ends its problems section with a table that pairs a symptom with its cause and a remedy, drawn from the guide's sources. Each row also carries a symptom key and a cause key from fixed lists, which lets the <a href={route('diagnosis', lang)}>diagnosis tool</a> pool all {problemRows} rows: pick yellow leaves and it counts how many guides blame overwatering, low light or pests, weights your own plant three times, and adjusts for whether the mix is wet or dry. It never invents a cause that no guide records.</p>
+        <p>Clemson HGIC is the reason the tool starts with care rather than disease: most houseplant problems have environmental or cultural causes, and true diseases are uncommon indoors. Water, light, salts and pests explain nearly everything in the tables.</p>
+      </div>
+    </details>
+
+    <details class="not-prose mt-4 rounded-lg border border-navy-200 bg-white px-5 py-4">
+      <summary class="cursor-pointer font-serif text-xl font-semibold text-navy-900">How the sources are chosen and dated</summary>
+      <div class="prose prose-slate mt-3 max-w-none">
+        <p>We accept a short list of sources: the NC State Extension Plant Toolbox, Clemson HGIC, the University of Illinois Extension, UF/IFAS, the University of Minnesota Extension, the Missouri Botanical Garden, the Royal Horticultural Society, and the ASPCA for toxicity. Retailer blogs, forums and encyclopedias are left out, even when they rank higher in search, because a care figure is only as good as the place it comes from.</p>
+        <p>Every figure in a guide points to the sources it came from, and each source carries the date we read it. When sources disagree, as they do on the minimum temperature for orchids or the pH for monstera, the guide reports the disagreement instead of averaging it away. The <a href={route('editorial', lang)}>editorial policy</a> explains how errors are reported and corrected.</p>
+      </div>
+    </details>
+
+    <h2>Start here if your plant is struggling</h2>
+    <p>Most rescues follow the same order. Check the mix two inches down: wet for days points to the <a href={guidePath('overwatering-vs-underwatering')}>overwatering guide</a> and, if the roots are brown and soft, to the <a href={guidePath('root-rot')}>root rot guide</a>. Then check the light, since stretched stems and small pale leaves mean the plant is starving for it. Only then turn the leaves over and look for webbing, white cotton or tiny flies around the pot, covered in the <a href={guidePath('houseplant-pests')}>pests guide</a>. Leaves that yellow from the bottom up, one at a time, may simply be old.</p>
+  </article>
+</PageLayout>

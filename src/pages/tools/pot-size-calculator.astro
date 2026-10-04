@@ -1,0 +1,40 @@
+---
+import ToolLayout from '../../components/ToolLayout.astro';
+import PotCalc from '../../components/calc/PotCalc';
+import { PLANTS, potPlants, plantPath } from '../../lib/plants';
+import { GUIDES, guidePath } from '../../lib/guides';
+import { route } from '../../i18n/routes';
+import { SRC } from '../../data/general-sources';
+import { rangeTxt } from '../../lib/plant-text';
+const lang = 'en';
+const snug = PLANTS.filter((p) => p.repotting.prefersSnug || ['succulent', 'epiphytic'].includes(p.repotting.rootType));
+const faqs = [
+  { q: 'Why not move my plant into a much bigger pot so I repot less often?', a: 'Because the extra mix stays wet. Roots fill a pot from the center outward, and the soil they have not reached yet holds water with nothing to drink it, which is how root rot starts. Clemson HGIC recommends a pot only 1 or 2 inches wider than the current one. Two small steps over a few years beat one big jump.' },
+  { q: 'What is the best time of year to repot a houseplant?', a: 'Spring or early summer, while the plant is actively growing, says the University of Illinois Extension. Clemson HGIC adds not to repot ailing or dormant plants, or those beginning to flower. A plant repotted in growth roots into the new mix within weeks; one repotted in winter sits in cold, wet soil it cannot use.' },
+  { q: 'Do I need to put rocks in the bottom of the pot for drainage?', a: 'No. Clemson HGIC says not to add a layer of clay pieces or rocks, because it actually slows water movement through the pot. Cover the drainage hole with a small piece of broken pot or mesh to keep soil in, and fill the rest with potting mix. The hole itself, not gravel, is what drains the pot.' },
+  { q: 'How much potting mix should I buy for repotting?', a: 'The calculator estimates the extra mix as the difference in volume between the old and new pots, for standard pots about as tall as they are wide. Buy a little more than shown: you also replace the loose old mix on top of the root ball, and the Illinois Extension suggests scraping away the top inch where salts collect.' },
+];
+const related = [
+  ...GUIDES.filter((g) => ['how-to-repot-a-plant', 'root-rot'].includes(g.slug)).map((g) => ({ href: guidePath(g.slug), name: g.nav, description: 'Problem guide' })),
+  { href: route('watering', lang), name: 'Watering calculator', description: 'Water less after potting up' },
+  { href: route('fertilizer', lang), name: 'Fertilizer dilution calculator', description: 'Wait a few weeks before feeding' },
+];
+---
+<ToolLayout id="pot" title="Pot Size Calculator: How Big a Pot When Repotting (2026)"
+  h1="Pot size calculator for repotting"
+  description="Pot size calculator for 2026: enter your current pot and plant to get the next pot diameter, 1 or 2 inches wider, and the extra potting mix in quarts."
+  answer="Enter the width of the current pot and your plant or its root type: the calculator gives the next pot diameter, usually 1 or 2 inches wider, the extra potting mix in quarts, and tells you when a fresh mix in the same pot is the better move."
+  intro="Choosing the next pot is a small decision with a large effect on watering. Clemson HGIC sets the rule at a pot 1 or 2 inches larger in diameter than the current one, and the reason is volume: going from a 6-inch to an 8-inch pot more than doubles the amount of mix in a standard pot, and every cup the roots have not reached stays wet after watering. The University of Illinois Extension lists the signs that a plant has outgrown its pot, roots growing through the drainage holes and a plant that wilts between normal waterings, and notes that some plants do well pot-bound while others do not. This calculator applies the Clemson rule, narrows it to a single inch for plants our guides describe as liking a snug pot, and estimates the mix you need."
+  faqs={faqs} related={related} sources={[SRC.clRepot, SRC.ilRepot, SRC.ufCare]}>
+  <PotCalc slot="tool" client:load plants={potPlants()} />
+
+  <h2>When the answer is the same pot</h2>
+  <p>A plant that is not root-bound does not need a bigger home. UF/IFAS points out that such plants still benefit from repotting into the original container with fresh potting media, which restores structure and drainage that old, broken-down mix has lost. Choose “No, just tired soil” in the calculator to get that answer. The same applies to a plant you want to keep at its current size: trim the outer roots lightly, refresh the mix, and return it to its pot.</p>
+
+  <h2>Plants that prefer a snug pot</h2>
+  <p>Some plants on this site are recorded as happier slightly crowded, or have root systems built to dry out fast, so the calculator only adds one inch for them:</p>
+  <ul>{snug.map((p) => <li><a href={plantPath(p.slug)}>{p.commonName}</a>{p.repotting.everyYears ? `: repot about every ${rangeTxt(p.repotting.everyYears)} years` : ''}</li>)}</ul>
+
+  <h2>Choosing the pot itself</h2>
+  <p>Whatever the size, the pot needs a drainage hole; UF/IFAS suggests drilling one or using a plastic liner pot with holes inside a decorative container. Material changes how fast the mix dries: unglazed clay breathes and loses water through its walls, so Clemson notes plants in clay need watering more often than those in plastic or glazed pots. A heavy clay pot also steadies tall, top-heavy plants. Leave about an inch between the soil and the rim, as Clemson advises, so water can pool briefly and soak in rather than running over the edge. After repotting, water once thoroughly, then let the mix dry to the plant's usual depth before the next drink.</p>
+</ToolLayout>

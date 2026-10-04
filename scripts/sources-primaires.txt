@@ -1,0 +1,26 @@
+# Sujet sans administration : l'autorité sur les soins des plantes d'intérieur aux États-Unis, ce sont
+# les services de vulgarisation des universités publiques (land-grant). Plant Toolbox de NC State Extension.
+plants.ces.ncsu.edu
+
+# Clemson Cooperative Extension, Home & Garden Information Center (fiches revues par des spécialistes).
+hgic.clemson.edu
+
+# University of Illinois Extension, rubrique Houseplants (lumière en foot-candles, arrosage, rempotage).
+extension.illinois.edu
+
+# University of Florida IFAS Extension : publications EDIS et Gardening Solutions.
+edis.ifas.ufl.edu
+# Gardening Solutions, site grand public de la même UF/IFAS Extension.
+gardeningsolutions.ifas.ufl.edu
+
+# University of Minnesota Extension.
+extension.umn.edu
+
+# Missouri Botanical Garden, Plant Finder : jardin botanique de référence, fiches de culture.
+missouribotanicalgarden.org
+
+# Royal Horticultural Society : société savante horticole britannique.
+rhs.org.uk
+
+# ASPCA Animal Poison Control Center : liste de référence de la toxicité des plantes pour chats et chiens.
+aspca.org

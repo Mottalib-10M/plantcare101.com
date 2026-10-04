@@ -1,0 +1,21 @@
+{
+ "name": "PlantCare101",
+ "short_name": "PlantCare101",
+ "description": "Houseplant care guides with a watering calculator for every plant: light, water, soil, humidity, repotting and pet safety for 100+ indoor plants.",
+ "start_url": "/en/",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color": "#2D6A45",
+ "icons": [
+  {
+   "src": "/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}

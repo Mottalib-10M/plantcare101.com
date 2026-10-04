@@ -1,0 +1,336 @@
+{
+  "slug": "snake-plant",
+  "commonName": "Snake plant",
+  "otherNames": [
+    "Mother-in-law's tongue",
+    "Good luck plant",
+    "Golden bird's nest"
+  ],
+  "botanicalName": "Dracaena trifasciata",
+  "formerNames": [
+    "Sansevieria trifasciata"
+  ],
+  "family": "Asparagaceae",
+  "kind": "succulent",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [
+      75,
+      1500
+    ],
+    "lux": [
+      807,
+      16146
+    ],
+    "windows": [
+      "east",
+      "west",
+      "south",
+      "north"
+    ],
+    "directSun": "tolerates",
+    "src": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  "water": {
+    "rule": "fully-dry",
+    "ruleText": "Let the potting mix dry completely between waterings",
+    "winter": "In winter, water only enough to keep the leaves from shriveling: NC State puts it at once every one to two months.",
+    "factors": [
+      "Overwatering is the main reason snake plants fail; the thick rhizome rots in mix that stays wet.",
+      "Do not pour water into the center of the leaf rosette.",
+      "Water regularly in the growing season and cut back sharply from fall to late winter."
+    ],
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "soil": {
+    "mix": "A regular, well-draining potting mix; a heavy clay pot wider than it is tall keeps tall plants from tipping.",
+    "components": [
+      "houseplant potting mix",
+      "extra perlite or coarse sand for drainage"
+    ],
+    "ph": [
+      6,
+      8
+    ],
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "Tolerates the dry air of heated homes; no misting needed.",
+    "src": [
+      0,
+      2
+    ]
+  },
+  "temperature": {
+    "minF": 50,
+    "minC": 10,
+    "src": [
+      0,
+      2
+    ]
+  },
+  "fertilizer": {
+    "season": "March to September, while the plant is growing",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "Houseplant fertilizer, balanced (10-10-10) or 1:2:1 (10-20-10), at the label rate and never stronger",
+    "winter": "none",
+    "src": [
+      5
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage holes",
+      "The plant wilts or tips over between normal waterings",
+      "Offsets crowd the pot or crack a plastic container"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "rhizome",
+    "prefersSnug": true,
+    "src": [
+      1,
+      6
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: eating it can cause nausea and vomiting, and the sap can irritate skin.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Snake Plant (Sansevieria trifasciata)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant",
+        "toxicPrinciples": "Saponins",
+        "clinicalSigns": "Nausea, vomiting, diarrhea"
+      }
+    ],
+    "src": [
+      0,
+      3
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Leaves soft, yellow and collapsing at the base",
+      "causeKey": "overwatering",
+      "cause": "Rhizome and root rot from mix that stays wet",
+      "remedy": "Unpot, cut away soft brown rhizome, let the cuts dry for a day and replant healthy pieces in fresh, dry, gritty mix."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Brown, sunken patch in the middle of the rosette",
+      "causeKey": "disease",
+      "cause": "Water left standing in the leaf crown",
+      "remedy": "Water the mix at the edge of the pot, never into the rosette, and tip out any water caught between the leaves."
+    },
+    {
+      "symptomKey": "wrinkled-leaves",
+      "symptom": "Leaves wrinkled, thin or curling inward",
+      "causeKey": "underwatering",
+      "cause": "Mix left bone dry for too long, often in summer or next to a heater",
+      "remedy": "Soak the pot until water drains, then return to watering whenever the mix has dried all the way down."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony tufts where leaves meet",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Dab colonies with a cotton swab dipped in rubbing alcohol, then spray insecticidal soap weekly until no new tufts appear."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale speckles on the leaves",
+      "causeKey": "pests",
+      "cause": "Spider mites",
+      "remedy": "Wipe both sides of each leaf with a damp cloth, isolate the plant and treat with insecticidal soap."
+    },
+    {
+      "symptomKey": "slow-growth",
+      "symptom": "Pale, floppy new leaves that lean toward the window",
+      "causeKey": "low-light",
+      "cause": "Survival in dim light without enough energy to build stiff leaves",
+      "remedy": "Move it closer to an east, west or south window over two weeks; growth firms up in brighter light."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of the rhizome",
+      "Leaf cuttings"
+    ],
+    "season": "Spring to summer"
+  },
+  "size": {
+    "heightIn": [
+      18,
+      48
+    ],
+    "widthIn": [
+      12,
+      24
+    ],
+    "src": [
+      1,
+      2
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Laurentii",
+      "note": "Dark green with light zigzag banding and yellow edges, the classic form."
+    },
+    {
+      "name": "Hahnii",
+      "note": "Dwarf bird's-nest rosette of 6 to 12 short leaves; fits a 4-inch pot."
+    },
+    {
+      "name": "Moonshine",
+      "note": "Silvery-gray leaves with narrow dark green margins."
+    },
+    {
+      "name": "Black Gold",
+      "note": "Dark green foliage edged in bright gold."
+    },
+    {
+      "name": "Twisted Sister",
+      "note": "Twisting leaves variegated yellow-gold and green."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dracaena trifasciata (Snake Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dracaena trifasciata",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b617",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Mother-in-Law Tongue",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/mother-law-tongue",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Snake Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snake-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "seo": {
+    "title": "Snake Plant Care: Light, Water & Soil Guide (2026)",
+    "description": "Snake plant care in 2026: let the mix dry fully, water monthly or less in winter, and keep it above 50°F. Watering calculator, toxicity and fixes for rot.",
+    "h1": "Snake plant care: light, water and soil"
+  },
+  "content": {
+    "answer": "Snake plants want the potting mix to dry out completely before every watering, then a thorough soak until water drains. In winter, NC State Extension advises watering only once every one to two months. Any light works, from a dim hallway to a sunny window.",
+    "intro": "Dracaena trifasciata, still sold under its old name Sansevieria, is a rhizome-forming succulent from central Africa that stores water in thick, upright leaves. That storage is the whole story of its care: the plant can go weeks without a drink, and the commonest way to lose one is to water it like a fern. NC State Extension describes it as durable, easily grown and difficult to kill, and the University of Illinois Extension says it grows in any light from dim interior to full sun, at moderate to warm temperatures and low humidity. What it cannot survive is a pot that stays wet, because the rhizome rots from the base up. Treat it as a desert plant indoors, give it a heavy, free-draining pot, and it will hold its stiff banded leaves for years with almost no attention.",
+    "light": [
+      "Light decides how fast a snake plant uses water, not whether it lives. In a north room or several feet back from an east window it simply idles, adding a leaf or two a year. Move it into bright light near a south or west window and it pushes new spears from the rhizome all summer, with stiffer leaves and stronger banding. NC State notes it accepts direct sun for part of the day, two to six hours, and Missouri Botanical Garden only asks that you shield it from hot afternoon sun through glass.",
+      "If yours has spent months in a dark corner, do not jump it straight onto a south sill. Shift it closer over two weeks so the leaves adapt; sudden full sun can bleach pale patches into foliage grown in shade. The flip side of low light is slower drying, so a plant in a dim spot needs far less water than the same plant on a windowsill."
+    ],
+    "water": [
+      "Water only when the mix is dry all the way down, not just at the surface. Push a finger or a wooden chopstick to the bottom third of the pot: if anything feels cool or damp, wait. When it is truly dry, water slowly at the edge of the pot until it runs from the drainage hole, then empty the saucer so the roots never sit in it.",
+      "Keep water out of the rosette. Missouri Botanical Garden warns against pouring into the center of the plant, where trapped water rots the growing point. Bottom watering, standing the pot in a few inches of water until the surface darkens, avoids the problem entirely.",
+      "Winter is when most snake plants die. Growth stops in short days, the mix barely dries, and a schedule kept from summer drowns the rhizome. The University of Illinois Extension advises watering just enough in winter to keep the leaves from shriveling; NC State puts that at once every one to two months. Slightly wrinkled leaves in February are a far smaller problem than a soft base."
+    ],
+    "soil": [
+      "A regular potting mix works if it drains quickly. Most bagged houseplant mixes hold a little too much moisture for a plant that likes to dry out fully, so cutting one part perlite or coarse sand into three parts mix, or using a cactus mix, buys a safety margin. Never use garden soil, which compacts in a pot and stays wet.",
+      "The pot matters as much as the mix. Unglazed clay breathes and dries faster, and its weight keeps a top-heavy plant from falling over; Missouri Botanical Garden recommends clay pots wider than they are tall for this reason. A drainage hole is not optional."
+    ],
+    "humidity": [
+      "Snake plants are one of the few houseplants that genuinely do not care about humidity. The dry air of a heated apartment in January, often under 30 percent, suits them, and misting only leaves water sitting between the leaves. Keep them away from humidifiers rather than next to them."
+    ],
+    "temperature": [
+      "Normal room temperatures are ideal, and NC State notes the plant tolerates cool spells around 50°F. Below that, cold injury shows as soft, translucent patches that later turn brown, especially when cold combines with wet mix. Keep the pot off drafty windowsills in winter and away from doors that open onto freezing air; summer outdoors is fine in shade once nights stay above 50°F."
+    ],
+    "fertilizer": [
+      "A slow plant needs little food. The University of Illinois Extension recommends feeding most houseplants no more than once every one to three months between March and September, with a balanced fertilizer such as 10-10-10 or a 1:2:1 formula, at the label rate and never stronger. For a snake plant, the low end of that range is plenty, and skipping a year does no harm. Do not feed in winter, when unused salts build up in a pot that is rarely flushed."
+    ],
+    "repotting": [
+      "Snake plants are happy crowded and often need a new pot only when the rhizomes have filled the old one, sometimes after several years. The signs are roots escaping the drainage hole, a plant that topples or dries out within days, or offsets pressing against the rim hard enough to bulge a plastic pot. Repot in spring or early summer, when the plant is growing.",
+      "Go up only one or two inches in diameter. An oversized pot holds a large volume of mix the roots cannot reach, and that wet zone is where rot starts. If the plant is simply too big, divide it instead of potting up."
+    ],
+    "propagation": [
+      "Division is the quickest route to a full-sized new plant. Slide the root ball out in spring, find where offsets join the main clump, and cut through the rhizome with a clean knife so each piece keeps a few leaves and roots. Let the cuts dry for a day, then pot each division in dry mix and wait a week before the first watering.",
+      "Leaf cuttings also root, either in water or in barely damp mix, but they are slow, often taking months to send up a new shoot. Note that cuttings from a variegated cultivar with yellow edges, such as 'Laurentii', usually grow back plain green; only division keeps the edge."
+    ],
+    "problems": [
+      "Almost every snake plant problem traces back to water. A soft, mushy base or leaves that yellow and fold at soil level mean rot, and the fix is surgery rather than a change of habits: unpot, cut away anything brown and soft, and replant the firm pieces. Wrinkled or curling leaves are the opposite signal, thirst after a long dry spell. Missouri Botanical Garden and NC State both list mealybugs and spider mites as the pests to watch for, usually hiding low in the rosette."
+    ],
+    "petSafety": [
+      "The ASPCA lists the snake plant as toxic to both cats and dogs. The leaves contain saponins, and a pet that chews them typically shows nausea, vomiting or diarrhea. Serious poisonings are uncommon because the bitter taste discourages eating much, but a curious cat that nibbles regularly will be sick. NC State also rates it of low severity for people, with possible skin irritation from the sap. Place it out of reach, or pick a pet-safe plant such as a spider plant or a prayer plant, and call your veterinarian or the ASPCA Animal Poison Control Center if a pet eats some."
+    ],
+    "faq": [
+      {
+        "q": "How often should I water a snake plant in a dark apartment?",
+        "a": "Less often than you think. In low light the mix dries slowly and can stay damp for weeks after a thorough watering, so check the bottom of the pot with a chopstick rather than counting days. Water only when it comes out completely dry. In winter that can stretch to once every one to two months, the range NC State Extension gives."
+      },
+      {
+        "q": "Why are my snake plant leaves falling over?",
+        "a": "Leaves that flop outward usually have a weak base, from rot after overwatering or from months of too little light. Press the base of a leaning leaf: soft and dark means rot, so unpot and trim. Firm but floppy means it needs more light and drier mix. A pot too light for the plant can also tip, so try heavy clay."
+      },
+      {
+        "q": "Can a snake plant live in a bathroom with no window?",
+        "a": "It can survive a few weeks, but no plant grows without light. A room with no window offers only what your bulbs give, usually far below the 75 foot-candles the University of Illinois Extension calls low light. A bright LED on a timer for about 12 hours a day can keep it going; otherwise rotate it to a window every few weeks."
+      },
+      {
+        "q": "Should I cut off a brown or damaged snake plant leaf?",
+        "a": "Yes, if more than half of it is damaged. Cut the whole leaf at soil level with a clean knife, since a trimmed leaf never regrows its tip. A brown tip alone can be trimmed along the natural point. If several leaves brown from the base at once, check for rot before trimming anything."
+      },
+      {
+        "q": "Is it normal for a snake plant to grow so slowly?",
+        "a": "Yes. Indoors, a snake plant may add only a few leaves a year, and in dim light it can look unchanged for months. Growth speeds up in bright light, warm temperatures and when it is slightly crowded in its pot. A summer outdoors in shade often triggers a flush of new spears from the rhizome."
+      }
+    ]
+  }
+}

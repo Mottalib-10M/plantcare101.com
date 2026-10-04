@@ -1,0 +1,123 @@
+{
+  "slug": "houseplant-pests",
+  "nav": "Pests",
+  "seo": {
+    "title": "Houseplant Pests: Spider Mites, Gnats, Mealybugs (2026)",
+    "description": "Spot spider mites, fungus gnats and mealybugs on houseplants, then follow a weekly treatment plan. Extension-sourced steps, six-week quarantine rule, 2026.",
+    "h1": "Houseplant pests: spotting and treating spider mites, fungus gnats and mealybugs"
+  },
+  "answer": "Most houseplant pests ride in on a new plant. Spider mites leave pale speckles and fine webbing, fungus gnats are tiny flies breeding in wet mix, and mealybugs look like white cotton in leaf joints. Isolate the plant, treat once a week for several weeks, and let the mix dry out to stop gnats.",
+  "intro": "Clemson HGIC puts it bluntly: when a houseplant looks unhealthy, poor care is usually the culprit, and only in some cases a pest. When pests are to blame, they most often arrive on a newly purchased plant or on one that spent the summer outdoors. Three of them explain the classic complaints. Spider mites are not insects at all but relatives of spiders, so small that faded, speckled leaves are usually the first clue. Fungus gnats are 1/8 inch flies whose larvae live in damp, peat-rich mix. Mealybugs are 1/8 to 1/4 inch sap feeders hidden under a white, waxy coat that also sheds sprays. None of them disappears after one treatment, because eggs and hidden individuals survive. The plan that works is the same for all three: isolate, identify, treat on a weekly rhythm, and keep checking until two clean weeks go by.",
+  "tool": {
+    "kind": "pests",
+    "title": "Choose the pest and how far it has spread to get a week-by-week treatment plan."
+  },
+  "sections": [
+    {
+      "h2": "Read the signs: webbing, flies or white fluff",
+      "paras": [
+        "Start with a 10X hand lens and the undersides of the leaves, which is where Clemson HGIC says pests are most often found. For mites, hold a sheet of white paper under a leaf and tap the leaf several times: anything that falls and starts moving as a tiny running dot is a mite. Fungus gnat adults give themselves away by running across the soil surface or flying weakly near it, and in a bad case they gather on nearby windows because they are drawn to light.",
+        "Mealybugs sit still. Look in the leaf axils, the angle where a leaf meets the stem, and along the lower leaf surfaces. Their sugary droppings, called honeydew, make leaves shiny and sticky and can grow a black sooty mold, so a sticky table under a plant is worth investigating even before you see the insects."
+      ],
+      "table": {
+        "caption": "How to tell the three common houseplant pests apart (Clemson HGIC)",
+        "head": ["What you see", "Likely pest", "Where to look", "Size"],
+        "rows": [
+          ["Pale speckles on top of leaves, faded look, silk webbing in heavy cases", "Spider mites", "Leaf undersides; tap over white paper", "Nearly microscopic"],
+          ["Small dark flies over the soil, whitish larvae with shiny black heads", "Fungus gnats", "Soil surface and the top of the mix", "Adults 1/8 in, larvae up to 1/4 in"],
+          ["White, cottony clusters, sticky leaves", "Mealybugs", "Leaf axils and lower leaf surfaces", "1/8 to 1/4 in"]
+        ]
+      },
+      "list": [
+        "Scale: immobile bumps on stems that you can scrape off with a fingernail.",
+        "Thrips: silvery or speckled leaves much like mite damage, but the slender insects scatter when you blow on them.",
+        "Whiteflies: tiny white moth-like insects that flutter up when the plant is disturbed.",
+        "Springtails: jumping specks in the soil, usually a sign of overwatering rather than a threat."
+      ]
+    },
+    {
+      "h2": "Spider mites: water blasts and soap, every week",
+      "paras": [
+        "Spider mites suck the contents out of individual leaf cells, which leaves the emptied cells silvery and the leaf stippled white. Left alone, the leaves bronze or yellow and the plant can die. Clemson HGIC notes they are mostly a problem on plants that stay indoors all year, with palms and English ivy among the favorite hosts, and its spider mite page adds that drought-stressed plants are hit first and that higher humidity indoors reduces both the mites and their damage.",
+        "Take sturdy plants to the shower or sink and spray them forcefully, undersides included, to knock mites off and break up the webs. Follow with insecticidal soap. Clemson says it often takes one spray a week for several weeks, and warns that rinsing alone fails once the population is high. Soap and horticultural oil can scorch foliage on drought-stressed plants or at 90 °F and above, so make sure the plant is well watered and treat it in a cool spot. Clemson also describes predatory mites sold for biological control, including one species that works at low humidity on indoor plants, released at 1 to 3 mites per leaf."
+      ]
+    },
+    {
+      "h2": "Fungus gnats: starve the larvae by drying the mix",
+      "paras": [
+        "The adult gnats do not feed on the plant; they are a nuisance. Their larvae are the problem. They feed on decaying organic matter and fungi in the soil, and some species chew roots, which hurts seedlings and young plants the most. On an established plant the first sign is simply a loss of its usual healthy look, and a heavily infested plant can drop leaves.",
+        "Clemson HGIC ties fungus gnats to peat-rich potting mix that stays wet. The fix follows directly: for plants that can take it, let the soil dry between waterings, because dry conditions kill the larvae, and never leave water standing in the saucer. A biological product containing Bacillus thuringiensis israelensis, often sold as BTI, can be watered into the mix to control larvae. Yellow sticky cards catch adults and show you whether numbers are falling, but they do nothing about the larvae below. If the mix never seems to dry, the real issue is watering, covered in our overwatering guide."
+      ]
+    },
+    {
+      "h2": "Mealybugs: alcohol on a cotton swab, joint by joint",
+      "paras": [
+        "The waxy coat that makes a mealybug look like a speck of cotton also helps repel pesticides, which is why sprays alone disappoint. Clemson HGIC recommends removing light infestations by hand or touching each insect with a cotton swab dipped in rubbing alcohol, then using insecticidal soap. Work methodically through every leaf axil, the base of each petiole and the undersides of the leaves, because the young nymphs are smaller copies of the adults and easy to miss.",
+        "One mealybug species lives on the roots, out of sight. If a plant keeps declining with nothing visible on the leaves, slide it out of the pot and check the outside of the root ball for white fluff. Clemson's advice for root infestations is to take a cutting and start a new plant in a clean pot with sterile mix. With a heavy infestation on the leaves, Clemson says it may be necessary to discard the plant."
+      ]
+    },
+    {
+      "h2": "Insecticidal soap without burning the leaves",
+      "paras": [
+        "Insecticidal soap is a contact product: it kills only the soft-bodied pests it actually wets, and once the spray dries it has no further effect. That is the reason for repeat applications rather than a stronger mix. Clemson HGIC lists houseplants sensitive to the soap that should not be sprayed, including ornamental ivy, maidenhair fern, dieffenbachia, schefflera, crown of thorns, jade plant, begonia, fuchsia, impatiens and certain palms. On anything else, test a small part of the plant first and wait, since injury may take at least 48 hours to show.",
+        "Read the label before you spray anything else indoors. Only a few pesticides are labeled for houseplants, a single product rarely controls every pest, and Clemson advises alternating products from one application to the next because some pests develop resistance quickly. Spraying is safest outdoors in the shade on a mild day, bringing the plant back in once the foliage is completely dry. Signs of spray injury, such as distorted buds, spotting or burned leaf edges, usually appear within 5 to 10 days and rarely kill the plant."
+      ]
+    },
+    {
+      "h2": "Quarantine, cleaning and other ways to keep pests out",
+      "paras": [
+        "Prevention beats treatment, and the single most useful habit is quarantine. Clemson HGIC isolates new plants for six weeks and inspects them about once a week, UF/IFAS Gardening Solutions says at least a month, and the Illinois Extension quarantines plants coming back indoors in fall for 2 to 3 weeks. Six weeks is the safest of the three.",
+        "Clean foliage is the other half. Clemson suggests washing smooth-leaved plants every two to three weeks, either by swishing small plants upside down in lukewarm water with foil over the soil or by rinsing large ones in a tepid shower. Plants with hairy leaves, such as African violets, get a soft brush instead of water."
+      ],
+      "list": [
+        "Check a plant and its pot before you buy it or bring it inside.",
+        "Repot with commercial potting mix, never garden soil, which can carry pests.",
+        "Keep cut flowers from the garden away from your houseplants.",
+        "Make sure window screens and doors fit well.",
+        "Give each plant the light and water it needs: stressed plants are more susceptible."
+      ]
+    },
+    {
+      "h2": "When a plant is not worth saving",
+      "paras": [
+        "Clemson HGIC is practical about it: if a plant is severely damaged and not valuable, the simplest solution may be to throw out the plant and its soil and start again. For a plant you care about, you have two routes. One is to take clean cuttings from parts that show no pests, root them in sterile mix, and discard the rest. The other, once soap, water sprays and swabbing have failed, is a stronger pesticide labeled for indoor use on that plant, chosen only after the pest has been identified with certainty."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How can I tell if my plant has spider mites or just dust?",
+      "a": "Hold a sheet of white paper under a leaf and tap the leaf several times. Dust stays put; spider mites land on the paper and run around as tiny moving dots, which a 10X hand lens makes easier to see. Damaged leaves also look stippled with pale dots on the upper surface, and heavy infestations leave fine silk between leaves and stems, according to Clemson HGIC."
+    },
+    {
+      "q": "Do fungus gnats actually hurt houseplants?",
+      "a": "The adult flies do not feed on plants and are mainly a nuisance. Their larvae, which live in the top of the mix, feed on decaying matter and fungi, and some species also eat roots. Clemson HGIC says that root feeding is especially damaging to very young plants, while an older plant mostly loses its healthy look and, in a heavy infestation, may drop leaves."
+    },
+    {
+      "q": "How long should I quarantine a new houseplant?",
+      "a": "Clemson HGIC recommends six weeks away from your other plants, with a close look at the leaf undersides about once a week during that time. UF/IFAS Gardening Solutions gives at least a month as the minimum. The longer window gives anything that came home on the plant time to show itself before it can spread, and inspections are easiest while the plant stands alone."
+    },
+    {
+      "q": "Why do mealybugs keep coming back after I treat them?",
+      "a": "Three reasons are common. Their waxy coating repels sprays, so soap alone misses many of them; eggs and tiny nymphs hidden in leaf joints survive a single treatment; and one species lives on the roots, where no leaf treatment reaches. Swab every visible cluster with rubbing alcohol, repeat weekly, and check the root ball if they reappear."
+    },
+    {
+      "q": "Is it safe to spray insecticide on houseplants indoors?",
+      "a": "Only if the label says the product is approved for indoor use on houseplants, and Clemson HGIC notes that few are. Its advice is to carry the plant outdoors, spray in the shade on a mild day, and bring it back once the leaves are completely dry, which also keeps overspray off furniture and carpet. Insecticidal soap is the usual first choice."
+    },
+    {
+      "q": "Where do houseplant bugs come from if the plant never goes outside?",
+      "a": "Usually from another plant: Clemson HGIC says pests most often enter on newly purchased plants. They can also arrive on cut flowers from the garden, in garden soil used for potting, or through poorly fitting screens and doors. A plant that has lived indoors for years can still pick up spider mites from a new neighbor on the same windowsill."
+    }
+  ],
+  "sources": [
+    { "title": "Common Houseplant Insects & Related Pests", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/", "accessed": "2026-10-04" },
+    { "title": "Integrated Pest Management (I.P.M.) for Spider Mites", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/integrated-pest-management-i-p-m-for-spider-mites/", "accessed": "2026-10-04" },
+    { "title": "Indoor Plants: Cleaning, Fertilizing, Containers & Light Requirements", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/", "accessed": "2026-10-04" },
+    { "title": "Houseplant Care", "publisher": "UF/IFAS Gardening Solutions", "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/houseplant-care/", "accessed": "2026-10-04" },
+    { "title": "Houseplants: Care", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/care", "accessed": "2026-10-04" }
+  ],
+  "relatedPlants": ["fiddle-leaf-fig", "calathea", "succulents", "philodendron", "pothos", "monstera"],
+  "relatedGuides": ["overwatering-vs-underwatering", "yellow-leaves", "brown-leaf-tips"],
+  "verified": "2026-10-04"
+}

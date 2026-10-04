@@ -1,0 +1,348 @@
+{
+  "slug": "hydrangea",
+  "commonName": "Hydrangea",
+  "otherNames": [
+    "Bigleaf hydrangea",
+    "French hydrangea",
+    "Florist's hydrangea",
+    "Hortensia",
+    "Mophead hydrangea",
+    "Lacecap hydrangea"
+  ],
+  "botanicalName": "Hydrangea macrophylla",
+  "formerNames": [],
+  "family": "Hydrangeaceae",
+  "kind": "shrub",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "east",
+      "north",
+      "west"
+    ],
+    "directSun": "morning-only",
+    "src": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Keep the root ball consistently moist; never let a potted hydrangea dry out",
+    "winter": "Once the leaves fall in autumn the shrub is dormant and uses little water; keep a pot from drying out completely and keep its roots from freezing.",
+    "factors": [
+      "Clemson notes the large leaves lose moisture quickly, so a plant can wilt within hours on a hot day.",
+      "A small florist's pot packed with roots dries out much faster than garden soil.",
+      "In the ground, Clemson advises a deep watering once a week, more often in dry spells or sandy soil."
+    ],
+    "src": [
+      0,
+      3
+    ]
+  },
+  "soil": {
+    "mix": "Rich, moist, well-drained soil high in organic matter; in a pot, a quality potting mix with compost.",
+    "components": [
+      "potting mix or garden soil rich in organic matter",
+      "compost",
+      "shredded bark mulch on top"
+    ],
+    "src": [
+      0,
+      2,
+      3,
+      7
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "None of our sources sets a humidity target; Clemson notes the big leaves lose water fast, so dry indoor heat speeds wilting.",
+    "src": [
+      0
+    ]
+  },
+  "temperature": {
+    "minF": 28,
+    "minC": -2,
+    "src": [
+      3,
+      6
+    ]
+  },
+  "fertilizer": {
+    "season": "March, May and July",
+    "everyWeeks": [
+      8,
+      9
+    ],
+    "strength": "full",
+    "type": "Balanced 10-10-10; Clemson's garden rate is 2 cups per 100 square feet, watered in right after; in a pot, follow the label",
+    "winter": "none",
+    "src": [
+      0
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Flowers have faded and the plant has outgrown its florist's pot",
+      "Roots circle the pot and water runs straight through",
+      "The pot wilts within a day of a thorough watering"
+    ],
+    "season": "Spring or fall, the best planting times according to Clemson",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [
+      0,
+      3
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: eating large quantities can cause nausea, stomach pain, vomiting and sweating.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Hydrangea (listed by the ASPCA as Hydrangea arborescens)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hydrangea",
+        "toxicPrinciples": "Cyanogenic glycoside",
+        "clinicalSigns": "Vomiting, depression, diarrhea. Cyanide intoxication is rare; it usually produces more of a gastrointestinal disturbance."
+      }
+    ],
+    "src": [
+      2,
+      4
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "drooping",
+      "symptom": "Leaves and flower heads collapse by midafternoon",
+      "causeKey": "underwatering",
+      "cause": "A dry root ball; the large leaves lose water quickly",
+      "remedy": "Soak the pot until water drains, or water deeply in the garden, and give afternoon shade; plants that recover overnight just needed water."
+    },
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Healthy leaves the year after planting, but no flowers",
+      "causeKey": "cold",
+      "cause": "Winter injury or a late cold snap that killed the flower buds on old wood",
+      "remedy": "Site the shrub in a sheltered spot, cover canes with frost cloth on cold spring nights, and choose a rebloomer that also flowers on new wood."
+    },
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Lush growth with few blooms in a shady corner",
+      "causeKey": "low-light",
+      "cause": "Too much shade; Clemson says plants need at least 3 hours of morning sun to flower",
+      "remedy": "Move the shrub in spring or fall to a spot with morning sun and afternoon shade."
+    },
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Big leafy shrub, almost no bloom",
+      "causeKey": "fertilizer-salts",
+      "cause": "Excess nitrogen fertilizer, one of Clemson's causes of poor flowering",
+      "remedy": "Stick to light, balanced feeding in March, May and July and keep lawn fertilizer off the root zone."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Small purple-brown spots, or larger brown patches, on the leaves",
+      "causeKey": "disease",
+      "cause": "Cercospora leaf spot or anthracnose",
+      "remedy": "Water the soil in the morning rather than the leaves, clear fallen leaves, and improve air movement around the shrub."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Leaf edges brown and scorched in summer",
+      "causeKey": "too-much-sun",
+      "cause": "Hot afternoon sun with uneven watering",
+      "remedy": "Give afternoon shade and water consistently; Clemson ties steady moisture to preventing leaf scorch."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "All the leaves yellow and fall in autumn",
+      "causeKey": "dormancy",
+      "cause": "Normal seasonal leaf drop of a deciduous shrub",
+      "remedy": "Nothing to fix: keep the roots from drying out or freezing, and wait for buds to break on the bare canes in spring."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Layering",
+      "Stem cuttings",
+      "Division of established clumps"
+    ],
+    "season": "Early spring for division; layering during the growing season"
+  },
+  "size": {
+    "heightIn": [
+      36,
+      72
+    ],
+    "widthIn": [
+      36,
+      72
+    ],
+    "growth": "fast",
+    "src": [
+      2,
+      3
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Endless Summer (The Original, 'Bailmer')",
+      "note": "Mophead that blooms on both old and new growth, so a frozen bud or a late pruning does not cost the whole season."
+    },
+    {
+      "name": "Blushing Bride",
+      "note": "Opens white and matures to pink regardless of soil chemistry, per Clemson."
+    },
+    {
+      "name": "Nikko Blue",
+      "note": "Mophead of 4 to 6 feet with rich blue heads in acid soil."
+    },
+    {
+      "name": "Twist-n-Shout",
+      "note": "Lacecap with flat, lacy heads that flowers on old or new wood."
+    },
+    {
+      "name": "Blue Wave ('Mariesii Perfecta')",
+      "note": "Classic lacecap: small fertile flowers ringed by larger showy ones, blue or pink depending on soil."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hydrangea Care in South Carolina",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/hydrangea-care-in-south-carolina/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Pruning Hydrangeas",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/pruning-hydrangeas/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Hydrangea macrophylla (Bigleaf Hydrangea)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/hydrangea-macrophylla/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Hydrangea macrophylla",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=286874",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Hydrangea",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hydrangea",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cold Damage",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/cold-damage/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Hydrangea",
+      "publisher": "UF/IFAS Gardening Solutions, University of Florida",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/trees-and-shrubs/shrubs/hydrangea/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "african-violet"
+  ],
+  "seo": {
+    "title": "Hydrangea Care: Potted Gift Plant to Garden Shrub (2026)",
+    "description": "Hydrangea care in 2026 for a florist's potted plant: keep it moist, cut spent blooms, then plant outside in spring or fall in Zones 6 to 9. Watering calculator.",
+    "h1": "Hydrangea care: from potted gift to garden shrub"
+  },
+  "content": {
+    "answer": "Keep a potted gift hydrangea evenly moist in bright light without hot afternoon sun. When the flowers fade, cut those stems back to a pair of healthy buds, then plant it outdoors in spring or fall in part shade: it is a hardy shrub, not a permanent houseplant.",
+    "intro": "The potted hydrangea from a florist is a garden shrub on a visit. Hydrangea macrophylla is a deciduous, woody plant from Japan and China that, in Missouri Botanical Garden's description, grows 3 to 6 feet tall and as wide and is winter hardy to USDA Zone 6. It is sold in full bloom, but Clemson Extension points out that spring or fall is the best time to plant one, and it blooms on old wood: flower buds for next summer form on this year's stems from late summer into fall, according to UF/IFAS. That biology sets what happens after the gift. Indoors, it is a centerpiece for as long as the flowers hold; to flower again, it needs to go outside and through a real winter, which UF/IFAS says this hydrangea requires. Even planted out, results are uneven, because Missouri Botanical Garden warns that most bigleaf hydrangeas will not bloom, or bloom poorly, in some years after winter weather beyond the gardener's control.",
+    "light": [
+      "While it blooms indoors, give the plant bright light without hot sun on the leaves: in front of an east window, or right at a north one, which the Illinois Extension rates as medium light of about 150 foot-candles. A south window in full sun cooks the big, thin leaves. Outdoors the rule is clear and consistent across sources. Clemson asks for morning sun with afternoon shade and warns against hot, exposed sites, NC State says to protect it from afternoon sun, and Missouri Botanical Garden recommends part shade, adding that full sun is tolerated only in soil that stays consistently moist.",
+      "Shade has a limit, though. Clemson's pruning fact sheet notes that bigleaf hydrangeas need a minimum of 3 hours of morning sun to flower, and lists too much shade among the reasons a shrub stays green all summer."
+    ],
+    "water": [
+      "Hydrangea leaves are broad and soft, and Clemson notes that they lose moisture quickly. A gift plant usually arrives in a small pot crammed with roots, which dries out fast in a warm room. Check it often while it is in bloom and water whenever the surface feels dry, until water runs from the bottom. If the pot sits inside a foil sleeve, poke a hole or empty it after watering so the roots are never standing in water.",
+      "Once planted in the garden, Clemson advises watering deeply once a week, more often in dry weather, and up to twice weekly in sandy soil during hot summers. Consistent moisture is the goal: Clemson links it to preventing leaf scorch and flower loss. A 2- to 3-inch layer of mulch holds that moisture in; Missouri Botanical Garden suggests 3 inches of shredded bark, peat or compost year-round.",
+      "Midday wilting on a hot afternoon is common even in moist soil. If the leaves perk up by evening, the plant is fine; if they are still limp the next morning, it needs water now."
+    ],
+    "soil": [
+      "Clemson describes hydrangeas as easy to grow in well-drained soil rich in organic matter, and NC State adds that the plant tolerates clay and sand and occasional wet soil. Soil chemistry also sets the flower color. Clemson explains that in acid soil, pH 5.0 to 5.5, aluminum is available and flowers turn blue, while at pH 6.0 and up they turn pink. Aluminum sulfate pushes toward blue and lime toward pink, and UF/IFAS warns the change may take two or three bloom cycles. Test your soil before adding either, as Clemson recommends."
+    ],
+    "humidity": [
+      "No source we used sets a humidity target for this shrub, and outdoors it grows in ordinary garden air. Indoors, the risk is the dry heat of a radiator or vent, which speeds water loss from those large leaves. Keep the pot away from heat sources and drafts while it blooms, and check the soil more often in a heated room."
+    ],
+    "temperature": [
+      "Hardiness is the real temperature question. Missouri Botanical Garden rates the species winter hardy to USDA Zone 6, with Zone 5 gardens needing a sheltered site and winter protection, and Clemson names winter injury as the most common reason hydrangeas fail to bloom. Flower buds are the weak point, since they sit on last year's stems. In a pot, the roots are more exposed than the canes: Clemson's cold damage fact sheet notes that unprotected roots in containers are especially vulnerable, with lethal root temperatures beginning at 28°F on some otherwise hardy species. If you overwinter it in a pot, mulch around it or move it to an unheated, sheltered spot."
+    ],
+    "fertilizer": [
+      "Clemson's schedule for bigleaf hydrangeas in the garden is a balanced fertilizer such as 10-10-10, applied in March, May and July at 2 cups per 100 square feet and watered in right away. A gift plant in bloom needs no feeding at all. More is not better: Clemson lists excess nitrogen among the reasons hydrangeas fail to bloom, so keep lawn fertilizer from washing into their root zone and skip feeding after midsummer."
+    ],
+    "repotting": [
+      "Moving a florist's hydrangea to the garden is the main transplanting job. Clemson recommends spring or fall planting, so a plant received in winter can wait indoors in a bright, cool spot until the ground is workable. Dig a hole two to three times as wide as the root ball but no deeper, backfill with the soil you removed, water deeply and mulch, following Clemson's planting steps. UF/IFAS warns against planting too deeply. Prune only right after flowering, never after August 1, or you remove next year's buds."
+    ],
+    "propagation": [
+      "NC State lists layering and stem cuttings, and Clemson adds division. For layering, Clemson has you bend a flexible stem into a shallow trench, remove a 1-inch ring of bark from the buried section, and cover it with soil, leaving 6 to 12 inches of the tip exposed; it roots while still attached to the parent. Established clumps can be split with a shovel in early spring."
+    ],
+    "problems": [
+      "Failure to bloom is the classic complaint, and Clemson's list is short: winter injury first, then too much shade, poor soil fertility and excess nitrogen. Pruning after August 1 removes next year's flowers too. Leaf diseases come next; Clemson names Cercospora leaf spot, anthracnose and powdery mildew, and NC State adds bacterial wilt. UF/IFAS notes aphids and mites as occasional pests. Autumn leaf drop is normal for this deciduous shrub and not a sign of trouble."
+    ],
+    "petSafety": [
+      "The ASPCA lists hydrangea as toxic to cats, dogs and horses. Its entry carries the scientific name Hydrangea arborescens, a different species, but NC State gives the same class of toxin for Hydrangea macrophylla: hydracyanosides, which are cyanogenic glycosides. The ASPCA lists vomiting, depression and diarrhea as clinical signs and notes that cyanide intoxication is rare, usually producing more of a gastrointestinal disturbance. NC State rates severity for people as low, with nausea, stomach pain, vomiting and sweating after large quantities. If a pet eats leaves or flowers, call your veterinarian or the ASPCA Animal Poison Control Center."
+    ],
+    "faq": [
+      {
+        "q": "Can I keep a potted hydrangea indoors as a houseplant?",
+        "a": "Only while it blooms. Hydrangea macrophylla is a deciduous shrub that UF/IFAS says requires cool winters, and its flower buds form on old wood, so a plant kept warm indoors all year rarely blooms again. Enjoy it inside with steady water and bright, indirect light, then move it outdoors. Clemson's best planting times are spring and fall, in morning sun with afternoon shade."
+      },
+      {
+        "q": "Why did my hydrangea change color after I planted it outside?",
+        "a": "Your soil chemistry took over. Clemson explains that blue flowers come from acid soil around pH 5.0 to 5.5, where aluminum is available, and pink from soil at pH 6.0 and up. The florist grew it in a mix tuned for one color. Clemson's pruning fact sheet mentions buyers surprised by a color change, and UF/IFAS says a deliberate change can take two or three bloom cycles."
+      },
+      {
+        "q": "Why didn't my hydrangea bloom this year?",
+        "a": "Clemson names winter injury as the most common reason, followed by too much shade, poor soil fertility and excess nitrogen. Late cold snaps can freeze buds that have already formed, and pruning after August 1 cuts them off. Missouri Botanical Garden adds that most bigleaf hydrangeas skip or reduce flowering in some years because of winter weather. A rebloomer such as Endless Summer, which flowers on new wood too, narrows the gap."
+      },
+      {
+        "q": "When should I plant a hydrangea I got as a gift?",
+        "a": "Spring or fall, the times Clemson gives as best, even though most people buy hydrangeas in bloom. Plant in part shade with morning sun, in a hole two to three times as wide as the root ball and no deeper. Missouri Botanical Garden rates the species hardy to USDA Zone 6. Until then, keep the pot moist and protect its roots from freezing; Clemson notes container roots can die at 28°F."
+      },
+      {
+        "q": "Is hydrangea poisonous to cats and dogs?",
+        "a": "Yes. The ASPCA lists hydrangea as toxic to cats, dogs and horses because of a cyanogenic glycoside, with vomiting, depression and diarrhea as the signs. Its entry uses the name Hydrangea arborescens, and NC State reports the same kind of compound in bigleaf hydrangea. Real cyanide poisoning is rare, the ASPCA says. Keep the plant out of reach and call a veterinarian if a pet eats any."
+      }
+    ]
+  }
+}

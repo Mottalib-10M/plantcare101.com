@@ -1,0 +1,26 @@
+---
+/** Page outil (RECETTE §9) : l'outil est le contenu principal (`data-outil`), 500 à 700 mots autour.
+ *  Slots : `tool` (l'îlot), défaut (texte). Réponse directe sous le H1, chapeau citable replié. */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
+import AdSlot from './AdSlot.astro';
+import { route } from '../i18n/routes';
+import { label } from '../i18n/nav';
+import { webApplicationSchema, faqSchema, breadcrumbSchema, type FAQItem } from '../lib/seo';
+import type { Src } from '../data/general-sources';
+interface Props { id: string; title: string; h1: string; description: string; answer: string; intro: string; faqs: FAQItem[]; related: Array<{ href: string; name: string; description: string }>; sources: Src[] }
+const { id, title, h1, description, answer, intro, faqs, related, sources } = Astro.props;
+const lang = 'en';
+const path = route(id, lang);
+const jsonLd = [webApplicationSchema({ name: h1, description, path, lang }), faqSchema(faqs, lang),
+  breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Tools', path: route('tools', lang) }, { name: label(id), path }])];
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} faqs={faqs} related={related} sources={sources}
+  breadcrumbs={[{ label: 'Tools', href: route('tools', lang) }, { label: label(id) }]}>
+  <header class="mb-4"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">{h1}</h1></header>
+  <p class="text-lg leading-relaxed text-navy-800">{answer}</p>
+  <div data-outil data-chrome class="mt-6"><slot name="tool" /></div>
+  <div class="mt-8 text-navy-800"><Clamp id={`intro-${id}`} text={intro} class="text-base leading-relaxed" /></div>
+  <AdSlot slot={`${id}-1`} />
+  <article class="prose prose-slate mt-6 max-w-none"><slot /></article>
+</PageLayout>

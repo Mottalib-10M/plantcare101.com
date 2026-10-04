@@ -1,0 +1,212 @@
+{
+  "slug": "brown-leaf-tips",
+  "nav": "Brown leaf tips",
+  "seo": {
+    "title": "Brown Leaf Tips on Plants: 6 Causes and Fixes (2026)",
+    "description": "Brown tips on houseplant leaves come from salts, tap water, dry air, watering swings, disease or pests. Answer 7 questions and the tool names the cause. 2026.",
+    "h1": "Brown tips on plant leaves: 6 causes and how to stop them spreading"
+  },
+  "answer": "Brown leaf tips usually mean the leaf edge is the first place salt, fluoride or dry air does damage. Look for a white crust on the soil, think about your water and your heating, then flush the pot with plain water. The brown parts stay brown; new leaves show whether the fix worked.",
+  "intro": "The tip of a leaf sits at the far end of the plant's plumbing. Water travels up from the roots, out through the veins, and evaporates at the margins, so anything dissolved in that water gets left behind at the edges, and any shortfall in supply shows there first. That is why brown tips are a symptom of the whole system rather than of the leaf. Clemson Cooperative Extension names four broad culprits: hot, dry air, improper watering, insect feeding and salt accumulation, and adds that some houseplants react to fluoride or chlorine in tap water. Spider plants, calatheas and prayer plants are the classic sufferers. The good news is that brown tips rarely threaten the plant's life. They are a slow warning, and the causes leave clues: a crust on the pot rim, a water softener under the sink, a radiator beside the shelf, a fertilizer habit that adds up. The tool above weighs those clues and names the most likely culprit for your plant.",
+  "tool": {
+    "kind": "brown-tips",
+    "title": "Answer seven questions about your water, air and feeding: the tool ranks the causes of the brown tips."
+  },
+  "sections": [
+    {
+      "h2": "How the tool weighs your answers",
+      "paras": [
+        "Each answer adds points to one or more causes, and the highest score wins. The weights are our own order of priority, not a laboratory measurement, but each rule follows a cause that an extension service names. A visible white crust counts most, because it is direct evidence of salt. Softened water counts toward both salt and water chemistry, since it adds sodium. The table shows what each answer tells the tool."
+      ],
+      "table": {
+        "caption": "What each answer in the brown tips tool points to",
+        "head": [
+          "Your answer",
+          "Points toward",
+          "Why"
+        ],
+        "rows": [
+          [
+            "White crust on soil or pot rim",
+            "Salt buildup (strongest sign)",
+            "Clemson: crusty white to gray deposits mean salts"
+          ],
+          [
+            "No flush for 6 months or more",
+            "Salt buildup",
+            "Illinois Extension: leach the pot every 4 to 6 months"
+          ],
+          [
+            "Feeding more often than every 4 weeks",
+            "Salt buildup",
+            "Illinois Extension: most houseplants need feeding every 1 to 3 months at most"
+          ],
+          [
+            "Softened water",
+            "Salt and water chemistry",
+            "Clemson: softened water adds sodium and chloride"
+          ],
+          [
+            "Tap water on a plant known to dislike it",
+            "Water chemistry",
+            "Clemson and NC State: fluoride and chlorine burn sensitive leaves"
+          ],
+          [
+            "Dry air from heating or AC",
+            "Low humidity",
+            "Illinois Extension: most homes fall below 30 percent humidity in winter"
+          ],
+          [
+            "Mix bone dry or never dry",
+            "Watering extremes",
+            "Clemson: improper watering browns tips and margins"
+          ]
+        ]
+      }
+    },
+    {
+      "h2": "Salt and fertilizer buildup in the pot",
+      "paras": [
+        "Every watering brings in a little dissolved mineral, and every feed brings more. UF/IFAS points out that salts occur naturally in fertilizers, potting mixes and tap water, and that over time they leave crusty white deposits and can make the mix toxic to roots, browning leaf tips or even killing the plant. Clemson links a white film on the soil or a crust on the rim or drainage hole to overfeeding, overwatering or both, and lists reduced growth, brown tips, dropping lower leaves and wilting as the damage that follows.",
+        "Do not confuse salt with the fluffy white or yellow growth of harmless soil fungi, which Clemson describes as mold-like rather than crusty. Salt is hard and gritty and builds up where water evaporates. If you feed with a dilute solution at every watering, about one-tenth of the label rate as Clemson allows, the tool's warning about frequent feeding overstates the risk; the crust question matters more.",
+        "The cure is to wash the salts out of the mix, then slow down how fast they come back:"
+      ],
+      "list": [
+        "Take the pot to a sink or tub and pour plain water through the mix until a large volume has drained out of the bottom.",
+        "Let it drain completely and empty the saucer, so the salty water is not drawn back up.",
+        "Scrape off any crust along with the top inch of old mix, as the Illinois Extension advises, and top up with fresh mix.",
+        "Repeat every 4 to 6 months, and feed at or below the label rate only from March to September."
+      ]
+    },
+    {
+      "h2": "Tap water, fluoride and the softener under the sink",
+      "paras": [
+        "Some plants are simply sensitive to what municipal water carries. NC State Extension warns that the chlorine and fluorides in tap water can cause leaf tip burn on spider plants, and recommends distilled or rainwater for calatheas. Clemson suggests filling watering cans and letting the water stand at room temperature for 24 hours before use, and the Illinois Extension gives the same 24 hours to let chlorine and fluoride dissipate. For the most sensitive plants, NC State's advice to switch to distilled or rainwater is the surer route, and Clemson also recommends rainwater whenever possible.",
+        "Softened water is a separate problem. A water softener swaps hardness minerals for sodium, and Clemson says watering with it adds sodium and chloride to the mix and may damage plants. UF/IFAS goes as far as suggesting bottled drinking water to avoid salt buildup entirely. If your kitchen tap runs through a softener, fill the can from an outdoor spigot or a line that bypasses it."
+      ]
+    },
+    {
+      "h2": "Heated rooms and dry air",
+      "paras": [
+        "Winter is brown-tip season. The Illinois Extension notes that most homes drop below 30 percent humidity in winter, and leaves lose water at their margins faster than the roots can replace it. Thin-leaved tropical plants show it first; the calathea guide on this site describes crisp margins once the air falls well below 60 percent. Clemson lists hot, dry air as a leading cause of brown tips and edges.",
+        "Raise the moisture around the plant rather than spraying it. A humidifier works best. A tray of pebbles kept topped up with water helps, as long as the pot sits on the stones and not in the water. Grouping plants together raises humidity right around them. Misting, the Illinois Extension says, lifts humidity only briefly, has to be repeated constantly, and in excess can encourage disease. Move plants away from radiators, heating vents and air conditioning outlets too: UF/IFAS warns against hot and cold spots such as these."
+      ]
+    },
+    {
+      "h2": "Watering swings that scorch the edges",
+      "paras": [
+        "Both extremes reach the tips. A plant left until it wilts loses water from its margins first and the outermost tissue dies before the rest recovers. A plant kept soggy loses roots to lack of oxygen, and fewer roots means less water reaching the tips, even in wet mix. Our overwatering vs underwatering guide covers how to tell the two apart. Water temperature counts as well: Clemson recommends water between 62 and 72 degrees, never hot or cold from the tap.",
+        "Consistency is the fix. Water when the mix reaches your plant's dryness rule, which each plant guide on this site spells out, and water thoroughly every time so the whole root ball is wetted and the excess drains away. Clemson notes that thorough watering also carries excess salts out through the drainage hole, so a plant that only ever gets small sips builds up salt while it goes short of water. If the mix has dried so hard that water runs straight down the sides, rewet it slowly before you judge the leaves."
+      ]
+    },
+    {
+      "h2": "When the brown tip is disease or pests",
+      "paras": [
+        "A few brown tips are not cultural at all. Clemson describes anthracnose, a fungal disease, as starting with tips that turn yellow, then tan, then dark brown, with the browning sometimes spreading all around the leaf until it dies; wounds help the fungus in. Pick off and destroy infected leaves and stop misting. Insect feeding can also brown tips and edges, so check leaf undersides for mites, thrips or mealybugs and turn to our houseplant pests guide if you find any.",
+        "Brown that begins as a spot in the middle of the blade rather than at the tip points somewhere else: Clemson describes fungal leaf spots with yellowish margins and bacterial spots that look water-soaked at first. Our yellow leaves guide covers those patterns."
+      ]
+    },
+    {
+      "h2": "Trimming brown tips without making new ones",
+      "paras": [
+        "Brown tissue is dead and will not green again, but trimming is purely cosmetic and safe once the cause is fixed. Use sharp, clean scissors and follow the natural shape of the leaf, angling the cut to recreate a point rather than chopping straight across. Leave a hairline of brown at the edge: cutting into living green tissue opens a fresh wound that often browns again. Trim after you have changed the water, the air or the feeding, so the next leaves can show you whether it worked."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Should I cut the brown tips off my plant's leaves?",
+      "a": "You can, once the cause is fixed. The brown part is dead and will never turn green, so trimming only improves the look. Use clean, sharp scissors, follow the leaf's natural outline and leave a very thin brown edge so you do not cut into living tissue, which tends to brown again. If you trim before changing your water, air or feeding, the tips will simply brown back, so fix the cause first and trim second."
+    },
+    {
+      "q": "Does distilled water stop brown leaf tips?",
+      "a": "It stops the tips that come from fluoride, chlorine or softened water, which is why NC State Extension recommends distilled or rainwater for calatheas. It will not help if the cause is dry air, a salt crust from years of feeding, or watering swings. Switch the water and also flush the pot with a large volume of plain water to wash out salts already in the mix. Watch new leaves over the following months to judge the result."
+    },
+    {
+      "q": "Is a white crust on potting soil mold or salt?",
+      "a": "Feel it. Salt is hard, gritty and crusty, collects on the soil surface, pot rim and drainage hole, and Clemson describes it as white to gray. Soil fungi look soft and fluffy, white or yellow, and Clemson notes they are saprophytic, living on organic matter rather than the plant. Scrape salt away with the top inch of mix and flush the pot. Fluffy mold usually fades once the surface is allowed to dry between waterings."
+    },
+    {
+      "q": "Can a humidifier fix brown leaf tips?",
+      "a": "It fixes the brown tips caused by dry air, which is the common winter culprit: the Illinois Extension says most homes drop below 30 percent humidity in winter. A humidifier near the plant raises moisture steadily, unlike misting, which lasts only minutes. It will not cure tips burned by fluoride, softened water or salt buildup, so if a humidifier runs and new tips still brown, look at your water and check the soil for a white crust."
+    },
+    {
+      "q": "How long should tap water sit before watering plants?",
+      "a": "Clemson and the Illinois Extension both say 24 hours at room temperature. Letting it stand also brings the water close to the 62 to 72 degree range Clemson recommends for houseplants. Standing water does nothing for softened water, which still carries sodium, so never use that. For the most fluoride-sensitive plants, such as spider plants and calatheas, NC State Extension advises distilled or rainwater rather than relying on standing tap water."
+    },
+    {
+      "q": "Why do my houseplants get brown tips every winter?",
+      "a": "Heating dries the air, and the Illinois Extension puts most homes below 30 percent humidity in winter. Leaves lose moisture at their edges faster than roots can supply it, especially near radiators or vents. Plants also grow slowly in short days, so salts from summer feeding sit in the mix longer. Move pots away from heat sources, run a humidifier or pebble tray, stop feeding until March, and flush the pot if a crust appears."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Houseplant Diseases & Disorders",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Cleaning, Fertilizing, Containers & Light Requirements",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Watering",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant Care",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/houseplant-care/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Chlorophytum comosum (Spider Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Goeppertia (Calathea, Prayer Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "relatedPlants": [
+    "spider-plant",
+    "calathea",
+    "prayer-plant",
+    "pothos",
+    "monstera"
+  ],
+  "relatedGuides": [
+    "yellow-leaves",
+    "overwatering-vs-underwatering",
+    "houseplant-pests",
+    "how-often-to-water-plants"
+  ],
+  "verified": "2026-10-04"
+}

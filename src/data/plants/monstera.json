@@ -1,0 +1,296 @@
+{
+  "slug": "monstera",
+  "commonName": "Monstera",
+  "otherNames": [
+    "Swiss cheese plant",
+    "Split-leaf philodendron",
+    "Ceriman",
+    "Mexican breadfruit",
+    "Hurricane plant"
+  ],
+  "botanicalName": "Monstera deliciosa",
+  "formerNames": [],
+  "family": "Araceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [150, 300],
+    "lux": [1615, 3229],
+    "windows": ["east", "west", "south"],
+    "directSun": "avoid",
+    "src": [0, 1, 2, 4]
+  },
+  "water": {
+    "rule": "top-2-inches",
+    "ruleText": "Water thoroughly, then let the top quarter to one-third of the mix dry before the next watering",
+    "winter": "Growth slows in winter and the mix stays damp longer; the RHS advises watering slightly less often.",
+    "factors": [
+      "Large leaves lose a lot of water in bright, warm rooms, so a monstera near a sunny window dries out much faster than one in a dim corner.",
+      "Never leave the pot standing in a saucer of water: the RHS links waterlogged compost to root rot and collapse.",
+      "In hard-water areas the RHS prefers rainwater or filtered water at room temperature to keep the mix slightly acidic."
+    ],
+    "src": [0, 1]
+  },
+  "soil": {
+    "mix": "An open, chunky, well-drained mix rich in bark, such as the RHS blend of two parts orchid compost to one part peat-free ericaceous compost, in a heavy pot that will not tip.",
+    "components": [
+      "orchid bark compost",
+      "peat-free ericaceous (acidic) compost",
+      "perlite for extra drainage"
+    ],
+    "src": [0, 1]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "NC State lists high humidity; the RHS asks for moderate humidity and warns that dry, heated air browns the leaf edges.",
+    "src": [0, 1]
+  },
+  "temperature": {
+    "idealF": [65, 77],
+    "idealC": [18, 25],
+    "minF": 60,
+    "minC": 16,
+    "maxF": 85,
+    "maxC": 29,
+    "src": [0, 1]
+  },
+  "fertilizer": {
+    "season": "April to September, while the plant is actively growing",
+    "everyWeeks": [4, 13],
+    "strength": "full",
+    "type": "Balanced liquid houseplant fertilizer (10-10-10, or a 1:2:1 ratio such as 10-20-10) at the label rate, never stronger",
+    "winter": "none",
+    "src": [1, 5]
+  },
+  "repotting": {
+    "signs": [
+      "Roots circle the bottom of the pot or escape the drainage holes",
+      "Thick aerial roots push the root ball up out of the container",
+      "The mix dries out within days of a thorough watering",
+      "The top-heavy plant tips its pot over"
+    ],
+    "season": "Spring",
+    "rootType": "epiphytic",
+    "prefersSnug": false,
+    "src": [0, 1, 6]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: chewing the plant burns the mouth and throat, and the sap can cause contact dermatitis. Only the fully ripe fruit is edible.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Swiss Cheese Plant (Monstera deliciosa)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/swiss-cheese-plant",
+        "toxicPrinciples": "Insoluble calcium oxalates",
+        "clinicalSigns": "Oral irritation, intense burning and irritation of mouth, tongue and lips, excessive drooling, vomiting, difficulty swallowing"
+      }
+    ],
+    "src": [0, 3]
+  },
+  "problems": [
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Small, solid leaves with no holes on long, stretched stems",
+      "causeKey": "low-light",
+      "cause": "Too little light for the plant to build mature, fenestrated leaves",
+      "remedy": "Move it into bright, indirect light near an east or west window and give it a moss pole; the holes appear on new leaves, never on old ones."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Lower leaves turn yellow while the mix still feels damp",
+      "causeKey": "overwatering",
+      "cause": "Watering again before the top quarter to third of the mix has dried",
+      "remedy": "Hold off until the upper part of the pot is dry to a finger or skewer, then water thoroughly and empty the saucer."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "The plant wilts and collapses, roots brown and soft",
+      "causeKey": "poor-drainage",
+      "cause": "Dense compost or a pot left standing in water",
+      "remedy": "Unpot, cut away soft roots, and replant in a bark-rich mix in a pot only 1 or 2 inches wider than the healthy root ball."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Leaf margins brown and crisp, starting at the edges",
+      "causeKey": "low-humidity",
+      "cause": "Dry air from central heating",
+      "remedy": "Run a humidifier or stand the pot on a tray of wet pebbles, and group it with other tropical plants."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Pale, papery scorched patches on the upper leaves",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sun through glass",
+      "remedy": "Pull the plant back from a south or west window, or filter the light with a sheer curtain; trim badly scorched leaves at the stalk."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky residue on leaves and white fluff along the stems",
+      "causeKey": "pests",
+      "cause": "Mealybugs feeding on the sap",
+      "remedy": "Wipe leaves on both sides, dab colonies with rubbing alcohol on a cotton swab, and treat with insecticidal soap until no new fluff appears."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings that include a node and an aerial root",
+      "Air layering"
+    ],
+    "season": "Spring to late summer"
+  },
+  "size": {
+    "heightIn": [72, 96],
+    "growth": "fast",
+    "src": [0]
+  },
+  "varieties": [
+    {
+      "name": "Thai Constellation",
+      "note": "Creamy white speckled and marbled variegation that resembles a star chart; rare and slow to find."
+    },
+    {
+      "name": "Albo Variegata",
+      "note": "Bold white sectors on green leaves; striking, scarce and expensive, and it needs more light than the plain form."
+    },
+    {
+      "name": "Variegata",
+      "note": "Variegated form holding the RHS Award of Garden Merit."
+    },
+    {
+      "name": "Monstera adansonii (related species)",
+      "note": "A smaller, less vigorous monstera with holey leaves, sold for tighter spaces."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Monstera deliciosa (Split-leaf Philodendron)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow Swiss cheese plants",
+      "publisher": "Royal Horticultural Society (RHS)",
+      "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Philodendron, Pothos & Monstera (HGIC 1509)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron-pothos-monstera/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Swiss Cheese Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/swiss-cheese-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Air Layering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/air-layering",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["philodendron", "pothos"],
+  "seo": {
+    "title": "Monstera Care: Light, Water & Leaf Holes Guide (2026)",
+    "description": "Monstera care in 2026: water once the top quarter to third of the mix is dry, keep it above 60°F, add a moss pole for holes. Watering calculator and fixes.",
+    "h1": "Monstera care: light, water and bigger split leaves"
+  },
+  "content": {
+    "answer": "Give a monstera bright, indirect light, water thoroughly once the top quarter to third of the mix has dried, and keep it between 65 and 77°F with moderate to high humidity. A moss pole and a heavy pot help it build large, split leaves.",
+    "intro": "The holes in a monstera leaf are earned, not bought: a young Monstera deliciosa makes small, solid, heart-shaped leaves, and only mature leaves grown in good light develop the perforations and deep splits behind the name Swiss cheese plant. NC State Extension describes it as a woody climbing vine of the arum family, native from Mexico to Panama, that can reach 70 feet in the forest yet usually stays at 6 to 8 feet in a home. It begins life rooted in the ground and turns epiphytic once it meets a tree, which explains the thick, cord-like aerial roots that snake out of the stems. Indoors, those roots want something to grip. Give the plant a sturdy pole, bright light softened by a curtain, warmth and a bark-rich mix that drains fast, and it rewards you with leaves a foot or more across. Starve it of light and it stays juvenile, all stem and no windows.",
+    "light": [
+      "Fenestration works like a light meter you can read at a glance. Clemson Extension warns that a monstera grown in too little light will not develop its perforations, and the RHS adds that plants kept in very low light carry fewer holes. NC State asks for moderate brightness without direct sun, and the RHS suggests an east- or west-facing window, or a bright room a little back from the glass. In University of Illinois Extension terms that is medium to high light, roughly 150 to 300 foot-candles: directly in front of an east or west window, or within about 5 feet of a south one.",
+      "Hot afternoon sun through glass is the upper limit. The RHS notes that direct sun scorches the leaves, leaving pale, papery patches that never green up again. Variegated forms such as 'Thai Constellation' carry less chlorophyll, and NC State says they need more light than plain green plants, so give them the brightest filtered spot you have. Turn the pot now and then, because new leaves unfurl toward the window and a lopsided plant is harder to stake."
+    ],
+    "water": [
+      "NC State gives an unusually precise rule for this plant: soak the pot, then let the top quarter to one-third of the mix dry before watering again. In a deep floor pot that means several inches of dry mix, not just a dry crust, so push a finger or a wooden skewer well down before you decide. The RHS phrases it as letting the compost become almost dry before a thorough watering, and never leaving the pot sitting in a saucer.",
+      "Those broad leaves move a lot of water in summer, and a monstera on a bright, warm sill can dry out faster than you expect. Winter reverses the picture: growth slows, the mix stays damp longer, and the RHS advises watering slightly less often. Check the mix each time rather than keeping a calendar.",
+      "Water quality matters too. The RHS recommends rainwater or filtered water at room temperature where tap water is hard and alkaline, because the plant prefers a slightly acidic root zone. If you grow it on a moss pole, wet the moss when you water; the RHS notes the aerial roots will grow into it when it stays moist, which anchors the stems far better than ties alone."
+    ],
+    "soil": [
+      "The RHS recommends an open, well-drained, slightly acidic mix of about pH 5 to 6, made from two parts orchid compost to one part peat-free ericaceous compost. That chunky, bark-heavy blend copies the tree bark the plant clings to in the wild and lets air reach roots that rot quickly in dense, waterlogged soil. NC State lists the plant for soils high in organic matter with good drainage but in a neutral pH range, so the two sources disagree on acidity; a quality houseplant mix opened up with orchid bark and perlite sits comfortably between them. Pick a heavy pot: the RHS points out that big monsteras become top-heavy and topple light plastic containers."
+    ],
+    "humidity": [
+      "Monstera grows in forest understory where the air stays humid, and NC State lists high humidity as its preference. The RHS is a little more relaxed, asking for moderate humidity, but warns that leaf edges brown when central heating dries the air. A humidifier or a tray of wet pebbles under the pot, both suggested by NC State, does more than occasional misting, and grouping several tropical plants together raises the moisture around all of them."
+    ],
+    "temperature": [
+      "Keep a monstera warm all year. The RHS gives 65 to 77°F (18 to 25°C) as the target, and NC State a broader average of 60 to 85°F, so treat 60°F as the floor. Cold drafts from an opened door or a single-pane window in January are the usual threat, and the RHS also warns against parking the plant beside a radiator or heating vent, where hot, dry air crisps the foliage."
+    ],
+    "fertilizer": [
+      "Feed only during active growth. The RHS recommends a balanced liquid fertilizer from April to September, and the University of Illinois Extension advises feeding most houseplants no more than once every one to three months between March and September, using a balanced 10-10-10 or a 1:2:1 ratio such as 10-20-10 at the label rate. A fast-growing monstera in bright light can take the monthly end of that range; one in a dimmer room needs far less, because a plant that is barely growing cannot use the salts. Illinois also suggests leaching the pot with a large volume of plain water every 4 to 6 months to rinse out salt buildup."
+    ],
+    "repotting": [
+      "A young monstera can usually stay in its nursery pot for a year or two, according to the RHS, after which this vigorous climber wants a new container every few years. The signs are roots circling the base or escaping the drainage holes, thick aerial roots lifting the plant out of its pot, and a root ball that dries within days of a soaking. Repot in spring, the season NC State names for pruning and repotting.",
+      "Go up only 1 or 2 inches in diameter, the Clemson Extension rule for houseplants; the RHS likewise warns that an oversized pot keeps the compost wet too long. Set the moss pole at the same time, pushing it to the bottom of the new pot before the root ball goes in, so you never have to spear through roots later. Tie stems to it loosely with soft ties; NC State notes that sturdy support keeps the heavy stems from breaking."
+    ],
+    "propagation": [
+      "Monstera roots from stem cuttings, and NC State also lists layering. What matters is the node, the swollen ring on the stem where a leaf stalk and usually an aerial root emerge. Cut just below a node that carries an aerial root, keep one leaf, and stand the cutting in water in a bright spot, as the RHS suggests, until it has a good set of roots, then pot it in the same airy mix. A leaf snipped off with only its stalk has no bud to grow from, however long it sits in a vase.",
+      "Air layering suits a tall, leggy plant whose top you want to keep. The University of Illinois Extension describes the method: a shallow upward cut into the stem, a fist-sized ball of very moist sphagnum peat moss around it, clear plastic tied over the moss, and roots showing through after 3 to 4 months. Choosing a spot just below an aerial root gives the new roots a head start. Once they show, cut beneath the moss ball and pot the rooted top."
+    ],
+    "problems": [
+      "Most monstera trouble comes down to light or water. Small leaves without holes on long, bare stems mean the plant is reaching for light, which Clemson and the RHS both connect to missing fenestrations. Yellowing lower leaves in a pot that never dries point to roots sitting wet, and the RHS lists overwatering and poorly draining compost as the causes of root rot and collapse. Brown, crisp margins follow dry indoor air, and scorched pale patches follow direct sun. Sticky residue usually means mealybugs, the pest the RHS names. Beyond these, NC State reports no significant problems, which makes the plant forgiving once its basics are in place."
+    ],
+    "petSafety": [
+      "The ASPCA lists the Swiss cheese plant (Monstera deliciosa) as toxic to both cats and dogs. Its tissues hold insoluble calcium oxalate crystals, and a pet that bites a leaf typically shows oral irritation, intense burning and irritation of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. NC State rates the poison severity for people as low, noting that the sap can irritate skin. Keep the plant away from pets that chew, wear gloves when pruning as the RHS advises, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if a pet eats any of it."
+    ],
+    "faq": [
+      {
+        "q": "Why does my monstera have no holes in its leaves?",
+        "a": "Age and light decide it. Young plants produce solid leaves, and the RHS says holes usually start once a plant is a few years old. Light comes next: Clemson Extension notes that a monstera in too little light will not develop perforations. Move it to bright, indirect light near an east or west window and give it a pole, since the RHS finds that climbing plants make larger leaves with more holes. Existing leaves will not change, so judge progress by the new ones."
+      },
+      {
+        "q": "What should I do with monstera aerial roots?",
+        "a": "Keep them. They are how the plant climbs and anchors itself; NC State notes that in the wild it turns epiphytic once it reaches a tree. Guide long roots onto a moss pole, which the RHS says they will root into if the moss stays moist, or tuck them down into the potting mix, where they behave like ordinary roots. A cutting taken just below an aerial root also has a ready-made start when you propagate."
+      },
+      {
+        "q": "Is monstera fruit edible?",
+        "a": "Only when fully ripe, and indoor plants almost never produce it. NC State describes the fruit as a cluster of creamy-white berries under green hexagonal scales, ripe once the scales fall off on their own, with a flavor like banana and pineapple; some people are allergic to it. The RHS warns that unripe fruit can be toxic, because it carries the same irritating compounds as the rest of the plant."
+      },
+      {
+        "q": "How big does a monstera get indoors?",
+        "a": "NC State says Monstera deliciosa usually stays between 6 and 8 feet tall in homes, although the same vine can climb 70 feet in its native forests, with leaves of a foot or more. The RHS notes that plants bought at 1 to 3 feet can soon reach the ceiling. If space runs out, prune in spring, but expect the new shoots to carry smaller leaves with fewer holes for a while, as the RHS warns."
+      },
+      {
+        "q": "Can I grow a new monstera from just one leaf?",
+        "a": "Not from a leaf alone. A new plant needs a bud, and buds sit at the nodes, the ringed joints on the stem where a leaf stalk and usually an aerial root emerge. The University of Illinois Extension defines the node as the point where the leaf emerges and builds its cutting advice around it. Take your cutting just below a node, keep one leaf attached, and root it in water or moist mix."
+      }
+    ]
+  }
+}

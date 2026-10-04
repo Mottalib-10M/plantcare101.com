@@ -1,0 +1,345 @@
+{
+  "slug": "bird-of-paradise",
+  "commonName": "Bird of paradise",
+  "otherNames": [
+    "Crane flower",
+    "Bird's tongue flower",
+    "Orange bird of paradise"
+  ],
+  "botanicalName": "Strelitzia reginae",
+  "formerNames": [],
+  "family": "Strelitziaceae",
+  "kind": "flowering",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [
+      300,
+      1500
+    ],
+    "lux": [
+      3229,
+      16146
+    ],
+    "windows": [
+      "south",
+      "west"
+    ],
+    "directSun": "needs",
+    "src": [
+      0,
+      1,
+      3,
+      5
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Wet the whole root ball, then let the mix dry slightly before watering again",
+    "winter": "Water less often from late fall to late winter, when light is weak and the mix dries slowly; NC State and Missouri Botanical Garden both say to keep it drier in winter.",
+    "factors": [
+      "Clemson ties root rot to mix that drains slowly or to watering too often.",
+      "Spring and summer growth calls for generous watering; NC State says to water freely in that season.",
+      "A plant summering outdoors in full sun dries out far faster than one behind glass."
+    ],
+    "src": [
+      0,
+      1,
+      3
+    ]
+  },
+  "soil": {
+    "mix": "A fertile, loamy, well-drained potting mix that holds some moisture but never stays soggy.",
+    "components": [
+      "loam-based potting mix",
+      "compost or other organic matter",
+      "coarse sand or perlite for drainage"
+    ],
+    "src": [
+      0,
+      1,
+      3
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Clemson suggests moderate humidity, around 60 percent, which may mean daily misting in dry winter rooms.",
+    "src": [
+      0,
+      6
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      65,
+      70
+    ],
+    "idealC": [
+      18,
+      21
+    ],
+    "minF": 50,
+    "minC": 10,
+    "src": [
+      0,
+      1,
+      3
+    ]
+  },
+  "fertilizer": {
+    "season": "Every 2 weeks in spring, weekly in summer, none in fall or winter",
+    "everyWeeks": [
+      1,
+      2
+    ],
+    "strength": "full",
+    "type": "Houseplant fertilizer at the label rate, balanced (10-10-10) or 1:2:1; too much nitrogen gives leaves instead of flowers",
+    "winter": "none",
+    "src": [
+      0,
+      6
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Rhizomes and leaf fans crowd the rim of the pot",
+      "Roots circle in a solid mass when the root ball is slid out",
+      "The mix dries out within a day or two of a thorough watering in summer"
+    ],
+    "season": "Early spring, before new growth begins",
+    "rootType": "rhizome",
+    "prefersSnug": false,
+    "src": [
+      0,
+      7
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: mild nausea, vomiting and drowsiness, caused mainly by the fruit and seeds.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Bird of Paradise Flower (Strelitzia reginae)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower",
+        "toxicPrinciples": "GI irritants",
+        "clinicalSigns": "Mild nausea, vomiting, drowsiness; caused mainly by fruit and seeds"
+      }
+    ],
+    "src": [
+      1,
+      4
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Big healthy leaves but no flower stalks for years",
+      "causeKey": "low-light",
+      "cause": "A spot dimmer than full sun or a bright south window",
+      "remedy": "Move it to the sunniest window you have, or outdoors in summer, and expect blooms only on a clump that has had time to mature."
+    },
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Lush, oversized foliage with few or no blooms in a sunny spot",
+      "causeKey": "fertilizer-salts",
+      "cause": "Overfertilizing, which Clemson says produces leaves instead of flowers",
+      "remedy": "Stop feeding from fall through winter, flush the pot with plain water, and go back to label-rate feeding only in spring and summer."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Leaf stalks soft and dark where they meet the soil",
+      "causeKey": "overwatering",
+      "cause": "Root and rhizome rot from slow-draining mix or watering too often",
+      "remedy": "Unpot, cut away soft rhizome, repot healthy fans in fresh, fast-draining mix and wait until the top of the mix dries before watering."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Yellow or brown spots scattered across the blades",
+      "causeKey": "disease",
+      "cause": "Leaf spot, which NC State lists for this plant",
+      "remedy": "Remove the worst leaves, water the mix rather than the foliage, and give the plant more air movement."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White waxy tufts or brown bumps along stalks and leaf bases",
+      "causeKey": "pests",
+      "cause": "Mealybugs or scale insects",
+      "remedy": "Wipe off what you can with rubbing alcohol on a cotton swab, then treat with insecticidal soap and check the leaf bases every week."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale stippling on the undersides of leaves",
+      "causeKey": "pests",
+      "cause": "Spider mites, worst in dry indoor air",
+      "remedy": "Rinse the leaves in the shower, raise humidity, and spray insecticidal soap on both leaf surfaces until no new webbing appears."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of the rhizome",
+      "Fresh, scarified seed"
+    ],
+    "season": "Early spring, before new growth"
+  },
+  "size": {
+    "heightIn": [
+      36,
+      60
+    ],
+    "widthIn": [
+      36,
+      60
+    ],
+    "growth": "moderate",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Mandela's Gold",
+      "note": "A Strelitzia reginae selection with yellow petals instead of orange and the usual blue tongue."
+    },
+    {
+      "name": "Strelitzia reginae var. juncea",
+      "note": "Leaves stay as round, rushlike spears without blades; flowers are the same colors but slightly smaller."
+    },
+    {
+      "name": "Strelitzia nicolai (white bird of paradise)",
+      "note": "A separate, much larger species with white and blue flowers, sold as a big indoor foliage plant."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bird of Paradise",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/bird-of-paradise/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Strelitzia reginae (Bird of Paradise)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/strelitzia-reginae/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Strelitzia nicolai (White Bird of Paradise)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/strelitzia-nicolai/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Strelitzia reginae",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=282766",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Bird of Paradise Flower",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bird-paradise-flower",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Bird of Paradise (Caesalpinia gilliesii)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bird-paradise",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "snake-plant"
+  ],
+  "seo": {
+    "title": "Bird of Paradise Care: Sun, Water & Getting Blooms (2026)",
+    "description": "Bird of paradise care in 2026: full sun, nights no colder than 50°F, feeding every 2 weeks in spring and weekly in summer. Watering calculator and bloom fixes.",
+    "h1": "Bird of paradise care: sun, water and flowers"
+  },
+  "content": {
+    "answer": "Give a bird of paradise the brightest spot you have, ideally full sun at a south window. Soak the pot, let the mix dry slightly, feed every two weeks in spring and weekly in summer, and keep nights above 50°F.",
+    "intro": "Strelitzia reginae flowers sideways. Each bloom stalk ends in a hard, beaklike bract held at a right angle to the stem, and out of it rise, one at a time, three orange sepals and an arrow of fused blue petals; in South Africa, sunbirds that perch on that blue arrow get their feet coated in pollen, as Missouri Botanical Garden describes it. Indoors there are no sunbirds, and the real question is whether your plant flowers at all. Clemson Extension's answer is light: the plant prefers full sun and merely tolerates something as dim as a south-facing window. It grows from underground rhizomes into a trunkless clump of stiff, paddle-shaped leaves about five feet tall and wide, so measure the corner before you buy. Divisions take two to three years to bloom and seedlings four to ten or more, Clemson notes, which is why a mature clump in a sunny room is worth keeping.",
+    "light": [
+      "Sun is the price of flowers. Clemson describes full sun as the preference and a south window as the lower limit, and NC State lists it for full sun to part shade, six hours of direct light or at least two. In Illinois Extension terms, that puts the plant in front of a south window, the only indoor spot rated at direct light (about 1,500 foot-candles), or right at an east or west window for the 300 foot-candles of bright light. A bird of paradise parked in the middle of a living room will live for years on that light, adding leaf after leaf, and never send up a single beak.",
+      "Missouri Botanical Garden adds one nuance: indoors, screen it from the very brightest direct summer sun through glass. A sheer curtain at midday in July does the job. Better still, once outdoor temperatures hold above 70°F, NC State suggests moving the pot outside to a sunny or semi-shaded spot with good air circulation, then bringing it back before nights turn cool."
+    ],
+    "water": [
+      "Clemson's instruction is short: wet the potting mix thoroughly, then let it dry slightly before the next watering. In practice that means pouring until water runs from the drainage hole and checking again only when the top inch feels dry under your finger. A large clump in a big pot can hold moisture deep down long after the surface looks pale, so push a finger or a wooden skewer well into the mix before deciding.",
+      "Spring and summer are the thirsty months. NC State says to water freely in that season, when new fans are unrolling from the rhizome and, on a mature plant, bloom stalks are forming. A pot moved outdoors into full sun may need water far more often than it ever did on the windowsill.",
+      "From late fall through winter, both NC State and Missouri Botanical Garden say to keep the plant drier. Shorter days slow growth, the mix stays wet longer, and Clemson points to slow-draining soil and too-frequent watering as the usual causes of root rot. Watering by the calendar in December is how most indoor clumps get into trouble."
+    ],
+    "soil": [
+      "This is a heavy, fleshy-rooted plant, and it wants a mix with some body. NC State calls for fertile, loamy, well-drained soil, and Missouri Botanical Garden notes that in the ground it loves rich loam, though it tolerates most soils. A loam-based potting mix with some compost, opened up with coarse sand or perlite so excess water drains in seconds, matches that description. Use a pot with a drainage hole and enough weight to keep five feet of leaves from tipping over."
+    ],
+    "humidity": [
+      "Clemson suggests moderate relative humidity, around 60 percent, and warns that keeping it there in the dry months may take daily misting. Most heated homes run well below that in winter. The Illinois Extension notes that most homes drop below 30 percent humidity in winter and suggests a humidifier, a tray of wet pebbles under the pot, or grouping plants together; it also warns that misting raises humidity only briefly and, overdone, can encourage disease."
+    ],
+    "temperature": [
+      "Clemson's ideal is 65 to 70°F by day and 50 to 55°F at night, while NC State and Missouri Botanical Garden give 55 to 65°F for nights. That cool-night pattern suits most homes in winter. Treat 50°F as the floor: Clemson advises bringing summering plants indoors as soon as outdoor temperatures begin to fall below 60°F, and Missouri Botanical Garden notes that frost damages both leaves and flowers."
+    ],
+    "fertilizer": [
+      "Clemson gives an unusually specific schedule: feed every two weeks in spring, every week in summer, and not at all in fall or winter. Use a houseplant fertilizer at the label rate, never stronger; the Illinois Extension suggests balanced formulas such as 10-10-10 or a 1:2:1 ratio. The catch is in the same Clemson fact sheet: overfertilizing produces excessive foliage with little or no flowering. If a sunny plant is all leaves, ease off before you blame the light."
+    ],
+    "repotting": [
+      "Repot or divide in early spring, before new growth starts, the timing Clemson gives for dividing the rhizomes. Slide the root ball out and look: roots wound into a solid mass, or fans pressing against the rim, mean it is time. For a plant you want to keep whole, choose a pot only one or two inches wider than the old one, as Clemson's general repotting guidance advises, since a huge pot of wet mix around a slow-drinking clump invites rot."
+    ],
+    "propagation": [
+      "Division is the practical route. In early spring, lift the clump from its pot and cut the rhizome with a sharp knife so that each piece has a fan of leaves with roots attached. Clemson then has you pot each division, water it and keep it warm in bright, indirect light for eight weeks while it regrows roots, before moving it into bright sun. Flowers should follow in two to three years.",
+      "Seed is a long game. It must be fresh, under six months old, and its hard coat has to be scraped with a file before sowing. Press the seeds into moist seed-starting mix, cover with plastic, and give bottom heat of 75 to 90°F; Clemson says seedlings emerge in six to 12 weeks, vary in character, and may need four to ten years or more to bloom."
+    ],
+    "problems": [
+      "The most common complaint is a handsome plant that never flowers, and the fix is almost always more sun or less fertilizer. Real damage comes from water: Clemson lists too much or too little water, plus insects and mites, as the main troubles, with root rot from slow-draining mix the usual killer. NC State names mealybugs, scale and spider mites as the pests to watch, and leaf spot as the cause of yellow or brown spotting. Torn blades are cosmetic: NC State describes the banana-like leaves of the related white bird ripping along their veins in wind, and a torn leaf goes on feeding the plant."
+    ],
+    "petSafety": [
+      "The ASPCA lists the bird of paradise flower, Strelitzia reginae, as toxic to cats, dogs and horses. Its toxic principles are gastrointestinal irritants, and the clinical signs are mild nausea, vomiting and drowsiness, caused mainly by the fruit and seeds. NC State gives the same signs for people and rates the severity as low. Beware a name mix-up: the ASPCA entry titled simply \"Bird of Paradise\" is Caesalpinia gilliesii, an unrelated shrub. If a pet chews the plant, especially seed pods, call your veterinarian or the ASPCA Animal Poison Control Center."
+    ],
+    "faq": [
+      {
+        "q": "Is the big white bird of paradise the same plant as the orange one?",
+        "a": "No. The large houseplant sold as white bird of paradise is Strelitzia nicolai, which NC State describes as popular as an ornamental houseplant and capable of 20 to 30 feet in its native range. The orange-flowered plant is Strelitzia reginae, a clump of about three to five feet. Clemson uses \"giant bird of paradise\" for S. nicolai and reserves \"white\" for Strelitzia alba, so labels vary."
+      },
+      {
+        "q": "How long does a bird of paradise take to bloom?",
+        "a": "Longer than most people expect. Clemson says a division takes two to three years to flower and a plant raised from seed four to ten years or more. A young store-bought plant with only a few fans may simply be too immature. Once it is big enough, full sun, warm summers and no fertilizer in fall and winter give it the best chance."
+      },
+      {
+        "q": "Why are my bird of paradise leaves splitting?",
+        "a": "Splits that follow the veins come from the leaf's structure, not from disease. NC State notes that the banana-like blades of the related Strelitzia nicolai rip easily along their veins in wind, and the orange species has the same parallel venation. Indoors, a spot where people brush past or a fan blows adds tears. Splits never close but do not harm the plant; remove a leaf only when it is mostly brown."
+      },
+      {
+        "q": "Can I put my bird of paradise outside for the summer?",
+        "a": "Yes, and it often helps flowering. NC State suggests moving it out once outdoor temperatures rise above 70°F, into sun or light shade with good air movement. The Illinois Extension advises a gradual move over one to two weeks, a few more hours outside each day. Clemson says to bring it back inside when temperatures begin to drop below 60°F."
+      },
+      {
+        "q": "Is bird of paradise poisonous to cats?",
+        "a": "The ASPCA lists Strelitzia reginae as toxic to cats and dogs, with mild nausea, vomiting and drowsiness as the signs. Most of the risk sits in the fruit and seeds rather than the leaves, so remove spent flower heads before pods form if a cat likes to chew. Call a veterinarian or the ASPCA Animal Poison Control Center if your pet eats any."
+      }
+    ]
+  }
+}

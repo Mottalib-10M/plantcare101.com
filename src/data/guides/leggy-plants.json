@@ -1,0 +1,115 @@
+{
+  "slug": "leggy-plants",
+  "nav": "Leggy plants",
+  "seo": {
+    "title": "Leggy Plants: Why Houseplants Stretch and the Fix (2026)",
+    "description": "Leggy houseplants are usually starved of light. Measure your spot in foot-candles, move the plant closer, prune and root the cuttings. Extension-sourced, 2026.",
+    "h1": "Leggy plants: why houseplants stretch toward the light and how to fix them"
+  },
+  "answer": "A leggy plant has long, bare stems with small leaves spaced far apart, and the cause is almost always too little light. Move it closer to a window or add a grow light, then cut the stretched stems back above a leaf node. Old stretched growth never tightens up; only new growth does.",
+  "intro": "Indoors, light runs out much faster than our eyes suggest. The Illinois Extension puts full outdoor sun at 10,000 to 12,000 foot-candles, while Clemson HGIC says the inside of a well-lit home is often under 100. A plant that sits a few feet too far from the glass responds by stretching: the stem grows longer between leaves, new leaves come in smaller and paler, and the whole plant leans toward the window. That shape is called leggy, and it is a signal rather than a disease. Two things have to happen to fix it. The plant needs more light so that new growth comes in compact, and the stretched stems need pruning, because a long internode stays long for good. The cuttings you remove can usually be rooted, so a leggy plant often ends up as two fuller ones.",
+  "tool": {
+    "kind": "light",
+    "title": "Pick your window and the plant's distance from the glass to estimate the light it gets in foot-candles."
+  },
+  "sections": [
+    {
+      "h2": "What leggy growth looks like, and what it is not",
+      "paras": [
+        "Look at the spacing between leaves. On a healthy plant the nodes, the points where leaves attach, sit fairly close together. On a light-starved one the stem between them stretches, leaves shrink, variegation fades (the Illinois Extension notes this on pothos) and the plant tilts hard toward the brightest side. Succulents show it fast: a tight rosette loosens and the stem elongates. A monstera in dim light keeps producing small leaves without holes, and an African violet sends up thin, dark leaves on long stalks.",
+        "Not every bare stem means low light. A pothos vine naturally sheds its oldest leaves and ends up with foliage only at the tips, which pruning fixes but more light alone will not. The Illinois Extension notes that a weeping fig grown in a pot tends to develop a single stem, so a sparse habit can be the plant's shape rather than a symptom. And Clemson HGIC observes that ordinary incandescent bulbs make plants stretch even when they seem bright to us, because the light they give is poor for plant growth."
+      ]
+    },
+    {
+      "h2": "How much light your windows really deliver",
+      "paras": [
+        "The Illinois Extension sorts indoor light into four levels by foot-candles, the amount of light one candle casts one foot away, and links each to a window and a distance. The tool above uses these as its anchor points and estimates the light in between. It opens on a spot 6 feet from a north window, which works out to about 54 foot-candles: below the 75 that counts as low light, which is exactly where plants get leggy. A sheer curtain or a tree outside roughly halves the estimate.",
+        "Clemson HGIC adds two useful thresholds: about 100 foot-candles for 12 hours a day is needed just to keep a plant in condition for a year, and at least 200 for 12 hours before a foliage plant gets any benefit from fertilizer. Light also changes with the seasons. The Illinois Extension points out that winter sun reaches farther into rooms and that trees outside let more light through once their leaves drop, so a spot that was fine in January can be too dim in July. A phone light meter app gives a real reading if you want to check the estimate."
+      ],
+      "table": {
+        "caption": "Indoor light levels and where to find them (Illinois Extension, Lighting)",
+        "head": ["Light level", "Foot-candles", "North window", "East or west window", "South window"],
+        "rows": [
+          ["Low", "75", "A few feet away", "3 to 10 ft away", "15 to 20 ft away"],
+          ["Medium", "150", "Directly in front", "A few feet away", "3 to 10 ft away"],
+          ["High (bright)", "300", "Not reached", "Directly in front", "Up to 5 ft away"],
+          ["Direct", "1,500", "Not reached", "Not reached", "Directly in front"]
+        ]
+      }
+    },
+    {
+      "h2": "Move the plant closer, but in stages",
+      "paras": [
+        "The cheapest fix is relocation. Going from 8 feet to 3 feet off an east window doubles the light in the tool's model, from about 75 to about 150 foot-candles. Turn the pot every so often so that one side does not do all the reaching. If no spot in the room reaches what the plant needs, change the plant rather than the room: the tool lists the plants that thrive at the distance you enter, and a snake plant or ZZ plant, which our guides rate down to 75 foot-candles, will accept a corner where a succulent or a fiddle-leaf fig, both starting at 150, keeps stretching.",
+        "Do it gradually. Clemson HGIC warns that leaves bleach or scald when a plant suddenly gets more direct light than it is used to, and advises that any change in light intensity be gradual. A plant that has spent months in a dim corner should spend some time partway to the window before it goes onto the sill, and shade lovers such as calathea or peace lily should stay out of hot afternoon sun even when they are leggy."
+      ]
+    },
+    {
+      "h2": "Add a grow light when the window is not enough",
+      "paras": [
+        "Some rooms simply do not have a bright enough spot. The Illinois Extension recommends cool white fluorescent tubes for foliage plants and incandescent or dedicated grow bulbs for flowering ones, and notes that plants need both blue and red wavelengths. UF/IFAS Gardening Solutions suggests lighting plants during the day rather than at night, keeping a sensible distance from the lamp, and wiping dust off the bulbs, since a dusty lamp loses much of its output.",
+        "Longer days can compensate for weak light. The Illinois Extension says 14 to 16 hours of light is sufficient in low light conditions and warns against more than 16, because plants need a dark rest period. Clemson HGIC gives the same figure as 16 hours of light and 8 of darkness, and suggests an electric timer so the cycle never slips."
+      ]
+    },
+    {
+      "h2": "Prune the stretched stems",
+      "paras": [
+        "More light only fixes future growth. The long, bare section you already have will stay that way, so the next step is to cut it. Make each cut just above a node with clean shears; new shoots usually break from the buds just below the cut, which turns one long stem into two or more shorter ones. Spring and early summer, when the plant is actively growing, give the fastest response.",
+        "On trailing plants, regular pinching prevents the problem from coming back. The Illinois Extension advises pinching off the shoot tips of English ivy frequently to keep it bushy, and the same habit works on pothos, heartleaf philodendron and other vines. For cane plants that have become a bare stalk with a tuft on top, the Illinois Extension's suggestion for dieffenbachia applies: cut the top off and root it, or air layer it while it is still attached."
+      ],
+      "list": [
+        "Cut just above a node, never in the middle of a bare internode.",
+        "Remove no more than you need to restore the shape; the plant still needs leaves to recover.",
+        "Prune after you have moved the plant to better light, not before.",
+        "Skip fertilizer as a fix: the Illinois Extension warns that plants growing slowly in dim light are easily damaged by too much of it."
+      ]
+    },
+    {
+      "h2": "Turn the cuttings into new plants",
+      "paras": [
+        "The pieces you cut off are ready-made stem cuttings. According to the Illinois Extension, a stem cutting is usually 3 to 6 inches long with at least two nodes and no more than six. Strip it down to two or three leaves, remove any leaf that would sit below the surface, and insert it 1 to 3 inches deep in pre-moistened rooting mix, in bright light but out of direct sun.",
+        "Succulents and rubber plants are the exception: let the cut end dry and callus before you plant it, which helps prevent rot. Tender, water-filled stems can root within a week; tougher ones take 10 to 14 days. Once the roots are about an inch long, pot the cuttings, or tuck them back into the parent's pot to thicken it up, a classic fix for a thin pothos."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Will a leggy plant fill back in on its own?",
+      "a": "Not the stretched part. Once a stem has grown long between leaves, that spacing is permanent, even after the plant gets more light. Better light makes the new growth compact, and pruning above a node encourages side shoots that fill the gap. Doing both is what restores a full shape, and the cuttings you remove can be rooted."
+    },
+    {
+      "q": "Can a grow light fix a leggy plant?",
+      "a": "It fixes the cause, not the existing shape. A grow light or cool white fluorescent tube placed close to the plant raises the light it gets, so new leaves come in larger and closer together. The Illinois Extension suggests 14 to 16 hours a day in low light and never more than 16. You still need to prune the stretched stems for a fuller look."
+    },
+    {
+      "q": "Why is my plant leaning toward the window?",
+      "a": "It is growing toward the light, and a strong lean usually means the spot is on the dim side. The stems on the shaded side elongate more than those facing the glass, bending the plant. Move it closer to the window in stages and turn the pot regularly so all sides get their share. A pronounced lean with small new leaves is early leggy growth."
+    },
+    {
+      "q": "How many hours of artificial light does a leggy houseplant need?",
+      "a": "The Illinois Extension says 14 to 16 hours of light is sufficient for plants in low light and warns against exceeding 16, since plants need a rest period. Clemson HGIC recommends 16 hours on and 8 hours off for most plants and suggests an inexpensive timer. Flowering plants that respond to day length may need a different schedule."
+    },
+    {
+      "q": "Is a south window too bright for a plant that got leggy in the shade?",
+      "a": "Directly in front of a south window, the Illinois Extension estimates about 1,500 foot-candles, which is direct sun. That suits succulents and other sun lovers, but a plant used to dim light can bleach or scorch if moved there at once, Clemson HGIC warns. Start it 5 to 10 feet back, where light is still bright to medium, and bring it closer in steps."
+    },
+    {
+      "q": "Should I fertilize a leggy plant to help it grow fuller?",
+      "a": "No. Fertilizer cannot make up for missing light. Clemson HGIC says a foliage plant needs at least 200 foot-candles for 12 hours a day before fertilizer does it any good, and the Illinois Extension warns that plants in dim light are easily damaged by too much. Fix the light first, prune, and resume normal feeding once the plant is putting out healthy new growth."
+    }
+  ],
+  "sources": [
+    { "title": "Houseplants: Lighting", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/lighting", "accessed": "2026-10-04" },
+    { "title": "Indoor Plants: Cleaning, Fertilizing, Containers & Light Requirements", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/", "accessed": "2026-10-04" },
+    { "title": "Houseplants: Cuttings", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/cuttings", "accessed": "2026-10-04" },
+    { "title": "Houseplants: Care", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/care", "accessed": "2026-10-04" },
+    { "title": "Houseplants: English Ivy", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/english-ivy", "accessed": "2026-10-04" },
+    { "title": "Houseplants: Dieffenbachia", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/dieffenbachia", "accessed": "2026-10-04" },
+    { "title": "Houseplants: Pothos", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/pothos", "accessed": "2026-10-04" },
+    { "title": "Houseplants: Weeping Fig", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/weeping-fig", "accessed": "2026-10-04" },
+    { "title": "Houseplant Care", "publisher": "UF/IFAS Gardening Solutions", "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/houseplant-care/", "accessed": "2026-10-04" }
+  ],
+  "relatedPlants": ["succulents", "pothos", "rubber-plant", "monstera", "african-violet", "zz-plant"],
+  "relatedGuides": ["yellow-leaves", "how-to-repot-a-plant"],
+  "verified": "2026-10-04"
+}

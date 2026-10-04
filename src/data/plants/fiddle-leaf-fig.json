@@ -1,0 +1,354 @@
+{
+  "slug": "fiddle-leaf-fig",
+  "commonName": "Fiddle-leaf fig",
+  "otherNames": [
+    "Fiddleleaf fig",
+    "Banjo fig"
+  ],
+  "botanicalName": "Ficus lyrata",
+  "formerNames": [],
+  "family": "Moraceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "east",
+      "west",
+      "south"
+    ],
+    "directSun": "morning-only",
+    "src": [
+      0,
+      2,
+      3
+    ]
+  },
+  "water": {
+    "rule": "top-2-inches",
+    "ruleText": "Water thoroughly once the top two inches of mix feel dry, then empty the saucer",
+    "winter": "In winter the RHS advises keeping the compost of ornamental figs only just moist, so waterings become much less frequent.",
+    "factors": [
+      "NC State describes Ficus lyrata as sensitive to overwatering, and leaf drop can follow too much or too little water.",
+      "Use room-temperature water; cold water chills a tropical root system.",
+      "Bright light and warm rooms dry the mix faster than a dim corner or a cool winter room."
+    ],
+    "src": [
+      0,
+      2,
+      10
+    ]
+  },
+  "soil": {
+    "mix": "A peat-free, loam-based potting mix that holds some moisture but drains freely, in a heavy pot with a drainage hole.",
+    "components": [
+      "loam-based potting compost",
+      "perlite or fine pine bark if the mix is dense"
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Medium relative humidity suits it; in dry winter rooms a damp gravel tray or misting, as the RHS suggests, protects the leaf edges.",
+    "src": [
+      0,
+      2,
+      6
+    ]
+  },
+  "temperature": {
+    "minF": 55,
+    "minC": 13,
+    "src": [
+      0,
+      2
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring to late summer, while new leaves are forming",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "High-nitrogen houseplant fertilizer, as the RHS suggests for leafy figs, at the label rate and never stronger",
+    "winter": "none",
+    "src": [
+      2,
+      6
+    ]
+  },
+  "repotting": {
+    "everyYears": [
+      2,
+      2
+    ],
+    "signs": [
+      "Roots circle the bottom of the pot or push out of the drainage holes",
+      "The plant needs water far more often than it used to",
+      "New leaves come in smaller and paler than the old ones"
+    ],
+    "season": "Spring",
+    "rootType": "woody",
+    "prefersSnug": false,
+    "src": [
+      2,
+      7,
+      8
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: chewing causes oral irritation, drooling and vomiting, and the milky sap can cause contact dermatitis.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Weeping Fig (Ficus sp.), the ASPCA entry covering fig species; there is no separate Ficus lyrata entry",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+        "toxicPrinciples": "Proteolytic enzyme (ficin), psoralen (ficusin)"
+      },
+      {
+        "name": "Fig (Ficus benjamina)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fig",
+        "toxicPrinciples": "Proteolytic enzyme (ficin), psoralen (ficusin)",
+        "clinicalSigns": "Gastrointestinal and dermal irritation"
+      }
+    ],
+    "src": [
+      0,
+      4,
+      5
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Healthy-looking leaves fall suddenly while the mix is still damp",
+      "causeKey": "overwatering",
+      "cause": "Roots kept in wet mix, the most common cause of sudden leaf drop in figs",
+      "remedy": "Let the top two inches dry before the next watering, empty the saucer after every watering and make sure the drainage hole is open."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Lower leaves turn yellow or show dark brown patches",
+      "causeKey": "overwatering",
+      "cause": "Waterlogged roots beginning to rot",
+      "remedy": "Slide the plant out and inspect the roots; cut away black, soft ones, repot in fresh loam-based mix and water less often."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Brown spots appear on a plant standing near a vent or outside door",
+      "causeKey": "drafts",
+      "cause": "Temperature swings from heating or cooling vents and cold air",
+      "remedy": "Move the fig away from registers, radiators and exterior doors and keep the room steadily above 55°F."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Pale, dry, papery scorch on the leaves facing the glass",
+      "causeKey": "too-much-sun",
+      "cause": "Leaf scorch from hot afternoon sun through a window",
+      "remedy": "Keep morning sun but screen afternoon sun with a sheer curtain, or move the plant a few feet back from a south or west window."
+    },
+    {
+      "symptomKey": "slow-growth",
+      "symptom": "Small, pale new leaves with long bare gaps between them",
+      "causeKey": "low-light",
+      "cause": "Light below the medium level of about 150 foot-candles",
+      "remedy": "Bring it closer to an east, west or south window; if growth stays stunted in good light, repot into a pot one or two inches wider."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine silk under the leaves and tiny pale stipples on top",
+      "causeKey": "pests",
+      "cause": "Spider mites, which thrive in warm, dry rooms",
+      "remedy": "Isolate the plant, rinse both leaf surfaces with lukewarm water and treat with an insecticidal soap labeled for houseplants until no new stippling appears."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Air layering",
+      "Leaf-bud cuttings",
+      "Semi-hardwood cuttings"
+    ],
+    "season": "Spring or late summer"
+  },
+  "size": {
+    "heightIn": [
+      24,
+      120
+    ],
+    "growth": "moderate",
+    "src": [
+      0
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Bambino",
+      "note": "Compact named cultivar listed by NC State and the RHS, suited to smaller rooms."
+    },
+    {
+      "name": "Variegata",
+      "note": "Uncommon form with green and cream leaves; NC State lists it among the cultivars."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ficus lyrata (Fiddle-leaf Fig)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Ficus lyrata, fiddle-leaf fig",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/7207/ficus-lyrata/details",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow ornamental figs",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/ornamental-figs/growing-guide",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Weeping Fig",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Fig (Ficus benjamina)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fig",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Ficus lyrata: Fiddleleaf Fig (ENH413)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://edis.ifas.ufl.edu/publication/ST254",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Air layering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/air-layering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "seo": {
+    "title": "Fiddle-Leaf Fig Care: Light, Water & Leaf Drop Fixes (2026)",
+    "description": "Fiddle-leaf fig care in 2026: bright indirect light, water when the top 2 inches dry, keep it above 55°F. Watering calculator, leaf drop and brown spot fixes.",
+    "h1": "Fiddle-leaf fig care: light, water and leaf drop"
+  },
+  "content": {
+    "answer": "Give a fiddle-leaf fig bright, indirect light with shade from hot afternoon sun, water thoroughly once the top two inches of mix feel dry, and keep it above 55°F, away from drafts and heating vents. Sudden leaf drop usually points to a watering mistake, so check the mix before you pour.",
+    "intro": "In the forests of western and central Africa, Ficus lyrata grows into a tree 60 to 100 feet tall, and every fiddle-leaf fig in a nursery pot is a juvenile of that tree held back by a living room. NC State Extension puts the indoor height at 2 to 10 feet, with leathery, lyre-shaped leaves that can reach 18 inches long. Those huge leaves explain the plant's fussy reputation: each one loses water quickly, records mistakes as brown patches, and falls when the roots sit wet or go bone dry. The fixes are unglamorous. Give it bright light that stops short of hot afternoon sun, water only after the top of the mix has dried a little, keep it above 55°F and away from heating vents, and then stop moving it around. A fig left in one good spot settles down and keeps adding leaves at the tip of its stem.",
+    "light": [
+      "The University of Illinois Extension lists Ficus lyrata among houseplants that need at least medium light, about 150 foot-candles: directly in front of a north window, a few feet from an east or west one, or 3 to 10 feet back from a south exposure. Treat that as the floor. In high light, around 300 foot-candles, the level found right at an east or west window, the plant builds thick, glossy leaves set close together on the stem. NC State adds the limit that matters most: give it protection from afternoon sun, because leaf scorch follows when it receives too much direct light.",
+      "Morning sun through an east window suits it, and the RHS notes that ornamental figs can take a few hours of morning or evening sun, especially in winter. New leaves angle toward the glass, so give the pot a quarter turn now and then to keep the trunk straight. Once you find a bright position, leave the plant there. Figs as a group answer a change of place by shedding leaves, a habit the RHS describes, and a fig carried from a sunny greenhouse to a dim corner shows it quickly."
+    ],
+    "water": [
+      "NC State calls the fiddle-leaf fig sensitive to overwatering, and the RHS guidance for ornamental figs is to water regularly in spring and summer while letting the compost dry out slightly between drinks. The test the University of Illinois Extension recommends fits this plant well: push a finger two inches into the mix and water only if it feels dry at that depth. Then water properly, slowly, until it runs from the drainage holes, and tip out the saucer. A large fig in a deep pot can hold a surprising amount of moisture in the bottom third of the mix while the surface looks dusty.",
+      "Leaf drop is how this plant reports watering trouble, and NC State notes it can come from too much water or too little. The two look alike from across the room, so read the mix as well as the leaves. Mix still damp halfway down, with lower leaves yellowing or showing dark patches, means the roots are short of air; the RHS lists yellowing and dark spotting as signs of overwatering in figs. Mix that has shrunk from the pot wall, with limp leaves crisping at the edges, means thirst. Use room-temperature water, never cold, as Illinois advises for all houseplants.",
+      "Winter changes the arithmetic. Shorter days slow growth, the pot dries more slowly, and the RHS suggests keeping fig compost only just moist through the cold months. That usually means far fewer waterings than in July, so let the finger test decide rather than the calendar."
+    ],
+    "soil": [
+      "Outdoors, NC State describes Ficus lyrata as preferring moist, well-drained, loamy and acidic soil. Indoors, the RHS recommends a peat-free, loam-based potting compost, which holds some water without turning to mud. A loam-based mix also adds weight, and weight matters for a plant that carries a lot of leaf area on one or two stems: a tall fig in a light, fluffy mix and a plastic pot tips over easily. If your mix is very fine, cutting in some perlite or small pine bark keeps air around the roots. Use a pot with a drainage hole, and choose a heavy one as the plant gains height."
+    ],
+    "humidity": [
+      "NC State says the fiddle-leaf fig performs best in medium relative humidity, which is easier to provide than the jungle look of the plant suggests. The University of Illinois Extension points out that most heated homes drop below 30 percent humidity in winter, and that is when the leaf margins start to dry. The RHS suggests misting ornamental figs and standing the pot on a tray of damp gravel with the water kept just below the surface of the stones. Grouping plants raises the humidity around them too. Wipe the broad leaves with a damp cloth when dust builds up; on a leaf this size, a film of dust cuts the light it can use."
+    ],
+    "temperature": [
+      "Keep the plant above 55°F (13°C). NC State gives that as the temperature it needs to perform well, and the RHS says tropical figs must stay above 50 to 55°F. Steadiness counts as much as the number. NC State links brown spots on the leaves to swings in room temperature from heating and cooling vents, so a spot beside a radiator, a forced-air register or a door that opens onto winter air is a poor choice even when the thermostat reads comfortable. A summer on a sheltered patio is fine, as NC State suggests, but bring the pot back indoors before fall nights cool toward 55°F."
+    ],
+    "fertilizer": [
+      "Feed only while the fig is making leaves, from spring into late summer. The RHS suggests a high-nitrogen fertilizer to encourage leafy growth, and the University of Illinois Extension's general rule for houseplants is no more than once every one to three months between March and September, at the label rate and never stronger. A big fig growing fast in a bright window sits at the frequent end of that range; one in medium light needs far less, because a plant that grows slowly cannot use the salts, and unused salts burn roots. Skip winter feeding, and flush the pot with a large volume of plain water every 4 to 6 months, as Illinois recommends, to clear residue."
+    ],
+    "repotting": [
+      "The RHS suggests moving ornamental figs into a slightly larger container every couple of years in spring, and Clemson's rule for houseplants is a pot only 1 or 2 inches wider than the old one. The signs are roots circling the bottom or escaping the drainage holes, a plant that suddenly needs water much more often, or stunted new leaves, which the RHS links to a fig that needs more root room. When you slide the root ball out, cut or unwind circling roots; UF/IFAS warns that roots left circling a container can make a fig tree unstable as it grows. Once a fig is too big to repot, scrape off the top inch of compost and replace it with fresh mix in the years you do not repot, the RHS method for large specimens."
+    ],
+    "propagation": [
+      "Both methods that work for a fiddle-leaf fig start from its woody stem. Air layering is the dependable one for a tall, leggy plant. The University of Illinois Extension explains that plants with very large leaves lose moisture too quickly to root well as ordinary cuttings, so you make an upward cut a third to halfway through the stem, pack it with moist sphagnum moss, wrap it in clear plastic and let roots form while the top stays attached. Illinois expects roots after 3 to 4 months; the RHS, which suggests spring or late summer for figs, says rooting can take about a year.",
+      "The RHS also lists leaf-bud and semi-hardwood cuttings. Let the cut end of a fig cutting air dry and callus before it goes into rooting mix, as Illinois advises for rubber plant and other Ficus, and wear gloves throughout: the milky sap that runs from every cut irritates skin, a warning both NC State and the RHS give."
+    ],
+    "problems": [
+      "Fiddle-leaf fig trouble shows up on the leaves, which makes it easier to diagnose than it first seems. Sudden loss of healthy-looking leaves follows a watering error, a move or a cold draft. Brown patches in the middle of the leaf after a wet spell point to the roots, while brown, papery scorch on the side facing the glass points to sun. Small new leaves on a stretched stem mean the plant lacks light or root room. NC State lists scale, aphids, mealybugs, thrips and spider mites as the pests to watch, so check the undersides and the leaf joints every time you clean the foliage."
+    ],
+    "petSafety": [
+      "The ASPCA has no entry for Ficus lyrata itself. The closest is its Weeping Fig entry, filed under Ficus sp., which lists fig species as toxic to cats and dogs, with a proteolytic enzyme (ficin) and psoralen (ficusin) as the toxic principles; the ASPCA's Fig entry for Ficus benjamina gives the clinical signs as gastrointestinal and dermal irritation. NC State, which covers Ficus lyrata directly, lists it as poisonous to cats, dogs and people through insoluble calcium oxalates, with oral irritation, burning of the mouth, excessive drooling, vomiting and difficulty swallowing. Pick up fallen leaves, which a cat may chew on the floor, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if a pet eats part of the plant."
+    ],
+    "faq": [
+      {
+        "q": "Why is my fiddle leaf fig dropping leaves after I brought it home?",
+        "a": "A new fiddle-leaf fig often sheds a few leaves while it adjusts. It has moved from bright greenhouse light to a dimmer room, and figs react to a change of position by dropping foliage, a habit the RHS describes for the genus. Put it in the brightest indirect spot you have, out of drafts and above 55°F, water only when the top two inches are dry, and do not move it again. Fresh leaves at the tip mean it has settled."
+      },
+      {
+        "q": "Can a fiddle leaf fig live in a north-facing room?",
+        "a": "Yes, if it stands right at the window. The University of Illinois Extension rates Ficus lyrata as needing at least medium light, about 150 foot-candles, and its guide places that level directly in front of a north window. A few feet back, light falls toward the 75 foot-candle low range, and the fig sheds lower leaves and grows small new ones. In a north room, keep it at the glass and expect it to need water less often."
+      },
+      {
+        "q": "How do I get my fiddle leaf fig to branch out?",
+        "a": "Prune it. NC State says the plant may be pruned as needed, and the RHS notes that figs cope well even with hard pruning. Cut in late winter or early spring, just above a leaf; removing the growing tip pushes the plant to grow from buds lower on the stem. Young plants are scarcely branched by nature, NC State notes, so a single trunk is normal until you cut it. Wear gloves, because the milky sap irritates skin."
+      },
+      {
+        "q": "What are the brown spots on my fiddle leaf fig leaves?",
+        "a": "It depends on where they sit. Dark patches spreading from the middle or base of the leaf while the mix stays damp point to overwatering; the RHS lists dark spotting of fig leaves as a sign of it. Dry, pale brown scorch on the side facing the window means too much direct sun. Spots on a plant beside a heating vent come from temperature swings, which NC State links to brown spots. Fix the cause, since damaged leaves will not turn green again."
+      },
+      {
+        "q": "Is a fiddle leaf fig safe to keep with cats?",
+        "a": "Not really. NC State lists Ficus lyrata as a problem for cats and dogs, with oral irritation, drooling and vomiting after chewing, and the ASPCA lists fig species (Ficus sp.) as toxic to both. The large leaves are tempting to bat and bite once they fall. Place the plant where a cat cannot reach the lower leaves, pick up any that drop, and call a veterinarian if your cat chews one."
+      }
+    ]
+  }
+}

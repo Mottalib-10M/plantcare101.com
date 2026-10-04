@@ -1,0 +1,52 @@
+---
+import ToolLayout from '../../components/ToolLayout.astro';
+import PetChecker from '../../components/calc/PetChecker';
+import { PLANTS, plantPath } from '../../lib/plants';
+import { route } from '../../i18n/routes';
+import { SRC } from '../../data/general-sources';
+import aspca from '../../data/aspca-plants.json';
+import { petStatus } from '../../lib/plant-text';
+const lang = 'en';
+const data = aspca as { count: number; retrieved: string; plants: Array<{ s: string; c: string | null; d: string | null }> };
+const toxicCats = data.plants.filter((r) => r.c === 'toxic').length;
+const safeCats = data.plants.filter((r) => r.c === 'non-toxic').length;
+const toxicDogs = data.plants.filter((r) => r.d === 'toxic').length;
+const differ = data.plants.filter((r) => r.c && r.d && r.c !== r.d).length;
+// Lien vers nos fiches quand l'entrée ASPCA est celle citée par une fiche.
+const plantPages: Record<string, string> = {};
+for (const p of PLANTS) for (const a of p.toxicity.aspca) plantPages[a.url.split('/').pop()!] = plantPath(p.slug);
+const faqs = [
+  { q: 'Is a plant safe for cats if the ASPCA does not list it?', a: `No, absence proves nothing. The ASPCA lists cover ${data.count.toLocaleString('en-US')} entries, which is many but not every plant sold as a houseplant; our ZZ plant guide is one example of a common plant with no ASPCA entry. Search the botanical name too, and when a plant is missing, treat it as unknown and keep it out of reach.` },
+  { q: 'What does non-toxic mean on the ASPCA plant list?', a: 'It means the plant is not known to contain a poisonous principle for that species. It does not mean a pet can eat it freely: plant material can still upset the stomach and cause vomiting, especially in large amounts, and pesticides or fertilizer on the leaves add their own risk. Discourage chewing on any houseplant.' },
+  { q: 'Why is a plant toxic to cats but listed as safe for dogs?', a: `The ASPCA rates each species separately, and the two lists do not always agree. In the current lists, ${differ} entries carry a different status for cats and dogs. Lilies are the best-known case of a plant dangerous to cats in particular, so always read the line for your own animal rather than a general safe label.` },
+  { q: 'My cat chewed a toxic plant: what should I do first?', a: 'Move the pet away from the plant, remove any leaf pieces from its mouth, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435. Note the plant name and how much was eaten; this checker gives you the exact ASPCA entry to read out. Do not try to make the animal vomit unless a professional tells you to.' },
+];
+const related = [
+  { href: route('petfriendly', lang), name: 'Plants safe for cats and dogs', description: 'Our pet-safe list, filterable' },
+  ...PLANTS.filter((p) => p.toxicity.cats === 'non-toxic' && p.toxicity.dogs === 'non-toxic').slice(0, 3).map((p) => ({ href: plantPath(p.slug), name: `${p.commonName} care`, description: 'Non-toxic to cats and dogs' })),
+  { href: route('lightfinder', lang), name: 'Which plant for my light', description: 'Filter for pet-safe plants' },
+];
+---
+<ToolLayout id="petsafe" title="Pet-Safe Plant Checker: Toxic to Cats or Dogs? (2026)"
+  h1="Pet-safe plant checker: toxic to cats or dogs?"
+  description="Pet-safe plant checker for 2026: search the ASPCA cat and dog plant lists to see if a plant is toxic or non-toxic to your pet, with a link to the ASPCA entry."
+  answer="Type a plant name, common or botanical, to see whether the ASPCA lists it as toxic or non-toxic to cats and to dogs, with a link to the ASPCA entry. A plant missing from the lists is unknown, not safe."
+  intro={`This checker searches the two reference lists kept by the ASPCA Animal Poison Control Center, one for cats and one for dogs, which together hold ${data.count.toLocaleString('en-US')} plant entries. On the cat list, ${toxicCats.toLocaleString('en-US')} entries are marked toxic and ${safeCats.toLocaleString('en-US')} non-toxic; the dog list marks ${toxicDogs.toLocaleString('en-US')} as toxic. Many plants appear several times under different common names, which is why the search also reads the other names and the botanical name the ASPCA gives. We copy the lists as they are, with a replayable script, and never add a verdict of our own: when the ASPCA says nothing, this page says nothing either, and it never labels an unlisted plant as safe. Search by any common name, or better, by the botanical name printed on your plant label. The lists were last read on ${new Date(data.retrieved + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}.`}
+  faqs={faqs} related={related} sources={[SRC.aspcaCats, SRC.aspcaDogs]}>
+  <PetChecker slot="tool" client:load plantPages={plantPages} />
+
+  <h2>The 20 plants we cover, at a glance</h2>
+  <p>Each of our plant guides records the ASPCA entry it relies on, the toxic principle and the clinical signs. Here they are side by side.</p>
+  <div class="overflow-x-auto"><table>
+    <caption class="sr-only">Toxicity of the plants on this site</caption>
+    <thead><tr><th scope="col">Plant</th><th scope="col">Cats</th><th scope="col">Dogs</th><th scope="col">ASPCA entry</th></tr></thead>
+    <tbody>{PLANTS.map((p) => <tr><td><a href={plantPath(p.slug)}>{p.commonName}</a></td><td>{petStatus(p.toxicity.cats)}</td><td>{petStatus(p.toxicity.dogs)}</td><td>{p.toxicity.aspca.length ? p.toxicity.aspca.map((a, i) => <>{i > 0 && ', '}<a href={a.url} target="_blank" rel="nofollow noopener noreferrer">{a.name}</a></>) : 'Not listed'}</td></tr>)}</tbody>
+  </table></div>
+
+  <h2>Reading a match correctly</h2>
+  <p>Common names travel. “Rubber plant” on the ASPCA list is a Peperomia, not the Ficus elastica sold under the same name, and “fiddle-leaf” is a philodendron, not the fiddle-leaf fig. Check the botanical name shown next to each result against the label of your plant before trusting the verdict. When a search returns several lines, the first is the closest name match, and the table underneath lists the others with their own status for each animal.</p>
+  <p>Toxic does not always mean dangerous in the same way. The ASPCA entry names the toxic principle and the clinical signs: saponins in a snake plant mostly cause vomiting and diarrhea, while insoluble calcium oxalate crystals in pothos and philodendron irritate the mouth. Our plant guides quote those lines; the severity for your animal is a question for your veterinarian.</p>
+
+  <h2>Limits of this tool</h2>
+  <p>It covers cats and dogs only, the two species the ASPCA lists address on these pages, and says nothing about birds, rabbits or reptiles. It does not account for the amount eaten, the size of the animal, or chemicals sprayed on the plant at the nursery. It is a lookup, not a diagnosis: if your pet shows symptoms, call a professional first and search afterward.</p>
+</ToolLayout>

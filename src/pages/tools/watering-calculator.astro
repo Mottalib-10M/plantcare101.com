@@ -1,0 +1,50 @@
+---
+import ToolLayout from '../../components/ToolLayout.astro';
+import WateringCalc from '../../components/calc/WateringCalc';
+import { plantOptions, PLANTS, plantPath } from '../../lib/plants';
+import { GUIDES, guidePath } from '../../lib/guides';
+import { route } from '../../i18n/routes';
+import { SRC } from '../../data/general-sources';
+import { BASE_DAYS, MULT } from '../../lib/engine/watering';
+import { RULE_TEXT } from '../../lib/plant-text';
+const lang = 'en';
+const faqs = [
+  { q: 'Why does the watering calculator give a range instead of one day?', a: 'Because no source we trust publishes a fixed schedule. Clemson HGIC says the frequency depends on the species, its growth stage, the pot, the mix and the weather, and the University of Illinois Extension advises watering when the plant needs it, not by the calendar. The range tells you when to start checking; the finger or weight test tells you the day.' },
+  { q: 'Should I water my houseplants less in winter even with the heating on?', a: 'Usually yes. Short days slow growth, so roots take up less water even when warm, dry air speeds up evaporation from the surface. Select Winter and Dry air together in the calculator: the two factors partly cancel, which is roughly what happens in a heated apartment. Then confirm with your finger before every watering.' },
+  { q: 'Does a self-watering pot change the result?', a: 'Yes, and the calculator does not model it. A wicking reservoir keeps the lower mix moist all the time, which suits plants with an evenly-moist rule and harms those that should dry out fully, such as snake plants or succulents. Use the reservoir only for moisture lovers, and refill it when it runs dry rather than on a schedule.' },
+  { q: 'How do I water a plant in a pot without a drainage hole?', a: 'Sparingly, and the calculator lengthens the range and cuts the volume when you choose No under drainage. Clemson HGIC suggests a gravel layer or, better, a plastic nursery pot with holes set inside the decorative one. Pour in a little at a time and tip the pot to pour out any water that collects at the bottom.' },
+];
+const related = [
+  ...GUIDES.filter((g) => ['how-often-to-water-plants', 'overwatering-vs-underwatering', 'root-rot'].includes(g.slug)).map((g) => ({ href: guidePath(g.slug), name: g.nav, description: 'Problem guide' })),
+  { href: route('pot', lang), name: 'Pot size calculator', description: 'The next pot, not too big' },
+  { href: route('method', lang), name: 'How we calculate', description: 'Every multiplier explained' },
+];
+const ruleCounts = Object.entries(BASE_DAYS).map(([r, d]) => ({ r, d, n: PLANTS.filter((p) => p.water.rule === r).length, names: PLANTS.filter((p) => p.water.rule === r).map((p) => p) }));
+---
+<ToolLayout id="watering" title="Watering Calculator for Houseplants: Days by Plant (2026)"
+  h1="Houseplant watering calculator"
+  description="Watering calculator for 2026: pick your plant, pot size and material, light and season to get a range of days, the water volume and the finger test to confirm."
+  answer="Choose your plant, measure the pot across the rim and say where it sits: the calculator returns a range of days between waterings, how much water to pour, and the finger or weight test that tells you the exact day."
+  intro="Watering is where most houseplants are lost, and almost always in the same direction: too often. Clemson HGIC calls overwatering the main cause of death of potted plants, because roots sitting in water cannot take up oxygen and begin to rot. The trouble is that the right interval is not a property of the plant alone. A pothos in a 4-inch terracotta pot on a sunny sill in July and the same pothos in a 10-inch glazed planter in a north room in January can differ by weeks. This calculator starts from the drying rule each of our plant guides records from extension sources, such as top inch dry or fully dry, then adjusts for the seven factors those sources name: pot size, pot material, drainage, light, season, air humidity and potting mix."
+  faqs={faqs} related={related} sources={[SRC.clWatering, SRC.ilWatering, SRC.clFert, SRC.ufCare]}>
+  <WateringCalc slot="tool" client:load plants={plantOptions()} defaultSlug="pothos" methodHref={route('method', lang)} share={true} />
+
+  <h2>What the result means</h2>
+  <p>The headline range is the stretch of days during which the pot will most likely reach its drying rule. Do not water on the first day of it: start testing the day before, as the line under the range says, and water when the test says so. If the mix is still damp at the end of the range, your spot is cooler or darker than the inputs suggest, and next time you can choose one step lower in the light list. The volume line assumes you pour until water drains from the hole, which Clemson HGIC recommends because it carries away excess salts and wets the lower two-thirds of the pot, where most roots live. Empty the saucer afterward.</p>
+  <p>The weight test is the one experienced growers lean on. Lift the pot right after a thorough watering and remember the heft. The calculator estimates how many ounces of water a pot that size holds and how much of it should be gone before the next drink, given the plant's rule. A hollow sound when you knock on a clay pot points the same way, Clemson notes, because drying mix shrinks away from the wall.</p>
+
+  <h2>The drying rules behind each plant</h2>
+  <p>Every plant guide on this site stores one rule, read from its sources. Each rule maps to a reference range for a 6-inch plastic pot with a hole, standard potting mix, bright indirect light, summer and average humidity:</p>
+  <div class="overflow-x-auto"><table>
+    <caption class="sr-only">Reference ranges by drying rule</caption>
+    <thead><tr><th scope="col">Rule</th><th scope="col">Reference range</th><th scope="col">Plants on this site</th></tr></thead>
+    <tbody>{ruleCounts.filter((x) => x.n > 0).map((x) => <tr><td>{RULE_TEXT[x.r as keyof typeof RULE_TEXT]}</td><td>{x.d[0]} to {x.d[1]} days</td><td>{x.names.map((p, i) => <>{i > 0 && ', '}<a href={plantPath(p.slug)}>{p.commonName}</a></>)}</td></tr>)}</tbody>
+  </table></div>
+  <p>Those reference ranges are our model, not a published figure, and the <a href={route('method', lang)}>methodology page</a> says so. They exist so the multipliers have something to scale.</p>
+
+  <h2>How each factor moves the range</h2>
+  <p>Clemson HGIC lists why two identical plants drink differently: porous clay loses water through its walls and needs watering more often than plastic or glazed pots; a large plant in a small pot dries faster than a small plant in a large pot; peat-heavy mixes hold more moisture than loose blends of bark, sand and perlite; and a plant in a warm, dry, sunny spot needs water more often than one in a cool, dim room. Plants also use less water while resting. The calculator turns each of those statements into a multiplier: unglazed terracotta ×{MULT.material.terracotta}, low light ×{MULT.light.low}, winter ×{MULT.season.winter}, dry air ×{MULT.humidity.dry}, orchid bark ×{MULT.substrate.bark}, no drainage hole ×{MULT.noDrainage}. Open “How this range was built” under the result to see the product for your own inputs.</p>
+
+  <h2>What it cannot know</h2>
+  <p>It cannot see the root ball. A plant that has filled its pot with roots dries out far faster than the model expects, and a recently repotted one far slower. It assumes a standard pot about as tall as it is wide, so a shallow bonsai dish or a tall cylinder will behave differently. It ignores heating vents, grow lights and drafts. Those are the cases where the finger test matters most, and where the <a href={route('diagnosis', lang)}>diagnosis tool</a> helps if the leaves start telling you something went wrong.</p>
+</ToolLayout>

@@ -1,0 +1,325 @@
+{
+  "slug": "calathea",
+  "commonName": "Calathea",
+  "otherNames": [
+    "Prayer plant",
+    "Peacock plant",
+    "Rattlesnake plant",
+    "Zebra plant",
+    "Cathedral windows"
+  ],
+  "botanicalName": "Goeppertia spp.",
+  "formerNames": [
+    "Calathea spp."
+  ],
+  "family": "Marantaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "medium",
+    "maxLevel": "high",
+    "fc": [150, 300],
+    "lux": [1615, 3229],
+    "windows": ["north", "east", "south"],
+    "directSun": "avoid",
+    "src": [0, 1, 4, 7]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Keep the mix evenly moist but never soggy from spring through summer",
+    "winter": "In autumn and winter let the surface dry before watering again, but never let the whole pot dry out (RHS); a winter pot kept too wet causes oedema.",
+    "factors": [
+      "Fluoride in tap water browns the leaf tips and edges; NC State recommends distilled or rainwater.",
+      "Never use softened water, and use water at room temperature (Clemson gives 62 to 72°F) rather than straight from a cold tap.",
+      "Water the mix, not the foliage: wet leaves invite fungal leaf spot.",
+      "Tip out water left in a cover pot, because roots standing in water rot quickly."
+    ],
+    "src": [0, 1, 2, 3, 4, 8]
+  },
+  "soil": {
+    "mix": "A rich, moisture-retentive but well-drained potting mix high in organic matter, opened with perlite or about 10 percent potting grit.",
+    "components": [
+      "peat-free houseplant or multipurpose compost",
+      "perlite or potting grit (about 10 percent by volume)"
+    ],
+    "src": [0, 1, 2, 4]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "NC State sets at least 60 percent relative humidity for orbifolia and the peacock plant; dry air browns the leaf edges.",
+    "src": [0, 1, 2, 4, 9]
+  },
+  "temperature": {
+    "idealF": [65, 75],
+    "idealC": [18, 24],
+    "minF": 61,
+    "minC": 16,
+    "src": [0, 4]
+  },
+  "fertilizer": {
+    "season": "April to September, during active growth",
+    "everyWeeks": [4, 4],
+    "strength": "half",
+    "type": "Balanced liquid houseplant fertilizer diluted to half strength (NC State)",
+    "winter": "none",
+    "src": [0, 1, 2, 4]
+  },
+  "repotting": {
+    "everyYears": [1, 2],
+    "signs": [
+      "The clump of stems fills the pot from rim to rim",
+      "Roots push out of the drainage holes",
+      "The mix dries much faster than it used to"
+    ],
+    "season": "Spring",
+    "rootType": "rhizome",
+    "prefersSnug": false,
+    "src": [0, 4]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "None of the extension pages consulted gives a human poison rating for Goeppertia; the ASPCA ratings cover pets only.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Calathea (Calathea spp.)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea"
+      },
+      {
+        "name": "Prayer Plant (Calathea insignis)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/prayer-plant"
+      }
+    ],
+    "src": [5, 6]
+  },
+  "problems": [
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Leaf tips and edges turn brown even though watering is regular",
+      "causeKey": "water-quality",
+      "cause": "Fluoride and chlorine in tap water, or softened water",
+      "remedy": "Switch to rainwater or distilled water (dehumidifier water works), and trim brown edges along the leaf outline."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Leaf margins dry, crisp and curled",
+      "causeKey": "low-humidity",
+      "cause": "Air well below 60 percent relative humidity",
+      "remedy": "Run a humidifier, stand the pot on a tray of wet pebbles, or move the plant to a bright bathroom or kitchen."
+    },
+    {
+      "symptomKey": "curling-leaves",
+      "symptom": "Leaves roll inward and stay rolled during the day",
+      "causeKey": "underwatering",
+      "cause": "Mix allowed to dry out",
+      "remedy": "Water until it drains, then keep the mix evenly moist through the growing season."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Leaf patterns fade and look washed out",
+      "causeKey": "low-light",
+      "cause": "Insufficient light",
+      "remedy": "Move it closer to a north or east window, or add a grow light in a dark room."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Patchy, water-soaked areas on the leaves in winter",
+      "causeKey": "overwatering",
+      "cause": "Oedema: compost kept too wet while growth is slow",
+      "remedy": "Let the surface dry between winter waterings and empty any water from the cover pot."
+    },
+    {
+      "symptomKey": "drooping",
+      "symptom": "Stems collapse and soften at the base",
+      "causeKey": "cold",
+      "cause": "Cold drafts combined with wet mix",
+      "remedy": "Move it away from doors and cold glass, keep it above 61°F, and let the mix drain before watering again."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Speckled, yellowing or silvery leaves with fine webbing",
+      "causeKey": "pests",
+      "cause": "Red spider mites feeding on the sap",
+      "remedy": "Rinse both sides of the leaves, raise the humidity, and treat with insecticidal soap."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of the rhizomatous clump"
+    ],
+    "season": "Spring"
+  },
+  "size": {
+    "heightIn": [9, 36],
+    "widthIn": [8, 42],
+    "growth": "moderate",
+    "src": [0]
+  },
+  "varieties": [
+    {
+      "name": "Goeppertia orbifolia",
+      "note": "Round leaves up to 12 inches wide with silver-green stripes; a dense clump 2 to 3 feet tall."
+    },
+    {
+      "name": "Goeppertia makoyana (peacock plant)",
+      "note": "Papery, egg-shaped leaves with dark feathering on a cream background, purple underneath."
+    },
+    {
+      "name": "Goeppertia insignis (rattlesnake plant)",
+      "note": "Long, wavy leaves marked with dark ovals on each side of the midrib, purple underneath."
+    },
+    {
+      "name": "Goeppertia roseopicta (rose-painted calathea)",
+      "note": "Glossy deep green leaves brushed with cream to pink along the midrib and edges."
+    },
+    {
+      "name": "Goeppertia zebrina (zebra plant)",
+      "note": "Velvety dark green leaves with lime-green midrib, veins and margins."
+    },
+    {
+      "name": "Goeppertia crocata (eternal flame)",
+      "note": "Dark wavy leaves, maroon beneath, and torch-like orange flowers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Goeppertia (Calathea, Prayer Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Goeppertia orbifolia",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-orbifolia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Goeppertia makoyana (Peacock Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-makoyana/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Goeppertia insignis (Rattlesnake Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia-insignis/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow calatheas",
+      "publisher": "Royal Horticultural Society (RHS)",
+      "url": "https://www.rhs.org.uk/plants/calathea/growing-guide",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Calathea",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/calathea",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Prayer Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/prayer-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Watering (HGIC 1459)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Prayer Plant",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/prayer-plant",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["pothos", "philodendron"],
+  "seo": {
+    "title": "Calathea Care: Humidity, Water & Brown Edges Fix (2026)",
+    "description": "Calathea care in 2026: keep the mix evenly moist, humidity at 60% or more, 65 to 75°F, and skip fluoridated tap water. Watering calculator and leaf fixes.",
+    "h1": "Calathea care: humidity, water quality and steady warmth"
+  },
+  "content": {
+    "answer": "Calatheas want steady conditions: bright but indirect light, a mix kept evenly moist but never soggy, humidity of 60 percent or more, and 65 to 75°F. Water with rainwater or distilled water, since NC State notes that fluoride in tap water browns leaf tips.",
+    "intro": "Every evening a calathea lifts its leaves upright and folds them together like hands in prayer, then lowers them again at dawn; NC State Extension calls this nyctinastic movement and ties it to changes in light and temperature. Most plants sold as calathea no longer belong to that genus. NC State explains that genetic studies moved many species to Goeppertia, and the RHS adds that the old calathea umbrella now spans Goeppertia, Ctenanthe and Stromanthe, though shops still print the familiar name. They are clump-forming, rhizomatous perennials of the prayer plant family from warm, humid forests in Central and South America, grown for painted, striped or feathered leaves with purple or maroon undersides. NC State rates their upkeep as high, and the reason is sensitivity: these leaves react visibly to fluoride in tap water, to dry air, to cold drafts and to swings between soaked and parched soil.",
+    "light": [
+      "Calatheas evolved on the shaded forest floor, and their thin, patterned leaves bleach in strong sun. NC State recommends indirect, medium light, about 150 foot-candles in University of Illinois Extension terms, which you find directly in front of a north window or a few feet from an east or west one. The RHS suggests a north- or east-facing window in summer, then a move to a south-facing sill in winter, when the sun is weaker and lower.",
+      "Watch the markings. Faded patterns are NC State's sign of insufficient light, and the RHS warns that Goeppertia species in particular make poor, weak growth when it is too dark; a grow light fixes a gloomy room. At the other extreme, direct sun scorches the leaves, so bright light should always arrive filtered."
+    ],
+    "water": [
+      "Keep the mix evenly moist from spring through summer, never soggy and never bone dry. NC State asks for soil that stays consistently moist but not wet, and the RHS describes moderate watering that keeps the compost evenly damp. In practice that means watering as soon as the surface loses its dark, damp look, then emptying the cover pot, since the RHS warns that roots left standing in water rot quickly.",
+      "Winter changes the rhythm. The RHS advises letting the surface dry before rewetting in autumn and winter, without ever letting the compost dry out completely, and warns that a winter pot kept too wet brings oedema, patchy water-soaked areas on the leaves. NC State's rattlesnake plant page likewise says to cut back watering when growth slows.",
+      "What you pour matters as much as when. NC State recommends distilled water or rainwater because the fluoride in tap water browns leaf tips and edges. The RHS says calatheas will tolerate tap water left to stand for at least 24 hours so the chlorine can evaporate. Clemson Extension adds two rules for all houseplants that calatheas take seriously: never use softened water, which adds sodium and chloride, and keep the water between 62 and 72°F. Aim at the soil, not the leaves; NC State links wet foliage to leaf spot."
+    ],
+    "soil": [
+      "NC State calls for a rich, moist, well-drained potting mix high in organic matter, with perlite added for drainage, and its species pages describe slightly acidic to neutral soil. The RHS recipe is simple: a peat-free multipurpose or houseplant compost with about 10 percent potting grit by volume, free-draining yet moisture-retentive. Skip cactus mix, which dries too fast for a plant that should never go fully dry, and never use garden soil, which packs down and stays waterlogged in a pot."
+    ],
+    "humidity": [
+      "Humidity is the make-or-break factor. NC State's pages for orbifolia and the peacock plant set a target of at least 60 percent relative humidity, while the University of Illinois Extension notes that most homes fall below 30 percent in winter. Crisp brown leaf edges are the predictable result. A humidifier is the most reliable fix; a tray of wet pebbles, a cluster of plants, or a bright bathroom or kitchen, all suggested by NC State and the RHS, help as well."
+    ],
+    "temperature": [
+      "NC State gives 65 to 75°F for the genus, and the RHS a slightly cooler 61 to 70°F (16 to 21°C). Both stress steadiness over any exact number: avoid drafts, sudden swings and direct heat from radiators. The RHS adds that calatheas are easily damaged by cold, so wrap a new plant well when carrying it home in winter. NC State lists cold exposure, together with overwatering, as a cause of rotting stems and drooping leaves."
+    ],
+    "fertilizer": [
+      "Feed lightly and only while the plant grows. NC State recommends a half-strength houseplant fertilizer during the growing season, and both its species pages and the RHS suggest feeding monthly, the RHS from April to September with a balanced or general-purpose liquid feed. Stop in autumn and winter. The RHS also notes that slow-release fertilizer mixed in at repotting means no liquid feed is needed for the first year. The University of Illinois Extension warns that too much fertilizer can burn roots, so when in doubt, feed less and flush the pot with rainwater now and then."
+    ],
+    "repotting": [
+      "NC State suggests repotting every year or two, preferably in spring, while the RHS says every few years once the clump has filled the pot, in spring or summer. Newly bought plants can usually stay in their nursery pot for the first growing season, according to the RHS. When you do move one, go up only one or two pot sizes and set the top of the root ball just below the surface of the new mix. Repotting is also the natural moment to divide an overcrowded clump."
+    ],
+    "propagation": [
+      "Division is the propagation method NC State gives for Goeppertia. In spring, slide the clump out, find the natural breaks between groups of stems, and cut through the rhizome so each section keeps several leaves and its own roots, as the RHS describes. Pot each piece and keep it warm, humid and moist until it grows again; a clear plastic bag over the pot helps. NC State's peacock plant page suggests dividing every two years to keep plants vigorous. Stem cuttings are an option only for branching relatives such as Ctenanthe, the RHS notes."
+    ],
+    "problems": [
+      "Calathea symptoms are unusually specific. Brown tips and edges usually mean dry air or fluoride and chlorine in the water. Leaves that roll inward are underwatered, NC State says, and yellowing can come from either too little or too much water. Drooping stems that rot at the base follow cold and wet together. Faded patterns mean too little light, scorched patches too much, and patchy water-soaked spots in winter are oedema from a pot kept too wet. According to the RHS, spider mites leave speckled, yellowing leaves and fine webbing, while mealybugs or soft scale leave black sooty mold behind."
+    ],
+    "petSafety": [
+      "Good news for pet owners: the ASPCA lists Calathea (Calathea spp.) as non-toxic to cats, dogs and horses, and also lists the prayer plant, under the scientific name Calathea insignis, as non-toxic. That makes calatheas one of the safer foliage choices for a home with a cat that chews leaves. Non-toxic does not mean meant to be eaten, though, and a pot recently treated with insecticide or fertilizer brings its own risks. Call your veterinarian if a pet eats a large amount of any plant or seems unwell afterward."
+    ],
+    "faq": [
+      {
+        "q": "Why do calathea leaves move at night?",
+        "a": "It is normal and a sign of a living, responsive plant. NC State Extension calls it nyctinastic movement: the leaves rise and fold upward as darkness falls, resembling hands in prayer, and reopen at sunrise in response to changes in light and temperature. Leaves that stay curled through the day are a different matter; NC State links curling to a lack of water or low humidity, so check the mix and the air first."
+      },
+      {
+        "q": "Can I use tap water on my calathea?",
+        "a": "With precautions. NC State recommends distilled or rainwater because fluoride in tap water browns the leaf tips. The RHS says calatheas tolerate tap water that has stood for at least 24 hours, which lets the chlorine escape; for fluoride, NC State's answer is to switch water. Never use water from a softener, which Clemson Extension warns adds sodium and chloride. Water collected from a dehumidifier is distilled and works well, as the RHS points out."
+      },
+      {
+        "q": "Is calathea now called Goeppertia?",
+        "a": "Mostly, yes. NC State Extension explains that genetic and botanical studies moved many former Calathea species into Goeppertia, so the peacock plant is now Goeppertia makoyana and the rattlesnake plant Goeppertia insignis. The RHS notes that plants sold as calathea now span three genera, Goeppertia, Ctenanthe and Stromanthe, and advises shoppers to keep looking for the calathea label until the new names catch on. Care stays the same whatever the tag says."
+      },
+      {
+        "q": "Is a calathea the same as a Maranta prayer plant?",
+        "a": "They are cousins rather than twins. Both belong to the prayer plant family, Marantaceae, and both fold their leaves in darkness. The plant the University of Illinois Extension calls prayer plant is Maranta, also known as banded arrowroot. Labels blur the two, and even the ASPCA's prayer plant entry carries the scientific name Calathea insignis. Care overlaps closely: indirect light, moist soil, warmth and high humidity."
+      },
+      {
+        "q": "How tall does a calathea get?",
+        "a": "It depends on the species. NC State gives the genus a range of 9 inches to 3 feet tall and up to about 3.5 feet wide. Goeppertia orbifolia forms an upright clump 2 to 3 feet tall with round leaves up to 12 inches across, the peacock plant reaches 1 to 2 feet, and the rattlesnake plant typically stays near 1.5 feet indoors. The RHS gives 8 to 40 inches for calatheas in general."
+      }
+    ]
+  }
+}

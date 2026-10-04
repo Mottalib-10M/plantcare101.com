@@ -1,0 +1,351 @@
+{
+  "slug": "orchid",
+  "commonName": "Moth orchid",
+  "otherNames": [
+    "Orchid",
+    "Phalaenopsis orchid",
+    "Moon orchid"
+  ],
+  "botanicalName": "Phalaenopsis",
+  "formerNames": [],
+  "family": "Orchidaceae",
+  "kind": "flowering",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      300,
+      1700
+    ],
+    "lux": [
+      3229,
+      18299
+    ],
+    "windows": [
+      "east",
+      "west",
+      "south"
+    ],
+    "directSun": "morning-only",
+    "src": [
+      0,
+      1,
+      2,
+      6
+    ]
+  },
+  "water": {
+    "rule": "bark-dry",
+    "ruleText": "Water about once a week when the bark is nearly dry, letting the pot drain completely",
+    "winter": "After flowering, when leaf growth stops, Clemson advises reducing water and fertilizer until new leaves start again.",
+    "factors": [
+      "Phalaenopsis has no pseudobulbs to store water, so it should never dry out completely.",
+      "Pale, silvery roots signal that the plant needs water; brown, mushy roots have rotted.",
+      "Keep water out of the crown and leaf axils, where it can lead to disease."
+    ],
+    "src": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "soil": {
+    "mix": "A bark-based orchid mix with excellent drainage; never potting soil, loam-based or multipurpose compost.",
+    "components": [
+      "fir bark",
+      "chopped tree fern fiber",
+      "charcoal",
+      "volcanic rock",
+      "a little peat"
+    ],
+    "src": [
+      1,
+      2,
+      4
+    ]
+  },
+  "humidity": {
+    "level": "high",
+    "idealPct": [
+      40,
+      60
+    ],
+    "note": "Clemson puts orchid needs at 40 to 60 percent humidity all year, more than most homes provide; keep air moving as well.",
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      61,
+      86
+    ],
+    "idealC": [
+      16,
+      30
+    ],
+    "minF": 61,
+    "minC": 16,
+    "src": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fertilizer": {
+    "season": "Whenever the plant is making new leaves or roots",
+    "everyWeeks": [
+      2,
+      2
+    ],
+    "strength": "half",
+    "type": "Balanced or orchid fertilizer; Clemson suggests 30-10-10 or 15-5-5 for plants in bark and 20-20-20 in other media",
+    "winter": "reduced",
+    "src": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  "repotting": {
+    "everyYears": [
+      2,
+      2
+    ],
+    "signs": [
+      "The bark has broken down, looks like soil and stays wet",
+      "Roots inside the pot are brown, mushy or hollow",
+      "The plant has grown too large for its container"
+    ],
+    "season": "After the flowers fade or as new leaves appear, while roots have green tips",
+    "rootType": "epiphytic",
+    "prefersSnug": true,
+    "src": [
+      0,
+      2,
+      4
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "The ASPCA covers pets only, and NC State lists no poison hazard for Phalaenopsis; our sources give no human toxicity rating.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Phalaenopsis Orchid (Phalaenopsis sp.)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/phalaenopsis-orchid"
+      }
+    ],
+    "src": [
+      5
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "wrinkled-leaves",
+      "symptom": "Leaves limp, leathery and wrinkled",
+      "causeKey": "underwatering",
+      "cause": "Potting medium kept too dry, or roots too damaged to take up water",
+      "remedy": "Check the roots; if they are firm, water thoroughly in the sink and let it drain. If they are rotted, trim them and repot in fresh bark."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Roots brown, mushy or hollow; plant wobbles in the pot",
+      "causeKey": "overwatering",
+      "cause": "Soggy, broken-down bark that holds water around the roots",
+      "remedy": "Remove all old mix, cut off dead roots, trim healthy ones to about 5 inches and repot in fresh bark in a pot that just fits the roots."
+    },
+    {
+      "symptomKey": "bud-drop",
+      "symptom": "Buds yellow and fall before they open",
+      "causeKey": "drafts",
+      "cause": "Bud blast from a sudden change in temperature, humidity, moisture, fertilizer or location",
+      "remedy": "Leave the plant in one spot away from heaters, drafts and cold glass while buds develop, and keep watering steady."
+    },
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Healthy plant with very dark green leaves but no new flower spike",
+      "causeKey": "low-light",
+      "cause": "Too little light, sometimes combined with too little fertilizer",
+      "remedy": "Move it to a bright east window; for large white hybrids, give about a week of nights near 55°F in autumn."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony tufts in leaf axils or on the flower stem",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Dab each tuft with a cotton swab dipped in rubbing alcohol and repeat until no more appear; isolate the plant meanwhile."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Spots on the flowers or soft brown patches on leaves",
+      "causeKey": "disease",
+      "cause": "Botrytis, leaf spot or bacterial soft rot, encouraged by water on the plant and still air",
+      "remedy": "Isolate the plant, remove affected tissue with a clean knife, water in the morning at the base only and improve air movement."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Keiki (plantlet) from a flower-stem node",
+      "Seed, in a laboratory only"
+    ],
+    "season": "When a keiki has several roots at least 3/4 inch long"
+  },
+  "size": {
+    "heightIn": [
+      6,
+      24
+    ],
+    "widthIn": [
+      6,
+      24
+    ],
+    "src": [
+      0,
+      2
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Large-flowered white hybrids",
+      "note": "Spring bloomers with flowers 3 to 6 inches wide; they need a cool autumn spell to set spikes."
+    },
+    {
+      "name": "Dwarf hybrids",
+      "note": "Bred from summer-flowering species, with flowers 1 to 2 inches wide; no autumn chill needed."
+    },
+    {
+      "name": "Harlequin types",
+      "note": "Modern hybrids with spotted, splashed or patterned flowers."
+    },
+    {
+      "name": "Dyed blue moth orchids",
+      "note": "White flowers dyed blue or pink for sale; if they rebloom, the new flowers are white."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Phalaenopsis (Moth Orchid)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/phalaenopsis/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Orchids",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/orchids/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow Phalaenopsis (moth orchids)",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Phalaenopsis, moth orchid",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/12596/phalaenopsis/details",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Orchids",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/home/plants/ornamental-plants/orchids/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Phalaenopsis Orchid",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/phalaenopsis-orchid",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "seo": {
+    "title": "Orchid Care: Moth Orchid Watering, Light & Rebloom (2026)",
+    "description": "Orchid care in 2026 for moth orchids: bark mix, weekly watering, 40 to 60% humidity, east window light. Watering calculator, rebloom steps and root rot fixes.",
+    "h1": "Orchid care: watering, light and reblooming a moth orchid"
+  },
+  "content": {
+    "answer": "Grow a moth orchid in bark-based orchid mix, never potting soil, in a bright east window out of direct summer sun. Water about once a week, letting the bark nearly dry, keep it between 61 and 86°F, and cut the spent spike above a node to encourage reblooming.",
+    "intro": "A moth orchid never touches soil in the wild. Phalaenopsis is an epiphyte from tropical and subtropical Asia and northeastern Australia that lives on tree branches, gripping the bark with thick, silvery roots that, as NC State notes, contain chlorophyll and can photosynthesize. That single fact explains every odd rule of orchid care: bark instead of potting soil, clear plastic pots, watering by running water through the pot and letting it drain, and never leaving water in the crown. Unlike cattleyas, Phalaenopsis has no pseudobulbs to store water, Clemson Extension points out, so it should not dry out completely either. Get the roots right and this is the most forgiving orchid for a home. It is the one sold in supermarkets for good reason: its flowers can last four months or more, and NC State says a well-grown plant flowers again every year.",
+    "light": [
+      "Orchid low light is not houseplant low light. Clemson describes Phalaenopsis as one of the orchids most adaptable to indoor conditions, thriving at 1,500 to 1,700 foot-candles, while the University of Illinois Extension's houseplant scale calls 75 foot-candles low and 300 bright. So a moth orchid belongs at the window, not across the room. NC State names an east windowsill as the best spot, with well-shaded west or south windows also workable, and the RHS suggests an east- or west-facing sill in winter, when bright light helps the plant produce flower spikes.",
+      "Summer sun is the hazard. The RHS warns that direct sun scorches the leaves, and Clemson wants little or no direct sun on the plant. Leaf color works as a light meter: Clemson notes that very dark green leaves mean the light is too low, one of the main reasons orchids fail to flower. Where windows are poor, Clemson says fluorescent tubes 6 to 12 inches above the leaves, run 12 to 16 hours a day, can serve as the only light source."
+    ],
+    "water": [
+      "Clemson calls a waterlogged pot one of the fastest ways to kill an orchid. NC State's method is to water in the morning with tepid water, set the plant in a sink, let water flow freely through the medium, and then let the pot drain completely so it never stands in water. The RHS suggests watering lightly about once a week, and Clemson gives the same weekly rhythm for actively growing orchids, letting the mix dry slightly before the next watering and watering again only when it is nearly dry throughout.",
+      "The roots themselves tell you when. The RHS points to pale, silvery roots as the cue to water, and plump green roots mean there is still moisture in the pot. A clear plastic container makes this easy to see, which is one reason NC State and the RHS both recommend one. Never let the roots dry out completely, the RHS says, and never water so often that the bark stays soggy; roots that are brown, mushy or hollow have already rotted.",
+      "Keep water out of the crown, the cup where the leaves meet. Clemson warns that water left on the leaves or in the leaf axils can readily lead to disease and death, and watering in the morning, as NC State advises, gives stray drops a full day to dry. After the flowers fade and leaf growth pauses, Clemson suggests cutting back both water and fertilizer until new leaves start."
+    ],
+    "soil": [
+      "Potting soil kills orchids. Clemson is blunt about it: most orchids are epiphytes, and one of the best ways to kill one is to plant it in soil. The RHS adds that loam-based or multipurpose compost will kill moth orchids. Use a bark-based orchid mix; Clemson and UF/IFAS list the usual ingredients as fir bark, chopped tree fern fiber, charcoal, volcanic rock and a little peat. NC State recommends moving plants out of pure sphagnum moss, which is hard to rewet, into bark. The RHS explains why bark has a shelf life: as it decays it becomes denser and holds water longer, so the mix needs complete replacement every couple of years."
+    ],
+    "humidity": [
+      "Clemson puts the humidity orchids need at 40 to 60 percent all year and notes that most homes fall short, so it usually has to be supplemented. NC State describes moth orchids as preferring high humidity. A humidifier nearby, or the wide saucer of damp gravel the RHS suggests, raises the moisture around the leaves, and in hot weather the RHS recommends misting the foliage and aerial roots daily. Keep air moving at the same time; Clemson warns that damp, still air favors bacteria and fungi."
+    ],
+    "temperature": [
+      "Moth orchids like the same warmth people do. The RHS gives 66 to 86°F (19 to 30°C) by day and 61 to 66°F (16 to 19°C) at night, and Clemson sets a minimum night temperature of 65°F for Phalaenopsis. The one deliberate exception is a cool spell to trigger blooms: NC State says the large-flowered white hybrids that bloom in spring need nights around 55°F for a week in autumn to start flower spikes, while modern dwarf hybrids do not. For a healthy plant that has stopped flowering, the RHS suggests a spot about 8°F cooler for a month or so. Keep orchids away from radiators and drafts the rest of the time."
+    ],
+    "fertilizer": [
+      "Feed weakly and often. NC State recommends a balanced fertilizer twice a month at half strength, or weekly at quarter strength. Clemson suggests formulas richer in nitrogen, such as 30-10-10 or 15-5-5, for orchids growing in bark, and an even ratio such as 20-20-20 for those in other media. Flush out salts regularly: Clemson says to rinse the pot with plain water each month, and the RHS suggests skipping the feed every fourth watering. Feed sparingly, if at all, in winter, and remember that UF/IFAS notes too much fertilizer can actually inhibit blooming."
+    ],
+    "repotting": [
+      "NC State advises repotting about every two years, after the blooms have faded or as new leaves begin to appear; the RHS adds that any time of year works as long as the roots are active and have green tips. The trigger is decayed bark more than a crowded pot. Pull out all the old mix, snip off brown, shriveled, mushy or hollow roots and, as the RHS describes, shorten healthy roots to about 5 inches. If the roots fit the old container, reuse it; a much bigger pot keeps the bark wet. Leave aerial roots in the air, and UF/IFAS advises waiting at least several weeks before fertilizing."
+    ],
+    "propagation": [
+      "Commercial moth orchids are raised in laboratories, and the RHS notes that seed propagation is only possible there. At home, the practical method is the keiki, a small plantlet that sometimes sprouts from a node on the flower stem. The RHS says to wait until it has several good roots, at least about three-quarters of an inch (2 cm) long, then detach it and pot it in orchid mix, watering sparingly at first and misting the leaves daily. Keiki paste dabbed on a node of a spent stem can coax one out after six to eight weeks, the RHS notes, though ordinary rooting hormone will not work."
+    ],
+    "problems": [
+      "NC State lists scale and mealybugs as the pests to watch, and Clemson adds spider mites and thrips. Bud blast, when buds yellow and drop before opening, comes from changes in temperature, humidity, moisture, fertilizer or location, according to NC State. Shriveled or wrinkled leaves signal a water shortage, either from a medium kept too dry or from roots already rotted by soggy bark. Botrytis can spot the flowers, and Clemson lists leaf spots and bacterial soft rot among common orchid diseases. A plant that never reblooms usually lacks light or fertilizer."
+    ],
+    "petSafety": [
+      "The ASPCA lists the Phalaenopsis orchid, also sold as moth orchid or moon orchid, as non-toxic to cats, dogs and horses, which makes it one of the safest flowering plants to keep where a pet can reach. Non-toxic means no poisoning concern in the ASPCA database, not that the plant makes a good chew toy: bitten leaves and flowers ruin the orchid, and the fertilizers and pest sprays used on it are separate products with their own label warnings. Keep a curious cat away from the plant for the orchid's sake, and if your pet eats something you cannot identify, call your veterinarian or the ASPCA Animal Poison Control Center."
+    ],
+    "faq": [
+      {
+        "q": "What do I do with my orchid after the flowers fall off?",
+        "a": "Cut the flower spike, but keep the plant. NC State says to cut the stalk just above the first node below the faded flowers, and the RHS suggests the second node down; often, though not always, that node sends out a branch with more flowers. If the whole stem turns pale and dry instead, cut it off at the base. Keep watering about weekly and feeding lightly, and a healthy moth orchid can rebloom once a year, NC State notes."
+      },
+      {
+        "q": "Should I water my orchid with ice cubes?",
+        "a": "The extension advice points the other way. NC State says to water orchids in the morning with tepid water, letting it run freely through the pot and drain completely, and the University of Illinois Extension warns against cold water for houseplants in general. A few ice cubes also wet only a small part of the bark. A thorough rinse in the sink followed by full drainage, about once a week as the RHS suggests, is the safer routine."
+      },
+      {
+        "q": "Why are my orchid leaves wrinkled and limp?",
+        "a": "Wrinkled, leathery leaves mean the plant is short of water, and NC State lists two causes: a potting medium kept too dry, or roots damaged, often rotted by soggy medium. Check the roots through the clear pot or by unpotting. Firm silvery or green roots mean you should water more thoroughly. Brown, mushy or hollow roots mean rot: trim them, repot in fresh bark and water carefully until new roots grow."
+      },
+      {
+        "q": "Why won't my orchid rebloom?",
+        "a": "Light is the usual culprit. Clemson says too little light is one of the main reasons orchids fail to flower, visible as very dark green leaves, and names inadequate fertilizer as the other. Move the plant to a bright east window. Large white spring-flowering hybrids also need a cool autumn spell around 55°F at night for a week, NC State says, and UF/IFAS notes that most orchids need a 15 to 20 degree drop between day and night to flower."
+      },
+      {
+        "q": "Are the roots growing out of my orchid pot a problem?",
+        "a": "No. The RHS says roots climbing out above the compost are normal for an epiphyte and should be neither buried nor cut off; in the wild those aerial roots help the plant cling to its branch and absorb moisture. Mist them in hot weather, as the RHS suggests. Trim only roots that are brown, shriveled, mushy or hollow, and save that job for repotting time."
+      }
+    ]
+  }
+}

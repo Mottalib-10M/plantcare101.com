@@ -1,0 +1,355 @@
+{
+  "slug": "philodendron",
+  "commonName": "Philodendron",
+  "otherNames": [
+    "Heartleaf philodendron",
+    "Sweetheart plant",
+    "Parlor ivy",
+    "Cordatum",
+    "Tree philodendron"
+  ],
+  "botanicalName": "Philodendron spp. (mainly Philodendron hederaceum)",
+  "formerNames": [
+    "Philodendron scandens",
+    "Philodendron oxycardium"
+  ],
+  "family": "Araceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [75, 300],
+    "lux": [807, 3229],
+    "windows": ["north", "east", "west", "south"],
+    "directSun": "avoid",
+    "src": [1, 2, 3, 5, 9, 10]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water when the top inch of mix feels dry, keeping the rest slightly moist",
+    "winter": "Slow down in winter, as NC State advises for heartleaf philodendron; the pot dries more slowly while growth rests.",
+    "factors": [
+      "Never leave the pot standing in water: saturated compost leads to root rot, yellowing and collapse.",
+      "A large floor pot holding a self-heading philodendron stays wet far longer than a small hanging basket.",
+      "Tree philodendron does not tolerate salt buildup, so flush its pot regularly or use rainwater."
+    ],
+    "src": [1, 2, 3, 5, 6, 10]
+  },
+  "soil": {
+    "mix": "A loose, free-draining, slightly acidic mix, such as the RHS blend of two parts orchid compost to one part peat-free ericaceous compost; a general-purpose potting soil opened with bark also works.",
+    "components": [
+      "orchid bark compost",
+      "peat-free ericaceous compost or general-purpose potting soil",
+      "perlite for drainage"
+    ],
+    "ph": [5, 6],
+    "src": [0, 2, 3, 5, 6]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "High humidity gives the best growth, but philodendrons tolerate the low humidity of most homes (Clemson, RHS).",
+    "src": [1, 2, 5]
+  },
+  "temperature": {
+    "idealF": [65, 85],
+    "idealC": [18, 29],
+    "minF": 59,
+    "minC": 15,
+    "src": [0, 2, 3, 5]
+  },
+  "fertilizer": {
+    "season": "April to September (Illinois Extension gives March to September)",
+    "everyWeeks": [4, 17],
+    "strength": "half",
+    "type": "Dilute water-soluble houseplant fertilizer, or a time-release product mixed into the pot",
+    "winter": "none",
+    "src": [2, 3, 5, 11]
+  },
+  "repotting": {
+    "signs": [
+      "Roots densely pack the pot",
+      "The plant is root-bound and water runs straight through",
+      "A self-heading plant has grown top-heavy and tips its container"
+    ],
+    "season": "Spring (Clemson notes overcrowded plants can be repotted in any season)",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [0, 2, 5, 12]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "Clemson says all parts are toxic if eaten; NC State rates the poison severity as low, and UF/IFAS notes the sap can cause an itchy rash.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Heartleaf Philodendron (Philodendron hederaceum)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+        "toxicPrinciples": "Insoluble calcium oxalates",
+        "clinicalSigns": "Oral irritation, pain and swelling of mouth, tongue and lips, excessive drooling, vomiting (not horses), difficulty swallowing"
+      },
+      {
+        "name": "Tree Philodendron (Philodendron selloum)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/tree-philodendron",
+        "toxicPrinciples": "Calcium oxalate crystals",
+        "clinicalSigns": "Oral irritation, intense burning and irritation of the mouth, lips, tongue, excessive drooling, vomiting, difficulty in swallowing"
+      }
+    ],
+    "src": [0, 2, 3, 7, 8]
+  },
+  "problems": [
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Lower leaves yellow and the growing tips die back",
+      "causeKey": "overwatering",
+      "cause": "Too much water, sometimes combined with too little light",
+      "remedy": "Let the top inch dry before each watering, empty the saucer, and move the plant into brighter indirect light."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Leaf tips curl and turn brown",
+      "causeKey": "fertilizer-salts",
+      "cause": "Too much fertilizer",
+      "remedy": "Flush the pot with plenty of plain water, skip a feeding, and use a dilute fertilizer from then on."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long, bare stems with fewer and smaller leaves",
+      "causeKey": "low-light",
+      "cause": "Light too weak, even for a shade-tolerant vine",
+      "remedy": "Move it closer to a north, east or west window, then cut leggy stems back just above a leaf node in spring."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Plant collapses, roots dark and mushy",
+      "causeKey": "poor-drainage",
+      "cause": "Dense compost or a pot left standing in water",
+      "remedy": "Unpot, remove rotten roots, repot in a loose bark-based mix in a pot only slightly larger, and water less often."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "Cottony white clusters on stems and leaf undersides",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Take the plant to a sink or shower and wash pests off, then spot-treat survivors with rubbing alcohol or insecticidal soap."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale stippling on the leaves",
+      "causeKey": "pests",
+      "cause": "Spider mites",
+      "remedy": "Rinse the foliage thoroughly, isolate the plant and treat with insecticidal soap, repeating until no webbing returns."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings of vining types",
+      "Air layering",
+      "Offsets on some self-heading types"
+    ],
+    "season": "Any season (Clemson, Illinois Extension); the RHS prefers spring to late summer"
+  },
+  "size": {
+    "heightIn": [4, 72],
+    "widthIn": [6, 72],
+    "growth": "fast",
+    "src": [1]
+  },
+  "varieties": [
+    {
+      "name": "Brasil",
+      "note": "Heartleaf form with a yellow to light green stripe down the center of each dark green leaf."
+    },
+    {
+      "name": "Lemon Lime",
+      "note": "Heartleaf form with bright yellow to chartreuse leaves."
+    },
+    {
+      "name": "Micans (velvet philodendron)",
+      "note": "Velvety heart-shaped leaves, bronze above with reddish brown undersides."
+    },
+    {
+      "name": "Birkin",
+      "note": "Upright self-heading hybrid; dark green leaves with creamy white pinstripes."
+    },
+    {
+      "name": "Xanadu",
+      "note": "Dense, low self-heading plant with deeply dissected lobes; about 3 feet tall and 5 feet wide."
+    },
+    {
+      "name": "Black Cardinal",
+      "note": "Self-heading hybrid; 8- to 10-inch leaves open burgundy-red and age to nearly black."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Philodendron",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Philodendron hederaceum (Heartleaf Philodendron)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Philodendron, Pothos & Monstera (HGIC 1509)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron-pothos-monstera/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Heartleaf Philodendron",
+      "publisher": "UF/IFAS Gardening Solutions, University of Florida",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/home/plants/houseplants/heartleaf-philodendron/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Hybrid Philodendrons",
+      "publisher": "UF/IFAS Gardening Solutions, University of Florida",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/home/plants/houseplants/hybrid-philodendrons/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow philodendrons",
+      "publisher": "Royal Horticultural Society (RHS)",
+      "url": "https://www.rhs.org.uk/plants/philodendron/growing-guide",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Philodendron",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/philodendron",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Heartleaf Philodendron",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Tree Philodendron",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/tree-philodendron",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Philodendron bipinnatifidum (Tree Philodendron)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron-bipinnatifidum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Propagation",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/propagation",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Air Layering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/air-layering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Monstera deliciosa (Split-leaf Philodendron)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["pothos", "monstera"],
+  "seo": {
+    "title": "Philodendron Care: Light, Water & Climbing Guide (2026)",
+    "description": "Philodendron care in 2026: water when the top inch is dry, keep it above 59°F, and choose low or bright light by type. Watering calculator, toxicity and fixes.",
+    "h1": "Philodendron care: heartleaf vines and upright types"
+  },
+  "content": {
+    "answer": "Most philodendrons want bright, indirect light, a loose mix watered when the top inch is dry, and warmth: Clemson gives 65 to 70°F at night and 75 to 85°F by day. Heartleaf philodendron tolerates very low light; self-heading types need more light and room.",
+    "intro": "Philodendron is not one plant but a genus of more than 600 species, NC State Extension notes, and the name, from the Greek for tree-loving, describes how most of them live: as climbers and hemi-epiphytes that root into bark in the forests of Central and South America. Growers sort them into two camps. Vining types such as the heartleaf philodendron, Philodendron hederaceum, send out long stems with aerial roots and 2- to 4-inch heart-shaped leaves; self-heading types such as the tree philodendron, 'Birkin' and 'Xanadu' hold big leaves on short, thick stems arranged in a rosette. This page centers on the heartleaf, the most common philodendron indoors and, according to Clemson Extension, one that tolerates very low light, while flagging where the upright types differ. Both camps share roots that love warmth, a dislike of soggy soil and calcium oxalate crystals in every part.",
+    "light": [
+      "Heartleaf philodendron is one of the few houseplants the University of Illinois Extension lists for low light, around 75 foot-candles, which is a few feet from a north window or 3 to 10 feet from an east or west one. Clemson says it grows well under ordinary room light or near a north, east or west window. That tolerance has a price: the RHS notes that a philodendron short on light turns leggy, putting out fewer and smaller leaves spaced along bare stem.",
+      "Self-heading types want more. Clemson recommends medium to bright light near an east, west or south window for tree philodendrons, and NC State says low light leaves them with smaller leaves carrying fewer lobes or none. UF/IFAS adds that hybrids with colored foliage need higher light to show their full color. For every philodendron, keep direct sun off the leaves; NC State and the RHS both warn that it scorches them."
+    ],
+    "water": [
+      "Water when the top inch of mix feels dry, the rule UF/IFAS gives for heartleaf and hybrid philodendrons alike. Clemson describes the goal as soil kept evenly moist but never soggy, and the University of Illinois Extension as minimally moist at all times, a narrower window than it allows pothos. Never leave the pot sitting in water: the RHS warns that saturated compost leads to root rot, yellowing and eventually collapse.",
+      "Vining and self-heading plants differ mostly in volume. A heartleaf in a hanging basket dries quickly in warm, bright air, while a tree philodendron in a large floor pot holds moisture for much longer, so test each pot rather than watering them on the same day. NC State recommends slowing down in winter. The RHS suggests rainwater or filtered water at room temperature, especially where tap water is hard, and NC State notes that tree philodendron does not tolerate salt buildup, so flush its pot regularly."
+    ],
+    "soil": [
+      "The RHS recommends a loose, free-draining, slightly acidic mix of pH 5 to 6: two parts orchid compost to one part peat-free ericaceous compost. NC State likewise lists acid soil, high in organic matter and well drained. Clemson and the University of Illinois Extension are content with a general-purpose potting soil, which works if bark or perlite is added so it drains fast, and UF/IFAS stresses a lightweight, well-drained medium so roots never sit waterlogged. For big self-heading plants, use a stout, heavy container; UF/IFAS warns they can tip over."
+    ],
+    "humidity": [
+      "High humidity gives the best growth, Clemson says, but philodendrons tolerate the low humidity of most homes, and the RHS calls their preference moderately humid air. NC State notes that heartleaf does best in medium relative humidity and appreciates misting. In a very dry winter apartment, a humidifier or a pebble tray does more than a daily spritz. Climbing plants on a moss pole gain from keeping the moss damp, which also helps the aerial roots grip, as the RHS points out."
+    ],
+    "temperature": [
+      "Clemson gives night temperatures of 65 to 70°F and days of 75 to 85°F as ideal, and NC State puts the range at 65 to 85°F, adding that philodendrons are very sensitive to cold and drafts. The RHS sets the floor at 59°F (15°C). UF/IFAS is a little more tolerant for heartleaf, calling anything below 50°F too cool. If you summer a tree philodendron on a patio, NC State advises bringing it indoors once temperatures dip below 60°F."
+    ],
+    "fertilizer": [
+      "Clemson recommends feeding regularly with a dilute, water-soluble houseplant fertilizer, or using a time-release product instead. UF/IFAS takes a lighter line for heartleaf, every 3 to 4 months, while the University of Illinois Extension's general rule is once every 1 to 3 months between March and September, and the RHS feeds from April to September. Too much does more harm than too little: Clemson and UF/IFAS both say excess fertilizer makes leaf tips curl and turn brown. Mixing at half the label rate is a simple way to follow Clemson's advice to keep it dilute."
+    ],
+    "repotting": [
+      "Philodendrons can stay in their pot for at least a couple of years, says the RHS, until roots fill it densely; NC State says to repot once the plant becomes root-bound. Spring is the best time according to both, although Clemson notes overcrowded plants can be repotted in any season. Choose a pot only slightly larger, the RHS advises, because surplus compost stays wet and rots roots; Clemson's general rule is 1 or 2 inches wider. If a vining plant is going to climb, set a moss pole or bark-covered board in the new pot at the same time."
+    ],
+    "propagation": [
+      "Vining philodendrons root readily from stem cuttings, and Clemson and the University of Illinois Extension both say any season works. The RHS takes a short length of stem, cut just below a leaf joint, strips the lower leaves and stands it in water, where roots appear within a couple of weeks. Illinois prefers a rooting medium, warning that roots formed in water are often weak and slow to adapt to soil, so move water-rooted pieces into a free-draining mix early.",
+      "Self-heading philodendrons offer little stem to cut. Clemson suggests air layering for them and notes that some kinds produce offsets that can be separated and potted. For an air layer, the University of Illinois Extension wounds the stem partway through, packs very moist sphagnum around the wound, seals it in clear plastic and waits 3 to 4 months for roots before severing the top."
+    ],
+    "problems": [
+      "Philodendron troubles fall into a short list. Yellowing lower leaves and dying growing tips come from too little light or too much water, per Clemson. Curled, brown tips point to fertilizer overload. Long bare stems with small leaves mean the light is too weak, and a collapsing plant with soft roots means the mix stayed wet. Aphids, mealybugs, scale and spider mites turn up occasionally, and NC State adds banded greenhouse thrips; UF/IFAS suggests simply washing pests off in a sink or shower. Self-heading types have brittle leaf stalks that snap when brushed, so Clemson advises keeping them out of traffic paths."
+    ],
+    "petSafety": [
+      "The ASPCA lists the heartleaf philodendron (Philodendron hederaceum) as toxic to dogs, cats and horses, and the tree philodendron (Philodendron selloum) as toxic to dogs and cats. The culprit is calcium oxalate, insoluble crystals that cause oral irritation, pain and swelling of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. UF/IFAS warns the swelling can reach the upper airway, and NC State rates poison severity for people as low, with sap that can irritate skin. Keep trailing stems out of reach and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if a pet chews one."
+    ],
+    "faq": [
+      {
+        "q": "Should I let my heartleaf philodendron climb or trail?",
+        "a": "Either works. Trailing from a basket or a high shelf is the easy option, and the RHS recommends it for small-leaved climbing forms. Climbing changes the plant: Clemson notes that most philodendrons only reach full leaf size when trained vertically for several years, and UF/IFAS reports heartleaf leaves reaching 12 inches or more outdoors when the vine can climb trees. Use a moss pole kept moist so the aerial roots grip it, and tie stems loosely until they attach."
+      },
+      {
+        "q": "How big does a tree philodendron get indoors?",
+        "a": "Big. NC State lists tree philodendron at 4 to 10 feet tall and 6 to 10 feet wide, with leaves up to 4 feet long, and Clemson says it will be too large for most homes. Even 'Dwarf Selloum' can reach 6 feet tall and wide. For a smaller self-heading look, Clemson points to 'Xanadu', which matures at about 3 feet tall and 5 feet wide. Give any of them a heavy pot and space away from foot traffic."
+      },
+      {
+        "q": "Is a split-leaf philodendron really a philodendron?",
+        "a": "Usually not. The plant sold as split-leaf philodendron is most often Monstera deliciosa, a close relative in the arum family; NC State states plainly that it is not actually a philodendron. Clemson Extension explains how to tell them apart: monstera leaves develop holes as well as deep cuts, while true philodendrons with cut leaves, such as Philodendron bipinnatifidum, have deep lobes and no holes. Care is similar, but monstera needs brighter light to form its holes."
+      },
+      {
+        "q": "Why are new philodendron leaves wrapped in a brown papery sheath?",
+        "a": "That sheath is normal. Clemson Extension explains that each new philodendron leaf emerges inside a protective leaf sheath that eventually dries up and falls off, and NC State describes the large stipules on new growth that turn messy and drop from older stems. Leave them alone, or pull them away once they are fully brown and loose. Pothos, the usual look-alike, never forms this sheath, which makes it a handy identification clue."
+      },
+      {
+        "q": "Is philodendron Birkin a climbing plant?",
+        "a": "No. NC State groups 'Birkin' with the non-climbing, self-heading philodendrons, alongside 'Moonlight' and the tree philodendron: very short stems with leaves held in a rosette, so it needs no pole. Its dark green leaves carry creamy white pinstripes. Like other upright hybrids, UF/IFAS suggests medium to bright indirect light and watering whenever the top inch of soil feels dry, and a sturdy pot as it grows."
+      }
+    ]
+  }
+}

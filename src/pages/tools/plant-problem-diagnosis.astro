@@ -1,0 +1,51 @@
+---
+import ToolLayout from '../../components/ToolLayout.astro';
+import Diagnosis, { CAUSE_LABEL } from '../../components/calc/Diagnosis';
+import { PLANTS, diagPlants, symptomOptions, plantPath, SYMPTOM_LABEL } from '../../lib/plants';
+import { GUIDES, guidePath } from '../../lib/guides';
+import { route } from '../../i18n/routes';
+import { SRC } from '../../data/general-sources';
+const lang = 'en';
+const rows = PLANTS.reduce((n, p) => n + p.problems.length, 0);
+const symptoms = symptomOptions();
+// Cause la plus fréquente par symptôme, toutes fiches confondues (tableau généré).
+const top = symptoms.slice(0, 8).map((s) => {
+  const c = new Map<string, number>();
+  for (const p of PLANTS) for (const x of p.problems) if (x.symptomKey === s.key) c.set(x.causeKey, (c.get(x.causeKey) ?? 0) + 1);
+  const best = [...c].sort((a, b) => b[1] - a[1])[0];
+  return { label: s.label, cause: CAUSE_LABEL[best[0]] ?? best[0], n: best[1], total: [...c.values()].reduce((a, b) => a + b, 0) };
+});
+const faqs = [
+  { q: 'Can the plant problem diagnosis tool tell overwatering from underwatering?', a: 'It narrows it down. Both show up as drooping and yellowing, which is why Clemson HGIC says their symptoms are similar. Set the potting mix field to wet or bone dry: wet doubles the weight of overwatering and drainage causes and cuts drought causes, dry does the opposite. For a closer look, use the over or under check in our overwatering guide.' },
+  { q: 'Why does my plant show two problems at once?', a: 'Because one cause often triggers another. Roots damaged by soggy mix cannot take up water, so the plant wilts as if thirsty, and a weakened plant attracts pests. Treat the cause the tool ranks first, then recheck after two weeks. If new leaves come in healthy, the old damage will not reverse, but the problem is solved.' },
+  { q: 'Should I cut off yellow or brown leaves after fixing the problem?', a: 'Yes, once you are sure of the cause. A leaf that has turned fully yellow will not green up again, and removing it lets the plant put its energy into new growth. Partly damaged leaves can stay while they still have green tissue. Cut at the base of the leaf stalk with clean scissors.' },
+  { q: 'What if my symptom is not in the list?', a: 'The list only shows symptoms documented in at least one of our plant guides, so it grows as guides are added. For anything else, check the undersides of the leaves with a magnifier for pests, compare the problem tables in our guides, or take a photo and a sample to your county Cooperative Extension office, whose Master Gardener volunteers answer plant questions.' },
+];
+const related = [
+  ...GUIDES.filter((g) => ['yellow-leaves', 'brown-leaf-tips', 'overwatering-vs-underwatering', 'houseplant-pests'].includes(g.slug)).map((g) => ({ href: guidePath(g.slug), name: g.nav, description: 'Problem guide' })),
+  { href: route('watering', lang), name: 'Watering calculator', description: 'Get the interval right' },
+];
+---
+<ToolLayout id="diagnosis" title="Plant Problem Diagnosis: Symptom to Likely Cause (2026)"
+  h1="Plant problem diagnosis: what is wrong with my plant?"
+  description="Plant problem diagnosis for 2026: choose a symptom, your plant and how wet the soil is to see the likely causes, ranked from our sourced plant guides."
+  answer="Pick what you see, the plant if you know it, and whether the potting mix is wet or dry: the tool ranks the likely causes from the problem tables of our plant guides and gives the fix for each."
+  intro={`Most houseplant trouble is not disease. Clemson HGIC notes that houseplants develop many problems, but most have environmental or cultural causes, and diseases are uncommon indoors because conditions do not favor pathogens. That is good news: if the cause is water, light, air or pests, you can fix it yourself. This tool draws on the ${rows} symptom, cause and remedy entries recorded in our ${PLANTS.length} plant guides, each one written from extension sources and the ASPCA for that plant. When you choose a plant, its own entries count three times as much as the others; when you say the mix is wet or dry, causes that fit your answer move up. The ranking shows how often each cause explains your symptom across the guides, not a lab diagnosis.`}
+  faqs={faqs} related={related} sources={[SRC.clDisease, SRC.clPests, SRC.ilTrouble, SRC.clWatering]}>
+  <Diagnosis slot="tool" client:load plants={diagPlants()} symptoms={symptoms} defaultSymptom="yellow-leaves" />
+
+  <h2>The most common cause behind each symptom</h2>
+  <p>Across all our guides, here is the cause recorded most often for the eight most documented symptoms. The table recalculates every time a plant guide is added.</p>
+  <div class="overflow-x-auto"><table>
+    <caption class="sr-only">Most frequent cause by symptom</caption>
+    <thead><tr><th scope="col">Symptom</th><th scope="col">Most frequent cause</th><th scope="col">Entries</th></tr></thead>
+    <tbody>{top.map((t) => <tr><td>{t.label}</td><td>{t.cause}</td><td>{t.n} of {t.total}</td></tr>)}</tbody>
+  </table></div>
+
+  <h2>Before you trust the answer</h2>
+  <p>Check the roots when a ranking points at water. Slide the plant out of its pot: firm, light-colored roots mean the problem is above ground; brown, soft roots that smell sour mean rot, and Clemson HGIC advises cutting out infected roots and repotting in sterile mix when only a few are affected, or discarding the plant when most are dark and dead. Then look under the leaves with a magnifying lens, where Clemson says most pests hide; fine webbing, cottony tufts or sticky residue change the picture entirely.</p>
+  <p>Think about what changed recently. A plant moved from a greenhouse to your living room, repotted, or set near a heating vent often drops leaves for a few weeks. Clemson notes that leaf drop after a significant change in environment should only last about three weeks. If it goes on longer, run the diagnosis again with the plant's current conditions.</p>
+
+  <h2>How the ranking works</h2>
+  <p>Every problem entry in our plant guides carries a symptom key and a cause key from fixed lists, so “yellow leaves” on a peace lily and on a pothos land in the same bucket. The tool counts, for your symptom, how many guides attribute it to each cause, weights the plant you chose, adjusts for the state of the mix, and shows each cause's share of the total. The fix it displays is the one written for your plant when available, otherwise the first guide that records that cause. Symptoms no guide documents yet do not appear in the list: the tool never invents a cause. Browse the <a href={route('plants', lang)}>plant guides</a> for the full tables, such as the <a href={plantPath('snake-plant')}>snake plant</a> rot and pest entries.</p>
+</ToolLayout>

@@ -1,0 +1,355 @@
+{
+  "slug": "peace-lily",
+  "commonName": "Peace lily",
+  "otherNames": [
+    "Spathe flower",
+    "White flag"
+  ],
+  "botanicalName": "Spathiphyllum",
+  "formerNames": [],
+  "family": "Araceae",
+  "kind": "flowering",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      75,
+      300
+    ],
+    "lux": [
+      807,
+      3229
+    ],
+    "windows": [
+      "north",
+      "east",
+      "west"
+    ],
+    "directSun": "avoid",
+    "src": [
+      0,
+      1,
+      3
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Keep the mix moist but not soggy, watering when the top inch starts to dry",
+    "winter": "Growth slows in short days and the pot dries more slowly, so check the surface before each watering and still avoid hard wilting.",
+    "factors": [
+      "Clemson warns that a plant left to dry out excessively wilts and its leaves and edges turn yellow.",
+      "Never leave the pot standing in a saucer of water; Clemson links this to root rot.",
+      "Use room-temperature water, and let tap water stand for 24 hours if leaf tips brown."
+    ],
+    "src": [
+      0,
+      1,
+      6,
+      7
+    ]
+  },
+  "soil": {
+    "mix": "Almost any well-drained potting mix works; NC State prefers one high in organic matter.",
+    "components": [
+      "peat-free houseplant potting mix",
+      "composted bark or coir for organic matter"
+    ],
+    "src": [
+      0,
+      1,
+      5,
+      7
+    ]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "The RHS advises high humidity while the plant grows; NC State lists low humidity among the causes of brown leaf tips.",
+    "src": [
+      0,
+      5
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      68,
+      85
+    ],
+    "idealC": [
+      20,
+      29
+    ],
+    "minF": 60,
+    "minC": 16,
+    "src": [
+      0,
+      1
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring and summer growing season",
+    "everyWeeks": [
+      6,
+      8
+    ],
+    "strength": "quarter",
+    "type": "Balanced liquid houseplant fertilizer such as 20-20-20, mixed at one-quarter of the label strength",
+    "winter": "none",
+    "src": [
+      0,
+      1,
+      6
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage holes",
+      "Roots circle on top of the soil surface",
+      "The plant wilts again soon after a thorough watering"
+    ],
+    "season": "February or March, or any time during the growing season",
+    "rootType": "fibrous",
+    "prefersSnug": true,
+    "src": [
+      0,
+      1
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "toxic",
+    "humanNote": "NC State rates the poison severity as medium: eating the leaves causes mouth pain, burning of the lips, tongue and throat, drooling, vomiting and difficulty swallowing.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Peace Lily (Spathiphyllum)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
+        "toxicPrinciples": "Insoluble calcium oxalates",
+        "clinicalSigns": "Oral irritation, intense burning and irritation of mouth, tongue and lips, excessive drooling, vomiting, difficulty swallowing"
+      }
+    ],
+    "src": [
+      0,
+      1,
+      4
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "drooping",
+      "symptom": "Whole plant collapses, leaves hanging limp over the rim",
+      "causeKey": "underwatering",
+      "cause": "Mix allowed to dry out too far",
+      "remedy": "Water slowly until it drains, or stand the pot in a few inches of water until the surface darkens; water a little sooner next time."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Plant droops while the mix is still wet; roots brown and soft",
+      "causeKey": "overwatering",
+      "cause": "Root and stem rot from soggy mix or a full saucer",
+      "remedy": "Unpot, trim brown mushy roots, repot in fresh well-drained mix in a pot no larger than the root ball needs, and empty the saucer after watering."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Leaf tips and edges turn brown and dry",
+      "causeKey": "fertilizer-salts",
+      "cause": "Overfeeding or salt buildup in the pot",
+      "remedy": "Flush the pot with plenty of plain water, feed only at quarter strength, and trim the brown tips with clean scissors."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Scorched, pale or crisp patches on leaves near a window",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sun heating the foliage",
+      "remedy": "Move the plant out of direct sun to a north window or a few feet back from an east or west one."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Yellow between green veins on a stunted plant",
+      "causeKey": "nutrient-deficiency",
+      "cause": "Magnesium deficiency",
+      "remedy": "Feed with a complete houseplant fertilizer that lists magnesium, at quarter strength, during spring and summer."
+    },
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Healthy leaves but no white spathes",
+      "causeKey": "low-light",
+      "cause": "Plant younger than a year or kept in too little light",
+      "remedy": "Move it to bright, indirect light and keep it slightly pot-bound; young plants simply need time."
+    },
+    {
+      "symptomKey": "small-flies",
+      "symptom": "Tiny dark flies rising from the soil when watered",
+      "causeKey": "pests",
+      "cause": "Fungus gnats breeding in constantly wet mix",
+      "remedy": "Let the top inch dry fully between waterings and use yellow sticky cards to catch the adults."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of the crowns"
+    ],
+    "season": "Spring, or right after flowering"
+  },
+  "size": {
+    "heightIn": [
+      12,
+      48
+    ],
+    "widthIn": [
+      12,
+      48
+    ],
+    "src": [
+      1,
+      2
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Little Angel",
+      "note": "Dwarf, compact and free-flowering, 12 to 15 inches tall."
+    },
+    {
+      "name": "Domino",
+      "note": "Ruffled dark green leaves streaked with white; about 30 inches tall and wide."
+    },
+    {
+      "name": "Mauna Loa Supreme",
+      "note": "Medium size, 2 to 3 feet tall, with flowers up to 4 inches wide."
+    },
+    {
+      "name": "Sensation",
+      "note": "The largest commercial peace lily, maturing at 6 feet tall and wide with ribbed leaves."
+    },
+    {
+      "name": "Wallisii",
+      "note": "Small and vigorous, 12 to 15 inches, with rippled leaves and 3-inch blooms."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Spathiphyllum (Peace Lily)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/spathiphyllum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Peace Lily",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/peace-lily/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Peace Lily",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/home/plants/houseplants/peace-lily/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Peace Lily",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Spathiphyllum wallisii, Wallis peace lily",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/17623/spathiphyllum-wallisii/details",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant Diseases & Disorders",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Division",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/division",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "seo": {
+    "title": "Peace Lily Care: Light, Water & Drooping Fixes (2026)",
+    "description": "Peace lily care in 2026: bright indirect light, moist mix, 68 to 85°F days and quarter-strength feeding every 6 to 8 weeks. Watering calculator and droop fixes.",
+    "h1": "Peace lily care: light, water and drooping"
+  },
+  "content": {
+    "answer": "Keep a peace lily in bright, indirect light out of direct sun, water when the top of the mix starts to dry so it never wilts hard, and hold it between 68 and 85°F by day. Feed at quarter strength every six to eight weeks in spring and summer.",
+    "intro": "The white flower of a peace lily is not a petal at all but a spathe, a modified leaf wrapped around a cream spike of tiny true flowers, and the genus name Spathiphyllum means exactly that in Greek: spathe leaf. NC State notes that each spathe fades to pale green after about 10 days and then stays attractive for at least another month. Clemson Extension calls the peace lily one of the few foliage plants that will bloom in low light, which is why it fills so many offices and waiting rooms. It is an arum, a relative of caladiums and anthuriums, not a true lily. Its care revolves around one habit: when the mix dries too far, every leaf collapses, then rises again after a good drink. That theatrical wilt is a handy alarm, but used as a watering schedule it browns the leaf edges and yellows the older leaves.",
+    "light": [
+      "Few houseplants accept a dim room so gracefully. The University of Illinois Extension puts Spathiphyllum in its low-light group, the 75 foot-candle level found a few feet from a north window or 3 to 10 feet back from an east or west one, and NC State lists partial to deep shade. Clemson adds the nuance that matters for blooms: peace lilies tolerate low light but grow best in bright indirect light, and a plant older than a year that will not flower is usually sitting somewhere too dark.",
+      "Direct sun is the one exposure to rule out. Clemson warns that its heat scorches the foliage, and NC State names excessive direct sun among the causes of brown tips. A north window, or a spot a few feet from an east or west window where the plant sees open sky but not the sun itself, gives you dark glossy leaves and a steady supply of spathes."
+    ],
+    "water": [
+      "Peace lilies drink more than most foliage plants. Clemson's advice is to keep the mix moist but not soggy and let it dry out slightly between waterings; NC State says the same and adds that watering from below works very well for this plant. In practice, touch the surface. When the top inch feels dry, water until it drains, or stand the pot in a few inches of water until moisture wicks up to the top, the sub-irrigation method the University of Illinois Extension describes, then let it drain. A pot left sitting in a full saucer is what Clemson links to root rot.",
+      "The famous droop is a thirst signal, and most plants stand back up after a thorough watering. Treat it as a last warning rather than a reminder. Clemson notes that when the mix dries out excessively, the plant wilts and its leaves and edges turn yellow, so repeated collapses cost leaves. The reverse case fools many owners: Illinois points out that wilting can also be a symptom of overwatering, because rotting roots cannot take up water. Limp leaves over wet mix call for a look at the roots, not another drink.",
+      "Water quality shows up at the leaf tips. Clemson asks for room-temperature water, and its fact sheet on houseplant disorders notes that some plants react to fluoride or chlorine in tap water and suggests letting the water stand for 24 hours before use. In winter, growth slows and the pot dries more slowly, so check the surface more often than you actually water."
+    ],
+    "soil": [
+      "Clemson says peace lilies flourish in almost any well-drained potting mix, and NC State prefers one high in organic matter; the RHS recommends a peat-free compost. A standard houseplant mix with composted bark or coir fits all three descriptions. Because this plant wants to stay evenly damp, skip gritty cactus mixes, which dry too fast, and heavy garden soil, which stays waterlogged. Pot material matters too: the University of Illinois Extension notes that unglazed clay dries faster than plastic, so a plastic or glazed pot keeps a thirsty peace lily from wilting between checks."
+    ],
+    "humidity": [
+      "Most species come from tropical regions of Central and South America, Clemson notes, and the RHS advises keeping humidity high and misting freely while the plant is in growth. NC State lists low humidity among the causes of brown leaf tips, which is why winter heating so often marks the leaves. A pebble tray, a room humidifier or a cluster of plants raises the moisture around the foliage. Wipe the broad leaves with a damp cloth from time to time, as Clemson and NC State both suggest; it removes dust and some of the pests that gather on the undersides."
+    ],
+    "temperature": [
+      "Peace lilies want warmth. Clemson and NC State both give 68 to 85°F (20 to 29°C) during the day, with nights about 10 degrees cooler. Clemson asks you to avoid temperatures below 60°F, where cold damage may occur, and NC State says growth slows considerably between 40 and 60°F and that extended periods below 40°F damage leaves, stems and roots. Keep the plant out of the path of heating and air-conditioning vents; Clemson notes that hot, cold and drafty exposures all harm it."
+    ],
+    "fertilizer": [
+      "This is a light feeder. Clemson recommends a balanced liquid houseplant fertilizer such as 20-20-20 every six to eight weeks during the spring and summer growing season, mixed at one-quarter of the label strength. NC State also feeds at quarter strength and suggests flushing the soil with plain water between applications, because overfeeding and salt buildup burn the leaf tips and roots. A white crust on the soil surface, which Clemson identifies as salt, means it is time to run plenty of water through the pot and skip the next feeding."
+    ],
+    "repotting": [
+      "A peace lily likes being a little crowded. NC State says to keep it somewhat pot-bound and to repot when necessary in February or March; Clemson says repotting can be done any time of year but the plant recovers faster during the growing season. Move it up when roots grow through the drainage holes or circle on top of the soil, and choose a container only one to two inches larger. Clemson warns that a much bigger pot keeps the mix too wet around a modest root system and leads to root rot. Loosen the roots gently before settling the plant at its old depth in fresh mix."
+    ],
+    "propagation": [
+      "Division is the standard method. UF/IFAS recommends dividing in spring, and the RHS gives winter or immediately after flowering. A mature peace lily is a cluster of crowns, each a fan of leaves rising directly from the soil, so slide the plant out, look for natural gaps between crowns, and pull or cut them apart so every piece keeps several leaves and a good share of roots. Pot each division right away, as the University of Illinois Extension advises for division in general, so the roots do not dry out, and water it in well."
+    ],
+    "problems": [
+      "Peace lilies report trouble quickly. Brown tips are the most common complaint, and NC State traces them to direct sun, underwatering or low humidity, while Clemson adds overfeeding and excessive drying for brown edges. Yellowing between green veins on a stunted plant points to magnesium deficiency, according to Clemson. Root and stem rot from overwatering is the most frequent disease. Mealybugs are the insect NC State sees most indoors, and Clemson adds fungus gnats, spider mites and scales to the list. A plant that never flowers is usually under a year old or short of light."
+    ],
+    "petSafety": [
+      "The ASPCA lists the peace lily as toxic to cats and dogs. The plant cells hold insoluble calcium oxalate crystals, and an animal that bites a leaf typically shows oral irritation, intense burning of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. NC State rates the poison severity as medium and flags the plant as a problem for children as well, and Clemson gives burning of the mouth, throat and tongue as the most common effect. Keep the pot out of reach of pets and small children, and if an animal chews it, call your veterinarian or the ASPCA Animal Poison Control Center."
+    ],
+    "faq": [
+      {
+        "q": "Why is my peace lily drooping even though the soil is wet?",
+        "a": "Wet mix and a drooping plant usually mean the roots are damaged and cannot take up water. The University of Illinois Extension notes that wilting can be a symptom of overwatering, not only thirst, and Clemson lists root and stem rot from overwatering as the peace lily's most common problem. Slide it out of the pot: firm, pale roots are fine, brown mushy ones need trimming. Repot in fresh mix and water only when the surface dries."
+      },
+      {
+        "q": "How do I get my peace lily to bloom again?",
+        "a": "Check age and light first. Clemson says lack of flowering usually happens on plants less than a year old or in insufficient light. Move the plant to bright, indirect light, never direct sun, keep it slightly pot-bound, and feed at quarter strength every six to eight weeks in spring and summer. Spathes do not arrive on a fixed date; NC State notes peace lilies have no specific bloom time but flower freely once conditions suit them."
+      },
+      {
+        "q": "Why are my peace lily flowers turning green?",
+        "a": "That is normal aging, not a problem. NC State explains that the white spathes turn pale green after about 10 days and then stay attractive for at least another month, and Clemson describes the same change. Once a green spathe starts to brown, cut its stalk near the base, down among the leaves, so the plant looks tidy. New white spathes come from new growth when light and feeding are right."
+      },
+      {
+        "q": "Can a peace lily live in a room with no windows?",
+        "a": "Only under artificial light. The University of Illinois Extension rates Spathiphyllum as a low-light plant, about 75 foot-candles at minimum, which is still real daylight a few feet from a window. Illinois says cool white fluorescent bulbs work well for foliage plants and that 14 to 16 hours of light helps when intensity is low. In a room with lights on most of the day, a peace lily can keep growing; in a dark storeroom it slowly declines."
+      },
+      {
+        "q": "Should I repot my peace lily into a much bigger pot?",
+        "a": "No. Clemson advises a container only one to two inches larger than the current pot, because a much bigger one holds extra mix that stays wet and leads to root rot. NC State adds that the plant should be kept somewhat pot-bound. Repot only when roots grow through the drainage holes or circle on the surface, ideally in February or March as NC State suggests, or at least during the growing season."
+      }
+    ]
+  }
+}

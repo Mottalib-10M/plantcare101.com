@@ -1,0 +1,46 @@
+# PlantCare101
+
+> Houseplant care guides for 20 indoor plants, each with a watering calculator set to the plant, and six tools: watering calculator, pet-safe plant checker (ASPCA cat and dog lists), plant problem diagnosis, window light finder, fertilizer dilution and pot size. Care figures come from university extension services (NC State, Clemson HGIC, University of Illinois, UF/IFAS), the Missouri Botanical Garden, the RHS and the ASPCA, each cited with the date it was read. Published by Radif Partners. US English.
+
+## Plant guides
+- [African violet care](https://plantcare101.com/plants/african-violet/): African violets want bright light without hot afternoon sun, such as a spot within 3 feet of a large window, and a light mix kept barely moist with room-temperature water that never splashes the leaves. Keep nights at 60°F or warmer.
+- [Aloe vera care](https://plantcare101.com/plants/aloe-vera/): Grow aloe vera in the sunniest window you have, in gritty cactus mix in a pot with drainage holes. Let the mix dry completely before each watering, water very sparingly in winter, and keep it frost-free, with cool winter nights around 46 to 50°F.
+- [Bird of paradise care](https://plantcare101.com/plants/bird-of-paradise/): Give a bird of paradise the brightest spot you have, ideally full sun at a south window. Soak the pot, let the mix dry slightly, feed every two weeks in spring and weekly in summer, and keep nights above 50°F.
+- [Bonsai care](https://plantcare101.com/plants/bonsai/): Indoors, grow a tropical bonsai such as Ficus microcarpa: bright light, compost kept just moist in its shallow pot, warmth of 65°F or more, and a balanced liquid feed in the growing season. Juniper bonsai are outdoor trees that need a winter rest.
+- [Calathea care](https://plantcare101.com/plants/calathea/): Calatheas want steady conditions: bright but indirect light, a mix kept evenly moist but never soggy, humidity of 60 percent or more, and 65 to 75°F. Water with rainwater or distilled water, since NC State notes that fluoride in tap water browns leaf tips.
+- [Christmas cactus care](https://plantcare101.com/plants/christmas-cactus/): Keep a Christmas cactus in bright, indirect light, water when the top inch of soil feels dry, and feed it monthly at half strength from spring through summer. To bloom, it needs long, dark nights starting in mid-September, as Clemson Extension explains.
+- [Fiddle-leaf fig care](https://plantcare101.com/plants/fiddle-leaf-fig/): Give a fiddle-leaf fig bright, indirect light with shade from hot afternoon sun, water thoroughly once the top two inches of mix feel dry, and keep it above 55°F, away from drafts and heating vents. Sudden leaf drop usually points to a watering mistake, so check the mix before you pour.
+- [Hydrangea care](https://plantcare101.com/plants/hydrangea/): Keep a potted gift hydrangea evenly moist in bright light without hot afternoon sun. When the flowers fade, cut those stems back to a pair of healthy buds, then plant it outdoors in spring or fall in part shade: it is a hardy shrub, not a permanent houseplant.
+- [Jade plant care](https://plantcare101.com/plants/jade-plant/): Give a jade plant four or more hours of direct sun a day, water when the mix has nearly dried in spring and summer, and let it dry out between waterings in winter. Use a fast-draining, cactus-type mix and aim for nights around 50 to 55°F.
+- [Monstera care](https://plantcare101.com/plants/monstera/): Give a monstera bright, indirect light, water thoroughly once the top quarter to third of the mix has dried, and keep it between 65 and 77°F with moderate to high humidity. A moss pole and a heavy pot help it build large, split leaves.
+- [Moth orchid care](https://plantcare101.com/plants/orchid/): Grow a moth orchid in bark-based orchid mix, never potting soil, in a bright east window out of direct summer sun. Water about once a week, letting the bark nearly dry, keep it between 61 and 86°F, and cut the spent spike above a node to encourage reblooming.
+- [Peace lily care](https://plantcare101.com/plants/peace-lily/): Keep a peace lily in bright, indirect light out of direct sun, water when the top of the mix starts to dry so it never wilts hard, and hold it between 68 and 85°F by day. Feed at quarter strength every six to eight weeks in spring and summer.
+- [Philodendron care](https://plantcare101.com/plants/philodendron/): Most philodendrons want bright, indirect light, a loose mix watered when the top inch is dry, and warmth: Clemson gives 65 to 70°F at night and 75 to 85°F by day. Heartleaf philodendron tolerates very low light; self-heading types need more light and room.
+- [Pothos care](https://plantcare101.com/plants/pothos/): Pothos grows best in bright, indirect light but tolerates dim rooms. Let the mix dry well between waterings, then soak it so water reaches every root, and keep it between 60 and 85°F. Cut long vines back above a node to keep it full.
+- [Prayer plant care](https://plantcare101.com/plants/prayer-plant/): Keep a prayer plant in bright, indirect light, never direct sun, with the mix evenly moist from spring to fall and a little drier in winter. Give it high humidity, monthly feeding in the growing season, and temperatures that stay above 60°F.
+- [Rubber plant care](https://plantcare101.com/plants/rubber-plant/): Grow a rubber plant in bright, indirect light with some morning sun, water when the top of the soil feels slightly dry, and keep it between 60 and 80°F, never below 55°F. Clemson Extension recommends feeding every two weeks in spring and summer.
+- [Snake plant care](https://plantcare101.com/plants/snake-plant/): Snake plants want the potting mix to dry out completely before every watering, then a thorough soak until water drains. In winter, NC State Extension advises watering only once every one to two months. Any light works, from a dim hallway to a sunny window.
+- [Spider plant care](https://plantcare101.com/plants/spider-plant/): Give a spider plant medium to bright indirect light, let the top inch of soil dry briefly between waterings, and use rainwater or distilled water if your tap water is fluoridated. Clemson Extension puts the ideal daytime range at 65 to 75°F.
+- [Succulents care](https://plantcare101.com/plants/succulents/): Succulents need bright light and dry soil: a sunny window, four or more hours of direct sun for jade, and water only after the mix has dried out completely. Plant them in a gritty, fast-draining mix in a pot with drainage holes.
+- [ZZ plant care](https://plantcare101.com/plants/zz-plant/): Water a ZZ plant only after the potting mix has dried completely, which Clemson Extension says works out to once or twice a month. Give it bright, indirect light if you can and low light if you must, never full sun, and keep it above 60°F.
+
+## Problem guides
+- [Brown leaf tips](https://plantcare101.com/guides/brown-leaf-tips/)
+- [Pests](https://plantcare101.com/guides/houseplant-pests/)
+- [How often to water](https://plantcare101.com/guides/how-often-to-water-plants/)
+- [Repotting step by step](https://plantcare101.com/guides/how-to-repot-a-plant/)
+- [Leggy plants](https://plantcare101.com/guides/leggy-plants/)
+- [Overwatering vs underwatering](https://plantcare101.com/guides/overwatering-vs-underwatering/)
+- [Root rot](https://plantcare101.com/guides/root-rot/)
+- [Yellow leaves](https://plantcare101.com/guides/yellow-leaves/)
+
+## Tools
+- [Watering calculator](https://plantcare101.com/tools/watering-calculator/)
+- [Pet-safe plant checker](https://plantcare101.com/tools/pet-safe-plant-checker/)
+- [Plant problem diagnosis](https://plantcare101.com/tools/plant-problem-diagnosis/)
+- [Which plant for my light](https://plantcare101.com/tools/plant-light-finder/)
+- [Fertilizer dilution calculator](https://plantcare101.com/tools/fertilizer-dilution-calculator/)
+- [Pot size calculator](https://plantcare101.com/tools/pot-size-calculator/)
+
+## Method
+- [How we calculate](https://plantcare101.com/methodology/): watering ranges are estimates built from each plant's drying rule and documented multipliers, never a fixed date.

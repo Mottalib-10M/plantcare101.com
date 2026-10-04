@@ -1,0 +1,289 @@
+{
+  "slug": "zz-plant",
+  "commonName": "ZZ plant",
+  "otherNames": [
+    "Zanzibar gem",
+    "Eternity plant",
+    "Emerald palm",
+    "Aroid palm",
+    "Zuzu plant"
+  ],
+  "botanicalName": "Zamioculcas zamiifolia",
+  "formerNames": [
+    "Caladium zamiifolium",
+    "Zamioculcas lanceolata",
+    "Zamioculcas loddigesii"
+  ],
+  "family": "Araceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "medium",
+    "maxLevel": "high",
+    "fc": [75, 300],
+    "lux": [807, 3229],
+    "windows": ["north", "east", "west", "south"],
+    "directSun": "avoid",
+    "src": [0, 1, 2, 3]
+  },
+  "water": {
+    "rule": "fully-dry",
+    "ruleText": "Water only after the potting mix has dried completely, top to bottom",
+    "winter": "NC State advises about one watering a month in winter, when the plant is not actively growing, and only once the mix is completely dry.",
+    "factors": [
+      "Clemson puts the usual rhythm at one or two waterings a month; NC State gives about twice a month in summer.",
+      "The swollen rhizomes store water, so early watering brings no benefit and invites rot.",
+      "Never leave the pot standing in a saucer or a closed cachepot of drained water.",
+      "Low light, cool rooms and plastic pots all slow drying and stretch the gap between waterings."
+    ],
+    "src": [0, 1, 2]
+  },
+  "soil": {
+    "mix": "A coarse, fast-draining mix: half peat moss or coir-based potting soil, a quarter perlite and a quarter sand, in a pot with a drainage hole.",
+    "components": [
+      "peat moss or coir-based potting soil (50%)",
+      "perlite (25%)",
+      "sand (25%)"
+    ],
+    "src": [1, 0]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "Adapted to arid savanna; ordinary household humidity is enough, with no misting or pebble tray needed.",
+    "src": [1]
+  },
+  "temperature": {
+    "minF": 60,
+    "minC": 16,
+    "src": [1, 0]
+  },
+  "fertilizer": {
+    "season": "Once or twice during the growing season (spring and summer)",
+    "everyWeeks": [13, 26],
+    "strength": "full",
+    "type": "Balanced liquid houseplant fertilizer at the label rate",
+    "winter": "none",
+    "src": [0, 1]
+  },
+  "repotting": {
+    "signs": [
+      "Swollen rhizomes press against the sides of the pot",
+      "Roots circle the drainage hole or grow out of it",
+      "The mix dries out within days of a thorough watering",
+      "Crowded stalks make the plant top-heavy enough to tip"
+    ],
+    "season": "Spring or early summer, while the plant is growing",
+    "rootType": "rhizome",
+    "prefersSnug": true,
+    "src": [6, 7, 8]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "toxic",
+    "humanNote": "NC State rates the poison severity as medium: the leaves contain calcium oxalate, and eating them in quantity causes vomiting and diarrhea. It does not cause contact dermatitis.",
+    "aspcaListed": false,
+    "aspca": [],
+    "src": [0, 1, 2, 4, 5]
+  },
+  "problems": [
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Lower leaflets on one or more stalks turn yellow and fall",
+      "causeKey": "overwatering",
+      "cause": "Rhizomes kept in mix that never dries out completely",
+      "remedy": "Stop watering until the whole pot is dry, then water only when a skewer pushed to the bottom comes out clean and dry."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Stalk base soft and dark, stalk collapses at soil level",
+      "causeKey": "poor-drainage",
+      "cause": "Rhizome rot in a pot without a drainage hole or left standing in water",
+      "remedy": "Unpot, cut away mushy tubers and stalks, let the cuts dry, and replant firm rhizomes in coarse mix in a pot that drains."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long, leaning stalks with widely spaced leaflets",
+      "causeKey": "low-light",
+      "cause": "A spot too dim for the plant to build compact growth",
+      "remedy": "Move it near a bright window out of direct sun; new stalks will come in sturdier and more upright."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Bleached or brown, papery patches on the leaflets",
+      "causeKey": "too-much-sun",
+      "cause": "Leaf scald from direct sun through glass",
+      "remedy": "Pull the pot several feet back from a south or west window or filter the light with a sheer curtain; scorched leaflets will not recover."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Pale speckling with small brown bumps fixed along stalks and leaflets",
+      "causeKey": "pests",
+      "cause": "Armored scale insects feeding on sap",
+      "remedy": "Isolate the plant, scrape or dab off each scale with a cotton swab dipped in rubbing alcohol, and repeat weekly until no new bumps appear."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Leaflets drop and stalks soften after a cold night",
+      "causeKey": "cold",
+      "cause": "Temperatures below 60°F, often near winter glass or an exterior door",
+      "remedy": "Move it to a warm interior spot, keep the mix on the dry side while it recovers, and cut off any stalk that turns mushy."
+    }
+  ],
+  "propagation": {
+    "methods": ["Division of the rhizomes", "Leaflet or leaf cuttings"],
+    "season": "Spring to summer, ideally at repotting time"
+  },
+  "size": {
+    "heightIn": [24, 48],
+    "widthIn": [24, 48],
+    "growth": "slow",
+    "src": [0, 1]
+  },
+  "varieties": [
+    {
+      "name": "Raven ('Dowon')",
+      "note": "New growth emerges lime green and matures to a purple-black; Clemson gives a maximum height of about 2.5 feet."
+    },
+    {
+      "name": "Chameleon",
+      "note": "Leaves unfold golden yellow and turn dark green as they mature; can reach 4 feet."
+    },
+    {
+      "name": "Zenzi",
+      "note": "Dwarf form topping out at 10 to 12 inches, with slightly smaller dark green leaflets."
+    },
+    {
+      "name": "Lucky",
+      "note": "Wide green leaflets with rounded tips."
+    },
+    {
+      "name": "Variegated",
+      "note": "Glossy green leaflets marked cream or white, usually 1.5 to 3 feet tall."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Zamioculcas zamiifolia (ZZ Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "ZZ Plant (Zamioculcas zamiifolia): Indoor Care, Growing Tips & Plant Guide (HGIC 1570)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "ZZ Plant",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/zz-plant/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Cats (no Zamioculcas entry)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Dogs (no Zamioculcas entry)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Cacti",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-cacti/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "seo": {
+    "title": "ZZ Plant Care: Light, Watering & Rhizome Rot Fixes (2026)",
+    "description": "ZZ plant care for 2026: water once or twice a month after the mix dries, keep it above 60°F and out of full sun. Watering calculator, toxicity and rot fixes.",
+    "h1": "ZZ plant care: light, watering and rhizome rot"
+  },
+  "content": {
+    "answer": "Water a ZZ plant only after the potting mix has dried completely, which Clemson Extension says works out to once or twice a month. Give it bright, indirect light if you can and low light if you must, never full sun, and keep it above 60°F.",
+    "intro": "The ZZ plant keeps its water underground. Beneath the soil, Zamioculcas zamiifolia grows swollen, potato-like rhizomes that carry it through the dry seasons of the East African savanna, from Kenya south to KwaZulu-Natal, where it grows in open woodland. Everything about indoor care follows from those tubers. Clemson Extension rates it a plant for novice growers and suggests watering just once or twice a month, after the mix has dried completely, and NC State Extension adds that it will grow even where the only light comes from fluorescent tubes. The same reservoir that makes it shrug off neglect makes it intolerant of attention in the form of frequent watering, because a rhizome sitting in wet mix rots quietly for weeks before the leaves show anything. Despite fronds that look like a cycad's, it is an aroid, a cousin of the peace lily, and it shares that family's calcium oxalate sap.",
+    "light": [
+      "Clemson's placement rule is short: anywhere except full sunlight. That covers a north window, an interior office lit by overhead tubes or a hallway that never sees the sky, and NC State confirms the plant holds its leaves even in deep shade. What dim light costs you is speed. A ZZ that might push two or three new stalks over a summer beside a bright east window may produce none in a dark corner, and the stalks it does send up will lean and stretch toward whatever brightness exists.",
+      "Direct sun through glass is the one spot to rule out. NC State warns that the leaflets scald and brown in it, leaving bleached, papery patches that never green up again. A south or west window still works if the pot sits several feet back or behind a sheer curtain. Because the plant drinks so slowly in shade, let the light level set your watering pace: the darker the room, the longer the gap between drinks."
+    ],
+    "water": [
+      "Wait until the mix is dry from top to bottom. The rhizomes and the thick, swollen bases of the stalks hold enough reserve to carry the plant through weeks of drought, so watering early gains nothing and risks a great deal. Clemson puts the typical rhythm at one or two waterings a month in the growing season. When the pot is ready, soak it until water runs from the drainage hole, let it drain fully, and only then return it to its cachepot or saucer; Clemson stresses that a ZZ must never stand in collected water.",
+      "NC State gives a seasonal version: about twice monthly in summer, and only if the soil has dried out completely, then roughly once a month in winter when growth stops. UF/IFAS Extension finds the plant performs better with moderate watering every week or two in Florida's warmth, a reminder that any calendar is only a starting point. Heat, a terracotta pot and bright light all shorten drying time; cool rooms and glazed or plastic pots lengthen it.",
+      "The most reliable test is weight. Lift the pot right after a thorough watering and again a few weeks later, and you will learn how light a dry ZZ feels. A wooden skewer pushed to the bottom of the pot works too: damp crumbs clinging to it mean wait. Overwatering announces itself late, as yellowing lower leaflets and darkening stalk bases, usually after the tubers have already begun to rot."
+    ],
+    "soil": [
+      "Clemson recommends a coarse blend of half peat moss or coir-based potting soil, a quarter perlite and a quarter sand. That recipe holds enough moisture for the roots to draw on yet drains within minutes, which is exactly what a tuber-forming aroid needs. Choose a pot with a drainage hole and pass on the pretty ceramic without one: water pooling unseen at the bottom of a closed container is the most common way ZZ rhizomes die."
+    ],
+    "humidity": [
+      "Dry indoor air is no hardship. Clemson notes the plant is acclimated to arid conditions and thrives at ordinary household humidity, so pebble trays, misting and humidifiers are unnecessary. The thick, waxy leaflets lose very little water. If anything, a ZZ grouped with moisture-loving ferns under a humidifier is the one more likely to struggle, because damp air slows how quickly its mix dries."
+    ],
+    "temperature": [
+      "Cold is the real limit for this plant. Clemson advises keeping a ZZ above 60°F (about 16°C), and NC State says a container plant summered outdoors should come back inside once temperatures fall below 60°F. Chilled tissue turns soft and translucent, and cold combined with wet mix is the fastest route to rhizome rot. In winter, keep the pot away from single-pane glass and exterior doors."
+    ],
+    "fertilizer": [
+      "Feed sparingly. Clemson and NC State both say one or two feedings per growing season are enough, using a balanced liquid houseplant fertilizer at the label rate. A slow grower that adds only a few stalks a year simply cannot use more, and the surplus salts accumulate in a pot that is flushed by watering only once or twice a month. Give nothing in winter, when the rhizomes are resting."
+    ],
+    "repotting": [
+      "A ZZ signals that it needs room in an unusual way: the rhizomes swell until they press hard against the walls of the pot, and a thin plastic nursery pot can bulge out of shape. Roots circling or escaping the drainage hole, mix that dries within days of a soak, or stalks so crowded the plant tips over are the other cues. NC State says it can be treated much like a cactus, and Clemson notes cacti like being slightly pot-bound, so there is no reason to repot on a schedule.",
+      "Repot in spring or early summer, while the plant is growing, into a container only 1 or 2 inches wider, as Clemson advises for houseplants in general. Set the rhizomes at the same depth they grew before, fill around them with the coarse mix, and wait several days before the first watering so broken roots can seal over, the same pause Clemson recommends after repotting cacti."
+    ],
+    "propagation": [
+      "NC State lists two routes, division and leaf cuttings. Division is the practical one. At repotting time, look for natural breaks between clumps of rhizomes, pull or cut them apart so each section keeps its own stalks and roots, and pot the pieces separately in barely damp mix.",
+      "Leaf cuttings are the curiosity. A single leaflet pressed base-down into moist, gritty mix forms a tiny tuber at its base long before any shoot breaks the surface, and UF/IFAS describes the ZZ as easy to propagate from leaf cuttings, which is why it travels so well as a pass-along plant. Patience is the main requirement."
+    ],
+    "problems": [
+      "ZZ plants have few enemies. Clemson reports no serious insect or disease problems, and NC State names only scale insects, small brown bumps fixed along the stalks and leaflet undersides, as a pest to watch. Nearly every other complaint comes from the watering can: leaflets yellowing and dropping from the base of a stalk, a stalk that goes soft and keels over, a sour smell rising from the mix. One thing that is not a problem is the dark blotching on the stalks; Clemson notes these black spots are normal on a healthy plant."
+    ],
+    "petSafety": [
+      "The ASPCA has no entry for Zamioculcas on either its cats or its dogs plant list, so the toxicity information here comes from extension sources instead. NC State rates the ZZ plant as poisonous with medium severity and flags it as a problem for both cats and dogs: the leaves contain calcium oxalate, and eating them in quantity causes vomiting and diarrhea. Clemson labels it not pet safe, and UF/IFAS adds that all parts are toxic if ingested. NC State notes it does not cause contact dermatitis, so handling and repotting are safe, though washing your hands afterward is sensible. Keep it out of reach of pets and children, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if an animal chews it."
+    ],
+    "faq": [
+      {
+        "q": "Why is my ZZ plant turning yellow?",
+        "a": "Yellowing that starts on the lower leaflets of one or two stalks usually means the rhizomes have stayed wet too long. Check the mix at the bottom of the pot; if it is damp, stop watering until it dries completely, and if a stalk base feels soft, unpot the plant to inspect the tubers. A single old stalk yellowing slowly while new ones emerge is just normal aging."
+      },
+      {
+        "q": "Can a ZZ plant live in a room with no windows?",
+        "a": "For a long time, yes, as long as the lights are on for much of the day. NC State notes it grows even in areas with only fluorescent light, which is why it is a fixture in offices. Without daylight it will barely grow, so water even less often than usual, and give it a spell near a window if it stops producing new stalks entirely."
+      },
+      {
+        "q": "How often should I water a ZZ plant in winter?",
+        "a": "NC State Extension suggests about once a month during winter, when the plant is not actively growing, and only after the mix has dried completely. In a cool room or low light it may need even less. Always check the bottom of the pot first, because a monthly reminder is a prompt to test the soil, not an instruction to pour."
+      },
+      {
+        "q": "Why is my ZZ plant falling over?",
+        "a": "Stalks flop for two reasons. If the base is soft or dark, rhizome rot from overwatering is to blame: unpot, cut away mushy tissue and replant firm pieces in dry, coarse mix. If the stalk is firm but long and leaning, the plant is stretching toward light. Move it closer to a bright window, out of direct sun, and new stalks will grow sturdier."
+      },
+      {
+        "q": "Should I cut off a broken ZZ plant stem?",
+        "a": "Yes. Cut it cleanly at soil level, because a snapped or bent stalk will not straighten again. Do not throw the pieces away: NC State lists leaf cuttings as a way to propagate the plant, so press a few leaflets base-down into moist, gritty mix and keep them in bright, indirect light. Small tubers form at their bases before new shoots appear."
+      }
+    ]
+  }
+}

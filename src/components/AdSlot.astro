@@ -1,0 +1,8 @@
+---
+/** Emplacement publicitaire (AdSense chargé après première interaction, jamais au-dessus du calculateur).
+ *  Rien n'est rendu tant que ADS_ENABLED vaut false (site-config) : pas de cadre vide en production. */
+import { ADS_ENABLED } from '../data/site-config';
+interface Props { slot: string }
+const { slot } = Astro.props;
+---
+{ADS_ENABLED && <div class="ad-slot my-8 min-h-[90px]" data-ad-slot={slot} aria-hidden="true"></div>}

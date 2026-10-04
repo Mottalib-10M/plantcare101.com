@@ -1,0 +1,20 @@
+---
+/**
+ * Encart d'affiliation discret, désactivé par défaut (AFFILIATE_ENABLED = false dans site-config).
+ * kind : ce dont la section parle (pot, grow-light, potting-mix, fertilizer, moisture-meter).
+ * Quand il sera activé : un seul encart par page, sous le conseil concerné, liens rel="sponsored
+ * nofollow", mention « We may earn a commission » visible, jamais dans un calculateur.
+ */
+import { AFFILIATE_ENABLED } from '../data/site-config';
+interface Props { kind: 'pot' | 'grow-light' | 'potting-mix' | 'fertilizer' | 'moisture-meter'; context?: string }
+const { kind, context } = Astro.props;
+const LABEL: Record<Props['kind'], string> = { pot: 'Pots with drainage holes', 'grow-light': 'Grow lights', 'potting-mix': 'Potting mixes', fertilizer: 'Houseplant fertilizers', 'moisture-meter': 'Moisture meters' };
+const PARTNERS: Array<{ name: string; href: string }> = []; // à remplir à l'activation
+---
+{AFFILIATE_ENABLED && PARTNERS.length > 0 && (
+  <aside data-chrome data-affiliate={kind} class="not-prose my-6 border-l-4 border-navy-300 bg-navy-50 px-4 py-3 text-sm text-navy-700">
+    <p class="font-semibold text-navy-900">{LABEL[kind]}{context && ` for ${context}`}</p>
+    <p class="mt-1">{PARTNERS.map((p, i) => <>{i > 0 && ' · '}<a href={p.href} rel="sponsored nofollow noopener" target="_blank" class="underline">{p.name}</a></>)}</p>
+    <p class="mt-1 text-xs">We may earn a commission on purchases through these links. It never changes our care advice.</p>
+  </aside>
+)}

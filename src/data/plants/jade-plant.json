@@ -1,0 +1,346 @@
+{
+  "slug": "jade-plant",
+  "commonName": "Jade plant",
+  "otherNames": [
+    "Jade tree",
+    "Silver dollar plant",
+    "Baby jade"
+  ],
+  "botanicalName": "Crassula ovata",
+  "formerNames": [
+    "Crassula argentea"
+  ],
+  "family": "Crassulaceae",
+  "kind": "succulent",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [
+      300,
+      1500
+    ],
+    "lux": [
+      3229,
+      16146
+    ],
+    "windows": [
+      "south",
+      "west",
+      "east"
+    ],
+    "directSun": "needs",
+    "src": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "water": {
+    "rule": "half-dry",
+    "ruleText": "Water thoroughly once the mix has nearly dried, keeping it lightly moist, never wet, in spring and summer",
+    "winter": "From fall to late winter let the soil dry between waterings and water very sparingly while the plant rests.",
+    "factors": [
+      "Clemson warns that drought causes dwarfing, foliage spotting, leaf drop and even death, so jade is not a cactus.",
+      "Root rot follows mix that drains slowly or overly frequent watering.",
+      "Avoid splashing water on the leaves."
+    ],
+    "src": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  "soil": {
+    "mix": "A very well-drained mix: cactus mix with some organic matter, or one part sterilized soil, one part sphagnum peat and three parts coarse sand.",
+    "components": [
+      "cactus potting mix",
+      "coarse sand",
+      "sphagnum peat moss or other organic matter"
+    ],
+    "src": [
+      0,
+      1,
+      4
+    ]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "Clemson says jades like the warm, dry conditions found in most homes; no misting needed.",
+    "src": [
+      1
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      65,
+      75
+    ],
+    "idealC": [
+      18,
+      24
+    ],
+    "minF": 50,
+    "minC": 10,
+    "src": [
+      0,
+      1
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring and summer",
+    "everyWeeks": [
+      13,
+      17
+    ],
+    "strength": "full",
+    "type": "Liquid houseplant fertilizer at the label rate; wait four months before feeding a repotted plant",
+    "winter": "none",
+    "src": [
+      1,
+      4
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "The plant has become top-heavy and tips over",
+      "Roots fill the pot and the mix dries out much faster than it used to",
+      "Roots push out of the drainage hole"
+    ],
+    "season": "Spring, as new growth starts",
+    "rootType": "succulent",
+    "prefersSnug": true,
+    "src": [
+      1,
+      5
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "unknown",
+    "humanNote": "NC State flags it as a problem for cats, dogs and horses but does not list it as poisonous to people; our sources give no human toxicity rating.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Jade Plant (Crassula argentea)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jade-plant",
+        "toxicPrinciples": "Unknown",
+        "clinicalSigns": "Vomiting, depression, incoordination"
+      }
+    ],
+    "src": [
+      0,
+      6
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Stem soft and dark at soil level, leaves yellow and translucent",
+      "causeKey": "overwatering",
+      "cause": "Root rot from slow-draining mix or watering too often",
+      "remedy": "Cut healthy branch tips as cuttings, let them callus and root them in fresh gritty mix; discard the rotten base."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Shriveled leaves dropping after a long dry spell",
+      "causeKey": "underwatering",
+      "cause": "Mix allowed to become extremely dry",
+      "remedy": "Water thoroughly until it drains, then water again as soon as the mix has nearly dried during spring and summer."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White puffs like cotton in the leaf joints",
+      "causeKey": "pests",
+      "cause": "Mealybugs, the most common insect on jade",
+      "remedy": "Wipe them off with a cotton swab dipped in rubbing alcohol; do not use insecticidal soap, which may damage jade plants."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Leaves lose their green and look dusty or speckled",
+      "causeKey": "pests",
+      "cause": "Spider mites",
+      "remedy": "Isolate the plant, rinse the foliage and inspect the undersides with a hand lens; repeat until no new speckling appears."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Stems stretch, leaves sit far apart and the plant leans",
+      "causeKey": "low-light",
+      "cause": "Fewer than four hours of direct sun a day",
+      "remedy": "Move it to a south or west window and cut stretched stems back in spring; root the trimmings."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Dark, damaged patches on leaves pressed against a winter window",
+      "causeKey": "cold",
+      "cause": "Foliage touching cold glass or sitting in a draft",
+      "remedy": "Pull the pot back so no leaves touch the pane, and keep it out of drafts; damaged leaves can be removed."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings",
+      "Leaf cuttings",
+      "Offsets"
+    ],
+    "season": "Spring"
+  },
+  "size": {
+    "heightIn": [
+      36,
+      72
+    ],
+    "widthIn": [
+      24,
+      36
+    ],
+    "growth": "moderate",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Hobbit",
+      "note": "Slow-growing jade with tubular, pipe-shaped leaves tipped red; reaches about 3 feet."
+    },
+    {
+      "name": "Sunset",
+      "note": "Golden jade tree whose leaves are edged in gold in bright light."
+    },
+    {
+      "name": "Tricolor",
+      "note": "Pointed leaves striped creamy white and rose, with pink and white flowers."
+    },
+    {
+      "name": "California Red Tip",
+      "note": "Leaves edged purplish red when grown in bright light to full sun."
+    },
+    {
+      "name": "Bronze Beauty",
+      "note": "Small coppery green leaves on extremely slow-growing stems."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Crassula ovata (Jade Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/crassula-ovata/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Jade Plant",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/jade-plant/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Jade Plant",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/jade-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Crassula ovata, jade plant",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/4739/crassula-ovata/details",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Jade Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jade-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "seo": {
+    "title": "Jade Plant Care: Sun, Water & Leaf Drop Guide (2026)",
+    "description": "Jade plant care in 2026: 4+ hours of direct sun, water when the mix is nearly dry, 50 to 55°F nights. Watering calculator, toxicity facts and leaf drop fixes.",
+    "h1": "Jade plant care: sun, water and leaf drop"
+  },
+  "content": {
+    "answer": "Give a jade plant four or more hours of direct sun a day, water when the mix has nearly dried in spring and summer, and let it dry out between waterings in winter. Use a fast-draining, cactus-type mix and aim for nights around 50 to 55°F.",
+    "intro": "A jade plant is a succulent that grows into a tree. Crassula ovata comes from South Africa, and NC State notes that as it matures it takes the form of a miniature tree, its thick trunk marked with rings of old stipular scars and its branches tipped with fleshy, egg-shaped leaves; ovata means egg-shaped. Clemson says jades can live a very long time and reach 5 feet indoors. The twist in its care is that it is less of a camel than its leaves suggest. Clemson warns that drought causes dwarfing, spotted foliage, leaf drop and even death, while soggy mix rots the roots. The rhythm that works is lightly moist but never wet through spring and summer, drier through winter, four or more hours of direct sun, and cool nights. Get that right and the trunk keeps thickening, year after year, into a small indoor tree.",
+    "light": [
+      "Jade is a sun plant. Clemson recommends the full sun or bright filtered light of a south-facing window and says jades do best with four or more hours of direct sun a day. The University of Illinois Extension classes it as a high-light plant at minimum, about 300 foot-candles, the level directly in front of an east or west window or within 5 feet of a south one. In that kind of light the leaves stay compact and glossy, and NC State notes the margins pick up a red tint in direct sun.",
+      "In lower light a jade survives but changes shape: stems stretch, the gaps between leaf pairs lengthen and the whole plant leans toward the glass. Illinois says it also seems to do well in bright, indirect light, so a bright east window is workable, and NC State suggests a sunny indoor spot that offers some afternoon shade. In winter, keep the leaves from touching the windowpane, which Clemson specifically warns against."
+    ],
+    "water": [
+      "Treating jade like a cactus is only half right. Clemson asks for soil kept moist but not wet while the plant is actively growing in spring and summer, and the University of Illinois Extension says to let the soil nearly dry between waterings. Between those two, the working rule is to water thoroughly once the mix has dried most of the way down, then let every drop drain away. Clemson also advises against splashing water on the leaves.",
+      "The plant's distress signals are easy to read. Leaves that wrinkle, soften or fall after a dry spell mean you waited too long; Clemson lists dwarfing, foliage spotting and leaf drop as drought damage. Leaves that yellow and turn glassy, or a stem that softens at soil level, mean the opposite, and Clemson traces root rot to mix that drains slowly or to overly frequent watering.",
+      "From fall through late winter, ease off. NC State says to reduce watering in that season, Clemson says to let the soil dry between waterings in winter, and the RHS calls for very sparing water while the plant is dormant. Cool nights and short days slow drying, so check before each watering instead of carrying a summer routine into January."
+    ],
+    "soil": [
+      "Clemson gives an exact recipe for a jade mix: one part sterilized organic soil, one part sphagnum peat moss and three parts coarse sand by volume. A bagged cactus mix with some added organic matter does the same job, Clemson says, and the RHS likewise recommends cactus compost. The goal is fast drainage with enough body to hold a little moisture between drinks. As a jade ages and becomes top-heavy, Clemson suggests moving it to a large, heavy pot so it does not tip over."
+    ],
+    "humidity": [
+      "Ordinary indoor air suits jade. Clemson describes it as a plant that likes the warm, dry conditions found in most homes, so there is no call for misting, pebble trays or a humidifier. Wet leaves are a liability rather than a help, so save the spray bottle for the ferns."
+    ],
+    "temperature": [
+      "Jade likes a cool night. Clemson gives 65 to 75°F (18 to 24°C) during the day and 50 to 55°F at night as ideal, cooler than most living rooms after dark, and NC State likewise asks for average to cool indoor temperatures. A sunny room that cools off at night is perfect. Protect the plant from drafts in winter, Clemson adds, and keep foliage off cold glass. Mature jades can produce clusters of star-shaped white or pink flowers in winter, Clemson notes, although NC State says they do not usually bloom in home conditions."
+    ],
+    "fertilizer": [
+      "Jade needs very little fertilizer. Clemson recommends a liquid houseplant fertilizer once every three to four months and asks you to wait four months before feeding a freshly repotted plant. The RHS suggests a general liquid feed monthly between spring and summer; for a slow plant indoors, Clemson's sparser schedule is the safer choice, since unused fertilizer collects as salts. Never feed in winter, when a resting jade cannot use the nutrients."
+    ],
+    "repotting": [
+      "Jades live happily for years while root-bound, Clemson says, so repotting is rarely urgent. When it is needed, do it as new growth starts in spring. Go only one or two inches wider, the general rule in Clemson's repotting fact sheet, unless the plant has become top-heavy, in which case a broad, heavy pot matters more than the rule. After repotting, Clemson advises letting the soil become dry before watering and holding off fertilizer for four months."
+    ],
+    "propagation": [
+      "Jade roots from almost any piece. NC State lists stem and leaf cuttings, and the RHS adds offsets, root cuttings and seed, with spring as the season. A stem cutting gives the quickest new plant: take a healthy branch tip, let the cut surface air dry and callus over, as the University of Illinois Extension advises for succulents, then set it in barely damp gritty mix. For a leaf cutting, Illinois says to insert the fleshy leaf into pre-moistened rooting media, cover it with clear plastic and keep it in bright, indirect light; a new plant forms at the base of the leaf."
+    ],
+    "problems": [
+      "Jade problems nearly always come down to water or pests. Root rot follows slow-draining mix or frequent watering, and leaf drop follows extreme dryness, both according to Clemson. Mealybugs are the most common insect, looking like white puffs of cotton in the leaf joints, and Clemson's treatment is specific: wipe them off with alcohol on a cotton swab and do not use insecticidal soap, which may damage jade plants. Spider mites make leaves lose their color and look dusty or speckled."
+    ],
+    "petSafety": [
+      "The ASPCA lists the jade plant, under the older name Crassula argentea, as toxic to cats and dogs. The toxic principle is unknown, and the clinical signs it records are vomiting, depression and incoordination. NC State also flags Crassula ovata as a problem for cats, dogs and horses. Neither source rates it for people, so treat human toxicity as unknown rather than as safe. Sweep up dropped leaves and cuttings, keep the pot out of a pet's reach, and call your veterinarian or the ASPCA Animal Poison Control Center if your pet eats part of the plant."
+    ],
+    "faq": [
+      {
+        "q": "Why are my jade plant leaves falling off?",
+        "a": "Check the water first. Clemson lists leaf drop as a sign that a jade has been allowed to become extremely dry, so shriveled leaves that fall after a long gap between waterings point to thirst. Leaves that drop soft, yellow or glassy while the mix is damp point to root rot from slow drainage or frequent watering. Cold drafts and leaves pressed against winter glass cause damage too, which Clemson warns about."
+      },
+      {
+        "q": "Why is my jade plant getting leggy and droopy?",
+        "a": "Not enough light. Clemson says jades do best with four or more hours of direct sun a day, and the University of Illinois Extension rates them as high-light plants. In dimmer spots the stems stretch between leaf pairs and bend toward the window. Move the plant gradually to a south or west window and cut stretched stems back in spring; the trimmings root readily as cuttings, the method NC State recommends."
+      },
+      {
+        "q": "Can I use insecticidal soap on mealybugs on my jade plant?",
+        "a": "Clemson Extension advises against it, warning that insecticidal soap may damage jade plants. Instead, wipe each cottony cluster off with a cotton swab dipped in rubbing alcohol, checking the leaf joints and the undersides of branches where mealybugs hide. Repeat whenever new white puffs appear, and keep the plant away from your other succulents until it is clean."
+      },
+      {
+        "q": "How do I get my jade plant to flower?",
+        "a": "Flowering is uncommon indoors. NC State says jade does not usually bloom in home environments, while Clemson notes clusters of star-shaped white or pink flowers on mature plants in winter. Your best chance is an older plant given four or more hours of direct sun, cool nights of 50 to 55°F as Clemson recommends, and drier soil through winter. Young plants in dim, warm rooms rarely flower."
+      },
+      {
+        "q": "How big does a jade plant get indoors?",
+        "a": "Bigger than most people expect, given time. Clemson says jades can grow into small trees or shrubs up to 5 feet tall indoors, and NC State lists 3 to 6 feet tall and 2 to 3 feet wide. Reaching that size takes years in a pot. Some cultivars stay smaller: Clemson describes 'Hobbit' as slow growing, topping out at about three feet. Pruning in spring keeps any jade compact."
+      }
+    ]
+  }
+}

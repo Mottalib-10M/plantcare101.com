@@ -1,0 +1,196 @@
+{
+  "slug": "how-often-to-water-plants",
+  "nav": "How often to water",
+  "seo": {
+    "title": "Watering Houseplants: How Often to Water Each Plant (2026)",
+    "description": "How often to water houseplants and succulents: the finger test, six drying rules, and how pot, light and season change the interval. Free calculator, 2026.",
+    "h1": "How often to water plants: the test that replaces the calendar"
+  },
+  "answer": "There is no fixed schedule. Water when the plant's own drying test says so: most houseplants when the top inch or two of mix feels dry, succulents only when the pot is dry throughout. Pot size, clay, light, season and humidity stretch or shorten the interval, which the calculator below estimates.",
+  "intro": "Ask an extension horticulturist how often to water and you get the same answer twice. Clemson HGIC says there is no pat answer to the question, and the Illinois Extension says people want to follow a schedule but that this usually does not work. The reason is that the interval depends on the plant species, its growth stage, the size and material of its pot, the potting mix, the light, the temperature and the humidity, and those change from room to room and month to month. What does not change is the test. Push a finger into the mix to the depth your plant cares about, water thoroughly when it is dry there, and wait when it is not. Over-watering is the main cause of death of potted plants, Clemson warns, so when in doubt, waiting a few more days is the safer mistake.",
+  "tool": {
+    "kind": "watering",
+    "title": "Describe the plant, pot, light and season to estimate how many days usually pass between waterings."
+  },
+  "sections": [
+    {
+      "h2": "Why a watering calendar fails",
+      "paras": [
+        "Picture the same pothos in two homes. One sits in a 4 inch terracotta pot on a sunny sill in July; the other is in a 10 inch plastic pot across a cool room in January. The first dries out far sooner than the second, so any fixed day of the week would underwater one or drown the other. The Illinois Extension's advice is to water plants when they need it and not according to the calendar.",
+        "Over-watering is the more dangerous error. Roots need oxygen as well as water, and in soggy mix they suffocate and rot. If you suspect that has already happened, our overwatering guide walks through the diagnosis, and the root rot guide covers rescue."
+      ]
+    },
+    {
+      "h2": "Six drying rules: find your plant's",
+      "paras": [
+        "The Illinois Extension describes three broad needs: soil kept constantly moist but not soggy, soil allowed to dry moderately between waterings, and soil kept very slightly moist at all times, with succulents and cacti following their own cycle. Each plant guide on this site assigns one of six rules that refine those categories, and the calculator starts from that rule. The test depth differs between sources too: Clemson HGIC uses the first joint of your finger, UF/IFAS Gardening Solutions lets the upper inch dry for most plants, and the Illinois Extension tests to two inches.",
+        "If your plant has no guide here, its leaves are a fair clue. Clemson HGIC says plants with large or very thin leaves and those with fine surface roots usually need water more often than succulents, whose fleshy leaves and stems store it. Start a thin-leaved tropical on the top inch rule, a fleshy one on fully dry, and adjust after watching a few cycles."
+      ],
+      "table": {
+        "caption": "The six drying rules used by the calculator, with example plants",
+        "head": [
+          "Rule",
+          "When to water",
+          "Examples"
+        ],
+        "rows": [
+          [
+            "Evenly moist",
+            "When the surface just starts to feel dry",
+            "African violet, calathea, prayer plant"
+          ],
+          [
+            "Top inch dry",
+            "When the mix is dry to the first knuckle, about 1 in",
+            "Peace lily, philodendron, spider plant, rubber plant"
+          ],
+          [
+            "Top 2 inches dry",
+            "When it is dry to the second knuckle, about 2 in",
+            "Fiddle-leaf fig, monstera"
+          ],
+          [
+            "Half the pot dry",
+            "When the top half of the pot is dry; a wooden skewer comes out clean",
+            "Pothos"
+          ],
+          [
+            "Fully dry",
+            "Only when the mix is dry to the bottom of the pot",
+            "Snake plant, ZZ plant, aloe, most succulents"
+          ],
+          [
+            "Bark nearly dry",
+            "When the bark feels almost dry and the roots look silvery",
+            "Orchids potted in bark"
+          ]
+        ]
+      }
+    },
+    {
+      "h2": "Four ways to check without a gadget",
+      "paras": [
+        "Clemson HGIC calls the touch test the most accurate, and gives three backups that are useful for deep pots or plants you cannot easily reach.",
+        "Do not use wilting as your cue. Clemson HGIC points out that wilting often signals thirst but not always: roots injured by rot cannot take up water, so the plant wilts in wet mix, and watering it then makes things worse. Check the mix before you reach for the watering can."
+      ],
+      "list": [
+        "Touch: push a finger into the mix to your plant's depth and water if it feels dry at the fingertip.",
+        "Tap: rap the side of a clay pot with your knuckles. A dull sound means moist mix; a hollow sound means the mix has shrunk from the wall and needs water.",
+        "Lift: a pot gets noticeably lighter as it dries. Pick it up just after watering to learn the wet weight, then compare.",
+        "Look: most potting mixes turn from dark to a lighter color as they dry out."
+      ]
+    },
+    {
+      "h2": "What speeds drying up and what slows it down",
+      "paras": [
+        "Every factor below appears in Clemson HGIC's or the Illinois Extension's watering pages, and each one is a setting in the calculator. Porous unglazed clay loses water through its walls, so it dries faster than plastic or glazed ceramic. A large plant in a small pot drinks it dry quickly, while a small plant in a large pot sits wet. Heavy, fine mixes rich in peat hold more water than loose blends of bark, sand and perlite. A warm, dry, sunny spot empties a pot sooner than a cool, dim one.",
+        "Season matters as much as anything. Clemson notes that plants need less water after a flush of growth or heavy flowering and while dormant, and the Illinois Extension describes the short days of winter as a rest period. In the calculator's model, the biggest stretches come from winter rest, low light and a pot without a drainage hole. The result is always a range in days, built on our own reference intervals and multipliers, explained on the methodology page; treat it as the day to start checking, and let the finger test decide."
+      ]
+    },
+    {
+      "h2": "How to water once it is time",
+      "paras": [
+        "Water thoroughly. Clemson HGIC says to keep going until water runs out of the bottom of the pot, which flushes excess salts and makes sure the bottom two-thirds of the pot, where most roots live, gets wet. Then empty the saucer; the Illinois Extension is firm that a pot should not stand in water. Bottom watering works too: set the pot in a few inches of water in a sink or saucer and lift it out once moisture shows at the surface.",
+        "Clemson recommends water between 62 and 72 °F and warns against softened water, which adds sodium and chloride. The Illinois Extension suggests letting tap water stand at least 24 hours so chlorine and fluoride can dissipate, and leaching each pot with a large volume of plain water every 4 to 6 months. If peat-based mix has dried so hard that water runs straight past it, use Clemson's double watering method: water once, then again half an hour later, or soak the pot in a sink until the surface is moist."
+      ]
+    },
+    {
+      "h2": "How often to water succulents",
+      "paras": [
+        "Succulents store water in fleshy leaves and stems, so their interval is the longest of any common houseplant. Clemson HGIC's guidance for desert cacti is a good template for the group: during the growing season, March to September, water like any plant that should dry slightly between drinks; in winter, while the plants are dormant, let them get very dry and give just enough to keep them from shriveling, which Clemson says usually means a light watering every few weeks.",
+        "UF/IFAS Gardening Solutions recommends a shallow clay pot with drainage holes and a coarse, sandy mix, letting it dry between waterings and never letting the container hold water. Jade plant is the notable exception that wants more water during growth; our succulents guide covers it and the rosette types in detail."
+      ]
+    },
+    {
+      "h2": "Keeping plants watered while you travel",
+      "paras": [
+        "For a short trip, the Illinois Extension describes a simple setup: cover each plant with a clear plastic bag large enough to hold it, then stand the pot in a shallow pan of pebbles with some water, which should last 7 to 8 days. UF/IFAS adds that the bag must not touch the leaves and the plant should stay out of direct light, and mentions self-watering wicks that draw water from a container into the soil. For longer absences, both suggest someone checking in regularly."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use tap water for my houseplants?",
+      "a": "For most plants, yes. Avoid softened water: Clemson HGIC says it adds sodium and chloride that can damage plants. The Illinois Extension suggests letting tap water sit at least 24 hours so chlorine and fluoride dissipate, and asks for room-temperature water, never cold. A few plants are sensitive to fluoride and chlorine and show brown leaf tips; our brown tips guide covers them."
+    },
+    {
+      "q": "Is bottom watering better than watering from the top?",
+      "a": "Both work. The Illinois Extension describes sub-irrigation as setting the pot in a few inches of water until moisture wicks up to the surface, then removing it. Watering from the top until water drains out has one advantage: Clemson HGIC notes it washes excess salts out of the pot. Alternating, with an occasional thorough top watering, gets the benefits of both."
+    },
+    {
+      "q": "How much water should I give a houseplant each time?",
+      "a": "Enough that water runs out of the drainage hole. Clemson HGIC says watering to that point flushes salts and wets the bottom two-thirds of the pot, where most roots are. Small sips keep the surface damp while the lower roots stay dry. The calculator above also gives a rough volume for your pot size, but the drainage hole is the real signal to stop."
+    },
+    {
+      "q": "Do houseplants need less water in winter?",
+      "a": "Usually much less. Short days put most houseplants into a rest period, the Illinois Extension says, and Clemson HGIC notes that dormant plants need less water. Pots also dry more slowly in cooler, dimmer rooms, though heating can dry the air. Keep using the finger test rather than the summer interval; in the calculator, winter rest is one of the largest adjustments."
+    },
+    {
+      "q": "Are moisture meters accurate for houseplants?",
+      "a": "Not reliably. Clemson HGIC says watering meters vary widely in accuracy and that fertilizer and soil type can affect the reading, and the Illinois Extension says a meter probe may not always be reliable. Use one as a second opinion if you like, but confirm with your finger or by the weight of the pot before you water."
+    },
+    {
+      "q": "How often should I water succulents indoors?",
+      "a": "Only when the mix has dried all the way through, then water thoroughly. During the growing season, March to September in Clemson HGIC's guidance for cacti, that comes around more often; in winter, Clemson says to water just enough to keep the plants from shriveling, usually a light watering every few weeks. A shallow clay pot and gritty mix help the soil dry fast."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Indoor Plants: Watering",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-watering/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Watering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant Care",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/houseplant-care/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Cacti",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-cacti/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Succulents",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/succulents/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Cleaning, Fertilizing, Containers & Light Requirements",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "relatedPlants": [
+    "snake-plant",
+    "peace-lily",
+    "pothos",
+    "succulents",
+    "fiddle-leaf-fig",
+    "calathea"
+  ],
+  "relatedGuides": [
+    "overwatering-vs-underwatering",
+    "root-rot",
+    "brown-leaf-tips",
+    "how-to-repot-a-plant"
+  ],
+  "verified": "2026-10-04"
+}

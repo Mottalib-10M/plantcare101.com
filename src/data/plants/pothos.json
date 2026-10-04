@@ -1,0 +1,385 @@
+{
+  "slug": "pothos",
+  "commonName": "Pothos",
+  "otherNames": [
+    "Golden pothos",
+    "Devil's ivy",
+    "Ivy arum",
+    "Taro vine",
+    "Hunter's robe"
+  ],
+  "botanicalName": "Epipremnum aureum",
+  "formerNames": [
+    "Epipremnum pinnatum 'Aureum'",
+    "Scindapsus aureus"
+  ],
+  "family": "Araceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      75,
+      300
+    ],
+    "lux": [
+      807,
+      3229
+    ],
+    "windows": [
+      "east",
+      "west",
+      "north",
+      "south"
+    ],
+    "directSun": "avoid",
+    "src": [
+      0,
+      1,
+      3,
+      4,
+      6
+    ]
+  },
+  "water": {
+    "rule": "half-dry",
+    "ruleText": "Let the mix dry well down into the pot, then water until it drains so every root gets wet",
+    "winter": "Growth slows in winter, when NC State treats the plant as dormant, so the pot takes longer to dry; check the mix before each watering instead of keeping summer's pace.",
+    "factors": [
+      "Pothos handles a dry spell far better than soggy mix: overwatering brings root rot and blackened leaf margins.",
+      "A hanging basket in warm, bright air dries faster than a pot on a shaded shelf.",
+      "Keep a moss pole damp if the vines climb one, so the aerial roots attach."
+    ],
+    "src": [
+      0,
+      1,
+      3,
+      4
+    ]
+  },
+  "soil": {
+    "mix": "An airy, well-draining mix that holds a little moisture, such as the RHS blend of three parts peat-free ericaceous compost, one part grit and one part medium orchid bark.",
+    "components": [
+      "peat-free ericaceous or houseplant compost",
+      "grit or perlite",
+      "medium orchid bark"
+    ],
+    "src": [
+      0,
+      1,
+      3,
+      4
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "idealPct": [
+      50,
+      70
+    ],
+    "note": "Clemson gives 50 to 70 percent as the preferred range but says pothos tolerates typical home humidity of 30 to 60 percent.",
+    "src": [
+      1,
+      3,
+      4
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      60,
+      85
+    ],
+    "idealC": [
+      16,
+      29
+    ],
+    "minF": 60,
+    "minC": 16,
+    "maxF": 86,
+    "maxC": 30,
+    "src": [
+      1,
+      4
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring and summer (the RHS extends feeding to October)",
+    "everyWeeks": [
+      4,
+      9
+    ],
+    "strength": "full",
+    "type": "General-purpose houseplant fertilizer at the label rate",
+    "winter": "none",
+    "src": [
+      0,
+      1,
+      4
+    ]
+  },
+  "repotting": {
+    "everyYears": [
+      1,
+      3
+    ],
+    "signs": [
+      "Roots show through the drainage holes",
+      "The pot is packed solid and the plant is root-bound",
+      "Water runs straight through a pot packed with roots"
+    ],
+    "season": "Spring",
+    "rootType": "fibrous",
+    "prefersSnug": true,
+    "src": [
+      1,
+      4
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "Clemson calls all parts mildly toxic if eaten; NC State rates the poison severity as medium and notes the sap can irritate skin.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Golden Pothos (Epipremnum aureum)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+        "toxicPrinciples": "Insoluble calcium oxalates",
+        "clinicalSigns": "Oral irritation, intense burning and irritation of mouth, tongue and lips, excessive drooling, vomiting, difficulty swallowing"
+      }
+    ],
+    "src": [
+      0,
+      1,
+      5
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Soft brown roots and leaf margins turning black",
+      "causeKey": "overwatering",
+      "cause": "Mix kept wet or a soil that drains poorly",
+      "remedy": "Unpot, trim rotten roots, repot in fresh airy mix and wait until the mix has dried well down before watering again."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Older leaves yellow although the watering looks right",
+      "causeKey": "nutrient-deficiency",
+      "cause": "Low fertility after a long time without feeding",
+      "remedy": "Feed with a houseplant fertilizer every other month in spring and summer, as Clemson recommends; rule out soggy mix first."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Leaf tips brown and die back",
+      "causeKey": "low-humidity",
+      "cause": "Very dry indoor air, often next to a heating vent",
+      "remedy": "Move the plant away from vents and raise humidity with a humidifier or by grouping plants."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Bleached or scorched patches on leaves facing the window",
+      "causeKey": "too-much-sun",
+      "cause": "Direct summer sun on the foliage",
+      "remedy": "Shift it to bright, indirect light, or screen a south window with a sheer curtain."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "White or yellow variegation fading to plain green",
+      "causeKey": "low-light",
+      "cause": "Too little light for a variegated cultivar",
+      "remedy": "Bring it closer to an east or west window; heavily white forms such as 'Marble Queen' need the most light."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long bare vines with leaves only at the tips",
+      "causeKey": "natural-aging",
+      "cause": "Older leaves yellow and drop over time, leaving foliage at the stem ends",
+      "remedy": "Cut vines back to just above a leaf to force side shoots, and plant the rooted trimmings back into the same pot."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony clusters where leaves join the stem",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Remove clusters with a cotton swab dipped in rubbing alcohol and treat with insecticidal soap until they stop returning."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings with at least one node, rooted in water or moist mix",
+      "Layering a trailing stem onto a pot of mix"
+    ],
+    "season": "Spring or summer, though cuttings root in other months too"
+  },
+  "size": {
+    "note": "A trailing or climbing vine rather than an upright plant: NC State Extension says the stems can trail as far as 40 feet.",
+    "growth": "moderate",
+    "src": [
+      0
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Golden Pothos",
+      "note": "Wide leaves splashed with yellow; the most common pothos in garden centers."
+    },
+    {
+      "name": "Marble Queen",
+      "note": "Heavy white or cream marbling on pointed leaves; needs more light than most."
+    },
+    {
+      "name": "Pearls and Jade",
+      "note": "Small, teardrop leaves speckled light and dark green with large white spots."
+    },
+    {
+      "name": "Neon",
+      "note": "Bright lime-green, slender leaves; grows quickly and copes with lower light."
+    },
+    {
+      "name": "Jade",
+      "note": "Solid dark green leaves, a good choice for dim rooms."
+    },
+    {
+      "name": "Manjula",
+      "note": "Broad, upright leaves with pointed tips; bushy, slower and a weak climber."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Epipremnum aureum (Pothos)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to Grow Pothos Indoors (Epipremnum spp.): Care, Cultivars, and Common Problems (HGIC 1568)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/how-to-grow-pothos-indoors-epipremnum-spp-care-cultivars-and-common-problems/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Philodendron, Pothos & Monstera (HGIC 1509)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron-pothos-monstera/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Pothos",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/pothos",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow epipremnums",
+      "publisher": "Royal Horticultural Society (RHS)",
+      "url": "https://www.rhs.org.uk/plants/epipremnum/growing-guide",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Golden Pothos",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Propagation",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/propagation",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Satin Pothos",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/satin-pothos",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "philodendron",
+    "monstera"
+  ],
+  "seo": {
+    "title": "Pothos Care: Light, Water & Propagation Guide (2026)",
+    "description": "Pothos care in 2026: bright indirect light, mix dried well between waterings, 50 to 70% humidity per Clemson. Watering calculator, toxicity and cutting tips.",
+    "h1": "Pothos care: light, water and rooting cuttings"
+  },
+  "content": {
+    "answer": "Pothos grows best in bright, indirect light but tolerates dim rooms. Let the mix dry well between waterings, then soak it so water reaches every root, and keep it between 60 and 85°F. Cut long vines back above a node to keep it full.",
+    "intro": "The pothos trailing from your shelf is a plant stuck in its youth. In the forest, Epipremnum aureum climbs tree trunks on brown aerial roots, and Clemson Extension notes that its leaves there can reach 3 feet long with holes along the middle; in a hanging basket it keeps its juvenile form, with glossy heart-shaped leaves only a few inches long. NC State Extension lists the Society Islands as its native home, says the vines can trail as far as 40 feet, and explains that it was once filed as a cultivar of Epipremnum pinnatum before botanists split the two, which is why the RHS still sells golden pothos as E. pinnatum 'Aureum'. Its reputation is honest: it survives long stretches in low light, shrugs off a missed watering and roots from nearly any piece of vine that carries a node. Its one real weakness is a pot that never dries.",
+    "light": [
+      "The University of Illinois Extension places pothos in its medium-light group, about 150 foot-candles, which means directly in front of a north window or a few feet back from an east or west one. Clemson and NC State both say it tolerates less, and it does hang on for months in an office corner, but growth slows to a crawl and new leaves come in smaller and farther apart along the vine. Bright, indirect light, up to around 300 foot-candles, is where the vines lengthen fastest.",
+      "Variegation is the first thing dim light takes away. Illinois notes that leaf color tends to disappear in low light, and Clemson singles out the white-heavy cultivars, 'Marble Queen', 'Snow Queen' and 'Pearls and Jade', as needing far more light than green or golden forms; NC State recommends 'Jade' for low light and Clemson rates 'Neon' and 'Jessenia' as tolerant too. The RHS suggests an east or west window, or a south one screened by a sheer curtain, since direct summer sun scorches the leaves."
+    ],
+    "water": [
+      "Water when the mix has dried well down into the pot, then soak it so water reaches every root, as Clemson advises, and let the excess drain away. Clemson's quick guide goes as far as letting the soil dry completely; the University of Illinois Extension describes drying moderately between waterings, and the RHS says to wait until the compost is approaching dryness. All three point the same way: pothos takes a dry spell far better than wet feet.",
+      "The leaves give honest signals. A thirsty pothos goes soft and limp and usually firms up again after a thorough drink. Blackening leaf margins and rot at the roots point the other way, and NC State links both to overwatering. Growth slows in winter, when NC State treats the plant as dormant, so the same pot can take much longer to dry. Check before every watering instead of keeping summer's pace.",
+      "If you train vines up a moss pole, wet the pole whenever you water the pot; the RHS notes that the stems root into damp moss and stay firmly attached. The RHS also suggests rainwater or filtered water in hard-water areas, at room temperature, to keep the mix slightly acidic."
+    ],
+    "soil": [
+      "Clemson calls for an airy, well-draining mix, and NC State lists soils high in organic matter that drain well and occasionally dry out. The RHS goes further with a recipe: three parts peat-free ericaceous compost, one part grit and one part medium orchid bark, an open, slightly acidic blend that holds some moisture without staying wet. A bagged houseplant mix with a few handfuls of bark and perlite worked in is a fair shortcut. Whatever you use, the pot needs a drainage hole; a decorative basket without one is the classic way to drown a pothos."
+    ],
+    "humidity": [
+      "Clemson gives a preferred range of 50 to 70 percent relative humidity and notes that homes typically run 30 to 60 percent, which pothos tolerates. The RHS counts this tolerance as one of its big advantages over other tropical houseplants. Very dry air does show eventually, as browned tips and scorched edges that Clemson ties to low humidity or intense light. A humidifier helps in a winter apartment, but most plants never need one."
+    ],
+    "temperature": [
+      "Clemson recommends 60 to 70°F at night and 70 to 85°F during the day; the RHS gives 65 to 86°F (18 to 30°C). That is ordinary room temperature with a floor of 60°F. Clemson's warning is about moving air rather than numbers: keep the plant away from air conditioning outlets in summer and from cold windowsills and heating vents in winter, because both hot and cold blasts dry the leaves and damage plant cells."
+    ],
+    "fertilizer": [
+      "NC State and Clemson both recommend feeding every other month through spring and summer, and NC State says to stop while the plant rests in winter. The RHS is more generous, suggesting a general houseplant fertilizer once a month from April to October. Yellowing leaves on a plant whose watering is right can mean low fertility, which Clemson corrects with exactly that every-other-month feeding. Keep the monthly pace for a plant in bright light that is visibly lengthening its vines; one in a dim spot uses far less."
+    ],
+    "repotting": [
+      "Pothos can stay in the same pot for several years, says the RHS, which suggests moving it every two or three years into a container one size larger; Clemson gives a general rhythm of every year or two, depending on how fast the plant grows. Repot in spring when roots show through the drainage holes or the pot is packed solid. Avoid a big jump in size, since the extra mix stays wet and invites rot. If the top of the pot has gone thin, repotting is the moment to pin a few rooted cuttings into the surface."
+    ],
+    "propagation": [
+      "Few houseplants root as willingly. Each node along a pothos vine, the slightly swollen point where a leaf meets the stem, carries a small brown aerial root bump, and Clemson notes that a cutting needs at least one node to root properly. Cut just below a node, remove any leaf that would sit underwater, and stand the cutting in a glass of water in bright light, as the RHS suggests, or push it straight into moist mix.",
+      "Water rooting is fun to watch, but the University of Illinois Extension cautions that roots formed in water are often weaker and adapt less easily to potting mix than roots grown in a rooting medium, so pot water cuttings while the roots are still short. The RHS also describes layering: pin a trailing stem onto a pot of mix while it is still attached, and roots form at the leaf joint. Planting several rooted cuttings back into the parent pot is the quickest way to thicken a sparse plant."
+    ],
+    "problems": [
+      "Pothos problems are few and easy to read. Rotting roots and blackened leaf edges mean the mix stays wet. Yellow leaves come from overwatering or low fertility, according to Clemson, and a finger in the pot tells you which. Brown tips and scorched patches follow dry air or harsh sun, and fading variegation means too little light. A vine with leaves only at its end is not sick: NC State explains that older leaves naturally yellow and fall, concentrating foliage at the stem tips, so prune to keep the plant bushy. Mealybugs and spider mites are the pests worth checking for."
+    ],
+    "petSafety": [
+      "The ASPCA lists golden pothos (Epipremnum aureum) as toxic to cats and dogs. The plant contains insoluble calcium oxalates, and chewing it causes oral irritation, intense burning and irritation of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. Clemson rates it mildly toxic, while NC State gives a medium poison severity and adds skin irritation and diarrhea to the list. Dangling vines are tempting toys for cats, so hang baskets well out of reach. If a pet eats some, call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435."
+    ],
+    "faq": [
+      {
+        "q": "Why won't my pothos cutting grow roots?",
+        "a": "Check for a node first. Clemson Extension says a pothos cutting needs at least one node, the joint where the leaf meets the stem, to root properly; a leaf with only its stalk will not. Keep that node under water or buried in moist mix, give the cutting bright indirect light and warmth, and refresh the water when it turns cloudy. The University of Illinois Extension notes that stem cuttings are usually taken in spring or summer, while the plant is actively growing."
+      },
+      {
+        "q": "Why is my pothos losing its variegation?",
+        "a": "Too little light. The University of Illinois Extension notes that leaf color tends to disappear in low light, and Clemson adds that white-heavy cultivars such as 'Marble Queen', 'Snow Queen' and 'Pearls and Jade' need much more light to hold their pattern. Move the plant closer to an east or west window, out of direct summer sun, and judge the result by the leaves that open after the move."
+      },
+      {
+        "q": "How can I tell a pothos from a heartleaf philodendron?",
+        "a": "Look at the leaf stalk. Clemson Extension notes that pothos petioles are grooved while heartleaf philodendron petioles are smooth, and that philodendron leaves are softer and thinner than the waxier pothos leaf. NC State adds that the philodendron carries conspicuous stipules on new growth, which pothos lacks. Care overlaps, though Clemson says pothos wants brighter light and warmer temperatures than the philodendron."
+      },
+      {
+        "q": "Why are my pothos leaves so small?",
+        "a": "Because the plant is trailing, not climbing. NC State says that once a pothos has a support to climb and enough light, it begins producing large, mature leaves, and Clemson notes that wild plants carry leaves up to 3 feet long with holes. A basket plant stays juvenile, with leaves a few inches long. Train a few vines up a damp moss pole in bright indirect light and watch the size of each new leaf."
+      },
+      {
+        "q": "Is satin pothos a real pothos?",
+        "a": "No. Satin pothos is Scindapsus pictus, a relative in the same arum family. Clemson Extension notes it has broader, silvery leaves, grows much more slowly than true pothos, and is more prone to pests and disease and less tolerant of overwatering. Give it similar bright, indirect light but let the mix dry a little further before watering. The ASPCA lists satin pothos as toxic to cats and dogs, just like Epipremnum."
+      }
+    ]
+  }
+}

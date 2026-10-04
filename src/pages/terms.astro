@@ -1,0 +1,26 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import LegalIdentity from '../components/LegalIdentity.astro';
+import { route } from '../i18n/routes';
+import { breadcrumbSchema } from '../lib/seo';
+const lang = 'en';
+---
+<PageLayout title="Terms of Use and Legal Notice of PlantCare101 (2026)" description="Terms of use and legal notice of PlantCare101: publisher, host, nature of the plant care estimates, pet safety disclaimer, liability, reuse of content and the free widget." lang={lang} noindex={true} jsonLd={[breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Terms of use', path: route('terms', lang) }])]} breadcrumbs={[{ label: 'Terms of use' }]}>
+  <header class="mb-6"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">Terms of use and legal notice</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <h2>Publisher</h2>
+    <LegalIdentity lang="en" />
+    <h2>Host</h2>
+    <LegalIdentity lang="en" mode="hosting" />
+    <h2>Nature of the content</h2>
+    <p>The guides summarize published care advice from the sources they cite, and the tools give estimates from published rules and our own stated assumptions, set out on the <a href={route('method', lang)}>methodology page</a>. They are guidance only and do not replace the judgment of a horticulturist or the observation of your own plant.</p>
+    <h2>Pet and human safety</h2>
+    <p>Toxicity information reflects the ASPCA lists and the cited sources on the date shown. It is not veterinary or medical advice. If an animal or a person may have eaten a plant, contact a veterinarian, a doctor, the ASPCA Animal Poison Control Center or a poison control center without waiting.</p>
+    <h2>Liability</h2>
+    <p>We take care to keep the information accurate and to correct reported errors promptly, but we cannot guarantee that the site is free of error or always available, and we are not liable for the loss of a plant or for decisions taken on the basis of the estimates. Nothing in these terms limits a liability that cannot be limited by law.</p>
+    <h2>Reuse</h2>
+    <p>Texts, tables and code on this site are protected by copyright. You may quote short extracts with a link to the page. The watering calculator may be embedded freely using the code on the <a href={route('widget', lang)}>widget page</a>, provided the credit link stays visible.</p>
+    <h2>Applicable law</h2>
+    <p>These terms are governed by French law, the law of the publisher's establishment, without prejudice to mandatory consumer protection rules of your country of residence.</p>
+  </div>
+</PageLayout>

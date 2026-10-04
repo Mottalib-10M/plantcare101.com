@@ -1,0 +1,19 @@
+---
+/**
+ * Chapeau replié (RECETTE §26, 2026-10-02) : UN seul <p> entier dans le HTML servi ; l'écran montre
+ * les premières phrases entières, la suite est dans un <span> masqué du même <p>, « Read more » la
+ * montre sans JavaScript (case à cocher). Jamais de coupe au milieu d'une phrase.
+ */
+interface Props { id: string; text: string; sentences?: number; class?: string }
+const { id, text, sentences = 2, class: cls = '' } = Astro.props;
+const parts = text.split(/(?<=[.!?])\s+(?=[A-Z0-9"“])/);
+const head = parts.slice(0, sentences).join(' ');
+const rest = parts.slice(sentences).join(' ');
+---
+{rest ? (
+  <div class="clamp">
+    <input type="checkbox" id={id} class="clamp-toggle" aria-label="Read the full introduction" />
+    <p class={cls}>{head} <span class="clamp-rest">{rest}</span></p>
+    <label for={id} class="clamp-more" aria-hidden="true">Read more</label>
+  </div>
+) : <p class={cls}>{head}</p>}

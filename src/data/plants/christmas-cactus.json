@@ -1,0 +1,302 @@
+{
+  "slug": "christmas-cactus",
+  "commonName": "Christmas cactus",
+  "otherNames": [
+    "Holiday cactus",
+    "True Christmas cactus",
+    "Leaf-flowering cactus"
+  ],
+  "botanicalName": "Schlumbergera × buckleyi",
+  "formerNames": [
+    "Epiphyllum × buckleyi"
+  ],
+  "family": "Cactaceae",
+  "kind": "cactus",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [150, 300],
+    "lux": [1615, 3229],
+    "windows": ["east", "west", "south"],
+    "directSun": "morning-only",
+    "src": [0, 1, 2, 3, 6]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water when the upper inch of soil feels dry; never let it dry out completely in spring and summer",
+    "winter": "Through winter, keep the soil from becoming waterlogged without letting it dry out completely; once buds have set, keep it evenly moist so they do not drop.",
+    "factors": [
+      "NC State gives a rough rhythm of about every 1 to 2 weeks, or when the soil is nearly dry.",
+      "Reduce water around mid to late September to help the plant set buds.",
+      "Drying out after bud set is one of the main triggers of bud drop.",
+      "Never let water stand in the saucer; overwatering leads to root rot."
+    ],
+    "src": [0, 1, 2, 3, 4]
+  },
+  "soil": {
+    "mix": "A well-aerated, fast-draining mix: 60 to 80 percent potting soil with 20 to 40 percent perlite.",
+    "components": [
+      "pH-balanced potting soil (60 to 80%)",
+      "perlite (20 to 40%)",
+      "peat moss and sand in richer blends"
+    ],
+    "src": [0, 1, 4]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "Rainforest cacti prefer at least 50 percent humidity but tolerate less; low humidity contributes to bud drop.",
+    "src": [4, 1, 2]
+  },
+  "temperature": {
+    "idealF": [70, 80],
+    "idealC": [21, 27],
+    "minF": 50,
+    "minC": 10,
+    "maxF": 90,
+    "maxC": 32,
+    "src": [0, 1, 2]
+  },
+  "fertilizer": {
+    "season": "Late winter or early spring through summer; stop in late summer",
+    "everyWeeks": [4, 8],
+    "strength": "half",
+    "type": "Soluble fertilizer such as 20-10-20 or 20-20-20 with trace elements, plus Epsom salts (1 teaspoon per gallon) monthly in a different week",
+    "winter": "none",
+    "src": [0, 3, 4]
+  },
+  "repotting": {
+    "everyYears": [3, 3],
+    "signs": [
+      "Roots fill the pot and push out of the drainage hole",
+      "The mix breaks down and stays wet for days",
+      "The plant dries out unusually fast between waterings"
+    ],
+    "season": "Spring, after flowering; never while in bud or bloom",
+    "rootType": "epiphytic",
+    "prefersSnug": true,
+    "src": [0, 3, 7]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "non-toxic",
+    "humanNote": "NC State describes the Christmas cactus as non-toxic and safe to use in homes with pets or children.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Christmas Cactus (Schlumbergera bridgesii)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/christmas-cactus"
+      },
+      {
+        "name": "Shrimp Cactus (Schlumbergera russelliana)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/shrimp-cactus"
+      }
+    ],
+    "src": [5, 8, 1]
+  },
+  "problems": [
+    {
+      "symptomKey": "bud-drop",
+      "symptom": "Unopened buds fall off soon after you bring the plant home",
+      "causeKey": "drafts",
+      "cause": "A sudden change in temperature or light, or a draft from a vent or fireplace",
+      "remedy": "Pick one bright, steady spot away from heat sources and doors, and do not move the plant again until it has finished blooming."
+    },
+    {
+      "symptomKey": "bud-drop",
+      "symptom": "Buds shrivel and drop while the soil is dry",
+      "causeKey": "underwatering",
+      "cause": "Growing medium allowed to dry out after bud set",
+      "remedy": "Keep the mix evenly moist from the time buds appear until flowering ends, checking the top inch every few days."
+    },
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Healthy green growth but no buds by late fall",
+      "causeKey": "heat",
+      "cause": "Warm nights combined with lamplight that interrupts the long dark period",
+      "remedy": "From mid-September give it 14 hours of unbroken darkness nightly for six weeks and nights between 50 and 59°F."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Stem segments turn pale, yellowish or bleached in summer",
+      "causeKey": "too-much-sun",
+      "cause": "Bright summer sun on the segments",
+      "remedy": "Move it to light shade or a few feet back from the window until fall, when fuller sun is beneficial again."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Segments go limp and the base turns soft and dark",
+      "causeKey": "overwatering",
+      "cause": "Root rot from waterlogged mix, the plant's major disease",
+      "remedy": "Unpot, trim rotted roots, and replant healthy stems in a fresh, airy mix with plenty of perlite; root firm segments as cuttings."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Segments yellow and fall off",
+      "causeKey": "underwatering",
+      "cause": "Plant left too dry or in too much sun",
+      "remedy": "Water when the top inch feels dry, never letting the pot dry out completely in spring and summer, and filter strong sun."
+    },
+    {
+      "symptomKey": "small-flies",
+      "symptom": "Tiny dark flies hovering over the soil",
+      "causeKey": "pests",
+      "cause": "Fungus gnats breeding in constantly damp mix",
+      "remedy": "Let the surface dry between waterings, hang yellow sticky cards and empty the saucer after every watering."
+    }
+  ],
+  "propagation": {
+    "methods": ["Stem cuttings of 3 to 5 segments", "Grafting"],
+    "season": "May or June"
+  },
+  "size": {
+    "heightIn": [6, 12],
+    "widthIn": [12, 24],
+    "src": [1]
+  },
+  "varieties": [
+    {
+      "name": "Schlumbergera × buckleyi",
+      "note": "The true Christmas cactus: rounded notches on the segments, purplish-brown anthers, blooms around December."
+    },
+    {
+      "name": "Schlumbergera truncata (Thanksgiving cactus)",
+      "note": "Two to four pointed, claw-like teeth on each segment and yellow anthers; blooms about a month earlier."
+    },
+    {
+      "name": "Schlumbergera russelliana",
+      "note": "One parent of the hybrid, with scalloped, teardrop segments; magenta or white flowers in late December."
+    },
+    {
+      "name": "Easter cactus (Rhipsalidopsis gaertneri)",
+      "note": "A separate genus sold alongside holiday cacti; flowers in spring with pink or red blooms."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Thanksgiving & Christmas Cacti (HGIC 1554)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/thanksgiving-christmas-cacti/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Schlumbergera x buckleyi (Christmas Cactus)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/schlumbergera-x-buckleyi/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Schlumbergera (Holiday Cactus)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/schlumbergera/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Christmas Cactus",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/christmas-cactus/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Cacti",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-cacti/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Christmas Cactus",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/christmas-cactus",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Shrimp Cactus",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/shrimp-cactus",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "seo": {
+    "title": "Christmas Cactus Care: Blooms, Water & Bud Drop (2026)",
+    "description": "Christmas cactus care for 2026: 14 hours of nightly darkness from mid-September sets buds, water when the top inch dries. Watering calculator and bloom fixes.",
+    "h1": "Christmas cactus care: blooms, water and bud drop"
+  },
+  "content": {
+    "answer": "Keep a Christmas cactus in bright, indirect light, water when the top inch of soil feels dry, and feed it monthly at half strength from spring through summer. To bloom, it needs long, dark nights starting in mid-September, as Clemson Extension explains.",
+    "intro": "A Christmas cactus is a rainforest plant that happens to be a cactus. Its relatives grow as epiphytes on tree branches in the shady, humid rainforests of southeastern Brazil, a world away from the deserts most cacti call home, and NC State Extension notes that a single plant can live for more than a hundred years. The flat, jointed green pads are stems, botanically phylloclades, and the plant has no true leaves at all. Most plants sold today are Schlumbergera × buckleyi, a hybrid of S. russelliana and S. truncata raised in England in the 1840s, and many of the holiday cacti in supermarkets are actually Thanksgiving cactus, S. truncata, which flowers about a month sooner. Care runs on two seasons: steady growth from spring through summer, then an autumn of long nights and cool temperatures that sets the flower buds.",
+    "light": [
+      "Bright, indirect light is the consensus. NC State calls the genus intolerant of direct sun, UF/IFAS suggests a spot within six feet of a south, east or west window, and Clemson says holiday cacti grow best in light shade. Strong summer sun washes the segments pale and yellow, Clemson warns, which is the cue to pull the pot back from the glass.",
+      "Fall changes the rules. Clemson notes that full sunlight is beneficial during fall and winter, when the sun is weaker, and bright days are one of the conditions bud set requires. The other is darkness: Clemson calls for 14 hours or more of uninterrupted darkness each night from about mid-September for at least six weeks, and warns that as little as 2 hours of interrupted lighting can inhibit bud set. NC State gives at least 13 hours and UF/IFAS at least 12. A street lamp, passing headlights or a reading lamp left on in the evening can be enough to cancel the show."
+    ],
+    "water": [
+      "Water when the top inch of soil feels dry, UF/IFAS advises, and Clemson says to water once the growing medium is dry to the touch. Unlike desert cacti, this one should never dry out completely in spring and summer, according to Clemson's guide to rainforest cacti, although it tolerates being slightly underwatered better than being soggy. NC State offers a rough rhythm for the genus: about every 1 to 2 weeks, or when the soil is nearly dry. Always tip out the saucer afterward.",
+      "Autumn is when watering gets subtle. Clemson's indoor cactus guide recommends reducing water around the end of September as part of the rest period that helps set buds, and NC State says to cut back in mid-September and again after flowering. Once buds have formed, though, Clemson's holiday cactus factsheet says the medium must be kept evenly moist, because drying out is one of the triggers for buds falling before they open.",
+      "Through the dark days of winter, keep the soil from becoming waterlogged without letting it go bone dry, Clemson advises. Overwatering is the main disease risk: root rot, which NC State notes can also turn the stems mushy."
+    ],
+    "soil": [
+      "Clemson suggests 60 to 80 percent potting soil combined with 20 to 40 percent perlite, and stresses drainage and aeration, because epiphytic cacti do not grow well in heavy, wet mixes. Its indoor cactus guide gives a richer alternative of two parts peat moss, one part garden soil and one part sand. NC State describes an airy medium of peat moss, sand and perlite. A desert cactus mix on its own is too lean; Clemson notes that rainforest cacti need more organic matter than desert types."
+    ],
+    "humidity": [
+      "This is the one cactus that likes humid air. Clemson's guide says rainforest cacti prefer at least 50 percent humidity but will tolerate less, and suggests misting may help indoors; NC State lists high humidity as a preference. Low humidity is one of the conditions NC State links to bud drop, so a pebble tray or a humidifier in the weeks before bloom is worth setting up in a heated home."
+    ],
+    "temperature": [
+      "Clemson puts ideal growth at 70 to 80°F from April to September, and NC State agrees. In autumn, cooler nights help: NC State recommends night temperatures of 55 to 65°F, and Clemson says plants kept at night temperatures between 50 and 59°F will set buds regardless of day length, though growth slows and buds may drop at 50°F. Clemson advises holding fall temperatures as close to 68°F as possible for maximum flowering, never letting them rise above 90°F once buds are set, and bringing plants indoors before nights fall below 50°F (10°C). At 68°F, flowering can last 7 to 8 weeks."
+    ],
+    "fertilizer": [
+      "Clemson recommends feeding monthly at half strength from late winter or early spring, when new growth starts, through the summer, using a soluble fertilizer such as 20-10-20 or 20-20-20 with trace elements. UF/IFAS gives every one to two months from April to September. Holiday cacti need more magnesium than many plants, so Clemson also suggests Epsom salts (magnesium sulfate) at 1 teaspoon per gallon of water monthly during the growing season, never in the same week as the regular fertilizer. Stop all feeding in late summer to favor bud formation; Clemson's indoor cactus guide says to resume after flowering."
+    ],
+    "repotting": [
+      "Christmas cacti flower best when somewhat pot-bound, and Clemson says repotting is needed only about once every three years, ideally in spring. UF/IFAS warns against choosing a pot that is too large. Go up just one size, use the airy mix described above, and never repot a plant carrying buds or flowers; Clemson's general repotting guidance says not to repot plants that are beginning to flower."
+    ],
+    "propagation": [
+      "Clemson calls holiday cacti easy to propagate from cuttings taken in May or June. Twist off sections of 3 to 5 segments, let the cut ends callus in shade for a day or two, then set them about one inch deep in well-drained potting soil, three cuttings to a 4-inch pot or five to a 6-inch pot. A clear plastic bag over the pot holds humidity high, and roots form in three to eight weeks in bright, indirect light. Early June is also when Clemson suggests pinching the stems back to encourage branching, so the trimmings can become new plants. NC State adds grafting as a second method."
+    ],
+    "problems": [
+      "Bud drop is the classic disappointment. Clemson traces it to an excessive number of buds, a sudden change in temperature or light, or a medium that dried out, and UF/IFAS adds drafts and heat sources such as vents and fireplaces. A plant that never blooms is almost always getting light during its long nights. Root rot from overwatering is the major disease, and Clemson lists mealybugs, soft brown scale, red spider mites, aphids and fungus gnats as the pests. Segments that yellow and fall usually mean the plant was kept too dry or given too much sun, according to Clemson's cactus guide."
+    ],
+    "petSafety": [
+      "The ASPCA lists the Christmas cactus as non-toxic to cats, dogs and horses; its entry uses the name Schlumbergera bridgesii, an older label for the plant. The ASPCA's shrimp cactus entry, Schlumbergera russelliana, one of the hybrid's parents, is also non-toxic. NC State likewise describes the Christmas cactus as non-toxic and safe in homes with pets or children. Non-toxic does not mean the segments are food, and a chewed plant is slow to fill back in, so a high shelf still helps. If a pet seems unwell after eating any plant, call your veterinarian or the ASPCA Animal Poison Control Center."
+    ],
+    "faq": [
+      {
+        "q": "Why is my Christmas cactus not blooming?",
+        "a": "Most often it is getting light at night. Clemson Extension says buds form only after at least six weeks of 14 hours or more of unbroken darkness each night, starting in mid-September, and that lamps, street lights or car lights can disrupt it. Nights kept too warm also prevent buds, and Clemson recommends stopping fertilizer in late summer."
+      },
+      {
+        "q": "Why is my Christmas cactus dropping its buds?",
+        "a": "Clemson Extension lists too many buds, sudden changes in temperature or light, and a growing medium that dried out. UF/IFAS adds drafts and heat sources such as vents and fireplaces. Once buds appear, keep the plant in one spot, keep the soil evenly moist, and hold temperatures steady, ideally near 68°F, which Clemson says also extends flowering."
+      },
+      {
+        "q": "How can I tell a Christmas cactus from a Thanksgiving cactus?",
+        "a": "Look at the edges of the stem segments. Clemson Extension says Thanksgiving cactus segments have 2 to 4 pointed, saw-toothed projections, while Christmas cactus segments are more rounded. When it flowers, check the anthers: yellow on the Thanksgiving cactus, purplish-brown on the Christmas cactus. Thanksgiving cactus also blooms about a month earlier."
+      },
+      {
+        "q": "Why are my Christmas cactus segments falling off?",
+        "a": "Clemson Extension notes that falling or yellow segments can result from a plant kept too dry or given too much sunlight. Limp segments with a soft, dark base point the other way, to root rot from overwatering. Check the soil an inch down and look at the stem base before you change anything, then root any healthy fallen segments as cuttings."
+      },
+      {
+        "q": "How long does a Christmas cactus live?",
+        "a": "A very long time. NC State Extension says one plant can live for over a hundred years, which is why holiday cacti are often passed down through families. Longevity depends mostly on avoiding root rot: an airy, well-drained mix, a snug pot repotted only about every three years, and no standing water in the saucer."
+      }
+    ]
+  }
+}

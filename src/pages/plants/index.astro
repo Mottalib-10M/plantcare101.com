@@ -1,0 +1,41 @@
+---
+import HubLayout from '../../components/HubLayout.astro';
+import PlantFilter from '../../components/calc/PlantFilter';
+import { PLANTS, plantPath, filterPlants } from '../../lib/plants';
+import { route } from '../../i18n/routes';
+import { SRC } from '../../data/general-sources';
+import { RULE_TEXT, LEVEL_LABEL } from '../../lib/plant-text';
+const lang = 'en';
+const n = PLANTS.length;
+const families = new Set(PLANTS.map((p) => p.family)).size;
+const sourcesRead = new Set(PLANTS.flatMap((p) => p.sources.map((s) => s.url))).size;
+const faqs = [
+  { q: `Which of these ${n} houseplants is the hardest to kill?`, a: 'The ones whose guides record a fully-dry watering rule and a low-light minimum: they forgive both missed waterings and dim rooms. Set the filters to Low light and Forgives missed waterings to see them. Hardest to kill still has a limit: almost all of them die from too much water, not too little.' },
+  { q: 'Why does each plant page show the same care card?', a: 'So you can compare plants at a glance and find each fact in the same place: light, water, humidity, temperature, soil, feeding, pet safety and size. The numbers in the card come from the sources listed at the bottom of each page, read on the date shown, and the card updates whenever the underlying data changes.' },
+  { q: 'Are the care ranges on these pages for indoor or outdoor plants?', a: 'Indoor. Several of these plants grow outdoors in the tropics or in mild US zones, and some sources describe them as landscape plants. Our guides keep the indoor figures and say when a number comes from outdoor growing, such as mature height, so you know what to expect in a pot.' },
+  { q: 'How do you choose which plants get a guide?', a: 'By what people actually search for. Each plant on this list matches a care query with real monthly search volume in the United States, measured before the page was written. New guides are added the same way, and every one follows the same format, sources and checks as the first.' },
+  { q: 'Do the plant guides cover pet safety for cats and dogs?', a: 'Yes. Every guide records the ASPCA entry for the plant, the toxic principle and the clinical signs, and links to the ASPCA page. When the ASPCA has no entry, as with the ZZ plant, the guide says so and cites the extension source it relies on instead. The pet filter above uses the same data.' },
+  { q: 'Where do the foot-candle ranges on the plant pages come from?', a: 'From the light categories of the University of Illinois Extension: about 75 foot-candles for low light, 150 for medium, 300 for high and 1,500 for direct sun. Each guide records the lowest and highest category its sources accept for the plant and converts them, multiplying by 10.764 to get lux.' },
+];
+const rules = Object.entries(RULE_TEXT).map(([r, t]) => ({ t, ps: PLANTS.filter((p) => p.water.rule === r) })).filter((x) => x.ps.length);
+---
+<HubLayout id="plants" title={`Houseplant Care Guides: ${n} Indoor Plants A to Z (2026)`}
+  h1="Houseplant care guides, plant by plant"
+  description="Houseplant care guides for indoor plants in 2026, each with a watering calculator, light range in foot-candles, ASPCA pet safety and sourced problem fixes."
+  answer={`Every guide below covers one plant in the same format: a direct answer, a care card, a watering calculator set to that plant, then light, water, soil, humidity, temperature, feeding, repotting, propagation, problems and pet safety. Filter by your light, your pets and how much care you can give.`}
+  intro={`These ${n} guides cover the houseplants Americans search for most, from the snake plant to the fiddle-leaf fig, across ${families} botanical families. Each figure on them was read from a university extension service, a botanical garden or the ASPCA, and the guide lists those pages with the date they were checked: ${sourcesRead} distinct source pages in all. Where the sources disagree, the guide says so instead of picking a number, and where none gives a figure, the field stays empty. Every guide also carries the same watering calculator, already set to that plant's drying rule, so the advice turns into a range of days for your pot, your window and the season. Use the filters to narrow the list to what fits your home.`}
+  faqs={faqs} sources={[SRC.ilLight, SRC.clWatering, SRC.aspcaCats, SRC.aspcaDogs]} items={PLANTS.map((p) => ({ name: p.commonName, href: plantPath(p.slug) }))}
+  related={[{ href: route('best', lang), name: 'Best indoor plants', description: 'Our picks by situation' }, { href: route('lowlight', lang), name: 'Low light indoor plants', description: 'For dim rooms' }, { href: route('petfriendly', lang), name: 'Plants safe for cats and dogs', description: 'ASPCA non-toxic' }]}>
+  <PlantFilter slot="tool" client:load plants={filterPlants()} />
+
+  <h2>The plants, grouped by how they like to be watered</h2>
+  <p>Watering habits sort these plants better than looks do. Each guide records one drying rule from its sources, and plants that share a rule can share a watering day.</p>
+  <ul>{rules.map((x) => <li><strong>{x.t}:</strong> {x.ps.map((p, i) => <>{i > 0 && ', '}<a href={plantPath(p.slug)}>{p.commonName}</a></>)}</li>)}</ul>
+
+  <h2>How to read a plant guide</h2>
+  <p>Start with the answer at the top and the care card beside it, then try the watering calculator with your own pot. The light section translates the plant's range into foot-candles and lux and names the windows that suit it; the problems table pairs each symptom with its cause and fix; the pet safety section quotes the ASPCA entry word for word. Varieties sit in a fold at the end, since most readers come for care, not cultivars.</p>
+  <p>Two plants are group guides: succulents, which cover several genera with different toxicity, and bonsai, which compares the indoor-friendly ficus with the juniper, an outdoor plant often sold as an indoor gift. Their guides explain where the members part ways.</p>
+
+  <h2>Light first, then everything else</h2>
+  <p>If you are choosing a plant rather than rescuing one, decide on the spot before the species. The ideal light recorded for these guides ranges from {LEVEL_LABEL[PLANTS.reduce((a, p) => (['low', 'medium', 'high', 'direct'].indexOf(p.light.idealLevel) < ['low', 'medium', 'high', 'direct'].indexOf(a) ? p.light.idealLevel : a), 'direct' as 'low' | 'medium' | 'high' | 'direct')].toLowerCase()} to {LEVEL_LABEL[PLANTS.reduce((a, p) => (['low', 'medium', 'high', 'direct'].indexOf(p.light.idealLevel) > ['low', 'medium', 'high', 'direct'].indexOf(a) ? p.light.idealLevel : a), 'low' as 'low' | 'medium' | 'high' | 'direct')].toLowerCase()}, and no amount of watering skill makes up for the wrong window. The <a href={route('lightfinder', lang)}>light finder</a> estimates what your spot receives and lists the plants that suit it.</p>
+</HubLayout>

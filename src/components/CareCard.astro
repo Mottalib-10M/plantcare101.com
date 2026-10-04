@@ -1,0 +1,23 @@
+---
+/** Carte de soins : les mêmes huit faits, au même endroit, sur chaque fiche. Données → data-chrome. */
+import type { Plant } from '../lib/plant-schema';
+import { lightSpan, RULE_TEXT, HUMIDITY_LABEL, temp, petStatus, heightTxt, SUN_LABEL, weeksTxt, sizeShort } from '../lib/plant-text';
+interface Props { plant: Plant }
+const { plant: p } = Astro.props;
+const pets = p.toxicity.cats === p.toxicity.dogs ? `${petStatus(p.toxicity.cats)} to cats and dogs` : `Cats: ${petStatus(p.toxicity.cats).toLowerCase()} · Dogs: ${petStatus(p.toxicity.dogs).toLowerCase()}`;
+const items: Array<[string, string, string]> = [
+  ['Light', lightSpan(p), SUN_LABEL[p.light.directSun]],
+  ['Water', RULE_TEXT[p.water.rule], 'Less in winter'],
+  ['Humidity', HUMIDITY_LABEL[p.humidity.level], p.humidity.idealPct ? `${p.humidity.idealPct[0]} to ${p.humidity.idealPct[1]}%` : ''],
+  ['Temperature', `Above ${temp(p.temperature.minF, p.temperature.minC)}`, p.temperature.idealF ? `Ideal ${p.temperature.idealF[0]} to ${p.temperature.idealF[1]}°F` : (p.temperature.maxF !== undefined ? `Below ${p.temperature.maxF}°F` : '')],
+  ['Soil', p.soil.ph ? `pH ${p.soil.ph[0]} to ${p.soil.ph[1]}` : 'Well-draining mix', p.soil.components.slice(0, 2).join(', ')],
+  ['Feeding', weeksTxt(p.fertilizer.everyWeeks).replace(/^e/, 'E'), p.fertilizer.winter === 'none' ? 'None in winter' : 'Less in winter'],
+  ['Pets', pets, p.toxicity.aspcaListed ? 'Source: ASPCA' : 'Not on the ASPCA lists'],
+  ['Size indoors', sizeShort(p), p.size.growth ? `${p.size.growth} growth` : ''],
+];
+---
+<div data-chrome><dl class="care-card mt-5 grid grid-cols-2 gap-x-4 gap-y-3 border-y border-navy-200 py-4 sm:grid-cols-4">
+  {items.map(([k, v, s]) => (
+    <div><dt>{k}</dt><dd class="text-sm leading-snug">{v}</dd>{s && <dd class="text-xs font-normal text-navy-600">{s}</dd>}</div>
+  ))}
+</dl></div>

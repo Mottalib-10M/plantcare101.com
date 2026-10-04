@@ -1,0 +1,179 @@
+---
+/**
+ * Gabarit de fiche plante : /plants/<slug>/, une page par fichier src/data/plants/<slug>.json.
+ * Ordre : H1, réponse en ~40 mots, carte de soins, mini-simulateur d'arrosage réglé sur la plante
+ * (au-dessus de la ligne de flottaison sur ordinateur), chapeau citable replié, sections de soins,
+ * problèmes (tableau), sécurité des animaux (ASPCA), variétés, FAQ, plantes liées, sources.
+ * Tout le texte rédigé vient de la fiche ; les tableaux et la carte sont des données (data-chrome).
+ */
+import PageLayout from '../../layouts/PageLayout.astro';
+import CareCard from '../../components/CareCard.astro';
+import Clamp from '../../components/Clamp.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import AffiliateSlot from '../../components/AffiliateSlot.astro';
+import WateringCalc from '../../components/calc/WateringCalc';
+import PotCalc from '../../components/calc/PotCalc';
+import { PLANTS, plantPath, relatedPlants, relationReason } from '../../lib/plants';
+import { GUIDES, guidePath } from '../../lib/guides';
+import { route } from '../../i18n/routes';
+import { articleSchema, faqSchema, breadcrumbSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { LEVEL_LABEL, RULE_TEXT, SUN_LABEL, HUMIDITY_LABEL, STRENGTH_LABEL, temp, rangeTxt, weeksTxt, windowsTxt, petStatus, humanStatus, heightTxt, fmtUS } from '../../lib/plant-text';
+import { CAUSE_LABEL } from '../../components/calc/Diagnosis';
+import type { Plant } from '../../lib/plant-schema';
+
+export function getStaticPaths() {
+  return PLANTS.map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+interface Props { p: Plant }
+const { p } = Astro.props;
+const lang = 'en';
+const path = plantPath(p.slug);
+const c = p.content;
+const rel = relatedPlants(p, 4);
+const guideFor = (keys: string[]) => GUIDES.filter((g) => keys.some((k) => g.slug.includes(k))).slice(0, 3);
+const symptoms = new Set(p.problems.map((x) => x.symptomKey));
+const guideLinks = guideFor([
+  ...(symptoms.has('yellow-leaves') ? ['yellow'] : []), ...(symptoms.has('brown-tips') || symptoms.has('crispy-edges') ? ['brown'] : []),
+  ...(symptoms.has('root-rot') || symptoms.has('mushy-stem') ? ['root-rot'] : []), ...(p.problems.some((x) => x.causeKey === 'pests') ? ['pests'] : []),
+  'how-often', 'repot',
+]);
+const related = [
+  ...rel.map((x) => ({ href: plantPath(x.slug), name: `${x.commonName} care`, description: relationReason(p, x) })),
+  ...guideLinks.map((g) => ({ href: guidePath(g.slug), name: g.nav, description: 'Problem guide' })),
+  { href: route('watering', lang), name: 'Watering calculator', description: 'Every plant, every pot' },
+];
+const sources = p.sources.map((s) => ({ name: `${s.publisher}: ${s.title} (read ${displayDate(s.accessed, 'en-US')})`, url: s.url }));
+const jsonLd = [
+  articleSchema({ title: p.seo.title, description: p.seo.description, path, lang }),
+  faqSchema(c.faq, lang),
+  breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Plants', path: route('plants', lang) }, { name: p.commonName, path }]),
+];
+const wateringOption = { slug: p.slug, name: p.commonName, rule: p.water.rule };
+const potOption = { slug: p.slug, name: p.commonName, rootType: p.repotting.rootType, prefersSnug: p.repotting.prefersSnug };
+const srcList = (ix: number[]) => ix.map((i) => p.sources[i]?.publisher.split(',')[0]).filter((v, i, a) => v && a.indexOf(v) === i).join('; ');
+const aliases = [...p.otherNames, ...p.formerNames.map((n) => `formerly ${n}`)];
+---
+<PageLayout title={p.seo.title} description={p.seo.description} lang={lang} jsonLd={jsonLd} faqs={c.faq} related={related} sources={sources}
+  breadcrumbs={[{ label: 'Plants', href: route('plants', lang) }, { label: p.commonName }]}>
+  <header class="mb-4">
+    <h1 class="text-3xl font-bold text-navy-900 md:text-4xl">{p.seo.h1}</h1>
+    <p class="mt-2 text-sm text-navy-600"><i>{p.botanicalName}</i> · {p.family}{aliases.length > 0 && <> · {aliases.join(', ')}</>}</p>
+  </header>
+  <div class="grid gap-6 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)]">
+    <div>
+      <p class="text-lg leading-relaxed text-navy-800">{c.answer}</p>
+      <CareCard plant={p} />
+    </div>
+    <div data-chrome>
+      <p class="mb-2 text-sm font-semibold text-navy-900">Watering calculator for your {p.commonName.toLowerCase()}</p>
+      <WateringCalc client:load fixedPlant={wateringOption} methodHref={route('method', lang)} toolHref={route('watering', lang)} idPrefix={`w-${p.slug}`} />
+    </div>
+  </div>
+
+  <div class="mt-8 text-navy-800"><Clamp id={`intro-${p.slug}`} text={c.intro} sentences={2} class="text-base leading-relaxed" /></div>
+
+  <article class="prose prose-slate mt-8 max-w-none">
+    <h2 id="light">Light</h2>
+    {c.light.map((t) => <p>{t}</p>)}
+    <div class="overflow-x-auto"><table>
+      <caption class="sr-only">{p.commonName} light needs</caption>
+      <tbody>
+        <tr><th scope="row">Range</th><td>{LEVEL_LABEL[p.light.minLevel]} to {LEVEL_LABEL[p.light.maxLevel].toLowerCase()}, best in {LEVEL_LABEL[p.light.idealLevel].toLowerCase()}</td></tr>
+        <tr><th scope="row">Foot-candles</th><td>{fmtUS(p.light.fc[0])} to {fmtUS(p.light.fc[1])} fc ({fmtUS(p.light.lux[0])} to {fmtUS(p.light.lux[1])} lux)</td></tr>
+        <tr><th scope="row">Windows</th><td>{windowsTxt(p.light.windows)} · {SUN_LABEL[p.light.directSun].toLowerCase()}</td></tr>
+        <tr><th scope="row">Sources</th><td>{srcList(p.light.src)}</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2 id="water">Water</h2>
+    {c.water.map((t) => <p>{t}</p>)}
+    <div class="overflow-x-auto"><table>
+      <caption class="sr-only">{p.commonName} watering rule</caption>
+      <tbody>
+        <tr><th scope="row">Rule</th><td>{RULE_TEXT[p.water.rule]}: {p.water.ruleText.toLowerCase()}</td></tr>
+        <tr><th scope="row">Winter</th><td>{p.water.winter}</td></tr>
+        {p.water.factors.map((f, i) => <tr><th scope="row">{i === 0 ? 'Watch for' : ''}</th><td>{f}</td></tr>)}
+        <tr><th scope="row">Sources</th><td>{srcList(p.water.src)}</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2 id="soil">Soil and pH</h2>
+    {c.soil.map((t) => <p>{t}</p>)}
+    <div class="overflow-x-auto"><table><caption class="sr-only">{p.commonName} soil</caption><tbody>
+      <tr><th scope="row">Mix</th><td>{p.soil.mix}</td></tr>
+      <tr><th scope="row">Ingredients</th><td>{p.soil.components.join(', ')}</td></tr>
+      {p.soil.ph && <tr><th scope="row">pH</th><td>{rangeTxt(p.soil.ph)}</td></tr>}
+      <tr><th scope="row">Sources</th><td>{srcList(p.soil.src)}</td></tr>
+    </tbody></table></div>
+    <AffiliateSlot kind="potting-mix" context={p.commonName.toLowerCase()} />
+
+    <h2 id="humidity">Humidity</h2>
+    {c.humidity.map((t) => <p>{t}</p>)}
+
+    <h2 id="temperature">Temperature</h2>
+    {c.temperature.map((t) => <p>{t}</p>)}
+    <div class="overflow-x-auto"><table><caption class="sr-only">{p.commonName} temperature and humidity</caption><tbody>
+      <tr><th scope="row">Minimum</th><td>{temp(p.temperature.minF, p.temperature.minC)}</td></tr>
+      {p.temperature.idealF && p.temperature.idealC && <tr><th scope="row">Ideal</th><td>{p.temperature.idealF[0]} to {p.temperature.idealF[1]}°F ({p.temperature.idealC[0]} to {p.temperature.idealC[1]}°C)</td></tr>}
+      {p.temperature.maxF !== undefined && p.temperature.maxC !== undefined && <tr><th scope="row">Maximum</th><td>{temp(p.temperature.maxF, p.temperature.maxC)}</td></tr>}
+      <tr><th scope="row">Humidity</th><td>{HUMIDITY_LABEL[p.humidity.level]}{p.humidity.idealPct && `, ${p.humidity.idealPct[0]} to ${p.humidity.idealPct[1]}%`}. {p.humidity.note}</td></tr>
+      <tr><th scope="row">Sources</th><td>{srcList([...p.temperature.src, ...p.humidity.src])}</td></tr>
+    </tbody></table></div>
+
+    <AdSlot slot={`${p.slug}-1`} />
+
+    <h2 id="fertilizer">Fertilizer</h2>
+    {c.fertilizer.map((t) => <p>{t}</p>)}
+    <div class="overflow-x-auto"><table><caption class="sr-only">{p.commonName} feeding</caption><tbody>
+      <tr><th scope="row">When</th><td>{p.fertilizer.season}, {weeksTxt(p.fertilizer.everyWeeks)}, {p.fertilizer.winter === 'none' ? 'none in winter' : 'reduced in winter'}</td></tr>
+      <tr><th scope="row">What</th><td>{p.fertilizer.type}, {STRENGTH_LABEL[p.fertilizer.strength]}</td></tr>
+      <tr><th scope="row">Sources</th><td>{srcList(p.fertilizer.src)}</td></tr>
+    </tbody></table></div>
+    <p class="not-prose text-sm"><a href={route('fertilizer', lang)} class="font-medium text-accent-700 hover:underline">Work out the dose for your watering can with the fertilizer dilution calculator →</a></p>
+
+    <h2 id="repotting">Repotting</h2>
+    {c.repotting.map((t) => <p>{t}</p>)}
+    <ul>{p.repotting.signs.map((s) => <li>{s}</li>)}</ul>
+  </article>
+  <div data-chrome class="mt-6">
+    <p class="mb-2 text-sm font-semibold text-navy-900">Pot size for your next repot</p>
+    <PotCalc client:load fixedPlant={potOption} idPrefix={`pt-${p.slug}`} />
+  </div>
+  <article class="prose prose-slate mt-8 max-w-none">
+    <AffiliateSlot kind="pot" />
+    <h2 id="propagation">Propagation</h2>
+    {c.propagation.map((t) => <p>{t}</p>)}
+    <p class="text-sm">Methods: {p.propagation.methods.join(', ')} · Best season: {p.propagation.season.toLowerCase()}.</p>
+
+    <h2 id="problems">Common problems</h2>
+    {c.problems.map((t) => <p>{t}</p>)}
+    <div class="overflow-x-auto"><table>
+      <caption class="sr-only">{p.commonName}: symptom, cause, remedy</caption>
+      <thead><tr><th scope="col">Symptom</th><th scope="col">Cause</th><th scope="col">Remedy</th></tr></thead>
+      <tbody>{p.problems.map((x) => <tr><td>{x.symptom}</td><td>{x.cause} <span class="text-navy-500">({CAUSE_LABEL[x.causeKey]?.toLowerCase()})</span></td><td>{x.remedy}</td></tr>)}</tbody>
+    </table></div>
+    <p class="not-prose text-sm"><a href={route('diagnosis', lang)} class="font-medium text-accent-700 hover:underline">Not sure which one it is? Try the plant problem diagnosis tool →</a></p>
+
+    <h2 id="pet-safety">Is the {p.commonName.toLowerCase()} toxic to cats and dogs?</h2>
+    {c.petSafety.map((t) => <p>{t}</p>)}
+    <div class="overflow-x-auto"><table>
+      <caption class="sr-only">{p.commonName} toxicity</caption>
+      <thead><tr><th scope="col">Entry</th><th scope="col">Cats</th><th scope="col">Dogs</th><th scope="col">Signs</th></tr></thead>
+      <tbody>
+        {p.toxicity.aspca.map((a) => <tr><td><a href={a.url} target="_blank" rel="nofollow noopener noreferrer">{a.name}</a> (ASPCA)</td><td>{petStatus(a.cats)}</td><td>{petStatus(a.dogs)}</td><td>{a.clinicalSigns ?? 'None listed'}{a.toxicPrinciples && ` · ${a.toxicPrinciples}`}</td></tr>)}
+        {!p.toxicity.aspcaListed && <tr><td>Not on the ASPCA lists</td><td>{petStatus(p.toxicity.cats)}</td><td>{petStatus(p.toxicity.dogs)}</td><td>See the sources below</td></tr>}
+        <tr><td>People</td><td colspan="3">{humanStatus[p.toxicity.humans]}: {p.toxicity.humanNote}</td></tr>
+      </tbody>
+    </table></div>
+    <p class="not-prose text-sm"><a href={route('petsafe', lang)} class="font-medium text-accent-700 hover:underline">Check any other plant against the ASPCA lists →</a></p>
+
+    {p.varieties.length > 0 && (
+      <details class="not-prose mt-8 rounded-lg border border-navy-200 bg-white px-5 py-4">
+        <summary class="cursor-pointer font-serif text-xl font-semibold text-navy-900">Varieties worth knowing ({p.varieties.length})</summary>
+        <ul class="mt-3 space-y-2 text-navy-800">{p.varieties.map((v) => <li><strong>{v.name}</strong>: {v.note}</li>)}</ul>
+        <p class="mt-3 text-sm text-navy-600">Mature size indoors: {heightTxt(p)}{p.size.widthIn && `, ${rangeTxt(p.size.widthIn, ' in')} wide`}.</p>
+      </details>
+    )}
+  </article>
+</PageLayout>

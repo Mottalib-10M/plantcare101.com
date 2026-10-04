@@ -1,0 +1,371 @@
+{
+  "slug": "rubber-plant",
+  "commonName": "Rubber plant",
+  "otherNames": [
+    "Indian rubber plant",
+    "Rubber tree"
+  ],
+  "botanicalName": "Ficus elastica",
+  "formerNames": [],
+  "family": "Moraceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      75,
+      300
+    ],
+    "lux": [
+      807,
+      3229
+    ],
+    "windows": [
+      "east",
+      "west",
+      "south"
+    ],
+    "directSun": "morning-only",
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water thoroughly, then let the soil dry slightly to the touch before watering again",
+    "winter": "From fall to late winter, NC State says the plant is dormant: reduce watering and let the soil dry further between drinks.",
+    "factors": [
+      "Soil that stays wet yellows the leaves and can rot the roots.",
+      "A large pot dries far more slowly at the bottom than at the surface.",
+      "Always empty the saucer after watering; Clemson stresses proper drainage holes.",
+      "Too little water, like cold drafts, makes the plant drop leaves."
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "soil": {
+    "mix": "A well-drained, soil-based houseplant mix in a heavy pot with drainage holes, so a tall plant does not tip.",
+    "components": [
+      "soil-based houseplant potting mix",
+      "perlite for extra drainage if the mix stays wet"
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Prefers humid air but tolerates the dry air common in homes; medium relative humidity is best.",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      60,
+      80
+    ],
+    "idealC": [
+      16,
+      27
+    ],
+    "minF": 55,
+    "minC": 13,
+    "src": [
+      0,
+      1
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, during active growth",
+    "everyWeeks": [
+      2,
+      2
+    ],
+    "strength": "full",
+    "type": "Water-soluble houseplant fertilizer at the label rate, never stronger; feed less often in lower light",
+    "winter": "none",
+    "src": [
+      0,
+      5
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage holes",
+      "The soil mass is filled with roots",
+      "The plant wilts between normal waterings",
+      "New leaves come in smaller than usual"
+    ],
+    "season": "Late winter or early spring",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [
+      0,
+      6,
+      7
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "Clemson warns that the sticky white sap may irritate skin, or the stomach if eaten; keep it away from young children who chew plants.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Weeping Fig (Ficus sp.), the ASPCA entry covering Ficus; no separate Ficus elastica entry",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+        "toxicPrinciples": "Proteolytic enzyme (ficin), psoralen (ficusin)"
+      },
+      {
+        "name": "Fig (Ficus benjamina)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fig",
+        "toxicPrinciples": "Proteolytic enzyme (ficin), psoralen (ficusin)",
+        "clinicalSigns": "Gastrointestinal and dermal irritation"
+      }
+    ],
+    "src": [
+      3,
+      4,
+      1,
+      0,
+      9
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Healthy-looking leaves fall within days of a move or a cold night",
+      "causeKey": "cold",
+      "cause": "Cold drafts or a sudden temperature drop below 55°F",
+      "remedy": "Keep it in one warm spot away from doors, single-pane glass and air conditioning vents, and avoid moving it in winter."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Several leaves yellow at once, soil still damp",
+      "causeKey": "overwatering",
+      "cause": "Soil kept wet, especially during the fall-to-winter rest",
+      "remedy": "Let the soil dry slightly to the touch before each watering and cut back sharply from fall to late winter."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "One or two of the lowest leaves yellow and drop while new leaves keep coming",
+      "causeKey": "natural-aging",
+      "cause": "Normal shedding of old bottom leaves",
+      "remedy": "Nothing to fix: remove the fallen leaves and keep care steady. NC State notes this is normal."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Wilting with wet soil and a sour smell from the pot",
+      "causeKey": "poor-drainage",
+      "cause": "Root rot from a mix that drains slowly or watering too often",
+      "remedy": "Unpot, trim dark, mushy roots, and replant in fresh, well-drained mix in a pot with working drainage holes."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony tufts along stems and leaf undersides",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Dab colonies with a cotton swab dipped in rubbing alcohol, wipe the leaves clean, and repeat weekly until none return."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Tall, bare trunk with small leaves spaced far apart",
+      "causeKey": "low-light",
+      "cause": "Too little light, which makes the plant stretch",
+      "remedy": "Move it near an east window, prune the top in spring to force side branches, or air layer the top into a new plant."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Lower leaves drop in winter near a heater",
+      "causeKey": "low-humidity",
+      "cause": "Dry indoor air combined with heat",
+      "remedy": "Move it away from the heat source, group it with other plants, and wipe the leaves with a damp cloth to keep them clean."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Air layering",
+      "Stem or tip cuttings"
+    ],
+    "season": "Spring, when pruning a tall plant"
+  },
+  "size": {
+    "heightIn": [
+      24,
+      120
+    ],
+    "growth": "fast",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Decora",
+      "note": "Widely available, with large, very thick dark green leaves and creamy white midribs."
+    },
+    {
+      "name": "Robusta",
+      "note": "Deep green, waxy leaves up to 18 inches long; Clemson rates it good in low light."
+    },
+    {
+      "name": "Tineke",
+      "note": "Green leaves variegated cream or pale yellow; NC State lists it up to 13 feet tall."
+    },
+    {
+      "name": "Tricolor",
+      "note": "Green leaves splashed with cream and pink patches."
+    },
+    {
+      "name": "Rubra",
+      "note": "Leaves reddish when young, maturing deep green with red edges and midribs."
+    },
+    {
+      "name": "Burgundy",
+      "note": "Dark green leaves with a burgundy cast, up to about 6 feet indoors."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Rubber Plant (HGIC 1510)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/rubber-plant/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Ficus elastica (Rubber Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-elastica/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Weeping Fig (Ficus sp.)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Fig (Ficus benjamina)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fig",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Air Layering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/air-layering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Baby Rubber Plant (Peperomia obtusifolia), not Ficus elastica",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/baby-rubber-plant",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "seo": {
+    "title": "Rubber Plant Care: Light, Water & Leaf Drop Fixes (2026)",
+    "description": "Rubber plant care in 2026: let the soil dry slightly, keep it above 55°F and away from drafts, feed every two weeks in summer. Watering calculator and fixes.",
+    "h1": "Rubber plant care: light, water and leaf drop"
+  },
+  "content": {
+    "answer": "Grow a rubber plant in bright, indirect light with some morning sun, water when the top of the soil feels slightly dry, and keep it between 60 and 80°F, never below 55°F. Clemson Extension recommends feeding every two weeks in spring and summer.",
+    "intro": "Cut a rubber plant and it bleeds white. That milky latex gave Ficus elastica its name: NC State Extension notes the sap was once drained to make rubber, and it is also the reason the plant calls for gloves at pruning time and a spot out of reach of pets. In the forests of Southeast Asia, from Nepal to western Malesia, the species begins life as an epiphyte perched on another tree, sends down aerial roots and can reach 100 feet. Indoors it is far more modest, usually kept to 2 to 10 feet, but it keeps a tree's temperament: it wants to stay in one place, it resents cold drafts, and it sheds leaves when conditions change suddenly. Give it steady warmth, bright filtered light and soil that dries slightly between drinks, and Clemson Extension calls it an excellent plant for beginners.",
+    "light": [
+      "Clemson describes the rubber plant as preferring bright light while adapting to low light, and singles out morning light from an east window as the best situation. NC State recommends bright, indirect light or partial shade with protection from the afternoon sun. The Illinois Extension classifies Ficus elastica 'Decora' as a medium-light plant, about the level found directly in front of a north window or a few feet back from an east or west one, so a fairly wide range works.",
+      "Light shapes the plant more than it decides survival. In a dim room the trunk stretches, leaves arrive smaller and farther apart, and the plant turns tall and lanky, a tendency Clemson points out indoors. Clemson reports that the cultivar 'Robusta' copes well with low light. Give the pot a quarter turn every few weeks so the trunk grows straight rather than bending toward the glass."
+    ],
+    "water": [
+      "Water thoroughly, then let the soil dry slightly to the touch before the next round, as Clemson advises. Press a finger into the mix: if the top feels dry, water slowly until it drains from the holes in the bottom of the pot, then pour off whatever collects in the saucer. NC State's version is to water regularly but avoid overwatering. A big plant in a deep pot can take far longer to dry than its size suggests, because the lower half of the root ball holds moisture long after the surface feels ready.",
+      "From fall to late winter, NC State says the plant is dormant and watering should be reduced. Growth stalls, the soil dries slowly in cool, short days, and a summer routine carried into December leaves the roots sitting wet. Clemson notes that leaves may yellow if the soil stays too wet, and NC State lists overwatering among the causes of leaf loss. Yellow leaves low on the trunk in winter usually mean too much water rather than too little.",
+      "Underwatering leaves its own signature, drooping leaves that eventually fall. Clemson notes that too much and too little water are the two main problems for rubber plants indoors, so the fix is consistency rather than volume."
+    ],
+    "soil": [
+      "Clemson recommends a well-drained houseplant mix, and NC State specifies a soil-based potting mix, which gives a top-heavy tree more weight and stability than a light, peat-only blend. Whatever mix you choose, the pot must have drainage holes. Because NC State notes the rubber plant can become heavy, a wide, weighty container keeps a tall specimen from tipping when it is watered or turned."
+    ],
+    "humidity": [
+      "Rubber plants prefer humid conditions but tolerate the dry air common in homes, according to Clemson, and NC State lists medium relative humidity as best. The large, leathery leaves cope with heated rooms better than most foliage, though Clemson names dry air among the causes of leaf loss. Wiping the leaves with a damp cloth when dust collects, which both Clemson and NC State suggest, helps them use the light they get."
+    ],
+    "temperature": [
+      "Clemson gives ideal temperatures of 75 to 80°F during the day and 60 to 65°F at night, and advises avoiding anything below 55°F (about 13°C), sudden temperature drops and cold drafts. NC State agrees on the 55°F floor and adds that the plant prefers to remain in one location. Cold injury and relocation shock look alike: a flush of leaves dropping within days of a move, a door left open in January or a new spot under an air conditioning vent."
+    ],
+    "fertilizer": [
+      "In season this is a hungry plant. Clemson recommends a water-soluble houseplant fertilizer every two weeks during active growth in spring and summer, and less often for plants in lower light, which cannot use as much. Follow the label rate; the Illinois Extension warns never to mix fertilizer stronger than directed and to stop feeding in winter, when houseplants rest. A rubber plant that keeps unfurling new leaves from its pink or purple stipules is using the food. One that has stalled is not, and should not get more."
+    ],
+    "repotting": [
+      "Clemson suggests repotting in late winter or early spring, if needed. NC State rates the growth rate as rapid, so a young rubber plant can fill its pot quickly, while a mature floor plant may stay in the same container for years. Repot when roots grow through the drainage holes, when the soil mass is packed with roots, or when the plant wilts between normal waterings, the signs the Illinois Extension lists. Move up only 1 or 2 inches in diameter, per Clemson. For a specimen too large to repot, Clemson recommends topdressing: replace the top 2 or 3 inches of soil with fresh mix every other year or so."
+    ],
+    "propagation": [
+      "Clemson lists stem or tip cuttings and air layering, and NC State recommends layering. The Illinois Extension explains why layering suits big-leaved plants such as the rubber tree: large leaves lose moisture so fast that cuttings struggle, while a layered top stays fed by the parent as it roots. Make an upward, slanted cut one third to halfway through the stem, prop it open, dust it with rooting hormone, pack a fist-sized ball of very moist sphagnum peat moss around it and wrap it in clear plastic. Roots should show through the plastic after 3 to 4 months; then cut below them and pot the new plant.",
+      "The stump left behind is in effect a hard pruning, which Clemson recommends in spring to rejuvenate a lanky plant. Tip cuttings also root. Wear gloves for either job, because latex drips from every cut."
+    ],
+    "problems": [
+      "Leaf drop is the rubber plant's alarm. Clemson attributes it to too little light, dry air or cold drafts, and NC State adds overwatering and temperature drops; NC State also notes it is normal for some bottom leaves to yellow and fall as the plant ages. Yellowing across many leaves points to soil that stays wet, and root rot follows a mix that drains slowly. Among pests, Clemson singles out mealybugs, while NC State adds scale and spider mites."
+    ],
+    "petSafety": [
+      "Start with a naming trap. The ASPCA entries for American rubber plant and baby rubber plant describe Peperomia obtusifolia, a different and non-toxic plant, so they say nothing about Ficus elastica. The ASPCA has no entry under Ficus elastica itself; the closest record is its weeping fig entry for Ficus species, which lists the genus as toxic to cats, dogs and horses, with a proteolytic enzyme (ficin) and a psoralen (ficusin) as the toxic principles. Its entry for Ficus benjamina gives the clinical signs as gastrointestinal and dermal irritation. NC State also flags Ficus elastica as a problem for cats, dogs and horses, and Clemson warns that the sticky white sap may irritate skin, or the stomach if eaten. Keep it away from pets and young children that chew plants, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if a pet eats leaves or sap."
+    ],
+    "faq": [
+      {
+        "q": "Why is my rubber plant dropping leaves?",
+        "a": "Clemson Extension lists too little light, dry air and cold drafts as the usual causes, and NC State adds overwatering and sudden temperature drops. Think about what changed recently: a move, a colder window, a heating vent switching on. If only one or two of the oldest bottom leaves fall while new ones keep coming, NC State says that is normal."
+      },
+      {
+        "q": "How do I make my rubber plant bushier?",
+        "a": "Prune it. NC State says cutting back the main branches encourages a bushier habit, while leaving them alone produces a tall, narrow, tree-like form. Clemson recommends pruning in spring, when the plant is growing and will push side shoots below the cut. Wear gloves for the milky sap, and keep the plant in bright light so the new branches fill in."
+      },
+      {
+        "q": "Is rubber plant sap harmful to skin?",
+        "a": "It can be irritating. Clemson Extension warns that the sticky white sap may irritate skin, and the stomach if eaten, and the ASPCA lists dermal irritation among the signs for Ficus in pets. Wear gloves when pruning or taking cuttings, wash any sap off your skin promptly, and keep the drips off floors and furniture."
+      },
+      {
+        "q": "How tall does a rubber plant get indoors?",
+        "a": "Taller than many people expect. Clemson says rubber plants can easily grow 6 to 10 feet or more indoors given space, and NC State says indoor plants are usually kept at 2 to 10 feet with training or support. In the wild the tree can reach 100 feet. Regular spring pruning keeps it at the height you want."
+      },
+      {
+        "q": "Can I use leaf shine on my rubber plant?",
+        "a": "Plain water is the safer choice. Clemson suggests washing dusty leaves with water, and NC State recommends a damp, soft cloth or sponge. The Illinois Extension says leaf polish should be used sparingly, and only on plants with firm foliage, which the rubber plant has. Support each leaf with one hand while you wipe so it does not snap."
+      }
+    ]
+  }
+}

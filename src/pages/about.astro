@@ -1,0 +1,28 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { route } from '../i18n/routes';
+import { breadcrumbSchema, profilePageSchema, organizationSchema } from '../lib/seo';
+import { CONTACT_EMAIL, SITE_FOUNDED } from '../data/site-config';
+import { PLANTS } from '../lib/plants';
+const lang = 'en';
+const title = 'PlantCare101 Publisher: Who Writes the Plant Care Guides';
+const description = 'PlantCare101 is published by Radif Partners: why we built sourced plant care guides with a watering calculator, how the site is funded and how to report errors.';
+const jsonLd = [profilePageSchema({ path: route('about', lang), lang }), organizationSchema(lang), breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'About', path: route('about', lang) }])];
+const n = PLANTS.length;
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} breadcrumbs={[{ label: 'About' }]} showAuthor={false}>
+  <header class="mb-6"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">About PlantCare101</h1></header>
+  <div class="prose prose-slate max-w-none" data-author="Radif Partners">
+    <p>PlantCare101 is published by <strong>Radif Partners</strong>, an independent publisher of free calculators and reference guides. The site started in {SITE_FOUNDED} with a simple observation: the pages that rank for “snake plant care” or “plants safe for cats” are articles, often written by shops, and none of them turns its advice into a number for your own pot and window. We wanted guides that cite where each figure comes from, and tools that do the arithmetic.</p>
+    <h2>What we publish</h2>
+    <p>{n} plant guides, all in the same format, eight guides to common problems, and six tools: a watering calculator, a pet-safe plant checker built on the ASPCA lists, a plant problem diagnosis, a window light finder, a fertilizer dilution calculator and a pot size calculator. Each plant guide has its own watering calculator, already set to that plant.</p>
+    <h2>How we work</h2>
+    <p>Care figures come only from university extension services, botanical gardens, the Royal Horticultural Society and, for toxicity, the ASPCA. Each plant is stored as one data file in which every care block names its sources and the date they were read; a figure no source gives stays empty. The tools apply published rules, and the parts that are our own estimates are labeled as such on the <a href={route('method', lang)}>methodology page</a>. The rules we follow when writing and correcting are in the <a href={route('editorial', lang)}>editorial policy</a>.</p>
+    <h2>How the site is funded</h2>
+    <p>The site is free and needs no account. It may later show advertising and a few clearly marked affiliate links for things like pots, potting mix and grow lights; neither will ever sit inside a calculator or change what a guide recommends. We sell nothing ourselves and collect no data from the tools: they run in your browser.</p>
+    <h2>What we are not</h2>
+    <p>We are not a nursery, a veterinary service or a poison control center, and we are not affiliated with the ASPCA or any university. If a pet has eaten a plant, call your veterinarian or the ASPCA Animal Poison Control Center first.</p>
+    <h2>Report an error</h2>
+    <p>If a figure looks wrong, write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the page and what you expected, with a source if you have one. We check every report against the sources and note corrections with their date.</p>
+  </div>
+</PageLayout>

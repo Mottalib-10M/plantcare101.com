@@ -1,0 +1,388 @@
+{
+  "slug": "succulents",
+  "commonName": "Succulents",
+  "otherNames": [
+    "Indoor succulents",
+    "Hens and chicks",
+    "Echeveria, Haworthia, jade, aloe, burro's tail and kalanchoe"
+  ],
+  "botanicalName": "Echeveria, Haworthia, Sedum, Crassula, Aloe and Kalanchoe spp.",
+  "formerNames": [],
+  "family": "Several families, chiefly Crassulaceae and Asphodelaceae",
+  "kind": "succulent",
+  "isGroup": true,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [150, 1500],
+    "lux": [1615, 16146],
+    "windows": ["south", "west", "east"],
+    "directSun": "tolerates",
+    "src": [6, 7, 1, 2, 3, 5, 9]
+  },
+  "water": {
+    "rule": "fully-dry",
+    "ruleText": "Soak the pot, then let the mix dry out completely before watering again",
+    "winter": "Water much less from fall to late winter; Clemson's rule for dormant cacti, just enough to keep them from shriveling, is a good guide.",
+    "factors": [
+      "Jade is the exception: Clemson advises keeping its soil moist but not wet in spring and summer, since drought causes leaf drop.",
+      "Never let water sit in the center of a rosette, where it causes rot.",
+      "Containers must not hold water; soggy soil causes root rot.",
+      "Shallow clay pots and bright light speed drying; plastic pots and cool rooms slow it."
+    ],
+    "src": [0, 2, 4, 5, 6, 8]
+  },
+  "soil": {
+    "mix": "A coarse, gritty, fast-draining mix, such as equal parts peat-based potting soil and very coarse sand or grit, in a clay pot with drainage holes.",
+    "components": [
+      "peat-based potting soil or cactus mix",
+      "very coarse sand or grit",
+      "some organic matter for jade"
+    ],
+    "src": [0, 5, 6, 8]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "Built for dry air: average home humidity is fine, and misting or humidifiers only slow drying.",
+    "src": [2, 6, 3]
+  },
+  "temperature": {
+    "idealF": [65, 75],
+    "idealC": [18, 24],
+    "minF": 50,
+    "minC": 10,
+    "src": [6, 8, 1, 2, 3]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, March to September at most",
+    "everyWeeks": [4, 13],
+    "strength": "full",
+    "type": "Liquid houseplant fertilizer at the label rate, or a low-nitrogen formula such as 5-10-5; jade only every three to four months",
+    "winter": "none",
+    "src": [10, 6, 3, 8]
+  },
+  "repotting": {
+    "signs": [
+      "Roots fill the pot or grow out of the drainage hole",
+      "Offsets crowd the rim and spill over the edge",
+      "A tall jade becomes top-heavy and tips over"
+    ],
+    "season": "As new growth starts in spring (April for cacti, per Clemson)",
+    "rootType": "succulent",
+    "prefersSnug": true,
+    "src": [6, 8, 17]
+  },
+  "toxicity": {
+    "cats": "varies",
+    "dogs": "varies",
+    "humans": "mildly-toxic",
+    "humanNote": "Varies by genus. NC State rates Aloe vera as low severity, poisonous through ingestion or dermatitis, though the gel is widely applied to skin; identify the plant before assuming it is harmless.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Hens and Chickens (Echeveria elegans)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hens-and-chickens"
+      },
+      {
+        "name": "Haworthia (Haworthia species)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/haworthia"
+      },
+      {
+        "name": "Burro's Tail (Sedum morganianum)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/burros-tail"
+      },
+      {
+        "name": "Jade Plant (Crassula argentea)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jade-plant",
+        "toxicPrinciples": "Unknown",
+        "clinicalSigns": "Vomiting, depression, incoordination"
+      },
+      {
+        "name": "Aloe (Aloe vera)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/aloe",
+        "toxicPrinciples": "Saponins, anthraquinones",
+        "clinicalSigns": "Vomiting (not horses), lethargy, diarrhea. The gel is considered edible."
+      },
+      {
+        "name": "Kalanchoe (Kalanchoe spp.)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe",
+        "toxicPrinciples": "Bufodienolides",
+        "clinicalSigns": "Vomiting, diarrhea, abnormal heart rhythm (rare)"
+      }
+    ],
+    "src": [11, 12, 13, 14, 15, 16, 5]
+  },
+  "problems": [
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Rosettes open up and stems stretch, leaning toward the window",
+      "causeKey": "low-light",
+      "cause": "Too little light for a sun-loving succulent",
+      "remedy": "Move it gradually to a south or west window; cut and re-root the stretched top once it is in stronger light."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Leaves turn translucent and soft, stem blackens at the base",
+      "causeKey": "overwatering",
+      "cause": "Rot from mix that stays wet or water left in the rosette",
+      "remedy": "Cut above the rot, let the healthy top dry for a few days, and replant it in dry, gritty mix; water only when fully dry."
+    },
+    {
+      "symptomKey": "wrinkled-leaves",
+      "symptom": "Leaves thin, wrinkled or puckered",
+      "causeKey": "underwatering",
+      "cause": "Water reserves used up after a long dry spell, often in summer",
+      "remedy": "Soak the pot until water drains from the bottom; leaves should plump up within days. Keep jade more evenly moist in summer."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony tufts tucked between leaves and along stems",
+      "causeKey": "pests",
+      "cause": "Mealybugs, the main pest of indoor succulents",
+      "remedy": "Wipe them off with a cotton swab dipped in rubbing alcohol; skip insecticidal soap on jade, which it can damage."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Tan or brown scorched patches after a move into sun",
+      "causeKey": "too-much-sun",
+      "cause": "Sudden full sun on leaves grown in shade",
+      "remedy": "Shift plants into stronger light over a couple of weeks; scorched leaves will not recover but new growth will be tougher."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Plant wobbles in its pot and roots are brown and hollow",
+      "causeKey": "poor-drainage",
+      "cause": "A pot without drainage holes or a mix too fine to drain",
+      "remedy": "Repot in a clay pot with holes and a coarse, sandy mix; trim dead roots and wait several days before watering."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Offsets (pups) detached from the base",
+      "Single leaves laid on dry soil",
+      "Stem or crown cuttings",
+      "Division of clumps"
+    ],
+    "season": "Spring and summer, during active growth"
+  },
+  "size": {
+    "heightIn": [2, 60],
+    "widthIn": [2, 36],
+    "src": [1, 2, 4, 6]
+  },
+  "varieties": [
+    {
+      "name": "Echeveria",
+      "note": "Nearly 200 species of tight rosettes from Texas to Argentina; leaf color improves in sun. Non-toxic to pets per the ASPCA."
+    },
+    {
+      "name": "Haworthia",
+      "note": "Small South African rosettes, 2 to 12 inches, with translucent leaf windows; the most tolerant of lower light."
+    },
+    {
+      "name": "Burro's tail (Sedum morganianum)",
+      "note": "Trailing stems up to 24 inches of plump blue-green leaves that snap off at a touch and root easily."
+    },
+    {
+      "name": "Jade plant (Crassula ovata)",
+      "note": "Tree-like, up to 5 feet indoors per Clemson; needs four or more hours of direct sun. Toxic to pets."
+    },
+    {
+      "name": "Aloe vera",
+      "note": "Rosette of thick gel-filled leaves, 1 to 2 feet tall, spreading by offsets. Toxic to pets."
+    },
+    {
+      "name": "Kalanchoe",
+      "note": "Upright or paddle-shaped succulents, including panda plant and paddle plant. Toxic to pets."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Succulents",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/succulents/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Echeveria",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/echeveria/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Haworthia",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/haworthia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Sedum morganianum (Burro's Tail)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/sedum-morganianum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Crassula ovata (Jade Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/crassula-ovata/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Aloe vera",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/aloe-vera/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Jade Plant",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/jade-plant/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Jade Plant",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/jade-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Cacti",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-cacti/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Hens and Chickens (Echeveria elegans)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hens-and-chickens",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Haworthia",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/haworthia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Burro's Tail",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/burros-tail",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Jade Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jade-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Aloe (Aloe vera)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/aloe",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Kalanchoe",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "seo": {
+    "title": "Succulent Care: Light, Watering & Gritty Soil Guide (2026)",
+    "description": "Succulent care for 2026: soak, then let the mix dry fully; jade wants 4+ hours of direct sun. Watering calculator, gritty soil recipe and pet toxicity by genus.",
+    "h1": "Succulent care: light, watering and soil indoors"
+  },
+  "content": {
+    "answer": "Succulents need bright light and dry soil: a sunny window, four or more hours of direct sun for jade, and water only after the mix has dried out completely. Plant them in a gritty, fast-draining mix in a pot with drainage holes.",
+    "intro": "Succulent is a survival strategy, not a plant family. UF/IFAS Extension counts members in more than 60 plant families, all storing water in fleshy leaves or stems to ride out drought. This guide covers the ones most often sold for windowsills: Echeveria, Sedum (including burro's tail), jade plant (Crassula), Haworthia, Aloe and Kalanchoe. They share a basic rhythm of strong light, a gritty mix and a deep soak followed by a long dry spell, but they are not interchangeable. Haworthia copes with a dimmer spot than Echeveria, which stretches and fades without sun; jade wants steadier moisture in summer than its plump leaves suggest; and toxicity splits the group, with echeverias, haworthias and burro's tail non-toxic to pets while jade, aloe and kalanchoe are on the ASPCA's toxic list. Across all of them, overwatering is the leading cause of death indoors.",
+    "light": [
+      "Most succulents are sun plants trying to make do indoors. Clemson Extension says jade plants do best with four or more hours of direct sun a day, ideally in a south-facing window, and the Illinois Extension rates jade a high-light plant. NC State says Echeveria leaf color improves in sunlight and that the rosettes thrive on a bright, sunny windowsill, while burro's tail wants a high-light spot with at least partial sun. Aloe vera grows in full sun to partial shade.",
+      "Haworthia is the exception for darker homes. NC State calls it somewhat tolerant of low light, though it colors best in full sun or bright, indirect light. For the others, too little light shows quickly as etiolation: rosettes flatten and open, stems stretch between widely spaced leaves, and the whole plant leans toward the glass. Make any move into stronger sun gradually. Clemson recommends partial shade for the first few weeks when cacti go outdoors, and the same caution protects shade-grown succulents from scorch."
+    ],
+    "water": [
+      "Water deeply, then wait. NC State advises letting aloe dry completely between waterings and letting Haworthia dry out too, and UF/IFAS says to let the soil dry between waterings and make sure containers are not holding water, because soggy soil causes root rot. When the mix is dry all the way through, water until it drains from the bottom, then empty the saucer. Small sips that wet only the surface leave the lower roots guessing and keep the top of the soil damp where rot begins.",
+      "Jade is the important exception. Clemson advises keeping its soil moist but not wet while it grows in spring and summer, and warns that drought can cause dwarfing, leaf spotting, leaf drop and even death; the Illinois Extension's version is to let the soil nearly dry between waterings. Rosette types such as Echeveria have their own quirk: UF/IFAS warns against letting water sit in the center of the rosette, where it causes rot and disease.",
+      "In winter, growth slows and thirst drops with it. NC State recommends watering aloe less often, reducing jade's water from fall to late winter and cutting back on burro's tail, for which it also recommends tepid water. Clemson's rule for dormant cacti, water just enough to keep them from shriveling, translates well to succulents on a cool windowsill."
+    ],
+    "soil": [
+      "Drainage is everything. UF/IFAS recommends a coarse, well-drained sand mix in a shallow clay or terra cotta container with drainage holes, and NC State says clay is best for aloe. For jade, Clemson suggests a cactus mix with some added organic matter, or one part sterilized soil, one part sphagnum peat moss and three parts coarse sand by volume. Clemson's cactus recipe, equal volumes of peat-based potting soil and very coarse sand or grit, suits most rosette succulents. Garden soil and pots without holes are the two shortcuts to avoid."
+    ],
+    "humidity": [
+      "Succulents are built for dry air. NC State notes that average home humidity is fine for Haworthia, Clemson says jade plants like the warm, dry conditions found in most homes, and NC State adds that burro's tail prefers fresh air. Skip misting, pebble trays and humidifiers; damp air around the leaves slows drying and invites rot inside tight rosettes."
+    ],
+    "temperature": [
+      "Clemson recommends daytime temperatures of 65 to 75°F for jade plants, with nights between 50 and 55°F, and advises keeping foliage off cold windowpanes in winter. Cool winter nights do this group good: Clemson notes that dormant cacti do best at 45 to 55°F, and NC State says burro's tail tolerates temperatures down to 40°F outdoors. Most are not frost hardy, though. NC State says echeverias must come inside for winter outside frost-free areas, and that Haworthia is sensitive to frost."
+    ],
+    "fertilizer": [
+      "Feed lightly, if at all. Clemson suggests fertilizing jade only every three to four months with a liquid houseplant fertilizer, and NC State says burro's tail needs feeding just once or twice during the growing season. The Illinois Extension's general rule for houseplants, no more than once every 1 to 3 months between March and September at the label rate, is the upper limit for any succulent. For cacti, Clemson recommends a low-nitrogen fertilizer such as 5-10-5. Do not feed in winter, and wait four months before feeding a repotted jade, as Clemson advises."
+    ],
+    "repotting": [
+      "Most succulents are content slightly crowded. Clemson says jade plants can live happily for years while root-bound, and that cacti should be repotted only as needed, into a container only slightly larger than the old one, because an oversized pot stays moist and leads to rot. Repot as new growth starts, which Clemson puts at April for cacti. Afterward, keep the soil dry for several days so damaged roots can heal; Clemson gives this advice for both jade and cacti. An old, top-heavy jade eventually needs a large, heavy pot so it does not tip over."
+    ],
+    "propagation": [
+      "Succulents multiply in ways most houseplants cannot. NC State describes three routes for Echeveria: detach the offsets that form around the base and set them in very well-drained soil, cut off the crown with a short stem and plant it, or simply lay a single leaf on the soil until a new rosette forms at its base and the old leaf withers away. Burro's tail roots from cuttings and from the leaves it sheds so readily.",
+      "Aloe spreads by offsets and is propagated by division, NC State says, and jade starts easily from stem cuttings according to Clemson, or from leaf cuttings according to NC State. Whatever the method, let cut surfaces dry and seal before they touch damp mix."
+    ],
+    "problems": [
+      "Rot from overwatering kills more indoor succulents than anything else: NC State names root rot for aloe, Haworthia and jade, and links burro's tail pest and disease trouble to overwatering. Mealybugs, white cottony tufts tucked between leaves, are the main pest, and Clemson recommends wiping them off with rubbing alcohol on a cotton swab rather than using insecticidal soap, which can damage jade. Spider mites, aphids and scale turn up too. Leaf drop on jade can mean the plant is too wet or, as Clemson notes, extremely dry."
+    ],
+    "petSafety": [
+      "Toxicity splits this group, so identify your plant before trusting it around pets. The ASPCA lists Echeveria (its hens and chickens entry, Echeveria elegans), Haworthia and burro's tail (Sedum morganianum) as non-toxic to cats and dogs. Three popular genera are toxic. Jade plant has an unknown toxic principle and can cause vomiting, depression and incoordination. Aloe contains saponins and anthraquinones and causes vomiting, lethargy and diarrhea, although the ASPCA notes the gel is considered edible. Kalanchoe contains bufodienolides, as the ASPCA spells it, with vomiting, diarrhea and, rarely, abnormal heart rhythm. Keep the toxic ones out of reach, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if a pet eats one."
+    ],
+    "faq": [
+      {
+        "q": "Why are my succulents stretching and leaning?",
+        "a": "They are reaching for light. The stretched look, with stems growing long and leaves spaced far apart, is called etiolation and is common on windowsills that seem bright to people. Move them to a south or west window gradually; Clemson recommends four or more hours of direct sun for jade. Stretched stems will not shrink, so cut and re-root the tops."
+      },
+      {
+        "q": "Why are my succulent leaves turning mushy?",
+        "a": "Soft, translucent leaves and a darkening stem base almost always mean rot from too much water or water trapped in the rosette. Stop watering, unpot the plant and check the roots. Cut above any black tissue, let the healthy top dry for a few days, and replant it in dry, gritty mix in a pot with drainage holes."
+      },
+      {
+        "q": "Why are my succulent leaves wrinkled?",
+        "a": "Wrinkled, thin leaves usually mean the plant has used up its stored water. Soak the pot thoroughly and the leaves should firm up within a few days. Jade in particular suffers from drought: Clemson warns that it can cause dwarfing, spotting and leaf drop. If the soil is wet and the leaves still wrinkle, check for rotted roots instead."
+      },
+      {
+        "q": "Do succulents need pots with drainage holes?",
+        "a": "Yes. UF/IFAS recommends a shallow clay or terra cotta container with drainage holes and warns that containers holding water cause root rot. A pot without holes traps water at the bottom where you cannot see or feel it. If you love a decorative pot without a hole, plant in a nursery pot that drains and set it inside."
+      },
+      {
+        "q": "Can succulents grow under a grow light?",
+        "a": "Yes, and it is often better than a dim window. The Illinois Extension notes that plants in low light benefit from longer light duration, 14 to 16 hours a day, but no more than 16, because they need a rest period too. Keep the light close to the plants, and watch for stretching, the sign they still need more."
+      }
+    ]
+  }
+}

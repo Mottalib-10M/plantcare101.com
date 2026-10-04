@@ -1,0 +1,27 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import LegalIdentity from '../components/LegalIdentity.astro';
+import { route } from '../i18n/routes';
+import { breadcrumbSchema, contactPageSchema } from '../lib/seo';
+import { CONTACT_EMAIL } from '../data/site-config';
+const lang = 'en';
+const title = 'Contact PlantCare101: Corrections, Questions and the Widget';
+const description = 'Write to the publisher of PlantCare101 to report an error in a plant care figure, suggest a plant, ask about the method or get the free calculator widget.';
+const jsonLd = [contactPageSchema({ name: title, description, path: route('contact', lang), lang }), breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Contact', path: route('contact', lang) }])];
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} breadcrumbs={[{ label: 'Contact' }]}>
+  <header class="mb-6"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">Contact</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>Email is the only channel: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. We read every message and usually reply within a few working days.</p>
+    <h2>Reporting an error</h2>
+    <p>Tell us the page, the figure shown and the figure you expected, with its source if you have one, such as an extension fact sheet or the ASPCA entry. For a calculator, include the inputs you chose; the share link of the watering calculator carries them.</p>
+    <h2>Suggesting a plant</h2>
+    <p>We add plants that people search for, in the same format as the others. Tell us which one you would like to see; a link to a good extension source for it helps.</p>
+    <h2>Questions about a sick plant or a sick pet</h2>
+    <p>We cannot diagnose a plant from a photo or advise on an animal. Your county Cooperative Extension office answers plant questions; for a pet that ate a plant, call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435.</p>
+    <h2>Embedding the calculator</h2>
+    <p>The watering calculator can be embedded free of charge on any website. The code and conditions are on the <a href={route('widget', lang)}>widget page</a>.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang="en" />
+  </div>
+</PageLayout>

@@ -1,0 +1,32 @@
+---
+import HubLayout from '../../components/HubLayout.astro';
+import Diagnosis from '../../components/calc/Diagnosis';
+import { GUIDES, guidePath } from '../../lib/guides';
+import { PLANTS, diagPlants, symptomOptions } from '../../lib/plants';
+import { route } from '../../i18n/routes';
+import { SRC } from '../../data/general-sources';
+const lang = 'en';
+const faqs = [
+  { q: 'What is the most common reason houseplants die?', a: 'Overwatering. Clemson HGIC calls it the main cause of death of potted plants: roots surrounded by water cannot take up oxygen, rot, and the plant collapses. The confusing part is that a rotting plant wilts as if it were thirsty, so many owners water it again. Check the mix two inches down before you reach for the watering can.' },
+  { q: 'How do I know if a houseplant problem is a disease or my care?', a: 'Start by assuming care. Clemson HGIC notes that most houseplant problems have environmental or cultural causes, and that diseases are uncommon indoors because conditions do not favor pathogens. Rule out water, light, temperature, salts and pests first; suspect disease when spots spread with a yellow halo or ooze, or when roots are brown and soft.' },
+  { q: 'Should I isolate a sick plant from my other houseplants?', a: 'Yes, when pests are involved. Clemson HGIC advises isolating any plant suspected of carrying pests until they are completely controlled, which can take several weeks, and quarantining new plants for six weeks before they join the others. A plant suffering from water or light problems is not contagious and can stay where it is.' },
+  { q: 'How long does a houseplant take to recover after I fix the problem?', a: 'Expect weeks, not days. Damaged leaves do not heal; recovery shows as healthy new growth, which comes faster in spring and summer than in winter. Clemson notes that leaf drop after a change of environment should only last about three weeks, so a plant still declining after a month needs a second look at the cause.' },
+  { q: 'Can I save a plant that has lost most of its leaves?', a: 'Often, if the roots and stems are firm. Cut back dead stems, keep the plant in bright indirect light, water only when its drying rule says so, and skip fertilizer until new leaves appear. If the roots are mostly brown and soft, take healthy cuttings instead: our root rot guide walks through the decision.' },
+  { q: 'Why do my plant leaves turn yellow after repotting?', a: 'A few yellow leaves after repotting are usually shock: some roots were disturbed and the plant sheds older leaves it can no longer supply. Clemson HGIC advises against repotting ailing or dormant plants for this reason. Water once thoroughly, then let the new mix dry to the plant’s depth; fresh mix in a bigger pot stays wet longer.' },
+];
+---
+<HubLayout id="guides" title="Houseplant Problems: Guides to Fix Sick Plants (2026)"
+  h1="Houseplant problem guides"
+  description="Houseplant problems explained for 2026: yellow leaves, brown tips, overwatering, root rot, pests, leggy growth, repotting and watering, each with its own tool."
+  answer="Pick the symptom you see: each guide explains the causes in the order to check them, with a small tool that applies the fix to your plant, from a diagnosis of yellow leaves to a week-by-week pest treatment plan."
+  intro={`When a houseplant goes wrong, the leaves usually tell you before anything else, and the same few causes explain most of what they say. Clemson HGIC sums it up: most houseplant problems come from the environment or the care, not from disease, and over- or under-watering is a major contributor to decline. These guides take one symptom or task at a time and walk through the checks in the order that saves the most plants, drawing on extension fact sheets and on the problem tables of our ${PLANTS.length} plant guides. Each one carries a tool for its own question: a diagnosis ranked from those tables, a brown-tip cause finder, an overwatering check, a root rot rescue plan, a pest treatment calendar, a light meter for leggy plants, a pot size calculator and a watering schedule.`}
+  faqs={faqs} sources={[SRC.clDisease, SRC.clPests, SRC.clWatering, SRC.ilTrouble]} items={GUIDES.map((g) => ({ name: g.nav, href: guidePath(g.slug) }))}
+  related={[{ href: route('diagnosis', lang), name: 'Plant problem diagnosis', description: 'The full symptom tool' }, { href: route('plants', lang), name: 'All plant guides', description: 'Problems table on each' }]}>
+  <Diagnosis slot="tool" client:load plants={diagPlants()} symptoms={symptomOptions()} defaultSymptom="drooping" idPrefix="dxg" />
+
+  <h2>Every guide</h2>
+  <ul data-sommaire>{GUIDES.map((g) => <li><a href={guidePath(g.slug)}><strong>{g.nav}</strong></a>: {g.answer}</li>)}</ul>
+
+  <h2>Where to start when you are not sure</h2>
+  <p>Check the mix, then the light, then the leaves. Push a finger two inches into the pot: soggy mix days after watering points to the overwatering and root rot guides, bone-dry mix and crisp leaves to the watering guide. Then ask whether the plant has moved or the season has changed, which explains stretching, leaf drop and slow growth. Only then turn the leaves over and look for webbing, cotton or tiny flies, the work of the pests guide. The diagnosis tool above runs the same order of questions against our plant data.</p>
+</HubLayout>

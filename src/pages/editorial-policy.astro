@@ -1,0 +1,29 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { route } from '../i18n/routes';
+import { breadcrumbSchema, webPageSchema } from '../lib/seo';
+import { REVIEW_CYCLE_MONTHS } from '../data/site-config';
+const lang = 'en';
+const title = 'Editorial Policy of PlantCare101: Sources and Corrections';
+const description = 'How PlantCare101 chooses its plant care sources, records the date each was read, handles disagreements between sources, reviews its guides and corrects errors.';
+const jsonLd = [webPageSchema({ name: title, description, path: route('editorial', lang), lang }), breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Editorial policy', path: route('editorial', lang) }])];
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} breadcrumbs={[{ label: 'Editorial policy' }]}>
+  <header class="mb-6"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">Editorial policy</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <h2>Sources</h2>
+    <p>Care figures come only from: the NC State Extension Plant Toolbox, Clemson Cooperative Extension (HGIC), the University of Illinois Extension, UF/IFAS Extension, the University of Minnesota Extension, the Missouri Botanical Garden, the Royal Horticultural Society, and the ASPCA Animal Poison Control Center for toxicity to cats and dogs. Retailer blogs, forums, encyclopedias and other care sites are never a source for a figure. Every page lists the sources it relies on, with the date each was read.</p>
+    <h2>Figures we do not have</h2>
+    <p>When no accepted source gives a figure for a plant, such as an ideal humidity percentage or a repotting interval, the guide leaves it out rather than estimating it. When sources disagree, the guide says so and gives each value with its source. The parts of our tools that rest on our own estimates, such as the size of the watering multipliers, are labeled on the methodology page.</p>
+    <h2>Pet safety</h2>
+    <p>Toxicity statements quote the ASPCA entry for the plant. When a plant has no ASPCA entry, the guide says so and names the extension source used instead. A plant absent from the ASPCA lists is never described as safe.</p>
+    <h2>Review cycle</h2>
+    <p>Every guide is reviewed at least every {REVIEW_CYCLE_MONTHS} months: sources are reopened, dead links replaced, and the ASPCA lists copied again. The date at the top and bottom of each page is the date of the last check.</p>
+    <h2>Corrections</h2>
+    <p>When we find or are told about an error, we check it against the sources, correct the data file, rebuild the pages and tools that use it, and note the change. Reports can be sent through the <a href={route('contact', lang)}>contact page</a>.</p>
+    <h2>Independence and advertising</h2>
+    <p>No nursery, brand or retailer pays for or reviews our content. Advertising or affiliate links, if shown, are marked as such, never appear inside a calculator and never influence a recommendation.</p>
+    <h2>Use of software</h2>
+    <p>We use software tools, including language models, to help draft and check text. Every care figure is read from a cited source, every tool is covered by automated tests, and pages are checked before publication.</p>
+  </div>
+</PageLayout>

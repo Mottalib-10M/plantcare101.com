@@ -1,0 +1,43 @@
+---
+import ToolLayout from '../../components/ToolLayout.astro';
+import FertilizerCalc from '../../components/calc/FertilizerCalc';
+import { PLANTS, plantPath } from '../../lib/plants';
+import { route } from '../../i18n/routes';
+import { SRC } from '../../data/general-sources';
+import { STRENGTH_LABEL, weeksTxt } from '../../lib/plant-text';
+const lang = 'en';
+const faqs = [
+  { q: 'Is half-strength fertilizer better for houseplants?', a: 'Often, because indoor plants in low light use less. Clemson HGIC says plants in the low light of a home have reduced fertilizer needs, and the University of Illinois Extension warns never to mix stronger than the label. Half strength at the usual interval, or the label rate less often, both keep salts from building up. Each plant guide records what its sources recommend.' },
+  { q: 'What do the three numbers on a fertilizer label mean?', a: 'They are the percentages by weight of nitrogen, phosphorus and potassium, Clemson HGIC explains. A 20-20-20 bag is 20 percent of each. Nitrogen drives leaf growth, phosphorus supports roots and flowering, potassium general vigor. Clemson suggests a balanced formula such as 20-20-20 for foliage plants and a higher-phosphorus one such as 15-30-15 for flowering plants.' },
+  { q: 'Can I fertilize every time I water?', a: 'Yes, at a much weaker dose. Clemson HGIC describes diluting to about one-tenth of the label rate and using it at every watering during the growing season, as an alternative to the full rate every two or three months. Choose One-tenth in the strength list. Skip the feed in winter rest and flush the pot with plain water now and then.' },
+  { q: 'How do I measure a quarter or an eighth of a teaspoon?', a: 'Use a measuring spoon set, which usually includes 1/4 and 1/8 teaspoon, or mix a larger batch: four times the water lets you measure four times the product with a normal spoon, and the extra solution keeps for the next plants. The calculator shows the dose as a kitchen fraction and in milliliters for droppers and syringes.' },
+];
+const feedTable = PLANTS.map((p) => ({ p, w: weeksTxt(p.fertilizer.everyWeeks), s: STRENGTH_LABEL[p.fertilizer.strength] }));
+const related = [
+  { href: route('watering', lang), name: 'Watering calculator', description: 'Water first, then feed' },
+  { href: route('diagnosis', lang), name: 'Plant problem diagnosis', description: 'Brown tips and white crust' },
+  { href: route('pot', lang), name: 'Pot size calculator', description: 'Fresh mix carries nutrients' },
+];
+---
+<ToolLayout id="fertilizer" title="Fertilizer Dilution Calculator for Houseplants (2026)"
+  h1="Houseplant fertilizer dilution calculator"
+  description="Fertilizer dilution calculator for 2026: enter the label dose, the water you mix and the strength you want, and get exact teaspoons or mL per feeding."
+  answer="Enter the dose printed on the label, the amount of water you are mixing and the strength you want: the calculator gives the exact amount of fertilizer, as a kitchen fraction and in milliliters, plus how many feedings that schedule makes from March to September."
+  intro="Fertilizer labels are written for a gallon, and most of us water houseplants a quart or a can at a time, which is where the guesswork and the burned roots begin. The University of Illinois Extension recommends feeding most houseplants no more than once every one to three months between March and September, with a balanced or 1:2:1 fertilizer, and never at a stronger mix than the label. Clemson HGIC adds two practical routes: the label rate every two or three months, or about one-tenth of it at every watering in the growing season. This calculator scales the label dose to your volume and the strength you choose, reads the N-P-K numbers, and, when the dose is given in grams, works out the nitrogen in parts per million."
+  faqs={faqs} related={related} sources={[SRC.ilCare, SRC.clFert, SRC.ufCare]}>
+  <FertilizerCalc slot="tool" client:load />
+
+  <h2>Signs you are feeding too much</h2>
+  <p>Salts are the giveaway. Clemson HGIC describes a white film on the soil or a white crust on the rim and drainage hole as a sign of overfertilizing, sometimes with overwatering, and lists what the buildup does to the plant: reduced growth, brown leaf tips, lower leaves dropping and wilting. UF/IFAS adds that softened tap water brings salts of its own. The cure is to stop feeding for a while and flush the pot: run plain water through it until it pours freely from the drainage hole, which the Illinois Extension suggests doing every four to six months anyway.</p>
+
+  <h2>What our plant guides recommend</h2>
+  <p>Each guide stores the feeding rhythm and strength its sources give for that plant. Plug the strength into the calculator, and use the interval in the feed every field.</p>
+  <div class="overflow-x-auto"><table>
+    <caption class="sr-only">Feeding schedule by plant</caption>
+    <thead><tr><th scope="col">Plant</th><th scope="col">How often</th><th scope="col">Strength</th><th scope="col">Winter</th></tr></thead>
+    <tbody>{feedTable.map(({ p, w, s }) => <tr><td><a href={plantPath(p.slug)}>{p.commonName}</a></td><td>{w}</td><td>{s}</td><td>{p.fertilizer.winter === 'none' ? 'none' : 'reduced'}</td></tr>)}</tbody>
+  </table></div>
+
+  <h2>Liquid, powder or slow-release</h2>
+  <p>The calculator handles liquids and water-soluble powders, the forms Clemson says are often preferred because a dilute solution lowers the risk of burn. For powders, entering the label dose in grams also gives the nitrogen concentration: a gram of 20-20-20 in a liter of water makes about 200 parts per million of nitrogen. Slow-release granules, spikes and tablets are dosed per pot rather than per volume of water, so follow their label; the Illinois Extension notes most of them last three to four months. Never feed a plant whose mix is bone dry: water it first, then apply the fertilizer solution at the next watering.</p>
+</ToolLayout>

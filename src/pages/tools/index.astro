@@ -1,0 +1,42 @@
+---
+import HubLayout from '../../components/HubLayout.astro';
+import WateringCalc from '../../components/calc/WateringCalc';
+import { plantOptions, PLANTS } from '../../lib/plants';
+import { route } from '../../i18n/routes';
+import { label, TOOL_IDS } from '../../i18n/nav';
+import { SRC } from '../../data/general-sources';
+import aspca from '../../data/aspca-plants.json';
+const lang = 'en';
+const count = (aspca as { count: number }).count.toLocaleString('en-US');
+const BLURB: Record<string, string> = {
+  watering: 'Range of days between waterings for your plant, pot, light and season, with the water volume and the finger test.',
+  petsafe: `Search ${count} entries from the ASPCA cat and dog lists to see whether a plant is toxic or non-toxic.`,
+  diagnosis: 'From a symptom to the likely causes, ranked from the problem tables of our plant guides.',
+  lightfinder: 'Foot-candles at a spot from the window direction and distance, and the plants that thrive there.',
+  fertilizer: 'Label dose scaled to your watering can, at the strength you choose, with feedings per season.',
+  pot: 'The next pot diameter, 1 or 2 inches wider, and how much potting mix to buy.',
+};
+const faqs = [
+  { q: 'Are the plant care calculators free to use?', a: 'Yes, all six are free, need no account and run entirely in your browser: nothing you type is sent to us or stored anywhere. The watering calculator can write your inputs into the page address so you can bookmark or share a result; that address stays on your device unless you send it to someone.' },
+  { q: 'Which plant tool should I start with as a beginner?', a: 'The light finder, before you buy. Light is the one condition you cannot fix with care, and the finder tells you which plants suit a given spot. Once the plant is home, the watering calculator covers the most common way houseplants die, overwatering, by turning its drying rule into a range of days to check.' },
+  { q: 'Why do the tools give ranges and not exact answers?', a: 'Because the honest answer depends on things no calculator sees: the root ball, the exact light through your glass, the weather this week. Extension services refuse fixed schedules for that reason. Each tool shows its assumptions and links to the methodology page, and the result is a starting point you confirm with the plant in front of you.' },
+  { q: 'Can I put the watering calculator on my own website?', a: 'Yes. The widget page gives a short piece of code that embeds the watering calculator in an iframe on any site, free of charge, as long as the credit link under it stays visible. Garden clubs, plant shops and blogs use this kind of embed to help their readers without building a tool themselves.' },
+  { q: 'Where does the data behind the plant tools come from?', a: `From the ${PLANTS.length} plant guides on this site, each sourced from university extension services, botanical gardens and the ASPCA, plus the University of Illinois Extension light table, the Clemson HGIC repotting and fertilizing rules, and the ASPCA plant lists for the pet checker. The sources are listed on every tool page.` },
+  { q: 'Do the tools work for plants that have no guide on this site?', a: 'Several do. The watering calculator accepts any plant if you choose its drying rule, the pet checker searches the full ASPCA lists, and the fertilizer and pot calculators need no plant at all. The diagnosis tool and the light finder draw on our guides, so they cover only those plants for now.' },
+];
+---
+<HubLayout id="tools" title="Houseplant Tools: Watering, Light, Pets and Pots (2026)"
+  h1="Houseplant tools and calculators"
+  description="Houseplant tools for 2026: watering calculator, ASPCA pet-safe checker, plant problem diagnosis, window light finder, fertilizer dilution and pot size."
+  answer="Six free tools that turn plant care advice into a number for your situation: how often to water, whether a plant is safe for your cat or dog, what a symptom means, how much light a spot gets, how much fertilizer to mix and which pot to buy next."
+  intro="Plant care articles tend to stop at general advice, water when dry, bright indirect light, repot when root-bound, and leave you to translate it for your own pot and window. These six tools do that translation with published rules: the drying rules our guides record for each plant, the window light table of the University of Illinois Extension, the 1-or-2-inch repotting rule of Clemson HGIC, the fertilizer routes Clemson and Illinois describe, and the ASPCA lists of plants toxic and non-toxic to cats and dogs. Every tool runs in your browser and shows the assumptions it makes, so you can see why it gives the answer it gives. The watering calculator below is the one most people need first, since water is where most houseplants are lost."
+  faqs={faqs} sources={[SRC.ilLight, SRC.clRepot, SRC.clFert, SRC.aspcaCats]} items={TOOL_IDS.map((id) => ({ name: label(id), href: route(id, lang) }))}>
+  <WateringCalc slot="tool" client:load plants={plantOptions()} defaultSlug="snake-plant" methodHref={route('method', lang)} toolHref={route('watering', lang)} idPrefix="wt" />
+
+  <h2>All six tools</h2>
+  <ul data-sommaire>{TOOL_IDS.map((id) => <li><a href={route(id, lang)}><strong>{label(id)}</strong></a>: {BLURB[id]}</li>)}</ul>
+
+  <h2>Which tool answers which question</h2>
+  <p>Choosing a plant: start with the light finder, then check the shortlist in the pet-safe checker if a cat or dog shares your home. Bringing one home: run the watering calculator with the real pot, and the pot size calculator when roots start escaping the drainage hole. Something looks wrong: the diagnosis tool ranks likely causes, and the fertilizer calculator helps when the answer is salt buildup from overfeeding.</p>
+  <p>The tools share one engine with the plant guides. When a guide is corrected after a source changes, the tools pick up the change at the next update; nothing is copied by hand from one page to another. The <a href={route('method', lang)}>methodology page</a> lists every rule and multiplier, including the ones that are our own estimates.</p>
+</HubLayout>

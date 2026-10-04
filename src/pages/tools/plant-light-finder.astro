@@ -1,0 +1,50 @@
+---
+import ToolLayout from '../../components/ToolLayout.astro';
+import LightFinder from '../../components/calc/LightFinder';
+import { PLANTS, lightPlants, plantPath } from '../../lib/plants';
+import { GUIDES, guidePath } from '../../lib/guides';
+import { route } from '../../i18n/routes';
+import { SRC } from '../../data/general-sources';
+import { ANCHORS, OBSTRUCTION } from '../../lib/engine/light';
+import { LEVEL_LABEL, fmtUS } from '../../lib/plant-text';
+const lang = 'en';
+const byMin = (lvl: string) => PLANTS.filter((p) => p.light.minLevel === lvl);
+const faqs = [
+  { q: 'How many foot-candles does a plant need to keep growing indoors?', a: 'Clemson HGIC puts the floor at about 100 foot-candles for 12 hours a day just to maintain a plant for a year, and at least 200 for a foliage plant to benefit from fertilizer. The University of Illinois Extension calls 75 foot-candles low light. A plant parked below those levels lives on its reserves and slowly declines, however well you water it.' },
+  { q: 'Is a west window as good as a south window for houseplants?', a: 'Not quite. The University of Illinois Extension rates the spot right in front of an east or west window as high light, about 300 foot-candles, while directly in front of a south window it counts as direct sun, about 1,500. West light comes in the hot afternoon, so plants that dislike direct sun may need a sheer curtain there in summer.' },
+  { q: 'Can I use my phone to measure light for plants?', a: 'Yes, and it beats any estimate, including ours. Free light-meter apps read the phone’s ambient light sensor in lux; divide by 10.764 to get foot-candles. Point the sensor where the leaves are, at midday, on a bright and on a cloudy day. Readings vary between phones, so use them to compare spots rather than as lab values.' },
+  { q: 'Do grow lights count in the light finder?', a: 'No, the tool models daylight from one window only. A grow light changes everything: Clemson HGIC notes that many indoor plants grow well under fluorescent or special plant lights and that 16 hours of light with 8 of darkness suits most plants. Measure under the lamp with a light meter and compare with the plant’s range on its guide.' },
+];
+const related = [
+  { href: route('lowlight', lang), name: 'Low light indoor plants', description: 'For north rooms and dim corners' },
+  ...GUIDES.filter((g) => g.slug === 'leggy-plants').map((g) => ({ href: guidePath(g.slug), name: g.nav, description: 'When stems stretch for light' })),
+  { href: route('best', lang), name: 'Best indoor plants', description: 'Filter by light and pets' },
+  { href: route('method', lang), name: 'How we estimate light', description: 'The window table behind it' },
+];
+---
+<ToolLayout id="lightfinder" title="Plant Light Finder: Which Plant for My Window? (2026)"
+  h1="Which plant for my light? The window light finder"
+  description="Plant light finder for 2026: enter the window direction, the distance from the glass and any shade to estimate foot-candles and see which plants thrive."
+  answer="Say which way the nearest window faces, how far the spot is from the glass and what shades it: the finder estimates the light in foot-candles and lux, then sorts our plants into those that thrive there and those that only survive."
+  intro="Light is the factor you cannot fix with a watering can. Clemson HGIC calls adequate light the most important environmental factor for indoor plants, and notes that the inside of a well-lit home often sits below 100 foot-candles while a sunny day outdoors can exceed 10,000. The University of Illinois Extension turns that into a rule anyone can use: low, medium, high and direct light correspond to about 75, 150, 300 and 1,500 foot-candles, and each window direction reaches those levels at known distances from the glass. This finder interpolates between those reference points for the distance you enter, applies a reduction for sheer curtains and outdoor shade, and compares the result with the light range recorded in each of our plant guides."
+  faqs={faqs} related={related} sources={[SRC.ilLight, SRC.clFert]}>
+  <LightFinder slot="tool" client:load plants={lightPlants()} methodHref={route('method', lang)} />
+
+  <h2>The window table behind the estimate</h2>
+  <p>These are the reference points the finder uses. The first rows of each window come straight from the University of Illinois Extension; the last point of each line extends the curve further into the room and is our estimate, shown as such in the result.</p>
+  <div class="overflow-x-auto"><table>
+    <caption class="sr-only">Foot-candles by window and distance</caption>
+    <thead><tr><th scope="col">Window</th><th scope="col">Distance (ft) and foot-candles</th></tr></thead>
+    <tbody>{(['south', 'east', 'west', 'north'] as const).map((w) => <tr><td>{w[0].toUpperCase() + w.slice(1)}</td><td>{ANCHORS[w].map(([d, fc]) => `${d} ft: ${fmtUS(fc)} fc`).join(' · ')}</td></tr>)}</tbody>
+  </table></div>
+  <p>A sheer curtain or outdoor shade from a tree, porch or neighboring building each multiplies the estimate by {OBSTRUCTION.sheer}, and both together by {OBSTRUCTION.both}: a rough order of magnitude for factors Clemson lists among those that change indoor light, alongside the season and the color of the walls.</p>
+
+  <h2>Our plants by the least light they accept</h2>
+  <ul>
+    {(['low', 'medium', 'high'] as const).map((l) => byMin(l).length > 0 && <li><strong>{LEVEL_LABEL[l]} or more:</strong> {byMin(l).map((p, i) => <>{i > 0 && ', '}<a href={plantPath(p.slug)}>{p.commonName}</a></>)}</li>)}
+  </ul>
+  <p>“Survives” in the finder means the spot is within the plant's range but below its preferred level: expect slower growth, smaller leaves and a plant that dries out more slowly, so water less there. “Thrives” means the estimate reaches its preferred level. Plants marked too bright are those whose guide says to avoid direct sun.</p>
+
+  <h2>Where the estimate goes wrong</h2>
+  <p>It assumes the Northern Hemisphere, a clear window of ordinary size, and daytime light. Large picture windows, skylights, white walls and a second window in the room all push the real value up; deep eaves, tinted glass and dark walls pull it down. The Illinois Extension also points out that indoor brightness shifts with the seasons, as the sun's angle changes and as trees lose or regain their leaves, so a spot can change category between summer and winter. Check with a light meter when a plant you care about is on the line.</p>
+</ToolLayout>

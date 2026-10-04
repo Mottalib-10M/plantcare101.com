@@ -1,0 +1,46 @@
+---
+import HubLayout from '../components/HubLayout.astro';
+import LightFinder from '../components/calc/LightFinder';
+import { PLANTS, plantPath, lightPlants } from '../lib/plants';
+import { route } from '../i18n/routes';
+import { SRC } from '../data/general-sources';
+import { RULE_TEXT, petStatus, LEVEL_LABEL } from '../lib/plant-text';
+const lang = 'en';
+const low = PLANTS.filter((p) => p.light.minLevel === 'low');
+const nearlow = PLANTS.filter((p) => p.light.minLevel === 'medium');
+const faqs = [
+  { q: 'What counts as low light for houseplants?', a: 'The University of Illinois Extension sets low light at about 75 foot-candles: a few feet back from a north window, 3 to 10 feet from an east or west one, or 15 to 20 feet from a south window. A room corner far from any window can fall well below that, which no plant tolerates for long without a grow light.' },
+  { q: 'Can low light plants live in a room with no windows?', a: 'Not on room lighting alone, in most homes. Clemson HGIC puts the minimum at about 100 foot-candles for 12 hours a day just to maintain a plant for a year. Ordinary ceiling lights rarely deliver that at plant height. A grow light on a timer, or swapping the plant with one from a window every few weeks, keeps it alive.' },
+  { q: 'Why is my low light plant getting leggy and pale?', a: 'Because tolerating low light is not the same as growing in it. In dim spots, stems stretch toward the window, new leaves come in smaller and variegated forms turn greener. Move the plant closer to the glass over a week or two; the stretched stems will not shorten, but you can cut them back and new growth will be compact.' },
+  { q: 'Should I water low light plants less often?', a: 'Yes, noticeably. Clemson HGIC notes that a plant in a cool, low-light spot needs water less often than one in a warm, sunny place, because it grows and transpires less. In the watering calculator, choosing low light stretches the range by about half compared with bright indirect light. Overwatering kills far more dim-room plants than darkness does.' },
+  { q: 'Which low light plants are safe for cats?', a: `Among the plants on this page, the ASPCA lists ${low.filter((p) => p.toxicity.cats === 'non-toxic').map((p) => p.commonName.toLowerCase()).join(' and ') || 'none'} as non-toxic to cats. The snake plant, ZZ plant, pothos, philodendron and peace lily all tolerate dim rooms but are toxic to cats according to the ASPCA or, for the ZZ plant, extension sources.` },
+  { q: 'Does a north window count as low light?', a: 'Directly in front of it, no: the University of Illinois Extension rates that spot as medium light, about 150 foot-candles. A few feet back from a north window drops to low light. North light is steady and never scorching, which suits shade-tolerant foliage plants; flowering plants and succulents usually want more.' },
+];
+---
+<HubLayout id="lowlight" title="Low Light Indoor Plants: What Survives a Dim Room (2026)"
+  h1="Low light indoor plants that really cope"
+  description={`Low light indoor plants for 2026: ${low.length} houseplants whose sources accept about 75 foot-candles, how to measure your spot, and how to water them so they last.`}
+  answer={`Plants that tolerate low light, about 75 foot-candles, include ${low.map((p) => p.commonName.toLowerCase()).slice(0, 5).join(', ')}. They survive a few feet from a north window or deep in a room, grow slowly there, and need far less water than in bright light. Check your spot with the finder below.`}
+  intro="Low light is the most common condition in American homes and the most misunderstood label on a plant tag. The University of Illinois Extension gives it a number, about 75 foot-candles, and a place: a few feet back from a north window, 3 to 10 feet from an east or west window, or 15 to 20 feet from a south one. Clemson HGIC adds the floor below which even tolerant plants slowly decline: around 100 foot-candles for 12 hours a day to keep a plant in good condition for a year. So a low light plant is one that survives at that level, not one that thrives in a windowless corner. The plants below are those whose sources accept the low category, and the finder tells you what your own spot receives."
+  faqs={faqs} sources={[SRC.ilLight, SRC.clFert, SRC.clWatering, SRC.aspcaCats]} items={low.map((p) => ({ name: p.commonName, href: plantPath(p.slug) }))}
+  related={[{ href: route('lightfinder', lang), name: 'Which plant for my light', description: 'The full light finder' }, { href: route('best', lang), name: 'Best indoor plants', description: 'All situations' }]}>
+  <LightFinder slot="tool" client:load plants={lightPlants()} methodHref={route('method', lang)} defaultWindow="north" defaultDistance={5} idPrefix="ll" />
+
+  <h2>The plants that accept low light</h2>
+  <div class="overflow-x-auto" data-sommaire><table>
+    <caption class="sr-only">Low light plants with watering rule and pet safety</caption>
+    <thead><tr><th scope="col">Plant</th><th scope="col">Best light</th><th scope="col">Water</th><th scope="col">Cats / dogs</th></tr></thead>
+    <tbody>{low.map((p) => <tr><td><a href={plantPath(p.slug)}>{p.commonName}</a></td><td>{LEVEL_LABEL[p.light.idealLevel]}</td><td>{RULE_TEXT[p.water.rule]}</td><td>{petStatus(p.toxicity.cats)} / {petStatus(p.toxicity.dogs)}</td></tr>)}</tbody>
+  </table></div>
+  <p>Notice the second column: almost every plant that tolerates low light prefers more. They will hold on at 75 foot-candles and grow properly at 150 to 300, which is why a move closer to the window is the first fix for a tired plant here.</p>
+
+  <h2>Almost low light: plants for a bright north room</h2>
+  <p>These need at least medium light, about 150 foot-candles, which the Illinois Extension places directly in front of a north window or a few feet from an east or west one: {nearlow.map((p, i) => <>{i > 0 && ', '}<a href={plantPath(p.slug)}>{p.commonName}</a></>)}. Put them right at the glass of a north window rather than across the room.</p>
+
+  <h2>Keeping a plant alive in a dim room</h2>
+  <p>Water is the real danger in low light. Growth slows, the mix stays wet for much longer, and roots sitting in soggy soil rot; Clemson HGIC calls overwatering the main cause of death of potted plants. Let the mix dry to the depth each guide gives, and expect the interval to be much longer than on a sill. Feed sparingly or not at all: Clemson notes that plants need at least 200 foot-candles to benefit from fertilizer, so feeding a plant in deep shade mostly builds salts in the pot.</p>
+  <p>Dust matters more when light is scarce. A film on the leaves blocks part of what little light arrives, and Clemson HGIC recommends wiping smooth leaves with a soft damp cloth. Turn the pot a quarter turn each time you water so the plant does not lean in one direction, and keep it away from cold glass and heating vents in winter.</p>
+
+  <h2>When to add a grow light</h2>
+  <p>If the finder shows fewer than about 75 foot-candles at your spot, or a plant keeps stretching even after you move it, a grow light is the honest answer. Clemson HGIC notes that many indoor plants grow well under fluorescent or special plant lamps, and that 16 hours of light with 8 hours of darkness suits most of them. Measure under the lamp with a light meter app and compare with the range on the plant's guide.</p>
+</HubLayout>

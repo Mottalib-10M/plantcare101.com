@@ -1,0 +1,352 @@
+{
+  "slug": "african-violet",
+  "commonName": "African violet",
+  "otherNames": [
+    "Saintpaulia",
+    "Kenya violet",
+    "Usambara violet"
+  ],
+  "botanicalName": "Streptocarpus ionanthus",
+  "formerNames": [
+    "Saintpaulia ionantha",
+    "Saintpaulia tongwensis"
+  ],
+  "family": "Gesneriaceae",
+  "kind": "flowering",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "north",
+      "east",
+      "west"
+    ],
+    "directSun": "morning-only",
+    "src": [
+      0,
+      3,
+      5
+    ]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Keep the mix lightly moist, letting only the surface dry before the next watering, and use room-temperature water",
+    "winter": "Growth and flowering continue in winter if the plant stays warm and bright, so keep the same moisture but check more often, since cool mix dries slowly and wet, cold roots rot.",
+    "factors": [
+      "Clemson names excessive watering as one of the most common problems and the cause of crown and root rot.",
+      "Cold water touching the leaves leaves white or yellow rings and blotches.",
+      "Clay pots lose water faster than plastic ones, so they need watering more often."
+    ],
+    "src": [
+      0,
+      2,
+      3
+    ]
+  },
+  "soil": {
+    "mix": "A light, porous, peat- or coir-based mix that drains instantly; Missouri Botanical Garden gives 3 parts sphagnum peat, 2 parts vermiculite and 1 part perlite with a little lime.",
+    "components": [
+      "sphagnum peat moss or coir",
+      "vermiculite",
+      "perlite",
+      "a little garden lime with peat"
+    ],
+    "src": [
+      0,
+      2,
+      3
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "NC State says it thrives in high humidity and suggests a pebble tray; Missouri Botanical Garden says it adjusts well to the dry air of homes.",
+    "src": [
+      1,
+      2,
+      3
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      60,
+      80
+    ],
+    "idealC": [
+      16,
+      27
+    ],
+    "minF": 60,
+    "minC": 16,
+    "maxF": 85,
+    "maxC": 29,
+    "src": [
+      0,
+      2,
+      3
+    ]
+  },
+  "fertilizer": {
+    "season": "While the plant is growing and flowering, March to September at least",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "Water-soluble houseplant or African violet fertilizer at the label rate, applied to mix that has just been watered",
+    "winter": "reduced",
+    "src": [
+      0,
+      6
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots fill the pot and the mix dries out much faster than before",
+      "A bare neck of old stem has formed under the lowest leaves",
+      "Rust-colored marks appear where leaf stems rest on a crusted pot rim"
+    ],
+    "season": "Spring or summer, while the plant is actively growing",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [
+      1,
+      3,
+      7
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "None of the sources we used rates African violets for people; the ASPCA lists them as non-toxic to cats, dogs and horses.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "African Violet (Saintpaulia spp.)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-violet"
+      }
+    ],
+    "src": [
+      4
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Plenty of leaves but few or no flowers",
+      "causeKey": "low-light",
+      "cause": "Too little light, which Clemson calls the usual reason violets stop blooming",
+      "remedy": "Move it within 3 feet of a bright window without afternoon sun, or grow it 6 to 12 inches under fluorescent tubes for 15 to 18 hours a day."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Thin, dark green leaves on long, stretched leaf stems",
+      "causeKey": "low-light",
+      "cause": "Inadequate light",
+      "remedy": "Give it a brighter window or a light stand; new leaves come in shorter and flatter."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Crown soft and dark, outer leaves collapsing",
+      "causeKey": "overwatering",
+      "cause": "Crown and root rot from soggy mix or poor drainage",
+      "remedy": "Cut off any healthy leaves to root as cuttings, discard the plant and its mix, and soak the pot 30 minutes in 1 part bleach to 9 parts water before reuse."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "White or yellow rings and blotches on the leaves",
+      "causeKey": "water-quality",
+      "cause": "Cold water splashed on the foliage",
+      "remedy": "Water with room-temperature water at the soil line or from below; the marks stay, but new leaves come in clean."
+    },
+    {
+      "symptomKey": "curling-leaves",
+      "symptom": "Tight, crinkled, stunted leaves in the center of the crown",
+      "causeKey": "pests",
+      "cause": "Cyclamen mites, which Clemson calls possibly incurable",
+      "remedy": "Isolate the plant at once; discard it unless it is valuable, in which case use a miticide labeled for houseplants and prune distorted leaves."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Rust-colored spot where a leaf stem touches the pot rim",
+      "causeKey": "fertilizer-salts",
+      "cause": "Petiole rot from fertilizer salts crusted on the rim",
+      "remedy": "Flush the mix with plenty of water, feed less, use rainwater, and cover the rim with tape or foil."
+    },
+    {
+      "symptomKey": "bud-drop",
+      "symptom": "Buds turn brown and fall before opening",
+      "causeKey": "cold",
+      "cause": "Low temperatures, often with wet mix or very dry air",
+      "remedy": "Keep nights at 60°F or above, let the surface dry between waterings, and keep the plant away from gas cooking fumes."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Leaf cuttings"
+    ],
+    "season": "Spring or summer, while growth is active"
+  },
+  "size": {
+    "heightIn": [
+      6,
+      9
+    ],
+    "widthIn": [
+      6,
+      9
+    ],
+    "growth": "moderate",
+    "src": [
+      2
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Miniatures and micro-miniatures",
+      "note": "Two of the five size classes NC State lists; small rosettes for tiny pots and windowsills."
+    },
+    {
+      "name": "Trailing types",
+      "note": "Rosettes that branch and spill over the pot edge instead of forming a single crown."
+    },
+    {
+      "name": "Double and semi-double flowers",
+      "note": "Extra rows of petals on many newer cultivars, often frilled or with a contrasting edge."
+    },
+    {
+      "name": "Harlequin",
+      "note": "Standard size with ruffled white flowers edged in dark fuchsia, one of the cultivars NC State lists."
+    }
+  ],
+  "sources": [
+    {
+      "title": "African Violet",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/african-violet/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "African Violet Diseases and Insect Pests in South Carolina",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/african-violet-diseases-insect-pests/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Streptocarpus ionanthus (African Violet)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/streptocarpus-ionanthus/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Saintpaulia ionantha",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=280890",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "African Violet",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/african-violet",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "prayer-plant"
+  ],
+  "seo": {
+    "title": "African Violet Care: Light, Watering & Reblooming (2026)",
+    "description": "African violet care for 2026: keep nights at 60°F or above, water at room temperature without wetting leaves, and get reblooms. Watering calculator and fixes.",
+    "h1": "African violet care: light, water and reblooming"
+  },
+  "content": {
+    "answer": "African violets want bright light without hot afternoon sun, such as a spot within 3 feet of a large window, and a light mix kept barely moist with room-temperature water that never splashes the leaves. Keep nights at 60°F or warmer.",
+    "intro": "Few houseplants flower as long as the African violet: Clemson Extension says a well-grown plant blooms 10 to 12 months of the year, each flower cluster lasting three to six weeks. The plant behind that record is a small rosette of thick, hairy leaves, long sold as Saintpaulia and now filed by NC State under Streptocarpus ionanthus, its former genus folded into the Cape primroses. Its biology explains every rule of its care. The fuzzy leaves hold water droplets, and cold drops leave pale rings. The crown sits at soil level, so a soggy surface rots it from the center out. And the flowers are fueled by light, which is why Clemson names inadequate light as the most common reason a violet stops blooming. Get those three things right, warm water at the roots, a dry crown and a bright window, and this is one of the easiest flowering plants to keep in bloom indoors.",
+    "light": [
+      "Think bright but gentle. Clemson places African violets within 3 feet of a large south-east or west-facing window that does not get direct afternoon sun, while Missouri Botanical Garden prefers north or east windows in summer and moves the plants to sunnier, warmer glass in winter. On the Illinois Extension scale that means medium to bright light, roughly 150 to 300 foot-candles, never the 1,500 of a sunbaked south sill.",
+      "Violets are the classic plant for a light shelf. Missouri Botanical Garden notes they thrive under artificial light, even in offices, and Clemson gives a precise setup: plants grown entirely under fluorescent light sit 6 to 12 inches below two 40-watt tubes, lit 15 to 18 hours a day. Thin, dark leaves on long stems, or a plant that has stopped flowering, are the signs you are short of light."
+    ],
+    "water": [
+      "The aim is a mix that is moist but never soggy. Missouri Botanical Garden says to keep the soil moist at all times, NC State lets the surface dry before watering again, and both warn that standing water on the surface rots the crown. Water from the top or the bottom, as you prefer. From the top, saturate the mix and let the excess drain away. From below, Clemson stands the pot in a tray with about 1 inch of water and lifts it out as soon as the surface turns moist.",
+      "Temperature matters as much as quantity. Clemson warns that cold water touching the leaves causes white blotches and yellow or white rings and lines; the hairy leaves hold drops against the surface while they chill. Fill the watering can the night before so it reaches room temperature, and aim at the soil, not the rosette.",
+      "Excess water is the bigger danger. Clemson calls overwatering one of the most common problems with African violets, which are very susceptible to crown and root rot, and Missouri Botanical Garden adds that plants are especially prone to rot in hot weather. Pot type changes the pace too: clay loses water through its walls, so it needs watering more often than plastic."
+    ],
+    "soil": [
+      "Ordinary potting soil packs down around violet roots. Missouri Botanical Garden recommends a porous soilless mix of 3 parts sphagnum peat moss, 2 parts vermiculite and 1 part perlite, with some lime to offset the acidity of the peat, and describes the ideal medium as half solids, a quarter air and a quarter water. NC State suggests coir as a more sustainable stand-in for peat with a near-neutral pH. Clemson also grows good plants in equal parts soil, peat and horticultural perlite. Bagged African violet mixes work, and Clemson stresses sterilized soil and clean pots. Whatever the recipe, set the crown just above the surface."
+    ],
+    "humidity": [
+      "Sources pull in two directions here. NC State says the plant thrives in high humidity, dislikes dry air and benefits from a pebble tray or humidifier, while Missouri Botanical Garden finds it adjusts well to the dry air of homes. Clemson adds a reason not to overdo it: cyclamen mites multiply fastest at 80 to 90 percent humidity and cool temperatures near 60°F, and crown rot favors damp conditions. A pebble tray in a dry winter room is a reasonable middle course; a sealed, steamy case is not."
+    ],
+    "temperature": [
+      "Violets like the same warmth you do. NC State calls 60 to 80°F optimum, Missouri Botanical Garden puts the best range at about 60°F at night and up to 80 to 85°F by day, and Clemson prefers nights a little warmer, at 65 to 70°F. The night floor is the number to respect: NC State warns that if nights dip below 60°F the plant becomes stunted and recovers slowly, even once it is warm again. Keep pots off cold winter glass after dark."
+    ],
+    "fertilizer": [
+      "Steady flowering takes steady food; NC State notes the plant needs a highly fertile medium for continued rebloom. Clemson recommends a water-soluble fertilizer formulated for African violets and adds one practical rule: water the plant first, then apply the fertilizer solution, so it never hits dry roots. Where no violet-specific interval is given, the Illinois Extension's guideline for houseplants, once every one to three months between March and September at the label rate, is a safe base. Clemson reads older, lower leaves turning yellow along with slower growth as the sign it needs feeding, and white crust or rust marks on the pot rim as the sign of too much."
+    ],
+    "repotting": [
+      "Repotting a violet is mostly about refreshing tired, salty mix and resetting the crown. Do it in spring or summer, while the plant is growing, and only one or two inches larger in diameter if you are sizing up, per Clemson's general repotting guidance. Bury any bare neck of stem so the crown again sits just above the soil, as Missouri Botanical Garden advises, and press the mix firmly around it. Skip decorative pots without drainage holes."
+    ],
+    "propagation": [
+      "NC State lists leaf cuttings as the recommended propagation method. Choose a healthy, mature leaf from the middle ring of the rosette, cut it with a short stem, and set the stem in moist, light mix, keeping the leaf blade dry. Warmth and bright, indirect light speed things up; small plantlets form at the base of the stem and can be separated once each has a few leaves. Patience helps: NC State says plants take 2 to 5 years to reach maturity."
+    ],
+    "problems": [
+      "Most violet trouble comes from water, light or a handful of pests. Clemson's disease fact sheet singles out crown and root rot, botrytis blight, cyclamen mites and mealybugs as the serious ones. Cyclamen mites, about 1/100 inch long and invisible to the eye, show up as tight, crinkled leaves in the crown, and pests spread easily among violets, so keep a new plant apart for a few weeks. Buds that brown and fall before opening point to cold, wet mix, very dry air or even traces of cooking gas, according to the same fact sheet."
+    ],
+    "petSafety": [
+      "The ASPCA lists the African violet, Saintpaulia species, as non-toxic to cats, dogs and horses, and its related entries for the Kenya or Usambara violet say the same. That makes it one of the safest flowering plants for a windowsill a cat patrols. If a pet eats a large amount of any plant and seems unwell, call your veterinarian or the ASPCA Animal Poison Control Center."
+    ],
+    "faq": [
+      {
+        "q": "Why is my African violet not blooming?",
+        "a": "Light is the first suspect. Clemson says lack of flowering is usually due to inadequate light, and thin, dark leaves on long stems confirm it. Move the plant within 3 feet of a bright window without afternoon sun, or grow it 6 to 12 inches under two fluorescent tubes for 15 to 18 hours a day. Nights below 60°F and missed feeding also slow reblooming."
+      },
+      {
+        "q": "Is it okay to water an African violet from the top?",
+        "a": "Yes. Clemson says African violets can be watered from the top or the bottom. From the top, soak the mix until water drains, aiming at the soil line rather than the leaves, and use room-temperature water, because cold drops leave pale rings. From below, stand the pot in about an inch of water just until the surface feels moist, then remove it and discard the extra."
+      },
+      {
+        "q": "What do tight, crinkled leaves in the center of an African violet mean?",
+        "a": "Most likely cyclamen mites, tiny pests about 1/100 inch long that feed on new growth in the crown. Clemson calls crinkled tight crowns a possible sign of an incurable infestation. Isolate the plant immediately and wash your hands before touching other violets. Discard ordinary plants; a valuable one can be treated with a miticide labeled for houseplants, with distorted leaves pruned away gradually."
+      },
+      {
+        "q": "Do African violets need special potting soil?",
+        "a": "They need a light, airy mix rather than a branded one. Missouri Botanical Garden's recipe is 3 parts sphagnum peat, 2 parts vermiculite and 1 part perlite with a little lime; Clemson also has success with equal parts soil, peat and perlite. A bagged African violet mix is the shortcut. Dense garden soil or heavy all-purpose mix holds too much water around the crown."
+      },
+      {
+        "q": "Are African violets safe for cats?",
+        "a": "Yes, according to the ASPCA, which lists Saintpaulia species as non-toxic to cats, dogs and horses, and gives the same rating to the Kenya and Usambara violet entries. No poisoning is expected if a cat nibbles a leaf. Still, call your veterinarian or the ASPCA Animal Poison Control Center if a pet eats a large amount of any plant and then vomits or seems unwell."
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+---
+/** Index et listes (plantes, guides, outils, hubs) : réponse directe, outil de filtre (data-chrome),
+ *  chapeau citable replié, texte propre à la page, FAQ, sources. Schéma ItemList des pages listées. */
+import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
+import { route } from '../i18n/routes';
+import { label } from '../i18n/nav';
+import { faqSchema, breadcrumbSchema, webPageSchema, type FAQItem } from '../lib/seo';
+import { SITE_URL } from '../data/site-config';
+import type { Src } from '../data/general-sources';
+interface Props { id: string; title: string; h1: string; description: string; answer: string; intro: string; faqs: FAQItem[]; related?: Array<{ href: string; name: string; description: string }>; sources: Src[]; items: Array<{ name: string; href: string }> }
+const { id, title, h1, description, answer, intro, faqs, related = [], sources, items } = Astro.props;
+const lang = 'en';
+const path = route(id, lang);
+const itemList = JSON.stringify({ '@context': 'https://schema.org', '@type': 'ItemList', name: h1, numberOfItems: items.length,
+  itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.name, url: `${SITE_URL}${it.href}` })) });
+const jsonLd = [webPageSchema({ name: h1, description, path, lang }), itemList, faqSchema(faqs, lang), breadcrumbSchema([{ name: 'Home', path: '/' }, { name: label(id), path }])];
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} faqs={faqs} related={related} sources={sources} breadcrumbs={[{ label: label(id) }]}>
+  <header class="mb-4"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">{h1}</h1></header>
+  <p class="text-lg leading-relaxed text-navy-800">{answer}</p>
+  <div data-chrome class="mt-6"><slot name="tool" /></div>
+  <div class="mt-8 text-navy-800"><Clamp id={`intro-${id}`} text={intro} class="text-base leading-relaxed" /></div>
+  <article class="prose prose-slate mt-6 max-w-none"><slot /></article>
+</PageLayout>

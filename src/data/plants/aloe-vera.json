@@ -1,0 +1,320 @@
+{
+  "slug": "aloe-vera",
+  "commonName": "Aloe vera",
+  "otherNames": [
+    "Aloe",
+    "Barbados aloe",
+    "True aloe",
+    "Medicine plant"
+  ],
+  "botanicalName": "Aloe vera",
+  "formerNames": [
+    "Aloe barbadensis"
+  ],
+  "family": "Asphodelaceae",
+  "kind": "succulent",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [
+      300,
+      1500
+    ],
+    "lux": [
+      3229,
+      16146
+    ],
+    "windows": [
+      "south",
+      "west",
+      "east"
+    ],
+    "directSun": "needs",
+    "src": [
+      0,
+      2,
+      3,
+      5,
+      7
+    ]
+  },
+  "water": {
+    "rule": "fully-dry",
+    "ruleText": "Let the mix dry completely between waterings, then soak it and let it drain",
+    "winter": "From November to early March give only enough water to stop the leaves shriveling; the RHS calls for very sparing water while the plant rests.",
+    "factors": [
+      "NC State warns that overwatering rots the roots.",
+      "UF/IFAS says never to let the pot sit in water.",
+      "A cool winter room and a plastic pot slow drying far more than a sunny summer sill and terracotta."
+    ],
+    "src": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  "soil": {
+    "mix": "A peat-free cactus mix, or a loam-based potting mix with added grit, in a pot with several drainage holes; clay is best.",
+    "components": [
+      "cactus and succulent potting mix",
+      "horticultural grit or coarse sand",
+      "loam-based potting compost (optional base)"
+    ],
+    "src": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "The RHS says aloes dislike humid air and need good ventilation; dry indoor air suits them.",
+    "src": [
+      3
+    ]
+  },
+  "temperature": {
+    "minF": 46,
+    "minC": 8,
+    "src": [
+      2,
+      4
+    ]
+  },
+  "fertilizer": {
+    "season": "May to August",
+    "everyWeeks": [
+      4,
+      4
+    ],
+    "strength": "full",
+    "type": "General liquid fertilizer, or a high-potassium or cactus feed, at the label rate",
+    "winter": "none",
+    "src": [
+      2,
+      4
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Offsets crowd the pot and press against the rim",
+      "The mix has broken down and stays wet",
+      "The rosette has become top-heavy for its pot"
+    ],
+    "season": "Spring",
+    "rootType": "succulent",
+    "prefersSnug": false,
+    "src": [
+      1,
+      4
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: eating it can cause abdominal cramping, diarrhea and red urine, and the latex can irritate skin.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Aloe (Aloe vera)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/aloe",
+        "toxicPrinciples": "Saponins, anthraquinones",
+        "clinicalSigns": "Vomiting (not horses), lethargy, diarrhea. The gel is considered edible."
+      }
+    ],
+    "src": [
+      0,
+      2,
+      6
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Leaves soft, translucent and collapsing at the base",
+      "causeKey": "overwatering",
+      "cause": "Root rot from mix that stays wet, often in a cold room",
+      "remedy": "Unpot, cut away rotten roots and soft tissue, and replant the firm part or healthy offsets in dry, gritty cactus mix; water only once it is completely dry."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Dry, discolored patches after a move to a sunnier spot",
+      "causeKey": "too-much-sun",
+      "cause": "Sunburn from going from low to bright light too quickly",
+      "remedy": "Shade the plant lightly and reintroduce full sun gradually over one to two weeks."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Rosette opens up, leaves flatten and lean toward the window",
+      "causeKey": "low-light",
+      "cause": "Too little light; aloes do not grow well in shade",
+      "remedy": "Move it in stages to a south or west window, or directly in front of an east one."
+    },
+    {
+      "symptomKey": "wrinkled-leaves",
+      "symptom": "Leaves thin, wrinkled or curling inward",
+      "causeKey": "underwatering",
+      "cause": "The water stored in the leaves has run low",
+      "remedy": "Soak the pot until water drains from the holes, then go back to watering whenever the mix is fully dry."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony clusters at the leaf bases",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Remove them with a cotton swab dipped in rubbing alcohol, checking deep in the rosette, and isolate the plant until no new clusters appear."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Spreading brown or rusty spots on otherwise firm leaves",
+      "causeKey": "disease",
+      "cause": "Leaf spot or aloe rust",
+      "remedy": "Cut off badly spotted leaves, keep water off the foliage and give the plant more air movement and sun."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Offsets (division)",
+      "Seed"
+    ],
+    "season": "Spring or early summer"
+  },
+  "size": {
+    "heightIn": [
+      12,
+      36
+    ],
+    "widthIn": [
+      12,
+      30
+    ],
+    "growth": "moderate",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [],
+  "sources": [
+    {
+      "title": "Aloe vera",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/aloe-vera/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Aloe Vera",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/home/plants/ornamental-plants/aloe-vera/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Aloe vera, Barbados aloe",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/981/aloe-vera/details",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Aloe: plant profile and growing advice",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/aloe",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow houseplant cacti and succulents",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Aloe (Aloe vera)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/aloe",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "seo": {
+    "title": "Aloe Vera Care: Sun, Watering & Soil Guide for 2026",
+    "description": "Aloe vera care in 2026: full sun, gritty mix left to dry completely, 46 to 50°F winter nights. Watering calculator, toxicity facts and fixes for brown leaves.",
+    "h1": "Aloe vera care: sun, watering and soil"
+  },
+  "content": {
+    "answer": "Grow aloe vera in the sunniest window you have, in gritty cactus mix in a pot with drainage holes. Let the mix dry completely before each watering, water very sparingly in winter, and keep it frost-free, with cool winter nights around 46 to 50°F.",
+    "intro": "Aloe vera keeps its water reserve as gel. Slice a leaf and the clear jelly inside is the store that carries the plant through drought in its native Arabian Peninsula, the origin NC State gives for the species, and the same gel people dab on sunburn. That reserve explains why aloe care is mostly restraint. NC State says to let the soil dry completely between waterings and to grow it in a pot with several drainage holes, clay being best. The RHS adds that aloes will not grow well in continuously wet compost or in shade, and that they dislike humid air. So give it the sunniest window in the house, a gritty cactus mix and almost no water in winter. Overwatering is the mistake NC State warns about, because it rots the roots; a thirsty aloe, by contrast, simply thins its leaves and waits.",
+    "light": [
+      "Aloe wants sun. NC State lists full sun to partial shade, the RHS asks for full light, and indoors that points to a south or west window. On the University of Illinois Extension scale, the spot directly in front of south glass delivers about 1,500 foot-candles, and the bright zone up to 5 feet back still gives around 300. In a dim room the rosette loosens and the leaves lean toward the light, and the RHS says plainly that aloes will not grow well in shade.",
+      "Strong light needs an introduction. UF/IFAS warns that aloe can sunburn when moved from low to bright light too quickly, and that a plant moved from a warm sunny spot to a dimmer one shows stress too. If you set the pot outdoors for summer, as UF/IFAS and the RHS both allow, start it in light shade and lengthen its time in sun over one to two weeks, the acclimatization period the University of Illinois Extension suggests for houseplants going outside. Bring it in before frost, since the RHS notes aloes cannot withstand freezing."
+    ],
+    "water": [
+      "Water an aloe deeply and rarely. NC State's rule is to let the soil dry completely between waterings, and UF/IFAS gives the minimum check as the top inch dry to the touch; in a cool or dim spot, follow the stricter rule. When the mix is dry, soak it until water runs from the drainage holes, and do not leave the pot sitting in water, a point UF/IFAS makes directly.",
+      "The leaves show how the reserve is holding up. Plump, firm leaves mean the plant has plenty stored. Thin, wrinkled or inward-curling leaves after a long dry spell mean it has drawn down its gel and needs a deep drink. Soft, translucent or mushy leaves at the base are the opposite story: too much water, often in cold weather, and the beginning of rot.",
+      "The RHS recommends a winter rest for succulents from November to early March, with cool nights and minimal water, offered only to keep the leaves from shriveling. Its profile for Aloe vera puts it simply: water moderately when in growth and very sparingly when dormant in winter. An aloe on a cool windowsill in January may need water only rarely, so test the mix all the way down before you pour."
+    ],
+    "soil": [
+      "The RHS recommends a peat-free cactus compost, or a loam-based potting compost with added horticultural grit, and NC State asks for a very well-drained soil suited to succulents. UF/IFAS observes that aloe thrives even in poor soil, provided it drains. A bagged cactus mix with an extra handful of grit or coarse sand is ideal. NC State's preference for clay pots with several drainage holes makes sense on two counts: unglazed terracotta pulls moisture away from the roots, and its weight steadies a heavy rosette."
+    ],
+    "humidity": [
+      "This is a plant for dry air. The RHS says aloes dislike humid atmospheres and need good ventilation, which makes the average heated home in winter close to ideal. Skip misting, keep the pot out of steamy bathrooms, and do not crowd it among tropical foliage plants that sit on pebble trays."
+    ],
+    "temperature": [
+      "Ordinary room temperatures suit aloe through spring and summer. In winter it does best a little cooler: the RHS suggests resting indoor succulents with night temperatures of only 46 to 50°F (8 to 10°C) from November to early March, and links that cool, dry rest to flowering. The RHS rates Aloe vera H1c, a plant that can stand outdoors in summer but must come in for winter, and it cannot survive freezing. Central heating is not a problem, the RHS adds, as long as the plant is not right next to a radiator; on the other side, keep leaves from touching frosty glass."
+    ],
+    "fertilizer": [
+      "Aloe asks for little feeding. The RHS profile for Aloe vera suggests a general liquid fertilizer monthly from May to August, and the RHS succulent guide favors a feed high in potassium, such as a tomato fertilizer, or a specialist cactus feed. Use the label rate, never stronger. Stop in autumn and give nothing during the winter rest, when unused fertilizer only accumulates as salts in a pot that is rarely flushed."
+    ],
+    "repotting": [
+      "Repot when the plant has outgrown its pot or the mix has broken down, and do it in spring, the timing the RHS recommends for succulents. UF/IFAS adds two practical points. The pot controls the plant: keep an aloe in a smaller pot and it stays compact, give it a bigger one and it grows larger. And never jump more than two pot sizes, since a container that is too large holds extra moisture and invites root rot. Handle the plant with gloves or a folded towel, because NC State notes the leaf margins carry small white teeth."
+    ],
+    "propagation": [
+      "Aloe vera multiplies by offsets, the small rosettes, often called pups, that form around the base of a mature plant. NC State recommends division as the way to propagate it, and the RHS says to separate offsets in spring or early summer and root them in cactus potting compost. Wait until a pup has several leaves of its own, then ease the root ball out and free the pup with a clean knife, keeping whatever roots it has. The RHS also lists seed sown as soon as ripe, but UF/IFAS notes that indoor plants rarely bloom, so offsets are the practical route."
+    ],
+    "problems": [
+      "Root rot is the problem NC State warns about most, and it begins with soggy mix. Mealybugs and aphids are the insects NC State lists for aloe, and it names scale, leaf spot, aloe rust and sooty mold as well. Sunburn after a sudden move into bright light leaves discolored, dry patches, while a plant kept too dark loses its tight rosette. Thin, wrinkled leaves only mean the stored water has run low."
+    ],
+    "petSafety": [
+      "The ASPCA lists Aloe vera as toxic to cats and dogs. Its toxic principles are saponins and anthraquinones, and the clinical signs are vomiting, lethargy and diarrhea; the ASPCA notes that the gel itself is considered edible. The irritant is in the outer part of the leaf, which is why NC State advises cutting it away and using only the gel. NC State rates the poison severity for people as low, with abdominal cramping, diarrhea and red urine possible after eating the plant, and skin irritation from its latex; the RHS also labels it harmful if eaten by people and pets. Keep it out of reach, and call your veterinarian or the ASPCA Animal Poison Control Center if a pet chews it."
+    ],
+    "faq": [
+      {
+        "q": "Why is my aloe vera plant turning brown?",
+        "a": "Brown on an aloe has three usual causes. Soft, mushy brown leaves at the base mean root rot from wet mix; NC State warns that overwatering rots the roots. Dry, brown or bleached patches after a move outdoors or to a sunnier window are sunburn, which UF/IFAS says happens when aloe goes from low to bright light too quickly. Spreading brown or rusty spots on firm leaves can be leaf spot or aloe rust, both on NC State's list."
+      },
+      {
+        "q": "Why is my aloe plant falling over or growing flat?",
+        "a": "A floppy aloe usually lacks light. The RHS says aloes will not grow well in shade, and the leaves stretch and lean toward a dim window. Move it to a south or west window in stages, since UF/IFAS warns that a sudden change causes sunburn. If the leaves are also soft at the base, check for rot before anything else. A heavy rosette in a light plastic pot can tip as well; NC State prefers clay pots."
+      },
+      {
+        "q": "Can I use gel from my aloe vera houseplant on a burn?",
+        "a": "UF/IFAS describes splitting an aloe leaf and placing it on minor burns or sunburn, and NC State notes the gel has long been used on cuts and sunburn. NC State advises cutting away the outer part of the leaf, using only the gel, and testing a small patch of skin first, because the latex in the leaf can irritate. For anything beyond a minor burn, see a doctor rather than reaching for a houseplant."
+      },
+      {
+        "q": "How often should I water an aloe vera indoors in winter?",
+        "a": "Rarely, and only after checking. The RHS recommends a winter rest for succulents from November to early March, with cool nights and just enough water to keep the leaves from shriveling, and describes Aloe vera as needing very sparing water while dormant. There is no fixed interval: an aloe in a cool room can go a long time between drinks. Wait until the mix is completely dry all the way down."
+      },
+      {
+        "q": "Why won't my aloe vera flower?",
+        "a": "Age and light are the usual reasons. NC State says a plant needs to be at least three years old before it sends up a stem of tubular orange to yellow flowers, and UF/IFAS notes that indoor plants rarely bloom at all. The RHS links flowering in succulents to a cool, dry winter rest, with nights of 46 to 50°F, plus as much light as possible all year round."
+      }
+    ]
+  }
+}

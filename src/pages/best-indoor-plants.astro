@@ -1,0 +1,53 @@
+---
+import HubLayout from '../components/HubLayout.astro';
+import PlantFilter from '../components/calc/PlantFilter';
+import { PLANTS, plantPath, filterPlants } from '../lib/plants';
+import { route } from '../i18n/routes';
+import { SRC } from '../data/general-sources';
+import { LEVEL_LABEL, isPetSafe } from '../lib/plant-text';
+import type { Plant } from '../lib/plant-schema';
+const lang = 'en';
+const L = ['low', 'medium', 'high', 'direct'];
+const pick = (f: (p: Plant) => boolean, n = 4) => PLANTS.filter(f).slice(0, n);
+const toughest = pick((p) => p.light.minLevel === 'low' && ['fully-dry', 'half-dry'].includes(p.water.rule));
+const sunny = pick((p) => L.indexOf(p.light.maxLevel) >= 3 && L.indexOf(p.light.idealLevel) >= 2);
+const humid = pick((p) => p.humidity.level === 'high');
+const petSafe = pick(isPetSafe, 6);
+const flowering = pick((p) => ['flowering', 'shrub'].includes(p.kind) || p.problems.some((x) => x.symptomKey === 'no-flowers' || x.symptomKey === 'bud-drop'));
+const statement = pick((p) => (p.size.heightIn?.[1] ?? 0) >= 60);
+const faqs = [
+  { q: 'What is the best indoor plant for someone who forgets to water?', a: `A plant whose guide records a fully-dry or half-dry rule and accepts low light: on this site, ${toughest.map((p) => p.commonName.toLowerCase()).join(', ')}. They store water in thick leaves, stems or rhizomes, so a missed week does little harm. They are, however, the quickest to rot if you compensate by watering often, so let the mix dry as their guides describe.` },
+  { q: 'Which indoor plants are best for a sunny south window?', a: 'Plants whose guides accept direct sun, such as succulents, jade and aloe, and the bird of paradise, which wants bright light to flower. The University of Illinois Extension counts the spot directly in front of a south window as direct light, about 1,500 foot-candles. Foliage plants that dislike direct sun belong a few feet back or behind a sheer curtain there.' },
+  { q: 'Are there good indoor plants that are safe for cats and dogs?', a: `Yes. On this site the ASPCA lists ${petSafe.map((p) => p.commonName.toLowerCase()).join(', ')} as non-toxic to both cats and dogs. Non-toxic is not the same as edible: a pet that chews leaves can still vomit. The plants safe for cats and dogs page and the ASPCA checker cover more options, including plants without a guide here.` },
+  { q: 'What indoor plant grows the biggest?', a: 'Among our guides, the tallest indoor plants are those recorded at five feet or more in a pot, such as the fiddle-leaf fig, the rubber plant, the monstera and the bird of paradise. Height indoors depends on light and pot size, and all of them can be kept smaller by pruning or by leaving them slightly root-bound.' },
+  { q: 'Do indoor plants clean the air in a home?', a: 'Not in a way you would notice. The idea comes from sealed-chamber tests decades ago; in a real home, air exchange through ventilation removes pollutants far faster than a few pots can. Grow plants because you enjoy them. If air quality matters, ventilation and a filter do the work.' },
+  { q: 'Which indoor plants flower reliably?', a: `Of our guides, those that bloom indoors given the right conditions are ${flowering.map((p) => p.commonName.toLowerCase()).join(', ')}. Each needs something specific to flower, often more light than foliage plants, a cool or dark period, or a rest from feeding. Their guides explain the trigger, and the problems table lists what to check when buds never appear.` },
+];
+---
+<HubLayout id="best" title="Best Indoor Plants for Every Room and Light Level (2026)"
+  h1="The best indoor plants, by situation"
+  description="Best indoor plants for 2026 by situation: low light, forgetful watering, sunny windows, humid rooms and homes with cats or dogs, each with a full care guide."
+  answer="The best indoor plant is the one that fits your light and your habits. For dim rooms and forgetful owners, plants that dry out fully and accept low light; for sunny windows, succulents and the bird of paradise; with pets, ASPCA non-toxic plants such as the spider plant. Filter below."
+  intro="There is no single best houseplant, only the best one for a given window and a given owner. Two facts decide most of it. The first is light: the University of Illinois Extension shows that a spot a few feet from a north window gets about 75 foot-candles while the sill of a south window can reach 1,500, a twentyfold gap that no amount of care closes. The second is water: Clemson HGIC names overwatering as the main cause of death of potted plants, so a plant that wants to dry out fully suits a busy owner, and a moisture lover suits someone who checks the pots often. The groups below start from those two facts and from the ASPCA lists for homes with pets."
+  faqs={faqs} sources={[SRC.ilLight, SRC.clWatering, SRC.aspcaCats, SRC.aspcaDogs]} items={PLANTS.map((p) => ({ name: p.commonName, href: plantPath(p.slug) }))}
+  related={[{ href: route('lowlight', lang), name: 'Low light indoor plants', description: 'North rooms and corners' }, { href: route('petfriendly', lang), name: 'Plants safe for cats and dogs', description: 'ASPCA non-toxic' }, { href: route('lightfinder', lang), name: 'Which plant for my light', description: 'Measure your spot first' }]}>
+  <PlantFilter slot="tool" client:load plants={filterPlants()} idPrefix="best" />
+
+  <h2>For a dim room and a busy schedule</h2>
+  <p>Look for two traits together: a low-light minimum and a rule that lets the mix dry well down. {toughest.map((p, i) => <>{i > 0 && ', '}<a href={plantPath(p.slug)}>{p.commonName}</a></>)} combine both in their guides. Their tolerance has a cost in dim spots: growth slows to a few leaves a year, and the pot stays damp much longer than on a sill, so the watering calculator stretches its range when you choose low light. Water less, not more, when a low-light plant looks tired.</p>
+
+  <h2>For a bright, sunny window</h2>
+  <p>A south or west sill rewards plants built for sun. {sunny.map((p, i) => <>{i > 0 && ', '}<a href={plantPath(p.slug)}>{p.commonName}</a></>)} accept direct light in their guides, and several need it to keep compact or to flower. Move them into full sun gradually over a couple of weeks; Clemson HGIC warns that leaves grown in lower light can bleach or scald when exposed suddenly to direct sun.</p>
+
+  <h2>For a bathroom or a humid corner</h2>
+  <p>Plants whose guides ask for humid air, {humid.length ? humid.map((p, i) => <>{i > 0 && ', '}<a href={plantPath(p.slug)}>{p.commonName}</a></>) : 'none in our current list'}, do best where moisture lingers. The University of Illinois Extension notes that most homes fall below 30 percent humidity in winter, and suggests a humidifier, a pebble tray or grouping plants rather than misting, whose effect lasts only minutes. A bathroom still needs a window: humidity cannot replace light.</p>
+
+  <h2>For homes with cats or dogs</h2>
+  <p>The ASPCA rates {petSafe.map((p, i) => <>{i > 0 && ', '}<a href={plantPath(p.slug)}>{p.commonName}</a></>)} as non-toxic to both cats and dogs. Several popular plants in our list are toxic to both, from the snake plant to pothos, monstera and philodendron, which contain saponins or calcium oxalate crystals. A full sortable list with each plant's ASPCA entry is on the <a href={route('petfriendly', lang)}>plants safe for cats and dogs</a> page.</p>
+
+  <h2>For a statement plant</h2>
+  <p>If you want height, {statement.length ? statement.map((p, i) => <>{i > 0 && ', '}<a href={plantPath(p.slug)}>{p.commonName}</a></>) : 'the larger plants in our list'} reach five feet or more indoors according to their guides. Big plants come with big pots: plan for a spot near bright light you will not need to move, and see the pot size calculator before repotting, since a jump of more than two inches leaves wet mix the roots cannot use.</p>
+
+  <h2>How these groups are built</h2>
+  <p>Every group above is computed from the plant data, not chosen by hand: light levels from the categories each guide records, watering rules, humidity needs, mature size and ASPCA status. When a new plant guide is added, it joins the groups it qualifies for on the next update. The ideal light across our guides spans {LEVEL_LABEL.low.toLowerCase()} to {LEVEL_LABEL.direct.toLowerCase()}, which is why the filter above starts with light.</p>
+</HubLayout>

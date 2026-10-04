@@ -1,0 +1,272 @@
+{
+  "slug": "cast-iron-plant",
+  "commonName": "Cast iron plant",
+  "otherNames": [
+    "Barroom plant",
+    "Iron plant",
+    "Aspidistra"
+  ],
+  "botanicalName": "Aspidistra elatior",
+  "formerNames": [],
+  "family": "Asparagaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [75, 300],
+    "lux": [807, 3229],
+    "windows": ["north", "east", "west"],
+    "directSun": "avoid",
+    "src": [0, 1, 2, 4]
+  },
+  "water": {
+    "rule": "top-2-inches",
+    "ruleText": "Water regularly from spring to fall, letting the top couple of inches dry first; it tolerates missed waterings better than wet feet",
+    "winter": "Water sparingly in winter while the plant rests, as both NC State and Missouri Botanical Garden advise.",
+    "factors": [
+      "Overwatering may cause root rot, Missouri Botanical Garden warns.",
+      "Established plants are drought tolerant, but UF/IFAS notes they perform better with periodic watering.",
+      "A plant in a dim corner uses water slowly, so the mix stays damp far longer there than near a window."
+    ],
+    "src": [0, 1, 2]
+  },
+  "soil": {
+    "mix": "A well-drained, peaty potting mix; the plant prefers rich soil but tolerates poor, dry soils of many textures.",
+    "components": [
+      "peat-based houseplant potting mix",
+      "a pot with a drainage hole"
+    ],
+    "src": [1, 0, 2]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "Does not need a humid atmosphere; ordinary dry indoor air is fine.",
+    "src": [1]
+  },
+  "temperature": {
+    "minF": 50,
+    "minC": 10,
+    "src": [1]
+  },
+  "fertilizer": {
+    "season": "Spring and summer",
+    "everyWeeks": [4, 13],
+    "strength": "full",
+    "type": "Houseplant fertilizer at the label rate, balanced (10-10-10) or 1:2:1; regular feeding is optional",
+    "winter": "none",
+    "src": [2, 5]
+  },
+  "repotting": {
+    "signs": [
+      "The clump of rhizomes fills the pot and leaves crowd the rim",
+      "Roots grow through the drainage holes",
+      "New leaves come in smaller than normal"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "rhizome",
+    "prefersSnug": true,
+    "src": [7, 0, 2]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "The ASPCA list covers pets only; NC State tags the plant as pet friendly and records no poisoning concern for people.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Cast Iron Plant (Aspidistra elatior)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cast-iron-plant"
+      }
+    ],
+    "src": [3, 0]
+  },
+  "problems": [
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Leaves bleached pale or yellow-white in patches",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sun, which Missouri Botanical Garden says bleaches the leaves",
+      "remedy": "Move it away from the sunny window into bright indirect light or shade; cut off badly marked leaves at the base."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Leaves yellow and collapse, rhizomes soft and dark",
+      "causeKey": "overwatering",
+      "cause": "Root rot from a mix that stays wet, especially in a dim spot or in winter",
+      "remedy": "Unpot, cut away soft rhizome and roots, replant firm sections in fresh well-drained mix and water sparingly."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine pale speckling on the leaves, sometimes with webbing",
+      "causeKey": "pests",
+      "cause": "Spider mites",
+      "remedy": "Wash both sides of the leaves with lukewarm water and treat with insecticidal soap if speckling continues."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Small brown or white bumps along the veins, sometimes with sticky residue",
+      "causeKey": "pests",
+      "cause": "Scale insects",
+      "remedy": "Scrape or wipe them off with a soft cloth, then repeat every week until no new bumps appear."
+    },
+    {
+      "symptomKey": "slow-growth",
+      "symptom": "Hardly any new leaves for months",
+      "causeKey": "low-light",
+      "cause": "A naturally slow plant kept in deep shade",
+      "remedy": "This is normal; for faster growth move it closer to a north or east window, but never into direct sun."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of the rhizome clump"
+    ],
+    "season": "Spring"
+  },
+  "size": {
+    "heightIn": [12, 36],
+    "widthIn": [12, 36],
+    "growth": "slow",
+    "src": [0, 1, 2]
+  },
+  "varieties": [
+    {
+      "name": "Variegata",
+      "note": "Green leaves with white striping; UF/IFAS notes variegated forms grow less vigorously."
+    },
+    {
+      "name": "Milky Way",
+      "note": "Dark leaves dotted with small white spots."
+    },
+    {
+      "name": "Asahi",
+      "note": "Pale green leaves frosted with white toward the tips."
+    },
+    {
+      "name": "Hoshi-zora",
+      "note": "Green leaves speckled with yellow or white dots."
+    },
+    {
+      "name": "Lennon's Song",
+      "note": "Wide, tall leaves with yellow variegation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aspidistra elatior (Cast Iron Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/aspidistra-elatior/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Aspidistra elatior",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=282290",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cast Iron Plant",
+      "publisher": "UF/IFAS Gardening Solutions, University of Florida",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/cast-iron-plant/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cast Iron Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cast-iron-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Division",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/division",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["zz-plant", "snake-plant", "chinese-evergreen", "parlor-palm", "peace-lily"],
+  "seo": {
+    "title": "Cast Iron Plant Care: Low Light, Water and Soil (2026)",
+    "description": "Cast iron plant care in 2026: shade or bright indirect light, never direct sun, water sparingly in winter, and keep it above 50°F. The ASPCA lists it pet-safe.",
+    "h1": "Cast iron plant care: the shade-proof Aspidistra"
+  },
+  "content": {
+    "answer": "Cast iron plant does best in bright indirect light but tolerates deep shade; direct sun bleaches its leaves. Water regularly from spring to fall, sparingly in winter, and keep it above 50°F, per Missouri Botanical Garden. It needs no extra humidity and little fertilizer.",
+    "intro": "Aspidistra elatior owes its common name to its ability to withstand neglect, and NC State Extension notes that the older nickname barroom plant comes from its tolerance of smoky, spittoon-lined saloon conditions. It is an evergreen, stemless perennial from Japan and China: what look like stems are the long petioles of leathery leaves, up to about 2 feet long with 16 to 20 parallel veins, rising straight from a creeping rhizome. Missouri Botanical Garden lists everything it forgives: a wide range of temperatures, dry air, low light and missed waterings. What it will not forgive is direct sun, which bleaches the leaves, and a pot that stays soggy, which rots the rhizome. NC State rates its growth as slow, so buy a plant at the size you want. In return you get a houseplant for the dim hallway or north room where almost nothing else lasts.",
+    "light": [
+      "Few houseplants are as shade tolerant. Missouri Botanical Garden says the plant is best sited in bright indirect light but tolerates full shade, and NC State lists it for deep shade, with less than two hours of direct sun. On the University of Illinois Extension's scale, that covers everything from low light, about 75 foot-candles a few feet from a north window, to high light directly in front of an east or west window.",
+      "The one firm rule is no direct sun. NC State says the plant is intolerant of it, and Missouri Botanical Garden warns that direct sun bleaches the leaves, leaving pale, papery patches that never green up again. Brighter indirect light does speed up its slow growth, and NC State notes the plant needs higher light levels to flower at all. In a dark corner it simply holds its leaves and waits."
+    ],
+    "water": [
+      "The cast iron plant handles neglect better than attention. NC State describes it as drought tolerant and advises regular watering from spring to autumn and sparing watering in winter; Missouri Botanical Garden says it tolerates less than regular watering and warns that overwatering may cause root rot. In practice, water thoroughly and then let the top couple of inches of mix dry before watering again. Push a finger or a wooden skewer into the pot to check rather than going by the calendar.",
+      "Light changes the pace. In a shaded hallway the plant barely uses water and the mix can stay damp for a long time; near a bright window it dries faster. UF/IFAS notes that established plants are quite drought tolerant but perform better if watered periodically, so a missed watering is not an emergency, while a pot left standing in water is. Always empty the saucer.",
+      "Winter is a rest period. Missouri Botanical Garden says to reduce watering while the plant rests, and the fleshy rhizome stores enough to carry it through drier months. Soft, collapsing leaves in winter almost always mean too much water, not too little."
+    ],
+    "soil": [
+      "Missouri Botanical Garden recommends a well-drained, peaty potting mixture. Outdoors the plant prefers rich, fertile soil, as both NC State and UF/IFAS note, but it tolerates poor, dry soils and a range of textures from sand to clay. Indoors, any good bagged houseplant mix in a pot with a drainage hole works. A heavy pot helps balance the tall leaves, and the drainage hole matters more than the recipe."
+    ],
+    "humidity": [
+      "Humidity is a non-issue. Missouri Botanical Garden says the plant does not require a humid atmosphere, which is why it does well in heated apartments and offices where ferns and calatheas crisp up. Skip misting. Instead, wipe the broad leaves with a damp cloth now and then: Missouri Botanical Garden notes they benefit from occasional washing, and dust on a slow-growing plant blocks light it can ill afford to lose."
+    ],
+    "temperature": [
+      "Missouri Botanical Garden says the plant tolerates a wide range of temperatures, with regular room temperatures in summer and a minimum of 50°F (10°C) in winter. That makes it a good choice for a cool entry hall or a room near a door. Outdoors it is hardy in USDA zones 7 to 11 according to NC State and UF/IFAS, while Missouri Botanical Garden gives 8 to 10, and NC State suggests shelter from winter winds. Indoors, keep it out of icy drafts all the same."
+    ],
+    "fertilizer": [
+      "This plant asks for very little food. UF/IFAS says it will not require regular fertilization but responds well to feeding in spring or summer. The University of Illinois Extension's general rule is a ceiling, not a target: no more than once every one to three months between March and September, with a balanced or 1:2:1 houseplant fertilizer at the label rate. For a slow plant in low light, the long end of that range, or a single spring feeding, is plenty."
+    ],
+    "repotting": [
+      "Because it grows slowly, the cast iron plant may stay in the same pot for years. Repot when the clump of rhizomes has filled the container, when roots escape the drainage holes or when new leaves come in smaller than usual, the signs the University of Illinois Extension lists. Spring or early summer is the time. Move up only modestly in pot size: a large volume of mix around a slow root system stays wet and invites the root rot Missouri Botanical Garden warns about."
+    ],
+    "propagation": [
+      "Division is the way to make more plants. NC State notes the plant spreads by rhizomes, and UF/IFAS describes a single plant slowly widening into a clump. In spring, slide the root ball out of the pot and cut through the rhizome with a clean, sharp knife, keeping several leaves and a good set of roots on each piece; the University of Illinois Extension notes that tough root balls may need a knife rather than fingers. Pot the divisions at once so the roots do not dry out.",
+      "Expect the divisions to sit still for a while. A slow grower takes time to fill a new pot, so make fewer, larger pieces rather than many small ones."
+    ],
+    "problems": [
+      "Problems are rare. NC State reports no serious pest problems, and Missouri Botanical Garden lists only mites and scale to watch for, along with root rot from overwatering and leaf bleaching from direct sun. Check the undersides and leaf bases a few times a year when you wipe the leaves. If a cast iron plant does fail, look first at the watering can and the window: wet mix and sun cause far more losses than insects. Curious growers may notice odd flowers at soil level: NC State describes them as fleshy, cup-shaped and 8-lobed, rarely produced, and Missouri Botanical Garden says they usually do not form on houseplants."
+    ],
+    "petSafety": [
+      "The ASPCA lists the cast iron plant as non-toxic to cats, dogs and horses, and NC State tags it as pet friendly and non-toxic for cats, dogs and horses. That makes it a strong choice for a shady floor spot in a home with pets, where many other low-light plants, such as dieffenbachia, would be a risk. Non-toxic still does not mean edible: a dog that shreds the leathery leaves may vomit, and the plant grows back so slowly that the damage lasts. Call your veterinarian if a pet eats a large amount of any plant."
+    ],
+    "faq": [
+      {
+        "q": "Can a cast iron plant live in a room with only a north window?",
+        "a": "Yes, this is the situation it handles best among common houseplants. Missouri Botanical Garden says it tolerates full shade, and NC State lists it for deep shade. A north window gives low to medium light on the University of Illinois Extension scale. Growth will be slow and it will not flower, but the leaves stay dark green and healthy for years if you water sparingly."
+      },
+      {
+        "q": "Why are my cast iron plant leaves turning pale and papery?",
+        "a": "Most likely direct sun. Missouri Botanical Garden warns that direct sun bleaches the leaves, and NC State says the plant is intolerant of it. Bleached patches do not recover, so move the plant out of the sun and remove the worst leaves at soil level. If the leaves are yellow and soft rather than pale and dry, check the rhizomes for rot instead."
+      },
+      {
+        "q": "Does the cast iron plant ever flower indoors?",
+        "a": "Rarely. Missouri Botanical Garden says the creamy-purple flowers usually do not form on houseplants, and NC State notes the plant needs higher light levels to bloom. When it does, the fleshy, cup-shaped, 8-lobed flowers open right at soil level and are easy to miss under the leaves. Missouri Botanical Garden gives spring for flowering, while NC State says early summer."
+      },
+      {
+        "q": "Do variegated cast iron plants need different care?",
+        "a": "Mostly the same care, with a little more patience. UF/IFAS notes that variegated cultivars, with cream or yellow stripes or spots, tend to be less vigorous than those with solid green leaves. Give them the brighter end of their range, in indirect light and never direct sun, so the paler parts of the leaf have enough light, and keep watering on the sparing side."
+      }
+    ]
+  }
+}

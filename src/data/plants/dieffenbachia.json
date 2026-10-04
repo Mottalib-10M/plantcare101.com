@@ -1,0 +1,338 @@
+{
+  "slug": "dieffenbachia",
+  "commonName": "Dieffenbachia",
+  "otherNames": [
+    "Dumb cane",
+    "Spotted dumbcane",
+    "Leopard lily",
+    "Mother-in-law plant"
+  ],
+  "botanicalName": "Dieffenbachia seguine",
+  "formerNames": [
+    "Dieffenbachia amoena",
+    "Dieffenbachia maculata",
+    "Dieffenbachia picta"
+  ],
+  "family": "Araceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "medium",
+    "maxLevel": "high",
+    "fc": [75, 300],
+    "lux": [807, 3229],
+    "windows": ["north", "east", "west"],
+    "directSun": "avoid",
+    "src": [0, 1, 5, 6, 9]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water thoroughly, then let the top inch of soil dry before watering again",
+    "winter": "Growth slows in winter and the mix stays damp longer: check before each watering and water less often, because wet soil rots the canes.",
+    "factors": [
+      "Overwatering is the classic failure: Illinois notes that roots and the base of the canes rot quickly in soil that stays wet.",
+      "Uneven watering and a pot left standing in water both brown the leaf tips, according to UF/IFAS.",
+      "Leaves that droop without yellowing are more often cold than thirst; check the room temperature before watering."
+    ],
+    "src": [0, 1, 2, 5]
+  },
+  "soil": {
+    "mix": "Any well-drained potting mix, ideally loose and high in organic matter; commercial growers use peat, pine bark, vermiculite or perlite.",
+    "components": [
+      "houseplant potting mix",
+      "peat or coir",
+      "pine bark fines",
+      "perlite for drainage"
+    ],
+    "ph": [6, 6.5],
+    "src": [0, 1, 2, 6]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Sources disagree: NC State and UF/IFAS describe a preference for high humidity, while Illinois says it grows best in low humidity. Household air is tolerated.",
+    "src": [0, 2, 5, 6]
+  },
+  "temperature": {
+    "idealF": [60, 75],
+    "idealC": [16, 24],
+    "minF": 55,
+    "minC": 13,
+    "src": [1, 5, 6, 7]
+  },
+  "fertilizer": {
+    "season": "March through September",
+    "everyWeeks": [2, 4],
+    "strength": "half",
+    "type": "Liquid foliage houseplant fertilizer at half strength, or a slow-release product at the label rate (Clemson); none for two months after purchase (UF/IFAS)",
+    "winter": "none",
+    "src": [1, 6]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage holes",
+      "The plant wilts between normal waterings",
+      "A tall cane makes the pot top-heavy and it starts to tip"
+    ],
+    "season": "Early spring",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [1, 12]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "toxic",
+    "humanNote": "NC State rates the poison severity as high. Chewing causes burning and swelling of the lips, tongue and throat with difficulty speaking and swallowing; Clemson warns the throat can swell enough to threaten breathing, which needs immediate medical care. Sap in the eyes can damage the cornea.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Dieffenbachia (Dieffenbachia)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dieffenbachia",
+        "toxicPrinciples": "Insoluble calcium oxalates, proteolytic enzyme",
+        "clinicalSigns": "Oral irritation, intense burning and irritation of mouth, tongue and lips, excessive drooling, vomiting, difficulty swallowing"
+      },
+      {
+        "name": "Dumbcane (Dieffenbachia)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dumbcane",
+        "toxicPrinciples": "Insoluble calcium oxalates, proteolytic enzyme",
+        "clinicalSigns": "Oral irritation, intense burning and irritation of mouth, tongue and lips, excessive drooling, vomiting, difficulty swallowing."
+      }
+    ],
+    "src": [0, 1, 3, 4, 8]
+  },
+  "problems": [
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Cane soft and discolored at the soil line, lower leaves yellowing",
+      "causeKey": "overwatering",
+      "cause": "Root and cane rot from soil that stays wet or drains slowly",
+      "remedy": "Cut the healthy top off as a cutting, root it in water or sand, and discard the rotten base and soil."
+    },
+    {
+      "symptomKey": "drooping",
+      "symptom": "Leaves droop and fall without turning yellow first",
+      "causeKey": "cold",
+      "cause": "Chilling below 55°F (13°C) or a cold draft",
+      "remedy": "Move the plant to a spot that stays above 55°F, away from doors and cold glass, and avoid sudden temperature swings."
+    },
+    {
+      "symptomKey": "curling-leaves",
+      "symptom": "Leaves curl, with brown edges",
+      "causeKey": "fertilizer-salts",
+      "cause": "Too much fertilizer building up salts in the mix",
+      "remedy": "Flush the pot with plenty of clean water, then feed only at half strength during March to September."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "Cottony masses on stems and leaf undersides, sticky leaves",
+      "causeKey": "pests",
+      "cause": "Mealybugs, whose honeydew coats the foliage",
+      "remedy": "Wipe off colonies with alcohol on a cotton swab, wearing gloves, and treat with a labeled insecticidal soap."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Pale leaves and fine webbing on the undersides",
+      "causeKey": "pests",
+      "cause": "Spider mites, favored by dry air",
+      "remedy": "Isolate the plant, hose the leaves with a forceful spray of water and use a labeled miticide if the mites persist."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Tall, bare cane leaning toward the window, faded variegation",
+      "causeKey": "low-light",
+      "cause": "Light too dim for the cultivar",
+      "remedy": "Move it to brighter, filtered light, turn it a quarter turn every few days, and cut a bare cane back to 6 inches to restart it."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem tip cuttings",
+      "Cane cuttings with at least two nodes",
+      "Air layering",
+      "Division of basal shoots"
+    ],
+    "season": "Spring or early summer"
+  },
+  "size": {
+    "heightIn": [36, 72],
+    "widthIn": [12, 36],
+    "note": "Clemson gives 3 to 6 feet tall; NC State up to 8 feet. UF/IFAS notes compact cultivars that stay near 12 inches.",
+    "src": [0, 1, 5]
+  },
+  "varieties": [
+    {
+      "name": "Camille",
+      "note": "Creamy yellow leaves with a rich green border and a bushy, full habit; needs 150 to 250 foot-candles to stay attractive."
+    },
+    {
+      "name": "Compacta",
+      "note": "Cream leaves mottled with green on a compact, dense plant for small spaces."
+    },
+    {
+      "name": "Tropic Snow",
+      "note": "Wide dark green leaves blotched with cream along the veins; tolerates lower light than most."
+    },
+    {
+      "name": "Tiki",
+      "note": "One of the largest at maturity, with silver leaves mottled in green and white; tolerates low light."
+    },
+    {
+      "name": "Panther",
+      "note": "The most chill-tolerant cultivar in UF/IFAS trials, unharmed after 24 hours at 35°F."
+    },
+    {
+      "name": "Star Bright",
+      "note": "Stays attractive at light levels as low as 50 foot-candles, according to UF/IFAS."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dieffenbachia seguine (Dumbcane)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/dieffenbachia-seguine/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dieffenbachia (HGIC 1503)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/dieffenbachia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Dieffenbachia",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/dieffenbachia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dieffenbachia",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dieffenbachia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dumbcane",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dumbcane",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dieffenbachia",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/dieffenbachia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cultural Guidelines for Commercial Production of Interiorscape Dieffenbachia (EP137)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://ask.ifas.ufl.edu/publication/EP137",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Chilling Injury in Tropical Foliage Plants: III. Dieffenbachia (EP530)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://ask.ifas.ufl.edu/publication/EP530",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Common Poisonous Houseplant Species in Florida (EP639)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://ask.ifas.ufl.edu/publication/EP639",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Lighting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Air Layering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/air-layering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["chinese-evergreen", "peace-lily", "snake-plant", "rubber-plant", "dracaena"],
+  "seo": {
+    "title": "Dieffenbachia Care: Light, Water and Toxicity (2026)",
+    "description": "Dieffenbachia care in 2026: filtered light, water when the top inch is dry, 60 to 75°F (16 to 24°C). Its sap swells mouth and throat: keep from kids and pets.",
+    "h1": "Dieffenbachia care: light, water and handling the toxic sap"
+  },
+  "content": {
+    "answer": "Dieffenbachia grows best in bright, filtered light at 60 to 75°F (16 to 24°C). Water thoroughly, then wait until the top inch of soil is dry. Every part of the plant is poisonous: the sap can swell the mouth and throat, so keep it away from children and pets.",
+    "intro": "Dieffenbachia seguine, the dumb cane, is an upright, cane-forming aroid from the Caribbean and tropical South America. Its thick, fleshy stem is ringed with old leaf scars and topped by a crown of broad leaves splashed with cream, white or yellow. NC State Extension reports that the plants once sold as D. amoena, D. maculata and D. picta now all belong to D. seguine. It has been a fixture of homes and offices for more than a century because it tolerates modest light and grows quickly when conditions suit it, reaching 6 feet or more. The common name is a warning rather than a joke: the sap is loaded with needle-shaped calcium oxalate crystals and a protein-digesting enzyme, and chewing a piece of stem can numb and swell the mouth and throat until speech fails. Grow it by all means, but handle it with gloves and place it where no toddler or pet can reach it.",
+    "light": [
+      "Dumb cane sits in the medium band of the University of Illinois Extension light table, about 150 foot-candles: right in front of a north window or a few feet back from an east or west one. Clemson Extension asks for bright, filtered light from spring through fall, and UF/IFAS confirms that it tolerates full shade, although growth then slows to almost nothing.",
+      "Cultivar matters more than with most houseplants. UF/IFAS research found that 'Star Bright' and 'Snow Flake' stay attractive at 50 foot-candles, while 'Camille' needs 150 to 250 to keep its pale center; too little light thins the variegation and stretches the cane. The sources disagree about sun. NC State and UF/IFAS say to keep the plant out of direct sun, which can wash the leaves out, but Clemson considers bright light, even direct sun, best during winter. A quarter turn of the pot every few days, as UF/IFAS suggests, stops the cane from leaning toward the glass."
+    ],
+    "water": [
+      "NC State and Clemson give the same rule: water thoroughly, then let the top inch of soil dry before the next watering. A finger pushed into the mix to the first knuckle is a reliable gauge. Pour until water runs from the drainage hole, then never leave the pot standing in the overflow; UF/IFAS links brown leaf tips to uneven watering and to roots left sitting in water.",
+      "Overwatering is what kills most dumb canes. The University of Illinois Extension notes that the roots and the base of the canes rot quickly when the soil stays wet, and once the cane softens at the soil line, the top can usually be saved only as a cutting. In winter, when growth slows, the mix stays damp longer, so check more often and water less. Droopy leaves can signal the opposite problem; UF/IFAS advises a thorough watering when the surface is dry, then waiting until it dries again."
+    ],
+    "soil": [
+      "Dieffenbachia is not fussy about its mix. Illinois recommends regular potting soil, Clemson says most well-drained container mixes work, and NC State describes its preference as loose, fertile and high in organic matter. Florida growers use blends of peat, pine bark, vermiculite or perlite at pH 6.0 to 6.5, according to UF/IFAS. Drainage is the real requirement: a dense, water-holding soil is the main cause of the root rot Clemson describes, so add perlite to a heavy bagged mix and use a pot with a hole."
+    ],
+    "humidity": [
+      "This is where the sources split. NC State lists high humidity and UF/IFAS describes a preference for relatively high humidity, while the University of Illinois Extension says dumb cane grows best in low humidity and withstands indoor conditions well. In practice, ordinary household air is tolerated, but dry winter heat brings crisp leaf edges and invites spider mites. UF/IFAS ties yellowing leaves to excess moisture loss and recommends raising humidity to correct it, so a pebble tray or humidifier nearby is a simple compromise."
+    ],
+    "temperature": [
+      "Clemson and UF/IFAS both give 60 to 75°F (16 to 24°C) as the comfortable range. Below 55°F (13°C), chilling injury becomes likely, and UF/IFAS notes that leaves that droop and fall without yellowing first often mean the plant has been too cold. Its lowland tropical origin makes dieffenbachia one of the most chill-sensitive foliage genera, and its young leaves are hit first, turning yellow or water-soaked before the stem base browns. UF/IFAS trials found large differences between cultivars: 'Panther' showed no injury after 24 hours at 35°F, while every 'Tropic Honey' plant died after six hours at that temperature."
+    ],
+    "fertilizer": [
+      "Clemson recommends feeding from March through September with a foliage houseplant fertilizer, either a liquid at half strength every two to four weeks or a slow-release product at the label rate. UF/IFAS adds two cautions for indoor plants: a newly bought dumb cane usually needs no fertilizer for at least two months, and too much shows as curled leaves with brown edges. If that happens, flush the pot with clean water. Pale, stunted growth with smaller new leaves, on the other hand, can be hunger, which Clemson lists as a sign of missing nutrients."
+    ],
+    "repotting": [
+      "Repot in early spring, as Clemson advises, once roots push through the drainage hole or the plant wilts between normal waterings, the two signals the University of Illinois Extension uses. A heavy cane in a small plastic pot will also start to tip. Move up one size and keep the cane at its old depth. Wear gloves and wash your hands afterward: Illinois warns that the sap is toxic to open cuts, so cover any scratches before handling roots or trimming."
+    ],
+    "propagation": [
+      "A dumb cane that has shed its lower leaves and become a bare stick with a tuft on top is the perfect candidate. Clemson suggests cutting the stem back to about 6 inches; the stump resprouts below the cut. The removed top roots as a tip cutting in water or sand, and the bare cane can be sliced into 2- or 3-inch sections, each with at least two nodes, laid half-buried or stood upright in moist rooting mix, as the University of Illinois Extension describes. Air layering works on tall plants too, with roots usually showing through the moss after three to four months. Work in spring or early summer, with gloves on."
+    ],
+    "problems": [
+      "Root rot from soggy mix and frequent watering is the main problem, followed by mealybugs and aphids, whose sticky honeydew coats the leaves, and spider mites in dry air. Clemson notes that the lower leaves naturally drop as the plant matures, so a yellowing bottom leaf on an otherwise healthy cane is normal; just remove it. A small notch on the lower edge of a leaf, which UF/IFAS associates with stress from drought, heat or pesticide sprays, is cosmetic."
+    ],
+    "petSafety": [
+      "The ASPCA lists Dieffenbachia, under both its genus name and the common name dumbcane, as toxic to dogs and cats. Its toxic principles are insoluble calcium oxalates and a proteolytic enzyme, and the clinical signs are oral irritation, intense burning and irritation of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. For people the risk is higher than with most aroids. NC State rates the poison severity as high and notes that sap in the eyes can damage the cornea. Clemson warns that eating it can make the throat swell, with possible suffocation, which calls for immediate medical care, and UF/IFAS cites a 1961 JAMA report on Dieffenbachia poisoning. Keep it out of reach, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if a pet chews it."
+    ],
+    "faq": [
+      {
+        "q": "Why is dieffenbachia called dumb cane?",
+        "a": "Because chewing it can leave a person unable to speak. Clemson explains that every part of the plant contains needle-like crystals called raphides, which numb and burn the mouth and throat. UF/IFAS adds that the sap also carries a protein-digesting enzyme the literature calls dumbcain, and the resulting swelling of the tongue and vocal cords, with heavy salivation, is what takes away the voice."
+      },
+      {
+        "q": "What should I do if a child bites a dieffenbachia leaf?",
+        "a": "Remove any plant pieces from the mouth, rinse it with water and contact Poison Control or your doctor right away. Clemson warns that the throat can swell after eating dieffenbachia, with a risk of suffocation that requires immediate medical care, so any trouble breathing, swallowing or speaking means emergency services. If sap reached the eyes, flush them; NC State notes it can damage the cornea."
+      },
+      {
+        "q": "Can I cut a leggy dieffenbachia back to a short stump?",
+        "a": "Yes. Clemson recommends cutting long, bare stems back to about 6 inches; new growth sprouts below the cut. UF/IFAS gives the same 6-inch figure for revitalizing sparse plants. Root the top you removed as a cutting and slice the rest of the cane into short sections with two nodes each. Wear gloves, and do it in spring or early summer, when regrowth is quickest."
+      },
+      {
+        "q": "Is dieffenbachia invasive in Florida?",
+        "a": "UF/IFAS takes that risk seriously. Its assessment of non-native plants in Florida's natural areas predicted dieffenbachia to be invasive, and UF/IFAS Extension no longer recommends it there. As a houseplant in a pot it poses no such problem, but Florida gardeners should avoid planting it outdoors or dumping old plants and cuttings where they could take root."
+      },
+      {
+        "q": "Which dieffenbachia varieties cope best with low light?",
+        "a": "UF/IFAS research names 'Star Bright' and 'Snow Flake' as staying attractive at only 50 foot-candles, while 'Camille' needs 150 to 250. Clemson singles out 'Tropic Snow' and 'Tiki' as tolerating lower light than most. Even these grow slowly in dim rooms, and heavily variegated cultivars tend to lose some of their pale markings when light is short."
+      }
+    ]
+  }
+}

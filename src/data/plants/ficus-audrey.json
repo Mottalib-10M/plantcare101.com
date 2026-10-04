@@ -1,0 +1,227 @@
+{
+  "slug": "ficus-audrey",
+  "commonName": "Ficus Audrey",
+  "otherNames": ["Bengal fig 'Audrey'", "Banyan fig", "Banyan tree", "Indian banyan"],
+  "botanicalName": "Ficus benghalensis 'Audrey'",
+  "formerNames": [],
+  "family": "Moraceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [300, 300],
+    "lux": [3229, 3229],
+    "windows": ["east", "west", "south"],
+    "directSun": "morning-only",
+    "src": [0, 1, 2]
+  },
+  "water": {
+    "rule": "top-2-inches",
+    "ruleText": "Water thoroughly when the top 2 to 3 inches of mix feel dry, then empty the tray",
+    "winter": "Growth slows in short days, so the mix takes longer to dry; the RHS keeps ornamental figs only just moist in winter.",
+    "factors": [
+      "NC State links overwatering to root rot and says dry, light brown spots come from underwatering, so the finger test matters more than a schedule.",
+      "Water left standing in the tray keeps the lower roots wet; NC State says to empty it every time.",
+      "A plant in a warm, bright window dries out much faster than one a few feet back."
+    ],
+    "src": [0, 1, 9]
+  },
+  "soil": {
+    "mix": "A good-quality potting mix lightened with perlite, moist but well drained, at a neutral pH.",
+    "components": ["houseplant potting mix", "perlite"],
+    "ph": [6, 8],
+    "src": [0]
+  },
+  "humidity": {
+    "level": "high",
+    "idealPct": [50, 80],
+    "note": "NC State puts the target at 50 to 80 percent and suggests a humidifier near the plant; cracked leaves are a sign the air is too dry.",
+    "src": [0]
+  },
+  "temperature": {
+    "idealF": [65, 80],
+    "idealC": [18, 27],
+    "minF": 55,
+    "minC": 13,
+    "src": [0, 1]
+  },
+  "fertilizer": {
+    "season": "Spring through summer, the growing season",
+    "everyWeeks": [4, 13],
+    "strength": "full",
+    "type": "Liquid houseplant fertilizer at the label rate, balanced (10-10-10) or 1:2:1; the RHS favors a high-nitrogen feed for figs",
+    "winter": "none",
+    "src": [0, 1, 3]
+  },
+  "repotting": {
+    "everyYears": [2, 2],
+    "signs": [
+      "Roots grow through the drainage holes or show on the surface",
+      "The mix dries out within a day or two of a thorough watering",
+      "New leaves are smaller than the ones below them"
+    ],
+    "season": "Spring",
+    "rootType": "woody",
+    "prefersSnug": true,
+    "src": [1, 4, 8]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: swallowing the leaves can cause drooling, nausea, vomiting and diarrhea, and the sap can cause contact dermatitis.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Weeping Fig (Ficus sp.), the ASPCA entry covering Ficus; there is no separate Ficus benghalensis entry",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+        "toxicPrinciples": "Proteolytic enzyme (ficin), psoralen (ficusin)"
+      },
+      {
+        "name": "Fig (Ficus benjamina)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fig",
+        "toxicPrinciples": "Proteolytic enzyme (ficin), psoralen (ficusin)",
+        "clinicalSigns": "Gastrointestinal and dermal irritation"
+      }
+    ],
+    "src": [0, 6, 7]
+  },
+  "problems": [
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Brown and yellow spots that spread slowly across the leaves",
+      "causeKey": "disease",
+      "cause": "Leaf spot, which NC State ties to poor air circulation and excess moisture",
+      "remedy": "Remove the worst leaves, water the mix rather than the foliage, and give the plant more space and air movement."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Dry, light brown patches on otherwise healthy leaves",
+      "causeKey": "underwatering",
+      "cause": "Mix allowed to dry well past the top few inches",
+      "remedy": "Soak the pot until water drains, then check the mix more often in warm weather."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Lower leaves yellow and drop while the soil stays wet",
+      "causeKey": "overwatering",
+      "cause": "Watering before the top 2 to 3 inches have dried, or a tray left full",
+      "remedy": "Let the mix dry to that depth, empty the tray, and unpot to trim soft brown roots if the plant keeps declining."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Healthy-looking leaves fall soon after a cold night or a move near a door",
+      "causeKey": "drafts",
+      "cause": "Cold drafts or a sudden temperature change, which NC State says to avoid",
+      "remedy": "Move it away from exterior doors and winter windows and keep it above 55°F (13°C)."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale speckling on the leaf undersides",
+      "causeKey": "pests",
+      "cause": "Spider mites",
+      "remedy": "Rinse and wipe both leaf surfaces, raise the humidity and treat with insecticidal soap until no new damage appears."
+    },
+    {
+      "symptomKey": "small-flies",
+      "symptom": "Tiny dark flies hovering over the soil",
+      "causeKey": "overwatering",
+      "cause": "Fungus gnats breeding in mix that stays damp at the surface",
+      "remedy": "Let the top 2 to 3 inches dry between waterings and use yellow sticky cards to trap adults."
+    }
+  ],
+  "propagation": {
+    "methods": ["Stem cuttings", "Air layering"],
+    "season": "Spring to summer, while the plant is growing"
+  },
+  "size": {
+    "heightIn": [12, 24],
+    "growth": "moderate",
+    "note": "NC State lists the 'Audrey' cultivar at 1 to 2 feet; the wild species is a banyan up to 100 feet tall, so plan to prune an older plant.",
+    "src": [0]
+  },
+  "varieties": [
+    { "name": "Audrey", "note": "The common houseplant form: pale smooth trunk, glossy green leaves with deep, light-colored veins." },
+    { "name": "Chandelier Happiness", "note": "Upright selection, 2 to 4 feet, with oval medium green leaves and light veins (NC State)." }
+  ],
+  "sources": [
+    { "title": "Ficus benghalensis (Bengal Fig)", "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University", "url": "https://plants.ces.ncsu.edu/plants/ficus-benghalensis/", "accessed": "2026-10-04" },
+    { "title": "Ornamental figs: growing guide", "publisher": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/ornamental-figs/growing-guide", "accessed": "2026-10-04" },
+    { "title": "Lighting for houseplants", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/lighting", "accessed": "2026-10-04" },
+    { "title": "Houseplant care", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/care", "accessed": "2026-10-04" },
+    { "title": "Repotting", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/repotting", "accessed": "2026-10-04" },
+    { "title": "Air layering", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/air-layering", "accessed": "2026-10-04" },
+    { "title": "Weeping Fig", "publisher": "ASPCA Animal Poison Control Center", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig", "accessed": "2026-10-04" },
+    { "title": "Fig (Ficus benjamina)", "publisher": "ASPCA Animal Poison Control Center", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fig", "accessed": "2026-10-04" },
+    { "title": "Weeping Fig", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/weeping-fig", "accessed": "2026-10-04" },
+    { "title": "Watering houseplants", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/watering", "accessed": "2026-10-04" }
+  ],
+  "verified": "2026-10-04",
+  "related": ["weeping-fig", "fiddle-leaf-fig", "rubber-plant"],
+  "seo": {
+    "title": "Ficus Audrey Care: Bright Light, Water & Humidity (2026)",
+    "description": "Ficus Audrey care in 2026: water when the top 2 to 3 inches dry (NC State), keep it at 65 to 80°F and 50 to 80% humidity. Toxic to pets. Leaf spot fixes.",
+    "h1": "Ficus Audrey care: light, water and humidity"
+  },
+  "content": {
+    "answer": "Ficus Audrey wants bright, indirect light and a thorough watering whenever the top 2 to 3 inches of mix feel dry, the rule NC State Extension gives. Keep it between 65 and 80°F (18 and 27°C), at 50 to 80 percent humidity, away from cold drafts.",
+    "intro": "Ficus Audrey is a houseplant cultivar of Ficus benghalensis, the Bengal fig or banyan, India's national tree and one of the largest trees on earth by canopy. NC State Extension describes the wild species starting life as an epiphyte on another tree, dropping aerial roots that thicken into extra trunks, and eventually smothering its host. None of that drama happens in a living room. NC State notes that houseplants do not form the aerial roots seen in the wild, rarely flower, and that 'Audrey' itself stays at 1 to 2 feet with a smooth pale trunk and velvety-backed leaves marked by light veins. Be aware that published guidance is thin: we found no extension fact sheet devoted to 'Audrey' alone, so this page combines NC State's species profile with the RHS rules for ornamental figs and flags where those sources stop.",
+    "light": [
+      "NC State says the Bengal fig grown indoors thrives in bright, indirect sunlight. On the Illinois Extension scale, that is high light, around 300 foot-candles: directly in front of an east or west window, or within 5 feet of a south window. The RHS adds that many ornamental figs accept a few hours of morning or evening sun, especially in winter, which suits an east window well.",
+      "Hot afternoon sun through west or south glass in summer is another matter. The leaves are large and thin compared with a rubber plant's, and they scorch into pale, dry patches. A sheer curtain solves it. In a dim corner the plant does not die quickly, but it stretches, drops lower leaves and makes smaller new ones; the RHS problem list for ornamental figs points to inadequate light first when new leaves come in small and pale."
+    ],
+    "water": [
+      "NC State gives a precise rule for the Bengal fig indoors: water when the top 2 to 3 inches of soil feel dry, water well, make sure the pot drains, and empty any water standing in the tray. Push a finger or a wooden skewer down to the second knuckle to check. This is a deeper dry-down than many tropical foliage plants get, and it suits a woody, drought-tolerant tree.",
+      "Both mistakes show on the leaves. NC State says dry, light brown spots result from underwatering, while root rot follows overwatering, usually announced by yellow lower leaves that drop while the soil is still damp. Fungus gnats over the soil are another hint that the surface stays wet too long.",
+      "In winter the plant grows slowly and the mix dries more slowly too. Keep the same depth test rather than the summer rhythm; the RHS advice for ornamental figs is to keep the compost only just moist in winter. Use water at room temperature, since cold water on warm roots is one more sudden change this ficus dislikes."
+    ],
+    "soil": [
+      "NC State recommends a good-quality potting mix with perlite, moist but well drained, at a neutral pH, listed as 6.0 to 8.0. A standard houseplant mix with a generous handful of perlite in every gallon works. The RHS suggests loam-based compost with fine bark chips for figs, which adds weight, useful once the plant gets top-heavy. Any pot must have a drainage hole."
+    ],
+    "humidity": [
+      "This is where the banyan's tropical origin shows. NC State sets the humidity range at 50 to 80 percent and recommends a humidifier near the plant. Winter air in a heated home often sits below 30 percent, according to the Illinois Extension, so most homes fall short from November to March. NC State links cracked leaves to humidity that is too low. A humidifier works best; a pebble tray and grouping plants help a little."
+    ],
+    "temperature": [
+      "NC State gives a comfortable range of 65 to 80°F (18 to 27°C) and asks for protection from cold drafts and sudden temperature changes. Keep the plant above 55°F (13°C); the RHS says most ornamental figs, being tropical, must be kept above 50 to 55°F (10 to 13°C). The real hazards are a spot beside a door that opens onto winter air, a leaf touching frosty glass, or a heating vent blowing on the canopy. Hardiness outdoors is limited to USDA zones 10 to 12, so a summer on the patio has to end before fall nights cool."
+    ],
+    "fertilizer": [
+      "NC State says to fertilize with a liquid product during the growing season, spring through summer, without naming an interval. The general Illinois Extension rule fills the gap: most houseplants need feeding no more than once every one to three months from March to September, with a balanced or 1:2:1 fertilizer at the label rate. The RHS suggests a high-nitrogen feed from spring to late summer for leafy figs. Skip winter feeding, and leach the pot with plenty of plain water a couple of times a year to prevent salt buildup."
+    ],
+    "repotting": [
+      "The Illinois Extension notes that Ficus like their roots crowded in a small pot, and the RHS suggests moving ornamental figs into a slightly larger container every couple of years in spring. Watch for roots escaping the drainage holes, a mix that dries out almost as soon as you water it, and new leaves smaller than normal. Go up only one size. In the years between, scrape off the top inch of old mix and add fresh, as the RHS recommends."
+    ],
+    "propagation": [
+      "NC State lists stem cuttings and air layering for the houseplant form. Air layering suits a tall, leggy 'Audrey' best: the Illinois Extension method is to cut a third to halfway into the stem, wedge the slit open, wrap it in wet sphagnum moss and plastic, and wait three to four months for roots before cutting the top free. Tip cuttings with a couple of leaves root in moist mix under a plastic tent in warm, bright conditions. Wear gloves for both; the sap irritates skin."
+    ],
+    "problems": [
+      "NC State lists the usual suspects for this plant: spider mites, mealybugs, scale insects and fungus gnats, root rot from overwatering, and a leaf spot disease that shows as brown and yellow spots spreading slowly, encouraged by poor air circulation and excess moisture. Crisp, light brown patches point to drought, and cracked leaves to dry air. Inspect the leaf undersides and the joints between leaf and stem when you water; that is where mites and mealybugs begin."
+    ],
+    "petSafety": [
+      "Ficus Audrey is toxic to cats and dogs. The ASPCA has no entry for Ficus benghalensis by name, but its Ficus entries list toxic principles of ficin, a proteolytic enzyme, and ficusin, a psoralen, with gastrointestinal and dermal irritation as clinical signs. NC State's own page tags the Bengal fig as a problem for cats, dogs and children and rates the poison severity as low: decreased appetite, drooling, nausea, vomiting and diarrhea if eaten, and skin irritation from the sap. Keep it out of chewing range and wear gloves when you prune."
+    ],
+    "faq": [
+      {
+        "q": "Is Ficus Audrey easier to keep alive than a fiddle-leaf fig?",
+        "a": "Many growers find it more forgiving, and NC State calls the 'Audrey' cultivar easy to grow with minimal care. It still needs bright light and dislikes drafts and soggy soil. The biggest difference in practice is watering depth: NC State lets the top 2 to 3 inches dry first, which leaves a comfortable margin against root rot."
+      },
+      {
+        "q": "Will my Ficus Audrey grow aerial roots like a real banyan tree?",
+        "a": "Not indoors. NC State notes that houseplants do not produce the aerial roots common in the wild, where they drop from branches and become secondary trunks. A potted Ficus Audrey stays a single or multi-stemmed small tree. Occasional short roots near the base are just surface roots looking for moisture."
+      },
+      {
+        "q": "Why are the leaves on my Ficus Audrey cracking?",
+        "a": "NC State links cracked leaves on the Bengal fig to humidity that is too low. The species wants 50 to 80 percent, while a heated room in winter can fall well below 30. Run a humidifier nearby, keep the plant away from heating vents, and expect new leaves to come in whole even though cracked ones will not heal."
+      },
+      {
+        "q": "How big does a Ficus Audrey get indoors?",
+        "a": "NC State lists the 'Audrey' cultivar at 1 to 2 feet tall, a far cry from the wild Bengal fig at up to 100 feet. Growth is rated medium, and the RHS says ornamental figs cope well with pruning, so shortening long shoots in late winter or early spring keeps it to the size you want."
+      }
+    ]
+  }
+}

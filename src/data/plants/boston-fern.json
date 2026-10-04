@@ -1,0 +1,287 @@
+{
+  "slug": "boston-fern",
+  "commonName": "Boston fern",
+  "otherNames": [
+    "Sword fern",
+    "Nephrolepis 'Bostoniensis'",
+    "Boston sword fern"
+  ],
+  "botanicalName": "Nephrolepis exaltata 'Bostoniensis'",
+  "formerNames": [],
+  "family": "Nephrolepidaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [75, 300],
+    "lux": [807, 3229],
+    "windows": ["north", "east", "west"],
+    "directSun": "avoid",
+    "src": [0, 1, 2, 4]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Keep the potting mix barely moist at all times; never let it dry out",
+    "winter": "Water a little less from fall to late winter, but still never let the root ball go dry; Missouri Botanical Garden calls for only a slight reduction.",
+    "factors": [
+      "A dried-out root ball makes the plant shed fronds; Missouri Botanical Garden says the whole plant can then be cut back to about 2 inches to regrow.",
+      "Hanging baskets dry far faster than pots on a shelf, especially near the ceiling where warm air collects.",
+      "Water must not stand in the pot or the outer container; Clemson links that to root damage."
+    ],
+    "src": [0, 1, 2]
+  },
+  "soil": {
+    "mix": "A porous, organic, peaty potting mix that drains quickly; Clemson suggests equal parts packaged houseplant mix and peat moss or leaf mold.",
+    "components": [
+      "packaged houseplant potting mix",
+      "peat moss or leaf mold",
+      "a pot or basket with drainage"
+    ],
+    "src": [1, 2]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "Needs high humidity: a pebble tray, a kitchen or bathroom spot, or a double pot lined with moist sphagnum moss.",
+    "src": [0, 1, 2, 5]
+  },
+  "temperature": {
+    "idealF": [60, 70],
+    "idealC": [16, 21],
+    "minF": 50,
+    "minC": 10,
+    "src": [0, 2]
+  },
+  "fertilizer": {
+    "season": "April through September",
+    "everyWeeks": [4, 5],
+    "strength": "half",
+    "type": "Liquid houseplant fertilizer at about half the label rate; skip newly repotted plants for six months",
+    "winter": "none",
+    "src": [2, 1]
+  },
+  "repotting": {
+    "signs": [
+      "Fronds crowd the rim and the center of the clump thins out",
+      "Roots fill the pot or grow through the drainage holes",
+      "The basket dries out much faster than it used to"
+    ],
+    "season": "Early spring",
+    "rootType": "rhizome",
+    "prefersSnug": false,
+    "src": [2, 6, 0]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "The ASPCA list covers pets only, and neither NC State nor Missouri Botanical Garden records a poisoning concern for people.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Boston Fern (Nephrolepis exalta bostoniensis)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/boston-fern"
+      }
+    ],
+    "src": [3, 0]
+  },
+  "problems": [
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Fronds turn brown and shed, leaving bare stems",
+      "causeKey": "underwatering",
+      "cause": "The root ball dried out completely, often in a hanging basket",
+      "remedy": "Soak the pot until the mix is evenly wet; if most fronds are lost, cut them back to about 2 inches and keep the mix moist while new ones grow."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Leaflet tips go brown and crisp in winter",
+      "causeKey": "low-humidity",
+      "cause": "Heated indoor air, often under 30 percent humidity",
+      "remedy": "Set the pot on a tray of wet pebbles, double pot it in moist sphagnum or move it to a kitchen or bathroom with good light."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Pale stippling on leaflets and fine webbing between fronds",
+      "causeKey": "pests",
+      "cause": "Spider mites, which thrive when the air around the fern is dry",
+      "remedy": "Rinse the fronds outdoors with a brisk water spray and raise the humidity; test any spray on a few fronds first, since many pesticides injure ferns."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Fronds yellow from the center while the mix smells sour",
+      "causeKey": "overwatering",
+      "cause": "Root rot from a mix that drains slowly or a pot left standing in water",
+      "remedy": "Empty any standing water, repot into a porous, peaty mix with drainage and keep it moist rather than soggy."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Bleached, scorched patches on fronds facing the window",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sun through a south or west window",
+      "remedy": "Move it back from the glass or to a north or east window; Clemson warns that direct sunlight damages fern foliage."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "Small brown bumps or cottony tufts on the stems",
+      "causeKey": "pests",
+      "cause": "Scale insects or mealybugs",
+      "remedy": "Pick them off by hand or wipe stems gently; do not mistake the neat rows of dark spore dots under the fronds for scale."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of the crowded clump",
+      "Spores (slow, mainly for growers)"
+    ],
+    "season": "Early spring"
+  },
+  "size": {
+    "heightIn": [24, 36],
+    "widthIn": [24, 36],
+    "growth": "fast",
+    "src": [0, 1]
+  },
+  "varieties": [
+    {
+      "name": "Bostoniensis",
+      "note": "The classic parlor fern: broad, drooping fronds to about 3 feet long that cascade on all sides."
+    },
+    {
+      "name": "Compacta",
+      "note": "Shorter and more upright, with fronds of about 15 to 18 inches."
+    },
+    {
+      "name": "Dallas (Dallas Jewel)",
+      "note": "Small and fast; NC State says it tolerates lower light and less humidity."
+    },
+    {
+      "name": "Fluffy Ruffles",
+      "note": "Small, stiff, densely leafed upright fronds with wavy edges."
+    },
+    {
+      "name": "Tiger Stripe",
+      "note": "Gold-variegated fronds on a dense, arching plant."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nephrolepis exaltata (Boston Fern)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/nephrolepis-exaltata/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Nephrolepis exaltata 'Bostoniensis'",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=250750",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Ferns (HGIC 1505)",
+      "publisher": "Clemson Cooperative Extension, Home and Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Boston Fern",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/boston-fern",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Division",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/division",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["spider-plant", "prayer-plant", "calathea", "parlor-palm", "pilea"],
+  "seo": {
+    "title": "Boston Fern Care: Humidity, Water and Light Guide (2026)",
+    "description": "Boston fern care in 2026: keep the mix barely moist, give bright indirect light and high humidity, and feed at half strength from April through September.",
+    "h1": "Boston fern care: humidity, water and light"
+  },
+  "content": {
+    "answer": "A Boston fern wants potting mix that stays barely moist and never dries out, bright indirect light with no direct sun, and humid air. Clemson Extension advises half-strength liquid fertilizer once a month from April through September and none in winter.",
+    "intro": "Nephrolepis exaltata 'Bostoniensis' is a sword fern from the tropical and subtropical Americas that, in the wild, often grows as an epiphyte perched on trees, its short upright rhizome sending out thin runners called stolons. It never flowers and never sets seed: the neat rows of dark dots under mature fronds are spore cases, not insects. That rainforest background explains almost every care rule. NC State Extension describes a plant that wants bright, indirect light, warmth around 60 to 70°F, high humidity and moist soil that is never allowed to dry out, and it grows quickly, to 2 to 3 feet tall and wide. Indoors the two enemies are dry winter air and a basket that dries out between waterings. Keep the fronds out of direct sun, keep the mix evenly damp, and the cascade of arching fronds will fill a hanging basket within a season.",
+    "light": [
+      "The fern evolved under a forest canopy, so it wants plenty of light without the sun itself landing on the fronds. Clemson Extension puts the ideal spot close to a north-facing window and warns never to set ferns directly in a south or west window, where direct sun damages the foliage. An east window, or a spot a few feet back from a bright west one, works just as well. Missouri Botanical Garden sums it up as bright indirect light with no direct sun, with some tolerance for shade.",
+      "The University of Illinois Extension even lists Boston fern among houseplants that get by in low light, about 75 foot-candles, a few feet from a north window. Getting by is not thriving, though: in a dim corner the fronds grow sparse and pale, and the plant uses water so slowly that wet mix becomes a risk. If your fern is thinning, a brighter but still shaded spot usually helps more than any feeding."
+    ],
+    "water": [
+      "This is the one fern rule nobody should bend: the root ball must not dry out. NC State says the soil should never be allowed to dry, Clemson asks for soil kept barely moist at all times, and Missouri Botanical Garden warns that the plant sheds fronds when the mix dries. Feel the surface every few days and water as soon as it loses its cool, damp feel, pouring slowly until water runs from the drainage holes. A basket that feels light when you lift it is already too dry.",
+      "Moist is not the same as soggy. Clemson cautions against letting water stand in pots, since it damages the roots, so empty the saucer and check any decorative outer pot after watering. Hanging baskets are the hardest case, because warm air near the ceiling dries them quickly; taking the basket down and setting it in a sink of water for a few minutes rewets a mix that has started to pull away from the sides.",
+      "Winter needs a lighter hand, and here the sources do not quite agree. NC State says to reduce watering because the plant is resting and overwatering can lead to root rot, while Missouri Botanical Garden calls for only a slight reduction from fall to late winter. Both positions fit together in practice: water less often because the mix dries more slowly in short days, but keep checking so it never goes bone dry next to a heater."
+    ],
+    "soil": [
+      "Fern roots want air as well as water, so the mix has to be porous and quick to drain while still holding moisture. Missouri Botanical Garden recommends a peaty, soil-based potting mix, and Clemson suggests equal parts packaged houseplant potting mix and peat moss or leaf mold, close to the organic litter the fern grows in naturally. Avoid dense garden soil and anything that stays wet and heavy for days. Wire baskets lined with moss dry fast; a plastic hanging pot with a drainage saucer holds water longer and suits a dry apartment better."
+    ],
+    "humidity": [
+      "Humidity is where most Boston ferns struggle. The University of Illinois Extension notes that homes often fall below 30 percent humidity in winter, and NC State says this fern needs high humidity. Missouri Botanical Garden suggests a tray of wet pebbles, with the pot sitting above the water rather than in it, and placing the fern in or near a kitchen or bathroom. Clemson adds a gardener's trick: set the growing pot inside a larger container lined with moist sphagnum moss. Light misting helps only for a short time, so treat it as a supplement, not the main fix."
+    ],
+    "temperature": [
+      "Normal room warmth suits it. NC State gives 60 to 70°F (16 to 21°C), and Clemson's fern table lists days of 68 to 72°F with nights around 50 to 55°F (10 to 13°C), so a cooler night is welcome. Keep it away from heating vents and radiators, which dry the fronds even when the temperature is fine, and from cold glass in January. The plant is hardy outdoors only in USDA zones 10 to 12, so a fern that spends summer on a shaded porch has to come inside before nights drop toward 50°F."
+    ],
+    "fertilizer": [
+      "Ferns burn easily. Clemson recommends fertilizing lightly once a month from April through September with a liquid houseplant fertilizer at about half the recommended rate, warns that heavy feeding scorches the leaflets, and says not to fertilize in winter or for six months after repotting. Missouri Botanical Garden likewise calls for weak applications monthly from spring to early fall. If brown edges appear after feeding, flush the pot with plenty of plain water and wait before feeding again."
+    ],
+    "repotting": [
+      "A fast grower fills its container quickly, and the crowded rhizomes push fronds out over the rim while the center thins. Clemson's advice is to repot overcrowded plants in early spring, using its mix of houseplant potting soil and peat moss or leaf mold. Other signs, from the University of Illinois Extension, are roots growing through the drainage holes and a plant that wilts between normal waterings. Because the plant reproduces by division so easily, splitting an oversized fern into two or three pots is often better than moving it into an ever larger basket."
+    ],
+    "propagation": [
+      "Division is the practical method, and Clemson calls it the best way to propagate most ferns. In early spring, slide the root ball out, pull or cut it into sections that each keep a good share of rhizome, roots and fronds, and pot them at once so the roots do not dry. Keep the new divisions in high humidity and shade until they push fresh fronds.",
+      "The fern also makes spores in the dark dots under its fronds, but raising plants from spores is slow and fussy, and many named cultivars do not come true from spores. For a home grower, division gives a full-sized plant in a fraction of the time."
+    ],
+    "problems": [
+      "Nearly every Boston fern problem starts with air or water. A rain of brown leaflets on the floor means the root ball dried out or the air is too dry; crisp brown tips in winter point to heated air. NC State warns that scale and spider mites appear when the air around the plant is too dry, and Missouri Botanical Garden adds mealybugs, whitefly and indoor leaf drop. Before treating, look closely: the regular rows of round spore dots on the underside of mature fronds are normal and are often mistaken for scale. Clemson notes that many pesticide sprays injure ferns, so try a brisk rinse with water first and test any product on a few fronds."
+    ],
+    "petSafety": [
+      "The ASPCA lists the Boston fern as non-toxic to both cats and dogs, and NC State tags it as non-toxic for cats, dogs and horses. That makes it one of the safest choices for a hanging basket where a cat might reach. Non-toxic does not mean a pet can graze on it freely: eating a lot of any plant can upset a stomach, and a cat that chews fronds will ruin the plant long before it harms itself. Be aware that the name fern covers unrelated plants: the asparagus fern, for example, is not a true fern and the ASPCA lists it as toxic."
+    ],
+    "faq": [
+      {
+        "q": "Why is my Boston fern dropping so many leaflets indoors?",
+        "a": "Shedding leaflets almost always means the plant lost water faster than it got it: a root ball that dried out once, or dry heated air. Missouri Botanical Garden notes that fronds drop when the soil dries. Check the mix daily for a week, add a pebble tray, and move the basket away from heating vents. Fresh fronds from the center show the fern has recovered."
+      },
+      {
+        "q": "Can I cut my Boston fern back hard to save it?",
+        "a": "Yes. Missouri Botanical Garden says that when a Boston fern has shed its fronds after drying out, all of them can be cut back to about 2 inches so the plant regenerates. Do it only if the rhizome and roots are still firm, keep the mix evenly moist afterward, and give bright indirect light. New fiddleheads usually appear from the crown within weeks in the growing season."
+      },
+      {
+        "q": "Are the brown dots under Boston fern fronds a pest?",
+        "a": "Usually not. Boston fern reproduces by spores, and NC State describes them as dark brown to black dots arranged in a regular pattern on the underside of the fronds. Pests look different: scale insects are irregular raised bumps that scrape off, and spider mites leave pale speckles and fine webbing. If the dots sit in neat rows along the leaflet edges, leave them alone."
+      },
+      {
+        "q": "Can a Boston fern spend the summer outside on a porch?",
+        "a": "It can, and many ferns grow lusher outdoors in humid summer air. Choose full shade, since direct sun scorches the fronds, and check the basket every day because wind dries it quickly. Bring it back before nights cool toward 50°F, inspect it for insects, and keep it apart from other houseplants for a couple of weeks, as the University of Illinois Extension advises for any plant moved indoors."
+      },
+      {
+        "q": "Which Boston fern cultivar copes best with a dry apartment?",
+        "a": "NC State describes 'Dallas', also sold as 'Dallas Jewel', as a small, fast-growing cultivar that tolerates lower light and less humidity than the classic 'Bostoniensis'. It still wants moist mix and no direct sun, but it forgives a heated room better than the large, drooping form. Compact types such as 'Compacta' also fit tabletops where a full basket would be too big."
+      }
+    ]
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "slug": "rosemary",
+  "commonName": "Rosemary",
+  "otherNames": [
+    "Rose of the sea",
+    "Old man",
+    "Anthos"
+  ],
+  "botanicalName": "Salvia rosmarinus",
+  "formerNames": [
+    "Rosmarinus officinalis"
+  ],
+  "family": "Lamiaceae",
+  "kind": "shrub",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [300, 1500],
+    "lux": [3229, 16146],
+    "windows": ["south", "west"],
+    "directSun": "needs",
+    "src": [1, 5, 7, 9]
+  },
+  "water": {
+    "rule": "top-2-inches",
+    "ruleText": "Let the top of the mix dry before watering, but never let the whole root ball go bone dry",
+    "winter": "Indoors in winter growth nearly stops; keep the mix on the dry side, as Illinois Extension advises, but check it often because a dry root ball in a warm room kills rosemary quickly.",
+    "factors": [
+      "Overwatering is the most common cause of decline and death, according to NC State and Wisconsin Extension.",
+      "Indoor heat dries the plant fast, and Illinois Extension warns that brown tips and dieback follow, yet the cure is humidity, not more water.",
+      "A clay pot, which Missouri Botanical Garden prefers, dries faster than plastic and lowers the risk of rot."
+    ],
+    "src": [0, 1, 3, 4, 5]
+  },
+  "soil": {
+    "mix": "A soil-based potting mix opened up with grit so it drains freely; never a heavy, peat-rich mix.",
+    "components": [
+      "loam-based potting mix",
+      "horticultural grit, up to a quarter of the volume",
+      "clay pot with plenty of drainage holes"
+    ],
+    "src": [0, 1, 2]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Likes moist air around the needles but dry roots and good air movement; still, humid air invites powdery mildew.",
+    "src": [0, 1, 4]
+  },
+  "temperature": {
+    "minF": 45,
+    "minC": 7,
+    "src": [1, 2, 4, 5]
+  },
+  "fertilizer": {
+    "season": "Late spring and summer, while it grows outdoors",
+    "everyWeeks": [4, 13],
+    "strength": "half",
+    "type": "A light hand: diluted balanced liquid fertilizer, or one sprinkle of general granular feed in late spring for a plant more than a year in its pot",
+    "winter": "none",
+    "src": [2, 3, 8]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow out of the drainage holes",
+      "The pot dries out within a day in summer",
+      "The plant has been in the same mix for several years"
+    ],
+    "season": "Spring, before the pot goes outside",
+    "rootType": "woody",
+    "prefersSnug": true,
+    "src": [2, 3, 5]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "non-toxic",
+    "humanNote": "A culinary herb: NC State lists the leaves for teas and flavoring. Like any strongly aromatic herb, large amounts are not food.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Rosemary (Rosmarinus officinalis)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/rosemary"
+      }
+    ],
+    "src": [0, 6]
+  },
+  "problems": [
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Needle tips turn brown and shoots die back over winter",
+      "causeKey": "low-humidity",
+      "cause": "Warm, dry indoor air drawing moisture out of the foliage",
+      "remedy": "Move it to the coolest bright window, stand the pot on a pebble tray and keep heat vents away; do not answer with extra water."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Whole plant grays and wilts though the mix is damp",
+      "causeKey": "overwatering",
+      "cause": "Root rot from mix that stayed wet in a cool room",
+      "remedy": "Unpot, trim soft dark roots, repot into gritty mix in clay and water only once the top of the mix is dry."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Weak, pale shoots with widely spaced needles",
+      "causeKey": "low-light",
+      "cause": "Fewer than six hours of direct sun indoors",
+      "remedy": "Use the sunniest south window and add grow lights if the window cannot provide six hours of sun."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale stippling on the needles",
+      "causeKey": "pests",
+      "cause": "Spider mites, common on indoor rosemary",
+      "remedy": "Rinse the foliage in the shower, isolate the plant and treat with insecticidal soap until no new webbing appears."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony clumps where needles meet the stem",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Dab colonies with rubbing alcohol on a cotton swab and cut away heavily infested tips."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky residue and tiny insects on soft new growth",
+      "causeKey": "pests",
+      "cause": "Aphids or whiteflies",
+      "remedy": "Snip off infested shoots, wash the plant and use insecticidal soap; rinse any sprigs well before cooking."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Tip cuttings from nonflowering shoots",
+      "Layering low stems",
+      "Seed (slow and variable)"
+    ],
+    "season": "Late spring to early summer"
+  },
+  "size": {
+    "heightIn": [24, 72],
+    "widthIn": [24, 48],
+    "growth": "moderate",
+    "note": "Those figures are for plants in the ground where hardy; a pruned container plant stays much smaller.",
+    "src": [0, 1, 9]
+  },
+  "varieties": [
+    {
+      "name": "Arp",
+      "note": "Upright, gray foliage, light blue flowers; one of the more cold-tolerant selections."
+    },
+    {
+      "name": "Madeline Hill",
+      "note": "Rounded, compact habit with light green leaves and improved hardiness."
+    },
+    {
+      "name": "Barbeque",
+      "note": "Straight, sturdy upright stems strong enough to use as skewers."
+    },
+    {
+      "name": "Prostratus",
+      "note": "Creeping form, 6 to 12 inches tall, good for hanging baskets."
+    },
+    {
+      "name": "Spice Island",
+      "note": "Thick, very aromatic leaves on an upright plant; a favorite for cooking."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Salvia rosmarinus (Rosemary)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/salvia-rosmarinus/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Salvia rosmarinus",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=444418",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow rosemary",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/herbs/rosemary/grow-your-own",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Rosemary, Salvia rosmarinus",
+      "publisher": "Wisconsin Horticulture, University of Wisconsin-Madison Extension",
+      "url": "https://hort.extension.wisc.edu/articles/rosemary-rosemarinus-officinalis/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Rosemary",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/herbs/rosemary",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Growing Herbs Indoors",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/growing-herbs-indoors",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Rosemary",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/rosemary",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Rosemary",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/vegetables/rosemary/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Rosemary",
+      "publisher": "University of Maryland Extension",
+      "url": "https://extension.umd.edu/resource/rosemary",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["lavender", "mint"],
+  "seo": {
+    "title": "Rosemary Care in Containers: Bringing It Indoors (2026)",
+    "description": "Rosemary care for 2026: hardy only to zone 8, so most of the US overwinters it in a pot. Sun, watering, humidity and the mistakes that kill it indoors.",
+    "h1": "Rosemary care: keeping a potted plant alive through winter"
+  },
+  "content": {
+    "answer": "Grow rosemary in a clay pot of gritty mix, give it at least six hours of sun, and let the top of the mix dry between waterings without ever letting the root ball go bone dry. Indoors in winter, a cool, bright, humid spot works best.",
+    "intro": "Zone 8 is the dividing line. Salvia rosmarinus, still sold under its old name Rosmarinus officinalis, is a woody evergreen shrub from the dry scrub and sea cliffs of the Mediterranean, and Wisconsin Extension notes it is winter hardy only to zone 8a. Everywhere colder, which is most of the country, rosemary lives in a pot that summers outdoors and winters inside. That indoor stretch is where plants die. NC State and Missouri Botanical Garden both call rosemary difficult to overwinter indoors, and the reasons pull in opposite directions: the needles hate hot, dry air, while the roots rot if the mix stays wet. Success means a cool, very bright window, air that is humid but moving, and watering that keeps the root ball barely moist. Get those three right and a single plant will supply the kitchen for years, then root easily from cuttings when it finally gets too woody to keep.",
+    "light": [
+      "Rosemary is a full-sun shrub, and Missouri Botanical Garden is specific about winter: the best indoor spot is a sunny south window, and if the plant cannot get at least six hours of sun a day, add grow lights. Penn State Extension puts rosemary on its short list of herbs that do best in direct sunlight. UF/IFAS gives the same six-hour minimum outdoors.",
+      "Even a south window is dim compared with a patio. The University of Illinois Extension measures about 1,500 foot-candles right at a south window against 10,000 or more outside, so indoor rosemary grows slowly and that is fine. Turn the pot regularly so it does not lean. In spring, Missouri Botanical Garden suggests taking containers outside in mid-spring after the last frost date; give the plant a few days in light shade first so needles grown indoors do not scorch."
+    ],
+    "water": [
+      "Missouri Botanical Garden sums up the target well: let the mix dry out on top, but not dry throughout. Check by pushing a finger an inch or two into the pot. Dry at that depth means water thoroughly until it drains from the bottom; damp means wait. Empty the saucer every time.",
+      "Overwatering is the classic killer. NC State and Wisconsin Extension both call it the most common cause of decline and death, and UF/IFAS adds that rosemary suffers when watered too frequently. A cool room makes this worse, because the mix holds water for longer when evaporation slows.",
+      "The trap is that indoor rosemary also dries out quickly. Illinois Extension describes how brown tips and dieback appear in heated rooms, and warns that the answer is not more water but more humidity and a cooler spot. A completely dry root ball is fatal too, and the needles often stay green for a while after the roots have died, so you only notice when it is too late. Lift the pot every few days: a light pot needs water even if the surface looks damp."
+    ],
+    "soil": [
+      "Drainage first. The RHS recommends a soil-based potting mix with horticultural grit added at up to 25 percent by volume, in a pot at least 12 inches wide and deep with plenty of drainage holes. Missouri Botanical Garden prefers clay pots. NC State notes rosemary tolerates most soil types except clay.",
+      "Published pH preferences disagree. NC State and Missouri Botanical Garden lean slightly acidic, while the University of Maryland Extension gives 6.5 to 7.0. Any ordinary potting mix falls close to that range, so focus on drainage rather than chasing a number."
+    ],
+    "humidity": [
+      "Here the sources seem to contradict each other, and both are right. Missouri Botanical Garden wants an overwintering room that is sunny, humid, cool and well ventilated, and Illinois Extension recommends a pebble tray and frequent misting. NC State meanwhile says rosemary has a low tolerance for wet, humid environments. The difference is moving air: humidity around the needles prevents drying, but still, stagnant humidity brings powdery mildew, which Missouri Botanical Garden links to poor air circulation. Use the pebble tray and keep a little air flowing."
+    ],
+    "temperature": [
+      "Cool is better than warm in winter. Illinois Extension asks for a cool, even cold, sunny location indoors, and Missouri Botanical Garden suggests a cool room. A bright unheated sunroom or an enclosed porch that stays above freezing is ideal. Penn State Extension notes that most herbs survive the mid to low 40s, and rosemary handles that comfortably.",
+      "Outdoors, the RHS says well-established plants in the ground survive about 18°F (minus 8°C), but potted roots are far more exposed. Bring containers indoors before the first fall frost. Wisconsin Extension offers a trick for summer: sink the pot, rim below soil level, into a garden bed so the roots are never disturbed when you lift it in fall."
+    ],
+    "fertilizer": [
+      "Feed lightly. Wisconsin Extension warns that excess fertilizer reduces flowering and fragrance, and the RHS suggests just a sprinkling of general granular feed in late spring or early summer for a plant that has been in the same container for more than a year. A diluted balanced liquid fertilizer used at the long end of the University of Illinois Extension houseplant guideline, once every one to three months during the growing season, is a reasonable alternative. Do not feed in winter."
+    ],
+    "repotting": [
+      "Rosemary can stay in the same pot for a long time. Wisconsin Extension notes that a slightly pot-bound plant flowers better, so repot only when roots fill the container, push through the drainage holes, or the pot dries out almost as soon as it is watered. Spring, before it moves outdoors, is the moment. Go up one size, use the same gritty mix, and keep the crown at its original level.",
+      "Knobby bumps on old stems are not a disease. The University of Maryland Extension explains these are adventitious roots and normal on older plants."
+    ],
+    "propagation": [
+      "Cuttings are the best method, and Wisconsin Extension describes them precisely: take 4 to 6 inch tip cuttings from a flower-free shoot in late spring or early summer, remove the lower leaves, and root them in perlite, using rooting hormone if you have it. The RHS also recommends layering, pegging a low stem into soil until it roots. UF/IFAS considers rosemary difficult from cuttings, so take several to be safe.",
+      "Seed is a poor option. Wisconsin Extension notes germination is irregular and slow, even at an ideal 60°F, and that seedlings can take up to three years to give a real harvest."
+    ],
+    "problems": [
+      "Indoor rosemary attracts sap feeders. Missouri Botanical Garden lists aphids, mealybugs, whiteflies and spider mites as the pests to watch for on indoor plants, less so outside. Powdery mildew shows as a white dusty coating on the needles in stuffy rooms. Botrytis and root rot are the main diseases. Harvest gently while the plant is under stress: Wisconsin Extension suggests removing no more than 20 percent of the growth at a time."
+    ],
+    "petSafety": [
+      "The ASPCA lists rosemary as non-toxic to dogs, cats and horses, which makes it one of the safer herbs to keep on a kitchen sill with pets around. A dog or cat that chews a lot of any plant can still get an upset stomach, and you may not want pets nibbling the plant you cook with, but there is no poison concern. Insecticides are another matter: if you treat pests, keep pets away until the spray has dried and follow the label."
+    ],
+    "faq": [
+      {
+        "q": "How do I keep a Christmas tree shaped rosemary alive after the holidays?",
+        "a": "These topiaries are sold at the worst time of year for rosemary. Remove the foil wrap, move the pot to the brightest, coolest window, and water only when the top of the mix dries. Repot into a gritty mix in a clay pot in spring and set it outdoors after frost. Prune lightly to keep the cone shape."
+      },
+      {
+        "q": "Why did my rosemary die suddenly indoors even though it looked green?",
+        "a": "Rosemary often holds its color for days after the roots have died, so the collapse looks sudden. The two usual causes are opposite: a root ball that dried out completely in a warm room, or roots rotted by mix that stayed wet. Check the roots. Brittle and dry points to underwatering; brown and mushy means rot."
+      },
+      {
+        "q": "Can I dig up garden rosemary and bring it inside for winter?",
+        "a": "You can, but Illinois Extension warns that rosemary does not transplant well. If you do it, Wisconsin Extension suggests digging two to three weeks before the expected first fall frost so the plant can adjust before it moves inside. Next year, keep it in a pot all summer, or sink the pot in the bed, to skip the shock."
+      },
+      {
+        "q": "Should I mist my indoor rosemary plant every day?",
+        "a": "Misting helps, according to Illinois Extension, because dry indoor air causes brown tips. Mist in the morning so the needles dry quickly, and combine it with a pebble tray and a cool spot. Stop if you see a white powdery coating, a sign of powdery mildew; then improve air movement instead, as Missouri Botanical Garden recommends."
+      },
+      {
+        "q": "Is rosemary hardy enough to stay outside in zone 7?",
+        "a": "Usually not reliably. Wisconsin Extension gives zone 8a as the limit for the species, but some cultivars do better: 'Arp' and 'Madeline Hill' are rated to zone 7a, possibly 6a with protection. A container plant is less hardy than one in the ground because its roots freeze more easily, so bring pots in or shelter them."
+      }
+    ]
+  }
+}

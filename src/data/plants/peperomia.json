@@ -1,0 +1,352 @@
+{
+  "slug": "peperomia",
+  "commonName": "Peperomia",
+  "otherNames": [
+    "Radiator plant",
+    "Baby rubber plant",
+    "Emerald ripple peperomia",
+    "Watermelon peperomia"
+  ],
+  "botanicalName": "Peperomia spp.",
+  "formerNames": [
+    "Rhynchophorum"
+  ],
+  "family": "Piperaceae",
+  "kind": "foliage",
+  "isGroup": true,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "medium",
+    "maxLevel": "high",
+    "fc": [75, 300],
+    "lux": [807, 3229],
+    "windows": ["north", "east", "west", "south"],
+    "directSun": "avoid",
+    "src": [0, 1, 4, 5, 7, 8]
+  },
+  "water": {
+    "rule": "top-2-inches",
+    "ruleText": "Let the top inch or two of mix dry out before watering again",
+    "winter": "Missouri Botanical Garden advises cutting back watering from fall to late winter, when growth slows.",
+    "factors": [
+      "Overwatering is the main threat: Clemson links it to leaf drop and root rot, NC State to yellowing and curling leaves.",
+      "The thick-leaved species store water in their leaves and handle a missed watering far better than a soggy pot.",
+      "Keep water off the leaves; NC State and Clemson tie wet foliage to fungal leaf spots."
+    ],
+    "src": [0, 3, 4, 5, 7]
+  },
+  "soil": {
+    "mix": "A light, well-drained houseplant or cactus mix; Missouri Botanical Garden suggests a peaty mix, so add perlite if it holds water.",
+    "components": [
+      "houseplant potting mix",
+      "perlite",
+      "cactus mix for the succulent types"
+    ],
+    "src": [0, 3, 5]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Adapts to normal home humidity. The RHS and Missouri Botanical Garden say most prefer humid air, and Clemson suggests a humidifier in winter.",
+    "src": [0, 1, 4, 5, 7]
+  },
+  "temperature": {
+    "idealF": [65, 86],
+    "idealC": [18, 30],
+    "minF": 50,
+    "minC": 10,
+    "src": [4, 7]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, during active growth",
+    "everyWeeks": [4, 13],
+    "strength": "half",
+    "type": "Low-strength liquid houseplant fertilizer, or slow-release granules once a year",
+    "winter": "none",
+    "src": [4, 5, 9]
+  },
+  "repotting": {
+    "signs": [
+      "Roots fill the pot and show at the drainage hole",
+      "The plant tips over or dries out much faster than before",
+      "The old mix stays wet for days after watering"
+    ],
+    "season": "Spring",
+    "rootType": "fibrous",
+    "prefersSnug": true,
+    "src": [0, 5]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "No human toxicity rating found in the extension sources; they treat peperomias as safe houseplants, and Clemson says most are considered safe for pets.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Baby Rubber Plant (Peperomia obtusifolia)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/baby-rubber-plant"
+      },
+      {
+        "name": "Emerald Ripple Peperomia (Peperomia caperata)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/emerald-ripple-peperomia",
+        "toxicPrinciples": "Non-toxic"
+      },
+      {
+        "name": "Watermelon Peperomia (Peperomia argyreia)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/watermelon-peperomia"
+      },
+      {
+        "name": "Red Edge Peperomia (Peperomia clusiifolia)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/red-edge-peperomia",
+        "toxicPrinciples": "Non-toxic"
+      }
+    ],
+    "src": [10, 11, 12, 13, 5]
+  },
+  "problems": [
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Lower leaves turning yellow and soft",
+      "causeKey": "overwatering",
+      "cause": "Mix kept wet, the first problem every source names",
+      "remedy": "Let the top of the mix dry before watering, empty the saucer, and repot into fresh, airy mix if the roots smell sour."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Healthy-looking leaves dropping off at a touch, stems dark at the base",
+      "causeKey": "overwatering",
+      "cause": "Root and stem rot, which Clemson calls the most common disease",
+      "remedy": "Take tip or leaf cuttings from firm growth, and discard the rotted stems and soil."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Dark, sunken spots on the leaves",
+      "causeKey": "disease",
+      "cause": "Fungal leaf spot from water sitting on the foliage",
+      "remedy": "Water the mix, not the leaves, remove spotted leaves and give the plant more air circulation."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Bleached or scorched patches on the side facing the window",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sun, which scorches the leaves according to NC State and the RHS",
+      "remedy": "Move it back from a sunny window or behind a sheer curtain; bright indirect light is enough."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Weak, spindly stems with small, widely spaced leaves",
+      "causeKey": "low-light",
+      "cause": "Deep shade, which the RHS says causes spindly growth",
+      "remedy": "Move it closer to a north or east window, or under fluorescent or LED light, and pinch back the stretched stems."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony clusters on stems and under leaves",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Remove them with a cotton swab dipped in rubbing alcohol and check the plant weekly until they stop returning."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Leaf cuttings with a short petiole",
+      "Stem cuttings in mix or water",
+      "Division of clumping types"
+    ],
+    "season": "Spring"
+  },
+  "size": {
+    "heightIn": [6, 12],
+    "widthIn": [6, 12],
+    "growth": "slow",
+    "note": "Most species stay 6 to 12 inches high and wide (NC State); Peperomia obtusifolia can reach 2 feet, and trailing types spill lower.",
+    "src": [0, 1, 7]
+  },
+  "varieties": [
+    {
+      "name": "Peperomia obtusifolia (baby rubber plant)",
+      "note": "Upright, with glossy, cupped, spoon-shaped leaves; up to 2 feet per NC State, with many variegated cultivars."
+    },
+    {
+      "name": "Peperomia caperata (emerald ripple)",
+      "note": "Mound of deeply furrowed heart-shaped leaves about 1.5 inches long, to 8 inches tall."
+    },
+    {
+      "name": "Peperomia argyreia (watermelon peperomia)",
+      "note": "Round leaves striped dark and light green like a watermelon rind; about 8 inches tall per Clemson."
+    },
+    {
+      "name": "Peperomia clusiifolia (red edge)",
+      "note": "Stiff, elliptical deep green leaves with dark red margins."
+    },
+    {
+      "name": "Peperomia prostrata (string of turtles)",
+      "note": "Very low trailing stems of tiny veined leaves, best in a hanging pot."
+    },
+    {
+      "name": "Peperomia polybotrya (raindrop)",
+      "note": "Succulent, glossy, pointed leaves, about 12 inches tall and wide; often confused with Pilea peperomioides."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Peperomia (Radiator Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Peperomia obtusifolia (Baby Rubber Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-obtusifolia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Peperomia caperata (Emerald Ripple Peperomia)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/peperomia-caperata/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Peperomia obtusifolia",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285088",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Peperomia caperata",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=285110",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Peperomia (Peperomia spp.): Indoor Plant Care and Growing Guide",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/peperomia-peperomia-spp-indoor-plant-care-and-growing-guide/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Florida Peperomia",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/florida-peperomia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Peperomia",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/peperomia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Baby Rubber Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/baby-rubber-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Emerald Ripple Peperomia",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/emerald-ripple-peperomia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watermelon Peperomia",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/watermelon-peperomia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Red Edge Peperomia",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/red-edge-peperomia",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["rubber-plant", "pilea", "hoya", "prayer-plant", "spider-plant"],
+  "seo": {
+    "title": "Peperomia Care: Light, Water and Species Guide (2026)",
+    "description": "Peperomia care in 2026: bright indirect light, a light mix left to dry on top between waterings and warmth above 50°F, per the RHS. Pet safe per the ASPCA.",
+    "h1": "Peperomia care: light, water and species"
+  },
+  "content": {
+    "answer": "Most peperomias want bright, indirect light, a light, well-drained mix and water only once the top of the pot has dried. Keep them above 50°F and out of drafts. Every peperomia the ASPCA lists is non-toxic to cats and dogs.",
+    "intro": "Peperomia is a genus of more than 1,000 species in the black pepper family, Piperaceae, spread across the tropics of Central and South America, Africa and Asia. Many grow as small epiphytes on mossy trunks or as ground covers on the forest floor, and many have thick, semi-succulent leaves that store water, which NC State notes is why they forgive a missed watering far more readily than a soggy pot. The species sold as houseplants look very different from one another: the glossy, spoon-shaped baby rubber plant, the deeply furrowed emerald ripple, the striped watermelon peperomia, the trailing string of turtles. Their care is close enough to share one page. Give them bright, indirect light, a light mix that dries on top between waterings, warmth above 50°F and a small pot, and they stay compact, usually 6 to 12 inches tall. Their tiny flower spikes, said to look like mouse tails, are a curiosity, not the reason to grow them.",
+    "light": [
+      "Bright, indirect light suits nearly every species. The University of Illinois Extension classes Peperomia obtusifolia as a medium light plant, about 150 foot-candles, which matches a spot directly in front of a north window or a few feet back from an east or west one. Clemson suggests an east or south window, and Missouri Botanical Garden names north or east as the best indoor spot for the emerald ripple.",
+      "These plants tolerate low light better than most. NC State says the baby rubber plant and the emerald ripple can sit in low light for several months without stress, especially plain green forms, and that the emerald ripple does well under bright fluorescent office lights. Do not push it too far: the RHS warns that deep shade causes weak, spindly growth, and both NC State and the RHS say direct sun scorches the leaves. Variegated cultivars need the brighter end of the range to keep their color."
+    ],
+    "water": [
+      "Water thoroughly, let the pot drain, and wait until the top of the mix has dried before watering again. The RHS says to let the top few centimeters dry, roughly an inch or two, and Missouri Botanical Garden says to let the soil almost dry on top. Clemson simply says to let it dry out between waterings, then return the pot to its saucer only after it has finished draining.",
+      "The succulent-leaved types, such as the baby rubber plant and the raindrop peperomia, carry water in their leaves and stems, so it is safer to err on the dry side. Overwatering causes nearly every serious problem: Clemson names leaf drop and root rot, NC State names yellowing and curling leaves, and UF/IFAS adds stem rot for the Florida peperomia, which it says does better with slightly dry soil.",
+      "Slow down in winter. Missouri Botanical Garden advises reducing watering from fall to late winter, when short days slow growth and the mix dries more slowly."
+    ],
+    "soil": [
+      "Clemson recommends a well-drained houseplant or cactus potting mix, while Missouri Botanical Garden suggests a peaty mix and NC State a moist but well-drained blend of loam and sand. The common thread is air around the roots. A standard houseplant mix with a handful of perlite works for most species; use a cactus mix for the thick-leaved, succulent ones."
+    ],
+    "humidity": [
+      "Peperomias cope with normal indoor humidity. NC State says they thrive at the humidity levels of most homes and suggests a humidifier only if the air is very dry, and it describes the baby rubber plant as preferring medium to low humidity. The RHS says most prefer humid air but adapt to lower levels, and Missouri Botanical Garden notes they like high humidity in summer. Clemson suggests a humidifier in winter. Keep them away from radiators, which the RHS says dehydrate the leaves."
+    ],
+    "temperature": [
+      "The RHS gives 65 to 86°F (18 to 30°C) as the comfortable range and says to keep peperomias above 50°F (10°C). Missouri Botanical Garden is more cautious for the emerald ripple, with a recommended winter minimum of 60°F, so treat 60°F as the safer floor for that species. Clemson advises waiting until nights stay at 60°F or higher, usually in May, before moving them outdoors. Cold drafts are a particular risk, according to NC State."
+    ],
+    "fertilizer": [
+      "Feed sparingly and only in spring and summer. Clemson recommends a low-strength liquid fertilizer from time to time or a slow-release granular fertilizer once a year. Missouri Botanical Garden suggests monthly feeding for the emerald ripple during the growing season and none from fall through winter. The University of Illinois Extension guideline for most houseplants, once every one to three months between March and September, sits comfortably between them."
+    ],
+    "repotting": [
+      "Peperomias rarely need a new pot. NC State notes that they are slow growing and do not need repotting often, and Clemson says they can stay in the same pot for several years. When roots finally crowd the pot, Clemson advises moving up to a pot only slightly larger than the grower's pot. Repot in spring, when growth resumes, and keep the plant at the same depth it grew before."
+    ],
+    "propagation": [
+      "Most peperomias root easily from leaves or stems in spring. Clemson describes leaf cuttings with at least an inch of petiole inserted into rooting medium, and stem cuttings of 3 to 5 inches with rooting hormone in potting soil. For species like the baby rubber plant, cuttings of 4 to 6 inches can also be rooted in water.",
+      "Clumping species can be divided instead, which NC State lists alongside leaf and stem cuttings. Whatever the method, use a light, barely moist mix and keep the cuttings warm and in bright, indirect light until new growth shows they have rooted."
+    ],
+    "problems": [
+      "Problems are few and nearly always tied to water. NC State lists mealybugs, spider mites, aphids, scale, fungus gnats and whiteflies as the pests to monitor, and Clemson and Missouri Botanical Garden add fungal leaf spot. Root rot from soil kept too moist is the most common disease. UF/IFAS notes that Florida peperomia is generally unaffected by long-term pests, with mites and leaf spot only short-term issues."
+    ],
+    "petSafety": [
+      "Peperomias are a safe choice for homes with pets. The ASPCA lists the baby rubber plant, emerald ripple, watermelon and red edge peperomias as non-toxic to cats and dogs, and Clemson says most peperomias are considered safe for pets. One naming trap: the ASPCA entries called rubber plant and baby rubber plant describe Peperomia obtusifolia, not the ficus sold as a rubber plant, which is a different and toxic plant. Eating any plant in quantity can still upset a pet's stomach."
+    ],
+    "faq": [
+      {
+        "q": "Why is peperomia sometimes called radiator plant?",
+        "a": "NC State explains that the common name radiator plant refers to the genus's preference for warm conditions. Do not take it literally, though. The RHS warns that a spot close to a radiator dehydrates the plant, and Clemson recommends a humidifier in winter when heating dries the air. Warm, bright and away from direct heat is what peperomias actually want."
+      },
+      {
+        "q": "Is the ASPCA's baby rubber plant a peperomia or a ficus?",
+        "a": "It is a peperomia. The ASPCA entries for baby rubber plant and American rubber plant describe Peperomia obtusifolia, which is non-toxic to cats and dogs. The large ficus sold as a rubber plant, Ficus elastica, is a different plant in the fig family and is not covered by those entries. Check the botanical name on the plant tag before relying on a pet safety list."
+      },
+      {
+        "q": "Can peperomia grow under office lights with no window?",
+        "a": "Often, yes. NC State says the emerald ripple peperomia performs well under bright fluorescent lights and is ideal for offices, and Missouri Botanical Garden notes it thrives under fluorescent lights. Place the plant as close to the fixtures as you can. If stems stretch and new leaves come in small and widely spaced, the light is too weak and the plant needs a window or a grow light."
+      },
+      {
+        "q": "How do I root a peperomia from a single leaf?",
+        "a": "Cut a healthy leaf with at least an inch of its stalk, or petiole, as Clemson describes, and insert the petiole into moist rooting medium so the leaf stands upright. Keep it warm and in bright, indirect light, and keep the medium barely moist rather than wet, since peperomias rot easily. Small new plants form at the base of the petiole; pot them up once they have a few leaves of their own."
+      },
+      {
+        "q": "What are the thin spikes growing out of my peperomia?",
+        "a": "They are flower spikes. Peperomia flowers are tiny, with no petals, packed along thin cream or greenish spikes that Missouri Botanical Garden says are reminiscent of mouse tails; on the emerald ripple they reach 2 to 3 inches. They are harmless and a sign the plant is content. Snip them off at the base if you prefer the look of the leaves alone."
+      }
+    ]
+  }
+}

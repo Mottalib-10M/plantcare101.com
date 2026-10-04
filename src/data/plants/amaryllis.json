@@ -1,0 +1,290 @@
+{
+  "slug": "amaryllis",
+  "commonName": "Amaryllis",
+  "otherNames": [
+    "Dutch amaryllis",
+    "Knight's star lily",
+    "Barbados lily",
+    "Fire lily"
+  ],
+  "botanicalName": "Hippeastrum hybrids",
+  "formerNames": [],
+  "family": "Amaryllidaceae",
+  "kind": "flowering",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [300, 1500],
+    "lux": [3229, 16146],
+    "windows": ["south", "east", "west"],
+    "directSun": "needs",
+    "src": [0, 1, 5]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water sparingly until leaves or the flower stalk appear, then keep the mix slightly moist and water when the surface feels dry",
+    "winter": "An amaryllis grows and flowers through winter, so water normally then. Its rest comes later: Clemson stops watering for 8 to 10 weeks to bring the bulb back into bloom, and NC State reduces watering until the leaves brown, then rests the pot at 50 to 55°F.",
+    "factors": [
+      "A freshly potted bulb has few roots, and soggy mix rots it before it sprouts; Clemson waits a week after the first soak.",
+      "Water use jumps once the stalk is up and flowering, so check the surface more often then.",
+      "Keep the neck of the bulb above the mix and dry, which Clemson says helps prevent red blotch."
+    ],
+    "src": [0, 1, 2]
+  },
+  "soil": {
+    "mix": "A free-draining, high-quality potting mix in a heavy pot only 1 to 2 inches wider than the bulb; Clemson rates equal parts peat and perlite as excellent.",
+    "components": [
+      "peat or peat-free potting mix",
+      "perlite",
+      "loam-based compost (RHS John Innes No.2)"
+    ],
+    "src": [0, 2]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "None of the sources sets a humidity need: this bulb grows in ordinary room air.",
+    "src": [0, 1, 2]
+  },
+  "temperature": {
+    "idealF": [65, 75],
+    "idealC": [18, 24],
+    "minF": 50,
+    "minC": 10,
+    "src": [0, 1, 2]
+  },
+  "fertilizer": {
+    "season": "From the time leaves grow after flowering until the late-summer rest; nothing on a bulb without leaves",
+    "everyWeeks": [1, 2],
+    "strength": "full",
+    "type": "Liquid houseplant fertilizer diluted per the label, balanced",
+    "winter": "reduced",
+    "src": [0, 2]
+  },
+  "repotting": {
+    "everyYears": [2, 3],
+    "signs": [
+      "Offsets crowd the main bulb against the rim",
+      "Roots push the bulb up out of the mix",
+      "Flowering weakens after two or three years in the same pot"
+    ],
+    "season": "January to March, after flowering",
+    "rootType": "thick-fleshy",
+    "prefersSnug": true,
+    "src": [0, 2]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "toxic",
+    "humanNote": "NC State rates the poison severity as medium: eating large quantities causes vomiting and diarrhea, and the bulb is the most poisonous part. Clemson says all parts are poisonous to humans and pets if ingested in quantity.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Barbados Lily (Hippeastrum spp.), also listed as Amaryllis",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/barbados-lily",
+        "toxicPrinciples": "Lycorine and other alkaloids",
+        "clinicalSigns": "Vomiting, salvation, diarrhea; large ingestions cause convulsions, low blood pressure, tremors and cardiac arrhythmias. Bulbs are the most poisonous part."
+      },
+      {
+        "name": "Amaryllis (Amaryllis spp.)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/amaryllis",
+        "toxicPrinciples": "Lycorine and others",
+        "clinicalSigns": "Vomiting (not horses), depression, diarrhea, abdominal pain, hypersalivation, anorexia, tremors."
+      }
+    ],
+    "src": [0, 1, 3, 4]
+  },
+  "problems": [
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Flower stalk leans hard toward the window and may snap",
+      "causeKey": "low-light",
+      "cause": "Too little direct sun, with the pot never turned",
+      "remedy": "Give it at least four hours of direct sun, rotate the pot every few days, and stake tall stalks."
+    },
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Bulb produces leaves but no flower stalk the next year",
+      "causeKey": "underwatering",
+      "cause": "Leaves cut or dried off too early, deep shade, or too little water during the previous summer",
+      "remedy": "Keep the foliage growing in sun with water and feed all summer, then give a full 8 to 10 week cool rest before restarting."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Bulb soft at the base, roots brown and mushy",
+      "causeKey": "overwatering",
+      "cause": "Mix kept wet around a bulb that had few roots, or a bruised bulb planted",
+      "remedy": "Discard a soft bulb and the old mix; next time water once after planting and wait for growth before watering again."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Reddish brown spots or streaks on the bulb, leaves or stalk",
+      "causeKey": "disease",
+      "cause": "Red blotch, a fungal disease that spreads within and between bulbs",
+      "remedy": "Plant with the neck well above the mix, keep water off the bulb, and remove badly marked leaves."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White fluff deep between the leaf bases",
+      "causeKey": "pests",
+      "cause": "Mealybugs, an occasional pest of potted amaryllis",
+      "remedy": "Dab colonies with rubbing alcohol on a cotton swab and treat with insecticidal soap until no new fluff appears."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "All the leaves yellow and wither in fall",
+      "causeKey": "dormancy",
+      "cause": "The bulb entering its rest after water is cut back",
+      "remedy": "Normal: remove the dry leaves, keep the pot cool and dry for 8 to 10 weeks, then bring it back to warmth and light."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Offset bulbs separated at repotting",
+      "Fresh seed (slow and variable)"
+    ],
+    "season": "January to March for offsets; spring for seed"
+  },
+  "size": {
+    "heightIn": [12, 36],
+    "widthIn": [9, 12],
+    "growth": "fast",
+    "src": [0, 1]
+  },
+  "varieties": [
+    {
+      "name": "Red Lion",
+      "note": "Dark crimson flowers, one of the most popular varieties."
+    },
+    {
+      "name": "Apple Blossom",
+      "note": "White blooms feathered with pink."
+    },
+    {
+      "name": "Minerva",
+      "note": "Red flowers with a white star in the center."
+    },
+    {
+      "name": "Christmas Gift",
+      "note": "White flowers with a green throat."
+    },
+    {
+      "name": "Hippeastrum papilio (butterfly amaryllis)",
+      "note": "Cream petals with maroon stripes and a green throat."
+    },
+    {
+      "name": "Cybister types",
+      "note": "Narrow, spidery petals, such as 'Quito'."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Amaryllis (HGIC 1551)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/amaryllis/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Hippeastrum (Amaryllis)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/hippeastrum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow Hippeastrum (amaryllis)",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/hippeastrum/growing-guide",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Barbados Lily",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/barbados-lily",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Amaryllis",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/amaryllis",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["poinsettia", "christmas-cactus", "orchid", "cyclamen"],
+  "seo": {
+    "title": "Amaryllis Care: Bulb, Bloom & Dormancy Cycle (2026)",
+    "description": "Amaryllis care in 2026: pot the bulb with its neck above the mix, give 4 hours of direct sun, then rest it cool and dry for 8 to 10 weeks so it flowers again.",
+    "h1": "Amaryllis care: bulb, flowering and rest"
+  },
+  "content": {
+    "answer": "Pot an amaryllis bulb in a pot barely wider than the bulb, with a third to half of it above the mix, give at least four hours of direct sun, and water lightly until growth starts. After flowering, keep the leaves growing, then rest the bulb.",
+    "intro": "The amaryllis sold in boxes every November is Hippeastrum, a bulb from Central and South America, not the South African genus Amaryllis that shares its name. The bulb is a packed lunch, and Clemson notes that the bigger it is, the more stalks and flowers it sends up, which is why it can bloom on a windowsill with almost no help. Clemson Extension expects flowers four to eight weeks after an early November potting, and each stalk carries trumpet blooms up to 6 inches wide. The real skill lies in what happens after the petals fall. Leaves that grow all spring and summer rebuild the bulb, a cool dry rest of eight to ten weeks resets it, and only then will it flower again. Treat it as a cycle rather than a one-off gift and the same bulb can bloom for many years.",
+    "light": [
+      "This is a sun plant. Clemson asks for a well-lit spot with at least four hours of direct sunlight a day, with a south window best and east or west second, and NC State lists it for full sun to part shade. In a dim room the stalk stretches toward the glass and can snap under the weight of the flowers. Turn the pot every few days so it grows straight.",
+      "Once the flowers open, you can move it out of the hottest light. The RHS suggests a cooler position at that stage to extend flowering, and a room near 65°F does more for bloom life than a sunny sill. After the last flower fades, return it to full sun: the long strap leaves need all the light they can get to refill the bulb."
+    ],
+    "water": [
+      "Water the bulb thoroughly right after potting, let it drain, and then leave it alone. Clemson waits one week before watering again, and the RHS says to water sparingly until new leaves develop. A dormant bulb has few working roots, and wet mix around it invites rot long before you see a shoot. When the stalk or leaves appear, switch to keeping the mix slightly moist, watering whenever the surface feels dry, and never let the pot stand in a full saucer.",
+      "Demand peaks while the plant is in flower and the leaves are expanding, so check more often then. Clemson notes that watering frequency usually has to rise once flowering starts. Through spring and summer keep watering normally: the RHS traces many no-bloom bulbs back to under-watering during the previous summer.",
+      "The rest period is a deliberate drought. Clemson stops watering and fertilizing for 8 to 10 weeks, letting the leaves yellow and wither; NC State reduces water, removes the leaves once brown, and keeps the pot cool and semi-dark. Start watering again when the tip of a new flower bud shows, or when you bring the pot back into warmth."
+    ],
+    "soil": [
+      "Choose a pot just 1 to 2 inches wider than the widest part of the bulb; Clemson notes that potted amaryllis thrive slightly rootbound. Use a heavy clay or ceramic pot with drainage holes, because a tall stalk in full bloom tips light plastic. Clemson rates a mix of equal parts peat and perlite as excellent, and the RHS uses a loam-based or multipurpose compost. Set the bulb high, with one-third to one-half above the surface by Clemson's count, or two-thirds by the RHS's, so the neck stays dry."
+    ],
+    "humidity": [
+      "Humidity is not a concern for this bulb. None of the extension sources sets a requirement, and the plant flowers happily in the dry air of a heated home in December. Skip misting: water sitting on the neck of the bulb is more likely to encourage red blotch than to help the plant."
+    ],
+    "temperature": [
+      "Warmth starts the bulb and coolness keeps the flowers. Clemson wants 70 to 75°F (21 to 24°C) until roots form and the stalk is growing, then about 65°F (18°C) once it blooms; the RHS gives 60 to 65°F (15 to 18°C) for flowering plants. During the rest, NC State keeps the bulb at 50 to 55°F (10 to 13°C), and the RHS around 55°F. NC State adds that the plant is injured below 35°F, so a summer outdoors ends before the first frost."
+    ],
+    "fertilizer": [
+      "Do not feed a bulb that has no leaves; Clemson warns that fertilizer can kill the roots at that stage. Once the plant is growing, feeding is what builds next year's flowers. Clemson uses a liquid houseplant fertilizer twice a month, diluted according to the label, and the RHS applies a balanced liquid feed weekly after flowering while the leaves grow on. Keep it up through summer, then stop when you begin the rest."
+    ],
+    "repotting": [
+      "Amaryllis bulbs like a tight fit and do not need a new pot every year. The RHS repots every two or three years, between January and March after flowering. At that point, knock the bulb out, trim dead roots, replace the old mix, and move up only if the bulb has grown; the pot should still be just an inch or two wider than the bulb. In the years between, the RHS refreshes the top 1 to 2 inches of compost after the rest."
+    ],
+    "propagation": [
+      "Offsets are the reliable route. Small bulbs form beside the mother bulb, and the RHS separates those with their own roots during repotting from January to March, potting each in free-draining compost. An offset takes three to four years to reach flowering size, and it will be identical to the parent. Seed is possible but slow: the RHS says seedlings can take up to six years to flower and rarely match the parent."
+    ],
+    "problems": [
+      "Failure to rebloom is the classic amaryllis problem. The RHS blames drying the bulb off too early, growing it in heavy shade, or under-watering it the summer before. Bulb and root rot follow wet mix or a bruised bulb, and Clemson advises discarding a soft bulb with its soil. Red blotch, a fungal disease, leaves reddish brown marks on the bulb, leaves and stalk. Mosaic virus shows as light yellow streaking with weaker growth, and Clemson says nothing can cure an infected plant. Mealybugs, scale, mites and thrips are the pests to watch."
+    ],
+    "petSafety": [
+      "The ASPCA lists Hippeastrum, under the name Barbados lily with amaryllis as an alternate name, as toxic to cats and dogs. The toxic principles are lycorine and other alkaloids, causing vomiting, salivation and diarrhea; large ingestions can bring convulsions, low blood pressure, tremors and heart rhythm problems. The ASPCA stresses that the bulb is the most poisonous part, so a dog digging up a resting bulb in the garage is the scenario to prevent. The separate ASPCA Amaryllis entry, for the true Amaryllis genus, is also toxic. NC State rates the plant of medium severity for people. Store dormant bulbs out of reach and call your veterinarian or the ASPCA Animal Poison Control Center if a pet chews one."
+    ],
+    "faq": [
+      {
+        "q": "What should I do with my amaryllis after it finishes flowering?",
+        "a": "Cut each spent stalk off just above the bulb, but keep every leaf. Move the pot to your sunniest window, water when the surface dries and feed regularly, because those leaves are rebuilding the bulb. You can set it outdoors after the last frost. In late summer or early fall, stop watering for 8 to 10 weeks to give the cool rest it needs before blooming again."
+      },
+      {
+        "q": "Why is my amaryllis growing leaves but no flower stalk?",
+        "a": "The bulb did not store enough energy. The RHS lists three usual reasons: the leaves were dried off too early, the plant spent summer in heavy shade, or it was under-watered. Small bulbs and skipped rest periods also reduce flowering. Grow the leaves in full sun with regular feeding through the next summer, then give a proper cool, dry rest."
+      },
+      {
+        "q": "How long does it take an amaryllis bulb to bloom after planting?",
+        "a": "Usually four to eight weeks. Clemson gives that range for bulbs potted in early to mid November, and the RHS says six to eight weeks for plantings between October and January. NC State suggests about five weeks. Warmth speeds things up: keep the pot near 70 to 75°F until the stalk is well grown, then move it somewhere cooler once the buds open."
+      },
+      {
+        "q": "Can I grow an amaryllis bulb in water or pebbles only?",
+        "a": "Yes, for one season. Clemson describes forcing the bulb in a clear vase with pebbles, keeping the water an inch below the base of the bulb so it never sits wet. It will flower on its stored reserves, but Clemson notes it will not bloom again in water. Pot it in soil afterward if you want to keep it, or compost it."
+      },
+      {
+        "q": "Are waxed amaryllis bulbs worth keeping after they bloom?",
+        "a": "Not really. Clemson explains that wax-dipped bulbs carry enough stored energy to flower once without soil or water, often two stalks, but they are intended to be discarded afterward. With no roots in soil and no way to feed the leaves, the bulb cannot rebuild itself. Enjoy the show, give it light and warmth, and rotate it so the stalks stay straight."
+      }
+    ]
+  }
+}

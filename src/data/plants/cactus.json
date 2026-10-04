@@ -1,0 +1,389 @@
+{
+  "slug": "cactus",
+  "commonName": "Cactus",
+  "otherNames": [
+    "Indoor cacti",
+    "Desert cactus",
+    "Pincushion cactus",
+    "Bunny ears cactus",
+    "Golden barrel cactus"
+  ],
+  "botanicalName": "Cactaceae (Mammillaria, Opuntia, Echinocactus, Astrophytum, Gymnocalycium and others)",
+  "formerNames": [],
+  "family": "Cactaceae",
+  "kind": "cactus",
+  "isGroup": true,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [
+      300,
+      1500
+    ],
+    "lux": [
+      3229,
+      16146
+    ],
+    "windows": [
+      "south",
+      "west"
+    ],
+    "directSun": "needs",
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "water": {
+    "rule": "top-2-inches",
+    "ruleText": "From March to September, water thoroughly once the top of the mix has dried; in winter keep almost dry",
+    "winter": "While dormant in winter, let the soil get very dry and water just enough to keep the plant from shriveling; Clemson says this usually means a light watering every few weeks.",
+    "factors": [
+      "Never let a cactus stand in water; waterlogged soil quickly rots the roots (Clemson).",
+      "Forest cacti such as Christmas cactus need more water and should not dry out completely in spring and summer.",
+      "The RHS prefers tepid rainwater, since tap-water minerals build up and leave white deposits."
+    ],
+    "src": [
+      0,
+      1,
+      9
+    ]
+  },
+  "soil": {
+    "mix": "Packaged cactus mix, or equal volumes of peat-based potting soil and very coarse sand or grit; free-draining but not lean, as cacti prefer a rich soil that drains fast.",
+    "components": [
+      "peat-based or loam-based potting soil",
+      "very coarse sand or horticultural grit",
+      "grit topdressing"
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "Desert cacti are well adapted to the dry air of homes; forest cacti are the exception and prefer at least 50 percent humidity.",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      65,
+      85
+    ],
+    "idealC": [
+      18,
+      29
+    ],
+    "minF": 45,
+    "minC": 7,
+    "src": [
+      0,
+      1
+    ]
+  },
+  "fertilizer": {
+    "season": "June through September (Clemson); the RHS feeds April to September",
+    "everyWeeks": [
+      4,
+      5
+    ],
+    "strength": "full",
+    "type": "Low-nitrogen fertilizer such as 5-10-5, a high-potassium liquid feed, or one time-release application in spring",
+    "winter": "none",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots fill the pot or grow out of the drainage hole",
+      "The cactus is top-heavy and tips its pot over",
+      "Offsets have crowded the surface to the rim"
+    ],
+    "season": "April, as summer growth begins",
+    "rootType": "succulent",
+    "prefersSnug": true,
+    "src": [
+      0,
+      1
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "The true cacti on the ASPCA list are non-toxic; the hazard is mechanical. Clemson warns that prickly pears carry tiny barbed bristles that can hurt more than large spines.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Old Man Cactus (Cephalocereus senilis)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/old-man-cactus",
+        "toxicPrinciples": "Non-toxic"
+      },
+      {
+        "name": "Tree Cactus (Opuntia species)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/tree-cactus"
+      },
+      {
+        "name": "Thimble Cactus (Mammillaria fragilis)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/thimble-cactus"
+      },
+      {
+        "name": "Easter Lily Cactus (Echinopsis multiplex)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/easter-lily-cactus",
+        "toxicPrinciples": "Non-toxic"
+      },
+      {
+        "name": "Christmas Cactus (Schlumbergera bridgesii)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/christmas-cactus"
+      }
+    ],
+    "src": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Base turns soft, yellow or brown and the cactus leans",
+      "causeKey": "overwatering",
+      "cause": "Root and stem rot from slow-draining mix or watering too often",
+      "remedy": "Cut above the rot with a clean knife, let the top callus, and root it in dry cactus mix; discard the rotted base."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "New growth at the top is narrow, pale green and pointed",
+      "causeKey": "low-light",
+      "cause": "Too little direct sun, often in winter",
+      "remedy": "Move it to a south or west window or add a grow light; the thin section stays, but new growth thickens."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Corky brown patches or scabs on the skin",
+      "causeKey": "disease",
+      "cause": "Cactus corky scab from too much humidity or brightness, or cold damage",
+      "remedy": "Correct conditions gradually; existing scabs remain but should stop spreading."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White woolly tufts between spines or ribs",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Remove with a cotton swab dipped in alcohol, or use an insecticidal soap labeled for cacti."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and rusty, speckled skin",
+      "causeKey": "pests",
+      "cause": "Spider mites in warm, dry rooms",
+      "remedy": "Rinse the plant, isolate it and treat with a product labeled for cacti, following the label."
+    },
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Healthy cactus that never blooms",
+      "causeKey": "dormancy",
+      "cause": "No proper dormancy: winters kept warm and wet instead of cool and dry",
+      "remedy": "Give it 45 to 55°F and very little water in winter, then maximum light from spring."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Offsets (pups)",
+      "Stem cuttings, callused before planting",
+      "Seed",
+      "Grafting"
+    ],
+    "season": "Spring and summer"
+  },
+  "size": {
+    "growth": "slow",
+    "note": "From a few inches to columns that outgrow a room; most add only a few inches a year indoors, and column cactus (Cereus) reaches 3 to 6 feet (Clemson).",
+    "src": [
+      0
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Pincushion cacti (Mammillaria)",
+      "note": "Large group of small, free-flowering, densely spined cacti, easy for beginners."
+    },
+    {
+      "name": "Bunny ears (Opuntia microdasys)",
+      "note": "Velvety pads up to 2 feet tall and wide; the tiny bristles hurt, so handle with heavy gloves."
+    },
+    {
+      "name": "Golden barrel (Echinocactus grusonii)",
+      "note": "Upright barrel covered in heavy gold-yellow spines; good for beginners per Clemson."
+    },
+    {
+      "name": "Star cacti and bishop's cap (Astrophytum)",
+      "note": "Spineless or nearly spineless, flecked with white scales."
+    },
+    {
+      "name": "Chin cacti (Gymnocalycium)",
+      "note": "Small and compact, flowering young and often; ideal for a narrow sill."
+    },
+    {
+      "name": "Forest cacti (Schlumbergera, Epiphyllum, Rhipsalis)",
+      "note": "Flat, spineless stems, filtered light and more water; see the Christmas cactus guide."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Indoor Cacti (HGIC 1502)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-cacti/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow houseplant cacti and succulents",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Old Man Cactus",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/old-man-cactus",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Tree Cactus",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/tree-cactus",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Thimble Cactus",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/thimble-cactus",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Easter Lily Cactus",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/easter-lily-cactus",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Pencil Cactus",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pencil-cactus",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Christmas Cactus",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/christmas-cactus",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "christmas-cactus",
+    "succulents",
+    "lithops",
+    "aloe-vera",
+    "echeveria"
+  ],
+  "seo": {
+    "title": "Cactus Care Indoors: Desert vs Forest Cacti Guide (2026)",
+    "description": "Indoor cactus care for 2026: south or west sun, water from March to September, a 45 to 55°F dry winter rest per Clemson. Desert vs forest cacti, repotting.",
+    "h1": "Cactus care indoors: desert cacti, forest cacti and how they differ"
+  },
+  "content": {
+    "answer": "Desert cacti need a south or west window with several hours of direct sun, a free-draining mix, and thorough watering from March to September. In winter, Clemson Extension advises a cool 45 to 55°F (7 to 13°C) rest with just enough water to prevent shriveling.",
+    "intro": "Cacti are a single plant family, the Cactaceae, with perhaps one to two thousand species, almost all native to the Americas. Most lack leaves and do everything in a fleshy, water-storing stem armed with spines. Indoors they split into two camps that need very different care, and confusing them is the commonest mistake. Desert, or arid climate, cacti such as pincushions, prickly pears, barrels and star cacti want full sun, a gritty mix and a cold, dry winter. Forest cacti, including the Christmas, Thanksgiving and Easter cacti, orchid cacti and Rhipsalis, grow on trees in humid jungles and want filtered light, richer soil and steadier moisture. This page covers the desert group; our Christmas cactus guide covers the forest type in depth. Clemson Extension says most cacti tolerate neglect but thrive with good care, and that the main problems indoors are too much water, insects and mites.",
+    "light": [
+      "Desert cacti need the strongest light in the house. Clemson Extension recommends windows facing south or west, where they receive direct sunlight for several hours each day, and adds that artificial light may be necessary to supplement it. In University of Illinois Extension terms that means the direct level of about 1,500 foot-candles, right in front of a south window.",
+      "Insufficient light gives weak, misshapen plants, the RHS warns. The giveaway is a narrow, pale, pointed tip on a round cactus, or a column that tapers and leans toward the glass. That section will never fatten again. A summer outdoors helps, but Clemson advises partial shade for the first few weeks so the skin can adjust; a cactus moved straight from a windowsill into full summer sun can scorch."
+    ],
+    "water": [
+      "Clemson calls proper watering the most important factor in growing cacti, and its growing-season advice surprises people. From March to September, when cacti grow rapidly, it says to water them as any other houseplant that prefers to dry slightly between waterings. The RHS agrees: water thoroughly once the surface of the compost feels dry in spring and summer, and do not let it dry out excessively while the plant is growing. A finger pushed into the mix, as the University of Illinois Extension recommends for all houseplants, is the best guide.",
+      "The other half of the year is the opposite. In winter, while the plants are dormant, Clemson says to let them get very dry between waterings, just enough to keep them from shriveling, which usually means a light watering every few weeks. The RHS sets the rest from November to the beginning of March, with minimal or no watering. Warmth plus water in winter produces weak growth and rot.",
+      "Whatever the season, Clemson's rule is absolute: the plant must never stand in water. Empty saucers and cachepots after every watering. Forest cacti are the exception to all of this. Clemson says rain forest cacti need substantially more water and should never dry out completely in spring and summer, and the RHS notes winter-flowering types such as Christmas cactus need regular watering in winter with a rest in summer."
+    ],
+    "soil": [
+      "Cacti actually prefer a rich soil, Clemson says, as long as it drains freely. Packaged cactus mixes work, or combine equal volumes of peat-based potting soil and very coarse sand or grit. The RHS uses two parts loam-based compost to one part horticultural grit or sharp sand and tops the pot with a layer of grit, which keeps the base of the stem dry. Forest cacti want more organic matter; Clemson suggests two parts peat moss, one part garden soil and one part sand for them."
+    ],
+    "humidity": [
+      "Desert cacti are well adapted to the dry conditions found in homes, according to Clemson, and the RHS says they cope well with the dry air of central heating. Too much humidity can actually harm them, contributing to corky scab. Forest cacti differ: Clemson notes they prefer at least 50 percent humidity but tolerate less."
+    ],
+    "temperature": [
+      "Clemson gives 65 to 85°F (18 to 29°C) as the preferred range during the growing season and 45 to 55°F (7 to 13°C) for dormant cacti in winter. The RHS asks for winter nights of 46 to 50°F (8 to 10°C). Most cacti tolerate normal house temperatures year round, but Clemson notes they are more likely to flower and prosper if kept cool in winter, ideally in a sunny, cool room or close to a window. Keep them off radiators, and do not let wet plants freeze."
+    ],
+    "fertilizer": [
+      "Clemson recommends a low-nitrogen fertilizer such as 5-10-5 once a month from June through September, or a single application of time-release fertilizer in spring. The RHS feeds monthly from April to September with a high-potassium liquid feed, such as a tomato fertilizer, or a specialist cactus food. Do not feed in winter, and do not feed freshly repotted plants, Clemson adds."
+    ],
+    "repotting": [
+      "Cacti like to be slightly pot bound and should be repotted only as needed. Clemson names April as the best month, just as summer growth starts, and recommends a pot only slightly larger than the old one, since an oversized container stays moist and leads to rot. Wear heavy leather gloves, or wrap the cactus in several layers of newspaper; the RHS suggests folded newspaper as tongs or an oven glove. Wait several days before watering so damaged roots can heal."
+    ],
+    "propagation": [
+      "Clemson lists seeds, cuttings, grafting and offsets as the ways to multiply cacti. Clump-formers such as many Mammillaria produce pups that can be detached once rooted. Columnar types and branching Opuntia pads root from cuttings: the RHS advises letting the cut end dry and callus, which can take from a day to a week, then setting it in a gritty mix kept only slightly moist.",
+      "Seed is slow but rewarding. The RHS sows in spring, leaves small seeds uncovered, keeps the tray at about 70°F (21°C) in bright light out of direct sun, and warns that seedlings can take up to 12 months to reach a handling size."
+    ],
+    "problems": [
+      "Clemson identifies too much water as the main problem, with root and stem rots coming from a mix that drains slowly or from watering too often. Aphids, spider mites and mealybugs are the major pests, and scale is harder to control; a heavy infestation may mean discarding the plant. The RHS adds oedema blisters from overwatering, shriveling from underwatering, discolored patches from cold and corky scab from excessive humidity or brightness."
+    ],
+    "petSafety": [
+      "The true cacti on the ASPCA list, including old man cactus, tree cactus (Opuntia species), thimble cactus, Easter lily cactus and Christmas cactus, are all non-toxic to cats and dogs. The danger is physical: spines, and the fine barbed bristles of prickly pears that Clemson warns can cause more pain than large spines. Watch out for pencil cactus, which is not a cactus at all but Euphorbia tirucalli. The ASPCA lists it as toxic to dogs, cats and horses, with an irritant latex sap that can cause vomiting, though it calls its toxicity generally over-rated."
+    ],
+    "faq": [
+      {
+        "q": "How do I tell a desert cactus from a forest cactus?",
+        "a": "Look at the stems. Desert cacti, Clemson's arid climate group, have round, ribbed or columnar bodies, usually heavily armed with spines. Forest cacti such as Christmas, Easter and orchid cacti have wide, flattened green stems that look like leaves and carry no thorns. The care differs completely: full sun and a dry winter for desert types, filtered light and steadier moisture for forest types."
+      },
+      {
+        "q": "Why is my cactus turning yellow and soft at the base?",
+        "a": "That is almost always rot from too much water or a mix that drains slowly, the problem Clemson names first for indoor cacti. Press the base: if it gives, the tissue inside is dying. Unpot it, cut above the soft part with a clean knife, let the healthy top dry until it forms a callus, and root it in dry, gritty cactus mix."
+      },
+      {
+        "q": "Why is my cactus growing thin and pale at the top?",
+        "a": "It is stretching for light. The RHS notes that insufficient light produces weak, misshapen growth, and on a round or columnar cactus it shows as a narrow, pale tip. The stretched section never thickens again, but moving the plant to a south or west window, as Clemson recommends, makes new growth normal. Increase sun gradually to avoid scorching the skin."
+      },
+      {
+        "q": "How do I repot a cactus without getting stuck by spines?",
+        "a": "Wrap it. Clemson suggests heavy leather gloves or several layers of newspaper around the cactus, and the RHS uses a folded strip of newspaper as tongs or an oven glove. Tip the pot, ease the root ball out, and set it in a pot only slightly larger, in April if possible. Wait several days before the first watering so torn roots heal."
+      },
+      {
+        "q": "Why won't my cactus flower indoors?",
+        "a": "Usually the winter was too warm and wet, or the light too weak. Clemson says cacti are more likely to flower when kept at 45 to 55°F in winter, and the RHS says cooler, drier conditions during dormancy and as much light as possible all year stimulate flowering. Some species also need several years first; Clemson notes sea urchin cactus blooms after about five."
+      }
+    ]
+  }
+}

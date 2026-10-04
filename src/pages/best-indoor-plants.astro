@@ -4,7 +4,7 @@ import PlantFilter from '../components/calc/PlantFilter';
 import { PLANTS, plantPath, filterPlants } from '../lib/plants';
 import { route } from '../i18n/routes';
 import { SRC } from '../data/general-sources';
-import { LEVEL_LABEL, isPetSafe } from '../lib/plant-text';
+import { LEVEL_LABEL, isPetSafe, nameInText, listSome } from '../lib/plant-text';
 import type { Plant } from '../lib/plant-schema';
 const lang = 'en';
 const L = ['low', 'medium', 'high', 'direct'];
@@ -16,12 +16,12 @@ const petSafe = pick(isPetSafe, 6);
 const flowering = pick((p) => ['flowering', 'shrub'].includes(p.kind) || p.problems.some((x) => x.symptomKey === 'no-flowers' || x.symptomKey === 'bud-drop'));
 const statement = pick((p) => (p.size.heightIn?.[1] ?? 0) >= 60);
 const faqs = [
-  { q: 'What is the best indoor plant for someone who forgets to water?', a: `A plant whose guide records a fully-dry or half-dry rule and accepts low light: on this site, ${toughest.map((p) => p.commonName.toLowerCase()).join(', ')}. They store water in thick leaves, stems or rhizomes, so a missed week does little harm. They are, however, the quickest to rot if you compensate by watering often, so let the mix dry as their guides describe.` },
+  { q: 'What is the best indoor plant for someone who forgets to water?', a: `A plant whose guide records a fully-dry or half-dry rule and accepts low light: on this site, ${toughest.map((p) => nameInText(p.commonName)).join(', ')}. They store water in thick leaves, stems or rhizomes, so a missed week does little harm. They are, however, the quickest to rot if you compensate by watering often, so let the mix dry as their guides describe.` },
   { q: 'Which indoor plants are best for a sunny south window?', a: 'Plants whose guides accept direct sun, such as succulents, jade and aloe, and the bird of paradise, which wants bright light to flower. The University of Illinois Extension counts the spot directly in front of a south window as direct light, about 1,500 foot-candles. Foliage plants that dislike direct sun belong a few feet back or behind a sheer curtain there.' },
-  { q: 'Are there good indoor plants that are safe for cats and dogs?', a: `Yes. On this site the ASPCA lists ${petSafe.map((p) => p.commonName.toLowerCase()).join(', ')} as non-toxic to both cats and dogs. Non-toxic is not the same as edible: a pet that chews leaves can still vomit. The plants safe for cats and dogs page and the ASPCA checker cover more options, including plants without a guide here.` },
+  { q: 'Are there good indoor plants that are safe for cats and dogs?', a: `Yes. On this site the ASPCA lists ${listSome(petSafe.map((p) => nameInText(p.commonName)))} as non-toxic to both cats and dogs. Non-toxic is not the same as edible: a pet that chews leaves can still vomit. The plants safe for cats and dogs page and the ASPCA checker cover more options, including plants without a guide here.` },
   { q: 'What indoor plant grows the biggest?', a: 'Among our guides, the tallest indoor plants are those recorded at five feet or more in a pot, such as the fiddle-leaf fig, the rubber plant, the monstera and the bird of paradise. Height indoors depends on light and pot size, and all of them can be kept smaller by pruning or by leaving them slightly root-bound.' },
   { q: 'Do indoor plants clean the air in a home?', a: 'Not in a way you would notice. The idea comes from sealed-chamber tests decades ago; in a real home, air exchange through ventilation removes pollutants far faster than a few pots can. Grow plants because you enjoy them. If air quality matters, ventilation and a filter do the work.' },
-  { q: 'Which indoor plants flower reliably?', a: `Of our guides, those that bloom indoors given the right conditions are ${flowering.map((p) => p.commonName.toLowerCase()).join(', ')}. Each needs something specific to flower, often more light than foliage plants, a cool or dark period, or a rest from feeding. Their guides explain the trigger, and the problems table lists what to check when buds never appear.` },
+  { q: 'Which indoor plants flower reliably?', a: `Of our guides, those that bloom indoors given the right conditions are ${flowering.map((p) => nameInText(p.commonName)).join(', ')}. Each needs something specific to flower, often more light than foliage plants, a cool or dark period, or a rest from feeding. Their guides explain the trigger, and the problems table lists what to check when buds never appear.` },
 ];
 ---
 <HubLayout id="best" title="Best Indoor Plants for Every Room and Light Level (2026)"

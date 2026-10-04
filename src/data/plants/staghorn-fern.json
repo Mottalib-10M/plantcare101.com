@@ -1,0 +1,272 @@
+{
+  "slug": "staghorn-fern",
+  "commonName": "Staghorn fern",
+  "otherNames": [
+    "Common staghorn fern",
+    "Elkhorn fern"
+  ],
+  "botanicalName": "Platycerium bifurcatum",
+  "formerNames": [
+    "Acrostichum bifurcatum",
+    "Alcicornium bifurcatum"
+  ],
+  "family": "Polypodiaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [150, 300],
+    "lux": [1615, 3229],
+    "windows": ["east", "west", "north"],
+    "directSun": "morning-only",
+    "src": [0, 1, 3, 4]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Soak the mount or pot when the moss under the shield fronds feels nearly dry; let it dry slightly, never completely",
+    "winter": "In cool, cloudy months the moss stays wet far longer, and UF/IFAS waters less often then; feel the moss behind the shields before every soak instead of keeping to a summer routine.",
+    "factors": [
+      "Mounted plants dry much faster than potted ones, especially in a heated room.",
+      "Overwatering is the bigger risk: UF/IFAS notes that a slightly wilted fern recovers, while an overwatered one rots and dies.",
+      "Clemson asks for moist material at all times, while NC State and UF/IFAS allow light drying; aim between the two."
+    ],
+    "src": [0, 1, 3]
+  },
+  "soil": {
+    "mix": "No soil: mount it on a board, bark slab or tree fern fiber over a pad of moist sphagnum, or pot it in an epiphytic orchid or sphagnum mix.",
+    "components": [
+      "sphagnum moss",
+      "untreated wood board or bark slab",
+      "epiphytic orchid mix (for pots)"
+    ],
+    "src": [0, 1, 2]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "Clemson says staghorns need very high humidity that is hard to reach in most houses; NC State warns that black spot can appear when it is too high.",
+    "src": [0, 3]
+  },
+  "temperature": {
+    "idealF": [68, 72],
+    "idealC": [20, 22],
+    "minF": 50,
+    "minC": 10,
+    "src": [1, 3]
+  },
+  "fertilizer": {
+    "season": "Warm months for monthly feeding; mature plants only once or twice a year",
+    "everyWeeks": [4, 8],
+    "strength": "full",
+    "type": "Balanced fertilizer with a 1:1:1 ratio, at the label rate",
+    "winter": "reduced",
+    "src": [1]
+  },
+  "repotting": {
+    "signs": [
+      "The shield fronds have grown out to the edges of the board",
+      "Pups crowd the mount or push out of the basket",
+      "The plant is too heavy for its hanger"
+    ],
+    "season": "Spring, when growth resumes",
+    "rootType": "epiphytic",
+    "prefersSnug": true,
+    "src": [1, 2, 3]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "NC State tags the staghorn fern as non-toxic to cats, dogs and horses and pet friendly; none of the sources gives a rating for people.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Common Staghorn Fern (Platycerium bifurcatum)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/common-staghorn-fern"
+      }
+    ],
+    "src": [0, 5]
+  },
+  "problems": [
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Shield fronds turn black and soft at the base, center rots",
+      "causeKey": "overwatering",
+      "cause": "Moss kept soaking wet with no chance to dry slightly",
+      "remedy": "Let the mount dry until the moss is barely damp, then water only when it feels nearly dry; cut away soft tissue if rot is limited."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Brown, felty patches on the undersides and tips of the antler fronds",
+      "causeKey": "natural-aging",
+      "cause": "Sporangia, the normal spore-bearing structures",
+      "remedy": "Nothing to fix; do not scrape or spray them."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Round shield fronds at the base turn tan or brown",
+      "causeKey": "natural-aging",
+      "cause": "Shield fronds are sterile and brown naturally as they mature",
+      "remedy": "Leave them in place; they protect the roots and hold moisture. New green shields grow over the old ones."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Black spots spreading on the fronds",
+      "causeKey": "disease",
+      "cause": "Black spot, which NC State links to humidity that is too high, often with poor air movement",
+      "remedy": "Improve air circulation, stop misting the fronds, and let the mount dry slightly between soakings."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Antler frond tips brown and dry",
+      "causeKey": "low-humidity",
+      "cause": "The very dry air of a heated house",
+      "remedy": "Hang it in a bright bathroom or near a humidifier, and soak the mount as soon as the moss nears dryness."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White fluff or small brown bumps on the fronds",
+      "causeKey": "pests",
+      "cause": "Mealybugs or fern scale",
+      "remedy": "Remove by hand with a cotton swab; avoid wiping off the fronds' natural gray felt, and test any spray on one frond first."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Pups (plantlets) removed from the rhizome",
+      "Division of a large mounted plant"
+    ],
+    "season": "Spring to summer"
+  },
+  "size": {
+    "heightIn": [24, 36],
+    "widthIn": [24, 36],
+    "growth": "slow",
+    "src": [0]
+  },
+  "varieties": [
+    {
+      "name": "Netherlands",
+      "note": "Popular cultivar with grayish green, lobed fronds."
+    },
+    {
+      "name": "Platycerium veitchii",
+      "note": "A related species that, like P. bifurcatum, tolerates cold down to about 30°F."
+    },
+    {
+      "name": "Platycerium alcicorne",
+      "note": "Another easy species that UF/IFAS recommends for beginners."
+    },
+    {
+      "name": "Platycerium hillii",
+      "note": "A third easy-to-grow species named by UF/IFAS."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Platycerium bifurcatum (Common Staghorn Fern)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/platycerium-bifurcatum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Staghorn Fern",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/staghorn-fern/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "DIY Staghorn Mounting",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/design/outdoor-living/diy-staghorn-mounting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Ferns (HGIC 1505)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Common Staghorn Fern",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/common-staghorn-fern",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["birds-nest-fern", "maidenhair-fern", "orchid", "peace-lily"],
+  "seo": {
+    "title": "Staghorn Fern Care: Mounting, Soaking & Light (2026)",
+    "description": "Staghorn fern care in 2026: mount it on a board over moist sphagnum, soak when the moss is nearly dry, and keep days at 68 to 72°F. Pet safe per the ASPCA.",
+    "h1": "Staghorn fern care: mounting, watering and fronds"
+  },
+  "content": {
+    "answer": "Grow a staghorn fern mounted on a board over sphagnum moss in bright, filtered light. Soak the mount when the moss feels nearly dry, never letting it dry out completely, and keep it around 68 to 72°F by day with high humidity.",
+    "intro": "Platycerium bifurcatum is an epiphyte from Java, tropical Australia and New Caledonia that lives on tree trunks, not in soil, and it grows two completely different kinds of leaves to make that work. The round shield fronds press flat against the bark, cover the roots and catch falling leaves, building a private compost pile; they turn tan and papery with age, and that is normal. The forked antler fronds, gray-green and coated in fine felt, reach outward and carry the spores. NC State calls it a litter-trapping epiphyte, and UF/IFAS describes the ideal home as a slab of wood, tree fern fiber or even a rock. Indoors, that means a board on the wall and a watering routine of soaking rather than pouring. Get the soak-and-dry rhythm right and this slow grower becomes a living sculpture that lasts for many years.",
+    "light": [
+      "Give it bright, indirect or filtered light. Clemson asks for exactly that, NC State lists dappled sunlight to partial shade, and Illinois Extension places the staghorn among plants needing at least medium light, about 150 foot-candles. A wall beside an east window is ideal, as is a spot near a west window behind a sheer curtain. Morning sun is fine; hot afternoon sun through glass bleaches and scorches the antler fronds.",
+      "Dim corners are a mistake. UF/IFAS notes that very low light encourages disease and pests, and a staghorn kept in shade grows slowly to begin with, producing thin, floppy antlers. If the fronds lean hard toward the window, move the board closer."
+    ],
+    "water": [
+      "Watering a mounted staghorn means soaking, not pouring. Take the board down and lay it, plant side up, in a sink or tub of room-temperature water for several minutes until the moss behind the shields is saturated, then let it drip dry before rehanging. Potted plants, NC State notes, can be watered from the bottom. Water again when the moss feels nearly dry and the board is noticeably lighter.",
+      "The sources disagree a little on how dry to let it get, and that is useful to know. Clemson says to keep the growing material moist at all times. NC State says to water the crown regularly and let the roots dry slightly between waterings without ever drying out completely. UF/IFAS, writing for outdoor plants in humid Florida, goes further and waits until the fern wilts slightly, because a wilted fern recovers quickly while an overwatered one rots and dies. Indoors, in dry air, the middle course works: soak, let the moss go from wet to barely damp, then soak again.",
+      "Seasons change the rhythm. UF/IFAS waters about once a week in warm, dry weather and less often when it is cool or cloudy. A board near a radiator in January can dry faster than one in a humid summer room, so judge by the moss and the weight of the board."
+    ],
+    "soil": [
+      "A staghorn does not grow in soil. To mount one, UF/IFAS shapes a few handfuls of soaked sphagnum into a mound on a slab of untreated wood, bark or tree fern fiber, sets the fern so its shield fronds touch the moss, and ties it on. Their mounting guide prefers old pantyhose, which rots away instead of cutting into the plant; plastic strips or wire also work, but never copper. In a pot or a wire basket, NC State recommends an epiphytic orchid mix or sphagnum, with good drainage."
+    ],
+    "humidity": [
+      "Humidity is the hardest part indoors. Clemson states that staghorns need very high humidity that is difficult to achieve in most houses, which explains the crisp antler tips common in heated homes. A bright bathroom, a sunroom or a spot near a humidifier helps. Do not overdo it in a stuffy room, though: NC State warns that black spot can develop when humidity is too high, especially with little air movement."
+    ],
+    "temperature": [
+      "Clemson recommends day temperatures of 68 to 72°F (20 to 22°C) with nights of 50 to 55°F (10 to 13°C). P. bifurcatum is tougher than most of its genus: UF/IFAS says it can withstand temperatures as low as 30°F (about -1°C), while most staghorn species cannot take less than 55°F. That hardiness is for brief cold outdoors; indoors keep it above 50°F and away from cold glass and heating vents."
+    ],
+    "fertilizer": [
+      "UF/IFAS recommends a fertilizer with a 1:1:1 ratio, applied according to the label. Young plants get it monthly during warm months and every other month in cooler weather when growth slows. Mature staghorns need far less, once or twice a year. Skip feeding entirely on a plant that is struggling with rot or cold."
+    ],
+    "repotting": [
+      "Instead of repotting, a staghorn gets remounted. UF/IFAS says the time has come when the shield fronds have grown out to the edges of the mount. You can strap the whole plant, old board included, onto a larger board, or divide it. Some plants grow so large that remounting becomes impractical, and UF/IFAS points out that staghorns tolerate crowding, so there is no rush. Never peel the old brown shields away: they are part of the root system's protection."
+    ],
+    "propagation": [
+      "The rhizome hidden under the shields produces pups, small plantlets that form a colony over time. NC State and UF/IFAS both propagate by removing these pups or dividing a large plant. In the UF/IFAS mounting guide, a mature plant is cut into two with care to keep separate sets of shield fronds, some old roots are trimmed, and each part is tied onto soaked sphagnum on its own board or basket. Spores are another route, but division is the method NC State recommends."
+    ],
+    "problems": [
+      "Two things alarm new owners and are perfectly normal: brown, papery shield fronds at the base, and brown felt on the undersides and tips of the antlers, which UF/IFAS identifies as sporangia. Real trouble starts with water. Soft, blackened shields and a rotting center mean overwatering, and black spots point to humidity that is too high with stagnant air. NC State lists spider mites, aphids, mealybugs and fern scale as pests. Leave the gray felt on the antler fronds alone when cleaning: it is part of the leaf, not dust."
+    ],
+    "petSafety": [
+      "The ASPCA lists the common staghorn fern, Platycerium bifurcatum, as non-toxic to dogs, cats and horses, and NC State tags it as non-toxic and pet friendly. That makes it one of the safer statement plants for a home with animals. Mounting it on a wall also keeps it away from curious cats, which protects the fronds as much as the pet. As with any plant, eating a large amount can upset a pet's stomach, so call your veterinarian if an animal seems unwell after chewing it."
+    ],
+    "faq": [
+      {
+        "q": "How do I water a staghorn fern mounted on a board?",
+        "a": "Soak it. Lay the board plant side up in a sink or tub of room-temperature water for several minutes until the moss behind the shield fronds is saturated, then let it drain before hanging it again. Repeat when the moss feels nearly dry and the board feels lighter. Avoid a quick splash from a watering can, which barely reaches the roots."
+      },
+      {
+        "q": "Should I remove the brown fronds at the base of my staghorn fern?",
+        "a": "No. Those are shield fronds, which are sterile and turn brown as they mature; NC State explains that they cover the root crown and trap debris. They protect the roots and hold moisture, and new green shields grow over the old layers. Only remove an antler frond if it is fully dead, cutting it off near its base."
+      },
+      {
+        "q": "Can a staghorn fern grow in a regular pot with potting soil?",
+        "a": "Not in ordinary potting soil, which stays too wet and dense for its epiphytic roots. NC State says a pot can work if you use an epiphytic orchid mix or sphagnum moss and ensure good drainage, and a wire basket packed with sphagnum is another option. Over time, pups grow out through the sides, and many owners eventually move the plant to a board."
+      },
+      {
+        "q": "Is the brown fuzz under staghorn fern fronds a disease?",
+        "a": "Usually not. UF/IFAS explains that the brown, felt-like patches on the undersides and tips of the antler fronds are sporangia, the normal spore-bearing structures, and are no cause for concern. Trouble looks different: black spots spreading across a frond suggest disease from stagnant, very humid air, and small brown bumps that scrape off are scale insects."
+      },
+      {
+        "q": "How cold can a staghorn fern get before it is damaged?",
+        "a": "Platycerium bifurcatum is among the hardiest staghorns. UF/IFAS says it can withstand brief drops to about 30°F, while most species are hurt below 55°F. That tolerance is for short cold snaps outdoors in Florida. Indoors, Clemson recommends nights of 50 to 55°F and days of 68 to 72°F, so keep the mount off cold windows in winter."
+      }
+    ]
+  }
+}

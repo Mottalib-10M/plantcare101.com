@@ -1,0 +1,218 @@
+{
+  "slug": "hibiscus",
+  "commonName": "Hibiscus",
+  "otherNames": ["Tropical hibiscus", "Chinese hibiscus", "Rose of China", "Hawaiian hibiscus"],
+  "botanicalName": "Hibiscus rosa-sinensis",
+  "formerNames": [],
+  "family": "Malvaceae",
+  "kind": "flowering",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [300, 1500],
+    "lux": [3229, 16146],
+    "windows": ["south", "west", "east"],
+    "directSun": "tolerates",
+    "src": [0, 1, 2, 4]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Keep the roots moist while the plant is growing and flowering, watering again as soon as the surface dries",
+    "winter": "The RHS reduces watering as growth slows and waters only when the top layer of compost is dry; in a cool room the plant rests semi-dormant.",
+    "factors": [
+      "Clemson says to water freely during the growing season; a plant in full flower in a warm window can dry out fast.",
+      "Watering must rise in spring as light and warmth return, the RHS notes, not on a fixed schedule.",
+      "In winter, low light already yellows buds and leaves, so cutting back water keeps a resting plant from rotting."
+    ],
+    "src": [0, 1, 2]
+  },
+  "soil": {
+    "mix": "A rich, moisture-holding but well-drained mix: a peat-free houseplant compost or a soil-based compost such as John Innes No 2.",
+    "components": ["peat-free houseplant compost", "loam-based compost (John Innes No 2)", "organic matter such as compost"],
+    "src": [0, 1, 2]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "NC State says Chinese hibiscus appreciates high humidity, and the RHS raises it with a tray of damp gravel and by grouping plants.",
+    "src": [0, 1]
+  },
+  "temperature": {
+    "minF": 45,
+    "minC": 7,
+    "src": [0, 2, 3]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, starting about six to eight weeks after the late-winter repotting",
+    "everyWeeks": [1, 1],
+    "strength": "full",
+    "type": "Balanced liquid houseplant fertilizer at the label rate",
+    "winter": "none",
+    "src": [0]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage holes",
+      "The plant wilts between normal waterings in summer",
+      "New leaves are smaller than normal"
+    ],
+    "season": "February or early March",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [0, 7]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "None of the sources we read rates tropical hibiscus for people, and NC State flags no poison hazard for Hibiscus rosa-sinensis.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Hibiscus (filed under Hibiscus syriacus; no separate Hibiscus rosa-sinensis entry)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hibiscus",
+        "toxicPrinciples": "Non-toxic"
+      },
+      {
+        "name": "Rose of China (filed under Hibiscus syriacus)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/rose-china",
+        "toxicPrinciples": "Unknown"
+      }
+    ],
+    "src": [1, 5, 6]
+  },
+  "problems": [
+    {
+      "symptomKey": "bud-drop",
+      "symptom": "Fat flower buds turn yellow and fall before opening",
+      "causeKey": "drafts",
+      "cause": "A move or a sudden change of conditions; NC State says moving the plant can cause leaf and bud drop",
+      "remedy": "Pick a bright spot and leave the plant there, away from radiators, fires and drafts, as the RHS advises."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Lower leaves yellow and drop after a cool night",
+      "causeKey": "cold",
+      "cause": "Chilling; UF/IFAS says the slightest cold wave can yellow and drop the lower leaves",
+      "remedy": "Bring the plant in before nights fall below 54°F (12°C) and keep it above a 45°F (7°C) minimum indoors."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Leaves and buds yellow and fall over the winter",
+      "causeKey": "low-light",
+      "cause": "Low indoor light in winter, described by the RHS",
+      "remedy": "Give it the brightest window, cut watering back, stop feeding and let it rest; growth returns in spring."
+    },
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Lush leaves but few or no blooms",
+      "causeKey": "low-light",
+      "cause": "Too little light, or no new growth for flowers to form on",
+      "remedy": "Move it to bright light, prune back in late winter so it makes new shoots, and feed weekly through the growing season."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky leaves and clusters of small insects on buds and shoot tips",
+      "causeKey": "pests",
+      "cause": "Aphids or whiteflies feeding on sap",
+      "remedy": "Rinse them off and treat with insecticidal soap or horticultural oil; UF/IFAS warns never to use malathion on hibiscus."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Mottled, dull leaves with fine webbing underneath",
+      "causeKey": "pests",
+      "cause": "Red spider mites, which thrive in warm, dry air",
+      "remedy": "Raise humidity with a gravel tray, wash the leaf undersides and treat with insecticidal soap until the webbing stops."
+    }
+  ],
+  "propagation": {
+    "methods": ["Softwood tip cuttings", "Semi-ripe cuttings"],
+    "season": "Late spring or early summer"
+  },
+  "size": {
+    "growth": "moderate",
+    "note": "The RHS says a potted plant indoors may reach 6½ feet; NC State gives 4 to 10 feet outdoors. Yearly pruning keeps it bushy.",
+    "src": [0, 1]
+  },
+  "varieties": [
+    { "name": "Cooperi", "note": "Compact RHS award winner with olive-green, white and pink marbled leaves and red flowers, 3 to 6 feet." }
+  ],
+  "sources": [
+    { "title": "Hibiscus rosa-sinensis: growing guide", "publisher": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/hibiscus/growing-guide", "accessed": "2026-10-04" },
+    { "title": "Hibiscus rosa-sinensis (Chinese Hibiscus)", "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University", "url": "https://plants.ces.ncsu.edu/plants/hibiscus-rosa-sinensis/", "accessed": "2026-10-04" },
+    { "title": "Hibiscus (HGIC 1179)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/hibiscus/", "accessed": "2026-10-04" },
+    { "title": "Hibiscus", "publisher": "UF/IFAS Gardening Solutions, University of Florida", "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/hibiscus/", "accessed": "2026-10-04" },
+    { "title": "Lighting for houseplants", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/lighting", "accessed": "2026-10-04" },
+    { "title": "Hibiscus", "publisher": "ASPCA Animal Poison Control Center", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hibiscus", "accessed": "2026-10-04" },
+    { "title": "Rose of China", "publisher": "ASPCA Animal Poison Control Center", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/rose-china", "accessed": "2026-10-04" },
+    { "title": "Repotting", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/repotting", "accessed": "2026-10-04" },
+    { "title": "Houseplant care", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/care", "accessed": "2026-10-04" }
+  ],
+  "verified": "2026-10-04",
+  "related": ["meyer-lemon-tree", "bird-of-paradise", "hydrangea"],
+  "seo": {
+    "title": "Hibiscus Care Indoors: Blooms, Light & Winter Tips (2026)",
+    "description": "Hibiscus care in 2026 for tropical Hibiscus rosa-sinensis: bright light, weekly feeding in growth, nights above 45°F (RHS). Bud drop fixes and pet safety.",
+    "h1": "Hibiscus care: light, water and more blooms"
+  },
+  "content": {
+    "answer": "Tropical hibiscus needs bright light, moist roots while it grows and weekly feeding from spring, per the RHS. Keep winter nights above 45°F (7°C) and expect a semi-dormant rest with some leaf drop. The ASPCA lists hibiscus as non-toxic to cats and dogs.",
+    "intro": "The hibiscus sold in pots with glossy leaves and 4 to 8 inch flowers in red, orange, yellow or pink is Hibiscus rosa-sinensis, the tropical or Chinese hibiscus. It is a different plant from the hardy hibiscus of northern gardens, rose mallow, scarlet rose mallow and rose of Sharon, which survive winter outdoors in the ground; Clemson Extension notes that the tropical species is hardy only in USDA zone 9 and is grown elsewhere as a summer annual or a houseplant. Each flower lasts only a day or two, the RHS says, but a healthy plant keeps producing new ones over a long season because blooms form on new growth. The RHS is also candid that it can be tricky to manage in a house. It wants more light, warmth, humidity and food than most foliage plants, and it shows its displeasure quickly by dropping buds. Get those basics right and a single plant can live up to 20 years.",
+    "light": [
+      "Sources pull in slightly different directions here. NC State lists full sun to partial shade and says an indoor plant needs a spot with bright light, and Clemson grows it outdoors in full sun or light afternoon shade. The RHS, writing for a cloudier climate and for plants behind glass, asks for bright, filtered light protected from direct sun in a greenhouse, yet says a south-facing windowsill will do in winter. In practice, indoors in the US that means the brightest window you have, which on the Illinois Extension scale is high light of 300 foot-candles or more, with a sheer curtain only if leaves bleach in midsummer afternoon sun.",
+      "Light is what drives flowering. A hibiscus in a dim room grows soft, leafy shoots and few buds. Outdoors for the summer, it usually blooms far more, but Clemson advises acclimating it gradually to the stronger light, and bringing it in again needs the same care in reverse."
+    ],
+    "water": [
+      "NC State says the roots should be kept moist, and Clemson tells growers to water the plants freely during the growing season. A flowering hibiscus with dozens of large leaves in a warm, bright window uses a lot of water, and a pot allowed to dry out completely tends to shed its buds. Check the surface often in summer and water as soon as it feels dry, soaking until water runs out of the drainage hole.",
+      "The RHS frames watering around the seasons. In spring, increase watering as rising light and temperatures stimulate growth. As growth slows in fall, reduce it, and in winter water only when the top layer of compost is dry. In cool conditions the plant overwinters semi-dormant, and that rest is healthy rather than a sign of trouble.",
+      "Do not let the pot stand in water at any time of year. Moist roots and waterlogged roots are different things; a saucer full of water in winter, when the plant is barely using any, is an invitation to root rot."
+    ],
+    "soil": [
+      "NC State and Clemson both ask for rich soil with good drainage, Clemson specifying plenty of organic matter. For pots, the RHS recommends a peat-free compost formulated for houseplants, or a soil-based compost such as John Innes No 2. A quality bagged houseplant mix with some compost or loam added holds moisture between waterings while still draining freely. Any container must have a drainage hole, and a heavier pot helps once the plant reaches 3 feet or more."
+    ],
+    "humidity": [
+      "NC State notes that Chinese hibiscus appreciates high humidity, and the RHS describes it as needing bright, humid conditions with good ventilation. A heated home in winter often drops below 30 percent humidity, according to the Illinois Extension, which partly explains the winter leaf and bud drop. The RHS raises humidity by standing the pot on a tray of damp gravel or clay pellets and grouping plants together. Dry air also favors red spider mites, one of the main hibiscus pests."
+    ],
+    "temperature": [
+      "The RHS gives a minimum night temperature of 45°F (7°C) and calls 45 to 50°F (7 to 10°C) nights ideal for overwintering in a greenhouse; an ordinary home is warmer than that, which is fine. More useful is the outdoor cutoff. The RHS says to bring plants in before temperatures drop below 54°F (12°C), and Clemson says to move tropical hibiscus indoors when nighttime temperatures fall into the lower 50s °F. UF/IFAS warns that the slightest cold wave can make lower leaves yellow and drop. Indoors, keep it away from open fires, radiators and drafts, and pull it back from windows on frosty nights."
+    ],
+    "fertilizer": [
+      "Tropical hibiscus is a heavy feeder while it grows. The RHS recommends starting weekly feeding with a balanced liquid houseplant fertilizer about six to eight weeks after the late-winter repotting and continuing through spring and summer. That is far more often than the general Illinois Extension rule for foliage houseplants, and it reflects how much energy a plant spends producing a new flower almost every day. Follow the label rate. When growth slows in fall, cease feeding, as the RHS advises, and resume only when spring growth starts."
+    ],
+    "repotting": [
+      "The RHS repots tropical hibiscus in February or early March, just before the spring growth surge, using fresh houseplant or soil-based compost. Combine it with the annual prune. Move to a pot one size larger if roots are coming through the drainage holes or the plant wilts between normal waterings in summer; otherwise, refresh the compost and return it to the same pot. Water lightly until new growth appears, and wait six to eight weeks before the first feed so tender new roots are not burned."
+    ],
+    "propagation": [
+      "The RHS says softwood tip cuttings or semi-ripe cuttings taken in late spring or early summer root readily. Insert them in pots of sandy, peat-free cutting compost and give them bottom heat of 75 to 80°F (24 to 27°C) and high humidity, either in a heated propagator or with the pots enclosed in plastic bags on a warm windowsill. Pot rooted cuttings individually into 3½-inch pots and leave them undisturbed over the first winter. Cuttings are also the only way to keep a favorite named flower color."
+    ],
+    "problems": [
+      "Bud drop is the complaint behind most questions about hibiscus. NC State notes that the plant is sensitive to environmental changes, so moving it can cause leaf and bud drop, and the RHS adds that in winter, buds and leaves yellow and fall because indoor light is low, a semi-dormant state the plant survives if watering is reduced. Pests are the other big issue. The RHS names aphids, red spider mites and glasshouse whitefly, UF/IFAS adds mealybugs and recommends insecticidal soaps or horticultural oils, and warns never to use the insecticide malathion on hibiscus."
+    ],
+    "petSafety": [
+      "The ASPCA lists hibiscus as non-toxic to cats, dogs and horses. One caveat deserves mention: the ASPCA's hibiscus entry, and its separate Rose of China entry, are both filed under the scientific name Hibiscus syriacus, the hardy rose of Sharon, although Rose of China is a common name of the tropical species. There is no entry for Hibiscus rosa-sinensis by its own name. NC State flags no poison hazard for it either. A pet that eats a lot of any plant can still have an upset stomach, so keep fallen flowers swept up and call your veterinarian if symptoms appear."
+    ],
+    "faq": [
+      {
+        "q": "How do I tell a tropical hibiscus from a hardy hibiscus at the store?",
+        "a": "Look at the leaves and flower colors. Tropical Hibiscus rosa-sinensis has glossy, dark green leaves and comes in yellow, apricot and orange, colors Clemson says hardy perennial hibiscus do not offer. Hardy rose mallows die back to the ground each winter, and rose of Sharon is a deciduous shrub. A label saying zone 9 or houseplant means tropical."
+      },
+      {
+        "q": "Can I leave my hibiscus outside in fall until it gets cold?",
+        "a": "Not for long. The RHS says to bring tropical hibiscus indoors before temperatures drop below 54°F (12°C), and Clemson says once nights fall into the lower 50s °F. UF/IFAS notes that the slightest cold wave yellows the lower leaves. Check the plant for aphids and whiteflies before it comes in, so pests do not spread to houseplants."
+      },
+      {
+        "q": "How much should I prune an indoor hibiscus in late winter?",
+        "a": "Fairly hard. The RHS shortens the previous season's growth in February or early March to leave a framework, cutting strong shoots to about 2 to 3 inches from the base. NC State suggests cutting back by about half the height in early spring. Because flowers form on new growth, pruning is what produces a well-branched, free-blooming hibiscus."
+      },
+      {
+        "q": "Why does my hibiscus drop all its leaves every winter indoors?",
+        "a": "Mostly from low winter light. The RHS explains that buds and leaves turn yellow and drop when indoor light is low, and that the plant survives in this semi-dormant state if watering is reduced. Put it in your brightest window, water only when the top layer of compost is dry, stop feeding and wait for spring."
+      }
+    ]
+  }
+}

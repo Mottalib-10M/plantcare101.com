@@ -1,0 +1,380 @@
+{
+  "slug": "mint",
+  "commonName": "Mint",
+  "otherNames": [
+    "Spearmint",
+    "Peppermint",
+    "Garden mint"
+  ],
+  "botanicalName": "Mentha spp.",
+  "formerNames": [],
+  "family": "Lamiaceae",
+  "kind": "foliage",
+  "isGroup": true,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [
+      300,
+      1500
+    ],
+    "lux": [
+      3229,
+      16146
+    ],
+    "windows": [
+      "south",
+      "east",
+      "west"
+    ],
+    "directSun": "tolerates",
+    "src": [
+      0,
+      1,
+      2,
+      9
+    ]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Keep the potting mix evenly moist; water whenever the surface starts to dry and never let the pot dry out",
+    "winter": "Outdoor pots die back and need only occasional water to keep the rhizomes from drying out; a pot brought indoors to a sunny sill keeps growing and needs regular water.",
+    "factors": [
+      "Mint does poorly in dry soil, NC State notes, so a forgotten pot wilts fast.",
+      "Containers dry out much faster than garden soil; the RHS suggests a shadier spot in heat waves to cut watering.",
+      "Rich, moisture-retentive mix is better than a gritty one for this herb."
+    ],
+    "src": [
+      0,
+      2,
+      3,
+      6
+    ]
+  },
+  "soil": {
+    "mix": "A rich, moisture-holding potting mix that still drains, in a pot 12 to 16 inches wide.",
+    "components": [
+      "multipurpose or loam-based potting mix",
+      "compost for organic matter",
+      "container with drainage holes"
+    ],
+    "ph": [
+      6,
+      7
+    ],
+    "src": [
+      0,
+      1,
+      3,
+      5
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Ordinary room humidity suits it; damp, crowded foliage encourages rust and leaf spot.",
+    "src": [
+      0,
+      3,
+      7
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      55,
+      70
+    ],
+    "idealC": [
+      13,
+      21
+    ],
+    "minF": 45,
+    "minC": 7,
+    "src": [
+      0,
+      3,
+      7
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring to fall, while it is in active growth",
+    "everyWeeks": [
+      2,
+      2
+    ],
+    "strength": "half",
+    "type": "Low dose of a balanced water-soluble fertilizer; heavy feeding dulls the flavor",
+    "winter": "reduced",
+    "src": [
+      7
+    ]
+  },
+  "repotting": {
+    "everyYears": [
+      3,
+      4
+    ],
+    "signs": [
+      "Rhizomes circle the inside of the pot and the center of the clump dies out",
+      "Shoots get shorter and leaves smaller each year",
+      "Runners escape over the rim or through the drainage holes"
+    ],
+    "season": "Spring or fall",
+    "rootType": "rhizome",
+    "prefersSnug": false,
+    "src": [
+      3,
+      4
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "Culinary mints are food in normal amounts; NC State rates the poison severity as low, with vomiting and diarrhea only after large ingestions. Pennyroyal (Mentha pulegium) is listed as harmful if eaten.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Mint (Mentha sp.)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mint",
+        "toxicPrinciples": "Essential Oils",
+        "clinicalSigns": "Vomiting and diarrhea with large ingestions"
+      }
+    ],
+    "src": [
+      0,
+      3,
+      8
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Dusty orange, yellow or black spots, mostly on leaf undersides",
+      "causeKey": "disease",
+      "cause": "Mint rust, a common fungal disease",
+      "remedy": "Cut infected stems to the base and bin them; space pots for airflow and water the mix, not the leaves."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long, soft stems with small, widely spaced leaves",
+      "causeKey": "low-light",
+      "cause": "Fewer than about three hours of direct sun",
+      "remedy": "Move it to a south, east or west window, harvest the tips hard to force branching, and add a grow light in winter."
+    },
+    {
+      "symptomKey": "drooping",
+      "symptom": "Stems collapse and leaves hang limp by afternoon",
+      "causeKey": "underwatering",
+      "cause": "A small pot that dried out in sun or heat",
+      "remedy": "Soak the pot thoroughly; it usually revives within hours. Move it to a larger pot or a shadier spot in hot weather."
+    },
+    {
+      "symptomKey": "slow-growth",
+      "symptom": "Weak, sparse shoots and a bare center in an older pot",
+      "causeKey": "root-bound",
+      "cause": "Rhizomes packed into the container after a few years",
+      "remedy": "Divide the clump in spring or fall, discard the old center and replant a vigorous outer section in fresh mix."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Stems brown and die back in late fall",
+      "causeKey": "dormancy",
+      "cause": "Normal winter dieback of a herbaceous perennial",
+      "remedy": "Cut old stems down any time from late fall to spring and keep the mix barely moist; new shoots appear in spring."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky, curled new leaves with clusters of small insects",
+      "causeKey": "pests",
+      "cause": "Aphids feeding on soft tips",
+      "remedy": "Snip off the worst shoots, rinse the plant with water and rely on regular harvesting to remove infested tips."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of the clump",
+      "Stem cuttings rooted in water",
+      "Sections of rhizome",
+      "Seed (variable)"
+    ],
+    "season": "Division in spring or fall; cuttings from spring shoots; rhizome sections any time of year"
+  },
+  "size": {
+    "heightIn": [
+      12,
+      24
+    ],
+    "widthIn": [
+      12,
+      24
+    ],
+    "growth": "fast",
+    "note": "Width is limited only by the pot: in open ground the rhizomes keep spreading.",
+    "src": [
+      0,
+      2,
+      4
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Spearmint (Mentha spicata)",
+      "note": "Nearly hairless, bright green leaves; NC State calls it one of the best mints for flavor."
+    },
+    {
+      "name": "Peppermint (Mentha x piperita)",
+      "note": "A watermint and spearmint hybrid with dark green leaves and reddish stems; takes more shade."
+    },
+    {
+      "name": "Chocolate mint (Mentha x piperita f. citrata 'Chocolate')",
+      "note": "A peppermint form with darker stems and a dessert-like scent."
+    },
+    {
+      "name": "Apple mint and other flavored mints",
+      "note": "Fruit-scented selections; buy from a reputable supplier so the plant is a culinary type."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mentha spicata (Spearmint)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/mentha-spicata/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Mentha x piperita (Peppermint)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/mentha-x-piperita/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Mentha x piperita",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=281400",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow mint",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/herbs/mint/grow-your-own",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Mint (Herbs)",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/herbs/mint",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Growing Mint in a Home Garden",
+      "publisher": "University of Maryland Extension",
+      "url": "https://extension.umd.edu/resource/growing-mint-home-garden",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Mint (Mentha spp.)",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/vegetables/mint/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Growing Herbs Indoors",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/growing-herbs-indoors",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Mint (Mentha sp.)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mint",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Catnip",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/catnip",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "basil",
+    "oxalis"
+  ],
+  "seo": {
+    "title": "Mint Care in Pots: Watering, Sun & Stopping Spread (2026)",
+    "description": "Mint care for 2026: it spreads by rhizomes, so grow it in a 12 to 16 inch pot. Watering, light, winter dieback, dividing, and why the ASPCA lists it as toxic.",
+    "h1": "Mint care: growing spearmint and peppermint in containers"
+  },
+  "content": {
+    "answer": "Grow mint in its own pot of rich, moist mix, ideally 12 to 16 inches wide, in sun or partial shade. Keep the mix evenly moist, harvest often to keep it bushy, and divide the clump every three to four years.",
+    "intro": "Underground stems explain mint. Spearmint, peppermint and their relatives spread by rhizomes, creeping stems that run just below the surface and send up new shoots wherever they go, and NC State adds that the square stems also root wherever they touch the ground. That is why nearly every extension service gives the same advice: grow mint in a container. The University of Maryland recommends a pot 12 to 16 inches across, and Illinois Extension goes further, warning that even bottomless pots sunk in a bed do not always hold it. Confined to its own pot, mint becomes one of the easiest herbs there is. It accepts full sun or partial shade, wants steady moisture, grows fast and rewards heavy picking with more tender shoots. It is also a hardy perennial that dies back each winter outdoors, so a brown pot in December is resting, not dead. This page covers Mentha as a group, since culinary mints share the same needs.",
+    "light": [
+      "Mint is more flexible about light than most herbs. NC State lists spearmint for full sun or partial shade, and says peppermint actually prefers partial shade and needs a minimum of only three hours of sun a day. Missouri Botanical Garden rates peppermint for full sun to part shade. In a hot southern summer, an east-facing spot with morning sun and afternoon shade keeps the pot from drying out so quickly.",
+      "Indoors the problem is too little light, not too much. The University of Illinois Extension measures roughly 300 foot-candles right at an east or west window and 1,500 in front of a south one, so set an indoor pot as close to bright glass as you can. The RHS suggests a sunny windowsill for potted mint brought in for winter harvests. Stretched, pale stems mean it wants more."
+    ],
+    "water": [
+      "Unlike rosemary or lavender, mint likes its roots moist. The RHS asks for compost kept evenly moist, Missouri Botanical Garden rates peppermint for medium to wet soil, and NC State notes spearmint does not do well in dry soil. Water whenever the surface begins to feel dry, soaking the pot until water runs out of the bottom.",
+      "Containers are the catch. The RHS points out that pots dry out much faster than ground soil, especially in hot, dry weather, so check them regularly through the growing season. Moving a pot into partial shade during a heat wave cuts water use without hurting the plant. A mint that wilts badly usually perks up within hours of a good soak, but repeated drying stresses it and pushes it to flower.",
+      "Moist does not mean waterlogged. Use a pot with drainage holes and empty the saucer, because roots sitting in water for long periods still suffer, especially indoors in winter when growth is slow and the mix dries more gradually."
+    ],
+    "soil": [
+      "NC State describes ideal mint soil as organically rich, well-drained and moist, and the RHS suggests multipurpose or soil-based compost for containers. A good bagged potting mix with a few handfuls of compost works well. NC State gives peppermint's best pH as 6.0 to 7.0, which most potting mixes already meet. Pick a wide pot rather than a deep one; the University of Maryland suggests 12 to 16 inches in diameter, which leaves the rhizomes room to run."
+    ],
+    "humidity": [
+      "Ordinary household humidity is fine. The more common issue is fungal disease when foliage stays wet in still air: NC State lists rust and leaf spot as the main problems on spearmint. Space pots so air moves between them and water at the base. Penn State Extension notes that forced-air heating makes winter rooms very dry, and grouping herb pots together helps if indoor mint dries at the leaf edges."
+    ],
+    "temperature": [
+      "Mint is tough. NC State rates spearmint hardy in USDA zones 4 through 9, and Illinois Extension calls mints extremely hardy perennials. Outdoors in winter the top growth dies back, and the RHS explains it regrows every spring, so a pot can stay outside in most of the country, ideally sheltered against a wall where the root ball will not sit frozen and waterlogged.",
+      "For a pot you bring indoors to keep harvesting, Penn State Extension recommends herb rooms of 65 to 70°F (18 to 21°C) by day and 55 to 60°F (13 to 16°C) at night, and notes that most herbs survive the mid to low 40s. Keep it away from heat vents, which dry it out fast."
+    ],
+    "fertilizer": [
+      "Mint needs little feeding. In a pot of rich mix it grows vigorously on its own, and extension advice for herbs in general is to feed lightly, because heavy fertilizer produces soft growth with less flavor. Penn State Extension suggests a low dose of water-soluble fertilizer every 2 weeks for herbs indoors. Outdoors, a pot repotted into fresh compost each spring often needs nothing more. Stop feeding when growth slows in late fall."
+    ],
+    "repotting": [
+      "This is the chore mint owners skip, and it is why many pots decline. The rhizomes fill the container within a few seasons, the center dies out and shoots get smaller. Illinois Extension recommends dividing mints every three to four years to keep them vigorous, and the RHS says the same: repot into a larger container, or divide the clump and replant one section back into the same pot.",
+      "Spring and fall are the best times. Slide the plant out, cut the root ball into pieces with a knife or spade, throw away the old woody middle and pot up the young outer sections in fresh mix."
+    ],
+    "propagation": [
+      "Few plants root as easily. The RHS notes that stems placed in a jar of water soon produce roots, and softwood cuttings from new spring shoots take readily in compost. Division in spring or fall gives an instant full-sized plant. You can also pot short sections of rhizome at any time of year; the RHS suggests doing it indoors in November for fresh mint by Christmas.",
+      "Seed is the least reliable route. Many named mints, especially peppermint, rarely set seed, according to Missouri Botanical Garden, so buy plants or take cuttings to get the flavor you want."
+    ],
+    "problems": [
+      "Rust is the disease to watch: the RHS describes dusty orange, yellow and black spots on the leaves, and NC State lists it alongside leaf spot as the common fungal problems on spearmint. Cut infected stems right down and dispose of them. Aphids sometimes cluster on soft tips, and regular harvesting removes most of them. Missouri Botanical Garden otherwise reports no serious pest or disease problems for peppermint, noting only that it is an aggressive spreader."
+    ],
+    "petSafety": [
+      "The ASPCA lists mint (Mentha species) as toxic to dogs, cats and horses. The toxic principle is the essential oils, and the clinical signs are vomiting and diarrhea with large ingestions. A pet that nibbles a leaf is unlikely to get sick, but keep pots out of reach of a dog or cat that chews plants. The RHS warns that pennyroyal (Mentha pulegium) is harmful if eaten, so buy culinary mints from a reputable source. Catnip and catmint (Nepeta) are not true mints; the ASPCA lists catnip separately as toxic to cats, with vomiting and diarrhea possible."
+    ],
+    "faq": [
+      {
+        "q": "Why should mint always be planted in a pot?",
+        "a": "Because it spreads by rhizomes and can take over a bed. UF/IFAS warns it sends out runners everywhere and becomes weedy, and Illinois Extension says even bottomless containers sunk in the ground do not always stop it. A freestanding pot above ground, 12 to 16 inches wide as the University of Maryland suggests, is the most reliable way to contain mint."
+      },
+      {
+        "q": "Is my potted mint dead if it turns brown in winter?",
+        "a": "Probably not. Mint is a herbaceous perennial that dies back over winter and regrows in spring, according to the RHS. Cut the old stems down any time from late fall until just before new shoots appear, and keep the mix barely moist. Scratch a rhizome near the surface: firm and pale inside means it is alive."
+      },
+      {
+        "q": "How can I keep fresh mint growing on a windowsill all winter?",
+        "a": "The RHS suggests bringing a potted mint indoors in fall and placing it on a sunny windowsill, or potting up pieces of rhizome indoors in November for fresh shoots by Christmas. Give it the brightest window you have, keep the mix moist, and pinch tips regularly. Growth will be slower and softer than in summer."
+      },
+      {
+        "q": "Should I cut the flowers off my mint plant?",
+        "a": "For the best leaves, yes. Illinois Extension recommends removing flower spikes as they appear to maintain leaf flavor. If the plant has already bloomed, the RHS suggests cutting the whole plant down to about 2 inches from the base after flowering, which triggers fresh shoots you can start harvesting within a few weeks."
+      },
+      {
+        "q": "Can my cat eat catnip if mint is toxic?",
+        "a": "Catnip is a different plant, Nepeta cataria, and the RHS notes catmints are not true mints. The ASPCA still lists catnip as toxic to cats: many cats love it, but it can cause vomiting and diarrhea, and it sedates some cats and stimulates others. Keep both catnip and true mint where your cat cannot graze on them unsupervised."
+      }
+    ]
+  }
+}

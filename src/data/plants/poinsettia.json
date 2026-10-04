@@ -1,0 +1,298 @@
+{
+  "slug": "poinsettia",
+  "commonName": "Poinsettia",
+  "otherNames": [
+    "Christmas star",
+    "Christmas flower",
+    "Painted leaf",
+    "Flame-leaf flower"
+  ],
+  "botanicalName": "Euphorbia pulcherrima",
+  "formerNames": [
+    "Poinsettia pulcherrima",
+    "Euphorbia coccinea"
+  ],
+  "family": "Euphorbiaceae",
+  "kind": "flowering",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [150, 1500],
+    "lux": [1615, 16146],
+    "windows": ["east", "west", "south"],
+    "directSun": "tolerates",
+    "src": [1, 3, 6]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water thoroughly when the surface of the mix feels dry to the touch, then empty the saucer",
+    "winter": "While the bracts are colored in winter, check the pot often and water as soon as the surface dries. After about half the bracts and leaves have dropped, Illinois Extension advises tapering off until the mix is dry, then giving only enough water to keep the stems from shriveling.",
+    "factors": [
+      "Decorative foil sleeves trap drainage water: punch holes in the foil or lift the pot out before watering.",
+      "A wilted poinsettia drops its bracts sooner, so do not let a holiday plant go bone dry.",
+      "Clemson links waterlogged or poorly drained mix to root rot, the commonest way potted plants die after the holidays."
+    ],
+    "src": [1, 2, 3, 4]
+  },
+  "soil": {
+    "mix": "A well-drained potting mix with plenty of organic matter, such as one built on peat moss, compost or leaf mold.",
+    "components": [
+      "peat-based potting mix",
+      "compost or leaf mold",
+      "loam"
+    ],
+    "src": [2, 3]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "UF/IFAS says slightly humid air prolongs bract color; a gravel tray helps in a heated room.",
+    "src": [4, 7]
+  },
+  "temperature": {
+    "idealF": [60, 70],
+    "idealC": [16, 21],
+    "minF": 55,
+    "minC": 13,
+    "maxF": 70,
+    "maxC": 21,
+    "src": [1, 3]
+  },
+  "fertilizer": {
+    "season": "Spring through early fall, once the bracts have faded; never while the plant is in color",
+    "everyWeeks": [2, 4],
+    "strength": "full",
+    "type": "Balanced complete fertilizer such as 10-10-10, or a houseplant fertilizer at the label rate",
+    "winter": "none",
+    "src": [1, 3, 4]
+  },
+  "repotting": {
+    "signs": [
+      "New shoots appear after the spring cutback and roots fill the pot",
+      "The plant wilts between normal waterings in summer",
+      "Roots grow through the drainage holes"
+    ],
+    "season": "Late spring to early June, right after the hard cutback",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [1, 3, 8]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: a large amount must be eaten to cause a mild stomachache, but the milky latex sap can cause contact dermatitis and eye injury, and affects people with latex allergies.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Poinsettia (Euphorbia pulcherrima)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/poinsettia",
+        "toxicPrinciples": "Irritant sap",
+        "clinicalSigns": "Irritating to the mouth and stomach, sometimes causing vomiting, but generally over-rated in toxicity."
+      }
+    ],
+    "src": [2, 3, 4, 5]
+  },
+  "problems": [
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Leaves and bracts fall within days of bringing the plant home",
+      "causeKey": "cold",
+      "cause": "Chilling below 50°F, even for a few minutes on the trip from the store, or leaves touching cold glass",
+      "remedy": "Keep it sleeved for the journey in cold weather, move it off the windowsill and hold the room between 60 and 70°F."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Lower leaves turn yellow and bracts fade early",
+      "causeKey": "heat",
+      "cause": "Warm, dry air from a heating vent, fireplace or appliance",
+      "remedy": "Move it to a cooler spot that stays under 70°F by day, ideally a little cooler at night."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Plant wilts although the mix is wet",
+      "causeKey": "overwatering",
+      "cause": "Water trapped in a foil sleeve or saucer rots the roots",
+      "remedy": "Remove the foil, let the surface dry before the next watering, and discard the plant if the roots are brown and mushy."
+    },
+    {
+      "symptomKey": "drooping",
+      "symptom": "Whole plant droops and bracts begin to drop",
+      "causeKey": "underwatering",
+      "cause": "Mix allowed to dry out completely in a warm room",
+      "remedy": "Water until it drains from the bottom, empty the saucer, and check the surface every day while it is in color."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky leaves and tiny white insects that fly up when touched",
+      "causeKey": "pests",
+      "cause": "Whiteflies, the most common poinsettia pest",
+      "remedy": "Check leaf undersides before buying, isolate the plant, and use yellow sticky cards or insecticidal soap on the undersides."
+    },
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Bracts stay green the following December",
+      "causeKey": "heat",
+      "cause": "Nights above 70 to 75°F, or lamplight breaking the long dark period in fall",
+      "remedy": "From late September give total darkness every night, in a closet or under a box, in a room kept between 60 and 70°F."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings dipped in rooting hormone, in a peat, perlite and vermiculite mix"
+    ],
+    "season": "Early summer"
+  },
+  "size": {
+    "heightIn": [24, 36],
+    "note": "As a potted plant it rarely passes 2 to 3 feet; in the wild in Mexico it becomes a shrub of 10 feet or more.",
+    "src": [0, 2]
+  },
+  "varieties": [
+    {
+      "name": "Prestige",
+      "note": "The best-selling red in the US, with strong branches that resist breaking."
+    },
+    {
+      "name": "Alaska",
+      "note": "Frosty white bracts."
+    },
+    {
+      "name": "Christmas Mouse",
+      "note": "Small, rounded red bracts shaped like mouse ears."
+    },
+    {
+      "name": "Enduring Marble",
+      "note": "Creamy bracts marbled with rose pink."
+    },
+    {
+      "name": "Tapestry",
+      "note": "Leaves variegated yellow and green under bright red bracts."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Poinsettia",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/poinsettia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Caring for Poinsettias",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/caring-poinsettias",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Euphorbia pulcherrima (Poinsettia)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/euphorbia-pulcherrima/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Poinsettia (HGIC 1561)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/poinsettia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Poinsettia",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/poinsettia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Poinsettia",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/poinsettia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["christmas-cactus", "cyclamen", "amaryllis", "hydrangea"],
+  "seo": {
+    "title": "Poinsettia Care: Keep the Bracts & Rebloom It (2026)",
+    "description": "Poinsettia care for 2026: hold it at 60 to 70°F by day, water when the surface dries, then give 14 hours of darkness nightly from fall to color it again.",
+    "h1": "Poinsettia care: bracts, watering and reblooming"
+  },
+  "content": {
+    "answer": "Give a poinsettia bright, indirect light for about six hours a day, keep it between 60 and 70°F away from drafts, and water when the surface feels dry. Reblooming needs about 14 hours of total darkness every night from early fall.",
+    "intro": "Euphorbia pulcherrima is a shrub from the dry tropical forests of Mexico and Guatemala, where it can reach 10 feet, and the red part everyone calls the flower is not a flower at all. Those are bracts, modified leaves colored to attract pollinators to the tiny yellow cyathia clustered in the center. That matters for care, because bracts last only as long as the plant stays comfortable: Illinois Extension says a well-kept poinsettia lasts six to eight weeks indoors, while cold glass, a hot vent or a soggy foil sleeve can strip it in days. It is also a short-day plant, coloring up only after weeks of long, uninterrupted nights. Most people treat it as a holiday bouquet and compost it in January. Keeping one for a second Christmas is possible, but Clemson calls the process somewhat demanding, and that is fair.",
+    "light": [
+      "Indoors, put the plant where it gets at least six hours of bright, indirect light, the figure both Clemson and Illinois Extension give. A spot a few feet back from an east or west window works well, as does a south window with a sheer curtain. Clemson warns that direct sun through glass can fade the bracts, so filter it while the plant is in color. Keep the leaves from touching the pane, since cold glass damages them.",
+      "The rules change once the holidays are over. A poinsettia you keep growing wants as much sun as you can give it: Illinois suggests a sunny window after the spring cutback, then a summer outdoors with six to eight hours of direct sun and some afternoon shade once nights stay above 50°F. Move it out gradually over a week or two so the leaves do not scorch."
+    ],
+    "water": [
+      "Poinsettias like moderately moist mix, never soggy and never dry. Push a finger into the surface: when it feels dry, carry the pot to the sink, take it out of any decorative cover, and water until it runs from the drainage hole. Let it drain fully before it goes back. Clemson says never to let the mix dry out completely, and Illinois adds that a wilted plant drops its bracts sooner, so a missed watering shows up as bare stems a week later.",
+      "The foil wrapper sold on most holiday plants is the hidden problem. It holds water around the roots like a bucket, and the plant rots while the surface looks fine. Illinois advises punching holes in the foil so water can drain into a saucer, then tipping out the excess. Removing it altogether is simpler.",
+      "If you plan to keep the plant, its water needs drop sharply in late winter. Once roughly half the leaves and bracts have fallen, Illinois recommends tapering off until the mix is completely dry so the plant goes dormant, then storing it somewhere cool and dark with just enough water to keep the stems from shriveling. Regular watering resumes when new growth starts, usually in early May."
+    ],
+    "soil": [
+      "A good bagged potting mix is fine for the holiday season. When you repot in early summer, choose one rich in organic matter: Clemson suggests a mix with a considerable amount of compost, leaf mold or peat moss, and NC State describes a well-drained blend of loam, organic matter and peat. Drainage holes are essential, since this plant goes from thirsty to rotting quickly in a heavy, airless mix."
+    ],
+    "humidity": [
+      "Average household humidity is acceptable, though a heated house in December is drier than a poinsettia likes. UF/IFAS notes that slightly humid air helps prolong bract color and life span, and suggests a gravel tray under the pot. Grouping the plant with other houseplants raises humidity around it a little, as Illinois points out. Keep it away from forced-air vents, which dry the leaves and the mix at the same time."
+    ],
+    "temperature": [
+      "Temperature decides how long the color lasts. Illinois Extension gives a range of 55 to 70°F (13 to 21°C), with about 65°F (18°C) as the sweet spot, and suggests days of 60 to 70°F with nights near 55°F. Clemson draws the hard lines: above 70°F by day the leaves yellow and the bracts fade early, and below 50°F (10°C) chilling injury causes leaf drop. Even a few minutes of cold air in a parking lot can damage the bracts, so have the plant sleeved when it is below 50°F outside."
+    ],
+    "fertilizer": [
+      "Do not feed a poinsettia while it is in color; Clemson, Illinois and UF/IFAS all agree on that point. Fertilizer becomes useful only once you decide to keep the plant growing. Illinois suggests a houseplant fertilizer once a month after the holidays and every couple of weeks during the summer outdoors. Clemson recommends a balanced complete fertilizer such as 10-10-10 every two to three weeks through spring, summer and fall. Stop when the dark treatment starts in autumn."
+    ],
+    "repotting": [
+      "A holiday plant does not need a new pot. Repot only if you are keeping it, and do it after the spring cutback, when shoots are pushing. Illinois times this for early May, when you cut the stems back to 4 to 6 inches; Clemson suggests early June and a container 2 to 4 inches larger than the old one. That is a bigger jump than most houseplants get, because a poinsettia grown outdoors for the summer fills a pot quickly. Pinch the shoot tips through summer for a bushy plant, but stop by September 1, the cutoff Clemson gives."
+    ],
+    "propagation": [
+      "New plants come from stem cuttings. NC State recommends taking them in early summer, dipping the ends in rooting hormone and sticking them in a mix containing peat moss, perlite and vermiculite. The tips you pinch off in June are ideal material. Expect the milky sap to bleed from every cut; wear gloves and keep it away from your eyes."
+    ],
+    "problems": [
+      "Leaf drop is the complaint behind most poinsettia questions, and it has several causes: cold below 50°F, poor light, wilting from dry mix, or crowding at the store. Yellow lower leaves usually mean heat or a rotting root system. Whiteflies are the most common pest, with mealybugs, soft scale and spider mites behind them, so check leaf undersides before you buy. Bracts that stay green the next year almost always point to nights that were too warm or interrupted by light."
+    ],
+    "petSafety": [
+      "The ASPCA lists the poinsettia as toxic to cats, dogs and horses, but its own entry adds that the plant is generally over-rated in toxicity. The irritant sap can upset the mouth and stomach and sometimes causes vomiting. Extension services say much the same: NC State rates it of low severity and notes that a significant amount must be eaten before a mild stomachache, Clemson says it is not considered toxic, and UF/IFAS calls the poisonous reputation a popular belief. The real risk is the latex sap, which can irritate skin and eyes and affect people with latex allergies. Keep it out of reach of a pet that chews leaves, and call your veterinarian if one eats a lot."
+    ],
+    "faq": [
+      {
+        "q": "How do I get my poinsettia to turn red again next Christmas?",
+        "a": "Give it long nights. Starting in late September or early October, put the plant in total darkness for 14 to 16 hours every night, in a closet or under a box, then back into bright light by day. Clemson asks for 14 hours over eight to ten weeks, Illinois for darkness from 5 pm to 8 am, NC State for 16 hours. Keep the room between 60 and 70°F."
+      },
+      {
+        "q": "Why did my poinsettia drop all its leaves after I brought it home?",
+        "a": "Most often it got cold on the way. Illinois Extension notes that even a few minutes below 50°F can damage leaves and bracts, and the drop shows up days later. Other causes are a drafty spot, a dried-out root ball, or water trapped inside the foil sleeve. Move it somewhere bright and steady at 60 to 70°F and water only when the surface is dry."
+      },
+      {
+        "q": "Are the red parts of a poinsettia flowers or leaves?",
+        "a": "They are leaves. The colored parts are bracts, modified leaves that turn red, pink, white or marbled when nights lengthen in fall. The true flowers are the small yellow-green cyathia in the center of each cluster. Illinois Extension suggests buying a plant whose cyathia are still green or red-tipped and fresh, because the display lasts longer than on one already dusted with yellow pollen."
+      },
+      {
+        "q": "Can I plant my poinsettia outside after the holidays?",
+        "a": "Only in a frost-free area. NC State lists it as hardy in USDA Zones 9 to 11, where it can grow into a large shrub. Elsewhere, set the pot outdoors for summer once nights stay above 50°F, sink it in a sunny bed with some afternoon shade, and bring it back inside when night temperatures drop to 55 to 60°F."
+      },
+      {
+        "q": "Is a poinsettia actually dangerous if my cat chews a leaf?",
+        "a": "It is irritating rather than dangerous. The ASPCA lists poinsettia as toxic to cats and dogs, yet its own entry describes it as generally over-rated in toxicity. Expect drooling, mouth irritation or a bout of vomiting from the milky sap. Severe poisoning is not described by the ASPCA, NC State or Clemson. Still, call your veterinarian if your cat ate a large amount or seems unwell."
+      }
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "slug": "alocasia",
+  "commonName": "Alocasia",
+  "otherNames": [
+    "Elephant's ear",
+    "African mask plant",
+    "Amazonica",
+    "Kris plant"
+  ],
+  "botanicalName": "Alocasia spp.",
+  "formerNames": [],
+  "family": "Araceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [150, 300],
+    "lux": [1615, 3229],
+    "windows": ["east", "west", "south"],
+    "directSun": "avoid",
+    "src": [0, 1, 2, 6]
+  },
+  "water": {
+    "rule": "top-2-inches",
+    "ruleText": "From April to October, water once the top 2 inches (5 cm) of compost have dried",
+    "winter": "When the plant goes dormant in winter, the RHS says to cut watering to a minimum: wet compost around a resting rhizome rots it.",
+    "factors": [
+      "A mix that dries within a day or two of a soaking usually means the pot is full of roots, a cue to repot.",
+      "Leaves that yellow and collapse in late fall are often the start of dormancy, not thirst: check the season before adding water.",
+      "Never leave the pot standing in drained water; root rot and bacterial stem rot follow soggy compost."
+    ],
+    "src": [0, 1, 2]
+  },
+  "soil": {
+    "mix": "Three parts peat-free houseplant or multipurpose compost to one part horticultural grit (RHS), slightly acidic and rich in organic matter; a heavy terracotta pot for tall species.",
+    "components": [
+      "peat-free houseplant compost",
+      "horticultural grit",
+      "organic matter such as leaf mold or composted bark"
+    ],
+    "src": [0, 2]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "The RHS links dry air to brown leaf edges and to red spider mites; a wet gravel tray or humidifier helps in heated rooms.",
+    "src": [2, 7]
+  },
+  "temperature": {
+    "idealF": [68, 77],
+    "idealC": [20, 25],
+    "minF": 60,
+    "minC": 16,
+    "src": [0, 1, 2, 4]
+  },
+  "fertilizer": {
+    "season": "April to October, while the plant is in active growth",
+    "everyWeeks": [4, 13],
+    "strength": "full",
+    "type": "General liquid houseplant fertilizer at the label rate (RHS); a balanced 10-10-10 or 1:2:1 formula fits the Illinois rule",
+    "winter": "none",
+    "src": [2, 7]
+  },
+  "repotting": {
+    "everyYears": [2, 2],
+    "signs": [
+      "Roots crowd the pot or circle the bottom",
+      "The compost dries out very fast after a thorough watering",
+      "Offsets press against the rim of the pot"
+    ],
+    "season": "Spring, as growth resumes",
+    "rootType": "rhizome",
+    "prefersSnug": true,
+    "src": [2]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "toxic",
+    "humanNote": "NC State rates the poison severity as medium: chewing causes painful irritation and swelling of the mouth and throat, and the sap irritates skin and eyes. The RHS advises gloves when handling.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Alocasia (Alocasia spp.)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/alocasia",
+        "toxicPrinciples": "Insoluble calcium oxalates",
+        "clinicalSigns": "Oral irritation, pain and swelling of mouth, tongue and lips, excessive drooling, vomiting (not horses), difficulty swallowing"
+      }
+    ],
+    "src": [0, 3]
+  },
+  "problems": [
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Several leaves yellow and collapse in late fall while the base stays firm",
+      "causeKey": "dormancy",
+      "cause": "Natural winter rest triggered by short days and cooler rooms",
+      "remedy": "Cut watering to a minimum, keep the pot above 50°F (10°C) and wait; new leaves emerge from the rhizome in spring."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Base of the stems soft and dark, plant wilting in damp compost",
+      "causeKey": "overwatering",
+      "cause": "Root rot or bacterial stem rot from compost kept wet, often during dormancy",
+      "remedy": "Unpot, cut away soft tissue, let the cut rhizome dry briefly and replant in fresh gritty compost; water sparingly until a leaf appears."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale stippling on leaf undersides",
+      "causeKey": "pests",
+      "cause": "Spider mites, which thrive in dry indoor air",
+      "remedy": "Wash both sides of every leaf, isolate the plant, treat with insecticidal soap and raise the humidity around it."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Leaf margins turn brown and papery",
+      "causeKey": "low-humidity",
+      "cause": "Dry air from central heating",
+      "remedy": "Stand the pot on a tray of wet gravel, run a humidifier nearby, or group it with other tropical plants."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Pale, scorched patches on leaves facing the window",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sun through glass",
+      "remedy": "Move the plant back from the glass or filter the light with a sheer curtain; scorched tissue will not recover."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Small new leaves on long, leaning stalks",
+      "causeKey": "low-light",
+      "cause": "A position too dim for active growth",
+      "remedy": "Give it bright, indirect light near an east or west window and turn the pot slightly at each watering."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Separating offsets from the base of the parent",
+      "Dividing the fleshy rhizome"
+    ],
+    "season": "Spring to early summer"
+  },
+  "size": {
+    "heightIn": [12, 60],
+    "note": "Size depends on the species: NC State gives 1 to 4 feet for Alocasia x mortfontanensis ('Polly' types), while the RHS notes A. macrorrhizos and A. odora can reach 5 feet indoors.",
+    "src": [0, 1, 2]
+  },
+  "varieties": [
+    {
+      "name": "Alocasia x mortfontanensis 'Polly'",
+      "note": "Compact, up to 2 feet, with dark arrow-shaped leaves and silvery veins; the most widely sold form."
+    },
+    {
+      "name": "Alocasia micholitziana 'Frydek'",
+      "note": "Narrow, velvety dark green leaves with bright white veins and burgundy undersides."
+    },
+    {
+      "name": "Alocasia reginula 'Black Velvet'",
+      "note": "Small, about 1.5 feet at maturity, with thick, near-black leaves and silver veins."
+    },
+    {
+      "name": "Alocasia zebrina",
+      "note": "Arrow-shaped leaves on stalks striped like a zebra, up to 3 feet tall and wide."
+    },
+    {
+      "name": "Alocasia 'Stingray'",
+      "note": "Leaves with a long, tail-like tip that recalls the fish it is named after."
+    },
+    {
+      "name": "Alocasia macrorrhizos (giant taro)",
+      "note": "A large species with glossy, ruffled leaves several feet long; needs a big room and a heavy pot."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alocasia (Elephant's-Ear)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/alocasia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Alocasia x mortfontanensis (African Mask, Amazonica)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/alocasia-x-mortfontanensis/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow alocasias",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/alocasia/growing-guide",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Alocasia",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/alocasia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Alocasia spp.: Elephant's Ear, Alocasia, Taro (FP033)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://ask.ifas.ufl.edu/publication/FP033",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Elephant Ears",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/elephant-ears/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Lighting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["monstera", "philodendron", "calathea", "anthurium", "chinese-evergreen"],
+  "seo": {
+    "title": "Alocasia Care: Light, Water and Winter Dormancy (2026)",
+    "description": "Alocasia care in 2026: bright indirect light, water once the top 2 inches dry, keep it above 60°F (16°C) and let it rest drier in winter. Toxicity and fixes.",
+    "h1": "Alocasia care: light, water and winter dormancy"
+  },
+  "content": {
+    "answer": "Give an alocasia bright, indirect light, warmth above 60°F (16°C) and humid air, and water from spring to fall whenever the top 2 inches of compost are dry. In winter, the RHS says to keep it cooler and drier so it can go dormant.",
+    "intro": "Alocasia is a genus of tuberous, rhizome-forming perennials in the arum family, native to rainy tropical forests from Asia to eastern Australia, where its oversized arrow- or shield-shaped leaves evolved to catch the light filtering through the canopy. NC State Extension counts about 80 species and UF/IFAS more than 91. Indoors, the plants sold as elephant's ear, African mask or 'Polly' follow a rhythm that surprises many owners: they grow fast in summer, sometimes unfurling a leaf a week according to the RHS, then slow down, shed foliage and rest through winter on the reserves stored in their fleshy underground stem. Care follows that cycle. Water and feed generously in the warm months, keep the air humid and the light bright but filtered, then let the pot run cooler and drier from fall until spring. Most alocasias that die indoors are watered through that rest period as if they were still in full growth.",
+    "light": [
+      "Bright light that never lands directly on the leaves is what an alocasia wants. The RHS recommends bright, indirect light and warns that strong sun scorches the foliage, while NC State lists dappled or partial shade as its natural exposure. In a home, that means a spot right in front of an east window, a few feet back from a west one, or behind a sheer curtain on a south exposure; the University of Illinois Extension rates such positions at roughly 150 to 300 foot-candles.",
+      "The plant survives in dimmer rooms, but the RHS notes that growth becomes much slower, and each new leaf tends to be smaller, carried on a longer, weaker stalk that leans toward the glass. Turn the pot slightly every time you water; the RHS suggests this to stop a tall plant from becoming lopsided and unstable."
+    ],
+    "water": [
+      "From April to October, the RHS advice is to water whenever the top 2 inches (5 cm) of compost have dried. Push a finger in to the second knuckle: the surface should feel dry while the lower part of the pot is still faintly cool. Water slowly until it drains, then empty the cachepot, because the fleshy rhizome rots in compost that stays sodden. A pot that dries within a day or two of a soaking usually means roots have filled it, which the RHS treats as a cue to move up a size.",
+      "Winter changes the rules. As days shorten, many alocasias drop a few leaves and stop producing new ones; the RHS calls this dormancy and says to reduce watering to a minimum, because wet compost around a resting plant is the classic route to root rot. Give just enough water to keep the rhizome from shriveling, keep the plant above 50°F (10°C), and return to normal watering when a new leaf spears up in spring. A plant that has lost every leaf is not necessarily dead: press the base, and if it feels firm, leave it alone."
+    ],
+    "soil": [
+      "The RHS mix is three parts peat-free houseplant or multipurpose compost to one part horticultural grit, which keeps water moving past the rhizome while holding enough moisture for leaves this large. NC State describes the ideal outdoor soil as slightly acidic, moist, well drained and rich in humus, so avoid lime and heavy garden soil. Tall species such as Alocasia macrorrhizos become top-heavy, and the RHS recommends a heavy terracotta pot to keep them upright. Whatever the container, it needs a drainage hole."
+    ],
+    "humidity": [
+      "Alocasias come from forests where the air rarely dries out, and the RHS links low humidity to browning leaf edges and to red spider mites, which multiply in a dry atmosphere. Heated homes fall well short in winter: the University of Illinois Extension puts most of them below 30 percent humidity. A tray of gravel or clay granules kept wet just below the surface, a humidifier, or a spot in a bright bathroom all help. Grouping plants raises the moisture around them too, and it lasts longer than misting, which Illinois says lifts humidity only briefly."
+    ],
+    "temperature": [
+      "NC State gives an ideal daytime range of 68 to 77°F (20 to 25°C), and both NC State and the RHS set 60°F (16°C) as the floor during active growth. In winter the RHS allows cooler conditions so the plant can rest, but never below 50°F (10°C). Cold drafts do as much harm as low readings: a plant beside a door that opens onto winter air, or with leaves pressed against cold glass, can lose foliage overnight. Outdoors, UF/IFAS notes that frost kills the leaves but the plant regrows from its base in USDA zone 8A and warmer; farther north, NC State suggests lifting the tubers and storing them cool and dry."
+    ],
+    "fertilizer": [
+      "Leaves that can reach 36 inches long need fuel. The RHS recommends a general liquid fertilizer from April to October at the dose and frequency on the label, and the University of Illinois Extension's general rule for houseplants is no more than once every one to three months between March and September, with a balanced or 1:2:1 formula. A fast-growing alocasia in a bright window sits at the frequent end of that range; one in modest light needs less. Stop entirely once the plant slows for winter, and flush the pot with plain water every four to six months, as Illinois advises, to clear accumulated salts."
+    ],
+    "repotting": [
+      "According to the RHS, an alocasia can usually stay in its nursery pot for a year or so, then needs repotting every couple of years, more often for vigorous species. Roots crowding the pot, compost that dries within days, or offsets bunched against the rim all say it is time. Repot in spring as growth resumes, into a pot only about 2 inches (5 cm) wider, with the top of the root ball just below the surface. Overpotting surrounds the rhizome with wet compost it cannot use. Wear gloves, since the sap irritates skin."
+    ],
+    "propagation": [
+      "Alocasias multiply underground. Mature plants send up offsets around their base, and the RHS calls separating these in spring the easiest method: slice down with a clean knife, keep as much root as possible with each young plant, and pot it on its own in gritty compost. The fleshy rhizome can also be cut into pieces in late spring or early summer, provided each piece has a growing point; NC State lists division of offsets as the recommended strategy. Keep new divisions warm and bright, and water sparingly until fresh leaves appear. Gardeners who grow alocasias outdoors in summer can also lift the tubers in fall and start them again in pots the next year."
+    ],
+    "problems": [
+      "Yellow leaves are hard to read on an alocasia because NC State lists three possible causes: overwatering, too little water and inadequate light. Check the compost and the calendar before acting. One old leaf yellowing while a new one opens is normal turnover, and several leaves fading in late fall usually mean dormancy. Spider mites are the pest to watch, especially in dry rooms, followed by aphids and mealybugs. Root rot and bacterial stem rot, which NC State attributes to overwatering, show as a soft, dark base."
+    ],
+    "petSafety": [
+      "The ASPCA lists Alocasia, all species, also called elephant's ear, as toxic to dogs, cats and horses. The toxic principle is insoluble calcium oxalates, needle-shaped crystals released when a leaf is chewed, and the clinical signs are oral irritation, pain and swelling of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. NC State rates the genus as medium severity for people, with skin and eye irritation from the sap, and the RHS advises gloves. NC State notes that the corm and stem are eaten in some cuisines only after thorough cooking destroys the crystals; a raw leaf is never safe. Keep the plant away from pets and small children, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if an animal chews one."
+    ],
+    "faq": [
+      {
+        "q": "Why is my alocasia losing all its leaves in winter?",
+        "a": "Most likely it is going dormant. The RHS explains that alocasias need a cooler, drier rest in winter and may lose some foliage while they wait for spring. Press the base of the stems: if it is firm, cut watering to a minimum, keep the room above 50°F (10°C) and be patient. A soft, dark base is different and points to rot from watering a resting plant."
+      },
+      {
+        "q": "Is an alocasia the same plant as a Colocasia elephant ear?",
+        "a": "No. Both are aroids sold as elephant ears, and UF/IFAS notes they are often confused, along with Xanthosoma. In Florida, UF/IFAS warns that Colocasia esculenta, wild taro, is invasive and should not be planted, and it advises gardeners to stick with Alocasia species. Indoors, the plants labeled 'Polly', 'Frydek' or 'Zebrina' are all alocasias, and the care on this page applies to them."
+      },
+      {
+        "q": "How big does an alocasia get as a houseplant?",
+        "a": "It depends entirely on the species. NC State lists Alocasia x mortfontanensis, the 'Polly' group, at 1 to 4 feet, and A. reginula 'Black Velvet' at about 1.5 feet. The RHS notes that A. macrorrhizos and A. odora can reach 5 feet indoors. Outdoors in the tropics, NC State says the genus can top 10 feet, so check the label before buying."
+      },
+      {
+        "q": "Can I put my alocasia outside for the summer?",
+        "a": "Yes, once nights are reliably warm. NC State suggests moving pots out after the last frost into a shaded, sheltered spot, since the leaves tear in wind, then bringing them in before the first fall frost and reducing water. NC State rates the genus hardy in USDA zones 10 to 12, while UF/IFAS says many survive to zone 8A by regrowing from the base after frost."
+      },
+      {
+        "q": "Should I cut off a dying alocasia leaf?",
+        "a": "Yes, once it has faded. The RHS says no pruning is needed apart from removing fading or dead leaves, cut off at the base of the stalk. Wear gloves, because the sap irritates skin. Losing the oldest leaf as a new one opens is normal for an alocasia; losing several at once in summer is a reason to check watering, light and pests."
+      }
+    ]
+  }
+}

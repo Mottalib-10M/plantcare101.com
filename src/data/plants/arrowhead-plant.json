@@ -1,0 +1,313 @@
+{
+  "slug": "arrowhead-plant",
+  "commonName": "Arrowhead plant",
+  "otherNames": [
+    "Arrowhead vine",
+    "Nephthytis",
+    "Goosefoot plant",
+    "African evergreen",
+    "Trileaf wonder"
+  ],
+  "botanicalName": "Syngonium podophyllum",
+  "formerNames": [
+    "Arum auritum",
+    "Xanthosoma gracile"
+  ],
+  "family": "Araceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [150, 300],
+    "lux": [1615, 3229],
+    "windows": ["north", "east", "west"],
+    "directSun": "avoid",
+    "src": [0, 1, 5, 7]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Let the surface of the mix dry slightly, then water thoroughly; never let the pot dry out completely",
+    "winter": "UF/IFAS advises watering less often in winter but never letting the plant dry out.",
+    "factors": [
+      "Illinois describes the target as barely moist soil, not wet and not bone dry.",
+      "Cold irrigation water causes water-soaked spots with collapsed centers, according to UF/IFAS; use room-temperature water.",
+      "A plant in a hanging basket near a warm window dries faster than one on a shelf."
+    ],
+    "src": [1, 2, 5]
+  },
+  "soil": {
+    "mix": "Equal parts peat moss or coir, vermiculite and perlite (Clemson): light, airy and quick to drain.",
+    "components": [
+      "peat moss or coir",
+      "vermiculite",
+      "perlite"
+    ],
+    "ph": [5.5, 6.5],
+    "src": [1, 5]
+  },
+  "humidity": {
+    "level": "average",
+    "idealPct": [40, 60],
+    "note": "UF/IFAS says plants look best at 40 to 60 percent relative humidity; Clemson prefers 50 percent or more but accepts lower.",
+    "src": [1, 2, 5]
+  },
+  "temperature": {
+    "idealF": [65, 75],
+    "idealC": [18, 24],
+    "minF": 55,
+    "minC": 13,
+    "src": [0, 1, 5]
+  },
+  "fertilizer": {
+    "season": "Spring and summer",
+    "everyWeeks": [4, 4],
+    "strength": "half",
+    "type": "Balanced fertilizer such as 20-20-20 or 10-10-10 at a reduced rate (Clemson)",
+    "winter": "none",
+    "src": [1]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage holes",
+      "The plant wilts between normal waterings",
+      "Stems outgrow the space and the root ball fills the pot"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [0, 9]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "toxic",
+    "humanNote": "NC State rates the poison severity as medium, with contact dermatitis possible; UF/IFAS warns the sap can cause severe skin burning and eye damage, and chewing causes painful swelling of the mouth.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Arrow-Head Vine (Syngonium podophyllum)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/arrow-head-vine",
+        "toxicPrinciples": "Insoluble calcium oxalates",
+        "clinicalSigns": "Oral irritation, pain and swelling of mouth, tongue and lips, excessive drooling, vomiting (not horses), difficulty swallowing"
+      },
+      {
+        "name": "Nephthytis (Syngonium podophyllum)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/nephthytis",
+        "toxicPrinciples": "Insoluble calcium oxalates",
+        "clinicalSigns": "Oral irritation, pain and swelling of mouth, tongue and lips, excessive drooling, vomiting (not horses), difficulty swallowing"
+      }
+    ],
+    "src": [0, 3, 4, 6]
+  },
+  "problems": [
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Pink or variegated leaves turn plain green",
+      "causeKey": "low-light",
+      "cause": "Too little light to maintain the coloring",
+      "remedy": "Move it to bright, indirect light near an east or north window; new leaves color up, old ones stay green."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long, bare stems with widely spaced, lobed leaves",
+      "causeKey": "natural-aging",
+      "cause": "The vine shifting from its juvenile to its climbing adult form",
+      "remedy": "Cut the long stems back to keep a bushy plant with arrow-shaped leaves, and root the trimmings."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Water-soaked spots that later collapse in the center",
+      "causeKey": "water-quality",
+      "cause": "Irrigation water much colder than the air, or bacterial leaf spot on wet foliage",
+      "remedy": "Water with room-temperature water at the soil line and keep the leaves dry; remove badly spotted leaves."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale stippling on leaves",
+      "causeKey": "pests",
+      "cause": "Spider mites, more common in dry air",
+      "remedy": "Rinse the foliage, wipe leaves with a damp lint-free cloth and treat with insecticidal soap; raise the humidity."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Stems soft and blackened at the soil line",
+      "causeKey": "overwatering",
+      "cause": "Soft rot or stem rot in mix that stays wet",
+      "remedy": "Take healthy tip cuttings to restart the plant and discard the rotted base and soil."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Single-node cuttings",
+      "Tip cuttings in water or mix",
+      "Air layering",
+      "Division"
+    ],
+    "season": "Spring to summer"
+  },
+  "size": {
+    "heightIn": [36, 72],
+    "widthIn": [12, 24],
+    "note": "Clemson gives 3 to 6 feet for common forms and under 2 feet for dwarf cultivars; NC State notes it climbs to 6 feet with support.",
+    "src": [0, 1]
+  },
+  "varieties": [
+    {
+      "name": "White Butterfly",
+      "note": "Mostly white to pale green leaves that need good light to stay pale."
+    },
+    {
+      "name": "Neon Robusta",
+      "note": "New leaves emerge pink; needs bright light to keep the color."
+    },
+    {
+      "name": "Pixie",
+      "note": "Dwarf cultivar reaching about 8 inches tall."
+    },
+    {
+      "name": "Milk Confetti",
+      "note": "Leaves in shades of pink, white and mint green."
+    },
+    {
+      "name": "Bold Allusion",
+      "note": "Compact and slow growing, with creamy green leaves and pink veins."
+    },
+    {
+      "name": "Three Kings",
+      "note": "Every leaf patterned differently in deep green, light green and white."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Syngonium podophyllum (Arrowhead Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/syngonium-podophyllum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Arrowhead Vine (Syngonium spp.): Indoor Care, Growing Tips and Plant Guide",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/arrowhead-vine-syngonium-spp-indoor-care-growing-tips-plant-guide/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Nephthytis",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/nephthytis",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Arrow-Head Vine",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/arrow-head-vine",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Nephthytis",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/nephthytis",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cultural Guidelines for Commercial Production of Interiorscape Syngonium (EP244)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://ask.ifas.ufl.edu/publication/EP244",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Common Poisonous Houseplant Species in Florida (EP639)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://ask.ifas.ufl.edu/publication/EP639",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Lighting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["pothos", "philodendron", "hoya", "tradescantia", "monstera"],
+  "seo": {
+    "title": "Arrowhead Plant Care: Light, Water and Pruning (2026)",
+    "description": "Arrowhead plant (Syngonium) care in 2026: medium to bright indirect light, 65 to 75°F, 40 to 60% humidity, and pruning to keep the arrow-shaped juvenile leaves.",
+    "h1": "Arrowhead plant care: light, water and keeping the arrow leaves"
+  },
+  "content": {
+    "answer": "Arrowhead plant (Syngonium) grows best in medium to bright indirect light at 65 to 75°F (18 to 24°C). Let the surface of the mix dry slightly between waterings, never completely, and cut back climbing stems if you want to keep the arrow-shaped juvenile leaves.",
+    "intro": "Syngonium podophyllum is a hemiepiphytic vine from moist forests between Mexico and Brazil that starts life as a compact clump and, given something to climb, turns into a different-looking plant. Its juvenile leaves are the arrowheads that give it its name, roughly 3 to 7 inches long according to UF/IFAS and often marked with silver, cream or pink. As a stem climbs toward brighter light, the leaves pass through a three-lobed stage and finally divide into as many as 11 leaflets, which NC State compares to a foot. Almost every plant sold is still in its juvenile form, and most owners want to keep it that way by pinching or cutting back the climbing stems. The vine is fast and forgiving, with roots ready at every node. One caution comes from Florida, where the state's Invasive Species Council ranks it a Category I invasive and UF/IFAS no longer recommends planting it outdoors.",
+    "light": [
+      "The University of Illinois Extension places nephthytis in its medium-light group, about 150 foot-candles, and Clemson recommends medium to bright indirect light. UF/IFAS interiorscape guidelines set the optimum at 250 to 1,000 foot-candles, a brighter target that reflects commercial settings with strong overhead lighting. Direct sun burns or bleaches the foliage, NC State warns, so keep the plant back from an unshaded south or west window.",
+      "Light is what keeps the colors. Clemson notes that variegated and pink cultivars hold their coloring better in brighter light, while leaves dull or revert to plain green when light runs short. For trailing stems, a hanging basket in front of an east window works well; for an upright plant, Illinois suggests a pole or totem for the vine to climb, which also encourages the larger, lobed adult leaves."
+    ],
+    "water": [
+      "Clemson and UF/IFAS agree: let the potting mix dry out slightly between waterings, then water thoroughly until it drains. In practice that means watering when the top layer feels dry to a fingertip while the rest of the pot is still faintly moist. Illinois describes the same target as soil kept barely moist. The stems are succulent and hold some reserve, but syngonium is not a plant to leave bone dry for long, and wilting leaves are its signal that you waited too long.",
+      "UF/IFAS gives a specific winter instruction: reduce watering frequency, but do not let the plant dry out. That is a different habit from a tuber that goes dormant or a rhizome built for drought; this vine keeps growing slowly through the cold months. Water at room temperature. UF/IFAS research ties water-soaked spots with collapsed centers to irrigation water colder than the air, and translucent young leaves to warm air over cold, wet roots."
+    ],
+    "soil": [
+      "Clemson recommends equal parts peat moss or coir, vermiculite and perlite, a light, airy blend that drains quickly but still holds moisture. Commercial growers use similar mixes of peat, pine bark, vermiculite or perlite at pH 5.5 to 6.5, according to UF/IFAS. A good bagged houseplant mix with a generous handful of perlite is a fine substitute. Because the stems form adventitious roots at their nodes, a trailing stem that rests on moist soil will often root into it on its own."
+    ],
+    "humidity": [
+      "UF/IFAS reports that syngonium keeps its appearance best when relative humidity stays between 40 and 60 percent, and Clemson prefers 50 percent or higher while acknowledging that lower levels are tolerated. Illinois, by contrast, lists low humidity among its conditions, so the plant is clearly adaptable. Humidity also affects pests: UF/IFAS notes that aphids, spider mites, scale and mealybugs are relatively rare when humidity is properly maintained. Occasional misting and wiping the leaves with a lint-free cloth keep them dust free."
+    ],
+    "temperature": [
+      "Clemson gives 65 to 75°F (18 to 24°C) as the ideal range, and UF/IFAS says interior temperatures of 65 to 80°F maintain leaf coloring. Below 55°F (13°C), chilling injury can begin, according to UF/IFAS shipping guidelines, so keep the plant away from cold glass and drafty doors in winter. NC State lists it as hardy outdoors only in USDA zones 10a to 12b. A summer outside in shade is fine elsewhere, as long as it comes back indoors before nights turn cool."
+    ],
+    "fertilizer": [
+      "Syngonium is not a heavy feeder. Clemson suggests a balanced fertilizer such as 20-20-20 or 10-10-10, applied at a reduced rate once a month during spring and summer, and nothing in fall and winter. A plant pushing lots of new growth in a bright window uses that monthly feed well; one in a dim spot needs even less. If leaf edges brown or a crust forms on the soil, flush the pot with plain water and skip a feeding."
+    ],
+    "repotting": [
+      "NC State recommends repotting every few years and trimming the root system to keep the plant manageable, a useful trick for a vine that would otherwise outgrow its spot. Repot in spring or early summer when roots crowd the drainage holes or the plant wilts between normal waterings, the signs the University of Illinois Extension uses. Replant at the same depth in fresh mix, and add a moss pole at the same time if you want the plant to climb."
+    ],
+    "propagation": [
+      "Few houseplants root as easily. UF/IFAS describes single-node cuttings, a short piece of stem with one leaf and its aerial roots, set straight into rooting medium, alongside tip cuttings and air layers. At home, a 3- to 6-inch tip with at least two nodes, the size Illinois recommends, roots readily in water or moist mix in bright, indirect light; Illinois notes that tender, water-filled stems like these often root within about a week. Warmth speeds things up, and UF/IFAS recommends a root zone of 70 to 75°F in propagation. Every trimming from a pruned plant is a potential new one."
+    ],
+    "problems": [
+      "Aphids, mealybugs and spider mites are the main pests, NC State says, and bacterial leaf spot and soft rot the main diseases, usually linked to wet foliage and soggy mix. Pink and variegated cultivars that turn green are short of light. Stems that climb and produce lobed leaves are not a disorder but a natural change of growth phase; cut them back if you prefer the arrowheads, or give them a pole if you like the adult look."
+    ],
+    "petSafety": [
+      "The ASPCA lists the arrow-head vine, also filed under nephthytis, as toxic to dogs, cats and horses. Its toxic principle is insoluble calcium oxalates, and the clinical signs are oral irritation, pain and swelling of the mouth, tongue and lips, excessive drooling, vomiting (not horses) and difficulty swallowing. NC State rates it medium severity for people, with possible contact dermatitis, and UF/IFAS warns that the sap can cause severe skin burning and eye damage. Wear gloves when pruning, wash your hands afterward, and keep trailing stems out of a pet's reach. If a pet chews it, call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435."
+    ],
+    "faq": [
+      {
+        "q": "Why is my arrowhead plant growing leaves with three or more lobes?",
+        "a": "It is maturing. Clemson explains that as the vine climbs and receives more light, the arrowhead leaves give way to an intermediate form with three leaflets, then to highly divided foliage with 5 to 11 leaflets. UF/IFAS describes the adult leaves as compound, with a center leaflet up to a foot long. This is normal growth, not a problem; prune the climbing stems if you prefer the juvenile shape."
+      },
+      {
+        "q": "How do I keep an arrowhead plant bushy instead of vining?",
+        "a": "Prune the stems as they start to run. NC State advises cutting off the long stems as they develop if you want to keep the arrowhead foliage and a shrub-like habit. Pinch just above a leaf, and new shoots will form lower down. The trimmings root easily, so you can tuck them back into the same pot to make it fuller."
+      },
+      {
+        "q": "Is the arrowhead plant the same as nephthytis?",
+        "a": "In the houseplant trade, yes. The University of Illinois Extension and the ASPCA both use nephthytis as a name for Syngonium podophyllum, and UF/IFAS lists arrowhead plant, nephthytis, African evergreen and goosefoot plant as common names of the same species. The ASPCA keeps separate entries under arrow-head vine and nephthytis, both rated toxic to cats, dogs and horses."
+      },
+      {
+        "q": "Why did my pink arrowhead plant turn green?",
+        "a": "Almost always because of light. Clemson notes that variegated and colored cultivars keep their coloring better in brighter light and that leaves revert to solid green when light is insufficient. Move the plant to bright, indirect light, right in front of an east window or near a north one, and new leaves should show more pink. Direct sun is not the answer: it bleaches the foliage."
+      },
+      {
+        "q": "Can I plant an arrowhead plant outdoors in Florida?",
+        "a": "No. UF/IFAS reports that the arrowhead vine has escaped cultivation in Florida and is ranked a Category I invasive by the Florida Invasive Species Council, so UF/IFAS does not recommend it for use in the state. Keep it as a potted houseplant, and bag trimmings and old plants for the trash rather than dumping them where stems could root."
+      }
+    ]
+  }
+}

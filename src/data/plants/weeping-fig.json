@@ -1,0 +1,236 @@
+{
+  "slug": "weeping-fig",
+  "commonName": "Weeping fig",
+  "otherNames": ["Ficus", "Benjamin fig", "Benjamin tree", "Java fig", "Chinese banyan", "Small-leaved rubber plant"],
+  "botanicalName": "Ficus benjamina",
+  "formerNames": [],
+  "family": "Moraceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [300, 1500],
+    "lux": [3229, 16146],
+    "windows": ["east", "west", "south"],
+    "directSun": "tolerates",
+    "src": [0, 1, 2, 4]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Keep the mix evenly moist while the tree is growing, letting only the surface dry before you water again",
+    "winter": "Clemson Extension advises letting the soil dry slightly between waterings in winter and other periods of slow growth; the RHS says keep it only just moist.",
+    "factors": [
+      "Too much and too little water both end in the same symptom, a shower of leaves, so check the mix with a finger before every watering.",
+      "Never leave the pot standing in its saucer: Clemson links waterlogged mix to root rot.",
+      "A tree near a heat vent dries out faster and drops leaves from the dry, moving air as well."
+    ],
+    "src": [0, 1, 2, 3, 10]
+  },
+  "soil": {
+    "mix": "A general-purpose or soil-based potting mix that drains freely, in a pot with a drainage hole.",
+    "components": ["general-purpose potting soil", "loam-based compost", "fine bark chips (RHS)"],
+    "src": [0, 1, 2, 3]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "Clemson says weeping figs prefer high humidity and the RHS asks for medium to high; the Illinois Extension finds they manage normal household humidity.",
+    "src": [1, 2, 3]
+  },
+  "temperature": {
+    "idealF": [65, 85],
+    "idealC": [18, 29],
+    "minF": 55,
+    "minC": 13,
+    "src": [0, 1, 3]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, while the tree is putting out new shoots",
+    "everyWeeks": [4, 8],
+    "strength": "full",
+    "type": "Liquid houseplant fertilizer at the label rate; the RHS suggests a high-nitrogen feed for leafy growth",
+    "winter": "none",
+    "src": [1, 3, 5]
+  },
+  "repotting": {
+    "everyYears": [2, 2],
+    "signs": [
+      "New leaves come in noticeably smaller than the old ones",
+      "Growth slows even in good light",
+      "Roots push out of the drainage holes or circle the bottom of the pot"
+    ],
+    "season": "Late winter or early spring",
+    "rootType": "woody",
+    "prefersSnug": true,
+    "src": [1, 2, 3, 6]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "The RHS warns that the sticky white sap may irritate skin or aggravate allergies, so wear gloves when pruning.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Fig (Ficus benjamina)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fig",
+        "toxicPrinciples": "Proteolytic enzyme (ficin), psoralen (ficusin)",
+        "clinicalSigns": "Gastrointestinal and dermal irritation"
+      },
+      {
+        "name": "Weeping Fig (Ficus sp.)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+        "toxicPrinciples": "Proteolytic enzyme (ficin), psoralen (ficusin)"
+      }
+    ],
+    "src": [0, 3, 7, 8]
+  },
+  "problems": [
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Green leaves fall by the handful within a week or two of bringing the tree home",
+      "causeKey": "repotting-shock",
+      "cause": "A change of light after a move; the tree sheds leaves built for the old spot",
+      "remedy": "Leave it in one bright place, keep watering normally and wait; Clemson says healthy new growth appears once it adjusts."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Leaves yellow and drop from a tree standing near a door, window or vent",
+      "causeKey": "drafts",
+      "cause": "Cold drafts in winter or hot, dry air from a heating vent",
+      "remedy": "Move it away from the draft source, keep it above 55°F (13°C), and avoid placing it beside radiators or registers."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Leaves yellow with dark spotting while the mix stays wet",
+      "causeKey": "overwatering",
+      "cause": "Watering on a schedule into a pot that has not dried at the surface",
+      "remedy": "Hold off until the top of the mix is dry, empty the saucer, and in winter let it dry a little more between drinks."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale stippling on leaves, often in winter",
+      "causeKey": "pests",
+      "cause": "Spider mites, which Clemson lists with scale as the most frequent weeping fig pests",
+      "remedy": "Rinse the canopy in the shower, wipe leaves on both sides and treat with insecticidal soap until no new webbing forms."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky film on leaves and small brown bumps along the stems",
+      "causeKey": "pests",
+      "cause": "Scale insects feeding on sap",
+      "remedy": "Scrape off the bumps, wipe the stems with rubbing alcohol on a cotton swab, and repeat checks every week or so."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Small, pale new leaves and thin growth",
+      "causeKey": "low-light",
+      "cause": "Too far from the window; the Illinois Extension lists this tree among high-light houseplants",
+      "remedy": "Place it directly in front of an east or west window, or up to 5 feet from a south one."
+    }
+  ],
+  "propagation": {
+    "methods": ["Air layering", "Stem cuttings"],
+    "season": "Air layering in any season; cuttings in summer"
+  },
+  "size": {
+    "heightIn": [24, 120],
+    "growth": "moderate",
+    "note": "Clemson says nurseries usually sell it at 3 to 6 feet, and it takes hard pruning well.",
+    "src": [0, 1]
+  },
+  "varieties": [
+    { "name": "Danielle", "note": "Thick, deep green leaves on a pendulous tree; Clemson calls it resistant to leaf drop." },
+    { "name": "Judith", "note": "Small green leaves edged cream-yellow; Clemson says it handles reduced light and sheds little." },
+    { "name": "Too Little", "note": "Miniature with tiny recurved leaves, used for indoor bonsai." },
+    { "name": "Variegata", "note": "Leaves marked white and gray-green; new leaves can open almost pure white." },
+    { "name": "Golden King", "note": "Glossy dark leaves with a narrow, irregular cream band at the edge." }
+  ],
+  "sources": [
+    { "title": "Ficus benjamina (Weeping Fig)", "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University", "url": "https://plants.ces.ncsu.edu/plants/ficus-benjamina/", "accessed": "2026-10-04" },
+    { "title": "Weeping Ficus (HGIC 1514)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/weeping-ficus/", "accessed": "2026-10-04" },
+    { "title": "Weeping Fig", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/weeping-fig", "accessed": "2026-10-04" },
+    { "title": "Ornamental figs: growing guide", "publisher": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/plants/ornamental-figs/growing-guide", "accessed": "2026-10-04" },
+    { "title": "Lighting for houseplants", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/lighting", "accessed": "2026-10-04" },
+    { "title": "Houseplant care", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/care", "accessed": "2026-10-04" },
+    { "title": "Repotting", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/repotting", "accessed": "2026-10-04" },
+    { "title": "Weeping Fig", "publisher": "ASPCA Animal Poison Control Center", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/weeping-fig", "accessed": "2026-10-04" },
+    { "title": "Fig (Ficus benjamina)", "publisher": "ASPCA Animal Poison Control Center", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fig", "accessed": "2026-10-04" },
+    { "title": "Air layering", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/air-layering", "accessed": "2026-10-04" },
+    { "title": "Watering houseplants", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/watering", "accessed": "2026-10-04" }
+  ],
+  "verified": "2026-10-04",
+  "related": ["ficus-audrey", "fiddle-leaf-fig", "rubber-plant", "bonsai"],
+  "seo": {
+    "title": "Weeping Fig Care: Leaf Drop, Light & Watering (2026)",
+    "description": "Weeping fig care in 2026: bright light, evenly moist soil in summer, 65 to 70°F nights (Clemson) and no moving it around. Leaf drop fixes and pet safety.",
+    "h1": "Weeping fig care: light, water and leaf drop"
+  },
+  "content": {
+    "answer": "A weeping fig wants bright light, a mix kept evenly moist in summer and slightly drier in winter, and one spot it never leaves. Clemson Extension puts ideal nights at 65 to 70°F (18 to 21°C). Moving it or chilling it triggers leaf drop.",
+    "intro": "Ficus benjamina is a tropical tree from southeast Asia and northern Australia that reaches 40 to 50 feet in the wild, according to NC State Extension, yet lives for decades in a pot at 2 to 10 feet. Its reputation rests on one habit: it sheds leaves at the slightest provocation. Clemson Extension writes that weeping figs react to almost any stress by dropping foliage, and the Illinois Extension names two triggers in particular, a chill and a move from one place to another. NC State explains why the move matters so much. The tree is very sensitive to light, so after a change of position it drops leaves and grows new ones suited to the new light. Knowing that turns panic into patience. Pick the brightest spot you have, leave the tree there, water with care, and the bare branches usually refill within a season.",
+    "light": [
+      "The Illinois Extension files Ficus benjamina among houseplants needing high light at minimum, which means about 300 foot-candles: directly in front of an east or west window, or within 5 feet of a south one. Clemson describes the ideal as bright indirect or curtain-filtered sun, and adds that the tree will take some direct sun when humidity is high. Variegated cultivars such as 'Variegata' and 'Judith' grow best in somewhat lower light, so they suit the edge of a bright room rather than the sill.",
+      "Choose the spot before the tree arrives. Every change of light costs leaves, because the plant rebuilds its canopy for the new conditions. The RHS gives the same advice in plain terms: weeping figs dislike being moved, so once you find the right position, keep it there. Turning the pot a quarter turn now and then is fine; carrying it to another room for a party is not. In winter, pull it back a foot from cold glass rather than relocating it entirely."
+    ],
+    "water": [
+      "Three sources, three wordings, one idea. Clemson says keep the soil evenly moist during active growth, NC State says water just often enough to keep it from drying out completely, and the Illinois Extension asks for soil that is minimally moist at all times. In practice, push a finger two inches into the mix, the test the Illinois Extension recommends, and water when the top inch feels dry. Soak the pot until water runs from the drainage hole, then tip out the saucer.",
+      "The trap is that thirst and drowning look alike on this tree: both produce yellow leaves and a carpet of fallen ones under the pot. Check the mix before you react. A pot that is still damp an inch down after leaves start falling needs patience, not a drink. Use water at room temperature, since the Illinois Extension warns against cold water, and skip softened water.",
+      "Growth slows in the short days of late fall. Clemson advises letting the soil dry slightly between waterings in winter, and the RHS keeps the compost only just moist. A tree that has been pruned hard also needs less, because it has fewer leaves pulling water from the roots; Clemson recommends reducing watering after a severe cut."
+    ],
+    "soil": [
+      "This is not a fussy plant about its potting mix. The Illinois Extension uses regular potting soil, Clemson a general-purpose mix, and NC State notes it grows well in a soil-based blend. The RHS suggests a loam-based compost with some fine bark chips mixed in, which adds weight and keeps the mix open. Weight is useful here: a 6-foot ficus in a light plastic pot of peat tips over easily.",
+      "What matters more is drainage. A drainage hole is required, and a mix that stays soggy for days after watering is the root rot Clemson describes. If an older tree sits in mix that has broken down to a dense mud, repotting into fresh soil does more good than any fertilizer."
+    ],
+    "humidity": [
+      "Sources differ a little. Clemson says weeping figs prefer high humidity, the RHS asks for medium to high, and the Illinois Extension says they do fairly well under normal household humidity. The honest reading is that the tree survives ordinary rooms but holds its leaves better with some moisture in the air, especially in winter, when the Illinois Extension notes most homes drop below 30 percent. A humidifier nearby or a tray of wet pebbles under the pot helps. Keep the tree away from heat registers, which both dry the air and blow on the leaves."
+    ],
+    "temperature": [
+      "Clemson gives the ideal as nights of 65 to 70°F (18 to 21°C) and days of 75 to 85°F (24 to 29°C), so a normally heated home is close to perfect. The RHS says most ornamental figs must be kept above 50 to 55°F (10 to 13°C), and NC State calls this species very frost sensitive and intolerant of cold. The danger point indoors is the window glass in January and the front door: a leaf pressed against cold glass or a blast of winter air is enough to start a drop.",
+      "A summer outdoors is possible. Clemson suggests morning sun and afternoon shade, then warns against parking the tree beside a heat vent or draft when it comes back inside, which causes heavy leaf loss. Expect some shedding after each transition anyway, since both moves change the light."
+    ],
+    "fertilizer": [
+      "Clemson recommends feeding healthy plants every month or two during the growing season with a liquid fertilizer, which is a little more generous than the general Illinois rule of every one to three months from March to September. The RHS suggests a high-nitrogen feed from spring to late summer to push leafy growth. Do not feed a tree that is dropping leaves after a move or a repot; it cannot use the extra salts until new shoots appear. Stop in winter, and flush the pot with plenty of plain water every few months, as the Illinois Extension advises, to clear salt buildup."
+    ],
+    "repotting": [
+      "The Illinois Extension notes that Ficus like their roots crowded in a small pot, and Clemson says weeping figs tolerate being slightly root bound. Repot only when the signs pile up: new leaves come in small, growth slows, roots escape the drainage holes. The RHS suggests moving to a slightly larger container every couple of years in spring, while Clemson puts the best time at late winter or early spring. Expect a few leaves to fall afterward; Clemson lists repotting among the classic leaf drop triggers.",
+      "A tree too large to repot can be top-dressed instead. The RHS recommends scraping off the top inch of old compost and replacing it with fresh mix in the years you do not repot."
+    ],
+    "propagation": [
+      "Clemson says the weeping fig can be air layered in any season and that cuttings root best in summer. Air layering, described step by step by the Illinois Extension, means cutting a third to halfway into a stem, packing the wound with wet sphagnum moss and wrapping it in plastic; roots show through the plastic after three to four months, and the rooted top is then cut free and potted. It is the better route for a thick branch. For a smaller plant, take a semi-ripe tip cutting in summer, remove the lower leaves, and root it in moist mix in a warm, bright spot. Wear gloves, because the cut stems bleed milky sap."
+    ],
+    "problems": [
+      "Leaf drop dominates every list of weeping fig troubles. Clemson names overwatering, underwatering, drafts, lack of nitrogen and low light as causes, plus moving and repotting; the RHS adds low winter temperatures and too much fertilizer. The useful question is what changed in the past few weeks. Diseases are rare indoors, but pests are not: spider mites and scale are the most frequent, followed by mealybugs, aphids and thrips. Washing the leaves occasionally with plain warm water, as Clemson suggests, keeps dust off and makes early infestations easy to spot."
+    ],
+    "petSafety": [
+      "The ASPCA lists the weeping fig as toxic to cats and dogs. Its entries for Ficus benjamina give the toxic principles as a proteolytic enzyme, ficin, and a psoralen, ficusin, with gastrointestinal and dermal irritation as the clinical signs. In practice that means a pet that chews the leaves may vomit or drool, and contact with the milky sap can irritate skin. The RHS warns that the same sap can irritate human skin and aggravate allergies. Sweep up fallen leaves, which a bored cat may bat around and chew, and call your veterinarian or the ASPCA Animal Poison Control Center if a pet eats some."
+    ],
+    "faq": [
+      {
+        "q": "How long does a weeping fig take to stop dropping leaves after I bring it home?",
+        "a": "Usually a few weeks, sometimes longer in winter. NC State explains that the tree drops leaves built for the nursery's light and grows new ones suited to your room. Keep it in one bright spot, water only when the top inch dries, and resist moving it again. New buds along the bare stems mean the adjustment is over."
+      },
+      {
+        "q": "Will a bare weeping fig grow its leaves back?",
+        "a": "Often, yes, if the stems are still alive. Scratch a twig with a fingernail: green, moist tissue underneath means the branch can leaf out again. Brittle, brown wood is dead and can be pruned back to live growth. Fix whatever caused the drop first, then wait for new shoots before feeding."
+      },
+      {
+        "q": "Can I braid the trunks of a young weeping fig myself?",
+        "a": "Yes, while the stems are young and flexible. Clemson notes that weeping fig stems are often braided, spiraled or twisted into shapes while they bend easily. Plant three or more young trees together, braid loosely and tie the top. Leave room for thickening, and the RHS advises against pruning trained, plaited specimens later."
+      },
+      {
+        "q": "Is the weeping fig a good choice for an office with no windows?",
+        "a": "Not really. The Illinois Extension lists Ficus benjamina among houseplants needing high light at minimum, about 300 foot-candles, far more than ceiling fixtures provide. In a windowless room it will shed steadily. If you want a ficus look in lower light, Clemson suggests the cultivar 'Judith', which grows well with reduced light, or a different plant altogether."
+      },
+      {
+        "q": "Why does my weeping fig drop leaves every fall when the heat comes on?",
+        "a": "Two things change at once: daylight shortens and furnace air dries the room. Clemson warns that placing the tree near a heat vent or draft causes excessive leaf drop. Move it away from registers, add humidity with a pebble tray or humidifier, and water a little less, since Clemson advises letting the soil dry slightly in winter."
+      }
+    ]
+  }
+}

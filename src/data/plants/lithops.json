@@ -1,0 +1,297 @@
+{
+  "slug": "lithops",
+  "commonName": "Lithops",
+  "otherNames": [
+    "Living stones"
+  ],
+  "botanicalName": "Lithops spp.",
+  "formerNames": [],
+  "family": "Aizoaceae",
+  "kind": "succulent",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [
+      300,
+      1500
+    ],
+    "lux": [
+      3229,
+      16146
+    ],
+    "windows": [
+      "south",
+      "east"
+    ],
+    "directSun": "morning-only",
+    "src": [
+      0,
+      1,
+      3
+    ]
+  },
+  "water": {
+    "rule": "fully-dry",
+    "ruleText": "Only in the growing periods, drench the pot and let it dry out completely, then wait a little longer",
+    "winter": "No water at all through winter and early spring while the old leaf pair is absorbed and the new one forms; resume only when the old leaves are completely shriveled and dry.",
+    "factors": [
+      "Watering follows the plant's yearly cycle, not the calendar: late spring into early summer, then late summer and fall.",
+      "Stop watering during summer dormancy; if a plant shrivels badly, moisten only the top half inch of soil.",
+      "Water given while the old leaves are still plump makes them keep growing, and the new pair cannot develop properly."
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "soil": {
+    "mix": "Cactus mix, or houseplant potting mix with plenty of sharp sand, perlite or decomposed granite, in a pot 3 to 5 inches deep with drainage holes.",
+    "components": [
+      "cactus potting mix",
+      "sharp sand or decomposed granite",
+      "perlite",
+      "gravel topdressing"
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "Thrives in low humidity and needs plenty of fresh air, especially in hot weather (Wisconsin Extension).",
+    "src": [
+      1
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      65,
+      80
+    ],
+    "idealC": [
+      18,
+      27
+    ],
+    "minF": 40,
+    "minC": 4,
+    "src": [
+      0,
+      1
+    ]
+  },
+  "fertilizer": {
+    "season": "Sparingly, and only while the plant is being watered in active growth",
+    "everyWeeks": [
+      8,
+      13
+    ],
+    "strength": "half",
+    "type": "Low-nitrogen, high-potassium fertilizer, such as a cactus or tomato feed",
+    "winter": "none",
+    "src": [
+      1,
+      4
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots circle the bottom of a pot shallower than 3 inches",
+      "A clump of heads has filled the surface",
+      "The mix has broken down and stays wet after watering"
+    ],
+    "season": "Rarely; only when roots have filled a deep pot",
+    "rootType": "thick-fleshy",
+    "prefersSnug": false,
+    "src": [
+      1
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "non-toxic",
+    "humanNote": "Wisconsin Extension states lithops are non-toxic to humans or pets.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Living Stones (Lithops naureeniae)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/living-stones",
+        "toxicPrinciples": "Non-toxic"
+      }
+    ],
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Leaves turn yellow, soft and mushy, sometimes splitting open",
+      "causeKey": "overwatering",
+      "cause": "Water given in the wrong season or before the pot had dried",
+      "remedy": "Stop watering, unpot and check the taproot; replant firm plants in dry, gritty mix and follow the seasonal cycle strictly."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Body grows tall and slender, leans to one side and turns greenish",
+      "causeKey": "low-light",
+      "cause": "Etiolation from too little direct sun",
+      "remedy": "Move it to a south window with morning sun, or under a strong grow light; increase the light over a couple of weeks."
+    },
+    {
+      "symptomKey": "wrinkled-leaves",
+      "symptom": "The outer leaf pair shrivels into a papery sheath in spring",
+      "causeKey": "natural-aging",
+      "cause": "Normal leaf replacement: the new pair is absorbing the old one",
+      "remedy": "Do nothing and do not water; the husk can be removed once it is completely dry."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Pale, bleached or brown scorched patches on the top surface",
+      "causeKey": "too-much-sun",
+      "cause": "An abrupt move into strong sun, or hot afternoon sun through glass",
+      "remedy": "Shade lightly in the afternoon and make any increase in light gradual; badly burned plants may not recover."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White waxy tufts in the fissure or around the base",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Lift them out with a fine brush or swab dipped in rubbing alcohol, and inspect the roots too when you next unpot it."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Seed",
+      "Division of multi-headed plants"
+    ],
+    "season": "Sow seed in summer; divide clumps when lifting the plant"
+  },
+  "size": {
+    "heightIn": [
+      0.5,
+      1
+    ],
+    "widthIn": [
+      1,
+      3
+    ],
+    "growth": "slow",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [],
+  "sources": [
+    {
+      "title": "Lithops (Living Stones)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/lithops/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Living Stones: Lithops",
+      "publisher": "University of Wisconsin-Madison Extension, Wisconsin Horticulture",
+      "url": "https://hort.extension.wisc.edu/articles/living-stones-lithops/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Living Stones",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/living-stones",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "cactus",
+    "haworthia",
+    "succulents",
+    "echeveria"
+  ],
+  "seo": {
+    "title": "Lithops Care: Living Stones Watering Calendar (2026)",
+    "description": "Lithops care for 2026: morning sun, no water in winter and spring while new leaves form, water late spring and late summer. Living stones grow 1 to 3 in wide.",
+    "h1": "Lithops care: watering living stones through their year"
+  },
+  "content": {
+    "answer": "Lithops need 4 to 5 hours of morning sun and water only in their growing periods: late spring into early summer, then late summer and fall. Keep them completely dry in winter and early spring while the new leaf pair replaces the old one.",
+    "intro": "Lithops, or living stones, are tiny succulents from Namibia and South Africa in the ice plant family, Aizoaceae, that camouflage themselves as pebbles. Each plant is just two thick, fused leaves on a taproot, with a fissure across the top and no stem, and NC State Extension notes they stand only 0.5 to 1 inch tall and 1 to 3 inches wide. In habitat, where rainfall is often under 20 inches a year, they sit flush with the ground and let light in through translucent windows in their leaf tips. What makes them unusual indoors is their calendar. Each year, after flowering in fall, a new leaf pair forms inside the old one, and over winter and spring it absorbs the old pair until only a papery husk remains. Wisconsin Extension calls overwatering the chief cause of early death, and almost every mistake is water given at the wrong point in that cycle.",
+    "light": [
+      "Lithops want sun, but on their own terms. NC State and Wisconsin Extension both recommend 4 to 5 hours of sunlight in the morning and partial shade in the afternoon. Wisconsin says a southern window is usually best, with an unobstructed eastern exposure as a good alternative; a greenhouse is better still. That is the University of Illinois Extension's direct level, right at the glass.",
+      "Too little light is a slow killer. Wisconsin describes the sequence: the plant grows slender and elongated, leans to one side, loses its coloring and turns greenish, and eventually dies if conditions do not improve. NC State calls this etiolation. The opposite risk is real too. Wisconsin warns that moving a plant abruptly into brighter light can sunburn it fatally, so make every increase over a week or two, and watch hot afternoon sun through a south window in summer."
+    ],
+    "water": [
+      "Water by the plant's stage, not by the date. Wisconsin Extension gives the general cycle, which NC State's profile follows. Water from late spring into early summer. Stop when the plant goes dormant in summer; if it shrivels badly, give just enough to restore a firm look, wetting only the top half inch of soil. Resume in late summer or early fall when growth and flowering begin, a stage you can recognize when the fissure starts to open. NC State's rule for that period is once every 2 weeks.",
+      "Then comes the step that matters most. Wisconsin says lithops should be left totally dry through winter and spring, so the old leaf pair dries out while the new pair develops. By early spring the new body should be visible, emerging from the fissure at about 90 degrees to the old one. Water again only when the remains of the old leaves are completely shriveled and dry. Water given too soon makes the old leaves try to keep growing, and the plant does not develop properly; NC State adds that overwatering causes yellow, mushy leaves, brown spots and splitting.",
+      "When you do water, drench the pot and let it dry out completely, which Wisconsin estimates at probably 1 to 2 weeks, then wait a couple more days. Water in the morning so the top layer dries fast. Wisconsin's summary is the best rule for this plant: if in doubt, don't."
+    ],
+    "soil": [
+      "Use a cactus mix or a fast-draining, gritty blend: Wisconsin suggests adding sharp sand, perlite or decomposed granite to houseplant potting mix. The pot is more important than it looks. Lithops have an extensive root system, so Wisconsin recommends pots about 3 to 5 inches deep with drainage holes, larger than the plant's size suggests. Set the top of the plant slightly above the soil surface rather than buried as in the wild, and topdress with gravel, which looks natural and keeps the body dry."
+    ],
+    "humidity": [
+      "Lithops thrive in low humidity, according to Wisconsin, and some species in the wild depend on mist or fog for moisture. Indoors, dry air is no problem. What they do need is fresh air: stagnant, humid conditions around a wet pot invite rot, and Wisconsin notes they handle very high temperatures as long as ventilation is good."
+    ],
+    "temperature": [
+      "NC State says lithops thrive between 65 and 80°F (18 and 27°C) and can tolerate 90 to 100°F, but not temperatures below 40°F (4°C); they must be protected from freezing. On a winter windowsill, keep them back from cold glass on frosty nights. Summer heat is less of a worry than summer water, since the plants are dormant then and a wet pot in hot weather rots quickly."
+    ],
+    "fertilizer": [
+      "Feed rarely. Wisconsin Extension advises fertilizing lithops sparingly with a low-nitrogen, high-potassium product. The University of Illinois Extension's general ceiling for houseplants is once every 1 to 3 months, and for living stones the slow end of that range, at reduced strength and only during a watering period, is plenty. Never feed during the dry winter and spring phase, when the plant is living on its old leaves."
+    ],
+    "repotting": [
+      "Lithops rarely need repotting. Wisconsin says it is quite possible to keep one in the same pot for 10 or 20 years, and the plants can live 40 to 50 years. Unlike most succulents, they do not want a snug pot: the extensive roots need depth, so if yours came in a shallow nursery cell, move it into a 3 to 5 inch deep pot. Handle the taproot gently, replant in dry mix with the body just above the surface, and water only when the plant is in a growing phase."
+    ],
+    "propagation": [
+      "Lithops are grown from seed or by division. Wisconsin notes they are self-sterile, so two plants must be cross-pollinated to set seed, which ripens in a capsule that opens only when wet. Sow in summer on a sandy mix, cover with a very thin layer of fine sand and keep it moist but not soggy in a warm, sunny spot. Germination starts in a few weeks but can straggle for up to a year, and Wisconsin says seedlings can flower in 3 to 4 years.",
+      "Division is quicker. As the leaf pair renews each spring, many plants produce two pairs instead of one and gradually form a cluster. To divide, lift the plant, carefully cut through the roots between heads and replant each piece immediately."
+    ],
+    "problems": [
+      "Overwatering explains most losses: NC State lists yellow, mushy leaves, brown spots, splitting leaves and root rot. Etiolation from weak light is the second. Shriveling of the old pair in spring is not a problem at all, but people often water in response and wreck the cycle. NC State lists spider mites, thrips, scale, mealybugs, aphids and root-knot nematodes as pests, plus snails and slugs outdoors."
+    ],
+    "petSafety": [
+      "Lithops are safe around pets. The ASPCA lists living stones (Lithops naureeniae) as non-toxic to dogs, cats and horses; its entry oddly gives kiawe and mesquite as alternate names, names that do not fit this plant, but the scientific name is clear. NC State tags the genus non-toxic for cats, dogs and horses, and Wisconsin says lithops are non-toxic to humans or pets. A curious cat can still uproot or bite through a plant this small."
+    ],
+    "faq": [
+      {
+        "q": "Why is my lithops splitting open in spring?",
+        "a": "Most likely it is renewing its leaves. Wisconsin Extension explains that a new pair forms inside the old one after flowering, then pushes out through the fissure in spring, turned about 90 degrees, while the old pair withers to a papery sheath. Keep it dry. Splitting with soft, swollen tissue, however, comes from overwatering, which NC State lists as a cause of split leaves."
+      },
+      {
+        "q": "Should I water my lithops while the old leaves are shriveling?",
+        "a": "No. Wisconsin Extension says to keep lithops totally dry through winter and spring so the old pair can dry out while the new one develops. If you water early, the old leaves keep growing and the new pair cannot form properly. Resume only when the old leaves are completely shriveled and dry, usually in late spring."
+      },
+      {
+        "q": "Why is my lithops getting tall and leaning to one side?",
+        "a": "It is short of light. Wisconsin describes plants that grow slender and elongated, lean toward the light and turn greenish when they do not get enough sun, and NC State calls this etiolation. Give it 4 to 5 hours of morning sun in a south or unobstructed east window, increasing exposure gradually so the body does not burn."
+      },
+      {
+        "q": "When do lithops flower, and what do the flowers look like?",
+        "a": "Most flower in fall and early winter. NC State and Wisconsin Extension describe daisy-like yellow, pale orange or white flowers, about 0.5 to 1.5 inches across, emerging from the fissure between the leaves. They open in the afternoon on sunny days and close later in the day, and some are scented. The first sign is the fissure beginning to separate in late summer."
+      },
+      {
+        "q": "How deep a pot does a lithops need?",
+        "a": "Deeper than you might guess. Wisconsin Extension recommends pots about 3 to 5 inches deep with drainage holes, because lithops have an extensive root system and need more room than the tiny body suggests. Fill it with gritty cactus mix, set the plant slightly above the surface, and topdress with gravel. In a good pot, a plant can stay put for 10 to 20 years."
+      }
+    ]
+  }
+}

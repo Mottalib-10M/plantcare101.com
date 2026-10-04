@@ -1,0 +1,442 @@
+{
+  "slug": "dracaena",
+  "commonName": "Dracaena",
+  "otherNames": [
+    "Corn plant",
+    "Mass cane",
+    "Madagascar dragon tree",
+    "Dragon tree",
+    "Red-edge dracaena"
+  ],
+  "botanicalName": "Dracaena fragrans and Dracaena marginata",
+  "formerNames": [
+    "Dracaena deremensis",
+    "Dracaena massangeana",
+    "Pleomele marginata"
+  ],
+  "family": "Asparagaceae",
+  "kind": "foliage",
+  "isGroup": true,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "medium",
+    "maxLevel": "high",
+    "fc": [
+      75,
+      300
+    ],
+    "lux": [
+      807,
+      3229
+    ],
+    "windows": [
+      "east",
+      "west",
+      "north",
+      "south"
+    ],
+    "directSun": "avoid",
+    "src": [
+      0,
+      1,
+      3,
+      4,
+      7
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water thoroughly once the surface of the mix is dry to the touch, as Clemson advises",
+    "winter": "Both species slow down from fall to late winter, and Missouri Botanical Garden and NC State advise cutting back on water then.",
+    "factors": [
+      "Fluoride in tap water and fertilizer collects in dracaena leaf tips and burns them; NC State suggests non-fluoridated water and a monthly flush.",
+      "The corn plant browns at the tips if the mix dries out completely, while the dragon tree is drought-tolerant and wants a slight dry spell.",
+      "Avoid cold water, which Clemson specifically warns against."
+    ],
+    "src": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "soil": {
+    "mix": "A standard commercial houseplant potting mix without much perlite, kept at pH 6.0 to 6.5 to limit fluoride injury.",
+    "components": [
+      "commercial houseplant potting mix",
+      "peat or other organic matter",
+      "little or no perlite"
+    ],
+    "ph": [
+      6,
+      6.5
+    ],
+    "src": [
+      0,
+      3,
+      5
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Clemson suggests occasional misting when indoor humidity drops below 30 to 40 percent; NC State recommends a humidifier against tip browning in heated homes.",
+    "src": [
+      0,
+      1,
+      3,
+      6
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      60,
+      75
+    ],
+    "idealC": [
+      16,
+      24
+    ],
+    "minF": 50,
+    "minC": 10,
+    "src": [
+      0,
+      1,
+      3,
+      5
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, while the canes are actively growing",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "Liquid foliage plant fertilizer at the label rate or time-release pellets, avoiding products that contain superphosphate",
+    "winter": "none",
+    "src": [
+      0,
+      2,
+      8
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "The plant starts to lift itself out of the pot",
+      "Roots grow out of the drainage hole",
+      "The plant wilts between normal waterings"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [
+      1,
+      5,
+      13
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low for both species: mouth and stomach irritation if eaten, and the sap may irritate skin.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Corn Plant (Dracaena fragrans)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/corn-plant",
+        "toxicPrinciples": "Saponins",
+        "clinicalSigns": "Vomiting (occasionally with blood), depression, anorexia, hypersalivation, dilated pupils (cats)."
+      },
+      {
+        "name": "Madagascar Dragon Tree (Dracaena marginata)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/madagascar-dragon-tree",
+        "toxicPrinciples": "Saponins",
+        "clinicalSigns": "Vomiting (occasionally with blood), depression, anorexia, hypersalivation, dilated pupils (cats)."
+      },
+      {
+        "name": "Dracaena (Dracaena spp.)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena",
+        "toxicPrinciples": "Saponins",
+        "clinicalSigns": "Vomiting (occasionally with blood), depression, anorexia, hypersalivation, dilated pupils (cats)."
+      }
+    ],
+    "src": [
+      1,
+      2,
+      9,
+      10,
+      11
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Leaf tips and margins turn yellow, then brown and dry",
+      "causeKey": "water-quality",
+      "cause": "Fluoride from tap water, perlite-heavy mix or superphosphate fertilizer",
+      "remedy": "Switch to rainwater or distilled water, flush the pot to clear salts, keep the mix at pH 6.0 to 6.5 and trim dead tips along the leaf shape."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Dry, papery edges spreading along the leaves in winter",
+      "causeKey": "low-humidity",
+      "cause": "Indoor air below 30 to 40 percent humidity during the heating season",
+      "remedy": "Run a humidifier or stand the pot on a tray of wet pebbles kept below the pot base."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Many leaves yellow and fall within a few days",
+      "causeKey": "drafts",
+      "cause": "A sudden temperature change or a cold draft, which Clemson lists among the triggers",
+      "remedy": "Move the plant away from doors, vents and cold glass, then check the roots for rot if the drop continues."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Canes soften at the base and the lower leaves collapse",
+      "causeKey": "overwatering",
+      "cause": "A slow-draining mix or watering before the surface has dried",
+      "remedy": "Unpot, cut away dark mushy roots, and replant in fresh mix in a pot with drainage holes; root any healthy top as a cutting if the cane is lost."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Round dry patches and pale streaks across the leaf surface",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sun striking the foliage through the window",
+      "remedy": "Move the plant back from the glass or behind a sheer curtain; damaged areas will not heal, so trim them neatly."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky film and small brown bumps along the leaves",
+      "causeKey": "pests",
+      "cause": "Scale insects, which Clemson names with mites as the main dracaena pests",
+      "remedy": "Wipe off the scales with a cotton swab dipped in rubbing alcohol and repeat weekly until no new bumps appear."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Yellow bands across dragon tree leaves after a cold spell",
+      "causeKey": "cold",
+      "cause": "A few hours at 32 to 37°F, the chilling injury described by UF/IFAS",
+      "remedy": "Keep the plant above 60°F, even in transport; banded leaves stay marked, but new growth comes in clean."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Tip or stem cuttings",
+      "Cane cuttings",
+      "Air layering",
+      "Rooting basal shoots"
+    ],
+    "season": "Spring or late summer"
+  },
+  "size": {
+    "heightIn": [
+      24,
+      120
+    ],
+    "growth": "slow",
+    "note": "Clemson gives 2 to 10 feet depending on the cultivar; the corn plant 'Massangeana' usually stays at 4 to 5 feet, and the dragon tree reaches 6 feet or more unless pruned.",
+    "src": [
+      0,
+      1,
+      4
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Dracaena fragrans 'Massangeana'",
+      "note": "The mass cane: glossy arching leaves with a wide yellow central stripe, 4 to 5 feet tall."
+    },
+    {
+      "name": "Dracaena fragrans 'Janet Craig' ('Compacta')",
+      "note": "Solid dark green, shorter leaves on compact stems; Clemson and UF/IFAS still list it under Dracaena deremensis."
+    },
+    {
+      "name": "Dracaena fragrans 'Warneckii'",
+      "note": "Grayish-green leaves striped in white; Clemson calls it one of the best variegated plants for low light."
+    },
+    {
+      "name": "Dracaena fragrans 'Lemon Lime'",
+      "note": "Sword-like leaves striped cream, greenish-yellow and lime."
+    },
+    {
+      "name": "Dracaena marginata 'Tricolor'",
+      "note": "Narrow green leaves striped in cream and red."
+    },
+    {
+      "name": "Dracaena marginata 'Colorama'",
+      "note": "Leaves variegated pink with white and green stripes, 5 to 6 feet tall."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dracaena",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dracaena fragrans (Corn Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-fragrans/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dracaena reflexa var. angustifolia (Madagascar Dragon Tree)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-reflexa-var-angustifolia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dracaena fragrans",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=282260",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dracaena marginata",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=282199",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cultural Guidelines for Commercial Production of Interiorscape Dracaena (ENH892)",
+      "publisher": "UF/IFAS Extension, Ask IFAS (EDIS)",
+      "url": "https://edis.ifas.ufl.edu/publication/EP149",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dragon Tree",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/dragon-tree",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Corn Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/corn-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Madagascar Dragon Tree",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/madagascar-dragon-tree",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dracaena",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dracaena marginata",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/dracaena-marginata/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "snake-plant",
+    "lucky-bamboo",
+    "schefflera",
+    "zz-plant"
+  ],
+  "seo": {
+    "title": "Dracaena Care: Corn Plant & Dragon Tree Guide (2026)",
+    "description": "Dracaena care in 2026: corn plant and dragon tree want bright indirect light, water once the surface dries, and fluoride-free water to stop brown leaf tips.",
+    "h1": "Dracaena care: corn plant and dragon tree"
+  },
+  "content": {
+    "answer": "Grow corn plant and Madagascar dragon tree in bright, indirect light, water once the surface of the mix feels dry, and keep them between 60 and 75°F. Use fluoride-free water: Clemson Extension calls dracaena very sensitive to fluoride, which burns the leaf tips.",
+    "intro": "Dracaena is a genus, not a single plant, and this page covers the two species most often sold under that name: the corn plant, Dracaena fragrans, and the Madagascar dragon tree, Dracaena marginata. Both are slow, woody members of the asparagus family that carry their leaves in tufts at the top of bare canes, and both share the weakness Clemson Extension spells out for the whole genus: dracaena is very sensitive to fluoride, which yellows and scorches the leaf tips. The differences are real, though. The corn plant comes from tropical Africa and grows broad, strap-like leaves up to 18 inches long and 3 to 5 inches wide, according to NC State. The dragon tree comes from Madagascar, carries leaves about half an inch wide with reddish edges, and copes better with dry soil. The snake plant and lucky bamboo are also Dracaena, but their care differs enough that each has its own guide on this site.",
+    "light": [
+      "Bright, indirect light suits both species best, and Clemson notes that many dracaenas also tolerate lower light. The Illinois Extension rates dracaena as a medium-light plant, about 150 foot-candles, which you find directly in front of a north window, a few feet back from an east or west one, or 3 to 10 feet from a south window. Clemson adds a useful detail: a plant moved from dim light into a brighter spot grows thicker, stronger leaves and speeds up.",
+      "Direct sun is the limit. NC State warns that it can burn corn plant foliage, and Clemson traces round dry patches and streaks on the leaves to excessive sunlight. Too little light shows up differently in each species. NC State says corn plant leaves grow narrower when light is too low, while Missouri Botanical Garden notes that the dragon tree survives shade but loses its best color, so the red margins fade on a plant kept far from the window."
+    ],
+    "water": [
+      "Clemson's rule works for both: wait until the soil surface is dry to the touch, then water thoroughly, and never use cold water. Pour until water runs from the drainage hole and empty the saucer, because Clemson names root rot from a slow-draining mix or overly frequent watering as one of the main indoor problems. The sources lean slightly differently by species. Missouri Botanical Garden asks you to keep the corn plant uniformly moist in the growing season and never let it dry out completely, since dry soil brings brown tips. NC State describes Dracaena marginata as drought-tolerant and says to let it dry between waterings, but not severely.",
+      "Water quality matters more here than for most houseplants. Fluoride from tap water and fertilizer travels to the leaf tips and collects there, and NC State suggests switching to non-fluoridated water and flushing built-up salts monthly once tips turn brown. Missouri Botanical Garden also links brown tips to water additives such as chlorine and recommends filtered water or rainwater, which is the simplest fix for a plant that keeps scorching.",
+      "In fall and winter both species slow down. Missouri Botanical Garden advises reducing water from fall to late winter, and NC State says the same for the corn plant. Check the surface before every watering instead of keeping a summer rhythm; a cool, wet pot in January is where cane rot begins."
+    ],
+    "soil": [
+      "A standard commercial houseplant potting mix works, Clemson says, and Missouri Botanical Garden prefers a loamy, peaty, well-drained blend. Two adjustments protect against fluoride injury: Clemson advises avoiding potting soils with a high percentage of perlite and keeping the pH between 6.0 and 6.5. The UF/IFAS commercial production guide gives the same 6.0 to 6.5 range and explains the edges of it: below 6.0 the leaves can turn chlorotic, and above 6.5 iron becomes scarce. NC State adds that the pot needs drainage holes."
+    ],
+    "humidity": [
+      "Dry winter air shows up first on the tips and edges of dracaena leaves. Clemson attributes dry tips and edges mostly to low humidity and suggests occasional misting when indoor humidity falls below 30 to 40 percent, as it usually does in winter. NC State recommends a humidifier for the corn plant in heated houses, and Missouri Botanical Garden suggests standing pots on a tray of wet pebbles. The Illinois Extension is more relaxed and lists low humidity among acceptable conditions, so treat extra humidity as a remedy for browning tips rather than a requirement."
+    ],
+    "temperature": [
+      "Ordinary house temperatures suit both species. Clemson recommends 60 to 70°F (16 to 21°C) by day with nights about 10 degrees cooler, Missouri Botanical Garden puts the corn plant's best range at 60 to 75°F (16 to 24°C), and NC State says it thrives at 70 to 80°F. For the floor, NC State asks for above 50°F (10°C) if possible, and Missouri Botanical Garden says to bring summering plants in before nights dip below 50°F. The UF/IFAS commercial guide is stricter, keeping plants above 60°F at all times to avoid chilling injury, and notes that a few hours at 32 to 37°F leave yellow bands across Dracaena marginata leaves."
+    ],
+    "fertilizer": [
+      "Clemson suggests a liquid foliage plant fertilizer once a month in spring and summer, or time-release pellets; the Illinois Extension's general rule for houseplants is no more than once every one to three months between March and September. NC State says the dragon tree has a low fertilizer requirement. Two cautions belong to this genus. Clemson warns that heavy feeding burns or yellows leaf tips and margins, and that fertilizers containing superphosphate often carry high levels of fluorine, so read the label before buying. Skip feeding in winter."
+    ],
+    "repotting": [
+      "Slow canes rarely need a new pot. NC State's signal for the corn plant is a plant that starts lifting out of its container or sends roots through the drainage hole, and the Illinois Extension adds roots on the surface, a root-packed soil mass and wilting between normal waterings. Repot in spring or early summer, go up only one or two inches in diameter, and use fresh mix without heavy perlite. The UF/IFAS guide recommends waiting about four weeks before repotting or feeding a newly bought plant, so it is not stressed further while it settles in."
+    ],
+    "propagation": [
+      "Clemson lists air layering, tip or stem cuttings and the rooting of basal shoots, in spring or late summer. The Illinois Extension also describes cane cuttings for dracaena: sections of bare cane two or three inches long, each with at least two nodes, laid half-buried on their side or stood upright in moist rooting mix, where new shoots form at the exposed nodes.",
+      "Propagation doubles as pruning. When a corn plant or dragon tree gets too tall and bare, Clemson says to cut the stem at the height you want; new leaves soon appear below the cut, and the top you removed can be rooted. NC State notes that a pruned dragon tree stem usually grows two or more branches, which is how bushy, multi-headed specimens are made."
+    ],
+    "problems": [
+      "Brown or yellow leaf tips are the signature dracaena complaint, and they have more than one cause. Clemson lists low humidity, fluoride and overfeeding; Missouri Botanical Garden adds soil that is too wet or too dry and chlorine in the water. Damaged tips never turn green again, the UF/IFAS guide notes, so trim them along the natural leaf shape and fix the cause. Lower leaves yellowing and dropping one at a time is normal aging on both species, and Missouri Botanical Garden describes the diamond-shaped scars they leave on dragon tree stems. A sudden loss of many leaves is a different signal, which Clemson ties to temperature swings, drafts, too much water, poor drainage or a heavy infestation. Scale insects and mites are the main pests, with mealybugs and thrips also on NC State's list."
+    ],
+    "petSafety": [
+      "The ASPCA lists the corn plant, the Madagascar dragon tree and its general Dracaena entry as toxic to cats and dogs, and the first two to horses as well. All three entries name saponins as the toxic principle, with vomiting (occasionally with blood), depression, anorexia, hypersalivation and, in cats, dilated pupils. NC State rates the poison severity as low for people, with mouth and stomach irritation if eaten and possible skin irritation from the sap. Keep the canes where a cat cannot chew the leaves, sweep up fallen foliage, and call your veterinarian or the ASPCA Animal Poison Control Center if a pet eats some."
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a corn plant and a Madagascar dragon tree?",
+        "a": "Leaf shape first: NC State describes corn plant leaves as up to 18 inches long and 3 to 5 inches wide, while Dracaena marginata leaves are about 2 feet long and only half an inch wide, with reddish edges. The corn plant comes from tropical Africa and prefers steadily moist soil; the dragon tree, from Madagascar, is drought-tolerant and wants to dry slightly between waterings. Both are toxic to pets and sensitive to fluoride."
+      },
+      {
+        "q": "Why do the leaf tips on my dracaena turn brown?",
+        "a": "Usually fluoride, dry air or salts. Clemson calls dracaena very sensitive to fluoride and links dry tips to low humidity and heavy feeding, and Missouri Botanical Garden adds chlorine and soil that swings between soggy and bone dry. Water with rainwater or distilled water, keep the mix at pH 6.0 to 6.5, flush the pot now and then, and run a humidifier in winter. Trim brown tips; they will not recover."
+      },
+      {
+        "q": "Can I cut the top off a tall dracaena?",
+        "a": "Yes. Clemson says that when stems become too long and bare, you can cut them at the desired height and new leaves will soon appear below the cut. NC State adds that a pruned dragon tree stem usually produces two or more branches. Root the removed top as a cutting in moist mix, or cut the bare cane into two or three inch sections with at least two nodes each."
+      },
+      {
+        "q": "Is a Janet Craig dracaena a kind of corn plant?",
+        "a": "According to NC State, yes. Its Plant Toolbox now lists 'Janet Craig' and 'Warneckii' as cultivars of Dracaena fragrans and gives Dracaena deremensis as a former name. Clemson and the UF/IFAS production guide, both older, still file them under Dracaena deremensis. The care is the same either way: bright indirect light, a slight dry-down at the surface, and water low in fluoride."
+      },
+      {
+        "q": "Does a corn plant ever flower indoors?",
+        "a": "Rarely, but it can. NC State says corn plant flowers are produced infrequently and announce themselves with a very strong fragrance at night. They open in clusters on long stalks, starting pink and opening white. Missouri Botanical Garden notes that flowers and the red berries that may follow seldom appear on indoor plants. A bloom does no harm, and you can cut the stalk once it fades."
+      }
+    ]
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "slug": "string-of-hearts",
+  "commonName": "String of hearts",
+  "otherNames": [
+    "Chain of hearts",
+    "Rosary vine",
+    "Sweetheart vine",
+    "Necklace vine",
+    "Bushman's pipe"
+  ],
+  "botanicalName": "Ceropegia woodii",
+  "formerNames": [
+    "Ceropegia linearis subsp. woodii"
+  ],
+  "family": "Apocynaceae",
+  "kind": "succulent",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [150, 300],
+    "lux": [1615, 3229],
+    "windows": ["east", "west", "south"],
+    "directSun": "avoid",
+    "src": [0, 1]
+  },
+  "water": {
+    "rule": "fully-dry",
+    "ruleText": "Let the potting mix dry out completely between waterings",
+    "winter": "The plant is dormant over winter, and NC State advises cutting watering back even further than in summer.",
+    "factors": [
+      "Overwatering rots the tuber and yellows the leaves, the problem NC State warns about first.",
+      "Wilted, limp leaves on dry mix are the sign of underwatering.",
+      "The underground tuber stores water, so a short dry spell does far less harm than a wet pot."
+    ],
+    "src": [0]
+  },
+  "soil": {
+    "mix": "A well-drained, sandy potting mix, such as cactus mix or houseplant mix opened up with coarse sand or perlite.",
+    "components": [
+      "cactus and succulent potting mix",
+      "coarse sand",
+      "perlite"
+    ],
+    "src": [0]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "No source we read gives a humidity need; this hillside succulent grows in ordinary room air without misting.",
+    "src": [0, 2]
+  },
+  "temperature": {
+    "minF": 55,
+    "minC": 13,
+    "src": [2]
+  },
+  "fertilizer": {
+    "season": "March to September, while the vines are growing",
+    "everyWeeks": [4, 13],
+    "strength": "full",
+    "type": "Houseplant fertilizer, balanced (10-10-10) or 1:2:1, at the label rate and never stronger",
+    "winter": "none",
+    "src": [2]
+  },
+  "repotting": {
+    "signs": [
+      "Tubers crowd the surface and push against the rim",
+      "Water runs straight through a pot packed with roots",
+      "The mix has broken down and stays wet"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "thick-fleshy",
+    "prefersSnug": true,
+    "src": [0, 4]
+  },
+  "toxicity": {
+    "cats": "varies",
+    "dogs": "varies",
+    "humans": "unknown",
+    "humanNote": "No toxicity rating found: Ceropegia woodii has no ASPCA entry, and the NC State profile gives no poison information for it.",
+    "aspcaListed": false,
+    "aspca": [],
+    "src": [0, 5, 6]
+  },
+  "problems": [
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Leaves turning yellow and dropping from the base of the vines",
+      "causeKey": "overwatering",
+      "cause": "Mix kept wet, leading to root and tuber rot",
+      "remedy": "Let the pot dry completely, then press the tuber: if it is soft, root healthy vine tips in fresh sandy mix and discard the rest."
+    },
+    {
+      "symptomKey": "drooping",
+      "symptom": "Leaves limp and wilted on dry, light mix",
+      "causeKey": "underwatering",
+      "cause": "A long dry spell in warm weather",
+      "remedy": "Water slowly until it drains; the tuber refills and the leaves firm up within a day or two."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Large gaps of bare stem between pairs of leaves",
+      "causeKey": "low-light",
+      "cause": "Not enough light, the cause NC State gives for widely spaced leaves",
+      "remedy": "Move it to bright, indirect light directly in front of an east or west window and trim the bare strands back."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Faded or scorched patches on the upper side of the leaves",
+      "causeKey": "too-much-sun",
+      "cause": "Too much direct sunlight",
+      "remedy": "Hang it back from the glass or behind a sheer curtain; new leaves will grow in with silver marbling intact."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony clusters on stems and leaf joints",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Wipe them off with a cotton swab dipped in rubbing alcohol and check the vines weekly, including the tubers on the strands."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky film on leaves with small bumps or green insects on the stems",
+      "causeKey": "pests",
+      "cause": "Scale or aphids, both listed by NC State",
+      "remedy": "Rinse aphids off in the sink, scrape scale away with a fingernail, then spray insecticidal soap on the vines."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Layering the aerial tubers onto soil",
+      "Stem cuttings",
+      "Seed"
+    ],
+    "season": "Spring to summer"
+  },
+  "size": {
+    "growth": "fast",
+    "note": "Wiry vines drape about 3 feet below a container, with a leaf pair roughly every 3 inches; in the wild they can reach 12 feet (NC State).",
+    "src": [0]
+  },
+  "varieties": [
+    {
+      "name": "Variegata",
+      "note": "Leaves splashed cream and pink over the usual green."
+    },
+    {
+      "name": "Heartless",
+      "note": "Bright green leaves without the silver pattern, pink underneath."
+    },
+    {
+      "name": "Orange River",
+      "note": "Green leaves washed with an orange shade."
+    },
+    {
+      "name": "Silver Glory",
+      "note": "Silvery, rounded leaves each marked with a dark green line."
+    },
+    {
+      "name": "String of Arrows",
+      "note": "Narrow, pointed lime green and silver leaves with pink flowers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ceropegia woodii (String of Hearts)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/ceropegia-woodii/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Cats",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Dogs",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["string-of-pearls", "hoya", "succulents", "pothos", "peperomia"],
+  "seo": {
+    "title": "String of Hearts Care: Light, Water and Tubers (2026)",
+    "description": "String of hearts care in 2026: let the mix dry out completely, give bright indirect light and water even less in winter dormancy, per NC State. Fix leaf gaps.",
+    "h1": "String of hearts care: light, water and tubers"
+  },
+  "content": {
+    "answer": "String of hearts wants bright, indirect light and a sandy, fast-draining mix that dries out completely between waterings. NC State notes the plant is dormant in winter, when watering should drop even further. Wide gaps between leaves mean it needs more light.",
+    "intro": "Ceropegia woodii is a trailing succulent from the hillsides of southern Africa, from Zimbabwe to the Cape, and it carries its water in an unusual place: a tuber at the base of the vines, plus small bead-like aerial tubers that form along the stems between the leaves. NC State explains that these tubercles root and start a new plant wherever they touch soil, which is why the plant earned the name rosary vine. The paired heart-shaped leaves are dark green marbled with silver on top and purple underneath, spaced about every three inches on wiry pink stems that drape roughly three feet below a hanging pot. The odd tubular flowers, purple to purplish white, sometimes trap small insects for a while, though the plant is not carnivorous. Care follows from that water-storing tuber: bright indirect light, a gritty mix allowed to dry completely, a crowded pot, and much less water during its winter rest.",
+    "light": [
+      "Aim for bright, indirect light. On the University of Illinois Extension scale, that is high light of about 300 foot-candles, found directly in front of an east or west window or within five feet of a south one. NC State describes its natural light as dappled, shade filtered through an upper canopy, which is a good picture of what to copy indoors: plenty of brightness, little raw sun on the leaves.",
+      "Light shows up quickly in the spacing of the leaves. NC State notes that large gaps between leaves mean the plant is not getting enough light, and those bare sections never fill in later. Too much sun has the opposite effect, scorching the leaves. A sheer curtain on a sunny south or west window, or a hook a few feet back from the glass, usually solves both problems at once."
+    ],
+    "water": [
+      "Water thoroughly, then wait until the mix has dried out completely, which is the rule NC State gives. The buried tuber works like a small reservoir, so the plant handles a dry pot far better than a wet one. When you do water, soak the mix until it drains from the bottom and empty the saucer, so the tuber never sits in standing water.",
+      "Learn the two warning signs. Yellowing leaves and soft, failing stems point to overwatering and root rot. Limp, wilted leaves on light, dry mix point to underwatering, and they recover within a day or two of a good drink. Water at the soil rather than through the hanging vines, which tangle and hold moisture around the leaf joints.",
+      "In winter the plant goes dormant, and NC State advises reducing water even further. Growth all but stops, the mix dries slowly, and a summer routine kept through December is the most common way these plants are lost. Water just enough that the leaves stay firm."
+    ],
+    "soil": [
+      "NC State recommends a well-drained, sandy potting soil. A cactus and succulent mix works, or a regular houseplant mix with a generous share of coarse sand or perlite stirred in. Avoid dense, peat-heavy mixes that stay damp around the tuber. Plant the tuber at the same depth it grew before, with its top near the surface, and use a pot with a drainage hole; a shallow, wide container drains faster than a deep one."
+    ],
+    "humidity": [
+      "None of the sources we read sets a humidity level for this plant. As a succulent from dry southern African hillsides, it grows well in ordinary room air, including the dry air of heated homes in winter, which the University of Illinois Extension puts at under 30 percent in most houses. There is no need to mist, and wet leaves in a cool room only invite rot."
+    ],
+    "temperature": [
+      "We found no published minimum temperature specific to string of hearts indoors. NC State says it can be planted outside in USDA zone 10, where it is frost free, but that is a garden rating, not a houseplant target. For indoor care, follow the University of Illinois Extension guidance for houseplants in general: days of 65 to 75°F (18 to 24°C) with nights 5 to 10 degrees cooler, which means keeping it above about 55°F (13°C). Keep it out of cold drafts and off frosty glass."
+    ],
+    "fertilizer": [
+      "Feed lightly. The sources give no feeding schedule for this species, so use the University of Illinois Extension rule for houseplants: no more than once every one to three months from March to September, with a balanced or 1:2:1 houseplant fertilizer at label strength or weaker. Stop during the winter dormancy, when unused fertilizer only builds up salts in a pot that is rarely flushed."
+    ],
+    "repotting": [
+      "NC State says this plant likes to be crowded and that repotting should be put off until it is truly necessary. That suits the tuber, which rots in a large volume of wet mix. Move it up only when tubers crowd the surface, water runs straight through a pot packed with roots, or the old mix has broken down into something that stays wet.",
+      "Do it in spring or early summer, when the University of Illinois Extension says plants repot best because they are actively growing. Untangle the vines first or lay them over your arm, choose a pot only an inch or two wider, and replant at the same depth in fresh sandy mix. Firm the mix gently around the tuber and water once to settle it, then let it dry out completely as usual."
+    ],
+    "propagation": [
+      "The aerial tubers make propagation almost automatic. NC State lists layering, stem cuttings and seed, and layering is the easiest: lay a vine across a small pot of barely moist sandy mix so that a few of the bead-like tubercles touch the surface, pin it down, and roots and new shoots form from them. Once it is growing, cut the link to the mother plant.",
+      "Stem cuttings of 3 to 6 inches, the length the University of Illinois Extension recommends for most stem cuttings, root in spring and summer. Lay them on the mix or bury a node or two. Coiling several cuttings in one pot gives a fuller plant faster than a single strand."
+    ],
+    "problems": [
+      "Most problems are about water and light. Yellowing leaves and rot follow overwatering, wilting follows underwatering, scorched leaves follow too much sun, and wide gaps between leaf pairs follow too little light, all of which NC State describes. For pests, it names aphids, mealybugs and scale. Check where the leaves meet the stem and on the aerial tubers, where mealybugs hide."
+    ],
+    "petSafety": [
+      "The ASPCA has no entry for Ceropegia woodii under any of its names in its cat and dog plant lists, and the NC State profile gives no poison information for it. We found no reliable source rating it either toxic or safe, so this page shows its status as unconfirmed rather than calling it pet safe. Do not confuse it with string of pearls, which shares the name rosary vine and which NC State does flag as a problem for cats and dogs. Hang it out of reach, and if a pet eats some, call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435."
+    ],
+    "faq": [
+      {
+        "q": "What are the little beads growing on my string of hearts vines?",
+        "a": "They are aerial tubers, also called tubercles, which NC State describes forming along the stems between the leaves. They store water and food, and if a tuber touches soil it roots and starts a new plant. That is the easiest way to propagate the plant: pin a vine onto a pot of sandy mix so the beads rest on the surface, and let them root."
+      },
+      {
+        "q": "Why does my string of hearts have so few leaves on long stems?",
+        "a": "Long bare sections between leaf pairs are a sign of too little light, according to NC State. The plant stretches toward the brightest spot it can find and spaces its leaves far apart. Move it to bright, indirect light, such as directly in front of an east or west window. Trim the bare strands back or use them as cuttings, because those gaps will not fill in."
+      },
+      {
+        "q": "Should I water string of hearts during its winter dormancy?",
+        "a": "Yes, but very little. NC State notes that the plant is dormant in winter and that watering should be reduced even further than in the growing season, when the mix is already allowed to dry out completely. Water only enough to keep the leaves firm. The tuber carries the plant through the dry spell, and wet mix in a cool room is the main risk."
+      },
+      {
+        "q": "Can string of hearts climb instead of trailing?",
+        "a": "It can. NC State notes that besides hanging from a pot or basket, the plant may be trained on a small trellis, and its habit includes climbing as well as trailing. Wrap the wiry stems gently around a hoop or a few thin stakes as they grow. Climbing stems still need the same bright, indirect light, so keep the trellis facing the window."
+      },
+      {
+        "q": "Does string of hearts flower indoors?",
+        "a": "It can, in summer and fall. NC State describes small tubular flowers, purple to purplish white, shaped a little like a fountain or a lantern, which inspired names such as Chinese lantern. Insects sometimes become trapped inside the flower tubes for a while, but the plant is not carnivorous. Bright, indirect light gives the best chance of blooms."
+      }
+    ]
+  }
+}

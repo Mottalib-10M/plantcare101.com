@@ -1,0 +1,379 @@
+{
+  "slug": "begonia",
+  "commonName": "Begonia",
+  "otherNames": [
+    "Rex begonia",
+    "Painted-leaf begonia",
+    "Cane begonia",
+    "Angel wing begonia",
+    "Dragon Wing begonia"
+  ],
+  "botanicalName": "Begonia spp. (Begonia rex-cultorum hybrids, cane-stemmed hybrids such as Begonia coccinea)",
+  "formerNames": [],
+  "family": "Begoniaceae",
+  "kind": "foliage",
+  "isGroup": true,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "east",
+      "north",
+      "west"
+    ],
+    "directSun": "morning-only",
+    "src": [
+      0,
+      2,
+      3
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Keep the mix evenly moist, letting only the surface dry slightly before the next watering",
+    "winter": "Clemson advises reducing water in winter; rex begonias that go dormant and drop leaves need only sparing water until new growth appears in spring (Missouri Botanical Garden).",
+    "factors": [
+      "Rex begonias rot quickly in soggy mix: Missouri Botanical Garden lists care to avoid overwatering among their main needs.",
+      "Never leave a begonia standing in a saucer of water, a rule Clemson repeats for every indoor type.",
+      "NC State advises watering at the base and keeping the leaves dry, since begonias are prone to powdery mildew and botrytis."
+    ],
+    "src": [
+      0,
+      2,
+      9
+    ]
+  },
+  "soil": {
+    "mix": "A porous, peat-based potting mix rich in organic matter that drains freely; rex begonias do best in a shallow pot.",
+    "components": [
+      "peat-based houseplant mix",
+      "perlite for porosity",
+      "a shallow pot with a drainage hole"
+    ],
+    "ph": [
+      5.5,
+      6.5
+    ],
+    "src": [
+      2,
+      9
+    ]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "Missouri Botanical Garden asks for more than 50% for rex begonias; NC State sets the bar above 75%. Cane begonias cope with ordinary room air far better.",
+    "src": [
+      0,
+      2,
+      9
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      66,
+      73
+    ],
+    "idealC": [
+      19,
+      23
+    ],
+    "minF": 55,
+    "minC": 13,
+    "src": [
+      0,
+      2,
+      9
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, while new leaves are forming",
+    "everyWeeks": [
+      2,
+      2
+    ],
+    "strength": "quarter",
+    "type": "Balanced liquid fertilizer at quarter strength every two weeks (Missouri Botanical Garden, rex begonias); Clemson uses half strength at alternate waterings",
+    "winter": "none",
+    "src": [
+      0,
+      2
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots circle the inside of the pot or poke from the drainage hole",
+      "A rex rhizome has crept over the rim with bare, leafless sections",
+      "Cane begonias wilt between normal waterings"
+    ],
+    "season": "Spring",
+    "rootType": "rhizome",
+    "prefersSnug": true,
+    "src": [
+      0,
+      2,
+      5
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: the sap can irritate skin, and the underground parts are the most toxic.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Begonia (Begonia spp.)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/begonia",
+        "toxicPrinciples": "Soluble calcium oxalates",
+        "clinicalSigns": "Kidney failure (in grazing animals), vomiting, salivation in dogs/cats. Most toxic part is underground."
+      },
+      {
+        "name": "Rex Begonia (Begonia rex)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/rex-begonia",
+        "toxicPrinciples": "Soluble calcium oxalates",
+        "clinicalSigns": "Kidney failure (in grazing animals), vomiting, salivation in dogs/cats. Most toxic part is underground."
+      }
+    ],
+    "src": [
+      7,
+      8,
+      9
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "White powdery film or gray fuzzy patches on rex leaves",
+      "causeKey": "disease",
+      "cause": "Powdery mildew or botrytis in still, damp air",
+      "remedy": "Pick off affected leaves and debris on the mix, water at the base only and give the plant more air movement."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Leaf stalks collapse and the rhizome turns soft and dark",
+      "causeKey": "overwatering",
+      "cause": "Rhizome and root rot in mix that never dries at the surface",
+      "remedy": "Cut back to firm tissue, root any healthy rhizome section in fresh mix and let the surface dry before watering again."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Rex leaf margins brown and crisp while the plant is well watered",
+      "causeKey": "low-humidity",
+      "cause": "Dry heated air, well below the 50% Missouri Botanical Garden asks for",
+      "remedy": "Group plants, run a humidifier or move a small rex into a terrarium; misting the leaves invites mildew."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "A rex begonia sheds most of its leaves in late fall",
+      "causeKey": "dormancy",
+      "cause": "Seasonal rest in short days, common in rex cultivars not grown under lights",
+      "remedy": "Water sparingly and do not feed; new leaves emerge from the rhizome in spring."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Cane begonia with long bare stems and leaves only at the tips",
+      "causeKey": "low-light",
+      "cause": "Too little light, plus the natural habit of canes to lose lower leaves",
+      "remedy": "Move it to an east window, cut overlong canes back in spring and pinch tips to force side shoots."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "Cottony white clusters on stems and leaf undersides",
+      "causeKey": "pests",
+      "cause": "Mealybugs, the pest Clemson and Missouri Botanical Garden both name for indoor begonias",
+      "remedy": "Remove colonies with a cotton swab dipped in rubbing alcohol and repeat each week until no new ones appear."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Leaf or rhizome cuttings (rex)",
+      "Stem cuttings (cane)",
+      "Division at repotting"
+    ],
+    "season": "Spring to early summer"
+  },
+  "size": {
+    "heightIn": [
+      8,
+      24
+    ],
+    "note": "NC State puts most begonias at 8 inches to 2 feet and rex plants at about 1 to 1.5 feet (Missouri Botanical Garden), but cane types reach 6 feet (NC State) and up to 10 feet unpruned (Clemson).",
+    "src": [
+      0,
+      2,
+      9
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Rex begonias (Begonia rex-cultorum)",
+      "note": "Rhizomatous hybrids with silver, pink, purple and near-black leaves; high humidity and careful watering."
+    },
+    {
+      "name": "Angel wing begonia",
+      "note": "Cane type with wing-shaped, white-spotted leaves and hanging red, pink or white flowers; among the easiest per Clemson."
+    },
+    {
+      "name": "Dragon Wing begonia",
+      "note": "Arching cane hybrid, 2 to 3 feet, with glossy leaves; Clemson says it flowers from spring until frost."
+    },
+    {
+      "name": "Iron cross begonia (Begonia masoniana)",
+      "note": "Rhizomatous species named by NC State; the ASPCA lists it as toxic under the name iron cross begonia."
+    },
+    {
+      "name": "Begonia maculata",
+      "note": "Cane species that NC State groups with the popular angel wing begonias."
+    },
+    {
+      "name": "Elatior (Rieger) begonia",
+      "note": "Flowering pot begonia sold in bloom year-round, usually treated as temporary color."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Growing Begonias Indoors (HGIC 1552)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/growing-begonias-indoors/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Begonia (HGIC 1159)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/begonia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Begonia rex-cultorum (rex begonia)",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=242218",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Begonia",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/begonia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Rex Begonia",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/rex-begonia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Begonia",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/begonia/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "calathea",
+    "prayer-plant",
+    "african-violet",
+    "fittonia"
+  ],
+  "seo": {
+    "title": "Begonia Care: Rex vs. Cane Types, Humidity & Water (2026)",
+    "description": "Begonia care for 2026: rex types want humidity above 50% and a shallow pot, cane types forgive more. Keep 66 to 73°F, never below 55°F. Pet toxicity and fixes.",
+    "h1": "Begonia care: rex and cane begonias indoors"
+  },
+  "content": {
+    "answer": "Grow begonias in bright light without hot sun, keep the mix evenly moist but never soggy, and hold rooms at 66 to 73°F. Rex begonias also need humid air and careful watering; cane and angel wing begonias forgive far more.",
+    "intro": "Begonia is a genus of more than 2,100 species, and the two groups people keep as houseplants behave almost like different plants. Rex begonias creep on a thick rhizome along the surface of the pot and are grown purely for their leaves, swirled with silver, pink, plum and near-black. Missouri Botanical Garden calls them high-maintenance: they want humid air, a porous mix, a shallow pot and a light hand with the watering can. Cane begonias, including angel wing and Dragon Wing types, grow upright on jointed, bamboo-like stems, flower in hanging clusters and are, in Clemson Extension's words, among the easiest begonias to grow. Both share the same basics: bright light kept off hot afternoon sun, temperatures of 66 to 73°F with nights no lower than 55°F, and soil that stays moist without ever turning soggy. This page covers both groups and says where their care splits.",
+    "light": [
+      "The University of Illinois Extension lists begonias as medium-light plants, around 150 foot-candles, but most grow and color better a step brighter. Clemson places foliage begonias in a bright spot away from direct sunlight, and that is the right home for a rex: a foot or two back from an east window, beside a north window, or behind a sheer curtain on a west exposure. Missouri Botanical Garden adds a quarter turn each week if light comes from one side, otherwise rex leaves all tilt toward the glass.",
+      "Cane begonias want more. Clemson notes that many cane and shrub types flower best with some direct sun, and that early morning sun in an east window works well, with several hours of winter sun a bonus. The warning sign is on the leaves themselves: an angel wing that gets too much hot sun loses its silver spots and then scorches, according to Clemson's outdoor begonia factsheet. Pale, stretched growth with long gaps between leaves means the reverse."
+    ],
+    "water": [
+      "Clemson's instruction for indoor begonias is to keep the soil evenly moist and let it dry only slightly between waterings, and never to leave the pot sitting in a saucer of water. In practice that means touching the surface: when the top of the mix feels dry to a fingertip and the pot has lost some weight, water slowly until it drains, then empty the saucer. Missouri Botanical Garden phrases the rex version as letting the surface become almost dry before the next drink.",
+      "The margin for error is narrow with rex begonias. Their rhizome sits right at soil level, and NC State lists begonias as highly susceptible to root rot, along with Pythium stem rot. Water at the base and keep the leaves dry, which also discourages the powdery mildew and botrytis that spot rex foliage. Cane begonias, with fibrous roots and tougher stems, recover from a missed watering or a slightly soggy week far more readily.",
+      "Cut back in winter. Clemson tells growers to reduce water once days shorten, and Missouri Botanical Garden explains why with rex types: many cultivars stop growing in fall unless kept under lights, and some drop part or all of their leaves. A dormant rex in wet mix is the classic way to lose one. Give just enough water to keep the rhizome from shriveling until new leaves unfurl in spring."
+    ],
+    "soil": [
+      "Use a light, porous mix with plenty of organic matter. NC State recommends moist, well-drained soil with a pH between 5.5 and 6.5, which matches a standard peat-based houseplant mix. For rex begonias, cutting in a generous handful of perlite keeps air around the rhizome. Missouri Botanical Garden specifically asks for a shallow pot, since the roots stay near the surface and a deep pot holds a cold, wet layer the plant never uses."
+    ],
+    "humidity": [
+      "This is where rex and cane begonias part ways most clearly, and the sources do not agree on a number. Missouri Botanical Garden asks for more than 50% humidity for rex begonias, adding that some cultivars want more than others, while NC State says rex plants need humidity above 75% and decline when it drops. Most heated homes sit under 30% in winter, according to the University of Illinois Extension, so a rex on an open shelf is usually struggling. Clemson asks for a humid environment but advises against misting the plant itself; spray the surrounding air instead, or better, run a humidifier, group plants together, or grow a small rex in a terrarium. Cane begonias tolerate ordinary room air with little fuss."
+    ],
+    "temperature": [
+      "Clemson recommends 66 to 73°F (19 to 23°C) for foliage begonias, with nights no lower than 55°F (13°C). NC State gives the same floor, and Missouri Botanical Garden says rex begonias do best around 70°F by day and 60°F at night, surviving cooler rooms with slower growth. Keep plants off cold glass in winter and away from heating vents, which dry the air as well as the leaves."
+    ],
+    "fertilizer": [
+      "Feed only while begonias are actively growing. Missouri Botanical Garden suggests a balanced fertilizer at quarter strength every two weeks for rex begonias once spring growth starts, tapering in fall and stopping in winter; a controlled-release product applied every three months is its alternative. Clemson uses half-strength balanced liquid fertilizer at alternate waterings for both flowering and foliage types. Pick one routine and stay with it, and skip feeding entirely during a rex's winter rest."
+    ],
+    "repotting": [
+      "Repot in spring, Clemson advises, and divide plants that have become pot-bound at the same time. A rex rarely needs a much bigger pot; more often its rhizome has grown past the rim with bare sections, which Missouri Botanical Garden suggests cutting back. The cut piece can be rooted as a new plant. Move cane begonias up one size when roots circle the pot or the plant wilts between normal waterings, one of the signs the University of Illinois Extension lists. In spring or early summer, cut overlong canes back to push new shoots from the base, and stake tall stems."
+    ],
+    "propagation": [
+      "Rex begonias root from leaf or rhizome cuttings, as Clemson's outdoor factsheet notes. A healthy leaf with an inch of stalk, pressed into damp mix under a clear cover in bright, indirect light, forms plantlets at its base; a section of rhizome laid on the mix roots faster. Cane begonias grow easily from stem cuttings of 3 to 6 inches with at least two nodes, the University of Illinois Extension guideline. Spring and early summer give the quickest results."
+    ],
+    "problems": [
+      "Most begonia trouble comes down to water and air. A soft, darkening rhizome means rot from mix that stayed wet; crisp brown leaf edges on a well-watered rex point to dry air. White powder or gray fuzz on rex leaves is mildew or botrytis, which Missouri Botanical Garden recommends preventing by removing dead leaves promptly and improving air circulation. Mealybugs, whiteflies and spider mites are the pests Clemson lists for indoor plants. Leaf loss in late fall on a rex is often just dormancy, not disease."
+    ],
+    "petSafety": [
+      "Begonias are toxic to cats and dogs. The ASPCA lists the genus and rex begonia separately, both with soluble calcium oxalates as the toxic principle, and notes vomiting and salivation in dogs and cats; the most toxic part is underground, so a pet digging in the pot is the bigger risk. NC State rates human severity as low, with possible skin irritation from the sap. Keep begonias on high shelves if a pet chews plants, and call your veterinarian or the ASPCA Animal Poison Control Center after any ingestion."
+    ],
+    "faq": [
+      {
+        "q": "Why is my rex begonia losing all its leaves in November?",
+        "a": "Many rex begonias go dormant in fall and winter unless grown under lights, and Missouri Botanical Garden notes they may drop some or all of their leaves. Check the rhizome: if it is firm, the plant is resting. Water only sparingly, stop feeding, and keep it warm. New leaves usually appear in spring. A soft, dark rhizome is a different story and means rot."
+      },
+      {
+        "q": "Should I mist my rex begonia to raise humidity?",
+        "a": "No. Clemson advises against misting foliage begonias and suggests spraying the surrounding air instead, since wet leaves encourage powdery mildew and botrytis. A humidifier, a cluster of plants, or a glass terrarium raises humidity without wetting the leaves. Missouri Botanical Garden asks for more than 50% humidity for rex types, which most heated homes fall well short of in winter."
+      },
+      {
+        "q": "How tall can an angel wing begonia get indoors?",
+        "a": "Taller than most people expect. NC State says cane begonias, the group that includes angel wing types, reach up to 6 feet, and Clemson notes that unpruned canes may hit 10 feet. Cutting long canes back in spring or early summer keeps the plant shorter and bushier, and the removed tips root readily as cuttings. Tall stems often need a stake."
+      },
+      {
+        "q": "Is a cane begonia easier than a rex begonia for a beginner?",
+        "a": "Yes. Clemson describes cane begonias as among the easiest begonias to grow, while Missouri Botanical Garden calls rex begonias high-maintenance, needing high humidity, a porous mix, a shallow pot and careful watering. Start with an angel wing or Dragon Wing type in a bright east window, then try a rex once you can keep the mix evenly moist without drowning it."
+      },
+      {
+        "q": "Can a begonia make my cat sick if it only digs in the pot?",
+        "a": "It can. The ASPCA lists begonias as toxic to cats and dogs, with soluble calcium oxalates as the toxic principle, and states that the most toxic part is underground. A cat that digs up and chews roots or rhizomes is more exposed than one that nibbles a leaf. Signs include vomiting and salivation. Cover the soil surface or move the pot out of reach."
+      }
+    ]
+  }
+}

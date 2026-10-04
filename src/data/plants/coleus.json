@@ -1,0 +1,375 @@
+{
+  "slug": "coleus",
+  "commonName": "Coleus",
+  "otherNames": [
+    "Painted nettle",
+    "Painted leaf plant"
+  ],
+  "botanicalName": "Coleus scutellarioides",
+  "formerNames": [
+    "Plectranthus scutellarioides",
+    "Solenostemon scutellarioides",
+    "Coleus blumei",
+    "Coleus x hybridus"
+  ],
+  "family": "Lamiaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [
+      150,
+      1500
+    ],
+    "lux": [
+      1615,
+      16146
+    ],
+    "windows": [
+      "east",
+      "west",
+      "south"
+    ],
+    "directSun": "tolerates",
+    "src": [
+      0,
+      1,
+      3,
+      5
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water when the top inch of the mix is dry, and do not let the pot dry out completely",
+    "winter": "Indoors in winter the plant grows slowly and the mix dries more slowly; keep checking the top inch rather than watering on a summer schedule.",
+    "factors": [
+      "Missouri Botanical Garden says the soil must not be allowed to dry out, and Clemson notes that coleus in containers dry quickly and need frequent watering.",
+      "Clemson warns that poorly drained soil and excessive watering damage coleus: stunted plants with muddy brown leaves and scorched margins.",
+      "Water the mix, not the leaves: Clemson links wet foliage to downy mildew and stem rot."
+    ],
+    "src": [
+      1,
+      3,
+      8
+    ]
+  },
+  "soil": {
+    "mix": "A very well-drained, loose potting mix rich in organic matter, in a pot with a drainage hole.",
+    "components": [
+      "peat-based potting mix",
+      "perlite for drainage",
+      "compost or other organic matter"
+    ],
+    "src": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "None of the sources sets a humidity level for coleus; ordinary indoor humidity works, with the usual winter boost from grouping plants or a pebble tray.",
+    "src": [
+      6
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      65,
+      75
+    ],
+    "idealC": [
+      18,
+      24
+    ],
+    "minF": 50,
+    "minC": 10,
+    "src": [
+      1,
+      6,
+      7
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, while the plant is growing",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "All-purpose soluble fertilizer such as 24-8-16 (Clemson); avoid bloom formulas, whose phosphorus makes coleus leggy and flower",
+    "winter": "none",
+    "src": [
+      1,
+      6
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow out of the drainage hole",
+      "The plant wilts between normal waterings",
+      "The stems are woody and bare at the base"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [
+      9
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates Coleus scutellarioides as low severity: the leaves can cause minor skin irritation and, after repeated contact, an allergic rash. Toxic principle: diterpene coleonol, coleon O.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Coleus (Coleus amboinicus)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/coleus",
+        "toxicPrinciples": "Essential Oils",
+        "clinicalSigns": "Vomiting, diarrhea, depression, anorexia, occasionally bloody diarrhea or vomiting"
+      }
+    ],
+    "src": [
+      0,
+      4
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "drooping",
+      "symptom": "Leaves hang limp in the afternoon even though the soil is moist",
+      "causeKey": "too-much-sun",
+      "cause": "A shade cultivar in hot direct sun",
+      "remedy": "Move it to bright light without midday sun, or choose a cultivar sold as sun-tolerant."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Colors look washed out and bleached",
+      "causeKey": "too-much-sun",
+      "cause": "Varieties that are not sun-tolerant bleach in full sun, Clemson notes",
+      "remedy": "Shift the pot back from a south or west pane; new leaves come in with full color."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Tall, thin stems with few leaves",
+      "causeKey": "low-light",
+      "cause": "Too much shade, which Missouri Botanical Garden links to legginess",
+      "remedy": "Give it the brightest indoor spot available and pinch every stem tip to force branching."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Stunted plant with muddy brown leaves and scorched margins",
+      "causeKey": "poor-drainage",
+      "cause": "Wet feet: soggy, poorly drained mix",
+      "remedy": "Repot into a very well-drained mix in a pot with a drainage hole and let the top inch dry before watering."
+    },
+    {
+      "symptomKey": "slow-growth",
+      "symptom": "The plant stops making new leaves and starts to decline in late summer",
+      "causeKey": "natural-aging",
+      "cause": "Flower spikes allowed to set seed",
+      "remedy": "Pinch or shear off flower spikes as soon as they appear, and root fresh cuttings to replace a tired plant."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and stippled, dull leaves",
+      "causeKey": "pests",
+      "cause": "Spider mites, which NC State and Missouri Botanical Garden flag on indoor plants",
+      "remedy": "Rinse the leaves, isolate the plant and treat with insecticidal soap until no new webbing appears."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings in water or potting mix",
+      "Seed (seed-grown cultivars only)"
+    ],
+    "season": "Any time of year; late summer to save plants before frost"
+  },
+  "size": {
+    "heightIn": [
+      6,
+      36
+    ],
+    "widthIn": [
+      6,
+      36
+    ],
+    "growth": "fast",
+    "src": [
+      0,
+      1,
+      3
+    ]
+  },
+  "varieties": [
+    {
+      "name": "'Alabama Sunset'",
+      "note": "Old favorite with brick-red leaves and a thin yellow edge, exceptional in full sun (Clemson)."
+    },
+    {
+      "name": "Wasabi",
+      "note": "Deeply lobed chartreuse leaves; a UF introduction for sun or shade."
+    },
+    {
+      "name": "Redhead",
+      "note": "Vigorous UF cultivar with non-fading bright red leaves."
+    },
+    {
+      "name": "'Pineapple'",
+      "note": "Lime-gold leaves with burgundy accents; seldom blooms."
+    },
+    {
+      "name": "'Dipt in Wine'",
+      "note": "Large burgundy leaves with bright gold or lime at the base."
+    },
+    {
+      "name": "'Trailing Rose'",
+      "note": "Cascading habit with deep burgundy leaves and rose-pink centers, suited to hanging baskets (NC State)."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Coleus scutellarioides (Coleus)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/coleus-scutellarioides/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Coleus (HGIC 1162)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/coleus/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Coleus",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/coleus/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Plectranthus scutellarioides (coleus)",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=361370",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Coleus",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/coleus",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Frequently asked questions",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/frequently-asked-questions",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "polka-dot-plant",
+    "begonia",
+    "pothos"
+  ],
+  "seo": {
+    "title": "Coleus Care Indoors: Sun, Water & Overwintering (2026)",
+    "description": "Coleus care for 2026: bright light, water when the top inch is dry, pinch off flower spikes and root cuttings before frost. Pet toxicity and leggy-growth fixes.",
+    "h1": "Coleus care: bright color indoors and through winter"
+  },
+  "content": {
+    "answer": "Grow coleus in bright light, with direct sun only for sun-tolerant cultivars, and water when the top inch of mix is dry without letting the pot dry out. Pinch tips and flower spikes, and bring it indoors before frost.",
+    "intro": "Coleus is a tender perennial in the mint family, native to tropical Asia, grown for leaves painted in almost every color except true blue. Botanists have renamed it several times: NC State Extension and UF/IFAS now use Coleus scutellarioides, while Missouri Botanical Garden still lists it as Plectranthus scutellarioides, and older labels say Solenostemon. Most people meet it as a summer bedding plant, but it lives happily indoors as long as it gets the bright light NC State says it requires as a houseplant. Its stems are square and semi-succulent, which is why cuttings root so readily in a glass of water. Coleus rewards a little attention: pinch the tips to keep it dense, snap off the flower spikes before it sets seed, keep the mix from drying out, and root a few cuttings in late summer so your favorite colors survive the first frost that Clemson Extension says kills it outdoors.",
+    "light": [
+      "Indoors, light is the limiting factor. NC State states that coleus grown as a houseplant requires bright light, and Missouri Botanical Garden explains the two failure modes: too much shade makes plants leggy, and too much sun can make them wilt. A south or west window with a sheer curtain, or an unobstructed east window, reaches the high-light range of about 300 foot-candles on the University of Illinois Extension scale, and sun-tolerant cultivars can take direct light on top of that.",
+      "Cultivar matters more than with most houseplants. Traditionally, coleus grew best in part shade, but UF/IFAS has bred many varieties that thrive in full, hot sun, and Clemson notes that types that are not sun-tolerant bleach and discolor in full sun. Check the label. A shade type on a hot south sill fades and droops by afternoon, while a sun type in a dim corner stretches and loses its color."
+    ],
+    "water": [
+      "Coleus likes steady moisture with good drainage. Missouri Botanical Garden says the soil must not be allowed to dry out, and UF/IFAS asks for soil kept lightly moist at all times. Clemson's practical test, written for planted coleus, works indoors too: water when the entire top inch of soil is dry. Pots dry faster than beds, and Clemson notes that container coleus need frequent watering. Water thoroughly until it drains, then empty the saucer.",
+      "Too much water is just as damaging. Clemson describes plants with wet feet as stunted, with muddy brown leaves and scorched leaf margins, and lists root rot and stem rot among the fungal problems that excessive soil moisture brings on. Wetting the foliage encourages downy mildew, so pour at the base. Room-temperature water, as the University of Illinois Extension recommends, avoids chilling the roots.",
+      "An overwintering plant indoors grows far more slowly than a summer plant on the patio. Keep using the top-inch test in winter; the pot will simply need water less often, especially on a cool windowsill."
+    ],
+    "soil": [
+      "Use a loose, very well-drained mix rich in organic matter. NC State and Missouri Botanical Garden both describe moist, rich, loose soil, UF/IFAS asks for well-drained soil amended with lots of organic matter, and Clemson stresses a very well-drained mix for containers. A peat-based potting mix with extra perlite does the job. Always use a pot with a drainage hole."
+    ],
+    "humidity": [
+      "None of the extension sources sets a humidity requirement for coleus, and it grows well in ordinary room air. The main indoor risk comes in winter, when the University of Illinois Extension says most homes fall below 30 percent humidity. Keeping the plant away from heating vents, grouping it with other plants, or setting it on a tray of wet pebbles with the pot above the water line is enough."
+    ],
+    "temperature": [
+      "Clemson describes coleus as a tender annual killed by the first frost, so bring pots indoors before fall nights turn cold. The extension sources give no indoor range for coleus itself; the University of Illinois Extension's general rule for foliage plants applies: 65 to 75°F (18 to 24°C) by day, 5 to 10 degrees cooler at night, and nothing below 50°F (10°C) for long. Clemson germinates seed at 70 to 75°F, a sign of how much this plant likes warmth."
+    ],
+    "fertilizer": [
+      "Feed for leaves, not flowers. Clemson recommends an all-purpose soluble fertilizer such as 24-8-16 or 17-4-17 for outdoor plants in June, July and August, and warns against fertilizers made for flowering, because the extra phosphorus makes coleus leggy and pushes it to bloom. Indoors, follow the University of Illinois Extension guideline of feeding no more than once every one to three months from spring through summer, and stop in winter when growth is slow."
+    ],
+    "repotting": [
+      "Pot up in spring or early summer when roots escape the drainage hole or the plant wilts between normal waterings, the signs the University of Illinois Extension gives. Many growers do not keep one coleus for years at all. An overwintered plant often turns woody and bare at the base by spring, and a few rooted cuttings in fresh mix make a better plant than repotting the old one."
+    ],
+    "propagation": [
+      "Coleus is one of the easiest plants to root. NC State and Missouri Botanical Garden both say cuttings root easily in water or clean potting soil. UF/IFAS describes cutting a 2 to 6 inch piece of stem, trimming it half an inch below the lowest leaves, removing those leaves and setting it in moist potting soil or vermiculite in a shady spot for a couple of weeks until roots form. Clemson adds two cautions: patented cultivars, labeled PP or PPAF, should not be propagated by cuttings, and vegetative cultivars are sterile and cannot be grown from seed. Seed-grown types can be sown uncovered at 70 to 75°F and sprout in a week and a half to two weeks."
+    ],
+    "problems": [
+      "Light and flowering cause most indoor complaints. Wilting in sun, bleached color and leggy stems all trace back to placement. Flower spikes appear in late summer, and Clemson notes that if they are allowed to go to seed the plant declines; shearing or pinching them extends its life. Aphids, whiteflies and spider mites are the pests NC State and Missouri Botanical Garden expect on indoor plants, and Clemson adds mealybugs. Clemson treats them with insecticidal soap."
+    ],
+    "petSafety": [
+      "Treat coleus as toxic to pets, with one caveat. The ASPCA lists Coleus as toxic to dogs, cats and horses, with essential oils as the toxic principle and signs including vomiting, diarrhea, depression and loss of appetite, occasionally with blood. Its entry, however, is filed under Coleus amboinicus, the herb known as Indian borage, and the ASPCA has no separate entry for the ornamental Coleus scutellarioides. NC State rates the ornamental coleus as low severity for people, mainly minor skin irritation or an allergic rash after repeated handling. Keep it out of reach of pets that chew plants."
+    ],
+    "faq": [
+      {
+        "q": "Can I keep my outdoor coleus alive indoors over winter?",
+        "a": "Yes. Missouri Botanical Garden suggests bringing containers inside before frost, digging and potting favorite plants, or simply taking cuttings in fall, which root easily in a glass of water. Cuttings are often easier than whole plants because they adjust to indoor light better. Give them your brightest window, pinch the tips, and plant them out again after the last spring frost."
+      },
+      {
+        "q": "Should I cut the flowers off my coleus?",
+        "a": "Yes, in most cases. Clemson notes that flower spikes appear in late summer and that a coleus allowed to go to seed declines; shearing or pinching them extends its performance. Missouri Botanical Garden also recommends removing spikes as they appear. The flowers are small blue to white spikes, attractive to pollinators but not to most growers."
+      },
+      {
+        "q": "Why is my coleus losing its color indoors?",
+        "a": "Usually too little light. NC State says coleus kept as a houseplant requires bright light, and too much shade makes it leggy with duller leaves. Move it to the brightest window you have. If it sits in strong direct sun and looks washed out instead, it may be a shade cultivar that bleaches in sun, as Clemson describes. New leaves show whether the change worked."
+      },
+      {
+        "q": "Is it legal to propagate a patented coleus from cuttings?",
+        "a": "Not for patented cultivars. Clemson points out that plants labeled PP (plant patent) or PPAF (patent applied for) should not be propagated by cuttings, and many modern coleus, including several UF/IFAS introductions, carry patents. Check the plant tag. Older, unpatented cultivars and seed-grown types can be propagated freely for your own garden."
+      },
+      {
+        "q": "Is coleus poisonous to dogs if they chew the leaves?",
+        "a": "The ASPCA lists Coleus as toxic to dogs and cats, naming essential oils as the cause and vomiting, diarrhea, depression and loss of appetite as signs. Its entry is filed under Coleus amboinicus, a related herb, and there is no separate entry for the ornamental painted coleus, so the safest reading is to keep it away from dogs. Call your veterinarian if your dog eats some."
+      }
+    ]
+  }
+}

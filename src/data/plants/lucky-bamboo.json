@@ -1,0 +1,368 @@
+{
+  "slug": "lucky-bamboo",
+  "commonName": "Lucky bamboo",
+  "otherNames": [
+    "Ribbon plant",
+    "Chinese water bamboo",
+    "Friendship bamboo",
+    "Belgian evergreen"
+  ],
+  "botanicalName": "Dracaena sanderiana",
+  "formerNames": [
+    "Dracaena braunii",
+    "Pleomele sanderiana"
+  ],
+  "family": "Asparagaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "medium",
+    "maxLevel": "high",
+    "fc": [
+      75,
+      300
+    ],
+    "lux": [
+      807,
+      3229
+    ],
+    "windows": [
+      "east",
+      "west",
+      "north"
+    ],
+    "directSun": "avoid",
+    "src": [
+      0,
+      1,
+      5
+    ]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Keep potting mix evenly moist, or keep the roots covered in chlorine-free water over pebbles and change it weekly",
+    "winter": "Growth slows in the short days of winter, so a potted plant stays damp longer; check the mix by touch before adding water.",
+    "factors": [
+      "NC State says to change the water weekly, which also stops mosquitoes from breeding in the vase.",
+      "Chlorine and fluoride brown the leaf tips; filtered water or rainwater is safer than straight tap water.",
+      "Overwatering a potted plant yellows the leaves and rots the stems, NC State warns."
+    ],
+    "src": [
+      0,
+      1,
+      4,
+      7
+    ]
+  },
+  "soil": {
+    "mix": "A moist, well-draining houseplant potting mix, or simply pebbles and water for roots to anchor in.",
+    "components": [
+      "houseplant potting mix",
+      "pebbles or gravel for water culture"
+    ],
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Average room humidity is enough; NC State notes that low humidity can brown the leaf tips.",
+    "src": [
+      0,
+      6
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      70,
+      80
+    ],
+    "idealC": [
+      21,
+      27
+    ],
+    "minF": 60,
+    "minC": 16,
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fertilizer": {
+    "season": "March to September, while the stems are growing",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "half",
+    "type": "A weak liquid houseplant fertilizer, added to the vase water or to the potting mix; avoid superphosphate",
+    "winter": "none",
+    "src": [
+      0,
+      6,
+      7
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots fill the pebbles or push against the sides of the vase",
+      "In soil, roots grow through the drainage holes",
+      "In soil, the plant wilts between normal waterings"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [
+      9,
+      11
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low and says people should not eat the plant; the sap can irritate skin.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Dracaena (Dracaena spp.), the ASPCA entry covering the genus",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena",
+        "toxicPrinciples": "Saponins",
+        "clinicalSigns": "Vomiting (occasionally with blood), depression, anorexia, hypersalivation, dilated pupils (cats)."
+      }
+    ],
+    "src": [
+      0,
+      3
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Leaves yellow and the stem softens from the base",
+      "causeKey": "overwatering",
+      "cause": "Stem rot from soggy mix or stale water",
+      "remedy": "Take the soft stem out of the group, rinse the pebbles and vase, refill with fresh chlorine-free water, and keep potted plants in a mix that drains."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Leaf tips turn brown and dry",
+      "causeKey": "water-quality",
+      "cause": "Chlorine or fluoride in tap water, which Dracaena tolerates poorly",
+      "remedy": "Switch to filtered water, rainwater or distilled water, and trim the brown tips with clean scissors."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Tips and edges crisp up in a heated room",
+      "causeKey": "low-humidity",
+      "cause": "Dry winter air, which NC State names as a cause of tip browning",
+      "remedy": "Group the plant with others or set it near a humidifier, away from heating vents."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Pale or scorched patches on leaves facing the window",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sun, which Missouri Botanical Garden says scorches the foliage",
+      "remedy": "Move the container out of direct sun into bright, indirect light."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony clusters where leaves meet the stem",
+      "causeKey": "pests",
+      "cause": "Mealybugs, one of the three pests NC State lists",
+      "remedy": "Dab them off with a cotton swab dipped in rubbing alcohol and repeat weekly until none return."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Slimy dead spots on the leaves, then sudden leaf drop",
+      "causeKey": "cold",
+      "cause": "Chilling injury below 60°F, which UF/IFAS describes for the Dracaena genus",
+      "remedy": "Move the plant off cold windowsills and away from drafts to a spot that stays above 60°F; trim the damaged leaves."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings rooted in water or moist mix",
+      "Cutting old lanky stems back to the base for new shoots"
+    ],
+    "season": "Spring or summer"
+  },
+  "size": {
+    "heightIn": [
+      24,
+      60
+    ],
+    "growth": "slow",
+    "note": "Missouri Botanical Garden gives up to 5 feet tall with an equal spread; the UF/IFAS guide says the stems never stay upright beyond 2 to 3 feet.",
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "varieties": [
+    {
+      "name": "'Silver Ribbon'",
+      "note": "Slightly twisted leaves striped in shades of green, listed by NC State."
+    },
+    {
+      "name": "'White Stripe'",
+      "note": "Deep green leaves edged in creamy white."
+    },
+    {
+      "name": "'Gold'",
+      "note": "Leaves with stronger light yellow margins, named in the UF/IFAS production guide."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dracaena sanderiana (Lucky Bamboo)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-sanderiana/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dracaena sanderiana",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=282309",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cultural Guidelines for Commercial Production of Interiorscape Dracaena (ENH892)",
+      "publisher": "UF/IFAS Extension, Ask IFAS (EDIS)",
+      "url": "https://edis.ifas.ufl.edu/publication/EP149",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dracaena",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/dracaena",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dracaena",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/dracaena/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dracaena marginata",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/dracaena-marginata/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "dracaena",
+    "snake-plant",
+    "money-tree",
+    "pothos"
+  ],
+  "seo": {
+    "title": "Lucky Bamboo Care: Water, Light & Soil Guide (2026)",
+    "description": "Lucky bamboo care in 2026: it is a Dracaena, not a bamboo. Grow it in bright indirect light and chlorine-free water changed weekly, as NC State advises.",
+    "h1": "Lucky bamboo care: water, light and soil"
+  },
+  "content": {
+    "answer": "Lucky bamboo is a Dracaena, not a bamboo. Grow it in bright, indirect light, either in moist potting mix or in chlorine-free water over pebbles, which NC State Extension says to change weekly. Direct sun scorches the leaves, and chlorinated tap water browns the tips.",
+    "intro": "Lucky bamboo, Dracaena sanderiana, is not a bamboo at all. NC State Extension describes it as a tropical shrub from West Africa in the asparagus family, a relative of the corn plant and the snake plant rather than of the grasses, and Missouri Botanical Garden stresses that the two are not closely related; only the jointed, cane-like stems look the part. Those stems are what the trade sells. The UF/IFAS commercial guide explains that lucky bamboo plants are typically leafless stems of the ribbon plant, sold singly or in clusters, and Missouri Botanical Garden notes they can be trained into spirals, braids, hearts and loops. Because the plant roots happily in plain water as long as the roots have pebbles to grip, many owners never pot it at all. Its care therefore comes down to clean water, gentle light and very light feeding, and to remembering that every Dracaena reacts badly to fluoride and chlorine.",
+    "light": [
+      "Bright, indirect light is best, Missouri Botanical Garden says, and NC State recommends the same indoors all year, with partial shade if the container spends the summer outdoors. On the Illinois Extension scale, that ranges from medium light, about 150 foot-candles a few feet back from an east or west window, up to bright light directly in front of one. Missouri Botanical Garden lists part shade to full shade as acceptable, which is why lucky bamboo survives on office desks far from the glass, although a slow grower gets slower still in dim corners.",
+      "Keep it out of direct sun, which Missouri Botanical Garden warns will scorch the foliage. Where daylight is scarce, artificial light helps: the Illinois Extension notes that plants in low light benefit from a longer day, 14 to 16 hours under lamps, but never more than 16, because plants need a dark rest period too."
+    ],
+    "water": [
+      "In a vase, the roots need something to hold. Missouri Botanical Garden says lucky bamboo grows in water as long as the roots have a substrate such as pebbles, and NC State adds that pebbles in the bottom also give the container weight so it does not tip. Use chlorine-free water and, following NC State, change it every week, which also keeps mosquitoes from breeding in standing water.",
+      "Water quality is where most lucky bamboo goes wrong. Missouri Botanical Garden lists high levels of additives such as chlorine among the causes of brown leaf tips and suggests filtered water or rainwater, and Clemson notes that the whole Dracaena genus is very sensitive to fluoride, which yellows the tips and margins. The Illinois Extension suggests letting tap water stand at least 24 hours before use and always using it at room temperature, never cold. For a plant whose roots sit in that water all week, rainwater or distilled water is the safest choice.",
+      "In soil, NC State and Missouri Botanical Garden both ask for a mix kept evenly moist. Water before the surface dries out, let the excess drain, and never leave the pot standing in a full saucer; NC State warns that overwatering yellows the leaves and rots the stems. Growth slows in winter, so the mix stays damp longer and should be checked by touch rather than watered on a fixed schedule."
+    ],
+    "soil": [
+      "Potting mix is optional for this plant. NC State accepts a moist potting mix or chlorine-free water, and lists acid, neutral and alkaline soils as acceptable. For the genus, the UF/IFAS commercial guide recommends media with good aeration and a pH of 6.0 to 6.5, and Clemson gives the same range for dracaenas, advising against soils heavy in perlite to limit fluoride injury. If you pot your stems, choose an ordinary peat-based houseplant mix and a container with drainage holes. If you keep them in water, rinsed pebbles or glass gravel give the roots their anchor."
+    ],
+    "humidity": [
+      "Ordinary household humidity is enough. NC State notes that low humidity can brown the leaf tips, so a heated room in winter is the one place to act. The Illinois Extension points out that most homes fall below 30 percent humidity in winter and suggests a humidifier, a pebble tray under the pot or simply grouping plants together, which raises humidity around all of them."
+    ],
+    "temperature": [
+      "None of the sources we used gives a houseplant temperature range for lucky bamboo itself; NC State and Missouri Botanical Garden only rate it as hardy outdoors in USDA Zones 10 and above, which means frost-free climates. For the genus, the UF/IFAS commercial guide calls 70 to 80°F (21 to 27°C) the most appropriate interior temperature and says Dracaena should stay above 60°F (16°C) at all times, because chilling injury shows as slimy dead spots and heavy leaf drop. Keep the vase off cold windowsills in winter and away from heating vents and drafts."
+    ],
+    "fertilizer": [
+      "NC State recommends a weak liquid fertilizer, whether the plant grows in water or in soil. It gives no dilution, so we suggest about half the label rate as a cautious reading of weak, since a vase has no soil to buffer excess salts. The Illinois Extension's general rule for houseplants is no more than once every one to three months between March and September, and nothing in the short days of winter. Clemson warns that fertilizers containing superphosphate often carry high levels of fluorine, so check the label before adding anything to the water."
+    ],
+    "repotting": [
+      "A water-grown lucky bamboo only needs a wider vase once its roots fill the pebbles and crowd the glass. In soil, the Illinois Extension's signs apply: roots escaping through the drainage holes, roots on the surface, a soil mass filled with roots, and a plant that wilts between normal waterings. Move it in spring or early summer into a pot just 1 or 2 inches wider, as Clemson recommends, and replant at the same depth it grew before."
+    ],
+    "propagation": [
+      "Stem cuttings are the recommended method at both NC State and Missouri Botanical Garden. Cut a healthy shoot with a few leaves, remove the lowest leaves, and stand it in chlorine-free water or moist mix in bright, indirect light. The Illinois Extension says cuttings are usually taken in spring or summer and can go into their own pots once the roots are about an inch long; it also describes cane cuttings for Dracaena, short sections of stem with at least two nodes. Missouri Botanical Garden suggests cutting older, lanky stems back to the base to encourage fresh growth, a simple way to renew a tired arrangement."
+    ],
+    "problems": [
+      "NC State lists no serious insect pests or diseases for lucky bamboo, only mealybugs, mites and scale to watch for. Its two common complaints are both about water: overwatering yellows the leaves and rots the stems, and low humidity browns the leaf tips. Missouri Botanical Garden adds that brown tips can also follow poor lighting or chlorine in the water. A stem that yellows from the base and turns soft is rotting, so pull it out of the arrangement promptly and give the others fresh water in a clean container."
+    ],
+    "petSafety": [
+      "The ASPCA has no entry under the name lucky bamboo. Its Dracaena entry covers the genus, Dracaena spp., and lists it as toxic to cats and dogs, naming saponins as the toxic principle with vomiting (occasionally with blood), depression, anorexia, hypersalivation and, in cats, dilated pupils. NC State's own profile of Dracaena sanderiana gives the same signs, flags it as a problem for cats and dogs, rates the poison severity as low for people and notes that the sap can irritate skin. Set the vase where pets cannot reach it, and call your veterinarian or the ASPCA Animal Poison Control Center if one chews the stems."
+    ],
+    "faq": [
+      {
+        "q": "Is lucky bamboo actually a type of bamboo?",
+        "a": "No. Lucky bamboo is Dracaena sanderiana, a tropical shrub from West Africa in the asparagus family, according to NC State Extension. Missouri Botanical Garden explains that the name comes from its jointed stems, which resemble bamboo canes, although the two plants are not closely related. Its care follows the Dracaena rules: indirect light, moist roots, and water without chlorine or fluoride."
+      },
+      {
+        "q": "How often should I change the water for lucky bamboo?",
+        "a": "Every week, NC State Extension advises, partly to prevent mosquitoes from breeding in the vase. Use chlorine-free water such as rainwater, filtered or distilled water, and keep enough pebbles in the bottom for the roots to grip, as both NC State and Missouri Botanical Garden recommend. Rinse the pebbles at the same time if they feel slimy."
+      },
+      {
+        "q": "Why are the leaves on my lucky bamboo turning yellow?",
+        "a": "Most often from too much water or stale water. NC State says overwatering yellows the leaves and can rot the stems, so check whether any stem feels soft at the base and remove it. Yellow or brown tips alone point to chlorine, fluoride or dry air instead. Refresh the water weekly, keep the plant out of direct sun, and feed only with a weak fertilizer."
+      },
+      {
+        "q": "Can lucky bamboo grow in soil instead of water?",
+        "a": "Yes. NC State says it grows in a moist potting mix or in chlorine-free water, and Missouri Botanical Garden describes it as a houseplant grown either way. In soil, keep the mix evenly moist but never soggy, use a pot with drainage holes, and give it the same bright, indirect light. A move to soil works best in spring or early summer, while the plant is growing."
+      },
+      {
+        "q": "How tall does lucky bamboo get?",
+        "a": "Missouri Botanical Garden says mature plants reach up to 5 feet tall with an equal spread, though growth is slow. The UF/IFAS commercial guide notes that the stems never become strong enough to stay upright beyond about 2 to 3 feet. Missouri Botanical Garden suggests cutting old, lanky stems back to the base to encourage new shoots."
+      }
+    ]
+  }
+}

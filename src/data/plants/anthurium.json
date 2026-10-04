@@ -1,0 +1,311 @@
+{
+  "slug": "anthurium",
+  "commonName": "Anthurium",
+  "otherNames": [
+    "Flamingo flower",
+    "Flamingo lily",
+    "Laceleaf",
+    "Tailflower",
+    "Painter's palette"
+  ],
+  "botanicalName": "Anthurium andraeanum",
+  "formerNames": [
+    "Anthurium venustum"
+  ],
+  "family": "Araceae",
+  "kind": "flowering",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [150, 300],
+    "lux": [1615, 3229],
+    "windows": ["east", "west", "south"],
+    "directSun": "avoid",
+    "src": [0, 1, 2, 4, 6]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water thoroughly when the top inch of the mix feels dry, then let the excess drain away",
+    "winter": "Growth slows in the short days of winter and the airy mix stays damp longer, so check it before every watering.",
+    "factors": [
+      "NC State recommends rainwater or purified water; salts from tap water and fertilizer burn leaf tips and margins.",
+      "Overwatering and poor drainage cause root rot and yellow leaves on this epiphyte.",
+      "Wet foliage and stagnant air encourage leaf spots, so water the mix rather than the leaves."
+    ],
+    "src": [0, 1, 2]
+  },
+  "soil": {
+    "mix": "A coarse, well-aerated epiphyte mix such as equal parts peat, perlite and bark (UF/IFAS), pH 6.0 to 6.5.",
+    "components": [
+      "orchid or pine bark",
+      "peat or coir",
+      "perlite"
+    ],
+    "ph": [6, 6.5],
+    "src": [2]
+  },
+  "humidity": {
+    "level": "high",
+    "idealPct": [60, 80],
+    "note": "NC State gives 60 to 80 percent; UF/IFAS warns that below 50 percent the leaves lose their gloss and may die back.",
+    "src": [0, 1, 3, 4]
+  },
+  "temperature": {
+    "idealF": [65, 80],
+    "idealC": [18, 27],
+    "minF": 55,
+    "minC": 13,
+    "src": [0, 1, 2]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, while it is growing and flowering",
+    "everyWeeks": [1, 4],
+    "strength": "quarter",
+    "type": "Dilute water-soluble fertilizer, such as 20-20-20 at about 50 ppm nitrogen (UF/IFAS interior rate); a higher-phosphorus formula supports flowering",
+    "winter": "reduced",
+    "src": [0, 1, 2]
+  },
+  "repotting": {
+    "everyYears": [2, 3],
+    "signs": [
+      "Roots circle the pot or grow out of the drainage holes",
+      "The bark mix has broken down and stays soggy",
+      "The crown and aerial roots rise above the surface of the mix"
+    ],
+    "season": "Spring",
+    "rootType": "epiphytic",
+    "prefersSnug": false,
+    "src": [0, 9]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: chewing releases calcium oxalate crystals that cause drooling, oral pain and swelling, and the sap makes skin and eyes red and stinging.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Flamingo Flower (Anthurium scherzeranum)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/flamingo-flower",
+        "toxicPrinciples": "Insoluble calcium oxalates",
+        "clinicalSigns": "Oral irritation, pain and swelling of mouth, tongue and lips, excessive drooling, vomiting (not horses), difficulty swallowing"
+      }
+    ],
+    "src": [0, 1, 5]
+  },
+  "problems": [
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Healthy leaves but no new colored spathes",
+      "causeKey": "low-light",
+      "cause": "Too little light, sometimes combined with a lack of nutrients",
+      "remedy": "Move it into bright, indirect light, feed a dilute fertilizer in the growing season and cut off spent blooms."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Older leaves turn yellow while the mix stays wet",
+      "causeKey": "overwatering",
+      "cause": "Roots rotting in a dense or waterlogged mix",
+      "remedy": "Remove yellow leaves, water only when the top inch is dry, and repot into a fresh, airy bark mix if roots are soft."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Leaf tips turn brown and the leaves lose their gloss",
+      "causeKey": "low-humidity",
+      "cause": "Air drier than about 50 percent relative humidity",
+      "remedy": "Set the pot on a tray of moist gravel, run a humidifier, or grow smaller plants in a terrarium."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Bleached leaf centers with brown tips, or tan blotches",
+      "causeKey": "too-much-sun",
+      "cause": "Light too intense, or direct sun on the leaves",
+      "remedy": "Move the plant back from the window or filter the light; scorched tissue will not green up again."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Leaf margins and tips burned brown",
+      "causeKey": "fertilizer-salts",
+      "cause": "Salt buildup from overfeeding or hard water",
+      "remedy": "Flush the pot with plenty of rainwater or purified water and dilute future feedings."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony tufts along stems and leaf bases",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Dab colonies with rubbing alcohol on a cotton swab and treat with insecticidal soap until no new tufts appear."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of multi-crowned plants",
+      "Stem cuttings with aerial roots"
+    ],
+    "season": "Spring"
+  },
+  "size": {
+    "heightIn": [12, 18],
+    "widthIn": [9, 12],
+    "growth": "slow",
+    "note": "NC State gives 12 to 18 inches tall for A. andraeanum as a houseplant; UF/IFAS gives 2 to 3 feet for the genus outdoors.",
+    "src": [0, 3, 4]
+  },
+  "varieties": [
+    {
+      "name": "Acropolis",
+      "note": "Large, glossy white spathe with a creamy spadix that turns pale yellow at the tip."
+    },
+    {
+      "name": "Florida",
+      "note": "Bright red spathe over dark green leaves; the spadix matures to yellow."
+    },
+    {
+      "name": "Midori",
+      "note": "Green spathe, an unusual color for the species."
+    },
+    {
+      "name": "Baron",
+      "note": "Compact plant with a pink-centered spathe edged in green."
+    },
+    {
+      "name": "Rosee Choco",
+      "note": "Deep red spathe."
+    },
+    {
+      "name": "Anthurium scherzerianum (pigtail anthurium)",
+      "note": "A smaller species with a curled, corkscrew-like spadix; the plant on the ASPCA flamingo flower page."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Anthurium andraeanum (Flamingo Flower)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/anthurium-andraeanum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Anthurium (Flamingo Flower, Tailflower)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/anthurium/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cultural Guidelines for Commercial Production of Interiorscape Anthurium (EP159)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://ask.ifas.ufl.edu/publication/EP159",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Anthurium spp.: Tailflower, Flamingo Flower, Anthurium (FP042)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://ask.ifas.ufl.edu/publication/FP042",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Anthurium",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/anthuriums/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Flamingo Flower",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/flamingo-flower",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Lighting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Division",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/division",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["peace-lily", "orchid", "bromeliad", "alocasia", "african-violet"],
+  "seo": {
+    "title": "Anthurium Care: Light, Water and Humidity Guide (2026)",
+    "description": "Anthurium care in 2026: bright indirect light, water when the top inch dries, 60 to 80% humidity and 65 to 80°F (18 to 27°C) for steady flowers. Toxicity.",
+    "h1": "Anthurium care: light, water and humidity for steady blooms"
+  },
+  "content": {
+    "answer": "Anthurium flowers best in bright, indirect light at 65 to 80°F (18 to 27°C) with 60 to 80 percent humidity. Water when the top inch of its airy, bark-rich mix is dry, and keep it away from cold drafts and direct sun.",
+    "intro": "Anthurium andraeanum, the flamingo flower, is an epiphyte from the rainforests of Colombia and Ecuador, where it grows perched on trees with its roots in moss and leaf debris rather than soil. That habit shapes its care indoors: it wants a loose, bark-rich mix that lets air reach the roots, steady warmth, and far more humidity than most homes provide. What looks like a glossy red, pink or white flower is a spathe, a modified leaf, held at a right angle to the spadix, the finger-like spike that carries the true flowers. NC State says each inflorescence lasts up to four weeks and that a well-grown plant blooms several times a year; UF/IFAS gives about six weeks per bloom and four to six flushes. The genus is the largest in the arum family, with more than 1,300 species according to NC State and UF/IFAS, but this species and its compact hybrids are the ones sold in flower.",
+    "light": [
+      "Light controls flowering. NC State recommends bright, indirect sunlight and notes that too little light means fewer blooms and slower growth, while direct sun scorches the leaves. Its genus profile names south- and west-facing windows as best, with the plant set back or screened so sun never strikes the foliage. The University of Illinois Extension lists anthurium in its medium-light group, about 150 foot-candles, and UF/IFAS Gardening Solutions stresses that, unlike garden plantings in Florida shade, an indoor anthurium needs bright indirect light to thrive.",
+      "UF/IFAS research is encouraging for darker homes: several potted cultivars flowered continuously for more than a year and a half under interior light of 100 foot-candles. Too much light, on the other hand, bleaches leaf centers and browns the tips, and Florida growers keep their crops under heavy shade for that reason. If an anthurium produces healthy leaves but no new spathes, light is the first thing to raise."
+    ],
+    "water": [
+      "NC State's rule is to water when the top inch of the mix feels dry. UF/IFAS describes the same pattern for indoor plants: allow the mix to dry slightly, then water thoroughly so the excess runs out of the pot. Because the roots evolved in airy debris on tree branches, they rot quickly in a dense, constantly wet container, and NC State lists overwatering as the cause of both root rot and yellowing leaves.",
+      "Water quality matters more than for most foliage plants. NC State recommends rainwater or purified water, and UF/IFAS warns that accumulated salts cause marginal and tip burn. Keep water off the foliage where you can: leaf spots, NC State says, follow wet leaves and poor air circulation. In winter, growth slows with shorter days and the mix stays damp longer, so feel it before every watering rather than keeping a summer rhythm."
+    ],
+    "soil": [
+      "Use an open, epiphytic mix. UF/IFAS growers pot anthuriums in equal parts peat, perlite and bark, at pH 6.0 to 6.5, and note that the plants root best in well-aerated media. A home version combines orchid bark, a peat-free or coir-based houseplant mix and perlite in roughly equal parts. Avoid fine, dense potting soil, which collapses around the thick roots and stays wet. Aerial roots that appear on the stem above the surface are normal for an epiphyte; guide them into the mix or leave them alone."
+    ],
+    "humidity": [
+      "NC State gives an ideal of 60 to 80 percent relative humidity, and UF/IFAS warns that below 50 percent the leaves lose their gloss and may die back. Brown leaf tips are the usual sign of dry air, according to NC State. For indoor plants, UF/IFAS suggests standing the pot on a tray of moist gravel, and NC State notes that many growers keep anthuriums in terraria or growing cabinets. Through winter heating, a humidifier in the same room is the most dependable fix."
+    ],
+    "temperature": [
+      "NC State gives 65 to 80°F (18 to 27°C) as the preferred range for the flamingo flower, and its genus profile extends that to 85°F. UF/IFAS recommends interior temperatures between 70 and 85°F and keeping the air above 55°F (13°C), below which visible or hidden damage can occur and growth stalls even after warmth returns. Anthuriums do not tolerate cold drafts or sudden swings, so keep them away from doors and air-conditioning vents, and from appliances that give off heat, a hazard UF/IFAS specifically mentions."
+    ],
+    "fertilizer": [
+      "The sources differ on frequency. NC State recommends liquid fertilizer weekly during the growing season, while UF/IFAS interior guidelines call for a 20-20-20 water-soluble fertilizer at about 50 ppm nitrogen once a month. Either approach works as long as each dose is weak, because UF/IFAS warns that overfeeding indoors builds salts that burn leaf margins and tips. The NC State genus profile adds that a high-phosphorus fertilizer encourages more blooms, and commercial growers switch to a formula with relatively more phosphorus and potassium to promote flowering. Feed less in winter, when the plant rests."
+    ],
+    "repotting": [
+      "NC State recommends repotting every two to three years, or whenever the plant appears root-bound, in spring. Signs include roots circling the pot or pushing through the drainage holes, and a bark mix that has broken down into fine, soggy material. Anthuriums develop short stems as they age, so the crown can gradually rise above the surface. Replant at the same depth, as the University of Illinois Extension advises, and tuck any aerial roots into the fresh mix."
+    ],
+    "propagation": [
+      "NC State lists division and stem cuttings. Mature plants often form several crowns; in spring, unpot the plant and pry or cut them apart so each piece keeps a fair share of roots, the method the University of Illinois Extension describes for clumping plants, then repot immediately so the roots do not dry. A stem that has grown tall with aerial roots can be cut below those roots and potted as a new plant. Seed is possible but slow, and UF/IFAS notes that almost all commercial anthuriums are now produced by tissue culture."
+    ],
+    "problems": [
+      "Few or no flowers point to too little light or a lack of nutrients, NC State says, and yellow leaves follow overwatering, poor drainage or a nutrient shortage. Watch for aphids, spider mites, mealybugs, scale and thrips. UF/IFAS adds that bleached leaf centers with brown tips mean too much light, and broad, dry, tan blotches are a sign the light is far too strong. Cut off faded spathes at the base of their stalk to keep new ones coming."
+    ],
+    "petSafety": [
+      "The ASPCA's flamingo flower entry is filed under Anthurium scherzeranum, the smaller pigtail anthurium with a curled spadix, rather than under A. andraeanum, the species most often sold. The ASPCA rates it toxic to dogs, cats and horses, with insoluble calcium oxalates as the toxic principle and clinical signs of oral irritation, pain and swelling of the mouth, tongue and lips, excessive drooling, vomiting (not horses) and difficulty swallowing. NC State describes the same calcium oxalate crystals and similar symptoms for A. andraeanum and for the whole genus, rating the severity as low for people, with stinging skin or eyes from the sap. Treat every anthurium as toxic, keep it out of reach, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if a pet chews one."
+    ],
+    "faq": [
+      {
+        "q": "How long does an anthurium flower last on the plant?",
+        "a": "Weeks, not days. NC State says each spathe lasts up to four weeks and that the plant reblooms several times a year in good conditions, while UF/IFAS puts each bloom at about six weeks with four to six flowering cycles a year. The two sources simply give different figures. Once a spathe fades or turns green, cut its stalk at the base."
+      },
+      {
+        "q": "Why is my anthurium not blooming?",
+        "a": "Light is the usual reason. NC State notes that insufficient light or a nutrient shortage reduces flowering, and its genus profile recommends a high-phosphorus fertilizer and removing old blooms to encourage new ones. Move the plant into bright, indirect light, feed a weak solution during spring and summer, and keep it warm and humid; UF/IFAS found some cultivars flowering under just 100 foot-candles."
+      },
+      {
+        "q": "Is the red part of an anthurium a flower or a leaf?",
+        "a": "It is a modified leaf. UF/IFAS explains that the showy, waxy part is a spathe, a type of bract, while the true flowers are tiny and packed along the spadix, the pale yellow tail in the center. NC State adds that in Anthurium the spathe sits at a right angle to the spadix, a feature that helps identify the genus."
+      },
+      {
+        "q": "Can an anthurium grow in a terrarium?",
+        "a": "Small ones can. NC State notes that many growers keep anthuriums in terraria or growing cabinets because the plants need very humid air, and A. andraeanum reaches only 12 to 18 inches as a houseplant. Choose a tall, vented case so air still circulates, since NC State links stagnant air and wet leaves to leaf spots, and give it bright, indirect light."
+      },
+      {
+        "q": "What is the difference between Anthurium andraeanum and Anthurium scherzerianum?",
+        "a": "Mostly the spadix and the size. NC State explains that A. andraeanum, the florist's anthurium, has a straight spadix, while A. scherzerianum, the pigtail plant, has a corkscrew-like spadix and is a smaller plant. The ASPCA's flamingo flower page, spelled scherzeranum there, covers that second species; both contain the same calcium oxalate crystals and are toxic to pets."
+      }
+    ]
+  }
+}

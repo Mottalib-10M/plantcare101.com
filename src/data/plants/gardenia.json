@@ -1,0 +1,276 @@
+{
+  "slug": "gardenia",
+  "commonName": "Gardenia",
+  "otherNames": [
+    "Cape jasmine",
+    "Common gardenia"
+  ],
+  "botanicalName": "Gardenia jasminoides",
+  "formerNames": [],
+  "family": "Rubiaceae",
+  "kind": "flowering",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [300, 300],
+    "lux": [3229, 3229],
+    "windows": ["east", "south", "west"],
+    "directSun": "morning-only",
+    "src": [0, 1, 6]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Keep the compost consistently moist, never waterlogged and never dry",
+    "winter": "Keep watering through winter but more lightly as growth slows in cooler rooms; the compost should still never dry out.",
+    "factors": [
+      "The RHS warns that gardenias tolerate neither waterlogged nor dry compost; both cause bud drop.",
+      "In hard-water areas the RHS recommends rainwater, which keeps the compost acidic.",
+      "Clemson lists overwatering, underwatering and poor drainage among the causes of yellow leaves."
+    ],
+    "src": [0, 1, 2]
+  },
+  "soil": {
+    "mix": "An acidic, peat-free ericaceous compost that holds moisture yet drains freely, in a pot with a drainage hole.",
+    "components": [
+      "ericaceous (acidic) potting compost",
+      "composted pine bark or other organic matter",
+      "rainwater in hard-water areas to keep the pH low"
+    ],
+    "ph": [5, 6],
+    "src": [0, 1, 2, 4]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "The RHS lists high humidity and warns against a hot, dry atmosphere; Clemson names low humidity as a cause of bud drop.",
+    "src": [0, 1]
+  },
+  "temperature": {
+    "idealF": [70, 75],
+    "idealC": [21, 24],
+    "minF": 60,
+    "minC": 16,
+    "src": [0, 1, 2]
+  },
+  "fertilizer": {
+    "season": "Spring and early summer; never in fall",
+    "everyWeeks": [6, 13],
+    "strength": "full",
+    "type": "Acid-forming azalea fertilizer with a 2-1-1 ratio, such as 10-5-4, at the label rate; chelated iron if new leaves yellow between the veins",
+    "winter": "none",
+    "src": [1, 2, 3, 7]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage hole",
+      "The root ball is a solid mass of roots",
+      "The plant needs water much more often than it used to"
+    ],
+    "season": "Spring, as new growth starts, never while in bud or flower",
+    "rootType": "fibrous",
+    "prefersSnug": true,
+    "src": [1, 3, 8]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low (mild vomiting or diarrhea, hives) and says it does not cause contact dermatitis; it also notes the flowers are edible.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Gardenia (Gardenia jasminoides)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/gardenia",
+        "toxicPrinciples": "Genioposide, gardenoside",
+        "clinicalSigns": "Mild vomiting and/or diarrhea, hives."
+      }
+    ],
+    "src": [5, 3]
+  },
+  "problems": [
+    {
+      "symptomKey": "bud-drop",
+      "symptom": "Fat flower buds turn yellow and fall before they open",
+      "causeKey": "drafts",
+      "cause": "Large or rapid temperature swings, from drafts, heaters or a move",
+      "remedy": "Keep the plant in one spot, away from vents and doors, between about 70°F and 75°F by day with slightly cooler nights."
+    },
+    {
+      "symptomKey": "bud-drop",
+      "symptom": "Buds shrivel and drop in a heated room in winter",
+      "causeKey": "low-humidity",
+      "cause": "Hot, dry air around the plant",
+      "remedy": "Raise humidity with a humidifier or a pebble tray and keep the compost evenly moist."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Young leaves turn pale yellow while their veins stay green",
+      "causeKey": "nutrient-deficiency",
+      "cause": "Iron chlorosis: the compost pH has risen too high for the roots to take up iron",
+      "remedy": "Repot into ericaceous compost, switch to rainwater if your tap water is hard, and apply chelated iron to the soil or leaves."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "A few older leaves yellow and drop in early spring",
+      "causeKey": "natural-aging",
+      "cause": "Normal shedding of old leaves before new growth",
+      "remedy": "No action needed if new growth is green and healthy; remove the fallen leaves."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Leaves sticky, then coated with black sooty film",
+      "causeKey": "pests",
+      "cause": "Whiteflies feeding on leaf undersides and dripping honeydew",
+      "remedy": "Spray the undersides of the leaves with insecticidal soap or horticultural oil, repeating every few days until the whiteflies are gone."
+    },
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Healthy leaves but no buds form",
+      "causeKey": "low-light",
+      "cause": "Too little light to set flower buds",
+      "remedy": "Move it to the brightest window with morning sun and shade from strong afternoon sun."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings",
+      "Layering",
+      "Seed",
+      "Grafting"
+    ],
+    "season": "Spring or summer, while the plant is actively growing"
+  },
+  "size": {
+    "heightIn": [18, 18],
+    "note": "About 18 in tall as a houseplant according to the RHS, larger in a conservatory; outdoors Clemson gives 3 to 8 ft depending on the cultivar.",
+    "src": [0, 1]
+  },
+  "varieties": [
+    { "name": "White Gem", "note": "Dwarf, slowly reaching about 2 ft with single flowers; Clemson calls it an excellent container plant." },
+    { "name": "Radicans", "note": "Dwarf groundcover form 6 to 12 inches tall with inch-wide double flowers; not very cold hardy." },
+    { "name": "Veitchii", "note": "One of the oldest cultivars, 4 to 6 ft, with double flowers over a long bloom period." },
+    { "name": "Mystery", "note": "The best-known selection, with 4 to 5 inch double white flowers." },
+    { "name": "Kleim's Hardy", "note": "Single flowers on a 3 ft shrub, hardy to 10°F outdoors." }
+  ],
+  "sources": [
+    {
+      "title": "Gardenias",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/gardenia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Gardenia (HGIC 1065)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/gardenia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Gardenia Diseases & Other Problems",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/gardenia-diseases-other-problems/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Gardenia jasminoides (Cape Jasmine, Gardenia)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/gardenia-jasminoides/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Gardenias",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/gardenias/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Gardenia",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/gardenia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["hydrangea", "african-violet", "orchid", "anthurium", "peace-lily"],
+  "seo": {
+    "title": "Gardenia Care Indoors: Light, Water and Buds (2026)",
+    "description": "Gardenia care indoors in 2026: bright light, evenly moist acidic compost, 70 to 75°F and never below 60°F, per the RHS. Calculator, bud drop fixes, toxicity.",
+    "h1": "Gardenia care indoors: light, water and flower buds"
+  },
+  "content": {
+    "answer": "An indoor gardenia needs bright light without harsh sun, acidic compost kept evenly moist, and high humidity. The RHS gives 70°F to 75°F as the ideal range, never below 60°F. Avoid drafts and sudden temperature changes, which make the buds drop.",
+    "intro": "Gardenia jasminoides is an evergreen shrub of the coffee family from the stream banks of southern China and Japan, grown for waxy white flowers whose scent fills a room. It is also one of the less forgiving plants you can bring indoors, and the extension services say so plainly: Clemson calls gardenias not the easiest shrubs to grow and notes they require considerable maintenance, while the RHS describes them as a little tricky. The difficulty is that a gardenia wants several things at once and reacts to any lapse by dropping its buds: bright light without strong sun, compost that is acidic and evenly moist, humid air, and warmth that holds steady around 70°F to 75°F. Get those right and the RHS promises flowers for months; miss one and you will see yellow leaves or buds falling just before they open.",
+    "light": [
+      "Gardenias need plenty of light to set buds, but not strong sun through glass. The RHS asks for bright light without harsh sun and warns that the plant tolerates neither strong summer sun nor deep shade. Clemson, writing about garden plants, prefers morning sun with afternoon shade, and that pattern translates well indoors: an east window is ideal, a south or west window works if a sheer curtain cuts the midday and afternoon glare. On the Illinois Extension scale, that is bright light of roughly 300 foot-candles.",
+      "Insufficient light shows up first as a lack of flowers rather than as a sick plant. Clemson lists it among the causes of bud drop and of yellowing leaves. In winter, when days are short, move the pot as close to the glass as you can without letting leaves touch cold panes."
+    ],
+    "water": [
+      "The RHS rule is simple and strict: keep the compost consistently moist, because gardenias cannot tolerate either waterlogged or dry compost. Check every few days by pressing a finger into the surface. If it feels as damp as a wrung-out sponge, wait; if the surface is starting to dry, water slowly until it runs from the drainage hole, then empty the saucer so the roots never sit in water.",
+      "Water quality matters more than with most houseplants. Gardenias are acid lovers, and hard tap water slowly raises the pH of the compost. The RHS recommends rainwater whenever possible in hard-water areas to keep the compost acidic. If your kettle scales up quickly, that advice applies to you.",
+      "Clemson's list of causes for both yellow leaves and bud drop includes overwatering, underwatering and poor drainage, which shows how narrow the target is. In winter, growth slows in cooler rooms and the compost dries more slowly, so check before watering rather than keeping a summer rhythm. Never let it go fully dry."
+    ],
+    "soil": [
+      "Use an ericaceous compost, the kind sold for azaleas and camellias. The RHS calls for peat-free ericaceous compost with a pH below 7, and Clemson's problem sheet says gardenias grow best at pH 5.0 to 6.0; UF/IFAS gives a slightly wider 5.0 to 6.5. Above 7.0, Clemson explains, iron becomes unavailable to the roots even when it is present, and the newest leaves turn yellow between green veins. Choose a pot with a drainage hole and avoid lime, garden soil or anything containing chalk."
+    ],
+    "humidity": [
+      "Indoors, dry air is the gardenia's second enemy after temperature swings. The RHS lists high humidity among its needs and warns that it cannot tolerate a hot, dry atmosphere. Clemson names low humidity as one cause of bud drop. A humidifier nearby is the most reliable fix in a heated home; a tray of wet pebbles under the pot helps a little, and grouping plants together raises the moisture in the air around them."
+    ],
+    "temperature": [
+      "The RHS gives 70°F to 75°F (21°C to 24°C) as the preferred range, with slightly cooler nights and winters but always above 60°F (16°C). Clemson adds a detail that explains why: in the garden, flower buds form when nights fall to 50°F to 55°F, so a modest drop at night helps bud set. The two figures do not conflict so much as describe different settings; indoors, keep the plant above 60°F and let nights run a few degrees cooler than days. What gardenias dislike most is change. The RHS notes that large temperature fluctuations cause buds to drop, and Clemson lists rapid temperature drops and very hot, dry weather among the triggers."
+    ],
+    "fertilizer": [
+      "Feed with an acid-forming fertilizer made for azaleas. Clemson recommends a well-balanced, acid-forming product with nutrients in a 2-1-1 ratio, such as 10-5-4, applied in spring and again six weeks later, and warns never to fertilize in fall because it pushes out tender growth. NC State agrees on avoiding fall feeding. For a pot indoors, a feeding every six weeks to three months from spring into summer, at the label rate, is plenty; Clemson's problem sheet lists excess fertilizer as a cause of bud drop. If new leaves turn yellow with green veins, apply chelated iron and check the pH before adding more fertilizer."
+    ],
+    "repotting": [
+      "Repot only when you must. Clemson notes that gardenias resent root disturbance, and NC State describes their roots as shallow. Move up when roots fill the pot or grow out of the drainage hole, choosing a container only 1 or 2 inches wider, as Clemson's repotting guide recommends. Do it in spring as new growth starts, and never while the plant is in bud or flower, because the shock will cost you the blooms. Firm fresh ericaceous compost around the intact root ball without breaking it up."
+    ],
+    "propagation": [
+      "NC State lists stem cuttings, layering, seed and grafting as propagation methods. For a houseplant, a stem cutting from a non-flowering shoot taken in spring or summer is the practical choice: strip the lower leaves, dip the base in rooting hormone, and keep it warm and humid under a clear bag until roots form. Prune the parent after flowering, since NC State notes that blossoms appear on new growth."
+    ],
+    "problems": [
+      "Bud drop is the classic gardenia failure, and Clemson's list of causes is long: thrips, aphids, root nematodes, excess fertilizer, overwatering, underwatering, poor drainage, too little light, cool weather, rapid temperature drops and very hot, dry weather. Yellow leaves have a similar list, with one distinction worth knowing: a few old leaves yellowing in early spring is normal shedding, while yellow new leaves with green veins point to iron chlorosis from high pH. Clemson calls whiteflies the most common pest, recognizable by sticky leaves that later turn black with sooty mold; UF/IFAS adds mealybugs, aphids and scale."
+    ],
+    "petSafety": [
+      "The ASPCA lists gardenia, also called cape jasmine, as toxic to dogs, cats and horses. Its toxic principles are genioposide and gardenoside, and the clinical signs it lists are mild vomiting and/or diarrhea and hives. NC State tags the plant as a problem for cats, dogs and horses but rates the severity for people as low, with no contact dermatitis, and even notes the flowers are edible. Poisoning tends to be mild, but keep the plant out of reach of pets that chew leaves, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if a pet eats some."
+    ],
+    "faq": [
+      {
+        "q": "Why does my gardenia drop its buds right before they open?",
+        "a": "Something changed. Clemson Extension lists overwatering, underwatering, poor drainage, low light, low humidity, rapid temperature drops, hot dry air, excess fertilizer and pests such as thrips. The RHS singles out large temperature swings. Keep the plant in one bright spot away from vents and doors, hold the compost evenly moist and raise the humidity. Then leave it alone."
+      },
+      {
+        "q": "Can a gardenia bought in flower keep blooming indoors?",
+        "a": "It can, but expect some buds to fall in the first weeks while it adjusts to lower light and drier air. The RHS says a gardenia given the right light, warmth and moisture can flower for months. Put it in a bright east window, keep it between 70°F and 75°F, water with rainwater if your tap water is hard and run a humidifier."
+      },
+      {
+        "q": "Should I use rainwater for my gardenia?",
+        "a": "If your tap water is hard, yes. Gardenias need acidic compost, and minerals in hard water gradually raise the pH. The RHS recommends rainwater whenever possible in hard-water areas. Once the pH climbs above 7.0, Clemson Extension explains, the roots cannot take up iron and new leaves turn yellow between green veins. Distilled water also works."
+      },
+      {
+        "q": "Is a gardenia a good plant for beginners?",
+        "a": "Honestly, not usually. Clemson Extension says gardenias require considerable maintenance, and the RHS calls them a little tricky indoors. They need bright light, steady warmth, acidic and evenly moist compost and humid air all at once. If you want an easier fragrant or flowering plant first, try a hoya or an African violet, then come back to a gardenia."
+      }
+    ]
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "slug": "maidenhair-fern",
+  "commonName": "Maidenhair fern",
+  "otherNames": [
+    "Delta maidenhair",
+    "Pacific maidenhair",
+    "Southern maidenhair",
+    "Venus hair fern"
+  ],
+  "botanicalName": "Adiantum raddianum",
+  "formerNames": [],
+  "family": "Pteridaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "medium",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "north",
+      "east"
+    ],
+    "directSun": "avoid",
+    "src": [
+      0,
+      2,
+      4
+    ]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Keep the potting mix moist at all times; never let the roots dry out, and never leave the pot standing in water",
+    "winter": "Growth slows in winter and the pot dries more slowly, so check before watering, but the mix must still stay moist: Clemson gives no dry season for maidenhairs, and dry indoor air in winter makes them need extra attention.",
+    "factors": [
+      "One complete drying out can shrivel every frond, because the thin leaflets hold almost no water.",
+      "Small pots, terracotta and warm rooms dry fastest; check the surface daily in summer.",
+      "Standing water in a cachepot damages the roots, so tip out the excess after watering."
+    ],
+    "src": [
+      0,
+      2
+    ]
+  },
+  "soil": {
+    "mix": "A porous, organic, quick-draining mix; Clemson repots ferns in equal parts packaged houseplant mix and peat moss or leaf mold.",
+    "components": [
+      "houseplant potting mix",
+      "peat moss or leaf mold",
+      "perlite for extra drainage"
+    ],
+    "src": [
+      1,
+      2
+    ]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "Clemson asks for high humidity of about 50 percent; a bathroom, terrarium or humidifier is often the difference between success and crisp fronds.",
+    "src": [
+      0,
+      2,
+      3
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      60,
+      70
+    ],
+    "idealC": [
+      16,
+      21
+    ],
+    "minF": 50,
+    "minC": 10,
+    "src": [
+      2
+    ]
+  },
+  "fertilizer": {
+    "season": "April through September",
+    "everyWeeks": [
+      4,
+      4
+    ],
+    "strength": "half",
+    "type": "Liquid houseplant fertilizer at about half the label rate",
+    "winter": "none",
+    "src": [
+      2
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Rhizomes crowd the surface and press against the rim",
+      "The pot dries out far faster than it used to",
+      "Roots grow through the drainage holes"
+    ],
+    "season": "Early spring",
+    "rootType": "rhizome",
+    "prefersSnug": false,
+    "src": [
+      0,
+      2,
+      8
+    ]
+  },
+  "toxicity": {
+    "cats": "unknown",
+    "dogs": "unknown",
+    "humans": "unknown",
+    "humanNote": "None of the sources consulted reports Adiantum as poisonous to people, and NC State, which flags poisonous plants explicitly, gives it no poison rating. No source confirms it safe to eat either.",
+    "aspcaListed": false,
+    "aspca": [],
+    "src": [
+      0,
+      1,
+      6,
+      7
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Whole fronds turn brown and crisp within a day or two",
+      "causeKey": "underwatering",
+      "cause": "The root ball dried out completely, even once",
+      "remedy": "Soak the pot, cut the dead fronds to the base, and keep the mix moist; new fronds usually rise from the rhizome within weeks."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Leaflets brown at the edges, worst in winter",
+      "causeKey": "low-humidity",
+      "cause": "Dry heated air, which Clemson says browns thin-fronded ferns such as maidenhairs",
+      "remedy": "Run a humidifier, double-pot in moist sphagnum, or move the plant to a bright bathroom or a terrarium."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Fronds look bleached or scorched",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sun through glass; NC State lists sunburn as a problem",
+      "remedy": "Move it to a north window or farther from an east window, out of any direct sun."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Fronds yellow and collapse although the mix is soggy",
+      "causeKey": "poor-drainage",
+      "cause": "A dense mix or a pot left standing in water",
+      "remedy": "Repot into a porous, peat-rich mix in a pot with drainage holes, and empty the saucer after every watering."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky stems with small brown bumps",
+      "causeKey": "pests",
+      "cause": "Scale insects, a common fern pest",
+      "remedy": "Pick or wipe them off by hand; Clemson warns that many pesticide sprays injure ferns, so test any product on one frond first."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Sparse, weak fronds that flop",
+      "causeKey": "low-light",
+      "cause": "Too deep a shade; NC State says the plant loses vitality in heavy shade",
+      "remedy": "Move it right in front of a north window or near an east window."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of the creeping rhizomes"
+    ],
+    "season": "Early spring, at repotting"
+  },
+  "size": {
+    "heightIn": [
+      12,
+      24
+    ],
+    "widthIn": [
+      12,
+      24
+    ],
+    "src": [
+      0
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Fragrantissimum",
+      "note": "Light green fronds on black stems with a soft fragrance; a popular houseplant."
+    },
+    {
+      "name": "Fritz Lüthi",
+      "note": "Large, deeply lobed pinnae on a broad triangular blade."
+    },
+    {
+      "name": "Kensington Gem",
+      "note": "Small, delicate leaflets on black stems."
+    },
+    {
+      "name": "Microphyllum",
+      "note": "Dwarf and compact, up to 12 inches tall."
+    },
+    {
+      "name": "Variegatum (snowflake fern)",
+      "note": "Light green leaflets flecked with white."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adiantum raddianum (Delta Maidenhair)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/adiantum-raddianum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Adiantum capillus-veneris (Southern Maidenhair Fern)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/adiantum-capillus-veneris/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Ferns (HGIC 1505)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Division",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/division",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Cats (no Adiantum entry)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Dogs (no Adiantum entry)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "birds-nest-fern",
+    "staghorn-fern",
+    "calathea",
+    "prayer-plant"
+  ],
+  "seo": {
+    "title": "Maidenhair Fern Care: Moisture, Humidity & Light (2026)",
+    "description": "Maidenhair fern care in 2026: keep the mix moist at all times, humidity near 50%, days of 60 to 70°F and a north window. Why fronds crisp, and how to save it.",
+    "h1": "Maidenhair fern care: constant moisture and humid air"
+  },
+  "content": {
+    "answer": "A maidenhair fern needs mix that stays moist at all times, humidity around 50 percent, and the gentle light of a north window. Keep days at 60 to 70°F with cooler nights. Letting it dry out even once can crisp every frond.",
+    "intro": "Adiantum raddianum, the delta maidenhair, is a fern from the tropical Americas and the West Indies with fan-shaped leaflets on wiry black stalks that look far too delicate for a living room, and mostly are. The genus name means unwetted, because water beads and rolls off the leaflets, yet the plant itself is a moisture addict. NC State describes the leaflets as membranous, and they hold almost no reserve, so the moment the root ball dries, whole fronds shrivel. Clemson Extension says it plainly: maidenhairs are difficult to grow in most homes. The ones that thrive sit in bright bathrooms, terrariums or kitchens near the sink, in mix that never dries and air that stays humid. The good news is that it grows from creeping rhizomes, so a plant that crisps completely often sends up fresh fronds once its conditions are fixed.",
+    "light": [
+      "Clemson calls the light of a north window ideal for maidenhairs, and NC State describes the plant as needing partial shade to shade. Illinois Extension counts a spot right in front of a north window as medium light, about 150 foot-candles, which matches well. An east window also works if the fern sits a few feet back, out of the direct morning rays. Direct sun is the thing to avoid: NC State lists sunburn among its problems, and Clemson warns against putting any fern in a south or west window.",
+      "Deep shade is not a safe fallback either. NC State notes that the plant loses vitality in too much shade, producing thin, sparse fronds that collapse easily. The sweet spot is bright but sunless, the kind of light in which you could read comfortably all day without squinting."
+    ],
+    "water": [
+      "Keep the mix evenly moist at all times. Clemson's instruction for maidenhairs is exactly that, and NC State says the roots should not be allowed to dry out. Check the surface every day or two; as soon as it feels less than damp, water slowly until it drains from the bottom. Small pots and clay pots dry quickly, and a plant in a warm, bright room can need water far more often than your other houseplants.",
+      "Moist does not mean waterlogged. Clemson warns against letting water stand in pots, since it damages the roots, and recommends a porous mix that lets excess drain quickly. Empty the saucer or cachepot after each watering. If you travel, Illinois Extension describes covering plants with a clear plastic bag and setting them on wet pebbles, which keeps a fern like this going for about a week.",
+      "If it does dry out, all is not lost. Soak the pot, cut every crisp frond at the base, and keep it moist. Because the plant spreads by rhizomes under the surface, new fiddleheads often appear within a few weeks, provided the rhizome itself did not die."
+    ],
+    "soil": [
+      "Use a porous, organic mix that holds moisture yet drains freely. Clemson recommends repotting ferns into equal parts packaged houseplant mix and peat moss or leaf mold, which suits a maidenhair well. NC State describes the related southern maidenhair as preferring humus-rich, neutral to alkaline soil, so there is no need for an acidic blend. A handful of perlite keeps the mix from compacting around the fine roots."
+    ],
+    "humidity": [
+      "Humidity is where most maidenhairs fail. Clemson gives a target of about 50 percent and notes that ferns with thin, delicate fronds, maidenhairs above all, develop brown leaflets in low humidity. Illinois Extension points out that most homes fall below 30 percent in winter. A humidifier nearby is the most reliable fix. Clemson suggests double-potting: set the pot inside a larger container lined with moist sphagnum moss. Light misting helps only briefly. A bright bathroom or a large terrarium solves the problem for good."
+    ],
+    "temperature": [
+      "Moderate temperatures suit it best. Clemson recommends days of 60 to 70°F (16 to 21°C) and nights of 50 to 60°F (10 to 16°C), so a slight nightly drop is welcome. Heat is more of a threat than cool air, because warmth speeds drying of both the mix and the fronds. Keep the plant away from radiators, heating vents and cold drafts from doors, and away from cold window glass in winter."
+    ],
+    "fertilizer": [
+      "Feed lightly. Clemson's fern guidance is a liquid houseplant fertilizer at about half the recommended rate, once a month from April through September, and none in winter. Ferns scorch when overfed, and a maidenhair's thin leaflets show it fast. Clemson also advises waiting six months before feeding a newly bought or repotted fern."
+    ],
+    "repotting": [
+      "Repot crowded plants in early spring, the timing Clemson gives for ferns. Signs include rhizomes packed against the rim, a pot that dries out in a day, and roots escaping the drainage holes. Move up only one size, using the peat-rich mix above. Keep the rhizomes at the same depth they grew before. A larger pot holds more water, which is no bad thing for this plant, but a huge jump leaves cold, wet mix that the roots cannot reach."
+    ],
+    "propagation": [
+      "Division is the practical method, and NC State recommends it. In early spring, slide the plant out, find natural clumps along the creeping rhizome, and cut through with a clean knife so each piece has fronds and roots. Illinois Extension advises potting each division immediately so the roots do not dry out, which matters doubly here. Keep the divisions warm, moist and humid while they settle."
+    ],
+    "problems": [
+      "Nearly every maidenhair complaint is brown, crispy fronds, and the cause is almost always dryness: a skipped watering, a heat vent, or winter air. Yellowing with soggy mix points the other way, to poor drainage. Clemson lists scale insects and mites as the main fern pests and warns that many pesticide sprays injure ferns, so remove pests by hand or rinse them off, and test any product on one frond first. NC State mentions the Florida fern caterpillar on outdoor plants."
+    ],
+    "petSafety": [
+      "The ASPCA has no entry for maidenhair fern on either its cats or its dogs plant list. NC State, which marks poisonous plants with a severity rating and warning tags, gives Adiantum raddianum and the southern maidenhair no poison rating at all, and Clemson's fern guide mentions no toxicity. For what it is worth, the ASPCA lists two other ferns in the same family, Pellaea and Pteris, as non-toxic. No poisoning is reported, but without an ASPCA entry for Adiantum this page marks the maidenhair as not rated rather than pet safe; a related fern being harmless is not a rating for this one. Any plant can cause mild stomach upset if a pet eats a lot, so call your veterinarian if yours seems unwell."
+    ],
+    "faq": [
+      {
+        "q": "Why is my maidenhair fern turning crispy and brown?",
+        "a": "It dried out, or the air is too dry. A single missed watering can shrivel whole fronds within a day, and Clemson notes that thin-fronded ferns like maidenhairs brown in low humidity. Cut the dead fronds at the base, keep the mix constantly moist, and raise humidity toward 50 percent with a humidifier or a bright bathroom. New fronds usually follow."
+      },
+      {
+        "q": "Can a dead-looking maidenhair fern grow back?",
+        "a": "Often, yes. The fronds die quickly, but the creeping rhizome under the surface can survive. Cut everything to the soil, keep the mix moist and the air humid, and give it bright, sunless light. Press a rhizome gently: firm rather than mushy means it is probably alive. Fresh fiddleheads commonly appear within a few weeks if the rhizome was spared."
+      },
+      {
+        "q": "Should I mist my maidenhair fern every day?",
+        "a": "Misting helps less than you would hope. Illinois Extension notes that it raises humidity only for a short time and can encourage disease if overdone. Clemson does suggest light, occasional misting for ferns, but the bigger wins are a humidifier, double-potting in moist sphagnum moss, or growing the plant in a bathroom or terrarium where humidity stays near 50 percent."
+      },
+      {
+        "q": "Is a maidenhair fern a good bathroom plant?",
+        "a": "It is one of the best, provided the bathroom has a window. Steam from showers keeps humidity high, which is exactly what maidenhairs lack in most rooms, and NC State notes the plant does well in bathrooms for that reason. It still needs bright, indirect light, ideally from a north or frosted east window. A windowless bathroom will starve it."
+      },
+      {
+        "q": "What is the difference between delta and southern maidenhair fern?",
+        "a": "Delta maidenhair, Adiantum raddianum, is the tropical species sold as a houseplant, hardy only in USDA Zones 9b to 10b. Southern maidenhair, Adiantum capillus-veneris, grows wild across warm and temperate regions, is hardy from Zone 6 in NC State's listing, and is endangered in North Carolina. Both have black stalks and fan-shaped leaflets and need constant moisture."
+      }
+    ]
+  }
+}

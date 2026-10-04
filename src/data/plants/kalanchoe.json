@@ -1,0 +1,284 @@
+{
+  "slug": "kalanchoe",
+  "commonName": "Kalanchoe",
+  "otherNames": [
+    "Florist kalanchoe",
+    "Flaming Katy",
+    "Christmas kalanchoe",
+    "Madagascar widow's thrill"
+  ],
+  "botanicalName": "Kalanchoe blossfeldiana",
+  "formerNames": [
+    "Kalanchoe coccinea var. blossfeldiana"
+  ],
+  "family": "Crassulaceae",
+  "kind": "flowering",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [300, 1500],
+    "lux": [3229, 16146],
+    "windows": ["south", "west", "east"],
+    "directSun": "tolerates",
+    "src": [0, 2, 3, 4]
+  },
+  "water": {
+    "rule": "half-dry",
+    "ruleText": "Water deeply, then let the mix dry most of the way before the next watering",
+    "winter": "Missouri Botanical Garden advises watering and feeding less during slow winter growth and while the plant is setting buds.",
+    "factors": [
+      "Overwatering causes root and stem rot, the main killer named by NC State, Clemson and Missouri Botanical Garden.",
+      "Never leave the pot standing in water; Clemson ties root rot to slow-draining mix and frequent watering.",
+      "Clemson says to let the soil dry only slightly, NC State and Missouri Botanical Garden to let it dry out: the thick leaves tolerate the drier end."
+    ],
+    "src": [0, 2, 3]
+  },
+  "soil": {
+    "mix": "A fast-draining, well-aerated mix, such as cactus and succulent soil or Clemson's blend of 60% peat moss and 40% perlite.",
+    "components": [
+      "peat moss or cactus mix",
+      "perlite"
+    ],
+    "src": [0, 2, 3]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "NC State describes the genus as preferring dry soil and low relative humidity indoors; no misting needed.",
+    "src": [1]
+  },
+  "temperature": {
+    "idealF": [60, 70],
+    "idealC": [16, 21],
+    "minF": 45,
+    "minC": 7,
+    "src": [0, 2, 3]
+  },
+  "fertilizer": {
+    "season": "While the plant is actively growing, spring to fall",
+    "everyWeeks": [4, 4],
+    "strength": "full",
+    "type": "Any houseplant fertilizer, balanced or higher in phosphorus to promote flowering",
+    "winter": "reduced",
+    "src": [2, 3]
+  },
+  "repotting": {
+    "signs": [
+      "Flowering has finished and the plant is top-heavy for its pot",
+      "Roots circle the bottom or grow out of the drainage hole",
+      "The mix stays wet for days after watering"
+    ],
+    "season": "After flowering, in spring",
+    "rootType": "succulent",
+    "prefersSnug": false,
+    "src": [2]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "toxic",
+    "humanNote": "NC State rates the poison severity as medium: eating any part can cause nausea, vomiting, diarrhea, lethargy and abnormal heart rhythms.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Kalanchoe (Kalanchoe spp.)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe",
+        "toxicPrinciples": "Bufodienolides",
+        "clinicalSigns": "Vomiting, diarrhea, abnormal heart rhythm (rare)"
+      }
+    ],
+    "src": [5, 0, 1]
+  },
+  "problems": [
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Plenty of leaves but no new flower buds after the first bloom",
+      "causeKey": "low-light",
+      "cause": "Too little daytime light, or nights broken by lamps so the plant never gets 14 hours of darkness",
+      "remedy": "Give it 6 to 8 hours of bright light a day and, from fall, about six weeks of fully dark 14-hour nights."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Stems soft and blackened at soil level, plant collapsing",
+      "causeKey": "overwatering",
+      "cause": "Stem and root rot in mix that stays wet",
+      "remedy": "Root healthy tip cuttings, let them callus, and discard the rotted plant and its soil."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Mottled leaves with yellow spots, dead flecks or ring patterns",
+      "causeKey": "disease",
+      "cause": "Powdery mildew, which on kalanchoe shows only faint webbing",
+      "remedy": "Space plants for better airflow, remove the worst leaves, and treat with a potassium bicarbonate product as Clemson suggests."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony tufts in leaf joints and flower clusters",
+      "causeKey": "pests",
+      "cause": "Mealybugs, the first pest Clemson lists",
+      "remedy": "Isolate the plant and wipe the insects off with a cotton swab dipped in alcohol."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Tall, spindly stems with leaves spaced far apart",
+      "causeKey": "low-light",
+      "cause": "Low light, which Clemson says makes plants spindly",
+      "remedy": "Cut the stretched stems back after flowering and move the plant to a sunny window."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Bleached, scorched patches on leaves facing the glass",
+      "causeKey": "too-much-sun",
+      "cause": "Prolonged hot direct sun, which NC State says can scorch the leaves",
+      "remedy": "Give afternoon shade in summer, and acclimate it gradually when moving outdoors."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem tip cuttings",
+      "Leaf cuttings",
+      "Plantlets from leaf margins"
+    ],
+    "season": "Spring or early summer"
+  },
+  "size": {
+    "heightIn": [6, 18],
+    "widthIn": [6, 12],
+    "growth": "slow",
+    "src": [0, 3]
+  },
+  "varieties": [
+    {
+      "name": "Flaming Katy",
+      "note": "The classic florist form with bright red flower clusters."
+    },
+    {
+      "name": "Queen Jodie",
+      "note": "Up to 12 inches tall, with double, rose-like salmon pink flowers."
+    },
+    {
+      "name": "Queen Lindsay",
+      "note": "Up to 12 inches tall, with golden yellow double flowers."
+    },
+    {
+      "name": "Simone",
+      "note": "Up to 12 inches tall, with clusters of pure white flowers."
+    },
+    {
+      "name": "Lanin",
+      "note": "Dark green leaves under clusters of bright orange flowers."
+    },
+    {
+      "name": "f. variegata",
+      "note": "Dark green leaves edged pink and cream, with red or orange flowers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kalanchoe blossfeldiana (Florist Kalanchoe)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/kalanchoe-blossfeldiana/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Kalanchoe (genus)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/kalanchoe/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Kalanchoe",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/kalanchoe/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Kalanchoe blossfeldiana",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=279373",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Kalanchoe",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/kalanchoe",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["succulents", "jade-plant", "christmas-cactus", "african-violet", "aloe-vera"],
+  "seo": {
+    "title": "Kalanchoe Care: Light, Water and Reblooming Guide (2026)",
+    "description": "Kalanchoe care in 2026: bright light, a fast-draining mix left to dry between waterings, and six weeks of 14-hour nights to rebloom, per Clemson. Toxic to pets.",
+    "h1": "Kalanchoe care: light, water and reblooming"
+  },
+  "content": {
+    "answer": "Kalanchoe needs bright light, a fast-draining mix and deep watering only after the soil has dried. To bloom again, it needs about six weeks of 14-hour, fully dark nights in fall or winter. The ASPCA lists it as toxic to cats and dogs.",
+    "intro": "Kalanchoe blossfeldiana is a succulent from northeast Madagascar, a member of the stonecrop family brought to Europe by the German nurseryman Robert Blossfeld, and today one of the most common flowering pot plants sold in late winter and spring. Its thick, glossy, scallop-edged leaves store water, so it shrugs off dry air and missed waterings but rots in a wet pot. Its flowers run on a clock set by the night: like the poinsettia, it is a short-day plant that forms buds only after weeks of long, uninterrupted darkness. NC State, Clemson and Missouri Botanical Garden all describe the same recipe for that, about six weeks of 14-hour nights. Clusters of tiny four-petaled flowers in red, orange, yellow, pink or white then last for weeks. Many plants are thrown out after that first show, yet with bright light, a gritty mix, sparing water and a dark fall, the same plant will flower again the next winter.",
+    "light": [
+      "Give it as much light as you can indoors. Clemson says kalanchoe grows best in full sun and tolerates bright indoor light, but gets spindly in low light. On the University of Illinois Extension scale, aim for at least high light, about 300 foot-candles, directly in front of an east or west window, or better, direct light in a south window. NC State says that to keep it blooming it should receive 6 to 8 hours of bright light every day.",
+      "Sources differ on hot sun. NC State prefers bright indirect light or partial shade and warns that prolonged direct sun can scorch the leaves, recommending afternoon shade outdoors, while Missouri Botanical Garden lists full sun or bright indirect light for indoor plants. A sunny windowsill is usually fine in winter; in summer, or outside on a patio, shade it from the hottest afternoon hours and introduce it gradually, as Clemson advises, so tender leaves do not burn."
+    ],
+    "water": [
+      "Water deeply, then let the mix dry before the next watering. NC State says to let the soil dry out between waterings and then water deeply, and Missouri Botanical Garden gives the same advice. Clemson is slightly more generous, saying to allow the soil to dry slightly, but all three agree that overwatering is the danger: it leads to root rot and stem rot, the most common way kalanchoes die.",
+      "Empty the saucer every time. Clemson notes that root rot usually comes from a mix that does not drain quickly or from watering too often, and that plants should never sit in water. Foil-wrapped florist pots are a trap here, because they hold drained water around the roots; remove the foil or punch a hole in it.",
+      "Cut back in winter and while the plant is setting buds. Missouri Botanical Garden recommends less water and less fertilizer during periods of slow winter growth and while flowering is being triggered. The thick leaves carry the plant through dry spells, so err on the dry side when in doubt."
+    ],
+    "soil": [
+      "Use a mix that drains fast and holds plenty of air. NC State recommends a well-drained potting mix suited to cactus and succulents, and Clemson suggests a well-aerated blend such as 60% peat moss and 40% perlite. Missouri Botanical Garden stresses very well-drained soil. Avoid heavy, moisture-retentive bagged mixes, and always use a pot with a drainage hole."
+    ],
+    "humidity": [
+      "Humidity does not matter much for this succulent. NC State describes the genus as preferring indoor sites with dry soil and low relative humidity, so the dry air of a heated home in winter is fine. Do not mist; damp leaves and still air encourage the powdery mildew that Clemson and NC State both mention. Good air movement around the plant is more useful than added moisture."
+    ],
+    "temperature": [
+      "NC State and Missouri Botanical Garden both give 60°F at night and 70°F during the day as the ideal, and Missouri Botanical Garden notes that temperatures too low or too high can inhibit flowering. Clemson gives a cooler range, 45 to 65°F at night and 50 to 70°F by day, and adds that cool nights prolong the life of the flowers. NC State says to bring plants indoors before temperatures drop to 45°F. During the long-night period, Clemson warns that nights above 80°F cause a heat delay that holds back flower buds."
+    ],
+    "fertilizer": [
+      "Clemson recommends feeding actively growing plants with any houseplant fertilizer once a month. Missouri Botanical Garden suggests a well-balanced fertilizer or one higher in phosphorus to promote flowering, and less fertilizer during winter and while flowering is being triggered. A plant in full bloom from the florist needs no feeding at all until the flowers finish and new growth starts."
+    ],
+    "repotting": [
+      "Repot after flowering rather than during it. Clemson's advice is to shift the plant to a slightly larger pot once the blooms are done, cut back tall growth and old flower stems, and keep it watered in a sunny, warm window. Use fresh, well-aerated mix. A pot only slightly larger keeps the volume of wet mix around the roots small, which matters for a plant so prone to rot."
+    ],
+    "propagation": [
+      "Stem cuttings are reliable. Clemson recommends taking terminal cuttings two to three inches long with two pairs of leaves, from vegetative rather than flowering shoots, in spring or early summer. Strip the bottom leaves, let the cut end callus for several days, and insert the cuttings in a mix of half peat moss and half perlite; no rooting hormone is needed. Kept in bright, indirect light inside a closed plastic bag, they are ready to transplant in 14 to 21 days.",
+      "NC State adds that leaf cuttings also work, and Missouri Botanical Garden notes that small plantlets sometimes appear at the leaf margins and can be potted up on their own."
+    ],
+    "problems": [
+      "Most trouble comes from water, light or the calendar. Rot follows overwatering, spindly stems follow low light, and a plant that never reblooms usually has not had long enough dark nights. Clemson names mealybugs, aphids and brown scale as the most common pests; brown scale can be scraped off and aphids removed by hand. Powdery mildew is easy to miss on kalanchoe because it shows only as fine webbing with mottled, spotted leaves, and the plant may be stunted and fail to flower."
+    ],
+    "petSafety": [
+      "Kalanchoe is toxic to pets. The ASPCA lists the genus as toxic to cats and dogs, with bufodienolides as the toxic principle and vomiting, diarrhea and, rarely, abnormal heart rhythm as clinical signs. NC State goes further, warning that ingestion by pets can be fatal, with abnormal heart rate and seizures, and rates the plant of medium severity for people, with every part poisonous. Keep it out of reach of cats, dogs and children, wear gloves when handling it, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 right away if a pet eats any."
+    ],
+    "faq": [
+      {
+        "q": "How do I get my kalanchoe to bloom again next winter?",
+        "a": "Give it long nights. Clemson explains that natural day lengths between October 1 and March 1 trigger buds, provided the plant sits in a room where no lights come on after dark. About six weeks of 14 to 16 hour nights are needed, and flowering starts roughly 12 weeks after long nights begin. A closet each evening works too. Keep it in bright light by day and nights below 80°F."
+      },
+      {
+        "q": "How long do kalanchoe flowers last?",
+        "a": "A long time for a houseplant. NC State says the showy clusters last about 4 weeks, and Missouri Botanical Garden calls the bloom time incredibly long for a houseplant. Cool nights help: Clemson notes that cool night temperatures prolong flower life. Remove spent flowers as they fade, which NC State says encourages more blooms, and keep the plant out of hot, direct afternoon sun."
+      },
+      {
+        "q": "Should I deadhead kalanchoe flowers?",
+        "a": "Yes. NC State recommends deadheading spent flowers to encourage more blooms. Snip faded clusters off where their stalk meets the leaves. Once the whole display is over, Clemson suggests cutting back tall growth and the old flower stems, then shifting the plant to a slightly larger pot and growing it in a sunny window so it builds strength before the next round of long nights."
+      },
+      {
+        "q": "Can I put my kalanchoe outside for the summer?",
+        "a": "Yes, once frost is past. Clemson suggests moving it to a bright, lightly shaded spot outdoors after the danger of frost, adjusting it gradually so tender leaves do not burn. Bring it back in before the first frost, or about 3 months before you want it to bloom. NC State says to move it indoors before temperatures drop to 45°F."
+      },
+      {
+        "q": "What should I do if my dog chewed a kalanchoe leaf?",
+        "a": "Call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 right away, even if your dog seems fine. The ASPCA lists kalanchoe as toxic to dogs because of bufodienolides, compounds that can cause vomiting, diarrhea and, rarely, abnormal heart rhythm. NC State warns that ingestion by pets can be fatal. Note how much was eaten and bring a piece of the plant."
+      }
+    ]
+  }
+}

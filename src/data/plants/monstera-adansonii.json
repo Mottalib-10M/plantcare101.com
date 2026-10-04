@@ -1,0 +1,339 @@
+{
+  "slug": "monstera-adansonii",
+  "commonName": "Monstera adansonii",
+  "otherNames": [
+    "Swiss cheese vine",
+    "Swiss cheese plant",
+    "Mexican breadfruit plant"
+  ],
+  "botanicalName": "Monstera adansonii",
+  "formerNames": [
+    "Monstera pertusa"
+  ],
+  "family": "Araceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "east",
+      "west",
+      "south"
+    ],
+    "directSun": "avoid",
+    "src": [
+      0,
+      1,
+      2,
+      6
+    ]
+  },
+  "water": {
+    "rule": "half-dry",
+    "ruleText": "Water thoroughly once the mix has dried most of the way down, then let the excess drain away",
+    "winter": "The RHS advises watering slightly less often over winter, when growth slows.",
+    "factors": [
+      "Small pots and thin roots dry faster than a big deliciosa, so check more often in summer.",
+      "The RHS warns that a pot left sitting in a saucer of water can rot the roots.",
+      "NC State lists root rot from overwatering and leaf spots from splashed foliage; water the mix, not the leaves."
+    ],
+    "src": [
+      0,
+      2
+    ]
+  },
+  "soil": {
+    "mix": "An open, free-draining, slightly acidic mix; the RHS suggests one part ericaceous compost to two parts orchid bark compost.",
+    "components": [
+      "peat-free or peat-based potting mix",
+      "orchid bark",
+      "perlite"
+    ],
+    "ph": [
+      5,
+      6
+    ],
+    "src": [
+      0,
+      2
+    ]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "NC State says it prefers high humidity and suggests a humidifier or a wet pebble tray; the RHS adds that dry, heated air browns the leaf edges.",
+    "src": [
+      0,
+      2
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      65,
+      77
+    ],
+    "idealC": [
+      18,
+      25
+    ],
+    "minF": 50,
+    "minC": 10,
+    "src": [
+      0,
+      2
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring to fall, while the vine is growing",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "Balanced liquid houseplant fertilizer at the label rate (RHS); Illinois Extension's general interval",
+    "winter": "none",
+    "src": [
+      2,
+      7
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow out of the drainage hole or coil around the root ball",
+      "The mix dries out very soon after a thorough watering",
+      "The vine has outgrown its support and the pot tips over"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": true,
+    "src": [
+      2,
+      9
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: calcium oxalate crystals inflame the mouth, throat and digestive tract if eaten, and the sap causes skin irritation, so wear gloves when pruning.",
+    "aspcaListed": false,
+    "aspca": [],
+    "src": [
+      0,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "slow-growth",
+      "symptom": "New leaves come in small, with few or no holes",
+      "causeKey": "low-light",
+      "cause": "Too little light, and often no support to climb",
+      "remedy": "Move it closer to an east or west window and give it a moss pole or trellis; mature, perforated leaves follow."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Several leaves yellow at once and the mix smells sour",
+      "causeKey": "overwatering",
+      "cause": "Roots rotting in compost that stays wet or sits in a saucer",
+      "remedy": "Unpot, cut away soft brown roots, repot in an open bark mix and let it dry most of the way before watering."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Leaf edges turn brown and papery",
+      "causeKey": "low-humidity",
+      "cause": "Dry, centrally heated air, as the RHS describes",
+      "remedy": "Raise humidity with a humidifier or a pebble tray and keep the plant away from radiators."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Pale, scorched patches on leaves facing the window",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sun through glass",
+      "remedy": "Pull it back from the pane or diffuse the light with a sheer curtain; trim badly marked leaves."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and speckled, dull leaves",
+      "causeKey": "pests",
+      "cause": "Spider mites, first on NC State's list of pests",
+      "remedy": "Rinse the vine in the shower, wipe the leaves and treat with insecticidal soap until the mites are gone."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky residue on leaves and stems",
+      "causeKey": "pests",
+      "cause": "Sap-sucking insects such as mealybugs, scale or aphids",
+      "remedy": "Wipe leaves regularly, remove insects with a cotton swab dipped in rubbing alcohol and repeat weekly."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings in water",
+      "Stem cuttings in moist mix"
+    ],
+    "season": "Spring to late summer"
+  },
+  "size": {
+    "heightIn": [
+      36,
+      96
+    ],
+    "widthIn": [
+      12,
+      36
+    ],
+    "growth": "fast",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [
+    {
+      "name": "'Archipelago'",
+      "note": "Variegated cultivar listed by NC State; rare and expensive."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Monstera adansonii (Swiss Cheese Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-adansonii/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Monstera adansonii, Mexican breadfruit plant",
+      "publisher": "Royal Horticultural Society (RHS)",
+      "url": "https://www.rhs.org.uk/plants/11191/monstera-adansonii/details",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow Swiss cheese plants",
+      "publisher": "Royal Horticultural Society (RHS)",
+      "url": "https://www.rhs.org.uk/plants/swiss-cheese-plants/how-to-grow-swiss-cheese-plants",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Philodendron, Pothos & Monstera (HGIC 1509)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron-pothos-monstera/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Cats (no Monstera adansonii entry)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Dogs (no Monstera adansonii entry)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "monstera",
+    "rhaphidophora-tetrasperma",
+    "pothos",
+    "philodendron"
+  ],
+  "seo": {
+    "title": "Monstera Adansonii Care: Climbing, Humidity & Water (2026)",
+    "description": "Monstera adansonii care for 2026: bright indirect light, water once the mix is almost dry, 65 to 77°F, high humidity and a pole to climb. Toxic to pets.",
+    "h1": "Monstera adansonii care: growing the Swiss cheese vine"
+  },
+  "content": {
+    "answer": "Give Monstera adansonii bright, indirect light, water thoroughly once the mix is almost dry, and keep it at 65 to 77°F with high humidity. A moss pole or trellis helps it make bigger, more perforated leaves.",
+    "intro": "Monstera adansonii is the slender cousin of the familiar split-leaf monstera, a fast-growing climbing vine from the rainforests of southern Mexico, Central America and northern South America. In the wild it clings to tree trunks with aerial roots and climbs toward the light; indoors, NC State Extension says it reaches 3 to 8 feet with a trellis or moss pole. Its heart-shaped leaves are perforated with oval holes that appear while the plant is still young, which is the main reason people buy it instead of Monstera deliciosa, a bigger plant with bigger leaves. Care follows its forest origin: bright light that never turns into direct sun, a free-draining mix allowed to dry most of the way between thorough waterings, warmth between 65 and 77°F, and more humidity than most homes provide in winter. Give it something to climb and it grows quickly; leave it trailing and the leaves often stay smaller.",
+    "light": [
+      "NC State recommends bright, indirect sunlight and warns that direct sun can scorch the leaves. The RHS profile places it in partial shade with an east, west or south aspect, and its Swiss cheese plant guide suggests a spot by an east- or west-facing window or in a bright room away from the glass. On the University of Illinois Extension scale, that means somewhere between medium and high light, about 150 to 300 foot-candles.",
+      "Light also decides how holey the leaves are. Clemson notes that monsteras will not develop their perforations if the light level is too low, and the RHS says the same: in very low light, leaves tend to have fewer holes. A vine that keeps producing small, solid leaves on long bare stems is asking for a brighter window. South windows work if a sheer curtain or a few feet of distance takes the edge off the midday sun."
+    ],
+    "water": [
+      "Let the compost become almost dry, then water thoroughly: that is the RHS method for Swiss cheese plants, and it suits this species well. Push a finger a couple of inches into the mix; when it feels dry at that depth, water slowly until it runs from the drainage hole, wait a few minutes and empty the saucer. NC State describes the ideal soil as moist and well drained, so do not wait until the mix pulls away from the pot edge.",
+      "Monstera adansonii usually lives in a smaller pot than its big relative, with a lighter root system, so it cycles through water faster, especially when it has filled a hanging basket. Bright light and summer warmth speed things up further. In a dim room or in winter the same pot can stay damp far longer, which is why a fixed schedule leads to rot.",
+      "Overwatering is the classic killer. The RHS warns that a pot left sitting in water can rot the roots, and NC State lists root rot from overwatering among the main problems. Water the mix, not the leaves: NC State also recommends avoiding splashing the foliage and keeping air moving to prevent leaf spots. The RHS prefers rainwater or filtered water at room temperature in hard-water areas."
+    ],
+    "soil": [
+      "The roots of this climber are adapted to clinging to bark, so they want air as much as moisture. The RHS recommends an open, well-drained, slightly acidic mix with a pH of 5 to 6, suggesting one part ericaceous compost to two parts orchid compost, and NC State also recommends a slightly acidic pH. A standard potting mix lightened with orchid bark and perlite gives a similar result. Avoid dense, peaty mixes on their own, which stay wet in the center of the pot."
+    ],
+    "humidity": [
+      "NC State says Monstera adansonii prefers high humidity and suggests a humidifier or a tray of wet pebbles under the pot. The RHS adds that when the air is too dry, especially in centrally heated homes, leaf edges start to brown. The thin leaves of this species show dry air faster than the leathery leaves of a deliciosa. Grouping it with other tropical plants helps, and a bathroom with a bright window is often its happiest spot."
+    ],
+    "temperature": [
+      "The RHS recommends keeping Swiss cheese plants warm all year at 65 to 77°F (18 to 25°C), away from cold drafts and radiators. NC State sets the floor: avoid cold drafts and temperature drops below 50°F (10°C). Rooms in the 60s are fine; it is the cold window glass in January and air conditioner blasts in summer that cause trouble."
+    ],
+    "fertilizer": [
+      "The RHS advises feeding Swiss cheese plants with a balanced liquid fertilizer during the growing season, roughly spring to fall. For frequency, the University of Illinois Extension's guideline of no more than once every one to three months between March and September, at the label rate, is a safe baseline; a vigorous vine in a bright window can take the shorter end. Do not feed in winter."
+    ],
+    "repotting": [
+      "Repot in spring or early summer when roots push out of the drainage hole, circle the root ball, or the plant wilts between normal waterings, the signs the University of Illinois Extension lists. The RHS advises a new pot only a few centimeters wider than the old one, because overpotting leaves a mass of wet compost the roots cannot use. Add or extend the moss pole at the same time, so the stems can keep climbing."
+    ],
+    "propagation": [
+      "Stem cuttings are the recommended method, according to NC State. Cut a section with at least one node and an aerial root bump, ideally two or three leaves, between spring and late summer. The RHS stands cuttings in a glass of water in a bright spot until they form a good set of roots, then pots them up. The University of Illinois Extension method, cuttings of 3 to 6 inches with two or more nodes inserted into damp mix under a clear cover, works just as well and skips the transition from water to soil."
+    ],
+    "problems": [
+      "Most problems come from light and water. Small, solid leaves mean too little light or nothing to climb; yellowing leaves and a sour smell point to wet roots; brown, crisp edges point to dry air. NC State lists spider mites, mealybugs, aphids, whiteflies and scale as pests, plus rust, powdery mildew and blight among diseases. The RHS recommends wiping the leaves regularly, which removes insects early and keeps the leaves clean enough to use the light they get."
+    ],
+    "petSafety": [
+      "The ASPCA has no entry for Monstera adansonii on either its cats or dogs plant list; its Swiss cheese plant and Mexican breadfruit entries both refer to Monstera deliciosa. The toxicity information here therefore comes from NC State, which flags this species as a problem for cats, dogs and children: it contains calcium oxalate crystals that cause inflammation of the mouth, throat and digestive tract, vomiting, drooling and loss of appetite if eaten, and the sap irritates skin. Clemson notes that all parts of monsteras contain calcium oxalate. Keep it out of reach and wear gloves when pruning."
+    ],
+    "faq": [
+      {
+        "q": "How is Monstera adansonii different from Monstera deliciosa?",
+        "a": "It is a smaller, faster vine with smaller leaves. NC State explains that Monstera deliciosa is a larger plant with bigger leaves, while Monstera adansonii stays smaller and grows rapidly, reaching 3 to 8 feet indoors on a support. Its leaves have oval holes inside the blade rather than deep cuts to the edge. The RHS notes it is also less widely sold and usually pricier."
+      },
+      {
+        "q": "Should Monstera adansonii climb a pole or trail from a basket?",
+        "a": "Either works, but climbing usually gives bigger leaves. In the wild it climbs trees with aerial roots, and NC State recommends a stake, trellis or moss pole in the center of the pot. The RHS notes that once a monstera feels it is climbing, it often produces larger, more mature leaves with more holes. Trailing stems in a hanging basket tend to keep smaller leaves."
+      },
+      {
+        "q": "Why does my Monstera adansonii have leaves without holes?",
+        "a": "Low light is the most common reason. Clemson says monsteras will not develop their perforations if the light level is too low, and the RHS agrees that very dim conditions mean fewer holes. Young plants and freshly pruned stems also produce smaller, less perforated leaves for a while. Move the plant to bright, indirect light and give it something to climb."
+      },
+      {
+        "q": "Is Monstera adansonii toxic to cats if the ASPCA does not list it?",
+        "a": "Yes, treat it as toxic. The ASPCA plant lists have no entry for this species, but NC State flags it as a problem for cats, dogs and children: calcium oxalate crystals cause mouth irritation, drooling, vomiting and loss of appetite if chewed. Clemson notes all parts of monsteras contain these crystals. Keep it out of reach and call your veterinarian if a pet eats some."
+      }
+    ]
+  }
+}

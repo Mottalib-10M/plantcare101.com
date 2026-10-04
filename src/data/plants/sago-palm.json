@@ -1,0 +1,217 @@
+{
+  "slug": "sago-palm",
+  "commonName": "Sago palm",
+  "otherNames": ["King sago", "Japanese sago palm", "Cycad", "Fern palm"],
+  "botanicalName": "Cycas revoluta",
+  "formerNames": [],
+  "family": "Cycadaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [150, 300],
+    "lux": [1615, 3229],
+    "windows": ["east", "west", "south"],
+    "directSun": "morning-only",
+    "src": [0, 2]
+  },
+  "water": {
+    "rule": "top-2-inches",
+    "ruleText": "Water thoroughly, then wait until the mix is dry two inches down; the plant does not tolerate overwatering or poor drainage",
+    "winter": "Clemson notes that established cycads need water mainly in summer, their period of active growth; indoors in winter the trunk sits nearly idle, so water far less.",
+    "factors": [
+      "NC State warns that root rot follows overwatering or poor drainage, and the thick trunk hides the damage until it is advanced.",
+      "Never pour water into the crown at the top of the trunk, where the new flush of leaves emerges.",
+      "Once established, NC State rates the plant drought tolerant, so an occasional dry spell does less harm than a soggy pot."
+    ],
+    "src": [0, 1, 7]
+  },
+  "soil": {
+    "mix": "A sandy, loamy, slightly acidic to neutral mix that drains quickly, in a pot with a drainage hole.",
+    "components": ["houseplant potting mix", "coarse sand", "bark fines for organic matter"],
+    "src": [0, 1]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Neither NC State nor Clemson sets a humidity target; a drought-tolerant plant, it manages ordinary indoor air.",
+    "src": [0, 1]
+  },
+  "temperature": {
+    "minF": 32,
+    "minC": 0,
+    "src": [0, 1]
+  },
+  "fertilizer": {
+    "season": "March to September; Clemson fertilizes landscape cycads April to September",
+    "everyWeeks": [4, 13],
+    "strength": "full",
+    "type": "Slow-release palm fertilizer (12-4-12) with magnesium and micronutrients, or a balanced houseplant fertilizer at the label rate",
+    "winter": "none",
+    "src": [1, 3]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage holes",
+      "Offsets crowd the base of the trunk against the rim",
+      "The pot tips over under the weight of the fronds"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "thick-fleshy",
+    "prefersSnug": true,
+    "src": [1, 6]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "toxic",
+    "humanNote": "NC State rates the poison severity as high: eating any part can cause permanent internal damage or death, with vomiting, diarrhea, weakness, seizures and liver failure. Seeds carry the most cycasin.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Sago Palm (Cycas revoluta, Zamia species)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sago-palm",
+        "toxicPrinciples": "Cycasin",
+        "clinicalSigns": "Vomiting, melena, icterus, increased thirst, hemorrhagic gastroenteritis, bruising, coagulopathy, liver damage, liver failure, death."
+      },
+      {
+        "name": "Cycads (Cycas and Zamia species)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cycads",
+        "toxicPrinciples": "Cycasin, B-methylamino-l-alanine, unidentified neurotoxin (cattle)",
+        "clinicalSigns": "Vomiting (may be bloody), dark stools, jaundice, increased thirst, bloody diarrhea, bruising, liver failure, death. 1-2 seeds can be fatal."
+      }
+    ],
+    "src": [0, 4, 5]
+  },
+  "problems": [
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Fronds yellow and collapse, the base of the trunk feels soft",
+      "causeKey": "overwatering",
+      "cause": "Root rot from a soggy pot or poor drainage",
+      "remedy": "Unpot, cut away dark, mushy roots, and replant in dry, sandy mix; water only after the top two inches dry."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Older fronds yellow, streak or spot while the soil is not wet",
+      "causeKey": "nutrient-deficiency",
+      "cause": "Shortage of nitrogen, potassium, magnesium or manganese, to which Clemson says palms and cycads are very susceptible",
+      "remedy": "Feed with a palm fertilizer that contains magnesium and micronutrients; leave yellowed fronds on until fully dead, since Clemson notes removing them can worsen potassium deficiency."
+    },
+    {
+      "symptomKey": "white-crust",
+      "symptom": "White, crusty coating on the leaflets and stalks",
+      "causeKey": "pests",
+      "cause": "Scale insects, including the cycad aulacaspis scale that NC State says can cause serious damage",
+      "remedy": "Isolate the plant, scrub or prune off heavily coated fronds, and treat repeatedly with horticultural oil."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "Cottony white tufts at the frond bases",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Dab colonies with rubbing alcohol on a cotton swab and follow with insecticidal soap until no new tufts appear."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Bleached or brown patches on the leaflets facing the window",
+      "causeKey": "too-much-sun",
+      "cause": "Harsh direct sun, which NC State says damages the foliage",
+      "remedy": "Filter the light with a sheer curtain or move the pot back from a hot south or west window."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Fronds brown and burn after a cold night by a door or on a patio",
+      "causeKey": "cold",
+      "cause": "Frost or freezing drafts",
+      "remedy": "Keep the plant above 32°F (0°C); trim fully dead fronds and wait for the next flush in spring."
+    }
+  ],
+  "propagation": {
+    "methods": ["Offsets (pups) from the base of the trunk", "Seed from a pollinated female plant"],
+    "season": "Spring to early summer"
+  },
+  "size": {
+    "growth": "slow",
+    "note": "NC State gives 3 to 10 feet outdoors, reached over 50 years or more; Clemson says 3 to 5 feet is more common, and indoor plants stay smaller.",
+    "src": [0, 1]
+  },
+  "varieties": [],
+  "sources": [
+    { "title": "Cycas revoluta (Sago Palm)", "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University", "url": "https://plants.ces.ncsu.edu/plants/cycas-revoluta/", "accessed": "2026-10-04" },
+    { "title": "Palms & Cycads (HGIC 1019)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/palms-cycads/", "accessed": "2026-10-04" },
+    { "title": "Lighting for houseplants", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/lighting", "accessed": "2026-10-04" },
+    { "title": "Houseplant care", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/care", "accessed": "2026-10-04" },
+    { "title": "Sago Palm", "publisher": "ASPCA Animal Poison Control Center", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sago-palm", "accessed": "2026-10-04" },
+    { "title": "Cycads", "publisher": "ASPCA Animal Poison Control Center", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cycads", "accessed": "2026-10-04" },
+    { "title": "Repotting", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/repotting", "accessed": "2026-10-04" },
+    { "title": "Watering houseplants", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/watering", "accessed": "2026-10-04" }
+  ],
+  "verified": "2026-10-04",
+  "related": ["bonsai", "bird-of-paradise", "olive-tree"],
+  "seo": {
+    "title": "Sago Palm Care: Light, Water & a Pet Poison Warning (2026)",
+    "description": "Sago palm care in 2026: bright filtered light, sharp drainage, no frost. Warning: every part is toxic to pets, and just 1 to 2 seeds can be fatal (ASPCA).",
+    "h1": "Sago palm care: light, water and pet safety"
+  },
+  "content": {
+    "answer": "Warning first: every part of a sago palm is poisonous, and the ASPCA says one or two seeds can be fatal to a pet. If no pets or small children can reach it, give it bright filtered light, sandy fast-draining mix and water once the top two inches dry.",
+    "intro": "Cycas revoluta is not a palm at all. NC State Extension describes it as a cycad, a member of a plant family that dates back 200 million years, which makes cones instead of flowers, much like pines and firs, and grows so slowly it may take 50 years or more to reach 10 feet. Clemson Extension calls cycads living fossils from the dinosaur era. Before anything about care, the safety point has to be clear. NC State rates its poison severity as high: all parts contain the toxin cycasin, the seeds most of all, and eating any part can cause permanent internal damage or death. The ASPCA lists liver failure and death among the signs in pets and warns that one or two seeds can be fatal, and NC State notes that pets are attracted to the plant. In a home with a dog, a cat or a toddler, the safest sago palm is no sago palm.",
+    "light": [
+      "NC State says the sago palm prefers bright but indirect sun and recommends 4 to 6 hours of filtered sunlight a day for plants grown indoors; harsh sunlight can damage the foliage. The Illinois Extension lists it among houseplants needing medium light at minimum, about 150 foot-candles, which you find directly in front of a north window, a few feet from an east or west window, or 3 to 10 feet back from a south one. For a plant that grows one flush of leaves a year, better light means a stronger, more compact flush.",
+      "Turn the pot a quarter turn every few weeks. The fronds radiate from a single crown, and a plant lit from one side grows a lopsided rosette that leans toward the glass. If you move it outdoors for summer, the Illinois Extension advice for houseplants applies: shade first, then more light over one to two weeks, because sudden full sun scorches leaflets grown indoors, and the damage stays until those fronds are replaced."
+    ],
+    "water": [
+      "The thick, shaggy trunk stores water, which is why NC State calls an established sago palm drought tolerant and why overwatering is the classic way to kill one. NC State asks for soil that is moist but well drained and says the plant is intolerant of overwatering or poor drainage, with root rot as the result. Use the finger test the Illinois Extension recommends: push a finger two inches into the mix and water only when it comes out dry. Then water thoroughly, let the pot drain completely, and empty the saucer.",
+      "Keep the crown dry. The new leaves emerge as a tight, fuzzy cluster at the top of the trunk, and water pooling there can rot the growing point, the only one most plants have. Aim the spout at the edge of the pot instead.",
+      "Seasons matter even indoors. Clemson notes that established cycads need water mainly in summer, their period of active growth. From late fall through winter the plant is largely idle, the mix dries slowly, and long gaps between waterings are normal. A sago that has just pushed a new flush in spring or summer drinks noticeably more while the fronds harden."
+    ],
+    "soil": [
+      "NC State recommends sandy, loamy soil with an acid to neutral pH, and Clemson asks for an area uniformly rich in organic matter, well drained and slightly acidic. In a pot, that translates to a regular houseplant mix opened up with coarse sand and some bark fines so water passes straight through. Avoid moisture-retentive mixes heavy in peat with no grit. A heavy pot, clay or glazed ceramic, helps balance a plant whose stiff fronds can reach several feet across."
+    ],
+    "humidity": [
+      "Neither NC State nor Clemson gives a humidity target for the sago palm, and nothing in its biology demands one. The leathery leaflets with rolled-under edges, which give the species its name, revoluta meaning curled back, hold up well in average indoor air. Dry winter rooms, which the Illinois Extension says often fall below 30 percent, mainly matter because they favor spider mites, one of the pests NC State lists."
+    ],
+    "temperature": [
+      "Normal room temperatures suit it. NC State says the sago palm tolerates brief periods of cold but that frost damages the foliage, and that the plant will not survive temperatures below 15°F (-9°C). Indoors, keep it above freezing, 32°F (0°C), and away from doors that open onto winter air. Clemson notes that fronds may burn in severe winters on landscape plants and that new ones follow in spring, a reminder that damaged fronds do not recover but the crown often does. Hardiness outdoors runs from USDA zone 9 to 12, so a patio summer has to end before the first frost."
+    ],
+    "fertilizer": [
+      "A plant that adds one ring of fronds a year needs little food. The general Illinois Extension rule, feeding no more than once every one to three months from March to September, is plenty for a potted sago. Clemson's fact sheet on palms and cycads favors a slow-release palm fertilizer such as 12-4-12 that contains extra magnesium and micronutrients, applied only from April to September, and notes that palms and cycads are very susceptible to shortages of nitrogen, potassium, magnesium and manganese, which show as yellowing, streaking or spotting. Stop feeding in winter."
+    ],
+    "repotting": [
+      "Repot rarely. A sago palm grows so slowly that it can stay in the same pot for years, and an oversized pot only adds wet mix around a root system that is easy to rot. Clemson's palm and cycad fact sheet advises transplanting in spring and early summer, when soil temperatures rise and roots are active, and never setting the plant deeper than it grew before. Move up one size when roots escape the drainage holes or offsets crowd the rim. Wear thick gloves and long sleeves: the leaflets end in sharp spines, which NC State flags along with the plant's poison risk to children."
+    ],
+    "propagation": [
+      "NC State lists two methods. Suckers, or pups, form at the base of the trunk and can be cut off in spring, left until the cut surface dries, and potted in barely damp sandy mix. Seed requires both a male and a female plant, because the sago palm is dioecious, and NC State notes that indoor plants rarely produce cones at all. Handle seeds and pups with gloves, keep them away from pets, and remember that the seeds are the most toxic part of the plant."
+    ],
+    "problems": [
+      "Overwatering and the root rot that follows top the list. After that come pests: NC State names scale insects, mealybugs and spider mites, and singles out cycad aulacaspis scale, which coats fronds in a white crust and can cause serious damage. Clemson adds fungal leaf spots and nutrient deficiencies. Yellowing on old, low fronds is often natural, but Clemson cautions against removing fronds that still have green stalks, since cutting them can push potassium deficiency into the next tier."
+    ],
+    "petSafety": [
+      "The sago palm is one of the most dangerous houseplants for pets. The ASPCA lists it as toxic to cats, dogs and horses, names cycasin as the toxic principle, and gives clinical signs that include vomiting, bloody stools, jaundice, increased thirst, bruising, clotting problems, liver damage, liver failure and death. Its cycad entry adds that one or two seeds can be fatal. NC State warns that pets are attracted to the plant and rates the risk to people as high as well. If a pet chews any part, even a small piece of frond, treat it as an emergency: call your veterinarian or the ASPCA Animal Poison Control Center at once, without waiting for symptoms."
+    ],
+    "faq": [
+      {
+        "q": "Why is a sago palm called a palm if it is not one?",
+        "a": "Because it looks like one: a stout trunk topped by a crown of feather-like fronds. NC State explains that the sago palm is a cycad, a far older group of seed plants that bears cones and does not flower, while true palms are flowering plants. Clemson calls cycads living fossils from the dinosaur era."
+      },
+      {
+        "q": "My dog chewed a sago palm leaf. Is that an emergency?",
+        "a": "Yes. Call your veterinarian or the ASPCA Animal Poison Control Center immediately, before symptoms appear. The ASPCA lists liver damage, liver failure and death among the signs of sago palm poisoning, and NC State says all parts contain cycasin, with the seeds richest in it. Bring a piece of the plant, and note roughly how much was eaten and when."
+      },
+      {
+        "q": "How fast does a sago palm grow indoors?",
+        "a": "Very slowly. NC State says a sago palm may take 50 years or more to reach 10 feet outdoors, and indoor plants stay smaller. Most produce one flush of new fronds a year, sometimes none in poor light. Better light and spring feeding help, but no fertilizer turns it into a fast grower."
+      },
+      {
+        "q": "Should I cut off yellow fronds on my sago palm?",
+        "a": "Only when they are completely dead. Clemson advises against removing fronds whose stalks are still green, because cutting partly yellow fronds on a plant short of potassium moves the deficiency up to the next tier. Wait until a frond is brown and dry, then cut it close to the trunk with gloves on. Feed with a palm fertilizer containing magnesium."
+      }
+    ]
+  }
+}

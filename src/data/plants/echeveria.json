@@ -1,0 +1,357 @@
+{
+  "slug": "echeveria",
+  "commonName": "Echeveria",
+  "otherNames": [
+    "Mexican rosettes",
+    "Mexican snowball",
+    "Hens and chickens",
+    "Painted lady"
+  ],
+  "botanicalName": "Echeveria spp.",
+  "formerNames": [
+    "Urbinia",
+    "Oliverella"
+  ],
+  "family": "Crassulaceae",
+  "kind": "succulent",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [
+      150,
+      1500
+    ],
+    "lux": [
+      1615,
+      16146
+    ],
+    "windows": [
+      "south",
+      "west",
+      "east"
+    ],
+    "directSun": "tolerates",
+    "src": [
+      0,
+      1,
+      6
+    ]
+  },
+  "water": {
+    "rule": "fully-dry",
+    "ruleText": "Water thoroughly once the mix has dried out, or very nearly, all the way down",
+    "winter": "From late fall to early spring, give only a light watering every few weeks, enough to stop the leaves shriveling (RHS).",
+    "factors": [
+      "Water left standing in the center of the rosette causes rot or disease (UF/IFAS).",
+      "Keeping plants wet in winter is the main cause of fungal trouble, according to UF/IFAS.",
+      "The RHS suggests rainwater, since fluoride in tap water can mark the leaves."
+    ],
+    "src": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "soil": {
+    "mix": "Gritty, sharply draining cactus mix in a pot with plenty of drainage holes; a shallow clay or terra cotta pot dries fastest.",
+    "components": [
+      "cactus potting mix",
+      "horticultural grit or coarse sand",
+      "loam-based potting soil"
+    ],
+    "src": [
+      1,
+      2,
+      4
+    ]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "Dry indoor air suits it; the RHS notes succulents cope well with central heating, and damp air only slows drying in the rosette.",
+    "src": [
+      2
+    ]
+  },
+  "temperature": {
+    "minF": 50,
+    "minC": 10,
+    "src": [
+      1,
+      2
+    ]
+  },
+  "fertilizer": {
+    "season": "April to September, while the rosettes are growing",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "Liquid feed high in potassium, such as a tomato or cactus fertilizer, at the label rate",
+    "winter": "none",
+    "src": [
+      2,
+      7
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Offsets crowd the rim and spill over the edge",
+      "Roots fill the pot or push out of the drainage holes",
+      "A bare stem has lifted the rosette well above the soil"
+    ],
+    "season": "Spring",
+    "rootType": "succulent",
+    "prefersSnug": true,
+    "src": [
+      0,
+      2
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "NC State lists no poison characteristics for Echeveria and tags it non-toxic for cats, dogs and horses; no human toxicity rating is published.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Hens and Chickens (Echeveria elegans)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hens-and-chickens"
+      },
+      {
+        "name": "Blue Echeveria (Echeveria glauca)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/blue-echeveria"
+      }
+    ],
+    "src": [
+      0,
+      5,
+      8
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Rosette opens flat, leaves spread apart and the stem stretches toward the glass",
+      "causeKey": "low-light",
+      "cause": "Too little direct light, or a winter kept too warm and too wet",
+      "remedy": "Move it to the sunniest window over a couple of weeks; behead a badly stretched rosette and re-root the top."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Lower leaves go translucent and the stem turns black at soil level",
+      "causeKey": "overwatering",
+      "cause": "Rot from mix that stays wet, worst in a cool winter",
+      "remedy": "Cut above the black tissue, let the healthy rosette dry until the cut seals, and replant in dry cactus mix."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Soft brown patch in the heart of the rosette",
+      "causeKey": "disease",
+      "cause": "Water trapped in the center of the rosette",
+      "remedy": "Water the mix at the pot edge, never over the top, and tip out any water caught between the leaves."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Pink, blue or purple leaves fade to plain green",
+      "causeKey": "low-light",
+      "cause": "Leaf pigments develop only in strong sun",
+      "remedy": "Give it several hours of direct sun; color returns on new leaves as the plant adjusts."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White fluff tucked deep between the leaves",
+      "causeKey": "pests",
+      "cause": "Mealybugs hiding in the tight rosette",
+      "remedy": "Lift them out with a cotton swab dipped in rubbing alcohol and check the roots when you next repot."
+    },
+    {
+      "symptomKey": "white-crust",
+      "symptom": "Chalky white marks on leaves or a crust on the soil",
+      "causeKey": "water-quality",
+      "cause": "Minerals from tap water building up in the pot",
+      "remedy": "Switch to rainwater, as the RHS recommends, and flush the pot thoroughly in spring."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Offsets detached from the base",
+      "Single leaves laid on dry mix",
+      "Beheaded crown with a short stem"
+    ],
+    "season": "Spring and summer, during active growth"
+  },
+  "size": {
+    "heightIn": [
+      1,
+      12
+    ],
+    "widthIn": [
+      2,
+      12
+    ],
+    "growth": "slow",
+    "src": [
+      0
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Echeveria elegans (Mexican snowball)",
+      "note": "Spoon-shaped, silvery-green leaves on pinkish stems, with pink flowers."
+    },
+    {
+      "name": "Echeveria derenbergii (painted lady)",
+      "note": "Blue-gray triangular leaves with red margins and yellow flowers."
+    },
+    {
+      "name": "'Perle von Nurnberg'",
+      "note": "Grayish leaves washed with purplish pink; an RHS Award of Garden Merit plant."
+    },
+    {
+      "name": "Echeveria runyonii 'Topsy Turvy'",
+      "note": "Curved, rectangular gray leaves that curl up and inward."
+    },
+    {
+      "name": "'Black Prince'",
+      "note": "Dark red, almost black leaves arranged like a water lily."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Echeveria",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/echeveria/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Echeveria genus guide",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/echeveria",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow houseplant cacti and succulents",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Echeveria",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/echeveria/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Succulents",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/succulents/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Hens and Chickens",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/hens-and-chickens",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Blue Echeveria",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/blue-echeveria",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "succulents",
+    "haworthia",
+    "jade-plant",
+    "burros-tail",
+    "aloe-vera"
+  ],
+  "seo": {
+    "title": "Echeveria Care: Sun, Gritty Mix & Winter Rest (2026)",
+    "description": "Echeveria care for 2026: strong sun, a gritty cactus mix, water once it dries, and winter above 50°F per the RHS. Rot fixes, propagation and pet safety.",
+    "h1": "Echeveria care: sun, soil and watering"
+  },
+  "content": {
+    "answer": "Echeverias need strong light, a gritty cactus mix and water only once the mix has dried out. The RHS advises keeping them above 50°F (10°C) and resting them in winter with just a light watering every few weeks to stop shriveling.",
+    "intro": "Echeveria is a genus of nearly 200 rosette-forming succulents in the stonecrop family, native from southwest Texas to northwest Argentina, plus countless hybrids bred for leaf color. NC State Extension describes plants that come from dry country, enjoy full sun and need little water, and that is the key to keeping them indoors: each fleshy leaf is a water tank, and the tight rosette is built to shed rain, not to sit in damp compost. Indoors the two common failures pull in opposite directions. A dim spot makes the rosette flatten, stretch and fade from blue or pink to plain green, while a wet pot, above all in a cool winter, rots the stem from the base. Echeverias are not frost hardy, so outside frost-free areas they live on a windowsill. Give them the brightest window you have, a sharply draining mix and a dry winter rest.",
+    "light": [
+      "Light is where most indoor echeverias come up short. NC State says leaf coloring improves with sunlight and that the plants thrive on a bright, sunny windowsill; its profile rates them for full sun to partial shade. A south or west window, directly in front of the glass, gives the University of Illinois Extension's direct level of about 1,500 foot-candles. An east window works if the rosette sits right at the sill and gets the morning sun.",
+      "The RHS is more cautious and recommends bright but indirect light, which reflects how easily a rosette raised in a greenhouse can scorch when it meets full sun through glass in July. Both views fit together: build up exposure over a week or two, and watch the color. Tight, compact rosettes with pink or red edges mean the light is right. A rosette that opens out flat, with leaves spaced apart on a lengthening stem, is reaching for more."
+    ],
+    "water": [
+      "Water deeply and then leave it alone. The RHS suggests watering once the compost approaches dryness; NC State simply says the plant needs little water. In practice that means pushing a finger or a wooden skewer into the pot and waiting until it comes out dry most of the way down, then watering until it runs from the drainage holes. Empty the saucer within a few minutes.",
+      "Aim the spout at the mix, not the plant. UF/IFAS warns that water sitting in the center of the rosette can cause rotting or disease, and the overlapping leaves of an echeveria trap droplets easily. Bottom watering, standing the pot in a shallow tray until the surface darkens, avoids the problem. The RHS also prefers rainwater where you can collect it, because fluoride in tap water can damage the leaves and minerals leave chalky deposits.",
+      "Winter is a different regime. UF/IFAS calls keeping echeverias too wet in winter the worst sin, since it promotes fungal disease. The RHS recommends a cooler, drier dormant period with just a light watering every few weeks to prevent shriveling and leaf loss. Kept warm and watered as in summer, the plant pushes weak, spindly growth that ruins the rosette until you behead and restart it."
+    ],
+    "soil": [
+      "Use a cactus mix or make one that drains in seconds. The RHS recipe is two parts loam-based potting compost to one part horticultural grit or sharp sand by volume, topped with a layer of grit so the lower leaves rest on something dry. UF/IFAS recommends a coarse, well-drained sand mix in a shallow clay or terra cotta pot with drainage holes. Shallow is the point for a small rosette: a deep pot holds a cold, wet layer of mix at the bottom long after the surface has dried, and that hidden layer is where rot starts."
+    ],
+    "humidity": [
+      "Ordinary household air is ideal. The RHS notes that succulents cope well with the dry air of centrally heated homes and like good ventilation in summer. Skip misting and pebble trays, which only leave moisture lodged between the leaves of the rosette."
+    ],
+    "temperature": [
+      "Keep echeverias above 50°F (10°C), the floor the RHS sets for the genus. A cool winter rest helps them, but cold combined with wet mix is what kills. NC State notes they are not truly frost hardy, so a summer outdoors on a sunny patio must end well before the first frost. Indoors, keep the rosettes back from single-glazed panes on freezing nights and away from radiators, which push soft growth in midwinter."
+    ],
+    "fertilizer": [
+      "Echeverias need very little food. The RHS suggests a monthly feed from April to September with a high-potassium liquid fertilizer, such as one made for tomatoes or cacti. The University of Illinois Extension's broader houseplant rule, no more than once every 1 to 3 months between March and September and never stronger than the label, is a sensible ceiling for a slow rosette. Stop entirely in winter."
+    ],
+    "repotting": [
+      "Repot in spring, and only when the plant needs it. The RHS advises waiting until roots fill the container and warns against a pot that is too large, because the extra compost stays wet and leads to rot. Signs it is time: offsets packed around the rim, roots out of the holes, or an old rosette perched on a tall bare stem, which NC State explains happens as the bottom leaves wither and drop. Use dry mix and wait several days before the first watering so torn roots can seal."
+    ],
+    "propagation": [
+      "Echeverias offer three easy routes, all described by NC State. Offsets, the small rosettes that form around the base, can be detached and set in very well-drained mix, where they root on their own. A leggy plant can be beheaded: cut the crown with a short length of stem, let the cut dry, and push the stem into gritty mix.",
+      "The third method is the most fun. Twist a healthy leaf cleanly off the stem and lay it on dry mix. Eventually a tiny rosette forms at its base and the old leaf withers away, feeding the new plant. The RHS advises leaving cut surfaces to callus, which takes a day to a week, and keeping the rooting mix only slightly moist so cuttings do not rot."
+    ],
+    "problems": [
+      "Most echeveria trouble is one of two things: not enough light or too much water. Stretching and fading are light; soft, see-through lower leaves and a blackening stem are rot. NC State lists no significant pest or disease problems for the genus, but notes that withered bottom leaves can become a source of disease if left in place, and UF/IFAS recommends removing dead leaves as the plant grows. Mealybugs hide deep in the rosette, so check there first if a plant stalls."
+    ],
+    "petSafety": [
+      "Echeverias are a safe choice for homes with pets. The ASPCA lists hens and chickens (Echeveria elegans) and blue echeveria (Echeveria glauca) as non-toxic to cats, dogs and horses, and NC State tags the genus non-toxic for all three. Be careful with look-alikes: other rosette succulents sold beside them, such as kalanchoes and some aloes, are on the ASPCA's toxic list, so check the label before a curious cat gets to it."
+    ],
+    "faq": [
+      {
+        "q": "Why is my echeveria growing a long bare stem with leaves only at the top?",
+        "a": "Some of it is natural. NC State explains that the rosette stays close to the ground for a while, then the bottom leaves wither and drop and the stem shows. Fast stretching with widely spaced leaves means too little light. Either way, cut the rosette off with a short stem, let the cut dry, and replant it in gritty mix."
+      },
+      {
+        "q": "Should I pull off the dry bottom leaves on my echeveria?",
+        "a": "Yes, once they are fully dry and come away with a gentle tug. UF/IFAS recommends removing dead leaves from the bottom as the plant grows, and NC State warns that withered leaves left in place can become a source of disease. Never peel off firm, green leaves; they are the plant's water reserve. Plump healthy ones can be used for leaf propagation."
+      },
+      {
+        "q": "Can my echeveria live outside in the summer?",
+        "a": "Yes. The RHS notes echeverias can go outdoors in summer in borders, containers and even hanging baskets. Move them into full sun gradually so leaves grown indoors do not scorch, and keep them out of saucers that fill with rain. They are not frost hardy, so NC State and the RHS both say to bring them back inside well before the first frost."
+      },
+      {
+        "q": "Why has my pink echeveria turned green?",
+        "a": "It is short of light. NC State notes that echeveria leaf coloring improves with sunlight; the pink, red and purple tones are pigments the plant makes in strong sun. On a dim sill, new leaves come out greener and the rosette loosens. Move it to a south or west window gradually, and the color returns on the new growth over several weeks."
+      },
+      {
+        "q": "What should I do when my echeveria sends up a flower stalk?",
+        "a": "Enjoy it. NC State says rosettes produce one or more flower stalks once a year, with pink to reddish blooms, sometimes marked with yellow, that attract bumble bees and hummingbirds outdoors. The stalk draws on the plant's reserves but does not harm a healthy rosette. Snip it off at the base when the flowers fade, or leave it to dry and pull it away."
+      }
+    ]
+  }
+}

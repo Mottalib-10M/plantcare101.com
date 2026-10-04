@@ -1,0 +1,295 @@
+{
+  "slug": "burros-tail",
+  "commonName": "Burro's tail",
+  "otherNames": [
+    "Donkey's tail",
+    "Horse's tail",
+    "Lamb's tail",
+    "Stonecrop"
+  ],
+  "botanicalName": "Sedum morganianum",
+  "formerNames": [],
+  "family": "Crassulaceae",
+  "kind": "succulent",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [
+      300,
+      1500
+    ],
+    "lux": [
+      3229,
+      16146
+    ],
+    "windows": [
+      "south",
+      "west",
+      "east"
+    ],
+    "directSun": "tolerates",
+    "src": [
+      0,
+      1,
+      3
+    ]
+  },
+  "water": {
+    "rule": "fully-dry",
+    "ruleText": "Let the soil dry out, or nearly so, between waterings, using tepid water",
+    "winter": "Cut back in fall; in winter give just enough to stop the mix drying out completely. Wisconsin Extension notes indoor plants may then need water no more than once a month.",
+    "factors": [
+      "Root rot from overwatering is the most common problem; soft or wilting leaves can mean the soil is too wet.",
+      "Leaves swell when the plant is well watered and shrivel when it is dry, a useful gauge.",
+      "NC State recommends tepid water and shallow pots."
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "soil": {
+    "mix": "Cactus mix, or regular potting mix generously cut with perlite, pumice or small gravel, in a shallow pot with a drainage hole.",
+    "components": [
+      "cactus mix or potting mix",
+      "perlite or pumice",
+      "baked clay granules or pea gravel"
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "Prefers dry soil and fresh air (NC State); ordinary indoor humidity is fine.",
+    "src": [
+      0
+    ]
+  },
+  "temperature": {
+    "minF": 40,
+    "minC": 4,
+    "src": [
+      0,
+      1
+    ]
+  },
+  "fertilizer": {
+    "season": "During the growing season, spring and summer",
+    "everyWeeks": [
+      13,
+      26
+    ],
+    "strength": "full",
+    "type": "Light feeding with a balanced houseplant fertilizer, only once or twice a season",
+    "winter": "none",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Stems and roots have completely filled the pot",
+      "The mix dries within a day or two of watering",
+      "The plant tips because the trailing stems outweigh the pot"
+    ],
+    "season": "Spring",
+    "rootType": "succulent",
+    "prefersSnug": true,
+    "src": [
+      1
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "non-toxic",
+    "humanNote": "NC State notes the stems and leaves can be eaten, but large quantities can cause stomach upset.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Burro's Tail (Sedum morganianum)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/burros-tail"
+      }
+    ],
+    "src": [
+      0,
+      2
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Plump leaves fall off whenever the plant is moved or brushed",
+      "causeKey": "natural-aging",
+      "cause": "Brittle stems and loosely attached leaves, normal for this species",
+      "remedy": "Hang it out of traffic and water from the top edge without handling stems; root the fallen leaves."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Leaves turn soft and wilted while the mix is still damp",
+      "causeKey": "overwatering",
+      "cause": "Too much soil moisture, the start of root rot",
+      "remedy": "Let the pot dry fully, check for brown roots, and replant healthy stem tips as cuttings if the base has rotted."
+    },
+    {
+      "symptomKey": "wrinkled-leaves",
+      "symptom": "Leaves look thin and shriveled instead of fat",
+      "causeKey": "underwatering",
+      "cause": "Stored water used up after a long dry spell",
+      "remedy": "Water thoroughly with tepid water; the leaves plump again within days."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Stems with gaps between widely spaced leaves",
+      "causeKey": "low-light",
+      "cause": "Longer internodes in insufficient light",
+      "remedy": "Move it to a sunnier window; dense growth resumes on new stem sections."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Blue-green leaves bleach to yellowish",
+      "causeKey": "too-much-sun",
+      "cause": "Light too intense, or a sudden move into full sun",
+      "remedy": "Give some afternoon shade and acclimate it to outdoor sun gradually."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony clusters along the stems",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Dab them with rubbing alcohol on a cotton swab; avoid sprays that knock leaves off."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings",
+      "Fallen or removed leaves",
+      "Division",
+      "Seed"
+    ],
+    "season": "Spring and summer"
+  },
+  "size": {
+    "widthIn": [
+      12,
+      36
+    ],
+    "growth": "moderate",
+    "note": "Trailing stems reach about 24 inches per NC State and up to 4 feet per Wisconsin Extension; length matters more than height.",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [
+    {
+      "name": "'Burrito' (baby burro's tail)",
+      "note": "Smaller, rounder lime-green to blue-green leaves on shorter stems; its exact status is unclear."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sedum morganianum (Burro's Tail)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/sedum-morganianum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Burro's Tail, Sedum morganianum",
+      "publisher": "University of Wisconsin-Madison Extension, Wisconsin Horticulture",
+      "url": "https://hort.extension.wisc.edu/articles/burros-tail-sedum-morganianum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Burro's Tail",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/burros-tail",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "succulents",
+    "string-of-bananas",
+    "echeveria",
+    "jade-plant"
+  ],
+  "seo": {
+    "title": "Burro's Tail Care: Bright Light, Watering & Leaf Drop 2026",
+    "description": "Burro's tail care in 2026: bright light, soil left to dry, light feeding once or twice a season and a shallow pot. Fixes for leaf drop, rot and bare stems.",
+    "h1": "Burro's tail care: light, water and keeping the leaves on"
+  },
+  "content": {
+    "answer": "Burro's tail needs bright light with some direct sun, gritty mix that dries out between waterings, and a hanging pot where nothing brushes its brittle stems. Water less in winter and feed only once or twice during the growing season.",
+    "intro": "Burro's tail, Sedum morganianum, is a trailing stonecrop from southern Mexico whose stems disappear under overlapping, blue-green leaves until they look braided. Every leaf is a small water store with a silvery bloom that rubs off at a touch, and Wisconsin Extension notes the stems can grow to four feet long and become heavy with all the water they carry. That weight is both the charm and the challenge. The leaves break off when the plant is handled, so it belongs in a hanging basket or on a high shelf where people and pets pass by without touching it. Grown that way it is easy: NC State Extension asks for a high-light spot with at least partial sun, dry soil, fresh air and a shallow pot. Individual plants can last for decades indoors, and every leaf that does fall can be rooted into a new plant.",
+    "light": [
+      "Put burro's tail in the brightest spot you have. NC State calls for a high-light interior position such as a windowsill with at least partial sun, and Wisconsin Extension says it grows best in bright light to full sun. In University of Illinois Extension terms that is high light, directly in front of an east or west window or within a few feet of a south one, and more is better.",
+      "Watch the spacing of the leaves. In insufficient light the stems lengthen between leaves, so the braided look turns into sparse, ropy strands, and those gaps never fill in again. Too much intensity shows the opposite way: Wisconsin notes the leaves bleach out and turn yellowish instead of blue-green. If you move the basket outdoors for summer, acclimate it gradually, starting in bright shade, or it will sunburn."
+    ],
+    "water": [
+      "Let the soil dry out between waterings. NC State says simply to allow it to dry; Wisconsin Extension says nearly dry. Both point the same way: water thoroughly, let the excess drain from the basket, and do not water again until the mix is dry well below the surface. NC State recommends tepid water, which avoids chilling the roots of a plant from a warm climate.",
+      "The leaves themselves are the best gauge. Wisconsin describes them swelling to become very plump when the plant is well watered and shriveling when it is dry. Fat, firm leaves mean wait. A slight softening and wrinkling means it is time. Soft, limp leaves while the soil is still damp mean the opposite problem: too much moisture, the first sign of root rot, which Wisconsin names as the most common issue with this plant.",
+      "Water regularly in the growing season and cut back in fall. Wisconsin recommends just enough water in winter to keep the mix from drying out completely, and notes that, depending on conditions, indoor plants may not need watering more than once a month. A hanging basket near the ceiling dries faster than you expect in a heated room, so check it rather than assuming."
+    ],
+    "soil": [
+      "A cactus mix works, or regular potting mix liberally cut with perlite, pumice, baked clay granules or even small pea gravel. Wisconsin specifically warns against sand, which fills the soil pores and slows drainage rather than helping it. NC State recommends shallow pots, which also dry faster than deep ones. Use a basket or pot with a real drainage hole; a liner that holds water is the quickest route to rot."
+    ],
+    "humidity": [
+      "Burro's tail likes dry air. NC State lists dry soil and fresh air among its preferences, so a well-ventilated room is better than a steamy bathroom. Never mist it; water beading between the tightly packed leaves dries slowly and invites rot."
+    ],
+    "temperature": [
+      "Normal room temperatures are fine. NC State says the plant tolerates temperatures down to 40°F (4°C) outdoors, and Wisconsin Extension uses the same line: move it outside only once temperatures stay consistently above 40°F and bring it back in when nights are forecast to drop below. Never let it freeze. A cooler winter, in the 50s and 60s°F rather than full room temperature, may encourage flowering, according to Wisconsin."
+    ],
+    "fertilizer": [
+      "This is a light feeder. NC State and Wisconsin both recommend fertilizing lightly, only once or twice during the growing season. A balanced houseplant fertilizer at the label rate in late spring, and perhaps again in midsummer, is plenty. Heavy feeding produces soft, stretched growth that sags and sheds leaves. Do not feed in fall or winter."
+    ],
+    "repotting": [
+      "Repot as rarely as possible. Wisconsin Extension advises repotting in spring only when the plant has completely filled its pot, since burro's tail does well potbound, and every repotting costs leaves. Choose a pot just slightly wider and keep it shallow. Wisconsin's aftercare advice is specific: wait about a week before watering, then water sparingly until the plant is re-established. Work with the plant lying on a towel, and accept that a few leaves will drop."
+    ],
+    "propagation": [
+      "Burro's tail practically propagates itself. NC State notes that cuttings and dropped leaves root easily. Wisconsin Extension gives the method for stems: strip the leaves from the lower end of a cut stem, let it dry for a day or two, then push the bare end into well-drained mix. Long, heavy cuttings may need a pin or small stake to hold them until roots anchor them, and Wisconsin warns that rooting well can take several months.",
+      "Single leaves root too, but regenerating a full plant from a leaf takes longer than from a stem. Lay fallen leaves on dry mix in a shallow tray and leave them alone; tiny roots and then a new shoot appear at the broken end. Plant several cuttings in one basket for a fuller look. Division and seed are possible, though rarely used."
+    ],
+    "problems": [
+      "NC State lists no serious diseases or insect problems, apart from occasional slugs and snails on plants kept outdoors, and links most trouble to overwatering. Mealybugs occasionally infest the stems, according to Wisconsin. The other common complaint, bare patches on old stems, is mostly mechanical: leaves knocked off by handling never regrow in place, though Wisconsin notes areas where leaves are missing may produce branches."
+    ],
+    "petSafety": [
+      "Burro's tail is pet-friendly. The ASPCA lists it as non-toxic to dogs, cats and horses, and NC State tags it non-toxic for all three. NC State adds that the stems and leaves can be eaten but may cause stomach upset in large quantities. The bigger risk runs the other way: a cat batting at dangling stems will strip them bare, so hang the basket high."
+    ],
+    "faq": [
+      {
+        "q": "Why does my burro's tail drop leaves every time I touch it?",
+        "a": "That is the plant's nature. NC State describes the leaves as delicate and quick to break off when handled, and Wisconsin Extension calls the stems brittle. In the wild this spreads the plant, since fallen leaves root. Indoors, hang it where nobody brushes past, water without lifting the stems, and turn fallen leaves into new plants instead of worrying about them."
+      },
+      {
+        "q": "Why are the stems on my burro's tail bare in places?",
+        "a": "Leaves knocked off by handling never regrow at the same spot, and stems grown in too little light space their leaves widely from the start. Wisconsin Extension notes bare areas may produce side branches. For a full plant again, cut the bare stems back, root the leafy tips in the same basket, and give the plant a brighter window."
+      },
+      {
+        "q": "How do I get my burro's tail to flower?",
+        "a": "Indoors it rarely blooms. Wisconsin Extension says stems must be at least 10 inches long before flowering, and that a summer outdoors plus a cooler winter in the 50s and 60s°F may encourage the small pink to red star-shaped flowers. They appear in terminal clusters in summer, according to NC State. Bright light all year is the other key ingredient."
+      },
+      {
+        "q": "What is the difference between burro's tail and 'Burrito'?",
+        "a": "'Burrito', sometimes sold as baby burro's tail, has smaller, rounder leaves on shorter stems. Wisconsin Extension notes it is unclear whether it is a separate species, a cultivar or a hybrid, and NC State describes it with plump bluish to grayish-green leaves. Care is the same: bright light, gritty mix and soil left to dry between waterings."
+      },
+      {
+        "q": "Can I hang my burro's tail outside for the summer?",
+        "a": "Yes, once temperatures stay above 40°F, the threshold Wisconsin Extension gives. Start it in bright shade and move it into more sun over a week or two so it does not sunburn, and hang it out of strong wind, which tears the heavy stems. Bring it back indoors before nights drop below 40°F, and inspect it for slugs and snails first."
+      }
+    ]
+  }
+}

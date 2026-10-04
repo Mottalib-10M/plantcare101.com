@@ -18,7 +18,7 @@ import { GUIDES, guidePath } from '../../lib/guides';
 import { route } from '../../i18n/routes';
 import { articleSchema, faqSchema, breadcrumbSchema } from '../../lib/seo';
 import { displayDate } from '../../lib/format';
-import { LEVEL_LABEL, RULE_TEXT, SUN_LABEL, HUMIDITY_LABEL, STRENGTH_LABEL, temp, rangeTxt, weeksTxt, windowsTxt, petStatus, humanStatus, heightTxt, fmtUS } from '../../lib/plant-text';
+import { LEVEL_LABEL, RULE_TEXT, SUN_LABEL, HUMIDITY_LABEL, STRENGTH_LABEL, temp, rangeTxt, weeksTxt, noFeeding, windowsTxt, petStatus, humanStatus, heightTxt, fmtUS, nameInText } from '../../lib/plant-text';
 import { CAUSE_LABEL } from '../../components/calc/Diagnosis';
 import type { Plant } from '../../lib/plant-schema';
 
@@ -66,7 +66,7 @@ const aliases = [...p.otherNames, ...p.formerNames.map((n) => `formerly ${n}`)];
       <CareCard plant={p} />
     </div>
     <div data-chrome>
-      <p class="mb-2 text-sm font-semibold text-navy-900">Watering calculator for your {p.commonName.toLowerCase()}</p>
+      <p class="mb-2 text-sm font-semibold text-navy-900">Watering calculator for your {nameInText(p.commonName)}</p>
       <WateringCalc client:load fixedPlant={wateringOption} methodHref={route('method', lang)} toolHref={route('watering', lang)} idPrefix={`w-${p.slug}`} />
     </div>
   </div>
@@ -106,7 +106,7 @@ const aliases = [...p.otherNames, ...p.formerNames.map((n) => `formerly ${n}`)];
       {p.soil.ph && <tr><th scope="row">pH</th><td>{rangeTxt(p.soil.ph)}</td></tr>}
       <tr><th scope="row">Sources</th><td>{srcList(p.soil.src)}</td></tr>
     </tbody></table></div>
-    <AffiliateSlot kind="potting-mix" context={p.commonName.toLowerCase()} />
+    <AffiliateSlot kind="potting-mix" context={nameInText(p.commonName)} />
 
     <h2 id="humidity">Humidity</h2>
     {c.humidity.map((t) => <p>{t}</p>)}
@@ -127,7 +127,7 @@ const aliases = [...p.otherNames, ...p.formerNames.map((n) => `formerly ${n}`)];
     {c.fertilizer.map((t) => <p>{t}</p>)}
     <div class="overflow-x-auto"><table><caption class="sr-only">{p.commonName} feeding</caption><tbody>
       <tr><th scope="row">When</th><td>{p.fertilizer.season}, {weeksTxt(p.fertilizer.everyWeeks)}, {p.fertilizer.winter === 'none' ? 'none in winter' : 'reduced in winter'}</td></tr>
-      <tr><th scope="row">What</th><td>{p.fertilizer.type}, {STRENGTH_LABEL[p.fertilizer.strength]}</td></tr>
+      <tr><th scope="row">What</th><td>{p.fertilizer.type}{!noFeeding(p.fertilizer.everyWeeks) && `, ${STRENGTH_LABEL[p.fertilizer.strength]}`}</td></tr>
       <tr><th scope="row">Sources</th><td>{srcList(p.fertilizer.src)}</td></tr>
     </tbody></table></div>
     <p class="not-prose text-sm"><a href={route('fertilizer', lang)} class="font-medium text-accent-700 hover:underline">Work out the dose for your watering can with the fertilizer dilution calculator →</a></p>
@@ -155,7 +155,7 @@ const aliases = [...p.otherNames, ...p.formerNames.map((n) => `formerly ${n}`)];
     </table></div>
     <p class="not-prose text-sm"><a href={route('diagnosis', lang)} class="font-medium text-accent-700 hover:underline">Not sure which one it is? Try the plant problem diagnosis tool →</a></p>
 
-    <h2 id="pet-safety">Is the {p.commonName.toLowerCase()} toxic to cats and dogs?</h2>
+    <h2 id="pet-safety">Is the {nameInText(p.commonName)} toxic to cats and dogs?</h2>
     {c.petSafety.map((t) => <p>{t}</p>)}
     <div class="overflow-x-auto"><table>
       <caption class="sr-only">{p.commonName} toxicity</caption>

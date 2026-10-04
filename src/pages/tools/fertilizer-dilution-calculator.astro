@@ -4,7 +4,7 @@ import FertilizerCalc from '../../components/calc/FertilizerCalc';
 import { PLANTS, plantPath } from '../../lib/plants';
 import { route } from '../../i18n/routes';
 import { SRC } from '../../data/general-sources';
-import { STRENGTH_LABEL, weeksTxt } from '../../lib/plant-text';
+import { STRENGTH_LABEL, weeksTxt, noFeeding } from '../../lib/plant-text';
 const lang = 'en';
 const faqs = [
   { q: 'Is half-strength fertilizer better for houseplants?', a: 'Often, because indoor plants in low light use less. Clemson HGIC says plants in the low light of a home have reduced fertilizer needs, and the University of Illinois Extension warns never to mix stronger than the label. Half strength at the usual interval, or the label rate less often, both keep salts from building up. Each plant guide records what its sources recommend.' },
@@ -12,7 +12,7 @@ const faqs = [
   { q: 'Can I fertilize every time I water?', a: 'Yes, at a much weaker dose. Clemson HGIC describes diluting to about one-tenth of the label rate and using it at every watering during the growing season, as an alternative to the full rate every two or three months. Choose One-tenth in the strength list. Skip the feed in winter rest and flush the pot with plain water now and then.' },
   { q: 'How do I measure a quarter or an eighth of a teaspoon?', a: 'Use a measuring spoon set, which usually includes 1/4 and 1/8 teaspoon, or mix a larger batch: four times the water lets you measure four times the product with a normal spoon, and the extra solution keeps for the next plants. The calculator shows the dose as a kitchen fraction and in milliliters for droppers and syringes.' },
 ];
-const feedTable = PLANTS.map((p) => ({ p, w: weeksTxt(p.fertilizer.everyWeeks), s: STRENGTH_LABEL[p.fertilizer.strength] }));
+const feedTable = PLANTS.map((p) => ({ p, w: weeksTxt(p.fertilizer.everyWeeks), s: noFeeding(p.fertilizer.everyWeeks) ? 'none' : STRENGTH_LABEL[p.fertilizer.strength] }));
 const related = [
   { href: route('watering', lang), name: 'Watering calculator', description: 'Water first, then feed' },
   { href: route('diagnosis', lang), name: 'Plant problem diagnosis', description: 'Brown tips and white crust' },

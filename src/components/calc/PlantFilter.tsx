@@ -11,7 +11,7 @@ const LEVELS = ['low', 'medium', 'high', 'direct'];
 const LEVEL_TXT: Record<string, string> = { low: 'Low light', medium: 'Medium light', high: 'Bright light', direct: 'Direct sun' };
 const RULE_TXT: Record<string, string> = { 'evenly-moist': 'Keep moist', 'top-inch': 'Top inch dry', 'top-2-inches': 'Top 2 in dry', 'half-dry': 'Half dry', 'fully-dry': 'Dry out fully', 'bark-dry': 'Bark nearly dry' };
 const forgiving = new Set(['fully-dry', 'half-dry', 'top-2-inches']);
-const status = (s: string) => (s === 'toxic' ? 'toxic' : s === 'non-toxic' ? 'non-toxic' : 'varies');
+const status = (s: string) => (s === 'toxic' ? 'toxic' : s === 'non-toxic' ? 'non-toxic' : s === 'unknown' ? 'not rated' : 'varies');
 
 export default function PlantFilter({ plants, defaultLight = 'any', defaultPets = 'any', defaultCare = 'any', idPrefix = 'pf' }: Props) {
   const [light, setLight] = useState(defaultLight);
@@ -34,9 +34,9 @@ export default function PlantFilter({ plants, defaultLight = 'any', defaultPets 
         {shown.map((p) => (
           <li key={p.slug} className="rounded-lg border border-navy-200 p-4 hover:border-accent-300">
             <a href={`/plants/${p.slug}/`} className="font-serif text-lg font-semibold text-navy-900 hover:text-accent-700">{p.name}</a>
-            <p className="text-xs italic text-navy-600">{p.botanical}</p>
-            <p className="mt-2 text-sm text-navy-800">{LEVEL_TXT[p.minLevel]}{p.minLevel !== p.maxLevel ? ` to ${LEVEL_TXT[p.maxLevel].toLowerCase()}` : ''} · {RULE_TXT[p.rule]}</p>
-            <p className="mt-1 text-xs text-navy-700">Cats: {status(p.cats)} · Dogs: {status(p.dogs)}</p>
+            <span className="block text-xs italic text-navy-600">{p.botanical}</span>
+            <span className="mt-2 block text-sm text-navy-800">{LEVEL_TXT[p.minLevel]}{p.minLevel !== p.maxLevel ? ` to ${LEVEL_TXT[p.maxLevel].toLowerCase()}` : ''} · {RULE_TXT[p.rule]}</span>
+            <span className="mt-1 block text-xs text-navy-700">Cats: {status(p.cats)} · Dogs: {status(p.dogs)}</span>
           </li>
         ))}
       </ul>

@@ -1,0 +1,332 @@
+{
+  "slug": "ponytail-palm",
+  "commonName": "Ponytail palm",
+  "otherNames": [
+    "Bottle palm",
+    "Elephant's foot tree",
+    "Pony tail plant"
+  ],
+  "botanicalName": "Beaucarnea recurvata",
+  "formerNames": [
+    "Nolina recurvata"
+  ],
+  "family": "Asparagaceae",
+  "kind": "succulent",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [
+      300,
+      1500
+    ],
+    "lux": [
+      3229,
+      16146
+    ],
+    "windows": [
+      "south",
+      "west"
+    ],
+    "directSun": "tolerates",
+    "src": [
+      0,
+      1,
+      3,
+      5
+    ]
+  },
+  "water": {
+    "rule": "fully-dry",
+    "ruleText": "Water deeply, then let the mix dry out completely before the next watering",
+    "winter": "Cut watering back sharply in winter: NC State and Wisconsin Extension both say to greatly reduce water so the caudex and roots do not rot.",
+    "factors": [
+      "The swollen caudex stores water, so the plant handles long dry spells far better than wet feet.",
+      "Wisconsin Extension calls overwatering the most common cause of failure.",
+      "Brown leaf tips can come from too much or too little water, so check the mix before reacting."
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "soil": {
+    "mix": "A fast-draining cactus and succulent mix, or regular potting mix opened up with sharp sand and small gravel.",
+    "components": [
+      "cactus and succulent mix",
+      "sharp sand",
+      "small gravel or grit"
+    ],
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "NC State notes it does well even in dry, heated indoor air that harms many houseplants; no misting needed.",
+    "src": [
+      0
+    ]
+  },
+  "temperature": {
+    "minF": 50,
+    "minC": 10,
+    "src": [
+      0
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring to late summer, while it is growing",
+    "everyWeeks": [
+      13,
+      26
+    ],
+    "strength": "full",
+    "type": "Balanced houseplant fertilizer (10-10-10) or 1:2:1 formula at the label rate, once or twice in the growing season",
+    "winter": "none",
+    "src": [
+      1,
+      6
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "The caudex has swollen almost to the rim of the pot",
+      "Roots push out of the drainage hole or lift the plant",
+      "The plant has become top-heavy and tips over"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "succulent",
+    "prefersSnug": true,
+    "src": [
+      1,
+      7
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "No extension source consulted rates it for people. Wisconsin Extension warns that the finely toothed leaf edges can cut skin when handled carelessly.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Pony Tail (Beaucarnea recurvata)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pony-tail"
+      }
+    ],
+    "src": [
+      1,
+      4
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Caudex soft or wrinkled at the base, rotting smell",
+      "causeKey": "overwatering",
+      "cause": "Stem and root rot from mix that stays wet, especially in winter",
+      "remedy": "Unpot, cut back to firm tissue, let it dry, and replant in dry gritty mix; a caudex soft all the way through cannot be saved."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Dry brown tips on the long leaves",
+      "causeKey": "fertilizer-salts",
+      "cause": "Excess fertilizer or accumulated salts, one of the causes Wisconsin Extension lists along with too much or too little water",
+      "remedy": "Flush the pot with plain water, feed no more than twice a year, and trim the dead tips at an angle."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony tufts deep in the leaf rosette",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Reach into the rosette with a cotton swab dipped in rubbing alcohol and repeat weekly until no tufts return."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky residue and small brown bumps on leaves and trunk",
+      "causeKey": "pests",
+      "cause": "Scale insects",
+      "remedy": "Scrape off the scales with a fingernail or soft brush and wipe the leaves; treat a heavy infestation with horticultural oil."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Pale, limp new leaves and a stem stretching toward the window",
+      "causeKey": "low-light",
+      "cause": "Less light than the bright exposure this desert plant needs",
+      "remedy": "Move it to a south or west window over a couple of weeks; growth thickens and darkens in strong light."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Oldest leaves at the bottom of the tuft yellow and dry",
+      "causeKey": "natural-aging",
+      "cause": "Normal shedding of old leaves, described by Wisconsin Extension and UF/IFAS",
+      "remedy": "Pull or cut off dry leaves once they are fully brown; nothing to fix if new leaves keep appearing at the top."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Seed, sown at 68°F or warmer"
+    ],
+    "season": "Spring"
+  },
+  "size": {
+    "heightIn": [
+      72,
+      96
+    ],
+    "widthIn": [
+      36,
+      60
+    ],
+    "growth": "slow",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Variegated forms",
+      "note": "Wisconsin Extension says striped plants are sometimes seen; care is the same."
+    },
+    {
+      "name": "Multi-headed plants",
+      "note": "Growers cut young stems under 6 inches thick to make them branch into three heads; not a separate variety."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Beaucarnea recurvata (Ponytail Palm)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/beaucarnea-recurvata/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Ponytail Palm, Beaucarnea recurvata",
+      "publisher": "University of Wisconsin-Madison Division of Extension, Wisconsin Horticulture",
+      "url": "https://hort.extension.wisc.edu/articles/ponytail-palm-beaucarnea-recurvata/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Beaucarnea recurvata: Ponytail Palm (ENH252)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://edis.ifas.ufl.edu/publication/ST093",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Pony Tail",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pony-tail",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Cleaning, Fertilizing, Containers and Light Requirements (HGIC 1450)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting and Repotting (HGIC 1458)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Ponytail Palm",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/trees-and-shrubs/trees/ponytail-palm/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "yucca",
+    "jade-plant",
+    "aloe-vera",
+    "succulents",
+    "snake-plant",
+    "zz-plant"
+  ],
+  "seo": {
+    "title": "Ponytail Palm Care: Sun, Water and Caudex Rot (2026)",
+    "description": "Ponytail palm care in 2026: full sun, cactus mix, deep watering only when dry, and far less in winter. Hardy to 50°F per NC State. Not a true palm; pet-safe.",
+    "h1": "Ponytail palm care: sun, water and soil"
+  },
+  "content": {
+    "answer": "Ponytail palms want the brightest window you have, a gritty cactus mix, and deep watering only after the mix has dried out completely. Cut watering back sharply in winter. NC State Extension rates the plant hardy to 50°F, so keep it away from cold glass.",
+    "intro": "Despite the name, the ponytail palm is not a palm at all. Beaucarnea recurvata belongs to the asparagus family and grows wild on rocky, poor soils in the low deciduous forests of eastern and southeastern Mexico, where summers bring rain and winters bring months of drought. Its answer to that climate is the caudex, the swollen, elephant-foot base of the trunk that stores water and lets the plant ride out long dry seasons. Wisconsin Extension calls it a plant with a confused identity and a good choice for beginners, since it tolerates dry indoor air and neglect. In the ground it can reach 30 feet, but NC State Extension expects 6 to 8 feet in a pot, reached over many years. Care comes down to copying its homeland: strong light, fast-draining grit, deep but infrequent summer watering and a dry winter. The one reliable way to kill it is to keep that caudex wet.",
+    "light": [
+      "Light is the requirement people underestimate. The Illinois Extension lists the ponytail palm among houseplants needing high or bright light as a minimum, about 300 foot-candles, and Clemson's table puts it in the high-light group alongside jade plant and aloe. NC State recommends a sunny window, and Wisconsin Extension advises placing it where it receives as much light as possible. A spot directly in front of a south or west window suits it best; north windows rarely give enough.",
+      "In poor light the plant does not die quickly, which is why the problem goes unnoticed. New leaves come in pale and floppy, and the crown stretches toward the glass. If yours has lived in a dim room, move it into sun gradually over a couple of weeks. Wisconsin Extension and UF/IFAS both stress gradual acclimation when moving a plant outdoors for summer, where sudden sun can burn leaves that grew indoors."
+    ],
+    "water": [
+      "In its native range the plant gets summer rain and stays dry through most of the winter, and Wisconsin Extension recommends copying that pattern: water deeply but infrequently, and let the mix dry out between waterings. NC State gives the same advice for summer. When the pot is dry all the way down, water slowly until it pours from the drainage hole, let it drain fully and empty the saucer. Lifting the pot before and after watering quickly teaches you how a dry one feels.",
+      "Winter is the dangerous season. Both NC State and Wisconsin Extension say to greatly reduce water in winter, and Wisconsin names overwatering as the most common cause of failure. The caudex carries reserves for months; a plant that receives only enough water to keep its leaves from drooping through the cold months is behaving exactly as it would in Mexico. A caudex that feels soft or spongy, rather than firm like a potato, is the warning sign of rot.",
+      "Watch for one confusing signal. Wisconsin Extension notes that brown leaf tips can come from too much water or from too little. Check the mix and the firmness of the caudex before deciding which it is."
+    ],
+    "soil": [
+      "NC State recommends a well-drained mix such as those sold for cactus and succulents. Wisconsin Extension suggests improving regular potting mix with sharp sand or small gravel. UF/IFAS adds that in the ground the plant tolerates clay, sand or loam as long as drainage is good, because it tends to develop root rot in poorly drained soil. A clay pot is a good partner: it dries faster than plastic and its weight steadies a top-heavy specimen."
+    ],
+    "humidity": [
+      "Here the ponytail palm is easy. NC State notes that it prefers dry winters and does well even with heated indoor air, which makes many houseplants suffer. There is no need to mist it, use a pebble tray or run a humidifier; wet foliage and damp air around the caudex add nothing but risk."
+    ],
+    "temperature": [
+      "NC State rates the plant hardy to 50°F. Normal room temperatures suit it year-round, but a pot pressed against cold window glass in winter can drop below that at night. Keep it a little back from the pane on cold nights. In summer it can go outdoors to a protected patio with gradual adjustment, as NC State suggests, and should come back in before nights fall toward 50°F. Outdoors year-round it is limited to zones 10 and 11."
+    ],
+    "fertilizer": [
+      "A slow, drought-adapted plant needs very little food. Wisconsin Extension recommends feeding only once or twice during the growing season. A balanced houseplant fertilizer such as 10-10-10, or a 1:2:1 formula, at the label rate fits the Illinois Extension guidance never to use a stronger mixture than the label recommends. Excess fertilizer and built-up salts brown the leaf tips, so flushing the pot with plain water now and then is more useful than extra feeding. Do not feed in winter."
+    ],
+    "repotting": [
+      "Wisconsin Extension notes that the plant can go many years before it needs a bigger pot, and that it stays small when kept in a small one. That is useful: a large specimen becomes heavy and hard to move. Repot in spring or early summer only when the caudex has nearly filled the pot, roots push out of the bottom, or the plant tips over. Choose a container just 1 to 2 inches wider and set the caudex at the same level it sat before, never buried."
+    ],
+    "propagation": [
+      "Unlike most houseplants, the ponytail palm cannot be grown from cuttings. Wisconsin Extension says it is propagated only by seed, sown in spring at a minimum of 68°F, and that the seed germinates readily without special treatment. The catch is getting seed: the plant is dioecious, so only female plants set seed, indoor plants rarely flower, and UF/IFAS notes seed usually has to be imported from Mexico. The small offsets that sometimes appear on the caudex will not root, according to Wisconsin Extension, but they can be left to grow into extra heads."
+    ],
+    "problems": [
+      "Rot is the serious threat. NC State lists stem rot, bacterial leaf streak and leaf spots among the diseases, and UF/IFAS reports rot of the caudex and branch tips, nearly always tied to wet soil. Pests are few: mealybugs, scale and spider mites are the ones NC State and Wisconsin Extension mention, and they hide deep in the leaf tufts. Older leaves at the bottom of each tuft yellow and dry out throughout the year, which UF/IFAS describes as normal; remove them once they are fully dry."
+    ],
+    "petSafety": [
+      "The ASPCA lists the ponytail palm, which it files as Pony Tail, Beaucarnea recurvata, as non-toxic to cats, dogs and horses. The extension sources consulted give no poison rating for people. The practical hazard is mechanical: Wisconsin Extension notes that the leaves look smooth but carry very fine teeth along the edges, sharp enough to cut skin, so handle long leaves with care when grooming the plant."
+    ],
+    "faq": [
+      {
+        "q": "Why is my ponytail palm trunk getting soft at the bottom?",
+        "a": "A soft or spongy caudex is a sign of rot, which Wisconsin Extension links to overwatering, the most common cause of failure for the ponytail palm. Stop watering, unpot it, and check the roots and base. Cut away any soft brown tissue, let the cuts dry, and replant in dry cactus mix. A healthy caudex feels firm, like a potato."
+      },
+      {
+        "q": "Can I grow a new ponytail palm from a cutting or an offset?",
+        "a": "No. Wisconsin Extension says the ponytail palm is propagated only by seed, and the small offsets that form on the caudex will not root. You can leave an offset in place to grow into a branch, or cut it off flush if you prefer a single trunk. Seed sown in spring at 68°F or warmer germinates readily."
+      },
+      {
+        "q": "How do I get a ponytail palm with several heads?",
+        "a": "Wisconsin Extension explains that growers cut young ponytail palms with stems under 6 inches thick while they are dormant, which makes them sprout several heads. The plants also branch naturally with age and after flowering. Cutting an older, thicker trunk is riskier, so most people buy a multi-headed plant rather than create one."
+      },
+      {
+        "q": "Does a ponytail palm need a big pot to grow tall?",
+        "a": "It grows larger in a larger pot, but Wisconsin Extension notes that a ponytail palm stays small when kept in a small container and can go many years between repottings. That makes it easy to keep at tabletop size. Moving up gives room for more height and a wider caudex, but also adds weight that becomes hard to move."
+      },
+      {
+        "q": "Is the ponytail palm related to real palm trees?",
+        "a": "No. The ponytail palm is in the asparagus family, Asparagaceae, and is closer to agaves and yuccas than to palms. Wisconsin Extension notes that it has been placed in several families over the years. It earned the palm name from its single trunk topped by a tuft of long leaves, and it needs succulent care, not palm care."
+      }
+    ]
+  }
+}

@@ -134,8 +134,9 @@ export const plantSchema = z.object({
   }),
 
   toxicity: z.object({
-    cats: z.enum(['toxic', 'non-toxic', 'varies']),
-    dogs: z.enum(['toxic', 'non-toxic', 'varies']),
+    /** `unknown` : ni fiche ASPCA ni source qui classe la plante ; jamais compté comme sûr pour les animaux. */
+    cats: z.enum(['toxic', 'non-toxic', 'varies', 'unknown']),
+    dogs: z.enum(['toxic', 'non-toxic', 'varies', 'unknown']),
     humans: z.enum(['toxic', 'mildly-toxic', 'non-toxic', 'unknown']),
     humanNote: z.string().min(10),
     /** false seulement quand la plante n'a pas de fiche ASPCA (vérifié dans les listes chats et

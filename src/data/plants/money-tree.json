@@ -1,0 +1,337 @@
+{
+  "slug": "money-tree",
+  "commonName": "Money tree",
+  "otherNames": [
+    "Guiana chestnut",
+    "Malabar chestnut",
+    "Mexican fortune tree",
+    "French peanut",
+    "Money plant"
+  ],
+  "botanicalName": "Pachira aquatica",
+  "formerNames": [
+    "Bombax aquaticum"
+  ],
+  "family": "Malvaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "east",
+      "west",
+      "south"
+    ],
+    "directSun": "avoid",
+    "src": [
+      0,
+      1,
+      3
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Keep the mix moderately and evenly moist, watering again as the top inch begins to dry, and never leave water standing",
+    "winter": "Growth slows in winter and the mix dries more slowly; check it by touch more often than you water, but do not let it dry out, or leaves drop.",
+    "factors": [
+      "NC State says standing water is not tolerated and causes root rot.",
+      "Both NC State and Missouri Botanical Garden note that leaves drop when the soil becomes too dry.",
+      "The swollen base of the trunk is a caudex that stores water, NC State explains."
+    ],
+    "src": [
+      0,
+      1,
+      5
+    ]
+  },
+  "soil": {
+    "mix": "A moist but well-drained potting mix of peat moss, perlite, loam or sand, in a pot with a drainage hole.",
+    "components": [
+      "peat moss",
+      "perlite",
+      "loam or sand"
+    ],
+    "src": [
+      0
+    ]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "NC State says the money tree thrives in humid air and that low humidity can yellow its leaves.",
+    "src": [
+      0,
+      4
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      65,
+      75
+    ],
+    "idealC": [
+      18,
+      24
+    ],
+    "minF": 45,
+    "minC": 7,
+    "src": [
+      0
+    ]
+  },
+  "fertilizer": {
+    "season": "March to September, while the plant is growing",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "Houseplant fertilizer, balanced (10-10-10) or 1:2:1 (10-20-10), at the label rate and never stronger",
+    "winter": "none",
+    "src": [
+      4
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage holes or appear on the surface",
+      "New leaves come in smaller than normal",
+      "The plant wilts between normal waterings"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [
+      6,
+      7
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "The leaves are not rated for people in our sources; NC State notes that some sources consider the seeds potentially toxic (cyclopropenoid fatty acids), and houseplants do not produce seeds.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Money Tree (Pachira aquatica)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/money-tree",
+        "toxicPrinciples": "None",
+        "clinicalSigns": "Nausea, vomiting and loose stool"
+      }
+    ],
+    "src": [
+      0,
+      2
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Green leaves fall after the pot dried out",
+      "causeKey": "underwatering",
+      "cause": "Soil allowed to become too dry, the leaf-drop trigger named by NC State and Missouri Botanical Garden",
+      "remedy": "Water thoroughly until it drains, then keep the mix evenly moist, checking the top inch more often in warm weather."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "One trunk of the braid turns soft or wrinkled at the base",
+      "causeKey": "overwatering",
+      "cause": "Root rot from standing water in the pot or saucer",
+      "remedy": "Unpot, cut away dark mushy roots, repot in fresh well-drained mix and empty the saucer after every watering."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Leaflets turn yellow across the canopy",
+      "causeKey": "low-humidity",
+      "cause": "Dry indoor air, one of the two causes NC State gives for yellow leaves",
+      "remedy": "Add a humidifier or a pebble tray, and feed in spring if the plant has gone a year without fertilizer."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Bleached or scorched patches on leaves facing the window",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sun, which NC State says can scorch the leaves",
+      "remedy": "Move the tree back from the glass or behind a sheer curtain so it gets bright, indirect light."
+    },
+    {
+      "symptomKey": "small-flies",
+      "symptom": "Tiny dark flies hovering over the soil",
+      "causeKey": "overwatering",
+      "cause": "Fungus gnats breeding in mix that stays wet at the surface",
+      "remedy": "Let the top inch dry before watering again and use yellow sticky cards to catch the adults."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony tufts on stems and leaf joints",
+      "causeKey": "pests",
+      "cause": "Mealybugs, on NC State's list with aphids and scale",
+      "remedy": "Dab them off with a cotton swab dipped in rubbing alcohol and repeat weekly until none return."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Softwood stem cuttings",
+      "Air layering",
+      "Seed (rarely available, as indoor and braided trees do not flower)"
+    ],
+    "season": "Spring or summer"
+  },
+  "size": {
+    "heightIn": [
+      72,
+      96
+    ],
+    "note": "NC State and Missouri Botanical Garden give 6 to 8 feet as a houseplant, against up to 60 feet in the wild.",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [],
+  "sources": [
+    {
+      "title": "Pachira aquatica (Money Tree)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/pachira-aquatica/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Pachira aquatica",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=277941",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Money Tree",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/money-tree",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Air layering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/air-layering",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "schefflera",
+    "dracaena",
+    "lucky-bamboo",
+    "spider-plant"
+  ],
+  "seo": {
+    "title": "Money Tree Care: Light, Water & Braided Trunks (2026)",
+    "description": "Money tree care in 2026: bright indirect light, evenly moist mix with no standing water, and 65 to 75°F, the range NC State gives. Pet-safe per the ASPCA.",
+    "h1": "Money tree care: light, water and braided trunks"
+  },
+  "content": {
+    "answer": "Give a money tree bright, indirect light, keep its mix moderately and evenly moist without ever letting it stand in water, and hold it between 65 and 75°F. NC State Extension warns that direct sun scorches the leaves and that dry soil makes them drop.",
+    "intro": "The money tree sold with a braided trunk is Pachira aquatica, a tropical tree of freshwater swamps, estuaries and riverbanks from southern Mexico to northern South America. NC State Extension says it reaches 60 feet in the wild and up to 30 feet in cultivation, but typically no more than 6 to 8 feet as a houseplant. Its young trunks are flexible enough to braid, a practice NC State traces to Taiwan in the 1980s, where the plant became a feng shui symbol of prosperity. The name itself comes from a tale of a poor man who grew rich selling the tree's edible nuts, Missouri Botanical Garden explains. Indoors, two traits shape its care. The base of the trunk swells into a caudex that stores water, and the roots of this swamp tree still rot in water that cannot drain away, so the goal is steady moisture in a pot that drains freely.",
+    "light": [
+      "Bright light without direct midday sun is the target. Missouri Botanical Garden says money tree houseplants perform best in bright light, and NC State says the tree prefers indirect sunlight or a mix of sun and shade, warning that direct sun can scorch the leaves. In Illinois Extension terms, bright light is about 300 foot-candles, found directly in front of an east or west window or up to 5 feet from a south window. A spot a few feet back from an east or west window gives medium light, about 150 foot-candles.",
+      "Like most houseplants, a money tree grows toward its light, so a quarter turn of the pot every few waterings keeps the braided canopy even. If you move it outdoors for the summer, the Illinois Extension advises keeping houseplants out of direct sun, choosing a north-facing spot or the shade of a tree, and acclimating them over one to two weeks, then reversing the process before fall temperatures drop."
+    ],
+    "water": [
+      "Missouri Botanical Garden sums up indoor watering as moderate but even moisture, and NC State asks for a moist, well-drained potting mix. Both warn about the extremes. Standing water is not tolerated and causes root rot, NC State says, and both sources note that the tree drops leaves when the soil becomes too dry. In practice, water thoroughly when the top inch of mix starts to feel dry, let the excess run out of the drainage hole, and empty the saucer within a few minutes.",
+      "The swollen caudex at the base of the trunk stores water, according to NC State, which gives the plant some margin after a missed watering but makes soggy soil the bigger danger. If one trunk of a braid turns soft or wrinkled at the base while the others stay firm, check the roots for rot before watering again.",
+      "The Illinois Extension recommends room-temperature water, never cold or softened water, and watering by touch rather than by calendar; plants in unglazed clay pots dry out faster than those in plastic. In winter, growth slows and the mix dries more slowly, so check it more often than you water it."
+    ],
+    "soil": [
+      "NC State recommends a moist, well-drained potting mix made of peat moss, perlite, loam or sand, and lists acid to neutral soil as suitable. A good peat-based houseplant mix with extra perlite for drainage fits that description. The pot must have a drainage hole: in the wild this tree grows where land floods for part of the year, Missouri Botanical Garden notes, but in a container, water that cannot escape simply sits around the roots and suffocates them."
+    ],
+    "humidity": [
+      "Humid air is the money tree's wetland heritage showing. NC State says it thrives in a humid environment and lists humidity that is too low as one cause of yellow leaves. Most homes fall below 30 percent humidity in winter, according to the Illinois Extension, which suggests a humidifier, a pebble tray with the pot held above the water line, or grouping plants together. It also cautions that misting raises humidity only for a short time."
+    ],
+    "temperature": [
+      "NC State gives an ideal range of 65 to 75°F (18 to 24°C) and says the tree should come indoors before temperatures drop to 45°F (7°C), the lowest figure our sources give. Treat that as an emergency floor, not a target; the plant is hardy outdoors only in USDA Zones 10 to 12. Indoors, keep it away from cold window glass and from heating and air-conditioning vents, since the Illinois Extension warns that blasts of hot or cold air and cold panes damage foliage."
+    ],
+    "fertilizer": [
+      "Neither NC State nor Missouri Botanical Garden gives a feeding schedule for the money tree, so the Illinois Extension's general rule applies: no more than once every one to three months from March to September, with a houseplant fertilizer such as 10-10-10 or a 1:2:1 formula at the label rate, and none in winter. NC State links yellow leaves partly to inadequate nutrients in the soil, so a pale tree in good light that has gone a year without food is a fair candidate for feeding. Leach the pot with plenty of plain water every four to six months, as the Illinois Extension recommends, to keep salts from building up."
+    ],
+    "repotting": [
+      "Repot in spring or early summer, while the plant is growing, and only when the signs appear: roots through the drainage holes or on the surface, a soil mass filled with roots, smaller new leaves, or wilting between normal waterings, as the Illinois Extension lists them. Clemson recommends a new pot just 1 or 2 inches wider than the old one, which keeps the volume of wet mix around the roots in proportion. Set the braid at the same depth it grew before, as the Illinois Extension advises."
+    ],
+    "propagation": [
+      "NC State lists softwood cuttings, layering and seed. Seed is out of reach for most owners, because NC State notes that money trees will not flower indoors or when braided. Stem cuttings taken in spring or summer root in moist mix under a clear plastic cover in bright, indirect light, following the Illinois Extension's method, with two or three leaves left on each piece.",
+      "For a longer branch, air layering lets roots form while the stem is still attached and fed by the parent. The Illinois Extension says roots usually show through the plastic wrap after 3 to 4 months. A rooted cutting grows as a single trunk; the braided look comes from twisting several young, flexible stems together, which NC State says began with seedlings in Taiwan."
+    ],
+    "problems": [
+      "NC State lists aphids, mealybugs, scale and fungus gnats as the pests to monitor, with anthracnose, powdery mildew and root rot from standing water as possible diseases, while Missouri Botanical Garden reports no serious insect or disease problems. Leaf drop is the most common complaint, and both sources tie it to soil that dried out. Yellow leaves, NC State says, come from humidity that is too low or from a lack of nutrients in the soil. Fungus gnats point to mix that stays wet at the surface, so let the top inch dry before the next watering."
+    ],
+    "petSafety": [
+      "The ASPCA lists the money tree, Pachira aquatica, as non-toxic to dogs, cats and horses, with no toxic principle. Its entry still mentions nausea, vomiting and loose stool as possible signs if a pet eats the plant. NC State is more cautious: its profile flags the money tree as a problem for cats, with mild to moderate gastrointestinal distress such as vomiting, diarrhea and drooling, and notes that some sources consider the seeds potentially toxic because of cyclopropenoid fatty acids, adding that houseplants never produce seeds. The money tree is one of the safer choices for a home with pets, but discourage chewing all the same and call your veterinarian if a pet seems unwell."
+    ],
+    "faq": [
+      {
+        "q": "Why is my money tree dropping its leaves?",
+        "a": "Most often because the soil dried out: both NC State and Missouri Botanical Garden say a money tree drops leaves when its soil becomes too dry. Water thoroughly and keep the mix evenly moist from then on. If the soil is wet instead, check the roots for rot, since NC State warns that standing water causes it. A recent move, cold drafts or direct sun can also stress the tree."
+      },
+      {
+        "q": "Is a money tree safe for cats and dogs?",
+        "a": "The ASPCA lists Pachira aquatica as non-toxic to cats, dogs and horses, with no toxic principle, though eating it can still cause nausea, vomiting or loose stool. NC State is more cautious and flags it as a problem for cats, with mild to moderate stomach upset. It remains one of the safer houseplants for pet owners, but keep chewing to a minimum."
+      },
+      {
+        "q": "Why has my braided money tree never flowered?",
+        "a": "Because indoor money trees almost never do. NC State says the tree will not flower indoors or when braided, and that trees planted outdoors in frost-free climates take 4 to 5 years to bloom. Outdoors the flowers are spectacular: up to 12 inches long, with 200 to 250 red-tipped stamens, fragrant at night and open for a single day. Indoors, enjoy it as a foliage plant."
+      },
+      {
+        "q": "Are money tree nuts really edible?",
+        "a": "The seeds of Pachira aquatica are eaten raw, fried or roasted where the tree grows outdoors, and NC State and Missouri Botanical Garden say roasted nuts taste like chestnuts. NC State adds a caution: some sources state the seeds are potentially toxic and contain cyclopropenoid fatty acids, so research further before eating them. The question rarely arises indoors, since houseplants do not flower or set seed."
+      },
+      {
+        "q": "How big does a money tree get indoors?",
+        "a": "NC State and Missouri Botanical Garden both put a money tree houseplant at 6 to 8 feet tall, far below the 60 feet it can reach in its native swamps. Each palmate leaf carries 5 to 9 glossy leaflets that are 5 to 10 inches long. Missouri Botanical Garden notes that it is also grown as a bonsai, kept far smaller by pruning and a small pot."
+      }
+    ]
+  }
+}

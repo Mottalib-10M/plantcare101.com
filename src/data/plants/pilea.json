@@ -1,0 +1,251 @@
+{
+  "slug": "pilea",
+  "commonName": "Pilea (Chinese money plant)",
+  "otherNames": [
+    "Chinese money plant",
+    "Pilea peperomioides"
+  ],
+  "botanicalName": "Pilea peperomioides",
+  "formerNames": [],
+  "family": "Urticaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [150, 300],
+    "lux": [1615, 3229],
+    "windows": ["east", "west", "north"],
+    "directSun": "avoid",
+    "src": [0, 3]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Keep the mix lightly moist: water when the surface feels dry, and never leave the pot soggy",
+    "winter": "Growth slows in short days and the mix dries more slowly, so water less often and check the surface before each drink.",
+    "factors": [
+      "NC State warns that the plant is susceptible to root rot if overwatered.",
+      "Water the soil, not the round leaves: wet foliage can lead to leaf spots.",
+      "Fleshy leaves and stems carry a small reserve, so a short dry spell does less harm than a waterlogged pot."
+    ],
+    "src": [0, 4]
+  },
+  "soil": {
+    "mix": "A moist but well-drained potting mix in a pot with a drainage hole.",
+    "components": [
+      "houseplant potting mix",
+      "a pot with a drainage hole"
+    ],
+    "src": [0]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Thrives in moderate to high humidity but tolerates the average humidity of a home.",
+    "src": [0, 4]
+  },
+  "temperature": {
+    "minF": 55,
+    "minC": 13,
+    "src": [0, 4]
+  },
+  "fertilizer": {
+    "season": "March to September, while the plant is growing",
+    "everyWeeks": [4, 13],
+    "strength": "full",
+    "type": "Houseplant fertilizer, balanced (10-10-10) or 1:2:1 (10-20-10), at the label rate and never stronger",
+    "winter": "none",
+    "src": [4]
+  },
+  "repotting": {
+    "signs": [
+      "Pups crowd the rim of the pot",
+      "Roots grow through the drainage holes",
+      "The plant wilts between normal waterings"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [6, 0]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "non-toxic",
+    "humanNote": "NC State describes the Chinese money plant as safe for pets and children. The ASPCA has no entry for Pilea peperomioides.",
+    "aspcaListed": false,
+    "aspca": [],
+    "src": [0, 1, 2]
+  },
+  "problems": [
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long bare stem with a small crown of leaves leaning to one side",
+      "causeKey": "low-light",
+      "cause": "Too little light, which NC State names as the cause of leggy growth",
+      "remedy": "Move it to bright, indirect light and turn the pot a quarter turn every week so the stem grows straight."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Lower leaves yellow and drop, the base of the stem softens",
+      "causeKey": "overwatering",
+      "cause": "Root rot from a pot that stays wet",
+      "remedy": "Unpot, cut away brown roots, repot in fresh well-drained mix and water only when the surface is dry."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Brown or dark spots on the round leaf blades",
+      "causeKey": "disease",
+      "cause": "Leaf spot after water sits on the foliage",
+      "remedy": "Water at the soil line, remove spotted leaves and keep air moving around the plant."
+    },
+    {
+      "symptomKey": "small-flies",
+      "symptom": "Tiny dark flies hovering over the pot",
+      "causeKey": "pests",
+      "cause": "Fungus gnats breeding in constantly damp mix",
+      "remedy": "Let the surface dry between waterings, empty saucers and use yellow sticky cards to catch the adults."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Pale stippling on leaves and fine webs under the leaf",
+      "causeKey": "pests",
+      "cause": "Spider mites",
+      "remedy": "Wipe both sides of every leaf with a damp cloth, isolate the plant and treat with insecticidal soap."
+    },
+    {
+      "symptomKey": "curling-leaves",
+      "symptom": "Leaves cup or curl and brown at the edges next to a heater or window",
+      "causeKey": "drafts",
+      "cause": "Cold drafts or hot air from a heat source",
+      "remedy": "Move it away from vents, radiators and drafty glass, as NC State advises."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Offsets (pups) from the base or roots",
+      "Stem cuttings"
+    ],
+    "season": "Spring or early summer, during active growth"
+  },
+  "size": {
+    "heightIn": [8, 12],
+    "widthIn": [8, 12],
+    "growth": "fast",
+    "src": [0]
+  },
+  "varieties": [],
+  "sources": [
+    {
+      "title": "Pilea peperomioides (Chinese Money Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/pilea-peperomioides/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Cats",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Dogs",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Division",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/division",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["peperomia", "spider-plant", "money-tree", "jade-plant", "boston-fern"],
+  "seo": {
+    "title": "Pilea Care: Chinese Money Plant Light and Water (2026)",
+    "description": "Pilea care in 2026: bright indirect light, moist but well-drained mix, no drafts, and pups to share. NC State calls the Chinese money plant safe for pets.",
+    "h1": "Pilea care: the Chinese money plant"
+  },
+  "content": {
+    "answer": "Pilea peperomioides, the Chinese money plant, wants bright indirect light, a moist but well-drained mix that never stays soggy, and a spot away from drafts and heaters. Turn it weekly so it grows straight, and pot up the pups it sends up around the base.",
+    "intro": "Pilea peperomioides is a member of the nettle family from the cool, shady mountains of Yunnan Province in southern China, and it looks like nothing else on a windowsill: round, glossy leaves about 4 inches across, each held at its center by a long stalk so it floats like a lily pad. NC State Extension describes a compact, clumping, evergreen perennial that usually grows 8 to 12 inches tall and wide, prefers bright indirect light and moist, well-drained potting mix, and is easy enough for home and office. It rarely flowers indoors. What it does do generously is make pups, small plantlets that pop up from the soil around the parent, which is how it spread from windowsill to windowsill long before it was sold widely. The main risks are root rot from overwatering and a lopsided, stretched stem in poor light, and NC State notes it is safe for pets and children.",
+    "light": [
+      "The plant's mountain-forest origin shows in its light needs: plenty of brightness, little or no direct sun on the leaves. NC State says it prefers bright, indirect sunlight. By the University of Illinois Extension's scale, that is high light, about 300 foot-candles, found directly in front of an east or west window or within a few feet of a south one if the sun is screened by a sheer curtain.",
+      "The round leaves track the light, and the whole plant leans toward the window within days. Give the pot a quarter turn every week and the stem grows straight with an even dome of leaves. In a dim room the stem stretches, gaps open between the leaves and new leaves come in smaller; NC State names inadequate light as the cause of leggy growth. A spot right in front of a north window, medium light on the Illinois scale, is about the least it will accept."
+    ],
+    "water": [
+      "NC State asks for a moist, well-drained mix and warns in the same breath that the plant is susceptible to root rot if overwatered. The practical reading is to keep the mix lightly moist rather than wet: water thoroughly when the surface has dried, let all the excess run out of the drainage hole, and never leave the pot sitting in a full saucer. Lift the pot after watering and again a few days later; the change in weight tells you more than any schedule.",
+      "Pour water onto the soil around the stem, not over the leaves. Round, upward-facing blades hold drops, and NC State notes that wetting the foliage can lead to leaf spots. The leaves and stems are a little fleshy, so a pilea that dries out briefly droops and recovers within hours of a drink, whereas one kept soggy loses its lower leaves and then its roots.",
+      "In winter the plant grows slowly and the mix stays damp much longer, especially in a cool room. Keep checking the surface before every watering instead of following a summer routine."
+    ],
+    "soil": [
+      "NC State calls for a moist, well-drained potting mix and gives no special recipe. A good bagged houseplant mix is enough, in a pot with a drainage hole. Because the roots are prone to rot, avoid heavy garden soil and decorative pots without drainage. A pot that is only slightly wider than the leaf spread looks balanced and dries at a sensible pace."
+    ],
+    "humidity": [
+      "NC State says the Chinese money plant thrives in moderate to high humidity but tolerates the average humidity levels of a home. That means no special measures in most rooms. In a winter apartment, where the University of Illinois Extension notes humidity often drops below 30 percent, a pebble tray or grouping it with other plants helps, but keep it away from the dry, moving air of a heating vent, which matters more than the humidity reading."
+    ],
+    "temperature": [
+      "NC State gives no temperature numbers for this plant but says cold drafts and sources of heat need to be avoided. The University of Illinois Extension's rule for foliage houseplants, 65 to 75°F by day with nights 5 to 10 degrees cooler, works well, which puts the night floor around 55 to 60°F (13 to 16°C). Keep the pot off a cold windowsill in winter and away from radiators and air-conditioning vents; leaves that curl or brown at the edges often point to one of these."
+    ],
+    "fertilizer": [
+      "NC State gives no feeding schedule for Pilea peperomioides, so the University of Illinois Extension's general houseplant advice applies: fertilize no more than once every one to three months between March and September, using a balanced houseplant fertilizer or a 1:2:1 formula at the label rate, never stronger, and stop in winter. A plant producing a steady stream of pups in good light can take the shorter interval."
+    ],
+    "repotting": [
+      "The usual reason to repot a pilea is a crowd of pups around the rim rather than a root-bound parent. The University of Illinois Extension's signs apply too: roots growing through the drainage holes, or a plant that wilts between normal waterings. Repot in spring or early summer, when the plant is actively growing, and move up only a little in pot size, since a large volume of damp mix around small roots is what invites rot."
+    ],
+    "propagation": [
+      "NC State says the plant can be propagated by offsets, or pups, and by stem cuttings, and that propagation is best done in spring or early summer during active growth. For a pup, wait until it has a few leaves of its own, then dig down beside it and cut the connecting root or stem with a clean knife, keeping some roots on the plantlet. Pot it at once in moist mix so the roots do not dry out, as the University of Illinois Extension advises for any division.",
+      "A pup cut off above the soil with no roots can still be rooted in water or moist mix, like a stem cutting. A tall, leggy parent can be topped the same way: the cut crown roots as a cutting, and the old stem often sprouts new shoots."
+    ],
+    "problems": [
+      "Overwatering is the problem that kills pileas; NC State flags root rot, and the sign is lower leaves yellowing and dropping while the mix is still damp. Leggy, leaning growth means too little light or a pot that is never turned. NC State also lists spider mites, mealybugs, fungus gnats and scale insects as pests to monitor, and leaf spots from wet foliage. Fungus gnats in particular are a sign that the mix stays wet too long, so the fix is in the watering can rather than a spray."
+    ],
+    "petSafety": [
+      "The ASPCA has no entry for Pilea peperomioides: we checked both its cat and dog plant lists, and it does not appear under that name or as Chinese money plant. The entry the ASPCA calls Money Plant is the money tree, Pachira aquatica, a different plant. Our pet-safe rating comes from NC State Extension, which describes the plant as safe for pets and children and tags it pet friendly. The ASPCA does list several other Pilea species as non-toxic to cats and dogs, including the aluminum plant (P. cadierei), the artillery plant (P. microphylla) and the friendship plant (P. involucrata), but those are different plants and their entries do not automatically cover this one. Any pet that eats a lot of foliage may vomit, so call your veterinarian if that happens."
+    ],
+    "faq": [
+      {
+        "q": "Is the Chinese money plant on the ASPCA list of safe plants?",
+        "a": "No, not by name. Pilea peperomioides does not appear in the ASPCA's cat or dog plant lists. NC State Extension describes it as safe for pets and children, which is the basis for its pet-safe rating here. The ASPCA does list other Pilea species, such as the aluminum and friendship plants, as non-toxic, but that does not formally cover this species."
+      },
+      {
+        "q": "How do I separate a pilea pup from the mother plant?",
+        "a": "Wait until the pup has several leaves, ideally in spring or early summer, the season NC State recommends. Scrape back the soil beside it, find where it joins the parent's roots or stem, and cut with a clean knife, keeping as many roots as possible on the pup. Pot it right away in moist, well-drained mix and keep it in bright, indirect light while it settles."
+      },
+      {
+        "q": "Why is my pilea growing tall and bending toward the window?",
+        "a": "Two things combine. The leaves turn toward the light, so a pot that is never rotated leans, and in too little light the stem stretches, which NC State names as the cause of leggy growth. Give it brighter indirect light and a quarter turn every week. A plant that is already tall and bare can be topped and the crown rooted as a cutting."
+      },
+      {
+        "q": "Does Pilea peperomioides ever flower indoors?",
+        "a": "Occasionally, but not often. NC State says the plant can produce small white to pinkish flowers on tall, spike-like stems in spring, while noting that houseplants rarely flower. The blooms are modest and not the reason to grow it. If one appears, it is a sign of a healthy, well-lit plant; you can leave it or snip it off without harming the foliage."
+      }
+    ]
+  }
+}

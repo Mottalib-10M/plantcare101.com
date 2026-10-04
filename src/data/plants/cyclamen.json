@@ -1,0 +1,285 @@
+{
+  "slug": "cyclamen",
+  "commonName": "Cyclamen",
+  "otherNames": [
+    "Florist's cyclamen",
+    "Persian cyclamen",
+    "Sowbread"
+  ],
+  "botanicalName": "Cyclamen persicum",
+  "formerNames": [
+    "Cyclamen latifolium"
+  ],
+  "family": "Primulaceae",
+  "kind": "flowering",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [150, 300],
+    "lux": [1615, 3229],
+    "windows": ["east", "north", "west"],
+    "directSun": "avoid",
+    "src": [0, 1, 2, 3, 5]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water when the surface of the mix feels dry, along the edge of the pot or from below, never onto the tuber",
+    "winter": "Winter is when florist's cyclamen grows and flowers, so water normally then. The slowdown comes in late spring: as the leaves yellow, reduce watering for the summer dormancy, without letting the mix go completely dust dry.",
+    "factors": [
+      "Water poured onto the crown sits on the tuber and rots it; NC State and Clemson both say to water at the pot edge or from below.",
+      "A warm room near a heat vent dries the small pot fast, so check it more often there.",
+      "The RHS notes that occasional drying out is less harmful than overwatering."
+    ],
+    "src": [0, 1, 2, 3]
+  },
+  "soil": {
+    "mix": "A rich, well-drained potting mix; when new leaves appear in fall, the RHS replaces the top layer with fresh peat-free compost.",
+    "components": [
+      "peat-free houseplant compost",
+      "perlite for drainage"
+    ],
+    "src": [1, 3]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "NC State recommends moderate humidity; the RHS suggests a pebble tray for Christmas houseplants in heated rooms.",
+    "src": [1, 3]
+  },
+  "temperature": {
+    "idealF": [50, 65],
+    "idealC": [10, 18],
+    "minF": 50,
+    "minC": 10,
+    "maxF": 70,
+    "maxC": 21,
+    "src": [0, 1, 3]
+  },
+  "fertilizer": {
+    "season": "From the first new leaves in early fall through flowering, until the leaves yellow in spring",
+    "everyWeeks": [4, 4],
+    "strength": "full",
+    "type": "Liquid houseplant fertilizer at the label rate",
+    "winter": "reduced",
+    "src": [0, 3]
+  },
+  "repotting": {
+    "signs": [
+      "The tuber fills the pot and new leaves are smaller than before",
+      "The mix dries out within a day of watering",
+      "Roots grow through the drainage holes"
+    ],
+    "season": "Late summer to early fall, as new leaves emerge from the dormant tuber",
+    "rootType": "thick-fleshy",
+    "prefersSnug": false,
+    "src": [3, 6]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low for people: the unpleasant taste limits eating, though vomiting and diarrhea can follow, and handling can irritate skin. The raw tuber is the poisonous part.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Cyclamen (Cyclamen spp.)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cyclamen",
+        "toxicPrinciples": "Terpenoid saponins",
+        "clinicalSigns": "Salivation, vomiting, diarrhea. Following large ingestions of tubers: heart rhythm abnormalities, seizures, death"
+      }
+    ],
+    "src": [1, 4]
+  },
+  "problems": [
+    {
+      "symptomKey": "bud-drop",
+      "symptom": "Buds stall and wither before opening",
+      "causeKey": "heat",
+      "cause": "A room above 70°F, which Clemson says stops buds developing",
+      "remedy": "Move it to the coolest bright room you have, ideally 60 to 65°F by day and near 50°F at night."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Leaf and flower stalks collapse at the center, tuber soft",
+      "causeKey": "overwatering",
+      "cause": "Water poured onto the crown, rotting the tuber",
+      "remedy": "Water only at the pot edge or by standing the pot in water for a few minutes, and let the surface dry between waterings."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Leaves yellow and fall in late spring after flowering",
+      "causeKey": "dormancy",
+      "cause": "The summer rest that matches its dry Mediterranean summers",
+      "remedy": "Normal: reduce watering, keep the pot in a shady spot, and resume care when new leaves appear in fall."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long leaf stalks, pale leaves and small, washed-out flowers",
+      "causeKey": "low-light",
+      "cause": "Typical home light is too dim for a compact plant",
+      "remedy": "Give the brightest spot without hot direct sun, such as right at an east window, and keep it cool."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale stippling on the leaves",
+      "causeKey": "pests",
+      "cause": "Spider mites, favored by warm, dry air",
+      "remedy": "Spray insecticidal soap on both leaf surfaces and move the plant somewhere cooler and less dry."
+    },
+    {
+      "symptomKey": "curling-leaves",
+      "symptom": "New leaves and buds distorted, stunted and curled",
+      "causeKey": "pests",
+      "cause": "Cyclamen mites, which are too small to see and hard to control",
+      "remedy": "Clemson advises discarding an infested plant; isolate it at once so the mites do not spread."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Fresh seed (slow, 9 to 15 months to a flowering plant)",
+      "Division of the tuber (risky, prone to rot)"
+    ],
+    "season": "Late summer, at the end of dormancy"
+  },
+  "size": {
+    "heightIn": [6, 16],
+    "widthIn": [6, 9],
+    "note": "Most florist's cyclamen stay 6 to 9 inches tall; larger strains reach 16 inches.",
+    "src": [0, 1, 3]
+  },
+  "varieties": [
+    {
+      "name": "Blanc Pur",
+      "note": "Pure white flowers."
+    },
+    {
+      "name": "Silver Leaf",
+      "note": "Leaves washed almost entirely in silver."
+    },
+    {
+      "name": "Ashwood Silver Leaf",
+      "note": "Variable silver foliage with pale pink flowers marked by a deep blotch."
+    },
+    {
+      "name": "Tilebarn Karpathos",
+      "note": "Deep red flowers with twisted petals."
+    },
+    {
+      "name": "Persian Delight",
+      "note": "White petals with a purple center."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Florist Cyclamen (HGIC 1564)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/cyclamen/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cyclamen persicum (Florist's Cyclamen)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/cyclamen-persicum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cyclamen",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/cyclamen/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Christmas-flowering houseplants",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/christmas-flowering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cyclamen",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cyclamen",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["african-violet", "poinsettia", "amaryllis", "christmas-cactus"],
+  "seo": {
+    "title": "Cyclamen Care: Cool Rooms, Tuber & Summer Rest (2026)",
+    "description": "Cyclamen care in 2026: keep it at 60 to 65°F by day and near 50°F at night, water at the pot edge, never on the tuber, and let it rest through summer.",
+    "h1": "Cyclamen care: cool temperatures, tuber and dormancy"
+  },
+  "content": {
+    "answer": "Keep florist's cyclamen cool, 60 to 65°F by day and around 50°F at night, in bright light without direct sun. Water when the surface is dry, at the pot edge or from below so the tuber stays dry. It goes dormant in summer.",
+    "intro": "Florist's cyclamen, Cyclamen persicum, grows from a flattened tuber that sits half exposed at the soil surface, and every leaf and flower stalk rises straight from it. Its wild ancestors live on rocky slopes and in pine woods from Algeria to the eastern Mediterranean, where winters are cool and wet and summers hot and dry. The houseplant still runs on that calendar. It flowers from early winter into spring, and Clemson Extension notes that buds fail to develop once rooms pass 70°F, which is why so many gift plants fade on a warm mantel. In late spring the leaves yellow and the tuber goes to sleep for summer. That is not death, though most people throw the plant out at that point. Give it a cold, bright windowsill and keep water off the tuber, and it can bloom for months.",
+    "light": [
+      "Bright, indirect light is the consensus across the sources: Clemson, NC State, UF/IFAS and the RHS all ask for a well-lit spot out of direct sun. A cool east window is close to perfect, and a north window works in a bright room. Hot afternoon sun through glass warms the leaves past the range the plant tolerates and shortens flowering.",
+      "Too little light causes its own problems. Clemson explains that light levels in most homes are not high enough, which leads to long leaf stalks, smaller blooms and paler colors, and NC State says low light makes the plant weak. If yours is stretching, move it closer to the window rather than into a warmer room. When a resting tuber pushes new leaves in mid-September, Clemson moves it into a much brighter position to build a compact plant."
+    ],
+    "water": [
+      "The tuber is the weak point. Water that pools in the crown, where stalks meet the top of the tuber, rots it from the center out. NC State and Clemson both say to water along the edge of the pot or from below. The RHS method works well: stand the pot in a few centimeters of water for about five minutes, then lift it out and let it drain fully. Water again when the surface feels dry to the touch.",
+      "Keep the mix moist but never soggy while the plant is in leaf. A cyclamen in a warm room or near a heat vent dries out fast, and Clemson warns that a vent will dry the soil too quickly. The RHS adds a useful reassurance: occasional drying out is less harmful than overwatering. A plant that wilts from thirst usually revives after a soak, while a rotted tuber does not.",
+      "When the leaves begin to yellow after flowering, cut back. The RHS reduces watering as the plant goes dormant for summer, and NC State says watering should be reduced at that stage. Clemson adds a caution: do not let the mix dry out completely during dormancy. Resume regular watering once new leaves appear in early fall."
+    ],
+    "soil": [
+      "NC State recommends a rich, well-drained soil, and any good houseplant mix with some perlite meets that standard. Drainage holes matter more than the exact recipe, because a cyclamen sitting in wet compost is one watering away from tuber rot. When new leaves appear after dormancy, the RHS replaces the top layer of compost with fresh peat-free mix rather than disturbing the tuber."
+    ],
+    "humidity": [
+      "NC State recommends moderate humidity, so ordinary room air is enough as long as the plant is cool. Heated rooms in winter are the problem, because warmth and dry air arrive together. The RHS suggests a pebble tray under Christmas houseplants, with the base of the pot kept above the water line, and grouping plants together. Do not mist the crown, which only puts water where it causes rot."
+    ],
+    "temperature": [
+      "Coolness is the single most important factor. Clemson gives ideal days of 60 to 65°F (16 to 18°C) with nights around 50°F (10°C), and says buds fail to develop above 70°F (21°C). The RHS groups indoor cyclamen with plants for bright, cool rooms of 50 to 59°F (10 to 15°C), and NC State recommends about 65°F. In practice that means an unheated bedroom, a cool entry hall or a sill in a room you keep at the low end of comfortable. Keep it away from radiators, fireplaces and heat vents."
+    ],
+    "fertilizer": [
+      "Feed lightly while the plant is in leaf. Clemson, describing the restart after dormancy, fertilizes monthly with a liquid houseplant fertilizer once new leaves grow from mid-September. The RHS continues careful feeding after flowering until the leaves yellow. Stop as the plant enters its summer rest, and do not feed a dormant tuber with no leaves."
+    ],
+    "repotting": [
+      "A florist's cyclamen rarely needs a bigger pot in its first year. The time to repot, if ever, is the end of dormancy in late summer, when the tuber starts pushing new leaves; Illinois Extension recommends repotting plants while they are actively growing. Set the tuber at the same level it grew before, with its top at the surface, and use fresh mix. If the pot is still roomy, the RHS approach of only refreshing the top layer is enough."
+    ],
+    "propagation": [
+      "Honestly, this is a plant to buy rather than propagate. Clemson discourages growing it from seed even though that is how professional growers do it: germination is slow and erratic, and a flowering plant takes 9 to 15 months even in a greenhouse. NC State notes that fresh seed germinates in roughly three to four weeks, but erratically. Division is no easier, because each tuber has few growing points and cut pieces dry out or rot."
+    ],
+    "problems": [
+      "Warmth causes most cyclamen trouble: buds that never open, flowers that fade in a week, and spider mites that thrive in warm, dry air. Tuber rot from overwatering, or from watering onto the crown, is the other common killer. Yellowing in late spring is usually dormancy, not a disease. Clemson lists aphids, mealybugs, spider mites and thrips as occasional pests controlled with insecticidal soap, and says a plant with cyclamen mites is best discarded."
+    ],
+    "petSafety": [
+      "The ASPCA lists cyclamen as toxic to cats, dogs and horses. Its toxic principles are terpenoid saponins, causing salivation, vomiting and diarrhea, and the ASPCA warns that large ingestions of tubers can lead to heart rhythm abnormalities, seizures and death. The tuber is the dangerous part, which matters because it sits exposed at the soil surface and dogs sometimes dig up resting tubers. NC State rates it of low severity for people, partly because the taste is unpleasant, and notes that handling can irritate skin. Keep it out of reach of pets and call your veterinarian or the ASPCA Animal Poison Control Center at once if an animal chews the tuber."
+    ],
+    "faq": [
+      {
+        "q": "Why is my cyclamen drooping all of a sudden?",
+        "a": "Check the mix first. Bone dry means thirst: stand the pot in water for a few minutes and it usually perks up within hours. Wet mix with a soft, collapsing center means the tuber is rotting, often from water poured onto the crown. Heat is the third suspect, since a cyclamen near a radiator wilts and stops forming buds above 70°F."
+      },
+      {
+        "q": "How do I get a cyclamen to bloom again next winter?",
+        "a": "Let it rest, then wake it up cool and bright. After the leaves yellow in spring, reduce watering but do not let the mix dry out completely, and keep the pot in shade. When new leaves appear around mid-September, Clemson moves it to bright light, waters regularly, feeds monthly and keeps nights near 50°F. It should flower again by midwinter."
+      },
+      {
+        "q": "Is my cyclamen dead when the leaves turn yellow in spring?",
+        "a": "Probably not. Florist's cyclamen goes dormant after flowering, matching the dry summers of its Mediterranean home, and the leaves yellow and fall while the tuber stores energy. Press the tuber: if it is firm, it is alive. Cut back watering, keep it shaded through summer, and wait for new leaves in early fall."
+      },
+      {
+        "q": "Can a florist's cyclamen be planted outside in the garden?",
+        "a": "Only in mild areas. NC State lists Cyclamen persicum as winter hardy in USDA Zones 9 to 11 and calls it frost tender, and UF/IFAS says Florida gardeners usually treat it as a cool-season annual. Elsewhere it is an indoor plant. The hardy garden cyclamen sold for shady borders are different species, smaller and much tougher."
+      },
+      {
+        "q": "What is the correct way to deadhead cyclamen flowers?",
+        "a": "Remove the whole stalk, not just the flower. Follow the faded bloom down to the tuber, grip the stem near its base, twist and give it a sharp pull so it comes away cleanly. The RHS notes that stubs left behind often rot, and rot on the crown can spread to the tuber. Clemson says regular deadheading encourages more flowers to develop."
+      }
+    ]
+  }
+}

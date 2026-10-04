@@ -1,0 +1,271 @@
+{
+  "slug": "string-of-pearls",
+  "commonName": "String of pearls",
+  "otherNames": [
+    "String of beads",
+    "Necklace plant",
+    "Bead plant",
+    "String of peas",
+    "Rosary vine"
+  ],
+  "botanicalName": "Curio rowleyanus",
+  "formerNames": [
+    "Senecio rowleyanus",
+    "Kleinia rowleyana"
+  ],
+  "family": "Asteraceae",
+  "kind": "succulent",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [150, 1500],
+    "lux": [1615, 16146],
+    "windows": ["east", "west", "south"],
+    "directSun": "morning-only",
+    "src": [0, 1, 2]
+  },
+  "water": {
+    "rule": "half-dry",
+    "ruleText": "Let the mix dry well down into the pot, but do not leave it bone dry for long",
+    "winter": "Water less in winter, when NC State and Missouri Botanical Garden both advise a cool 50 to 60°F rest; the beads should stay plump, never soft.",
+    "factors": [
+      "Soggy mix rots the shallow roots and the stem bases; NC State calls wet soil the plant's demise.",
+      "NC State says never let it dry out completely, while Missouri Botanical Garden says to let the roots dry between waterings: aim between the two.",
+      "Shriveled beads can mean too much water, too little water or poor light, so check the mix before reaching for the watering can."
+    ],
+    "src": [0, 1]
+  },
+  "soil": {
+    "mix": "A dry, sandy, fast-draining cactus mix, or ordinary potting mix cut with sand or perlite, in a pot with a drainage hole.",
+    "components": [
+      "cactus and succulent potting mix",
+      "coarse sand",
+      "perlite"
+    ],
+    "src": [0, 1]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "Indoor air of any humidity suits it; Missouri Botanical Garden says high humidity does not bother it, and the bead shape limits water loss in dry air.",
+    "src": [0, 1]
+  },
+  "temperature": {
+    "idealF": [70, 80],
+    "idealC": [21, 27],
+    "minF": 50,
+    "minC": 10,
+    "src": [0, 1]
+  },
+  "fertilizer": {
+    "season": "March to September, while the stems are lengthening",
+    "everyWeeks": [4, 13],
+    "strength": "full",
+    "type": "Houseplant fertilizer, balanced (10-10-10) or 1:2:1, at the label rate and never stronger",
+    "winter": "none",
+    "src": [3]
+  },
+  "repotting": {
+    "everyYears": [1, 1],
+    "signs": [
+      "Stems have filled the rim and new growth is thin",
+      "The mix stays wet for days or has broken down",
+      "Bare patches appear in the center of the pot"
+    ],
+    "season": "Spring",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [1, 5]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: eating the leaves can cause vomiting and diarrhea, and the sap can cause skin irritation and a rash.",
+    "aspcaListed": false,
+    "aspca": [],
+    "src": [0, 6, 7]
+  },
+  "problems": [
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Stems soft and dark near the soil, beads falling off",
+      "causeKey": "overwatering",
+      "cause": "Root and stem rot in mix that stays wet",
+      "remedy": "Cut healthy strands above the damage, lay them on fresh, barely damp cactus mix and discard the rotted crown and soil."
+    },
+    {
+      "symptomKey": "wrinkled-leaves",
+      "symptom": "Beads deflated and wrinkled, mix dry and pulling from the pot",
+      "causeKey": "underwatering",
+      "cause": "Mix left bone dry too long, which NC State warns against",
+      "remedy": "Water slowly until it drains, wait for the mix to dry well down again, then repeat; plump beads return within days."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long bare stretches of stem between small beads",
+      "causeKey": "low-light",
+      "cause": "Too little light for a plant that wants bright conditions",
+      "remedy": "Hang it directly in front of an east or west window, or a few feet back from a south one."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Tan, scorched patches on the sunny side of the beads",
+      "causeKey": "too-much-sun",
+      "cause": "Hot direct sun through glass, which NC State says scorches the leaves",
+      "remedy": "Move it out of afternoon sun or filter the light with a sheer curtain; damaged beads will not recover but new ones will be clean."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony tufts tucked between the beads",
+      "causeKey": "pests",
+      "cause": "Mealybugs, a pest named by both NC State and Missouri Botanical Garden",
+      "remedy": "Touch each tuft with a cotton swab dipped in rubbing alcohol and recheck the strands every week."
+    },
+    {
+      "symptomKey": "slow-growth",
+      "symptom": "Old plant thinning out even with good care",
+      "causeKey": "natural-aging",
+      "cause": "Natural die-back after several years, noted by both NC State and Missouri Botanical Garden",
+      "remedy": "Root fresh cuttings and start a new pot rather than trying to revive the old crown."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings laid on mix",
+      "Single beads dropped on the soil (slow)"
+    ],
+    "season": "Spring to summer"
+  },
+  "size": {
+    "heightIn": [12, 24],
+    "widthIn": [12, 36],
+    "note": "The stems trail 1 to 3 feet over the pot edge (NC State); Missouri Botanical Garden notes trailing stems of 2 to 3 feet or more in the wild.",
+    "src": [0, 1]
+  },
+  "varieties": [
+    {
+      "name": "Variegata",
+      "note": "Beads splashed green and creamy white; NC State lists it as the cultivar of the species."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Curio rowleyanus (String of Pearls)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/curio-rowleyanus/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Curio rowleyanus",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=457444",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Cats",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Dogs",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["string-of-hearts", "succulents", "hoya", "jade-plant", "aloe-vera"],
+  "seo": {
+    "title": "String of Pearls Care: Water, Light and Soil Guide (2026)",
+    "description": "String of pearls care in 2026: sandy cactus mix, bright light, 70 to 80°F in summer and a 50 to 60°F winter rest, per NC State. Fix shriveled beads and rot.",
+    "h1": "String of pearls care: water, light and soil"
+  },
+  "content": {
+    "answer": "Grow string of pearls in a sandy cactus mix in bright light, ideally hanging near an east or west window. Water when the mix has dried well down, but not to dust. NC State advises 70 to 80°F in summer and 50 to 60°F in winter.",
+    "intro": "Curio rowleyanus, sold for decades as Senecio rowleyanus, is a creeping succulent from the dry Cape region of South Africa, where its threadlike stems crawl under shrubs and rocks and root wherever they touch the ground. Each bead is a leaf reduced to a sphere about a quarter inch across, a shape that exposes little surface to dry air, and the dark line along its side is an epidermal window that lets light reach the green tissue inside. Missouri Botanical Garden describes the core of each bead as water storage cells. Indoors that design makes the plant drought tolerant but also fussy: NC State and Missouri Botanical Garden both call it picky, because beads shrivel from too much water, too little water or poor light. Give it a shallow pot of gritty mix, strong light without scorching afternoon sun, a cool dry winter and fresh cuttings every few years, and the strands will spill two feet or more over the rim.",
+    "light": [
+      "Bright light keeps the beads tight along the stem. In the University of Illinois Extension scale, that means high light, about 300 foot-candles, which you get directly in front of an east or west window or up to five feet back from a south one. NC State rates it for partial shade outdoors, two to six hours of direct sun, while indoors it does best in bright, indirect light; Missouri Botanical Garden lists full sun to part shade for the garden.",
+      "Gentle morning sun is welcome. Hot afternoon sun through glass is not: NC State notes that direct sunlight can scorch the beads, leaving tan, dry patches on the exposed side. In a dim room the stems stretch, leaving long bare gaps between beads that never fill in. Hanging baskets often sit above window level, so check that the crown, not just the trailing ends, actually sees the sky."
+    ],
+    "water": [
+      "This is the part people get wrong, and the two main sources pull in slightly different directions. Missouri Botanical Garden says to let the roots dry between waterings and notes that the plant can withstand long droughts. NC State agrees that it tolerates infrequent watering but adds that you should never let it dry out completely. In practice, wait until the mix is dry well down into the pot, then water slowly at the soil surface, not over the strands, until it runs from the drainage hole.",
+      "Read the beads as a gauge. Firm, round beads mean the plant is fine. Wrinkled or flattened beads on dry mix mean it is thirsty. Wrinkled beads on wet mix, with soft dark stems at the soil line, mean rot, and more water will finish it. Because the roots are shallow and the stems sit right on the surface, a pot that stays damp near the top is far more dangerous than one that dries a little too far.",
+      "Cut back sharply in winter. Both sources advise a cool rest at 50 to 60°F, and at those temperatures the mix dries slowly, so you may water only a fraction as often as in July. Empty any saucer under a hanging pot within half an hour."
+    ],
+    "soil": [
+      "Use a dry, sandy, very well-drained mix. Missouri Botanical Garden recommends a cactus-type potting mix, and NC State suggests either a cactus mix or regular potting soil blended with sand or perlite. Peat-heavy bagged mix alone holds water around the stem bases for too long. A shallow, wide pot suits the creeping habit better than a deep one, since the roots stay near the surface and a deep pot leaves a wet layer below them."
+    ],
+    "humidity": [
+      "Humidity is not a concern. The bead shape exists to cut water loss in arid air, so the dry air of a heated home in winter does no harm, and Missouri Botanical Garden notes that high humidity does not bother it either. Skip misting; wet beads and a damp crown only invite rot."
+    ],
+    "temperature": [
+      "Warm summers and cool winters match its native rhythm. NC State and Missouri Botanical Garden both give 70 to 80°F as the summer range and 50 to 60°F for winter. It is frost tender and outdoors is limited to USDA zones 9b to 11b, so a pot that summers on a porch must come inside before the first fall frost. Keep it away from heating vents, which dry the beads unevenly, and off glass that turns icy at night."
+    ],
+    "fertilizer": [
+      "It needs little food. No source gives a specific feeding rate for this plant, so follow the University of Illinois Extension rule for houseplants: no more than once every one to three months between March and September, with a balanced or 1:2:1 houseplant fertilizer at the label rate, never stronger. Stop in winter while it rests. Too much nitrogen gives soft, widely spaced beads that are more prone to rot."
+    ],
+    "repotting": [
+      "Missouri Botanical Garden suggests repotting every spring, and the reason is the mix rather than root space: fine organic potting soil breaks down and stays wetter each year, which is dangerous for a plant that rots easily. Lift the whole mat of stems carefully, since the beads snap off at a touch, and set it at the same depth in fresh, gritty mix. Go up only an inch or two in width.",
+      "Be realistic about age. Both sources say the plant tends to die back after several years. When the center thins and new growth stalls despite good care, propagate the healthiest strands instead of nursing the old crown."
+    ],
+    "propagation": [
+      "Stem cuttings root fast. NC State recommends taking 3 to 5 inch pieces and covering a few nodes with potting mix, where new roots form. A simpler trick is to coil the cut strands on top of a pot of barely damp cactus mix and pin them down with a bent paper clip; roots grow wherever stem touches soil, just as the plant creeps in the wild. Spring and summer, when it is growing, give the quickest results.",
+      "A single bead dropped on the soil can root too, but NC State calls this slower and less reliable. Outdoors the plant also sets seed with a cottony pappus carried by wind, though indoor plants rarely bloom; when they do, the small white flowers smell of cinnamon."
+    ],
+    "problems": [
+      "Most failures come back to water, light or age. Shriveled beads are the classic complaint, and Missouri Botanical Garden lists all three causes for them: overwatering, underwatering and poor light. Check the mix first. NC State adds that leaves turning yellow or gray may point to insects, and names aphids, whiteflies, fungus gnats, ants and mealybugs. Fungus gnats in particular signal a mix that stays too wet."
+    ],
+    "petSafety": [
+      "The ASPCA has no entry for string of pearls under any of its names in its cat and dog plant lists, so the ASPCA neither confirms nor rules out harm. NC State does rate it: a problem for cats, dogs and horses, with low poison severity for people, pyrrolizidine alkaloids as the toxic principle, and vomiting, diarrhea and skin irritation as the symptoms. Several other Senecio species, such as groundsel and ragwort, are listed as toxic by the ASPCA. Hang the pot well out of reach of pets, wear gloves when handling broken stems, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if a pet chews it."
+    ],
+    "faq": [
+      {
+        "q": "Why does my string of pearls look flat and deflated even after watering?",
+        "a": "Feel the mix and the stems at the soil line. If the mix is wet and the stems are soft or dark, the roots have rotted and can no longer take up water, so the beads deflate despite the watering. Save firm strands as cuttings. If the mix is dry, the plant is simply thirsty: water slowly until it drains, and the beads should fill out again within a few days."
+      },
+      {
+        "q": "Can string of pearls grow in a pot without a hanging basket?",
+        "a": "Yes. Missouri Botanical Garden notes that it can be grown in a flat dish, where it creeps across the surface the way it does on the ground in South Africa. Stems that touch the mix root as they go, so a wide, shallow bowl fills in and looks fuller over time. Keep the bowl in bright light and let it drain well, since flat containers can hold water at the bottom."
+      },
+      {
+        "q": "Does string of pearls ever flower indoors?",
+        "a": "Rarely, but it can. NC State describes small white, daisy-like flowers about half an inch across, with red and yellow stamens on 1.5 inch stalks, and a cinnamon scent. They appear in summer on plants that get bright light and a cool, dry winter rest at 50 to 60°F. Even without flowers the plant is grown mainly for its beads."
+      },
+      {
+        "q": "How long do string of pearls plants live?",
+        "a": "Individual plants often decline after several years, which both NC State and Missouri Botanical Garden note. The center thins and new growth slows even with good care. That is normal aging rather than a mistake on your part. Keep the plant going indefinitely by rooting healthy strands each spring and starting fresh pots, so you always have a young plant ready to replace the old one."
+      },
+      {
+        "q": "Is string of pearls the same plant as string of hearts?",
+        "a": "No. String of pearls, Curio rowleyanus, is in the aster family and stores water in round, bead-like leaves. String of hearts, Ceropegia woodii, belongs to the dogbane family and has flat, heart-shaped leaves with small tubers along the stems. Both trail from hanging pots and dislike wet soil, which is why they are often sold side by side, and both are sometimes called rosary vine."
+      }
+    ]
+  }
+}

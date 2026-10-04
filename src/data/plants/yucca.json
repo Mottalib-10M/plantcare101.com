@@ -1,0 +1,329 @@
+{
+  "slug": "yucca",
+  "commonName": "Yucca",
+  "otherNames": [
+    "Spineless yucca",
+    "Giant yucca",
+    "Soft-tip yucca"
+  ],
+  "botanicalName": "Yucca gigantea",
+  "formerNames": [
+    "Yucca elephantipes",
+    "Yucca guatemalensis"
+  ],
+  "family": "Asparagaceae",
+  "kind": "succulent",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [
+      300,
+      1500
+    ],
+    "lux": [
+      3229,
+      16146
+    ],
+    "windows": [
+      "south",
+      "west"
+    ],
+    "directSun": "tolerates",
+    "src": [
+      0,
+      1,
+      3
+    ]
+  },
+  "water": {
+    "rule": "fully-dry",
+    "ruleText": "Water thoroughly, then let the mix dry out completely before watering again",
+    "winter": "Growth slows indoors in winter and a pot of gritty mix stays damp much longer; water only when it is dry all the way down.",
+    "factors": [
+      "NC State calls the plant drought tolerant and warns that overwatering is the main problem.",
+      "UF/IFAS lists root rot in soil kept too moist as the one disease of real concern.",
+      "A freshly rooted cane takes up little water until its roots fill out, so water it sparingly at first."
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "soil": {
+    "mix": "One part potting mix to three parts perlite or sand, the very lean, fast-draining blend NC State recommends for houseplants.",
+    "components": [
+      "potting mix (1 part)",
+      "perlite or coarse sand (3 parts)"
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "NC State says ordinary indoor humidity is adequate; no misting is needed.",
+    "src": [
+      0
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      70,
+      90
+    ],
+    "idealC": [
+      21,
+      32
+    ],
+    "minF": 50,
+    "minC": 10,
+    "src": [
+      0
+    ]
+  },
+  "fertilizer": {
+    "season": "March to September, while it is growing",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "Balanced houseplant fertilizer (10-10-10) or a 1:2:1 formula at the label rate, never stronger",
+    "winter": "none",
+    "src": [
+      5
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots fill the pot and grow through the drainage hole",
+      "The tall canes make the pot tip over",
+      "Water runs straight through a pot packed with roots"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "thick-fleshy",
+    "prefersSnug": true,
+    "src": [
+      6,
+      8
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates poison severity as low: eating leaves or roots can cause nausea, vomiting, diarrhea, headache and dizziness, and the sap can cause minor rashes.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Yucca (Yucca spp.)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/yucca",
+        "toxicPrinciples": "Saponins",
+        "clinicalSigns": "Dogs, cats: Vomiting; Horses: liver disease, dermatitis"
+      }
+    ],
+    "src": [
+      0,
+      2
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Cane soft and dark at the base, leaves yellowing from the bottom",
+      "causeKey": "overwatering",
+      "cause": "Root and stem rot in mix kept too moist",
+      "remedy": "Unpot and cut the cane above the soft tissue; root the healthy top as a cutting in dry, gritty mix and discard the rotten base."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky leaves and small brown or white bumps along the leaf bases",
+      "causeKey": "pests",
+      "cause": "Scale insects, listed by NC State and UF/IFAS",
+      "remedy": "Scrape off scales with a soft brush, wipe the leaves, and treat with horticultural oil or insecticidal soap."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White fluffy clusters where leaves join the cane",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Dab them off with a cotton swab dipped in rubbing alcohol and check the crown every week for survivors."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Small brown spots scattered on older leaves",
+      "causeKey": "disease",
+      "cause": "Fungal leaf spot, which UF/IFAS says does no real harm",
+      "remedy": "Remove badly spotted leaves, keep water off the foliage, and give the plant more air and light."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "New leaves thin, pale and drooping, crown leaning toward the window",
+      "causeKey": "low-light",
+      "cause": "Too little light for a plant that prefers full sun",
+      "remedy": "Move it to the brightest south or west window you have, adjusting over two weeks so leaves grown in shade do not scorch."
+    },
+    {
+      "symptomKey": "drooping",
+      "symptom": "Leaves collapse or blacken after a cold spell",
+      "causeKey": "cold",
+      "cause": "Chilling below 50°F, which NC State says leads to damage and dieback",
+      "remedy": "Bring it indoors or away from cold glass; trim dead leaves and wait for new growth from the top of the cane."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Cane or stem cuttings",
+      "Basal suckers (offsets)",
+      "Seed"
+    ],
+    "season": "Spring to summer"
+  },
+  "size": {
+    "note": "NC State gives 15 to 30 feet outdoors and says houseplants stay much more compact; no extension source gives an indoor height.",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [
+    {
+      "name": "'Variegata'",
+      "note": "Pale green, flexible leaves with broad cream stripes; UF/IFAS says it is gaining popularity."
+    },
+    {
+      "name": "'Marginata'",
+      "note": "Pale green leaves with a narrow cream stripe along both edges and small marginal teeth."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Yucca gigantea (Giant Yucca)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/yucca-gigantea/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Yucca gigantea: Spineless Yucca (ENH831)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://edis.ifas.ufl.edu/publication/ST675",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Yucca",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/yucca",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Yucca (HGIC 1077)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/yucca/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting and Repotting (HGIC 1458)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Yucca",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/yucca/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "ponytail-palm",
+    "dracaena",
+    "snake-plant",
+    "aloe-vera",
+    "jade-plant",
+    "succulents"
+  ],
+  "seo": {
+    "title": "Yucca Care: Indoor Light, Water and Cane Rot (2026)",
+    "description": "Yucca care in 2026: full sun, 1 part potting mix to 3 parts perlite, water only when dry, keep above 50°F. Toxic to cats and dogs per the ASPCA (saponins).",
+    "h1": "Yucca care: light, water and soil indoors"
+  },
+  "content": {
+    "answer": "Indoor yucca, here the spineless Yucca gigantea, needs the brightest window you have, a very gritty mix of one part potting soil to three parts perlite or sand, and water only once the pot has dried out. Keep it above 50°F.",
+    "intro": "The yucca that NC State and UF/IFAS describe as a houseplant is the spineless or giant yucca, Yucca gigantea, often still labeled under its old name Yucca elephantipes, a nod to the trunk that swells like an elephant's foot. It comes from Mexico and Central America, belongs to the asparagus family, and in Florida landscapes UF/IFAS records it reaching 20 to 30 feet. Unlike the Spanish bayonet and other garden yuccas that Clemson Extension describes, its leaves end in soft tips rather than dagger points, which is exactly why it works indoors. If your plant has stiff, needle-sharp leaf tips, it is a different species and this page fits it less well. Care follows from its succulent nature: sun, sharp drainage, sparing water and warmth above 50°F. Grown that way it is a tough, fast plant; kept wet in a dark corner, it rots from the cane up.",
+    "light": [
+      "NC State says the giant yucca prefers full sun and tolerates partial shade, and UF/IFAS notes it grows well as a houseplant in a well-lighted area. Indoors that translates to the top of the Illinois Extension scale: at least high light, around 300 foot-candles, and ideally direct sun from a south or west window. The yucca is not one of the plants that adapts to a north room. It survives for a while, but the rosette thins and the new leaves stretch and droop.",
+      "Plants bought from a garden center have often been grown in shade houses. Move one into full sun over a week or two rather than overnight so the existing leaves can adjust; leaves grown in shade can bleach when suddenly exposed. Turn the pot every few weeks so the rosettes on each cane grow upright instead of leaning toward the glass."
+    ],
+    "water": [
+      "NC State describes the plant as drought tolerant and warns that overwatering can be a problem, and UF/IFAS goes further for landscape plantings: do not irrigate yucca, because root rot in soils kept too moist is the only disease of major concern. Indoors, a pot does need water, but only after the mix has dried out completely. Check with a long wooden skewer pushed to the bottom of the pot; if it comes out clean and dry, water slowly until it drains from the bottom, then empty the saucer.",
+      "Because yucca roots from cuttings of any size, as UF/IFAS notes, a potted yucca may be a cane cut from a larger plant and rooted. Until such a cane has a full set of roots it uses very little water, and a wet pot is the quickest way to rot it. Water a newly potted cane sparingly and let new leaves at the top tell you it has rooted before you water more generously.",
+      "In winter indoor light falls, growth slows, and a pot of gritty mix can stay damp much longer than you expect. Stretch the interval and keep relying on the skewer test, not a summer routine."
+    ],
+    "soil": [
+      "NC State gives a clear houseplant recipe: one part potting mix to three parts perlite or sand. That is far leaner than an ordinary bagged mix, and it reflects the plant's need for air around the roots. A heavy terra-cotta pot pairs well with it, both because clay dries faster and because tall canes in a light plastic pot fall over easily. In the ground NC State lists a wide pH tolerance, from acid to alkaline, so there is no need to adjust pH in a pot."
+    ],
+    "humidity": [
+      "No special humidity is needed. NC State notes that indoor temperatures and humidity levels are adequate for this plant. Misting does nothing useful for its leathery leaves, and keeping water off the foliage limits the leaf spot UF/IFAS mentions."
+    ],
+    "temperature": [
+      "NC State gives the outdoor sweet spot as 70 to 90°F and says the plant needs to come indoors when temperatures drop below 50°F, because cold and freezing temperatures cause damage and dieback. It also advises keeping the plant away from cold drafts and sudden temperature changes. Inside, a spot near a sunny window is ideal as long as the leaves do not touch cold glass in winter. Outdoors year-round it is limited to USDA zones 10 to 12 according to NC State; UF/IFAS lists 9B through 11."
+    ],
+    "fertilizer": [
+      "No extension source consulted gives a feeding schedule specific to indoor yucca, so the general houseplant rule applies. The Illinois Extension recommends feeding most houseplants no more than once every one to three months between March and September with a balanced fertilizer such as 10-10-10 or a 1:2:1 formula, at the label rate and never stronger. In a dim spot, stay at the low end of that range, and stop in winter when growth slows."
+    ],
+    "repotting": [
+      "Repot in spring or early summer, when the plant is actively growing, if roots grow through the drainage holes, the root mass fills the pot, or the plant topples. Clemson's rule is a pot only 1 to 2 inches wider than the old one, which keeps the volume of wet mix around the roots small. For a tall specimen that is impractical to move, Clemson suggests replacing the top 2 or 3 inches of mix with fresh material every other year instead. Press the mix in gently around the canes rather than packing it, as Clemson advises."
+    ],
+    "propagation": [
+      "Yucca is one of the easiest plants to multiply. UF/IFAS says it can be propagated by cuttings of any size, and that the suckers that appear at the base root quite easily; NC State lists seed, cuttings and basal suckers. In spring or summer, cut a sucker away with some of its base, or saw off the top of an overgrown cane. Let the cut surface dry for a few days, then set it in barely damp gritty mix in bright light. The stump left in the pot can sprout new rosettes from below the cut."
+    ],
+    "problems": [
+      "NC State says the giant yucca is generally free of insects and diseases, but tells growers to monitor for mealybugs, aphids, scale, black weevil and yucca moth borers; the last two bore into stems and roots and mainly affect outdoor plants. Indoors, the common pests are scale and mealybugs tucked into the leaf bases. Root rot from soil kept too moist is the serious problem. UF/IFAS adds that leaf spots sometimes appear but do no real harm."
+    ],
+    "petSafety": [
+      "The ASPCA lists yucca, as Yucca spp., as toxic to dogs, cats and horses. The toxic principle is saponins, and the clinical sign the ASPCA gives for dogs and cats is vomiting; horses can suffer liver disease and dermatitis. NC State notes that saponins are most concentrated in the leaves and roots, and rates the severity for people as low, with nausea, vomiting, diarrhea, headache and dizziness possible if eaten and minor rashes from the sap. Keep the plant where pets cannot chew it and call your veterinarian or the ASPCA Animal Poison Control Center if they do."
+    ],
+    "faq": [
+      {
+        "q": "Is my indoor yucca Yucca elephantipes or Yucca gigantea?",
+        "a": "They are the same plant. NC State lists Yucca gigantea as the current name, with Yucca elephantipes and Yucca guatemalensis as former names. Many stores still use elephantipes on the label. The giant yucca is the soft-tipped species usually grown indoors; a yucca with sharp, rigid leaf points is a different species, such as Spanish bayonet."
+      },
+      {
+        "q": "Can I cut the top off a tall yucca cane?",
+        "a": "Yes. UF/IFAS says yucca roots from cuttings of any size. Saw the cane at the height you want in spring, let the top dry for a few days, and root it in gritty mix. The stump left in the pot can sprout new rosettes below the cut if it stays healthy and gets bright light."
+      },
+      {
+        "q": "Why is my yucca cane soft at the bottom?",
+        "a": "A soft, dark base on a yucca cane means rot, nearly always from mix kept too moist, which UF/IFAS lists as the disease to worry about. The soft part will not recover. Cut the cane above the damaged tissue, let the cut dry, and root the healthy top in fresh gritty mix. Water sparingly until new leaves appear."
+      },
+      {
+        "q": "Does an indoor yucca ever flower?",
+        "a": "Rarely. NC State notes that houseplant yuccas rarely bloom, and UF/IFAS says flower stalks form only once the plant is 8 to 10 feet tall. Outdoors in warm climates, mature yuccas send up creamy white, bell-shaped flowers on stalks 2 to 3 feet tall in late spring or summer, and UF/IFAS adds that the flowers are edible."
+      }
+    ]
+  }
+}

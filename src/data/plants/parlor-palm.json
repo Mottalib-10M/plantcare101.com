@@ -1,0 +1,362 @@
+{
+  "slug": "parlor-palm",
+  "commonName": "Parlor palm",
+  "otherNames": [
+    "Neanthe bella palm",
+    "Good luck palm",
+    "Miniature fish tail dwarf palm"
+  ],
+  "botanicalName": "Chamaedorea elegans",
+  "formerNames": [
+    "Collinia elegans",
+    "Neanthe bella"
+  ],
+  "family": "Arecaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "medium",
+    "maxLevel": "high",
+    "fc": [
+      75,
+      300
+    ],
+    "lux": [
+      807,
+      3229
+    ],
+    "windows": [
+      "north",
+      "east"
+    ],
+    "directSun": "avoid",
+    "src": [
+      0,
+      1,
+      3,
+      5,
+      6
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water thoroughly once the surface of the mix has dried, and never let the whole pot go dry",
+    "winter": "Growth slows in the short days, so the surface takes longer to dry; keep checking with a finger instead of watering by the calendar, and keep the plant above 60°F.",
+    "factors": [
+      "NC State warns that overwatering is the usual problem: let the surface dry slightly between waterings.",
+      "Clemson advises never letting palms dry out completely or stand in water; empty the saucer after every watering.",
+      "Several stems crowded in one nursery pot drink faster than a single stem, so a fresh purchase may need checking more often."
+    ],
+    "src": [
+      0,
+      1,
+      4,
+      10
+    ]
+  },
+  "soil": {
+    "mix": "A humus-rich houseplant mix that holds some moisture but drains quickly; Clemson asks for a porous mix with plenty of organic matter.",
+    "components": [
+      "peat- or coir-based houseplant mix",
+      "perlite or coarse sand for drainage",
+      "pine bark fines"
+    ],
+    "src": [
+      0,
+      1,
+      9
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "NC State lists low to medium humidity; Clemson says parlor palms prefer moderate to high humidity but adapt. Dry winter air mainly invites spider mites.",
+    "src": [
+      0,
+      1,
+      4
+    ]
+  },
+  "temperature": {
+    "minF": 60,
+    "minC": 16,
+    "src": [
+      1,
+      4
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, while new fronds are opening",
+    "everyWeeks": [
+      8,
+      13
+    ],
+    "strength": "full",
+    "type": "Slow-release palm fertilizer such as 12-4-12 or 8-2-12 with micronutrients (iron, manganese, zinc, boron, copper), applied two or three times a season",
+    "winter": "none",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "repotting": {
+    "everyYears": [
+      2,
+      2
+    ],
+    "signs": [
+      "Roots circle the bottom or push out of the drainage hole",
+      "The mix dries out within a day or two of watering",
+      "New fronds come in noticeably smaller than older ones"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": true,
+    "src": [
+      0,
+      1,
+      7,
+      8
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: the pulp of the rare fruit contains crystals that can irritate the skin of sensitive people.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Parlor Palm (Chamaedorea elegans)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parlor-palm"
+      }
+    ],
+    "src": [
+      0,
+      2
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing under the fronds and dull, speckled leaflets",
+      "causeKey": "pests",
+      "cause": "Red spider mites, which thrive in warm, dry indoor air",
+      "remedy": "Wipe every leaflet with a damp cloth, shower the plant, and repeat weekly; NC State notes that misting and cleaning prevent and remove them."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony clumps where leaflets meet the stem",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Remove clumps with a cotton swab dipped in rubbing alcohol, then wipe the stems with a damp cloth until no new tufts appear."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Brown, dry tips on many leaflets",
+      "causeKey": "low-humidity",
+      "cause": "Dry air or a pot allowed to dry out, which Clemson names as the common causes of browning in indoor palms",
+      "remedy": "Water as soon as the surface dries, set the pot on a tray of wet gravel, and trim dead tips along the natural leaflet shape."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Reddish-brown dead patches appearing a few days after a cold night",
+      "causeKey": "cold",
+      "cause": "Chilling injury from a cold window, door or vent",
+      "remedy": "Move the pot away from glass and drafts and keep it above 60°F; damaged leaflets will not recover, so cut them off once new fronds open."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Stems yellow and collapse at soil level, mix smells sour",
+      "causeKey": "overwatering",
+      "cause": "Root rot in mix that drains slowly or is watered too often",
+      "remedy": "Unpot, cut off dark mushy roots and dead stems, and replant the firm ones in fresh, porous mix in a pot with a drainage hole."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Tips of the lower fronds burn brown while new growth looks healthy",
+      "causeKey": "fertilizer-salts",
+      "cause": "Too much fertilizer, a cause Clemson lists for indoor palms",
+      "remedy": "Flush the pot with plain water until it runs freely from the hole, skip the next feeding, and stick to two or three light feedings a year."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Seed",
+      "Separating a multi-stem nursery pot into single plants"
+    ],
+    "season": "Spring or early summer"
+  },
+  "size": {
+    "heightIn": [
+      24,
+      60
+    ],
+    "widthIn": [
+      24,
+      36
+    ],
+    "growth": "slow",
+    "src": [
+      0,
+      6
+    ]
+  },
+  "varieties": [
+    {
+      "name": "'Variegata'",
+      "note": "Green fronds streaked with white; NC State calls it rarely seen."
+    },
+    {
+      "name": "Cat palm (Chamaedorea cataractarum)",
+      "note": "A stemless, clumping cousin that Clemson calls one of the easiest Chamaedorea palms indoors; keep it evenly moist."
+    },
+    {
+      "name": "Bamboo palm (Chamaedorea seifrizii)",
+      "note": "Clustered cane-like stems that Clemson says reach 8 to 10 feet; often confused with the parlor palm in stores."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Chamaedorea elegans (Parlor Palm)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/chamaedorea-elegans/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Palms (HGIC 1508)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Parlor Palm",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parlor-palm",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Cleaning, Fertilizing, Containers and Light Requirements (HGIC 1450)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Ornamental Palms for South Florida (ENH21)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://edis.ifas.ufl.edu/publication/EP009",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting and Repotting (HGIC 1458)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Division",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/division",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Soil Mixes (HGIC 1456)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-soil-mixes/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "areca-palm",
+    "majesty-palm",
+    "cast-iron-plant",
+    "chinese-evergreen",
+    "peace-lily",
+    "boston-fern"
+  ],
+  "seo": {
+    "title": "Parlor Palm Care: Low Light, Water and Humidity (2026)",
+    "description": "Parlor palm care in 2026: keep it above 60°F, water when the surface dries, and give it a north or east window. Pet-safe per the ASPCA. Fixes for brown tips.",
+    "h1": "Parlor palm care: light, water and humidity"
+  },
+  "content": {
+    "answer": "Parlor palms grow best in medium, indirect light from a north or east window and tolerate dim rooms. Water thoroughly when the surface of the mix dries, never let the pot dry out completely, and keep the plant above 60°F in winter.",
+    "intro": "Chamaedorea elegans is a small understory palm from the rain forests of southern Mexico and northern Central America, where it grows beneath taller trees in filtered shade. That forest-floor origin explains why it became the palm of Victorian parlors: NC State Extension calls it one of the most sought-after indoor palms because it thrives in dry air and dim light that defeat most others, and the University of Illinois Extension places it among the few houseplants rated for low light. Each stem is solitary and never branches, so the bushy pot you bring home is really several seedlings planted together by the grower. The palm grows from a single bud at the top of each stem, which means it cannot be cut back to control height. Give it gentle light, a mix that never fully dries, warmth above 60°F and a few feedings a year, and it will add fresh fronds slowly for many years.",
+    "light": [
+      "A parlor palm makes its food in the half-light of a forest floor, so it is built to work with far less light than a ficus or a croton. The Illinois Extension rates it a low-light plant, meaning it survives at about 75 foot-candles, roughly what you get a few feet from a north window. Clemson's light table agrees, placing it with snake plant and pothos in the 100 foot-candle group. That said, survival is not the same as growth. NC State recommends bright indirect light from a north- or east-facing window for the best results, and a palm parked deep in a hallway will hold its fronds but rarely add new ones.",
+      "Keep it out of direct sun. Clemson notes that shade plants scald or bleach when moved suddenly into strong light, and the thin leaflets of this species show it within days as pale, papery patches. A sheer curtain on a west or south window turns harsh afternoon sun into usable light. Rotate the pot a quarter turn every few weeks; the stems lean toward the window and a lopsided crown is hard to correct later."
+    ],
+    "water": [
+      "This palm sits in an awkward middle ground: NC State says overwatering is a common problem, yet Clemson warns that palms should never be allowed to dry out. Both are true. The fine roots need air, so the mix must drain freely and the surface should dry slightly before you water again, but a pot left bone dry for days browns the leaflet tips. Push a finger an inch into the mix. When it feels dry at that depth, water slowly until it runs from the drainage hole, then tip out the saucer so the roots never stand in water.",
+      "Nursery pots usually hold three or more seedlings, and that crowd of roots drinks faster than a single stem would. Expect to water a newly bought plant more often than one you have grown on for a few years. Room-temperature water is gentler on the roots than cold tap water, and the Illinois Extension suggests letting tap water sit for 24 hours so chlorine can dissipate. Stems that yellow from the base while the mix stays damp are a rot warning, not a sign of thirst.",
+      "In winter the palm slows down and the mix stays moist longer, especially in a cool room. Keep checking the top inch rather than following a summer routine, and do not let the plant sit near a cold window where wet roots and chilly glass combine."
+    ],
+    "soil": [
+      "NC State recommends a humus-rich houseplant or container mix. A standard peat- or coir-based bagged mix works if it drains quickly; adding a handful of perlite or pine bark fines keeps it from packing down around the thin roots. Clemson's soil fact sheet suggests mixes such as two parts peat to one part perlite and one part coarse sand for foliage plants, and its palm fact sheet asks for a porous mix with plenty of organic matter so it holds moisture without staying soggy. Avoid garden soil, which compacts in a container and suffocates roots."
+    ],
+    "humidity": [
+      "The sources differ slightly here. NC State lists low to medium humidity and praises the palm for coping with dry indoor air, while Clemson says parlor palms prefer moderate to high humidity but are adaptable. In practice the plant lives fine at normal household levels; the real cost of very dry winter air, often under 30 percent according to the Illinois Extension, is spider mites. A tray of wet gravel under the pot or grouping it with other plants raises the moisture around the fronds without wetting the roots."
+    ],
+    "temperature": [
+      "Clemson gives parlor palms a minimum winter temperature of 60°F. Most homes stay well above that, but a pot pressed against a window pane on a January night can drop lower, and cold injury appears a few days later as reddish-brown dead patches on the leaflets. Keep the plant away from drafty doors, single-pane glass and air-conditioning vents, which the Illinois Extension singles out as hazards for foliage plants. Summer outdoors in shade is fine once nights stay warm."
+    ],
+    "fertilizer": [
+      "A slow palm uses little food, and too much does visible harm: Clemson notes that excess fertilizer browns the tips of lower leaves. NC State recommends feeding periodically during the growing season and not at all in winter. Clemson's palm guidance is specific, a slow-release palm fertilizer with an analysis like 12-4-12 or 8-2-12 that also contains micronutrients such as iron, manganese and zinc, applied only two to three times a year in spring and summer. Flush the pot with plain water a couple of times a year to wash out built-up salts."
+    ],
+    "repotting": [
+      "NC State advises repotting only when necessary and says every other year is generally enough; Clemson adds that palms do best with confined roots. Repot in spring or early summer when roots circle the bottom, poke from the drainage hole, or the mix dries out almost as soon as you water. Choose a pot only 1 to 2 inches wider than the old one. Handle the root ball gently, since Clemson warns that many palms have fragile roots that tear easily, and set the plant at the same depth it grew before."
+    ],
+    "propagation": [
+      "Because each stem is a separate seedling, the practical way to get more plants is to split up a crowded pot. In spring, slide out the root ball and gently tease apart the stems so each keeps its own roots, following the Illinois Extension method for plants with several stems rising from the soil. Pot each piece at once so the roots do not dry. Expect some sulking for a few weeks. NC State notes that weaker stems are often out-competed and die in a crowded pot anyway, so dividing can extend the life of the planting. True propagation is by seed, which Clemson names as the usual method for palms, but the plant is dioecious and rarely fruits indoors."
+    ],
+    "problems": [
+      "Pests and watering cause nearly all trouble. NC State names red spider mites and mealybugs as the insects to watch, and recommends cleaning the fronds with a damp cloth to prevent and remove them. Clemson adds scale insects as a common palm pest. Brown leaflet tips usually point to dry air or a pot that dried out, cold glass leaves reddish dead patches, and yellow stems that collapse at the soil line mean root rot. Clemson also warns against leaf-shine products, which can badly injure palm foliage; plain water is all the leaves need."
+    ],
+    "petSafety": [
+      "The ASPCA lists the parlor palm, under Chamaedorea elegans, as non-toxic to both cats and dogs, which makes it one of the safest palms for a home with pets. NC State gives it a low poison severity for people for one narrow reason: if a female plant ever fruits, the pulp contains crystals that can irritate sensitive skin. Indoors that rarely happens. Non-toxic does not mean indigestible, so a cat that shreds the fronds may still vomit plant fiber, but no poisoning is expected."
+    ],
+    "faq": [
+      {
+        "q": "Why does my parlor palm have several stems if it is a solitary palm?",
+        "a": "Growers sow three or more seedlings in one pot so the plant looks full at the store. NC State explains that each stem is a separate, unbranched palm, and over time some are out-competed and die. A few brown stems in an older pot are normal. You can separate the survivors in spring and pot each one on its own."
+      },
+      {
+        "q": "Can a parlor palm grow under office fluorescent lights?",
+        "a": "Yes. It is one of the plants the Illinois Extension rates for low light, about 75 foot-candles. Clemson notes that around 100 foot-candles for 12 hours a day keeps foliage plants in good condition for a year. A desk within a few feet of ceiling fluorescents or an LED lamp on a timer is enough to keep a small parlor palm healthy."
+      },
+      {
+        "q": "Should I cut the brown fronds off my parlor palm?",
+        "a": "Remove a frond only once it is mostly brown, cutting it close to the stem with clean scissors. Never cut the top of a stem: the palm grows from a single bud there and a beheaded stem stops growing for good. For brown tips alone, trim along the leaflet's natural point and leave a thin edge of dead tissue so you do not open live tissue."
+      },
+      {
+        "q": "Is the parlor palm the same as the bamboo palm?",
+        "a": "Not quite, although the names overlap. The ASPCA lists bamboo palm as another common name for Chamaedorea elegans, but Clemson uses it for Chamaedorea erumpens and UF/IFAS for Chamaedorea seifrizii, both taller, clustering species. Check the label for the botanical name. All three are Chamaedorea palms with similar care, though the clustering kinds want more light."
+      },
+      {
+        "q": "How tall will a parlor palm get indoors?",
+        "a": "NC State says the stems can reach 5 feet indoors but usually stay smaller, with a spread of 2 to 3 feet. Growth is slow, often only a few new fronds a year in average light. Outdoors in a frost-free climate the same plant can reach 6 or 7 feet, but in a pot it stays a comfortable tabletop or floor plant for years."
+      }
+    ]
+  }
+}

@@ -4,7 +4,7 @@ import LightFinder from '../components/calc/LightFinder';
 import { PLANTS, plantPath, lightPlants } from '../lib/plants';
 import { route } from '../i18n/routes';
 import { SRC } from '../data/general-sources';
-import { RULE_TEXT, petStatus, LEVEL_LABEL } from '../lib/plant-text';
+import { RULE_TEXT, petStatus, LEVEL_LABEL, nameInText } from '../lib/plant-text';
 const lang = 'en';
 const low = PLANTS.filter((p) => p.light.minLevel === 'low');
 const nearlow = PLANTS.filter((p) => p.light.minLevel === 'medium');
@@ -13,14 +13,14 @@ const faqs = [
   { q: 'Can low light plants live in a room with no windows?', a: 'Not on room lighting alone, in most homes. Clemson HGIC puts the minimum at about 100 foot-candles for 12 hours a day just to maintain a plant for a year. Ordinary ceiling lights rarely deliver that at plant height. A grow light on a timer, or swapping the plant with one from a window every few weeks, keeps it alive.' },
   { q: 'Why is my low light plant getting leggy and pale?', a: 'Because tolerating low light is not the same as growing in it. In dim spots, stems stretch toward the window, new leaves come in smaller and variegated forms turn greener. Move the plant closer to the glass over a week or two; the stretched stems will not shorten, but you can cut them back and new growth will be compact.' },
   { q: 'Should I water low light plants less often?', a: 'Yes, noticeably. Clemson HGIC notes that a plant in a cool, low-light spot needs water less often than one in a warm, sunny place, because it grows and transpires less. In the watering calculator, choosing low light stretches the range by about half compared with bright indirect light. Overwatering kills far more dim-room plants than darkness does.' },
-  { q: 'Which low light plants are safe for cats?', a: `Among the plants on this page, the ASPCA lists ${low.filter((p) => p.toxicity.cats === 'non-toxic').map((p) => p.commonName.toLowerCase()).join(' and ') || 'none'} as non-toxic to cats. The snake plant, ZZ plant, pothos, philodendron and peace lily all tolerate dim rooms but are toxic to cats according to the ASPCA or, for the ZZ plant, extension sources.` },
+  { q: 'Which low light plants are safe for cats?', a: `Among the plants on this page, the ASPCA lists ${low.filter((p) => p.toxicity.cats === 'non-toxic').map((p) => nameInText(p.commonName)).join(' and ') || 'none'} as non-toxic to cats. The snake plant, ZZ plant, pothos, philodendron and peace lily all tolerate dim rooms but are toxic to cats according to the ASPCA or, for the ZZ plant, extension sources.` },
   { q: 'Does a north window count as low light?', a: 'Directly in front of it, no: the University of Illinois Extension rates that spot as medium light, about 150 foot-candles. A few feet back from a north window drops to low light. North light is steady and never scorching, which suits shade-tolerant foliage plants; flowering plants and succulents usually want more.' },
 ];
 ---
 <HubLayout id="lowlight" title="Low Light Indoor Plants: What Survives a Dim Room (2026)"
   h1="Low light indoor plants that really cope"
   description={`Low light indoor plants for 2026: ${low.length} houseplants whose sources accept about 75 foot-candles, how to measure your spot, and how to water them so they last.`}
-  answer={`Plants that tolerate low light, about 75 foot-candles, include ${low.map((p) => p.commonName.toLowerCase()).slice(0, 5).join(', ')}. They survive a few feet from a north window or deep in a room, grow slowly there, and need far less water than in bright light. Check your spot with the finder below.`}
+  answer={`Plants that tolerate low light, about 75 foot-candles, include ${low.map((p) => nameInText(p.commonName)).slice(0, 5).join(', ')}. They survive a few feet from a north window or deep in a room, grow slowly there, and need far less water than in bright light. Check your spot with the finder below.`}
   intro="Low light is the most common condition in American homes and the most misunderstood label on a plant tag. The University of Illinois Extension gives it a number, about 75 foot-candles, and a place: a few feet back from a north window, 3 to 10 feet from an east or west window, or 15 to 20 feet from a south one. Clemson HGIC adds the floor below which even tolerant plants slowly decline: around 100 foot-candles for 12 hours a day to keep a plant in good condition for a year. So a low light plant is one that survives at that level, not one that thrives in a windowless corner. The plants below are those whose sources accept the low category, and the finder tells you what your own spot receives."
   faqs={faqs} sources={[SRC.ilLight, SRC.clFert, SRC.clWatering, SRC.aspcaCats]} items={low.map((p) => ({ name: p.commonName, href: plantPath(p.slug) }))}
   related={[{ href: route('lightfinder', lang), name: 'Which plant for my light', description: 'The full light finder' }, { href: route('best', lang), name: 'Best indoor plants', description: 'All situations' }]}>

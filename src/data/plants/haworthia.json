@@ -1,0 +1,367 @@
+{
+  "slug": "haworthia",
+  "commonName": "Haworthia",
+  "otherNames": [
+    "Zebra plant",
+    "Zebra haworthia",
+    "Pearl plant",
+    "Star window plant",
+    "Cathedral window haworthia"
+  ],
+  "botanicalName": "Haworthia and Haworthiopsis spp.",
+  "formerNames": [
+    "Haworthia attenuata (now Haworthiopsis attenuata)",
+    "Haworthia fasciata (now Haworthiopsis fasciata)"
+  ],
+  "family": "Asphodelaceae",
+  "kind": "succulent",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [
+      75,
+      1500
+    ],
+    "lux": [
+      807,
+      16146
+    ],
+    "windows": [
+      "east",
+      "west",
+      "south",
+      "north"
+    ],
+    "directSun": "morning-only",
+    "src": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ]
+  },
+  "water": {
+    "rule": "fully-dry",
+    "ruleText": "Let the mix dry out between waterings, then water thoroughly and drain",
+    "winter": "Give only occasional light waterings in winter, just enough to prevent shriveling or leaf loss (RHS); cool, wet soil is what causes root rot.",
+    "factors": [
+      "Prolonged wet soil, especially when cool, dim or not growing, leads to root rot (Wisconsin Extension).",
+      "Some species grow in winter and others in summer, so watch for new leaves rather than the calendar.",
+      "The RHS suggests rainwater or filtered water, as fluoride can damage the leaves."
+    ],
+    "src": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "soil": {
+    "mix": "Equal parts good potting soil and coarse drainage material such as perlite, pumice or poultry grit, or a peat-free cactus compost; no fine sand.",
+    "components": [
+      "potting soil or cactus mix",
+      "perlite or pumice",
+      "poultry grit or aquarium gravel"
+    ],
+    "src": [
+      2,
+      3
+    ]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "Average home humidity is adequate, according to NC State; no misting needed.",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "temperature": {
+    "minF": 50,
+    "minC": 10,
+    "src": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, April to September at most",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "Liquid cactus feed or a high-potassium liquid fertilizer at the label rate",
+    "winter": "none",
+    "src": [
+      7,
+      8
+    ]
+  },
+  "repotting": {
+    "everyYears": [
+      2,
+      3
+    ],
+    "signs": [
+      "Offsets have filled the pot surface edge to edge",
+      "The mix has gone dense and stays wet, or two to three years have passed",
+      "Growth stops and leaves shrink, which can mean a weak root system"
+    ],
+    "season": "Spring, or as growth resumes",
+    "rootType": "succulent",
+    "prefersSnug": true,
+    "src": [
+      3,
+      8
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "non-toxic",
+    "humanNote": "NC State describes the zebra plant (Haworthiopsis attenuata) as non-toxic to pets and humans.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Haworthia (Haworthia species)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/haworthia",
+        "toxicPrinciples": "Non-toxic"
+      },
+      {
+        "name": "Zebra Haworthia (Haworthia fasciata)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/zebra-haworthia"
+      }
+    ],
+    "src": [
+      1,
+      4,
+      5
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "wrinkled-leaves",
+      "symptom": "Leaves shrink, shrivel or stop growing even though the mix is damp",
+      "causeKey": "overwatering",
+      "cause": "Root rot from soil that stayed wet while cool or dim",
+      "remedy": "Unpot, remove soft roots back to firm tissue, leave the plant bare for a week as Wisconsin Extension advises, then replant in fresh, dry mix."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Leaves lengthen and the rosette loosens and pales",
+      "causeKey": "low-light",
+      "cause": "Etiolation in too little light",
+      "remedy": "Move it to an east or west window with a few hours of direct sun, or under a strong LED; compact growth returns on new leaves."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "White stripes or bumps fade on a zebra haworthia",
+      "causeKey": "low-light",
+      "cause": "Inadequate light, which NC State links to fading leaf patterns",
+      "remedy": "Give it brighter, mostly indirect light with some morning sun."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Bleached, tan or reddish-brown scorched patches",
+      "causeKey": "too-much-sun",
+      "cause": "Sudden strong direct sun, often after a move outdoors",
+      "remedy": "Shade it lightly and increase sun over a few weeks; scorched leaves stay marked but new ones are tougher."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White waxy tufts at the leaf bases",
+      "causeKey": "pests",
+      "cause": "Mealybugs, the one common pest of haworthias",
+      "remedy": "Pick them off with an alcohol-dipped swab or use a standard houseplant insecticide labeled for succulents."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Separating offsets (pups)",
+      "Leaf cuttings with a sliver of stem",
+      "Seed"
+    ],
+    "season": "Spring, or whenever offsets have their own roots"
+  },
+  "size": {
+    "heightIn": [
+      2,
+      12
+    ],
+    "widthIn": [
+      2,
+      12
+    ],
+    "growth": "slow",
+    "note": "Single rosettes are usually 1 to 3 inches across; clusters fill a 4 to 5 inch pot (Wisconsin Extension).",
+    "src": [
+      0,
+      1,
+      3
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Haworthiopsis attenuata (zebra plant)",
+      "note": "Stiff dark green leaves banded with raised white bumps on both surfaces; up to 50 years old per NC State."
+    },
+    {
+      "name": "Haworthiopsis fasciata",
+      "note": "Rarer look-alike of the zebra plant with a smooth upper leaf surface."
+    },
+    {
+      "name": "Haworthia cooperi",
+      "note": "Plump, translucent blue-green leaves with dark veins, like small glass beads."
+    },
+    {
+      "name": "Haworthia cymbiformis (cathedral window)",
+      "note": "4-inch rosette of pale green, boat-shaped leaves with dark stripes."
+    },
+    {
+      "name": "Haworthia truncata (horse's teeth)",
+      "note": "Squared-off leaves in a fan, the one common species not shaped as a rosette."
+    },
+    {
+      "name": "Haworthia retusa (star cactus)",
+      "note": "Thick triangular lime-green leaves with clear tips; an RHS Award of Garden Merit plant."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Haworthia",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/haworthia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Haworthiopsis attenuata (Zebra Haworthia)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/haworthiopsis-attenuata/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Haworthia genus guide",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/haworthia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Haworthias: Super Succulents for Small Spaces",
+      "publisher": "University of Wisconsin-Madison Extension, Wisconsin Horticulture",
+      "url": "https://hort.extension.wisc.edu/articles/haworthias-super-succulents-for-small-spaces/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Haworthia",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/haworthia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Zebra Haworthia",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/zebra-haworthia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow houseplant cacti and succulents",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "succulents",
+    "echeveria",
+    "aloe-vera",
+    "lithops",
+    "snake-plant"
+  ],
+  "seo": {
+    "title": "Haworthia Care: Low-Light Succulent Guide for 2026",
+    "description": "Haworthia care in 2026: bright light with some morning sun, dry-out watering, winter above 50°F and fresh mix every 2 to 3 years. Zebra plant name change too.",
+    "h1": "Haworthia care: light, watering and repotting"
+  },
+  "content": {
+    "answer": "Haworthias want bright light with a few hours of gentle direct sun, though they tolerate dimmer rooms than most succulents. Let the mix dry between waterings, keep them above 50°F (10°C), and give them a cool, drier winter rest.",
+    "intro": "Haworthias are small South African succulents in the Asphodelaceae, the family of aloes and daylilies, and they are the most forgiving rosettes you can put on a desk. In the wild many grow half buried in sand or tucked in the shade of rocks and shrubs, which is why NC State Extension calls them somewhat tolerant of low light and why many species carry translucent leaf windows that pipe light down into the leaf. The name on your label may be out of date. In 2013 and 2014 botanists split the genus, and the familiar zebra plant with white raised bands is now Haworthiopsis attenuata; true Haworthia species have clear windows at the leaf tips instead. Care is the same for both. Most of them reach only 2 to 12 inches, grow slowly and can live for decades, and nearly every failure indoors comes down to roots left sitting in wet, cool mix.",
+    "light": [
+      "Haworthias need less sun than echeverias or cacti, but they are not shade plants. Wisconsin Extension suggests an east or west window, where they get a few hours of direct light daily and bright indirect light the rest of the day. A south window works if a sheer curtain softens the midday sun, since direct sunlight can scorch the leaves, a problem NC State notes for the zebra plant. A north window, the University of Illinois Extension's medium light at the glass, keeps them alive but slows growth.",
+      "Color tells you how they feel. NC State says bright light brings out reds, oranges and browns in the leaves and gives the best patterns; in weak light, Wisconsin notes, the leaves stretch and lose their richness. Haworthias also grow very well under artificial light, and they fit neatly on a shelf under an LED fixture. Wisconsin points out they want more intensity than a standard fluorescent tube supplies, so keep the light close."
+    ],
+    "water": [
+      "Water thoroughly, then let the mix dry before the next drink. NC State and the RHS agree on this; the RHS phrases it as watering only when the compost is approaching dryness. Wisconsin Extension says that in a well-drained mix haworthias can be watered weekly in the summer months, which shows how much a fast mix and warm weather change the picture. The finger test beats any schedule. When the top of the mix and the soil near the drainage hole are both dry, soak the pot and let it drain completely.",
+      "The danger zone is cool, wet and dim. Wisconsin lists prolonged wet soil, especially when it is cool, the light is low or the plant is not actively growing, as the cause of root rot, the most common problem with haworthias. The RHS asks for a winter rest with cooler conditions and only occasional, light watering, just enough to prevent leaf loss or shriveling. Kept warm and wet instead, the plant produces thin, weak growth that spoils its shape.",
+      "One quirk makes haworthias different from most succulents: their season varies by species. Wisconsin explains that some come from winter rainfall areas and grow in winter, others are summer growers, and many grow from late winter through spring. If your plant is pushing fresh leaves from the center in February, it is awake and can take a little more water than a dormant neighbor."
+    ],
+    "soil": [
+      "Mix a good commercial potting soil with an equal volume of drainage material, the Wisconsin recipe, using perlite, aquarium gravel, poultry grit or horticultural pumice. Wisconsin warns against sand, which is too fine and clogs the pores, and notes that a peat-based mix breaks down within a few years. The RHS simply recommends peat-free cactus compost. Terra cotta dries faster than glazed ceramic or plastic, and shallow pots generally suit haworthias better than deep ones, although a few species with heavy, thick roots appreciate extra depth."
+    ],
+    "humidity": [
+      "No special humidity is needed. NC State describes average home humidity as adequate for the genus and says the zebra plant tolerates the levels typical of homes. That makes haworthias one of the few plants that thrive in a dry office. NC State suggests them for terrariums; pick an open one, since condensation in a sealed jar keeps the leaves wet."
+    ],
+    "temperature": [
+      "Keep haworthias above 50°F (10°C), the minimum given by the RHS, which lists 50 to 80°F (10 to 26°C) as their best range. NC State gives 60 to 80°F for the zebra plant and advises avoiding cold drafts and anything below 50°F. Wisconsin Extension is more generous: it says they do best at 75 to 90°F and tolerate the low 40s if the soil is not continuously wet. The sources disagree on the ideal, so we leave a single range out; above 50°F with dry roots, they are safe."
+    ],
+    "fertilizer": [
+      "Haworthias grow slowly and need little feeding. The RHS recommends a monthly feed for houseplant succulents during the growing season, April to September, with a high-potassium or specialist cactus liquid feed. The University of Illinois Extension's general houseplant ceiling, once every 1 to 3 months from March to September at the label rate, suits most windowsill plants. Skip feeding in winter, when the plant rests and unused salts accumulate."
+    ],
+    "repotting": [
+      "Haworthias can sit in one pot for years, which is exactly why they get forgotten. Wisconsin Extension recommends repotting into fresh soil every 2 to 3 years, because old mix decomposes and stays wet. Choose a pot about the same volume as the root system rather than a big one the plant is expected to grow into, and if roots were lost, water sparingly until new ones form. The RHS advises spring as the best time and warns that excess compost stays wet and causes rot."
+    ],
+    "propagation": [
+      "Most haworthias clump, so division is easy. Wisconsin Extension notes that many pups form their own roots almost as soon as they appear; in some species they fall away from the mother plant when the clump is unpotted, while in others the connection has to be broken or cut. If you tear a wound below the soil line, let the pup air-heal for a few days before potting it.",
+      "Species that rarely offset can be propagated from leaves. Cut a mature leaf with a sliver of stem attached, let the wound dry, and set it in well-drained mix; one or more plantlets slowly form at the base. Seed is possible too, and Wisconsin says germination usually takes one to two weeks if the mix stays moist."
+    ],
+    "problems": [
+      "Root rot causes most losses. Wisconsin describes the warning signs as growth that stops, leaves or the whole plant getting smaller, or leaves shriveling; the shriveling fools people into watering more. A rotted plant can often be saved by cutting back to healthy tissue and drying it out. Mealybugs are the only common pest, according to NC State, and scale turns up on the zebra plant. Faded stripes mean too little light; bleached or reddish scorch means too much, too fast."
+    ],
+    "petSafety": [
+      "Haworthias are safe with pets. The ASPCA lists Haworthia species and the zebra haworthia as non-toxic to cats and dogs, and NC State calls the zebra plant non-toxic to pets and humans. That makes them a good swap for aloe, which looks similar but is on the ASPCA's toxic list."
+    ],
+    "faq": [
+      {
+        "q": "Is my zebra haworthia actually a Haworthiopsis?",
+        "a": "Probably. NC State explains that the genus Haworthia was split in 2013 and 2014, and the popular zebra plant is now Haworthiopsis attenuata. The quick test is the leaves: true Haworthia species have translucent windows at the tips, while Haworthiopsis has opaque leaves with raised white bumps in spots or bands. Care is identical, so the new name changes nothing in practice."
+      },
+      {
+        "q": "Can a haworthia grow on a desk under office lights?",
+        "a": "Often, yes. NC State suggests haworthias as desktop and terrarium plants, and Wisconsin Extension says they grow very well under artificial light, though they want more intensity than a standard fluorescent fixture gives. On a desk far from a window, add a small LED grow light a few inches above the plant on a timer, and water much less than you would on a sunny sill."
+      },
+      {
+        "q": "Why is my zebra haworthia losing its white stripes?",
+        "a": "Fading patterns usually mean inadequate light, a cause NC State names for the zebra plant. The white tubercles and dark green contrast develop best in bright, mostly indirect light with a little sun. Move it closer to an east or west window and the new leaves from the center should come in with stronger banding. Older faded leaves will not recover their stripes."
+      },
+      {
+        "q": "Why is my haworthia turning red or brown?",
+        "a": "Some color is healthy: NC State says bright light develops reds, oranges and browns in the leaves. A sudden bleached or crisp brown patch is different, and means sunburn. Wisconsin warns that plants kept indoors all winter can burn if put straight into full sun outdoors. Shade it lightly for a few weeks; damaged tissue stays marked, but new leaves will be fine."
+      },
+      {
+        "q": "How do I separate haworthia pups from the mother plant?",
+        "a": "Unpot the clump in spring and tease the soil away. Wisconsin Extension notes that in many species the pups already have roots and fall apart easily; in others you cut or snap the connection. If the break leaves a wound, let it dry for a few days before potting each pup in dry, gritty mix, then water lightly once it feels settled."
+      }
+    ]
+  }
+}

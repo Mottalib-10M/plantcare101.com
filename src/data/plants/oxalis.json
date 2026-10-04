@@ -1,0 +1,282 @@
+{
+  "slug": "oxalis",
+  "commonName": "Oxalis",
+  "otherNames": [
+    "Shamrock plant",
+    "Purple shamrock",
+    "False shamrock",
+    "Wood sorrel",
+    "Love plant"
+  ],
+  "botanicalName": "Oxalis triangularis",
+  "formerNames": [
+    "Oxalis regnellii"
+  ],
+  "family": "Oxalidaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [300, 1500],
+    "lux": [3229, 16146],
+    "windows": ["south", "east", "west"],
+    "directSun": "tolerates",
+    "src": [0, 2, 4]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Keep the mix barely moist, letting the surface dry between waterings",
+    "winter": "Oxalis follows its own clock rather than the calendar: water normally while it is in leaf, whatever the season, and stop completely once the foliage dies back for dormancy.",
+    "factors": [
+      "The rhizomes store water in fleshy scale leaves, so wet mix rots them faster than a short dry spell harms them.",
+      "Drying out hard or overheating can push the plant into early dormancy, NC State notes.",
+      "During dormancy the pot gets no water at all until new shoots appear."
+    ],
+    "src": [0, 2]
+  },
+  "soil": {
+    "mix": "A loamy, well-drained potting mix or soilless medium, with the bulbs set just under the surface.",
+    "components": [
+      "peat-free or standard potting mix",
+      "perlite for drainage",
+      "pot with drainage holes"
+    ],
+    "src": [0, 2]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Normal room humidity is fine; no source asks for more, and dry winter air rarely bothers it.",
+    "src": [5]
+  },
+  "temperature": {
+    "minF": 50,
+    "minC": 10,
+    "maxF": 75,
+    "maxC": 24,
+    "src": [0, 2]
+  },
+  "fertilizer": {
+    "season": "Whenever the plant is in active leaf, stopping during dormancy",
+    "everyWeeks": [4, 4],
+    "strength": "full",
+    "type": "Balanced houseplant fertilizer at the label rate, monthly",
+    "winter": "reduced",
+    "src": [2]
+  },
+  "repotting": {
+    "signs": [
+      "Bulbs crowd the surface or push the plant up out of the pot",
+      "The clump has spread to the rim and leaves are getting smaller",
+      "Dormancy is ending and fresh mix is due"
+    ],
+    "season": "At the end of dormancy, before watering resumes",
+    "rootType": "rhizome",
+    "prefersSnug": false,
+    "src": [0, 2]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the severity as low: all parts contain soluble calcium oxalates, and serious effects usually require large quantities; kidney failure is possible if significant amounts are eaten.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Shamrock Plant (Oxalis spp.)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/shamrock-plant",
+        "toxicPrinciples": "Soluble calcium oxalates",
+        "clinicalSigns": "Kidney failure (rare in dogs/cats), tremors, salivation."
+      }
+    ],
+    "src": [0, 3]
+  },
+  "problems": [
+    {
+      "symptomKey": "drooping",
+      "symptom": "Leaves collapse, yellow and die back over a few weeks, often in summer",
+      "causeKey": "dormancy",
+      "cause": "The normal rest period of the bulbs",
+      "remedy": "Stop watering, cut off the dead leaves and keep the pot in a cool, dark place for one to three months until new shoots appear."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long, floppy leaf stalks that sprawl over the pot rim",
+      "causeKey": "low-light",
+      "cause": "Too little light; the leaves stretch toward the window",
+      "remedy": "Move it to a bright, sunny window and turn the pot regularly; trim the floppiest stalks at the base."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Leaf stalks soft and dark at the base, bulbs mushy",
+      "causeKey": "overwatering",
+      "cause": "Rhizomes sitting in wet mix, or watering continued during dormancy",
+      "remedy": "Unpot, discard soft bulbs, replant firm ones just under the surface in fresh, well-drained mix and water lightly."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Plant shuts down suddenly in a heat wave",
+      "causeKey": "heat",
+      "cause": "Temperatures well above 75°F or a pot left to dry out hard",
+      "remedy": "Move it somewhere cooler and bright, resume careful watering, or let it complete an early dormancy."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Orange or rusty spots on the leaflets",
+      "causeKey": "disease",
+      "cause": "Oxalis rust",
+      "remedy": "Cut off and discard the affected leaves at the base and keep the foliage dry when watering."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky residue and small insects on leaves and stalks",
+      "causeKey": "pests",
+      "cause": "Aphids or whiteflies",
+      "remedy": "Rinse the plant, remove heavily infested leaves and treat with insecticidal soap if insects persist."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of the small bulbs",
+      "Breaking off rhizome scale leaves",
+      "Seed"
+    ],
+    "season": "While the plant is dormant, just before growth resumes"
+  },
+  "size": {
+    "heightIn": [6, 18],
+    "widthIn": [12, 24],
+    "growth": "moderate",
+    "src": [0, 1]
+  },
+  "varieties": [
+    {
+      "name": "Atropurpurea",
+      "note": "Deep purple leaves with a wide black border and light pink summer flowers."
+    },
+    {
+      "name": "Charmed Wine",
+      "note": "Deep purple shamrock leaves with white flowers."
+    },
+    {
+      "name": "Fanny",
+      "note": "Olive green leaves with a silver center pattern and soft pink flowers."
+    },
+    {
+      "name": "Francis",
+      "note": "Bright purple leaves and light lavender flowers in fall."
+    },
+    {
+      "name": "Mijke",
+      "note": "Deep purple leaves with mauve flowers in spring and summer."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Oxalis triangularis (Purple Shamrock)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/oxalis-triangularis/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Oxalis triangularis subsp. triangularis",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=291690",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Shamrocks, Oxalis spp.",
+      "publisher": "Wisconsin Horticulture, University of Wisconsin-Madison Extension",
+      "url": "https://hort.extension.wisc.edu/articles/shamrocks-oxalis-spp/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Shamrock Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/shamrock-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["jasmine", "mint"],
+  "seo": {
+    "title": "Oxalis Care: Shamrock Plant Light, Water & Dormancy (2026)",
+    "description": "Oxalis care in 2026: shamrock plants rest every year, and Wisconsin Extension says purple types need about a month of dormancy. Light, water and revival tips.",
+    "h1": "Oxalis care: keeping a purple shamrock plant through its dormancy"
+  },
+  "content": {
+    "answer": "Give oxalis a bright, sunny window, a well-drained mix kept barely moist, and temperatures no higher than about 75°F. When the leaves die back, stop watering and let the bulbs rest in a cool, dark place until new shoots appear.",
+    "intro": "Every shamrock plant sold for St. Patrick's Day will eventually look dead, and that is by design. Oxalis triangularis, the purple shamrock, grows from unusual rhizomes that NC State describes as elongated bulbs wrapped in fleshy scale leaves that store water and nutrients. Those storage organs let the plant retreat underground when conditions turn hot, dry or simply tired, and Wisconsin Extension explains that potted shamrocks need such a rest after a few months of growth. Many owners throw the pot away at that point. Instead, stop watering, wait, and fresh leaves return. The plant is not a clover at all but a South American wood sorrel, with three triangular leaflets that fold down at night or when touched and pale pink to white flowers that close at dusk too. It wants cool temperatures and bright light more than warmth, which makes it an easy, rewarding windowsill plant once you accept its rhythm.",
+    "light": [
+      "Bright light keeps oxalis compact. Wisconsin Extension recommends a bright, sunny window, and NC State lists full sun to partial shade. Indoors that means the sill of a south, east or west window; the University of Illinois Extension measures about 300 foot-candles right at an east or west window and some 1,500 in front of a south one, and light falls off quickly as you move back into the room.",
+      "In weak light the leaf stalks stretch, the clump flops open, and the deep purple color fades toward green-bronze. Turn the pot regularly, since the leaves track the window. Watch the daily movement too: the leaflets open in the morning and fold down at night, the response Wisconsin Extension calls nyctinastic, and they also close on overcast days. A plant that stays folded during bright daylight is usually too dry or too hot."
+    ],
+    "water": [
+      "Wisconsin Extension says to keep the soil barely moist but not wet, and notes that most types tolerate slight drying between waterings. NC State puts it as allowing the surface to dry between waterings. In practice, touch the surface and water when it feels dry, soaking the pot and letting it drain fully. Those fleshy rhizomes hold reserves, so a short dry spell does far less damage than mix that stays soggy.",
+      "Water also controls dormancy. NC State says the plant may go dormant in autumn, or whenever it gets too hot or too dry, and advises cutting back watering and waiting for new growth. Once the leaves yellow and collapse, stop watering completely. A dormant pot needs nothing until shoots reappear; watering bare soil over resting bulbs is the surest way to rot them.",
+      "When new growth emerges, resume watering gradually, a little at first, then normal amounts as the leaves fill in."
+    ],
+    "soil": [
+      "NC State recommends a loamy potting mix with good drainage, and Wisconsin Extension suggests a well-drained soilless medium, with the bulbs placed just under the surface. Any good houseplant mix with a share of perlite works, in a pot with drainage holes. NC State notes the plant grows in acid, neutral or alkaline soil, so pH is not a concern."
+    ],
+    "humidity": [
+      "No source asks for extra humidity. The University of Illinois Extension notes that heated homes often fall below 30 percent in winter, but oxalis, with its fleshy storage rhizomes, handles ordinary room air well. Avoid soaking the foliage when you water; Missouri Botanical Garden names oxalis rust as a problem, and fungal spots spread fastest on leaves that stay wet."
+    ],
+    "temperature": [
+      "Shamrocks prefer it cool. Wisconsin Extension says the potted species need cool conditions, especially in bloom, and recommends a spot where it is no warmer than 75°F (24°C) by day and 15 to 25 degrees cooler at night, roughly 50 to 60°F (10 to 16°C). NC State adds that heat can trigger dormancy, which is why many plants collapse in midsummer.",
+      "Outdoors the purple shamrock is perennial only in USDA zones 8 and warmer, according to NC State; elsewhere it is a houseplant or a summer container plant. Wisconsin Extension suggests setting pots outside in spring after the danger of frost has passed and bringing them back in before fall frost."
+    ],
+    "fertilizer": [
+      "Wisconsin Extension advises fertilizing monthly, but only while plants are actively growing. Use a balanced houseplant fertilizer at the label rate from the moment new leaves appear after dormancy until the foliage starts to decline. Never feed a dormant pot; the bulbs cannot use it and the salts simply build up in dry mix. A first feeding, or a repotting, when growth restarts gives the plant a strong start."
+    ],
+    "repotting": [
+      "The best moment is the end of dormancy. Wisconsin Extension suggests fertilizing or repotting before returning the bulbs to a sunny window, with the bulbs set just under the soil surface in fresh, well-drained mix. Because the pot is dry and the plant has no leaves, you can tip out the old mix, inspect every bulb, discard any that are soft, and replant the firm ones. Repot when the clump crowds the pot or bulbs push up to the surface."
+    ],
+    "propagation": [
+      "Oxalis multiplies by itself. Wisconsin Extension explains that the many small bulbs separate easily when dormant and can be potted up in small groups. NC State describes a second method: break off the fleshy scale leaves of the rhizome, each of which can produce a new plant. Plant them shallowly in moist mix in a bright spot and new leaves follow. Seed is possible, but division is faster and keeps the leaf color true."
+    ],
+    "problems": [
+      "The most common problem is not a problem: a plant dying back for dormancy. Wisconsin Extension notes potted shamrocks typically decline after a few months, usually in summer. Genuine troubles are fewer. Overwatering rots the bulbs, poor light makes floppy stems, and Missouri Botanical Garden lists oxalis rust, which shows as rusty spots and is controlled by removing affected leaves. Wisconsin Extension mentions aphids and whiteflies as occasional pests, and NC State reports no serious insect or disease problems overall."
+    ],
+    "petSafety": [
+      "The ASPCA lists the shamrock plant (Oxalis species) as toxic to dogs, cats and horses. The toxic principle is soluble calcium oxalates, and the clinical signs are tremors, salivation and, rarely in dogs and cats, kidney failure. NC State rates the severity as low and notes that serious effects usually need large quantities, but cats often nibble the soft leaves, so keep the pot out of reach. If a pet eats a lot of it, call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435."
+    ],
+    "faq": [
+      {
+        "q": "Why does my shamrock plant fold its leaves at night?",
+        "a": "It is normal. Oxalis leaflets are nyctinastic, Wisconsin Extension explains: they fold down at night and on overcast days, then open again in light. NC State notes they also close when disturbed, and the flowers close at night too. If the leaves stay folded in bright daylight, check whether the plant is too dry, too hot or heading into dormancy."
+      },
+      {
+        "q": "How long should a dormant oxalis stay in the dark?",
+        "a": "Wisconsin Extension suggests a cool, dark spot for two to three months for most shamrock species, but only about a month for the purple-leaf types. Stop watering when the leaves die back, remove the dead foliage, and check occasionally. When pale new shoots appear, move the pot back to a bright window and start watering again."
+      },
+      {
+        "q": "Is a purple shamrock plant a real shamrock?",
+        "a": "Not botanically. Wisconsin Extension explains that shamrock is a corruption of an Irish word meaning little clover, and generally refers to white clover, Trifolium repens. Plants sold for St. Patrick's Day are Oxalis, or wood sorrels, which are unrelated to clovers despite the similar three-part leaves."
+      },
+      {
+        "q": "Are oxalis leaves safe to eat in a salad?",
+        "a": "NC State says the leaves and flowers are edible but should be used in moderation. The sour taste comes from oxalates, and NC State notes kidney failure is possible if significant amounts are eaten, so a few leaves as a garnish is the limit. Never let pets graze on the plant; the ASPCA lists it as toxic to dogs and cats."
+      },
+      {
+        "q": "Can I grow my oxalis outside for the summer?",
+        "a": "Yes. Wisconsin Extension says shamrock oxalis can go outdoors in spring after the danger of frost has passed, in containers, hanging baskets or as edging, and must come back in before fall frost. NC State rates the purple shamrock perennial only in zones 8 and warmer. A spot with morning sun and afternoon shade helps it avoid heat-triggered dormancy."
+      }
+    ]
+  }
+}

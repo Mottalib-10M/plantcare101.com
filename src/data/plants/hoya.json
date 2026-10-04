@@ -1,0 +1,330 @@
+{
+  "slug": "hoya",
+  "commonName": "Hoya",
+  "otherNames": [
+    "Wax plant",
+    "Honey plant",
+    "Porcelain flower",
+    "Wax vine"
+  ],
+  "botanicalName": "Hoya carnosa",
+  "formerNames": [
+    "Hoya compacta"
+  ],
+  "family": "Apocynaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [150, 1500],
+    "lux": [1615, 16146],
+    "windows": ["east", "west", "south"],
+    "directSun": "tolerates",
+    "src": [0, 2, 3, 4, 5, 6]
+  },
+  "water": {
+    "rule": "half-dry",
+    "ruleText": "Water when the top third to half of the mix has dried out",
+    "winter": "From October to February the RHS advises moderate watering only: let the mix get fairly dry, but never completely dry. UF/IFAS says to water very sparingly.",
+    "factors": [
+      "Sources differ on how dry: UF/IFAS says the top third to half, Clemson says completely dry, and the RHS says never completely dry.",
+      "Mix that is too wet or too dry makes the leaves drop, according to NC State.",
+      "Use room-temperature water; NC State notes cold water can shock the plant."
+    ],
+    "src": [0, 3, 4, 5]
+  },
+  "soil": {
+    "mix": "A loose, chunky, fast-draining mix of equal parts potting soil, orchid bark and perlite, in a pot with drainage.",
+    "components": [
+      "potting soil",
+      "orchid bark",
+      "perlite"
+    ],
+    "ph": [6, 8],
+    "src": [0, 4, 5]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "NC State says it loves high humidity; a humidifier or a tray of wet pebbles helps in heated rooms, and dry air invites spider mites.",
+    "src": [0, 5]
+  },
+  "temperature": {
+    "idealF": [61, 75],
+    "idealC": [16, 24],
+    "minF": 50,
+    "minC": 10,
+    "src": [0, 2, 3, 5]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, while the vines are growing",
+    "everyWeeks": [2, 4],
+    "strength": "half",
+    "type": "Liquid fertilizer, ideally a urea-free orchid feed or a 2:1:2 or 3:1:2 ratio, given lightly",
+    "winter": "reduced",
+    "src": [4, 5]
+  },
+  "repotting": {
+    "signs": [
+      "Roots fill the pot and circle the bottom",
+      "Water runs straight through without wetting the mix",
+      "The bark mix has broken down and stays soggy"
+    ],
+    "season": "Spring, never while the plant is in bud or flower",
+    "rootType": "epiphytic",
+    "prefersSnug": true,
+    "src": [0, 3, 5]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "No human toxicity rating found. The stems bleed a milky sap when cut, so UF/IFAS and the RHS advise care and gloves when pruning.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Honey Plant (Hoya carnosa)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/honey-plant",
+        "toxicPrinciples": "Non-toxic"
+      },
+      {
+        "name": "Wax Plant (Hoya carnosa 'Krinkle Kurl')",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wax-plant",
+        "toxicPrinciples": "Non-toxic"
+      },
+      {
+        "name": "Sweetheart Hoya (Hoya kerrii)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sweetheart-hoya",
+        "toxicPrinciples": "Non-toxic"
+      }
+    ],
+    "src": [7, 8, 9, 3, 5]
+  },
+  "problems": [
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Healthy leaves but no flowers year after year",
+      "causeKey": "low-light",
+      "cause": "Too little light, which UF/IFAS calls the main reason hoyas fail to bloom",
+      "remedy": "Move it in front of an east or west window, or near a south one after gradual acclimation, and leave old flower spurs in place."
+    },
+    {
+      "symptomKey": "bud-drop",
+      "symptom": "Flower buds shrivel and fall before opening",
+      "causeKey": "repotting-shock",
+      "cause": "Moving or turning the plant once buds have formed, or a swing from wet to dry mix",
+      "remedy": "Leave a budding plant exactly where it is, and keep watering steady until the flowers open."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Leaves yellowing and dropping, stems blackening at the base",
+      "causeKey": "overwatering",
+      "cause": "Waterlogged or poorly drained mix rotting the roots",
+      "remedy": "Repot into a chunky bark mix in a pot only slightly larger than the roots and let the top third to half dry before watering."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "Cottony white clusters on stems and leaf undersides",
+      "causeKey": "pests",
+      "cause": "Mealybugs, the pest every source names first",
+      "remedy": "Dab them with isopropyl alcohol on a cotton swab, then spray horticultural soap; repeat weekly until no new clusters appear."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale stippling on the leaves",
+      "causeKey": "low-humidity",
+      "cause": "Spider mites, which NC State says appear when the air is too dry",
+      "remedy": "Rinse the leaves, raise humidity with a pebble tray or humidifier, and treat with insecticidal soap or neem oil."
+    },
+    {
+      "symptomKey": "small-flies",
+      "symptom": "Tiny dark flies around the pot",
+      "causeKey": "overwatering",
+      "cause": "Fungus gnats, attracted to potting mix that is too wet",
+      "remedy": "Let the mix dry further between waterings and switch to a bark-based mix that drains in minutes."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings in water or mix",
+      "Layering a low shoot into a second pot"
+    ],
+    "season": "Spring or early summer"
+  },
+  "size": {
+    "heightIn": [24, 48],
+    "widthIn": [12, 24],
+    "growth": "fast",
+    "note": "Missouri Botanical Garden gives 2 to 4 feet indoors; unpruned vines of Hoya carnosa can get much larger on a trellis.",
+    "src": [0, 2, 5]
+  },
+  "varieties": [
+    {
+      "name": "Krimson Queen (Tricolor)",
+      "note": "Green centers with creamy white to pink margins."
+    },
+    {
+      "name": "Krimson Princess",
+      "note": "Pink and white variegation in the center of the leaf, dark green edges."
+    },
+    {
+      "name": "Compacta (Krinkle Kurl)",
+      "note": "Folded, curled leaves that give a rope-like look; sold as Hindu rope plant."
+    },
+    {
+      "name": "Variegata",
+      "note": "Leaves edged creamy white, sometimes tinged pink."
+    },
+    {
+      "name": "Hoya kerrii",
+      "note": "Thick heart-shaped leaves, often sold as a single rooted leaf; NC State gives 65 to 80°F as ideal."
+    },
+    {
+      "name": "Hoya lanceolata subsp. bella",
+      "note": "Compact miniature wax plant; the RHS sets its winter minimum at 65°F (16°C), warmer than H. carnosa."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hoya carnosa (Wax Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/hoya-carnosa/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Hoya (Wax Vine)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/hoya/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Hoya carnosa",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=276833",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Hoya (Wax Plant)",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/hoya/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Waxflowers (Hoya)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-waxflowers-hoya/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow hoyas",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/hoya/how-to-grow",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Honey Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/honey-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Wax Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/wax-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Sweetheart Hoya",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sweetheart-hoya",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Hoya kerrii (Sweetheart Hoya)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/hoya-kerrii/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["string-of-hearts", "peperomia", "pothos", "philodendron", "orchid"],
+  "seo": {
+    "title": "Hoya Care: Light, Water and Flowering Guide (2026)",
+    "description": "Hoya care in 2026: bright light, a bark and perlite mix that dries between waterings, nights above 50°F and old flower spurs left on. Pet-safe per the ASPCA.",
+    "h1": "Hoya care: light, water and flowering"
+  },
+  "content": {
+    "answer": "Hoyas want bright light, a chunky mix of potting soil, orchid bark and perlite, and water once the top third to half of the pot has dried. Keep nights above 50°F, never cut off old flower spurs, and the ASPCA lists them as pet safe.",
+    "intro": "Hoya carnosa, the wax plant or honey plant, is an epiphytic climber from eastern Asia that grows on tree branches and in bark crevices rather than in soil. With little access to water up there, it evolved thick, waxy, semi-succulent leaves that store moisture, roots that need air as much as water, and twining stems that NC State and Missouri Botanical Garden describe winding around any thin support. Those traits shape everything about its care indoors: a loose, bark-rich mix, a snug pot, watering only after the mix has partly dried, and as much light as the leaves will take without scorching. The reward is a cluster of up to 30 star-shaped flowers, white to pink with a red center, often most fragrant at night because many hoyas are moth pollinated. Plants usually start blooming at two or three years old, and each flower spur blooms again in later years, so the stubs must stay on the vine.",
+    "light": [
+      "Light is what makes a hoya flower. The University of Illinois Extension classes Hoya carnosa as a high light plant, about 300 foot-candles, which you find directly in front of an east or west window or within five feet of a south one. Missouri Botanical Garden goes further and suggests at least half a day of direct sun, while tolerating curtain-filtered sun and bright indirect light. UF/IFAS lists poor light as the main reason a hoya refuses to bloom.",
+      "The sources disagree on hot sun. UF/IFAS and the RHS warn that too much direct summer sun scorches the leaves, and Clemson says a plant moved to a south window needs time to acclimate. Morning sun and bright filtered light are safe; give it more only gradually. Once flower buds appear, do not move or turn the pot: Missouri Botanical Garden and the RHS both say a change in light can make the buds drop."
+    ],
+    "water": [
+      "Let part of the pot dry before watering, then soak it and let the excess drain away. UF/IFAS advises watering regularly from spring through fall and allowing the top third to half of the mix to dry completely between waterings. Clemson is stricter and says to let the soil dry out completely, using the weight of the pot as a guide, while the RHS says never to let it dry out completely. A bark mix that drains in seconds lets you sit between those views safely.",
+      "Watch the leaves. NC State notes that both overly wet and overly dry soil make leaves drop, and the RHS links blackening leaves and dieback to waterlogged compost. Thin, wrinkled leaves mean the plant has been left dry too long, as NC State observes for the sweetheart hoya. Use room-temperature water, since cold water can shock the roots.",
+      "From October to February hoyas are semi-dormant. The RHS recommends only moderate watering in that period, waiting until the compost is fairly dry, and UF/IFAS says to water very sparingly. Damp mix in a cool winter room is the quickest way to lose the roots."
+    ],
+    "soil": [
+      "Clemson and the RHS both recommend an equal-parts mix of potting soil, orchid bark and perlite, which drains quickly and dries out fast, much like the bark the plant clings to in the wild. A cactus mix with extra perlite also works, according to the RHS. NC State describes the ideal medium as loose, fast-draining and high in organic matter, at a neutral pH of 6.0 to 8.0. Always use a pot with a drainage hole."
+    ],
+    "humidity": [
+      "Hoyas like moist air. NC State says the wax plant loves high humidity and suggests a humidifier or a tray of wet pebbles, and the RHS calls for humid air during the growing season, with the pot standing over damp gravel kept just below the surface. For the sweetheart hoya, NC State suggests a kitchen or bathroom. Dry air also matters for pests: NC State notes spider mites tend to appear when the air is too dry."
+    ],
+    "temperature": [
+      "Normal room warmth suits it. The RHS gives 61 to 75°F (16 to 24°C) for spring and summer, with a slightly cooler winter rest. Missouri Botanical Garden and the RHS put the winter night minimum for Hoya carnosa at 50°F (10°C), and NC State says to bring a plant summering outdoors back inside when nights fall below 50°F. UF/IFAS gives a lower outdoor limit of 45°F, but 50°F is the safer target indoors. Keep it away from radiators and cold drafts."
+    ],
+    "fertilizer": [
+      "The RHS says hoyas need only light feeding: every couple of weeks in spring and summer, ideally with a balanced, urea-free orchid feed, then once a month in autumn and winter until growth resumes. Clemson prefers a liquid fertilizer with an NPK ratio of 2:1:2 or 3:1:2 to support flowering, and liquid rather than slow-release granules because the plant is watered infrequently. We read light feeding as a diluted dose. Flush the pot with plain water every few months, and skip feeding for five to six weeks after repotting, as the RHS advises."
+    ],
+    "repotting": [
+      "Repot rarely. NC State says the wax plant does not mind being pot-bound, UF/IFAS says to repot only when necessary, and the RHS says a hoya can stay in its container for several years, until the roots fill it. A tight pot also helps flowering and drainage: NC State notes that a container that does not keep the plant root-bound may hold excess water and cause root rot.",
+      "When the time comes, choose spring and a pot no more than 2 inches wider, per NC State, or only a few centimeters, per the RHS. Never repot while the plant is in bud or flower. Clemson warns that an oversized pot keeps the mix from drying properly."
+    ],
+    "propagation": [
+      "Stem cuttings are the standard method. The RHS suggests taking them from the previous year's stems in spring or early summer and standing them in a glass of water, where roots form in two or three weeks, before potting them into cuttings compost. Wear gloves, since the stems bleed a milky sap; UF/IFAS adds that the sap can drip onto furniture.",
+      "Layering is just as easy. The RHS describes bending a strong, low shoot into a second pot, pegging it into the compost, removing any leaves that touch the surface and keeping it moist until it roots. Cut it free once it is growing on its own."
+    ],
+    "problems": [
+      "Flowering problems are the most common complaint, and they usually come down to light, a moved pot or a removed spur. NC State notes that most plants do not flower until they are 2 or 3 years old. For pests, mealybugs top every list; NC State adds fungus gnats in mix that stays too wet, spider mites in dry air, and aphids, while Missouri Botanical Garden lists scale. Clemson also mentions flat mites. Overwatering remains the leading cause of root rot."
+    ],
+    "petSafety": [
+      "Hoyas are among the safest flowering houseplants for pets. The ASPCA lists the honey plant (Hoya carnosa), the wax plant ('Krinkle Kurl') and the sweetheart hoya (Hoya kerrii) as non-toxic to cats and dogs, and the honey plant and sweetheart hoya as non-toxic to horses as well. Non-toxic does not mean the leaves are a snack: a pet that eats a lot of any plant may vomit. The milky sap can be messy and the nectar of some species drips and stains, so keep vines out of reach of chewers anyway."
+    ],
+    "faq": [
+      {
+        "q": "Should I cut off the stubs left after my hoya flowers?",
+        "a": "No. The short, leafless stub is the peduncle, or spur, and NC State notes that it produces flowers again and again over several years. The RHS and UF/IFAS give the same advice: leave the flower stalks in place and a second flush often appears from the same point. Cutting the spur removes future flowers. Only prune long, bare shoots, ideally in late winter or early spring."
+      },
+      {
+        "q": "Why is my hoya dripping a sticky liquid?",
+        "a": "In most cases it is nectar from the flowers. NC State notes that Hoya carnosa flowers can produce a sticky sap, and that the sweetheart hoya drips copious reddish-brown nectar that can stain fabrics and walls. If there are no flowers, check the leaves for scale or mealybugs, whose honeydew is also sticky. Wipe surfaces with a damp cloth and move the plant away from upholstery while it blooms."
+      },
+      {
+        "q": "Can a single hoya kerrii heart leaf grow into a plant?",
+        "a": "Usually not. NC State explains that sweetheart hoyas are often sold as a single rooted leaf, but those cuttings rarely grow well unless some stem tissue was included when the leaf was cut. Without a node there is no bud to make a new vine, so the leaf can live for years without growing. Buy a plant with a short piece of stem if you want it to climb."
+      },
+      {
+        "q": "How old does a hoya have to be before it blooms?",
+        "a": "NC State says most wax plants will not flower until they are 2 or 3 years old, and Clemson notes that some species take years while others bloom readily. Once a plant starts, blooming can happen in spring, summer or fall, and each cluster may last weeks. Bright light, a snug pot, steady watering and leaving the old spurs alone are what push a mature hoya into flower."
+      },
+      {
+        "q": "Can my hoya go outside for the summer?",
+        "a": "Yes, in a warm, sheltered spot with partial shade. NC State says the wax plant can spend summer on a patio, but should come back inside when nights fall below 50°F. The RHS advises hardening it off first and never moving a plant once flower buds have formed, since the change in light can make the buds drop. Check for mealybugs before bringing it indoors."
+      }
+    ]
+  }
+}

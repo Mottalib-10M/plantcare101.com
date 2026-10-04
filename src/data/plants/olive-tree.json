@@ -1,0 +1,317 @@
+{
+  "slug": "olive-tree",
+  "commonName": "Olive tree",
+  "otherNames": [
+    "Olive",
+    "European olive",
+    "Common olive",
+    "Indoor olive tree"
+  ],
+  "botanicalName": "Olea europaea",
+  "formerNames": [],
+  "family": "Oleaceae",
+  "kind": "shrub",
+  "isGroup": false,
+  "light": {
+    "minLevel": "direct",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [
+      1500,
+      1500
+    ],
+    "lux": [
+      16146,
+      16146
+    ],
+    "windows": [
+      "south",
+      "west"
+    ],
+    "directSun": "needs",
+    "src": [
+      0,
+      1,
+      3
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Keep the compost lightly moist through the growing season, watering when the surface dries, and never let the pot sit wet",
+    "winter": "None of our sources gives a winter schedule for a potted olive; in a cool room growth stops, the gritty mix dries slowly, and watering only when the top inch is dry keeps the roots safe.",
+    "factors": [
+      "UF/IFAS warns that too much water makes olives prone to root rot and makes flowers drop before they set fruit.",
+      "Raise the pot on feet, as the RHS advises, so excess water drains away freely.",
+      "A tree outdoors in summer sun dries out far faster than one behind glass; check it often in hot spells."
+    ],
+    "src": [
+      0,
+      1,
+      2,
+      8
+    ]
+  },
+  "soil": {
+    "mix": "A gritty, loam-based potting compost with controlled-release fertilizer granules mixed in, in a pot about 12 to 14 inches across.",
+    "components": [
+      "loam-based potting compost",
+      "grit or coarse sand",
+      "controlled-release fertilizer granules"
+    ],
+    "src": [
+      1,
+      2
+    ]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "NC State says the olive performs best with hot, dry summers; none of our sources asks for extra humidity.",
+    "src": [
+      0
+    ]
+  },
+  "temperature": {
+    "minF": 32,
+    "minC": 0,
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fertilizer": {
+    "season": "The growing season, spring to fall",
+    "everyWeeks": [
+      4,
+      4
+    ],
+    "strength": "full",
+    "type": "Balanced liquid fertilizer at the label rate; UF/IFAS warns that excess nitrogen pushes shoots at the expense of fruit",
+    "winter": "none",
+    "src": [
+      1,
+      2
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage holes",
+      "The soil mass is filled with roots",
+      "The tree wilts between normal waterings in summer"
+    ],
+    "season": "Spring",
+    "rootType": "woody",
+    "prefersSnug": false,
+    "src": [
+      1,
+      4
+    ]
+  },
+  "toxicity": {
+    "cats": "unknown",
+    "dogs": "unknown",
+    "humans": "non-toxic",
+    "humanNote": "The fruit is a food crop, but the RHS notes that olives need special preparation, brining or salt curing, to lose their bitterness before eating.",
+    "aspcaListed": false,
+    "aspca": [],
+    "src": [
+      0,
+      1,
+      5,
+      6
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "A healthy-looking tree never blooms or sets olives",
+      "causeKey": "dormancy",
+      "cause": "No winter chill: NC State says the olive needs 2 months at 40 to 50°F to flower",
+      "remedy": "Overwinter it in a bright, cool, frost-free room, porch or greenhouse instead of a warm living room."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Leaves dull, yellow and dropping while the compost stays wet",
+      "causeKey": "overwatering",
+      "cause": "Waterlogged mix, which UF/IFAS links to root rot in olives",
+      "remedy": "Let the surface dry before watering, raise the pot on feet, and repot into gritty compost if the mix has turned dense."
+    },
+    {
+      "symptomKey": "bud-drop",
+      "symptom": "Flowers fall before any fruit forms",
+      "causeKey": "overwatering",
+      "cause": "Too much water around bloom time, as UF/IFAS describes",
+      "remedy": "Water more sparingly while the tree is flowering, without letting it dry out completely."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky leaves and small immobile bumps on stems and leaf undersides",
+      "causeKey": "pests",
+      "cause": "Scale insects, the main pest NC State and UF/IFAS name",
+      "remedy": "Scrape or wipe off the scales, treat with horticultural oil or insecticidal soap, and repeat until no new ones appear."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long, thin shoots with widely spaced leaves, often in winter indoors",
+      "causeKey": "low-light",
+      "cause": "Less sun than the 6 or more hours a day NC State asks for",
+      "remedy": "Move it to the sunniest window you have, or outdoors once frost has passed, and tip prune the weak shoots in early spring."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Semi-ripe cuttings",
+      "Seed"
+    ],
+    "season": "Summer, when the current year's shoots are semi-ripe"
+  },
+  "size": {
+    "growth": "slow",
+    "note": "NC State gives 20 to 30 feet in the ground; in a 12 to 14 inch pot, yearly tip pruning (RHS) keeps it a small tree or shrub.",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Arbequina",
+      "note": "Spanish cultivar, self-pollinating, the most popular olive in Florida trials (UF/IFAS)."
+    },
+    {
+      "name": "Mission",
+      "note": "The classic black table olive, self-fertile (UF/IFAS)."
+    },
+    {
+      "name": "Koroneiki",
+      "note": "Often planted beside 'Arbequina' to improve pollination (UF/IFAS)."
+    },
+    {
+      "name": "Arbosona",
+      "note": "Another pollination partner for 'Arbequina' named by UF/IFAS."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Olea europaea (Olive)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/olea-europaea/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow olives",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/fruit/olives/grow-your-own",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Olives",
+      "publisher": "UF/IFAS Gardening Solutions, University of Florida",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/fruits/olives/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and non-toxic plant list: cats",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and non-toxic plant list: dogs",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "meyer-lemon-tree",
+    "bonsai",
+    "bird-of-paradise"
+  ],
+  "seo": {
+    "title": "Olive Tree Care Indoors: Sun, Winter Chill & Pots (2026)",
+    "description": "Olive tree care in 2026: 6+ hours of direct sun, gritty compost, monthly feeding, and 2 months at 40 to 50°F (NC State) if you want flowers. Pot tips inside.",
+    "h1": "Olive tree care: sun, water and winter chill"
+  },
+  "content": {
+    "answer": "An olive tree needs full sun, 6 or more hours of it according to NC State Extension, gritty free-draining compost and water only when the surface dries. Indoors it rarely flowers unless it spends about 2 months at 40 to 50°F (4 to 10°C) in winter.",
+    "intro": "Olea europaea is a slow, silver-leaved Mediterranean tree that NC State Extension says performs best with hot, dry summers and mild, wet winters, conditions no apartment reproduces. That is the honest starting point for anyone buying a potted olive for the living room. It can live indoors, but it is a sun-loving tree rather than a houseplant: NC State lists full sun only, six hours or more of direct light, and adds that flowering requires about two months at 40 to 50°F (4 to 10°C). A tree kept warm all winter by a radiator may look fine yet never bloom, and without flowers there are no olives. The RHS treats pot-grown olives as outdoor plants for summer that move to a frost-free shelter for winter. Follow that rhythm, sunny patio from late spring and cool bright room in winter, and an olive in a pot can thrive for decades.",
+    "light": [
+      "Give an olive the brightest spot in the house, and then some. NC State lists only full sun, meaning 6 or more hours of direct sunlight a day. On the Illinois Extension light scale, that is direct light of about 1,500 foot-candles, available indoors only directly in front of a south window. An east window offers a few hours of sun, a north window none, and an olive in either will slowly thin out, drop older leaves and push weak shoots toward the glass.",
+      "Summer outdoors solves the light problem for most of the year. The RHS advises waiting until all danger of frost has passed before moving a potted olive outside, then giving it a sunny, sheltered spot. After a winter behind glass, ease it into full sun over a week or two, as the Illinois Extension recommends for any houseplant going outside, so the leaves are not scorched. In winter, a sunny unheated porch or a cool south-facing room is far better than a dim corner of a warm room."
+    ],
+    "water": [
+      "Olives in the ground are famously drought tolerant once established, but a pot is a different world. The RHS advises keeping the compost moist through the growing season, and a 12 to 14 inch pot of gritty compost in summer sun can dry out quickly. Check with a finger: when the top inch is dry, water until it runs from the drainage holes. Raise the pot on feet, as the RHS suggests, so it never sits in a puddle.",
+      "Too much water is the more common way to lose a potted olive. UF/IFAS warns that excess water from irrigation or rain leaves olives susceptible to root rot and makes flowers drop before they form fruit. A dense, peat-heavy mix that stays wet for a week is the usual culprit, especially indoors in winter when the tree barely grows.",
+      "Our sources do not give a winter watering rule for a potted olive. In a cool, bright room the tree is close to resting, the gritty mix dries slowly, and checking the top inch before each watering is the safest habit. Do not let it go bone dry for weeks, though; an evergreen keeps losing some water through its leaves all winter."
+    ],
+    "soil": [
+      "The RHS recommends pots of 12 to 14 inches (30 to 35 cm), or large enough for the roots to fit comfortably, filled with gritty, loam-based compost with some controlled-release fertilizer granules mixed in. Loam gives weight and stability to a top-heavy tree and holds nutrients better than peat. UF/IFAS adds that olives grow best in sandy, well-drained ground and actually thrive in poor soil. Add extra grit if your compost feels heavy, and make sure the pot has generous drainage holes."
+    ],
+    "humidity": [
+      "Humidity is the one thing an olive does not ask for. NC State describes it as a tree for hot, dry summers, and its leathery leaves are gray-green above with silvery, hairy undersides. The dry air of a heated home in winter, often below 30 percent according to the Illinois Extension, does not bother it. Skip misting; wet foliage in a cool room only invites fungal spots."
+    ],
+    "temperature": [
+      "The RHS says many olives are hardy, but branches can be damaged by severe frost, and pot-grown trees should be stored in a frost-free place over winter. UF/IFAS puts the danger line for trees in the ground at 20°F (-7°C). Roots in a pot are more exposed than roots in the soil, so bring a potted olive in, or into an unheated garage with a window, before freezing nights, and keep it above 32°F (0°C).",
+      "Warmth is not the goal in winter. NC State states that the olive requires 2 months of temperatures between 40 and 50°F (4 and 10°C) to flower. A sunroom, enclosed porch or cool spare room that stays in that band from December to February gives the tree its chill and keeps it alive. A heated living room at 70°F (21°C) keeps it alive, but usually without flowers or fruit."
+    ],
+    "fertilizer": [
+      "The RHS recommends a balanced liquid fertilizer every month through the growing season, which runs broadly from spring to fall, on top of the controlled-release granules mixed into the compost at potting time. Restraint pays off. UF/IFAS warns that excessive nitrogen produces lots of shoot growth at the expense of fruit, so avoid high-nitrogen lawn or foliage plant feeds. Stop feeding in winter while the tree is chilling."
+    ],
+    "repotting": [
+      "Move an olive into a slightly larger pot in spring, the season the RHS recommends for planting, once roots are coming through the drainage holes or the tree wilts between normal waterings in summer. Use fresh gritty compost and set the tree at the same depth as before. When the tree has reached the largest pot you can move, keep it there and refresh the top couple of inches of compost each spring instead. Prune in early spring as well: the RHS suggests tip pruning the main branches back to a good replacement shoot each year to restrict a pot-grown olive's size."
+    ],
+    "propagation": [
+      "NC State lists seed and semi-ripe cuttings for the olive. Cuttings are the practical route, since they copy the parent tree and its fruit. Take a pencil-length piece of this year's shoot once its base has started to firm up in summer, strip the lower leaves, and root it in gritty mix with bottom warmth and humidity. Take several at once so that a few failures do not matter."
+    ],
+    "problems": [
+      "Failure to bloom is the most common disappointment, and it is almost always the missing winter chill described by NC State. UF/IFAS adds that olives fruit on new growth, never in the same place on a stem twice, and tend to alternate heavy and light years, so a lighter crop after a big one is normal. Pests are few: NC State and UF/IFAS both single out scale insects, and NC State notes root rot, olive knot and verticillium wilt in the landscape. Indoors, weak leggy shoots in winter mean too little sun."
+    ],
+    "petSafety": [
+      "The olive tree does not appear on the ASPCA toxic and non-toxic plant lists for cats or dogs; we checked both, and the only olives listed there are the unrelated Russian olive and autumn olive. NC State's profile flags no poison hazard for Olea europaea either, and the fruit is a human food once cured. We therefore mark it as not rated rather than pet safe: absence from a list is not a formal safety rating, and no source we read has actually assessed it. Sweep up fallen fruit anyway, and call your veterinarian if a pet eats a large amount of any plant."
+    ],
+    "faq": [
+      {
+        "q": "Can an olive tree live indoors all year round?",
+        "a": "It can survive, but it rarely thrives. NC State asks for 6 or more hours of direct sun, which only a bright south window comes close to providing, and the RHS treats potted olives as patio trees that come in only for winter. A year-round indoor olive usually grows thin and does not flower. Summers outdoors make a large difference."
+      },
+      {
+        "q": "Why won't my indoor olive tree produce olives?",
+        "a": "Most likely it never got cold enough. NC State says olives need 2 months at 40 to 50°F (4 to 10°C) to flower, and a heated room prevents that. Low light and overwatering, which UF/IFAS links to flower drop, also reduce the crop. 'Arbequina' and 'Mission' are self-fertile, so a single tree can fruit."
+      },
+      {
+        "q": "How long does a potted olive tree take to bear fruit?",
+        "a": "UF/IFAS says you should begin to see fruit about three years after planting a young tree, assuming it gets full sun and winter chill. Expect alternate bearing afterward: a heavy year followed by a lighter one. Thinning a heavy crop to two or three fruits per foot of twig, as UF/IFAS suggests, gives bigger olives."
+      },
+      {
+        "q": "Are olives from a potted olive tree safe to eat straight off the branch?",
+        "a": "They are not poisonous, but you will not enjoy them raw. The RHS explains that fresh olives need special preparation: green ones are soaked in salted water to remove the bitterness, and black ones are dry cured in salt for several weeks, then stored in oil or brine. UF/IFAS notes some cultivars suit eating and others pressing."
+      }
+    ]
+  }
+}

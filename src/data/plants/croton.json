@@ -1,0 +1,271 @@
+{
+  "slug": "croton",
+  "commonName": "Croton",
+  "otherNames": [
+    "Garden croton",
+    "Fire croton",
+    "Joseph's coat",
+    "Variegated croton"
+  ],
+  "botanicalName": "Codiaeum variegatum",
+  "formerNames": [
+    "Codiaeum variegatum var. pictum"
+  ],
+  "family": "Euphorbiaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [300, 1500],
+    "lux": [3229, 16146],
+    "windows": ["south", "west", "east"],
+    "directSun": "needs",
+    "src": [0, 1, 2]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water when the top inch of mix feels dry, generously from spring to autumn",
+    "winter": "NC State advises watering sparingly in winter: the plant takes a resting period from fall to late winter, so let the mix dry further between drinks.",
+    "factors": [
+      "UF/IFAS notes that new foliage wilts when the plant is thirsty, which makes a handy watering signal.",
+      "Water frequently but not excessively; the mix should drain freely and only occasionally dry out.",
+      "Dust builds up on indoor plants and hides spider mites; a rinse in a shady spot outdoors helps with both."
+    ],
+    "src": [0, 1]
+  },
+  "soil": {
+    "mix": "A good-quality, humus-rich potting mix that drains well, in a pot with a drainage hole.",
+    "components": [
+      "quality houseplant potting mix",
+      "compost or other organic matter",
+      "perlite if the mix stays wet"
+    ],
+    "src": [0, 1]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "NC State lists low to medium relative humidity yet suggests a tray of wet pebbles indoors; UF/IFAS says crotons thrive in warm, humid weather.",
+    "src": [0, 1]
+  },
+  "temperature": {
+    "minF": 50,
+    "minC": 10,
+    "src": [0, 1]
+  },
+  "fertilizer": {
+    "season": "March to September, while the plant is growing",
+    "everyWeeks": [4, 13],
+    "strength": "full",
+    "type": "Houseplant fertilizer, balanced (10-10-10) or 1:2:1 (10-20-10), at the label rate and never stronger",
+    "winter": "none",
+    "src": [3]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage holes",
+      "The root ball is a solid mass of roots",
+      "The plant wilts soon after a thorough watering"
+    ],
+    "season": "Spring or early summer, when new growth starts",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [4, 5]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: toxic only if large quantities are eaten (nausea, vomiting, diarrhea), and the sap can cause contact dermatitis. All parts contain diterpene esters.",
+    "aspcaListed": false,
+    "aspca": [],
+    "src": [0, 1, 7, 8]
+  },
+  "problems": [
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Lower leaves fall one after another, leaving a bare stem",
+      "causeKey": "low-light",
+      "cause": "Too much shade for a sun-loving shrub",
+      "remedy": "Move the plant to the brightest window you have, with a few hours of direct sun, and expect new leaves only at the tips."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "New leaves come out green and stay plain instead of turning red, orange or yellow",
+      "causeKey": "low-light",
+      "cause": "Not enough light to develop pigment in the foliage",
+      "remedy": "Give it more light gradually; color returns on leaves that form after the move, not on old ones."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale stippling on leaf undersides",
+      "causeKey": "pests",
+      "cause": "Twospotted spider mites, the croton's commonest indoor pest",
+      "remedy": "Rinse the foliage in a shady spot outdoors or in the shower, isolate the plant and treat with insecticidal soap until no new webbing appears."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony clusters where leaves join the stem",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Remove colonies with a cotton swab dipped in rubbing alcohol and check new growth weekly."
+    },
+    {
+      "symptomKey": "drooping",
+      "symptom": "Young leaves hang limp at the top of the plant",
+      "causeKey": "underwatering",
+      "cause": "Mix allowed to dry too far during active growth",
+      "remedy": "Water slowly until it drains, then check the top inch more often in summer and near heaters."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Many leaves drop within days of a move or a cold night",
+      "causeKey": "cold",
+      "cause": "Exposure to temperatures near or below 50°F (10°C)",
+      "remedy": "Bring it indoors before nights reach 50°F, keep it off cold glass, and wait for new shoots before pruning bare stems."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings 3 to 4 inches long with rooting hormone"
+    ],
+    "season": "Spring to summer, when temperatures stay between 70°F and 80°F"
+  },
+  "size": {
+    "heightIn": [24, 36],
+    "note": "NC State: about 3 ft indoors, up to 8 ft outdoors in its native range; UF/IFAS gives up to 10 ft in Florida landscapes.",
+    "src": [0, 1]
+  },
+  "varieties": [
+    { "name": "Petra", "note": "The most common croton: dark green leaves marked yellow, pink and orange-red along the veins; UF/IFAS recommends it for holding color indoors." },
+    { "name": "Gold Dust", "note": "Rounded oval, bright green leaves spotted with golden yellow." },
+    { "name": "Eleanor Roosevelt", "note": "Medium green leaves with golden spots that shift toward dark red." },
+    { "name": "Majesticum", "note": "Long yellow and red leaves, about nine inches." },
+    { "name": "Spirale", "note": "Twisted red and green leaves." },
+    { "name": "Andreanum", "note": "Broad oval yellow leaves with gold veins and margins." }
+  ],
+  "sources": [
+    {
+      "title": "Codiaeum variegatum (Croton)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/codiaeum-variegatum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Crotons",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/crotons/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Cats (no Codiaeum or croton entry)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Dogs (no Codiaeum or croton entry)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["dracaena", "schefflera", "fiddle-leaf-fig", "rubber-plant", "money-tree"],
+  "seo": {
+    "title": "Croton Care: Light, Water and Leaf Color Guide (2026)",
+    "description": "Croton care in 2026: bright light with some direct sun for color, water freely in summer, keep it above 50°F. Watering calculator, pet safety, leaf drop fixes.",
+    "h1": "Croton care: light, water and leaf color"
+  },
+  "content": {
+    "answer": "Give a croton your brightest window, with some direct sun, and water when the top inch of mix is dry. NC State advises generous watering from spring to autumn and sparing watering in winter. Keep it above 50°F and away from drafts.",
+    "intro": "Codiaeum variegatum is a woody evergreen shrub of the spurge family, native to Malaysia, the Pacific islands and northern Australia, where it reaches about 8 feet. Indoors it usually stops near 3 feet, according to NC State Extension, and it is grown for one thing: leathery leaves splashed with yellow, orange, red, pink and purple, sometimes twisted or lobed, up to 18 inches long. Those colors are a direct readout of light. A croton in a bright window with a few hours of sun stays painted; the same plant in a dim corner turns green and starts dropping its lower leaves. It also bleeds a milky sap that irritates skin and stains fabric, and it hates cold, so the care routine comes down to sun, steady warmth above 50°F, even moisture in the growing season and a careful hand when pruning.",
+    "light": [
+      "Light is the deciding factor with a croton. NC State Extension says the plant needs bright light with some direct sun for the best leaf color, and that it may lose its lower leaves in too much shade. In practice that means a south or west window, or an east window that catches several hours of morning sun. In the Illinois Extension scale, aim for bright light of about 300 foot-candles as a floor, and do not fear direct light near the glass.",
+      "UF/IFAS adds a useful caution: bright sun maximizes color, but overexposure can bleach and stunt the foliage, and indoor plants respond well to partial sun once acclimated. So move a croton toward a brighter spot over a week or two rather than in one jump, and watch for faded, papery patches on the side facing the window. If your home has no sunny window, choose a cultivar bred to hold color indoors, such as 'Petra', and accept that even it will slowly lose some brilliance without enough light."
+    ],
+    "water": [
+      "A croton drinks heavily while it grows. NC State recommends watering liberally from spring to autumn, and UF/IFAS describes the right rhythm as frequent but not excessive. Push a finger into the mix: when the top inch is dry, water slowly until it runs from the drainage hole, then empty the saucer. The mix should stay lightly moist below the surface, never soggy, and only occasionally dry out.",
+      "The plant tells you when it is late. UF/IFAS points out that new foliage wilts when the croton is thirsty, so limp young leaves at the top are your cue to water now. Do not let that happen often; repeated wilting is one of the triggers for leaf drop, and crotons drop leaves far more readily than they grow them back.",
+      "From fall to late winter the plant slows into what NC State calls a resting period, with reduced watering. It does not go dormant, so keep it in light and warmth, but let the mix dry a little further down before each drink. A cool room combined with a wet pot is the quickest way to rot the roots of a plant that is barely growing."
+    ],
+    "soil": [
+      "NC State lists a humus-rich, well-drained soil that is moist but occasionally dry, and UF/IFAS asks for a good-quality potting medium with adequate drainage. A standard bagged houseplant mix works; if it stays wet for days, cut in a few handfuls of perlite. The pot needs a drainage hole, and a heavy pot helps because the plant becomes top-heavy as its woody stems lengthen."
+    ],
+    "humidity": [
+      "The sources pull in slightly different directions here. NC State lists low to medium relative humidity as acceptable, yet suggests standing the pot on a bed of wet pebbles indoors to meet the plant's humidity needs. UF/IFAS describes crotons as thriving in warm, humid weather. The practical reading is that average room humidity will keep a croton alive, while extra moisture in winter, when heating dries the air, helps prevent crisp leaf edges and makes the plant less inviting to spider mites, which multiply fastest in dry air."
+    ],
+    "temperature": [
+      "Crotons are hardy outdoors only in USDA Zones 11 and 12, and NC State advises bringing them indoors when temperatures reach 50°F. Treat 50°F as the hard floor. A cold night on a patio, a draft from a door or leaves pressed against winter glass can cause sudden, heavy leaf drop. Normal room temperatures suit the plant year round, and warmth is especially helpful when rooting cuttings: UF/IFAS gives 70°F to 80°F as the range in which they root in under a month."
+    ],
+    "fertilizer": [
+      "No extension source gives a croton-specific feeding schedule, so the general houseplant rule from the University of Illinois Extension applies: fertilize no more than once every one to three months between March and September, with a balanced 10-10-10 or a 1:2:1 formula at the label rate. A croton in strong light will use the higher end of that range; one in a dimmer spot needs less. Skip winter feeding during the resting period, and flush the pot with plain water a few times a year to clear salts."
+    ],
+    "repotting": [
+      "Repot when roots fill the pot, circle the root ball or push out of the drainage hole, or when the plant wilts within a day or two of a thorough watering. Clemson recommends doing it as new growth starts in spring and going up only 1 or 2 inches in pot diameter. Move the root ball intact and loosen roots only if they are tightly circling.",
+      "Wear gloves. NC State warns that the sap flowing from cut or broken stems can irritate soft tissue, causing itching and swelling, and that it permanently stains fabric. Wash your hands afterward and keep them away from your eyes."
+    ],
+    "propagation": [
+      "Stem cuttings are the standard method. UF/IFAS recommends a cutting 3 to 4 inches long carrying 3 to 5 leaves, dipped in rooting hormone and set in a small pot of moist mix. Keep it warm, between 70°F and 80°F, and it should root in less than a month. Expect the first new leaves to come out green, then color up as they mature."
+    ],
+    "problems": [
+      "Leaf drop is the croton's signature complaint, and it almost always follows a change: less light, a cold draft, a missed watering or a new pot. Find the trigger and fix it; the plant will regrow from the tips, though bare lower stems rarely fill back in. Spider mites are the pest to watch, and NC State notes they can limit how long crotons last indoors. UF/IFAS also lists mealybugs, scale, thrips and occasional fungal problems, and recommends learning to spot changes in leaf texture and insect residue early."
+    ],
+    "petSafety": [
+      "The ASPCA has no entry for Codiaeum or for any plant called croton on either its cats or its dogs list, so the information here comes from extension sources. UF/IFAS warns to keep children and pets from nibbling croton leaves because they have irritating and poisonous qualities. NC State rates the plant as poisonous with low severity: every part contains diterpene esters, eating a large quantity can cause nausea, vomiting and diarrhea, and the sap can cause contact dermatitis. We therefore list it as toxic to cats and dogs. Keep it out of reach, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if a pet chews it."
+    ],
+    "faq": [
+      {
+        "q": "Why is my croton losing its bright colors and turning green?",
+        "a": "Almost always too little light. Croton pigments develop in strong light, and NC State Extension says the plant needs bright light with some direct sun for its best color. Move it to a south or west window over a week or two. Only leaves that form after the move will color up fully; older green leaves rarely change back."
+      },
+      {
+        "q": "Is it normal for a new croton to drop leaves after I bring it home?",
+        "a": "Yes, within limits. A croton raised in a bright greenhouse usually sheds some leaves when it lands in a darker home, and a cold car ride makes it worse. Give it your brightest spot, keep it above 50°F and water when the top inch dries. If it keeps growing new leaves at the tips, it is adjusting."
+      },
+      {
+        "q": "Can I put my croton outside for the summer?",
+        "a": "Yes, and many crotons color up beautifully outdoors. Start in light shade and move it into more sun over a week or two, since UF/IFAS warns that overexposure can bleach the leaves. Bring it back inside before nights reach 50°F, the point at which NC State Extension advises moving crotons indoors. Check for spider mites before it comes in."
+      },
+      {
+        "q": "Does croton sap irritate skin?",
+        "a": "It can. NC State Extension notes that the sap flowing from cut leaves or stems may cause itching and swelling of soft tissue, and repeated contact can lead to an allergic rash. It also stains fabric permanently. Wear gloves when pruning or taking cuttings, wash your hands afterward and keep them away from your eyes."
+      },
+      {
+        "q": "How do I make a leggy croton bushier?",
+        "a": "Cut the tallest stems back in spring, just above a leaf, while wearing gloves because of the sap. New shoots usually break below the cut. Pruning alone will not help if the plant is stretching for light, so pair it with a brighter window. The stem pieces you remove can be rooted as 3 to 4 inch cuttings."
+      }
+    ]
+  }
+}

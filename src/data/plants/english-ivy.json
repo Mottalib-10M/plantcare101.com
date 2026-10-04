@@ -1,0 +1,338 @@
+{
+  "slug": "english-ivy",
+  "commonName": "English ivy",
+  "otherNames": [
+    "Common ivy",
+    "Branching ivy",
+    "Needlepoint ivy",
+    "Glacier ivy"
+  ],
+  "botanicalName": "Hedera helix",
+  "formerNames": [],
+  "family": "Araliaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "east",
+      "west",
+      "north"
+    ],
+    "directSun": "avoid",
+    "src": [
+      2,
+      4,
+      5
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water thoroughly, then let the top half inch of mix dry to the touch before watering again",
+    "winter": "Growth slows in short, cool days, so the mix takes longer to dry: keep using the half-inch touch test rather than a summer routine.",
+    "factors": [
+      "Standing water and poor drainage cause root rot, Clemson warns.",
+      "Warm, dry rooms speed drying and invite spider mites, the pest Illinois Extension tells ivy growers to check for regularly.",
+      "Illinois Extension simply says to keep ivy moist; Clemson's half-inch rule is the more precise of the two."
+    ],
+    "src": [
+      2,
+      4
+    ]
+  },
+  "soil": {
+    "mix": "A good-quality commercial houseplant potting mix with good drainage; regular potting mix works.",
+    "components": [
+      "commercial houseplant potting mix",
+      "a pot with a drainage hole"
+    ],
+    "src": [
+      2,
+      4
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Prefers moderate humidity but tolerates normal home levels; a tray of wet pebbles or perlite helps in winter.",
+    "src": [
+      2,
+      4
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      50,
+      70
+    ],
+    "idealC": [
+      10,
+      21
+    ],
+    "minF": 40,
+    "minC": 4,
+    "src": [
+      2,
+      4
+    ]
+  },
+  "fertilizer": {
+    "season": "While actively growing; skip spells of summer heat or cool temperatures",
+    "everyWeeks": [
+      4,
+      5
+    ],
+    "strength": "full",
+    "type": "Foliage houseplant fertilizer, monthly, at the label rate",
+    "winter": "none",
+    "src": [
+      2,
+      6
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "The plant becomes top-heavy for its pot",
+      "Roots circle the pot and the plant is root bound",
+      "The mix dries out much faster than it used to"
+    ],
+    "season": "Spring or early summer, while it is growing",
+    "rootType": "fibrous",
+    "prefersSnug": true,
+    "src": [
+      2,
+      6
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "toxic",
+    "humanNote": "NC State rates poison severity as medium: leaves and berries are toxic if eaten, and the sap can cause severe skin irritation with redness, itching and blisters.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "English Ivy (Hedera helix)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/english-ivy",
+        "toxicPrinciples": "Triterpenoid saponins (hederagenin)",
+        "clinicalSigns": "Vomiting, abdominal pain, hypersalivation, diarrhea. Foliage is more toxic than berries"
+      }
+    ],
+    "src": [
+      3,
+      0,
+      2
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "webbing",
+      "symptom": "Leaves stippled pale with fine webbing at the stem tips",
+      "causeKey": "pests",
+      "cause": "Spider mites, the classic indoor ivy pest in warm, dry rooms",
+      "remedy": "Dunk the whole trailing top in a bucket of water with insecticidal soap, repeat weekly, and add a pebble tray to raise humidity."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Variegated leaves turn plain green and new growth is small",
+      "causeKey": "low-light",
+      "cause": "Too little light; Clemson notes variegated forms may turn all green",
+      "remedy": "Move it close to a bright east or west window or into the light of a north window, out of direct sun."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Stems blacken at the soil line and the whole plant wilts in wet mix",
+      "causeKey": "overwatering",
+      "cause": "Root rot from poor drainage or watering before the surface dries",
+      "remedy": "Root healthy tip cuttings in water to restart the plant, then pot them in fresh, well-drained mix."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Leaf edges brown and crisp, often on the side facing a heater",
+      "causeKey": "heat",
+      "cause": "Hot, dry air well above the 50 to 70°F range ivy prefers",
+      "remedy": "Move it to a cooler room away from radiators and vents, and water as soon as the top half inch is dry."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky film on leaves, with clusters of small insects on new shoots",
+      "causeKey": "pests",
+      "cause": "Aphids, whiteflies, mealybugs or scale",
+      "remedy": "Wash the foliage in soapy water as Clemson suggests, wearing gloves, and check the undersides of leaves every week."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long bare stems with leaves only at the ends",
+      "causeKey": "low-light",
+      "cause": "Stretching toward the light, made worse when tips are never pinched",
+      "remedy": "Pinch the shoot ends often, as Illinois Extension advises, and root the trimmings back into the same pot."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem or tip cuttings in water",
+      "Stem cuttings in moist mix"
+    ],
+    "season": "Spring to summer, while growing"
+  },
+  "size": {
+    "growth": "fast",
+    "note": "Outdoors the vine can climb 20 to 80 feet, according to NC State and Missouri Botanical Garden; indoors its length depends on pinching, pot size and how it is trained, with leaves typically 1 to 3 inches.",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Gold Child",
+      "note": "Soft mottled green leaves with bright cream-yellow margins."
+    },
+    {
+      "name": "Glacier",
+      "note": "Silvery variegation with white margins; also listed by the ASPCA as a name for Hedera helix."
+    },
+    {
+      "name": "Needlepoint",
+      "note": "Miniature bird's-foot leaves, often used on small topiary forms."
+    },
+    {
+      "name": "Buttercup",
+      "note": "Pale green in shade, turning bright yellow in stronger light."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hedera helix (English Ivy)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/hedera-helix/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Hedera helix",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=276595",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Growing English Ivy Indoors (HGIC 1506)",
+      "publisher": "Clemson Cooperative Extension, Home and Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/growing-english-ivy-indoors/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "English Ivy",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/english-ivy",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "English Ivy",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/english-ivy",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "pothos",
+    "philodendron",
+    "string-of-hearts",
+    "tradescantia",
+    "arrowhead-plant"
+  ],
+  "seo": {
+    "title": "English Ivy Care: Indoor Light, Water and Toxicity (2026)",
+    "description": "English ivy care in 2026: bright light without direct sun, 50 to 70°F, water when the top half inch is dry, and keep it from pets: the ASPCA lists it as toxic.",
+    "h1": "English ivy care: growing Hedera helix indoors"
+  },
+  "content": {
+    "answer": "Indoors, English ivy wants bright light without direct sun, cool rooms of 50 to 70°F, and water as soon as the top half inch of mix feels dry, per Clemson Extension. Pinch the tips to keep it bushy, watch for spider mites, and keep it away from pets.",
+    "intro": "Hedera helix is a woody evergreen vine from Europe, Scandinavia and western Russia that climbs by clinging aerial rootlets and lives a double life. In its juvenile form, the one sold in pots, it produces lobed leaves on trailing, non-flowering stems; only an adult stem that has climbed high enough turns shrubby, flowers in fall and sets blue-black berries. Indoors it stays juvenile, which makes it an easy trailing or topiary plant for a cool, bright room. Clemson Extension gives the formula: bright light but not direct sun, 50 to 70°F by day and a little cooler at night, and watering whenever the top half inch of soil is dry. Two warnings come with it. The whole plant is toxic to pets and people, and outdoors the same vine has escaped gardens in many eastern, midwestern and Pacific coast states, and NC State lists it as invasive.",
+    "light": [
+      "English ivy grows best in bright light without the sun striking the leaves. Clemson Extension says most cultivars do best that way, and the University of Illinois Extension places the plant in its high or bright category, about 300 foot-candles, which matches a spot directly in front of an east or west window or within 5 feet of a south one. Filtered light from a sheer curtain is fine; hot afternoon sun through glass is not.",
+      "The two sources differ on how low you can go. Illinois lists bright light as the minimum, while Clemson says ivy tolerates low to medium light but grows less and that variegated forms may turn all green. In practice a medium spot keeps a plain green ivy alive, but cream, gold and silver cultivars need the bright end to keep their markings."
+    ],
+    "water": [
+      "Clemson's rule is specific: water thoroughly, then let the soil dry to the touch to a depth of half an inch before watering again. Push a fingertip in up to the first knuckle; if the surface layer is dry and the mix below is still slightly cool, it is time. Water until it runs from the drainage hole and empty the saucer, because standing water and poor drainage are what Clemson blames for root rot in ivy.",
+      "The University of Illinois Extension simply says to keep ivy moist, which fits with Clemson's rule as long as moist never becomes soggy. Ivy is not a plant to let dry out completely: its thin leaves have no water reserve, and a bone-dry root ball shows up quickly as crisp leaf edges and dropped leaves, followed soon by spider mites.",
+      "In winter, growth slows and the mix stays damp longer, especially in a cool room, so keep checking with the half-inch test instead of watering on habit. If the plant sits near a heater, the opposite happens and it may need water just as often as in summer."
+    ],
+    "soil": [
+      "Ivy is not fussy about its mix. Clemson recommends a good-quality commercial houseplant potting mix with good drainage, and Illinois Extension says regular potting mix is fine. What matters is the drainage hole: a cachepot without one turns every watering into a puddle around the fibrous roots. For a topiary frame or a small hanging pot, the same bagged mix works."
+    ],
+    "humidity": [
+      "Clemson says ivies prefer moderate humidity but tolerate the low levels of a normal home, and suggests a tray of wet pebbles or perlite to raise it. The University of Illinois Extension describes low to medium humidity as acceptable. The real reason to care is pests rather than the leaves themselves: spider mites multiply fastest on ivy in hot, dry air, and Illinois advises inspecting for them regularly."
+    ],
+    "temperature": [
+      "Ivy is one of the few common houseplants that prefers cool rooms. Clemson gives 50 to 70°F (10 to 21°C) during the day and about 5 to 10 degrees lower at night, which puts the comfortable night low around 40 to 45°F (4 to 7°C), and Illinois Extension simply says cool temperatures. A bright, unheated sunroom, an entry hall or a cool bedroom window suits it better than a warm living room over a radiator, where it dries out and attracts mites."
+    ],
+    "fertilizer": [
+      "Feed monthly while the plant is actively growing, using a foliage houseplant fertilizer at the label rate, as Clemson recommends. Clemson also advises skipping fertilizer during periods of summer heat or cool temperatures, when growth stalls. The University of Illinois Extension notes that most houseplants rest in the short days of winter and need little or no fertilizer then."
+    ],
+    "repotting": [
+      "Clemson lists three signs: the plant becomes top-heavy, it is root bound, or it dries out too quickly. Move it into a pot no more than 1 inch larger in diameter, which keeps the volume of wet mix around the roots small. Spring or early summer, when the plant is growing, is the best time, according to the University of Illinois Extension. An old, woody ivy with bare stems is often better replaced by a new pot of rooted cuttings than repotted."
+    ],
+    "propagation": [
+      "Few plants root more willingly. Clemson says propagation is by stem or tip cuttings and that most ivies root easily in water. Cut 3 to 6 inch pieces with at least two nodes, the range the University of Illinois Extension recommends for stem cuttings, strip the lowest leaves, and stand them in water or moist mix in bright, indirect light. Stems that touch soil also root at the nodes on their own, which is how the vine spreads across a forest floor.",
+      "Pinching is the other half of propagation. Illinois Extension recommends starting to train ivy while it is small and pinching off shoot ends often to make a bushy plant; tuck the pinched tips back into the same pot and it fills out twice as fast."
+    ],
+    "problems": [
+      "Indoors, pests are the main issue. Clemson names mealybugs, mites, aphids, whiteflies and scales as the most common insects on houseplant ivy and suggests dunking the foliage in water with insecticidal soap; NC State and Missouri Botanical Garden add leaf spots, bacterial leaf spot and stem rot. Most of these start when the plant is stressed by a hot, dry room or by wet mix. Outdoors the problem is the plant itself: Missouri Botanical Garden reports that it has escaped gardens and naturalized in many eastern, midwestern and Pacific coast states and says it should not be planted in Midwestern gardens, NC State lists it as invasive in North Carolina and warns that it climbs trees and shrubs and will eventually kill them, and Missouri Botanical Garden notes that birds help disperse the seed. Keep yours in a pot and do not dump trimmings outside."
+    ],
+    "petSafety": [
+      "The ASPCA lists English ivy as toxic to cats, dogs and horses. The toxic principle is triterpenoid saponins (hederagenin), and the clinical signs are vomiting, abdominal pain, hypersalivation and diarrhea, with the foliage more toxic than the berries. NC State rates it as medium severity for people: eating leaves or berries causes symptoms, and contact with the sap can cause severe skin irritation with redness, itching and blisters, so wear gloves when pruning. Hang it well out of reach of pets and children, and call your veterinarian or the ASPCA Animal Poison Control Center if a pet chews it."
+    ],
+    "faq": [
+      {
+        "q": "Why is my variegated English ivy turning plain green?",
+        "a": "It is short of light. Clemson Extension notes that ivy tolerates low to medium light but grows less, and that variegated forms may turn all green. Move the pot directly in front of an east or west window, out of hot direct sun, and pinch out the all-green shoots. New growth in bright light should come back with its cream, gold or silver markings."
+      },
+      {
+        "q": "Is English ivy invasive if I only grow it indoors?",
+        "a": "Not while it stays in a pot. The problem is outdoors: Missouri Botanical Garden reports that English ivy has escaped and naturalized in many eastern, midwestern and Pacific coast states, and NC State calls it invasive in North Carolina and safer grown as a houseplant. Never plant it out, bag trimmings instead of composting them in the yard, and keep it from flowering, since birds spread the berries."
+      },
+      {
+        "q": "Why does English ivy get spider mites so easily indoors?",
+        "a": "Spider mites thrive in warm, dry air, which is the opposite of the cool, moderately humid conditions ivy prefers. A plant near a radiator or in a stuffy room is stressed and easy prey. Illinois Extension tells ivy growers to inspect for mites regularly. Look for pale speckling and fine webs at the stem tips, rinse or dunk the foliage, and move the plant somewhere cooler."
+      },
+      {
+        "q": "Can I grow English ivy on a topiary frame indoors?",
+        "a": "Yes, and the juvenile, clinging form is well suited to it. Illinois Extension says climbing ivy can be trained into topiaries and recommends starting while the plant is small, pinching the shoot ends often so it branches. Small-leaved cultivars such as 'Needlepoint' cover a frame neatly. Pin new stems to the form as they grow and keep the pot in bright, indirect light."
+      },
+      {
+        "q": "Do I need gloves when pruning English ivy?",
+        "a": "It is a good idea. NC State reports that contact with the plant sap can cause severe skin irritation with redness, itching and blisters in some people, and Clemson also mentions rashes from handling ivy. Wear gloves when trimming or repotting, wash tools afterward, and do not rub your eyes. People with sensitive skin should be especially careful with large pruning jobs."
+      }
+    ]
+  }
+}

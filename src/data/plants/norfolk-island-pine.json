@@ -1,0 +1,337 @@
+{
+  "slug": "norfolk-island-pine",
+  "commonName": "Norfolk Island pine",
+  "otherNames": [
+    "Norfolk pine",
+    "House pine",
+    "Star pine",
+    "Living Christmas tree",
+    "Australian pine"
+  ],
+  "botanicalName": "Araucaria heterophylla",
+  "formerNames": [
+    "Araucaria excelsa"
+  ],
+  "family": "Araucariaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [
+      300,
+      1500
+    ],
+    "lux": [
+      3229,
+      16146
+    ],
+    "windows": [
+      "south",
+      "east",
+      "west"
+    ],
+    "directSun": "tolerates",
+    "src": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water regularly from spring to fall once the top inch of mix feels dry, never leaving the soil soggy",
+    "winter": "NC State advises watering sparingly in winter, when the tree grows slowly in a cool room.",
+    "factors": [
+      "UF/IFAS says Norfolk Island pines do not appreciate being too wet; raise humidity with a pebble tray, not extra water.",
+      "Missouri Botanical Garden warns against soils that are either too wet or too dry.",
+      "Mushroom root rot is on Missouri Botanical Garden's list of problems."
+    ],
+    "src": [
+      0,
+      1,
+      2,
+      6
+    ]
+  },
+  "soil": {
+    "mix": "A fertile, porous, sandy and peaty potting mix that is slightly acidic and drains well.",
+    "components": [
+      "peat-based potting mix",
+      "coarse sand",
+      "perlite for extra drainage"
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Sources differ: UF/IFAS says it needs humidity indoors, while NC State and Missouri Botanical Garden say it adapts to dry homes; NC State suggests misting in heated rooms.",
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      55,
+      65
+    ],
+    "idealC": [
+      13,
+      18
+    ],
+    "minF": 35,
+    "minC": 2,
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring through fall",
+    "everyWeeks": [
+      1,
+      2
+    ],
+    "strength": "half",
+    "type": "Dilute liquid fertilizer, applied weekly or every two weeks",
+    "winter": "none",
+    "src": [
+      0,
+      1,
+      5
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage holes or appear on the surface",
+      "The soil mass is filled with roots",
+      "The plant wilts between normal waterings"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [
+      7,
+      8
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "None of our sources rates the tree for people; NC State's profile carries no poison warning, and the needles have sharp points.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Australian Pine (Araucaria heterophylla), also listed as Norfolk Island Pine",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/australian-pine",
+        "toxicPrinciples": "Non-toxic"
+      }
+    ],
+    "src": [
+      0,
+      4
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Lower branches yellow, shed needles and die back",
+      "causeKey": "low-light",
+      "cause": "Years in dim light, which NC State says the tree tolerates for only two or three years",
+      "remedy": "Move it to the brightest window you have, ideally directly in front of a south, east or west window, and act before more tiers are lost."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Foliage bleaches to a yellow tint on the sunny side",
+      "causeKey": "too-much-sun",
+      "cause": "Harsh afternoon sun, which Missouri Botanical Garden says can bleach the foliage",
+      "remedy": "Keep the morning or midday sun but add light afternoon shade with a sheer curtain."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Needle tips brown and turn crisp in winter",
+      "causeKey": "low-humidity",
+      "cause": "Dry, heated indoor air",
+      "remedy": "Set the pot on a tray of wet pebbles above the water line and mist in heated rooms, as UF/IFAS and NC State suggest."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "The trunk leans and the tiers grow lopsided",
+      "causeKey": "low-light",
+      "cause": "Light reaching the tree from one side only",
+      "remedy": "Turn the plant every week or so, as UF/IFAS recommends, so it grows straight and upright."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky branches with black sooty film and small bumps",
+      "causeKey": "pests",
+      "cause": "Scale insects, the pest NC State and Missouri Botanical Garden both name, followed by sooty mold",
+      "remedy": "Scrape off the scales with a cotton swab dipped in rubbing alcohol, wash the branches, and repeat weekly."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "The tree droops in soil that stays wet",
+      "causeKey": "overwatering",
+      "cause": "Waterlogged mix and root rot, including the mushroom root rot listed by Missouri Botanical Garden",
+      "remedy": "Let the top inch dry before watering, empty the saucer, and repot into fresh, sandy, well-drained mix if the roots are dark and soft."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Seed",
+      "Terminal cuttings"
+    ],
+    "season": "Spring to summer, while the tree is growing"
+  },
+  "size": {
+    "heightIn": [
+      36,
+      108
+    ],
+    "growth": "slow",
+    "note": "NC State says it reaches up to 9 feet indoors; UF/IFAS says about 5 to 8 feet after a decade, and Missouri Botanical Garden grows it in containers at 3 to 6 feet.",
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "varieties": [],
+  "sources": [
+    {
+      "title": "Araucaria heterophylla (Norfolk Island Pine)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/araucaria-heterophylla/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Araucaria heterophylla",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=276635",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Norfolk Island Pine",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/trees-and-shrubs/trees/norfolk-island-pine/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Australian Pine",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/australian-pine",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "bonsai",
+    "money-tree",
+    "schefflera",
+    "fiddle-leaf-fig"
+  ],
+  "seo": {
+    "title": "Norfolk Island Pine Care: Light, Water & Cool Rooms (2026)",
+    "description": "Norfolk Island pine care in 2026: bright light, a cool 55 to 65°F room, regular watering from spring to fall and sparing in winter, per NC State. Pet-safe.",
+    "h1": "Norfolk Island pine care: light, water and a cool room"
+  },
+  "content": {
+    "answer": "Grow a Norfolk Island pine in the brightest window you have, in a cool room around 55 to 65°F, and water it regularly from spring to fall without letting the mix turn soggy. NC State Extension advises watering sparingly in winter and misting in heated rooms.",
+    "intro": "The Norfolk Island pine, Araucaria heterophylla, is not a pine. It belongs to the Araucariaceae, an ancient conifer family that UF/IFAS describes as widespread during the Jurassic and Cretaceous periods and now surviving only in the southern hemisphere, and it is endemic to Norfolk Island in the South Pacific, between Australia, New Zealand and New Caledonia. There it can reach 200 feet. In American homes it is sold as a tabletop Christmas tree that grows slowly into a tidy pyramid, its branches set in horizontal tiers of usually five around a single straight trunk, according to NC State and Missouri Botanical Garden. That symmetry is the whole appeal, and it depends on light. NC State warns that indoor plants tolerate very low light for two or three years, then drop needles and lose their lower branches. A bright window, a cool room and moderate, steady watering keep the tiers full for years.",
+    "light": [
+      "Give it the brightest spot in the house. The Illinois Extension lists the Norfolk Island pine as a high or bright light plant, about 300 foot-candles, which you find directly in front of an east or west window or within 5 feet of a south one. Missouri Botanical Garden and NC State say full sun is normally best indoors for compact, symmetrical growth, with light afternoon shade if the foliage starts to bleach yellow. UF/IFAS puts it plainly: indoors this tree needs quite bright light, and one that is not thriving is most likely short of light or humidity.",
+      "Even growth needs even light. UF/IFAS recommends turning the plant every week or so to keep it growing straight and upright, because a tree lit from one side leans toward the glass and fills out on that side only. A dark corner is a slow decline rather than a home: NC State says indoor plants can tolerate very low light for two or three years before leaf drop and the loss of lower branches set in."
+    ],
+    "water": [
+      "NC State advises watering regularly from spring to autumn while avoiding soil that is too wet, and Missouri Botanical Garden asks you to avoid soils that are either too wet or too dry. UF/IFAS adds that Norfolk Island pines do not appreciate being too wet and that overwatering is not the way to give them the humidity they like. In practice, water thoroughly when the top inch of mix feels dry, let the pot drain completely, and empty the saucer.",
+      "Winter changes the rhythm. NC State says to water sparingly in winter, when growth slows in short days and a pot in a cool room dries slowly. Check by touch, as the Illinois Extension recommends, testing about two inches down, and use room-temperature water rather than cold. Missouri Botanical Garden lists mushroom root rot among this tree's problems, one more reason to let the mix dry a little between waterings."
+    ],
+    "soil": [
+      "Missouri Botanical Garden and NC State describe the same container medium: fertile, porous, sandy, peaty, slightly acidic and well drained. A peat-based houseplant mix opened up with coarse sand or perlite fits that description. Neither source gives a numeric pH, only slightly acidic, so there is no need to test or amend beyond using a fresh peat-based mix. Whatever you choose, the pot needs a drainage hole."
+    ],
+    "humidity": [
+      "Here the sources disagree. UF/IFAS stresses humidity: the tree is a tropical plant that thrives on it, and a saucer filled with water and gravel, with the pot sitting above the water, creates a humid microclimate. NC State and Missouri Botanical Garden say that as a houseplant it usually adapts to the warm, dry air of most homes and offices, though NC State suggests misting in heated rooms in winter. The practical middle ground is a pebble tray all year and occasional misting while the heating runs, never extra water in the pot."
+    ],
+    "temperature": [
+      "A Norfolk Island pine likes it cooler than most houseplants. NC State and Missouri Botanical Garden recommend a bright, cool room at 55 to 65°F (13 to 18°C). Outdoors, UF/IFAS says it cannot tolerate temperatures below 35°F (2°C), which puts the northern edge of its range around Orlando in Florida. Treat 35°F as a survival limit, not a target, and keep the tree away from heating vents and cold drafts, which the Illinois Extension warns can damage foliage."
+    ],
+    "fertilizer": [
+      "NC State and Missouri Botanical Garden suggest weekly or biweekly applications of dilute liquid fertilizer from spring through fall. Neither gives the dilution, so we suggest half the label rate as a cautious reading of dilute, given how often it goes on. Stop in winter, and leach the pot with plenty of plain water every four to six months, as the Illinois Extension recommends, so fertilizer salts do not build up in the mix."
+    ],
+    "repotting": [
+      "Slow growth means infrequent repotting. Watch for the Illinois Extension's signs: roots growing through the drainage holes or on the surface, a soil mass filled with roots, smaller new growth, or wilting between normal waterings. Repot in spring or early summer, going up 1 or 2 inches in diameter as Clemson advises, and keep the trunk at the same depth it grew before. For a tall tree in a pot too heavy to lift, Clemson's alternative is to replace the top 2 or 3 inches of soil with fresh mix every other year or so."
+    ],
+    "propagation": [
+      "Propagation is a slow project for this tree. NC State lists seed as the recommended method, and Missouri Botanical Garden notes that seed-grown trees typically have widely spaced tiers of branches, less ornamental than trees raised from terminal cuttings. Seed is sown in moist, sandy, peaty soil, according to Missouri Botanical Garden. For most owners, buying a young tree is far quicker than raising one, and the effort is better spent keeping an existing tree in good light."
+    ],
+    "problems": [
+      "NC State calls the tree generally pest free but susceptible to scale, sooty mold and leaf spot, and Missouri Botanical Garden adds spider mites and mushroom root rot. Indoors, most complaints come down to light, water and dry air rather than pests. Lower branches yellowing and dropping after a few years in dim light is NC State's warning sign. A yellow-tinted bleach on the sunny side points to harsh afternoon sun, and crisp, browning tips usually follow dry heated air or a pot left dry too long. Sooty mold, a black film on the branches, typically grows on the sticky residue that scale insects leave, so deal with the scale first."
+    ],
+    "petSafety": [
+      "The ASPCA lists the Norfolk Island pine as non-toxic to dogs, cats and horses. Its entry is filed under the name Australian Pine, but the scientific name it gives is Araucaria heterophylla, and it lists Norfolk Pine, House Pine and Norfolk Island Pine as additional common names, so it is the same plant. NC State's profile carries no poison warning either. Non-toxic does not mean edible: Missouri Botanical Garden describes the needles as having sharp, incurved points, so discourage chewing, and call your veterinarian if a pet seems unwell after eating some."
+    ],
+    "faq": [
+      {
+        "q": "Is a Norfolk Island pine a real pine tree?",
+        "a": "No. Missouri Botanical Garden notes that it looks like a pine but is not in the pine genus, and UF/IFAS places it in the Araucariaceae, an ancient conifer family that flourished in the Jurassic and Cretaceous and survives in the southern hemisphere. Its tiered branches, pyramidal shape and narrow evergreen needles only resemble a pine. It is native to a single Pacific island between Australia and New Zealand."
+      },
+      {
+        "q": "Why are the lower branches of my Norfolk Island pine turning brown?",
+        "a": "Usually too little light. NC State says indoor plants tolerate very low light for two or three years, then show leaf drop and lose their lower branches. UF/IFAS adds that a tree that is not thriving is most likely short of light or humidity. Move it right in front of a bright window, add a pebble tray, and water sparingly in winter before more tiers are lost."
+      },
+      {
+        "q": "Can I keep my Norfolk Island pine after Christmas?",
+        "a": "Yes. UF/IFAS says these holiday trees can brighten a home long after the season ends, and in frost-free parts of Florida some can even be planted outside, provided there is room for a 60 to 80 foot tree. Indoors, take off the decorations, place it in a bright, cool room around 55 to 65°F, water when the top inch dries, and turn it weekly."
+      },
+      {
+        "q": "How fast does a Norfolk Island pine grow indoors?",
+        "a": "Slowly. UF/IFAS says that after about a decade it may reach 5 to 8 feet as a houseplant, and NC State gives 9 feet as the indoor maximum. Missouri Botanical Garden grows it in tubs in the 3 to 6 foot range and notes that in good conditions it has a long life. A tabletop tree stays a manageable size for years."
+      },
+      {
+        "q": "Is the Australian pine on the ASPCA list the same as a Norfolk Island pine?",
+        "a": "Yes. The ASPCA files the plant under Australian Pine, but its entry gives the scientific name Araucaria heterophylla and lists Norfolk Pine, House Pine and Norfolk Island Pine as other common names. NC State also gives Australian pine as one of its common names. The ASPCA rates it non-toxic to dogs, cats and horses, so the tree itself is safe to keep with pets."
+      }
+    ]
+  }
+}

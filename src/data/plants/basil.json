@@ -1,0 +1,301 @@
+{
+  "slug": "basil",
+  "commonName": "Basil",
+  "otherNames": [
+    "Sweet basil",
+    "Genovese basil",
+    "Saint Joseph's wort"
+  ],
+  "botanicalName": "Ocimum basilicum",
+  "formerNames": [],
+  "family": "Lamiaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [300, 1500],
+    "lux": [3229, 16146],
+    "windows": ["south", "west"],
+    "directSun": "needs",
+    "src": [0, 6, 8, 9]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Keep the mix steadily moist: water as soon as the surface feels dry, and never let the pot dry out completely",
+    "winter": "Growth slows in short days and cooler rooms, so the pot dries more slowly; keep watering whenever the surface is dry, in the morning, and never leave water in the saucer.",
+    "factors": [
+      "Basil may flower sooner when it runs dry, the RHS notes, which ends the leafy harvest.",
+      "Water the mix, not the leaves: wet foliage invites gray mold, leaf spots and downy mildew.",
+      "Water in the morning if possible; the RHS says basil hates having wet roots overnight."
+    ],
+    "src": [2, 3, 6]
+  },
+  "soil": {
+    "mix": "A rich, well-drained potting mix with plenty of organic matter, in a pot at least 8 inches wide and deep.",
+    "components": [
+      "multipurpose potting mix",
+      "compost or composted bark for organic matter",
+      "container with drainage holes"
+    ],
+    "ph": [6, 6.5],
+    "src": [2, 3]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Normal room air is fine; what matters is that leaves dry quickly, because humid, stagnant air spreads downy mildew.",
+    "src": [4, 6, 9]
+  },
+  "temperature": {
+    "idealF": [65, 70],
+    "idealC": [18, 21],
+    "minF": 50,
+    "minC": 10,
+    "src": [2, 4, 5, 6]
+  },
+  "fertilizer": {
+    "season": "While the plant is producing leaves, spring to fall indoors or out",
+    "everyWeeks": [2, 2],
+    "strength": "half",
+    "type": "Low dose of a balanced water-soluble fertilizer; avoid high-potassium tomato feeds, which push flowering",
+    "winter": "reduced",
+    "src": [2, 3, 6, 9]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage hole",
+      "The pot wilts within hours of watering on a warm day",
+      "A store-bought pot is crammed with dozens of thin stems"
+    ],
+    "season": "Spring and summer, whenever roots fill the pot",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [3, 6]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "non-toxic",
+    "humanNote": "A culinary herb; NC State lists the leaves and flowers as edible in tea and as flavoring.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Basil (Ocimum basilicum)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/basil"
+      }
+    ],
+    "src": [0, 7]
+  },
+  "problems": [
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Leaves yellow between the veins, then brown spots and gray-purple fuzz underneath",
+      "causeKey": "disease",
+      "cause": "Basil downy mildew, spread by spores and infected seed",
+      "remedy": "Remove and discard infected plants, keep leaves dry, improve air flow and grow a resistant cultivar such as 'Prospera' next time."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Leaves turn black or dark brown and drop",
+      "causeKey": "cold",
+      "cause": "Chilling near cold glass or temperatures around 50°F or lower",
+      "remedy": "Move the pot away from the window on cold nights and keep the room above 50°F; badly blackened shoots will not recover."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Tall, thin stems with small, pale leaves and weak scent",
+      "causeKey": "low-light",
+      "cause": "Less than six hours of direct sun",
+      "remedy": "Give it the sunniest south window or grow lights 6 to 12 inches above the plant for 14 to 16 hours, and pinch the tips."
+    },
+    {
+      "symptomKey": "drooping",
+      "symptom": "The whole plant flops in the afternoon",
+      "causeKey": "underwatering",
+      "cause": "A small pot dried out in a warm, bright window",
+      "remedy": "Soak the pot, move the plant into a larger container, and check the mix often in warm weather."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Lower stems darken, leaves yellow and branches die back from the tips",
+      "causeKey": "overwatering",
+      "cause": "Pythium or Rhizoctonia root rot in waterlogged mix",
+      "remedy": "Discard badly affected plants, start fresh in clean, free-draining mix and never leave the pot standing in water."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky leaves, curled tips and tiny insects underneath",
+      "causeKey": "pests",
+      "cause": "Aphids or whiteflies",
+      "remedy": "Trim off infested shoots, spray insecticidal soap in the evening and wash leaves well before eating them."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Seed",
+      "Softwood stem cuttings rooted in water or mix"
+    ],
+    "season": "Seed indoors from early spring; cuttings in summer, or before the first fall frost to carry a plant through winter"
+  },
+  "size": {
+    "heightIn": [12, 24],
+    "widthIn": [4, 14],
+    "growth": "fast",
+    "src": [0, 1, 5]
+  },
+  "varieties": [
+    {
+      "name": "Genovese",
+      "note": "Classic large-leaf sweet basil for pesto; vigorous and tall."
+    },
+    {
+      "name": "Prospera",
+      "note": "Strong resistance to downy mildew and Fusarium wilt; a top performer in NC State volunteer trials."
+    },
+    {
+      "name": "Rutgers Obsession",
+      "note": "Compact, mildew-resistant, and the highest rated for taste in the NC State trials."
+    },
+    {
+      "name": "Spicy Globe",
+      "note": "Dwarf, rounded bush basil with small leaves, suited to small pots."
+    },
+    {
+      "name": "Pesto Perpetuo",
+      "note": "Cream-edged leaves on a plant that does not produce flower spikes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ocimum basilicum (Basil)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/ocimum-basilicum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Ocimum basilicum",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=281408",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Basil",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/basil/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow basil",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/herbs/basil/grow-your-own",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Basil",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/vegetables/basil/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Basil",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/herbs/basil",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Growing Herbs Indoors",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/growing-herbs-indoors",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Basil",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/basil",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Growing Basil in a Home Garden",
+      "publisher": "University of Maryland Extension",
+      "url": "https://extension.umd.edu/resource/growing-basil-home-garden",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["mint", "rosemary"],
+  "seo": {
+    "title": "Basil Care Indoors: Light, Pinching & Harvest (2026)",
+    "description": "Basil care indoors in 2026: Penn State says it cannot survive below 50°F, so keep it off cold winter sills. Sun, watering, pinching and why it is an annual.",
+    "h1": "Basil care: growing sweet basil on a sunny windowsill"
+  },
+  "content": {
+    "answer": "Basil wants six or more hours of direct sun, warmth above 50°F and a rich mix kept evenly moist, never soggy. Pinch the tips and remove flower buds to keep leaves coming, and treat the plant as an annual you replace each year.",
+    "intro": "Fifty degrees is the number to remember. Penn State Extension says sweet basil cannot survive temperatures below 50°F, and that one fact shapes everything about growing Ocimum basilicum indoors. This herb comes from tropical Africa and Asia, and although botanists call it an annual or short-lived perennial, Missouri Botanical Garden, Illinois Extension and the RHS all treat it as an annual because it needs more warmth and light than a temperate year provides. So think of a pot of basil as a crop rather than a permanent houseplant. Given a hot, sunny window, a rich mix that never dries out and regular pinching, it produces fragrant leaves for months. Then it flowers, turns woody and fades, and you start again from seed or a rooted cutting. That cycle is normal, and planning for it removes most of the frustration people feel when their kitchen basil collapses.",
+    "light": [
+      "The University of Maryland Extension asks for six or more hours of direct sun a day, and Penn State Extension uses the same figure for most herbs grown inside. Indoors that means the sill of a south window, or a west window in summer. The University of Illinois Extension measures about 1,500 foot-candles directly in front of a south window, and anything set back from the glass gets a small fraction of that.",
+      "Short winter days rarely provide enough. Penn State suggests two 40-watt cool white fluorescent tubes hung 6 to 12 inches above the plants for 14 to 16 hours a day, and LED grow lights work the same way. Signs of too little light are easy to read: long, thin stems, smaller leaves and a weaker aroma. Rotate the pot often so the plant grows evenly rather than leaning toward the glass."
+    ],
+    "water": [
+      "Basil is thirstier than the Mediterranean herbs it is usually grouped with. Penn State Extension says never to let the potting mix dry out completely, and the RHS asks for compost kept evenly moist. In practice, feel the surface each day in warm weather and water as soon as it is dry, slowly, until a little runs from the drainage hole. A small pot in a sunny summer window dries remarkably fast, so check it more often than your other plants.",
+      "Moist is not soggy, though. Clemson Extension advises watering regularly but not overwatering, and never letting the pot stand with water in its saucer, because Pythium and Rhizoctonia root rots yellow the plant and kill branches from the tips down. The RHS adds two habits worth adopting: water in the morning, since basil hates wet roots overnight, and avoid splashing the leaves.",
+      "Dry spells have a second cost. The RHS notes that basil starts to flower sooner when it runs dry, and once it flowers the leaf harvest winds down. Steady moisture keeps the plant in leafy mode for longer."
+    ],
+    "soil": [
+      "Clemson Extension says basil grows best in rich, well-drained soil with plenty of organic matter, at a pH of 6.0 to 6.5. A good multipurpose potting mix with some compost or composted bark mixed in fits that description. The RHS recommends a container at least 8 inches wide and deep for one plant outdoors; indoors a pot of similar size holds enough moisture that you are not watering several times a day."
+    ],
+    "humidity": [
+      "Average indoor humidity is fine for basil. The real concern is the opposite of dryness: UF/IFAS and the University of Maryland both note that warm, humid, wet conditions spread downy mildew, and that good air movement around the leaves reduces the risk. Space pots so air can circulate, keep water off the foliage, and avoid enclosing the plant in a humid corner with tropical houseplants."
+    ],
+    "temperature": [
+      "Warmth is non-negotiable. Penn State recommends herb rooms of 65 to 70°F (18 to 21°C) by day and says basil specifically cannot survive below 50°F (10°C), so it should not sit on a windowsill in winter, where glass gets cold at night. Illinois Extension reports damage and blackened leaves at 50 degrees, and UF/IFAS says the leaves of many varieties turn black and drop below 40°F.",
+      "If your sunniest window is drafty, pull the pot back from the glass at night or move it under a grow light in a warm room. Outdoors, Clemson Extension advises waiting until days are consistently in the 70s and nights stay above 50°F before setting basil out."
+    ],
+    "fertilizer": [
+      "Feed modestly and often. Penn State Extension recommends a low dose of water-soluble fertilizer every 2 weeks for indoor herbs, and warns that more frequent feeding can hurt aroma and taste. Clemson and the University of Maryland agree that overly lush growth dilutes flavor. The RHS suggests a balanced liquid fertilizer for container basil and advises against potassium-rich tomato feeds, which encourage flowering. Cut back in winter, when growth slows."
+    ],
+    "repotting": [
+      "Store-bought basil usually needs attention on day one. The RHS explains that supermarket pots are packed with thin, overcrowded seedlings meant for short-term harvesting, which soon flower or rot, although they may survive if divided and repotted promptly. Tease the root ball into three or four clumps and pot each into its own container of fresh mix. Seedlings you raise yourself go into individual 3-inch pots once they have several leaves, then into larger containers as roots fill them."
+    ],
+    "propagation": [
+      "Seed is the usual start. Clemson Extension recommends sowing a quarter inch deep indoors and notes that seed germinates best at about 70°F; Illinois Extension asks for a mix temperature of at least 70 degrees. Sowing small batches a few weeks apart, as the RHS suggests, keeps young plants coming as older ones fade.",
+      "Cuttings are faster. Snip a nonflowering shoot just below a leaf, strip the lower leaves and stand it in a jar of water; the RHS says it roots quickly and can be potted after a few weeks. Missouri Botanical Garden recommends this trick as frost approaches, to carry a favorite plant indoors through winter."
+    ],
+    "problems": [
+      "Downy mildew is the most serious basil disease in the US. It starts as a yellowing between the veins that looks like a nutrient problem, then brown spots and gray-purple spores on the leaf undersides, according to Clemson Extension. Sweet varieties are very susceptible, so UF/IFAS suggests trying spicier or red types, and NC State volunteer trials found 'Prospera', 'Rutgers Obsession' and 'Rutgers Passion' resistant. Fusarium wilt causes sudden collapse in plants six to twelve inches tall. Indoors, aphids, whiteflies and spider mites are the common pests."
+    ],
+    "petSafety": [
+      "The ASPCA lists basil as non-toxic to dogs and cats, so a pot on the kitchen counter is no poisoning risk. Any pet that eats a lot of greenery may vomit, and a cat chewing your plant will spoil your harvest, but that is a nuisance rather than an emergency. If you treat pests with insecticidal soap or neem, keep pets off the plant until it dries, and rinse every leaf you pick for the kitchen."
+    ],
+    "faq": [
+      {
+        "q": "How long does a potted basil plant last indoors?",
+        "a": "Usually a few months of good harvests, sometimes longer under grow lights. Basil is an annual for practical purposes, so once it flowers heavily and the stems turn woody, leaf production drops. Pinching off flower buds as soon as they appear, as Illinois Extension advises, extends the season. Root a few cuttings in water before the old plant declines."
+      },
+      {
+        "q": "Should I divide a supermarket pot of basil?",
+        "a": "Yes. The RHS notes these pots hold many thin, overcrowded plants grown for short-term picking, which tend to rot or flower early, but they may survive if divided and repotted promptly. Ease the root ball apart into a few clumps, pot each in fresh mix, water well and keep them out of hot sun until they perk up."
+      },
+      {
+        "q": "Why are the leaves on my windowsill basil turning black in winter?",
+        "a": "Cold is the usual cause. Illinois Extension reports blackened leaves at 50 degrees, and windowpanes get much colder than the room at night. Penn State advises against keeping basil on winter sills for this reason. Pull the pot back from the glass after sunset, or grow it under lights in a warm room until spring."
+      },
+      {
+        "q": "Should I let my basil plant flower?",
+        "a": "Not if you want leaves. Clemson and Illinois Extension both recommend pinching flower buds as soon as they appear, because flowering affects flavor and shortens the leafy season. Letting one plant bloom late in summer is fine if you want to save seed or feed bees; the RHS notes the flowers are rich in nectar and edible."
+      },
+      {
+        "q": "How should I harvest basil so the plant keeps growing?",
+        "a": "Pinch or snip stem tips just above a pair of leaves rather than stripping single leaves from the bottom. Each cut makes two new shoots, so the plant gets bushier. Clemson Extension advises leaving enough foliage that growth is not significantly reduced, so take no more than a few tips at once from a small plant."
+      }
+    ]
+  }
+}

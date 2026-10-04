@@ -1,0 +1,354 @@
+{
+  "slug": "polka-dot-plant",
+  "commonName": "Polka dot plant",
+  "otherNames": [
+    "Freckle face",
+    "Measles plant",
+    "Flamingo plant",
+    "Pink splash",
+    "Hypoestes"
+  ],
+  "botanicalName": "Hypoestes phyllostachya",
+  "formerNames": [
+    "Hypoestes sanguinolenta"
+  ],
+  "family": "Acanthaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [
+      150,
+      1500
+    ],
+    "lux": [
+      1615,
+      16146
+    ],
+    "windows": [
+      "east",
+      "west",
+      "south"
+    ],
+    "directSun": "tolerates",
+    "src": [
+      0,
+      1,
+      3
+    ]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Keep the mix lightly moist; never let it dry out completely, and never leave it soggy",
+    "winter": "Growth slows in the short days, so the mix stays damp longer; feel the soil before watering instead of keeping a summer routine.",
+    "factors": [
+      "NC State tags the plant as drought intolerant: a dry pot quickly turns into limp, drooping stems.",
+      "Root rot is one of the few problems NC State lists, so drainage matters as much as frequency.",
+      "A plant in bright light with some sun uses water much faster than one on a dim shelf."
+    ],
+    "src": [
+      0,
+      1,
+      5
+    ]
+  },
+  "soil": {
+    "mix": "An organically rich, well-drained potting mix; NC State lists acid to neutral soil and good drainage.",
+    "components": [
+      "peat-based houseplant mix",
+      "perlite for drainage"
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "NC State tags it as humidity tolerant; ordinary room humidity works, and grouping plants helps in dry winter air.",
+    "src": [
+      0,
+      4
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      65,
+      75
+    ],
+    "idealC": [
+      18,
+      24
+    ],
+    "minF": 50,
+    "minC": 10,
+    "src": [
+      4,
+      6
+    ]
+  },
+  "fertilizer": {
+    "season": "March to September, while the plant is growing",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "Houseplant fertilizer, balanced (10-10-10) or 1:2:1 (10-20-10), at the label rate and never stronger",
+    "winter": "none",
+    "src": [
+      4
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow out of the drainage hole or across the surface",
+      "The plant wilts between normal waterings",
+      "A leggy plant has lost most of its lower leaves"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [
+      7
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "The ASPCA lists the polka dot plant as non-toxic to pets, with mild vomiting or diarrhea possible; none of the sources consulted rates it for people.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Polka Dot Plant (Hypoestes phyllostachya)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/polka-dot-plant",
+        "toxicPrinciples": "Unknown",
+        "clinicalSigns": "Mild vomiting, diarrhea."
+      }
+    ],
+    "src": [
+      0,
+      2
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Tall, floppy stems with wide gaps between leaves",
+      "causeKey": "low-light",
+      "cause": "The plant stretching toward a window it cannot reach",
+      "remedy": "Pinch the stems back hard and move it to bright, filtered light; root the tips for a fuller pot."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Pink or white spots fade and the leaves turn mostly green",
+      "causeKey": "low-light",
+      "cause": "Too little light to keep the variegation bright",
+      "remedy": "Give it bright filtered light with a little direct morning or winter sun; new leaves color up again."
+    },
+    {
+      "symptomKey": "curling-leaves",
+      "symptom": "Leaves crinkle, curl and look scorched",
+      "causeKey": "too-much-sun",
+      "cause": "Strong direct sun, especially hot afternoon light through glass",
+      "remedy": "Pull it back from a south or west pane or add a sheer curtain."
+    },
+    {
+      "symptomKey": "drooping",
+      "symptom": "Stems go limp and the whole plant slumps",
+      "causeKey": "underwatering",
+      "cause": "The mix dried out; the plant does not tolerate drought",
+      "remedy": "Water thoroughly until it drains; it usually perks up within hours. Check the mix more often in warm weather."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "White powdery coating on the leaves",
+      "causeKey": "disease",
+      "cause": "Powdery mildew, which NC State and Missouri Botanical Garden both list",
+      "remedy": "Remove the worst leaves, improve air movement and avoid wetting the foliage when watering."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky residue and tiny insects that fly up when touched",
+      "causeKey": "pests",
+      "cause": "Whiteflies or aphids, the pests Missouri Botanical Garden expects on stressed indoor plants",
+      "remedy": "Rinse the leaves, then treat with insecticidal soap or neem oil, as NC State suggests, until the insects are gone."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings in water or mix",
+      "Seed"
+    ],
+    "season": "Spring to summer"
+  },
+  "size": {
+    "heightIn": [
+      12,
+      24
+    ],
+    "widthIn": [
+      9,
+      12
+    ],
+    "growth": "fast",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Splash",
+      "note": "Large blotches of pink, red or white on green, the classic look (NC State)."
+    },
+    {
+      "name": "Confetti",
+      "note": "Smaller plants in white, pink, red, rose and burgundy; a compact white form has its own Missouri Botanical Garden profile."
+    },
+    {
+      "name": "Carmina",
+      "note": "Bright red splotches on the leaves."
+    },
+    {
+      "name": "Pink Brocade",
+      "note": "Green leaves mottled with pink spots."
+    },
+    {
+      "name": "Wit",
+      "note": "Marbled white foliage."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hypoestes phyllostachya (Polka Dot Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/hypoestes-phyllostachya/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Hypoestes phyllostachya",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=275332",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Polka Dot Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/polka-dot-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Frequently asked questions",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/frequently-asked-questions",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "fittonia",
+    "coleus",
+    "prayer-plant",
+    "calathea"
+  ],
+  "seo": {
+    "title": "Polka Dot Plant Care: Light for Color & Pinching (2026)",
+    "description": "Polka dot plant care for 2026: bright filtered light keeps the pink spots and the mix stays lightly moist (NC State: drought intolerant). Pinching and fixes.",
+    "h1": "Polka dot plant care: bright spots, compact growth"
+  },
+  "content": {
+    "answer": "A polka dot plant needs bright, filtered light to keep its pink or white spots, a mix that stays lightly moist, and regular pinching to stay bushy. Keep it between 65 and 75°F and away from hot afternoon sun.",
+    "intro": "Hypoestes phyllostachya is a fast-growing herbaceous perennial from Madagascar, sold as the polka dot plant, freckle face or measles plant for the pink, red or white splashes on its small oval leaves. NC State Extension notes that it started as a houseplant and has since moved into gardens as a summer annual, which says a lot about its personality: it grows quickly, wants plenty of light, and gets tall and sparse if left alone. The color is the whole point, and it depends on light. Bright, filtered light keeps the spots vivid, too little light fades them and stretches the stems, and harsh direct sun crinkles and curls the leaves. Water matters almost as much, because NC State tags it as drought intolerant. With steady moisture, a bright window and a pinch every few weeks, a polka dot plant stays a dense mound 12 to 24 inches tall.",
+    "light": [
+      "Light controls both the color and the shape of this plant. NC State says the best color comes from bright, filtered light, that some direct sun is tolerated, and that too much of it makes the leaves crinkle and curl. Missouri Botanical Garden recommends bright indoor light with some direct sun for plants kept inside. In practice, an east window with morning sun, or a south or west window behind a sheer curtain, falls in the 300 foot-candle range the University of Illinois Extension calls high light, with short spells of direct sun on top.",
+      "Watch the spots. When light is short, new leaves come in greener, the pink fades, and the stems stretch toward the glass with longer gaps between leaf pairs; NC State describes exactly this fading and legginess. In winter, when the sun is low and weak, a plant can usually move closer to a south window without scorching."
+    ],
+    "water": [
+      "Keep the potting mix lightly moist, never bone dry. NC State lists the polka dot plant as drought intolerant, and it shows thirst quickly: the soft stems lose their stiffness and the whole mound slumps. Missouri Botanical Garden asks for medium moisture in well-drained soil. Feel the surface before watering; when it has just started to dry, water slowly until it drains and then empty the saucer, as the University of Illinois Extension advises for all houseplants.",
+      "The trap on the other side is soggy soil. Root rot is one of the few diseases NC State mentions for this plant, and it usually starts in a pot without drainage or a saucer that is never emptied. Use room-temperature water, not cold.",
+      "Growth slows in the short days of winter and the mix stays damp longer, especially on a cool windowsill. Check the soil rather than repeating a summer routine; a plant that slumps every few days in July may need far less in January."
+    ],
+    "soil": [
+      "NC State describes the ideal soil as high in organic matter, loamy, well drained and acid to neutral, and Missouri Botanical Garden asks for organically rich, well-drained soil. Indoors, a peat-based houseplant mix with a little perlite meets all of that. Any pot works if it has a drainage hole; the plant grows fast enough to use a slightly larger container."
+    ],
+    "humidity": [
+      "This is a forgiving plant on humidity. NC State tags it as humidity tolerant, and neither source asks for special measures. Very dry winter air, which the University of Illinois Extension says is under 30 percent in most heated homes, can still brown leaf edges on a plant next to a heater. Grouping it with other plants or setting the pot on a tray of wet pebbles, with the pot above the water line, is plenty."
+    ],
+    "temperature": [
+      "Neither NC State nor Missouri Botanical Garden gives a temperature range for indoor polka dot plants; both note that it is frost tender and hardy only in USDA Zones 10 and 11. The University of Illinois Extension's general rule for foliage plants fits well: 65 to 75°F (18 to 24°C) by day, slightly cooler at night, and nothing below 50°F (10°C) for long, which can cause permanent damage. Garden plants should come indoors before fall nights get cold."
+    ],
+    "fertilizer": [
+      "For a plant kept indoors, the University of Illinois Extension recommends feeding no more than once every one to three months between March and September, with a balanced or 1:2:1 houseplant fertilizer at the label rate. A fast grower in a bright window can take the shorter interval. Extra feeding mostly produces soft, stretched stems that need more pinching, so do not overdo it, and stop in winter."
+    ],
+    "repotting": [
+      "Move the plant up one size in spring or early summer when roots poke from the drainage hole, mat across the surface, or the plant wilts between normal waterings, the signs the University of Illinois Extension lists. Many growers find that an old, leggy plant is better replaced by its own rooted cuttings than repotted; Missouri Botanical Garden makes a similar point about simply buying new plants each spring rather than nursing an old one through winter."
+    ],
+    "propagation": [
+      "Stem cuttings root easily. NC State suggests placing a cutting in water in a bright spot, where roots soon form; a 3 to 6 inch tip with two or more nodes, set in damp potting mix under a clear cover, works just as well, following the University of Illinois Extension method. Seed is the other route, and it has a quirk NC State points out: the seed leaves are plain green, and only the first true leaves show the spotted color. Outdoors in warm regions the plant can even reseed itself."
+    ],
+    "problems": [
+      "Most trouble is about light and pinching rather than disease. NC State says this plant has no significant insect or disease problems, though root rot and powdery mildew can occur, and aphids, mealybugs and whiteflies may show up; insecticidal soap or neem oil handles them. Missouri Botanical Garden adds that pests are most likely on indoor plants in poor conditions. The small lilac flower spikes, up to 6 inches long, are worth removing: NC State notes that cutting them off sends more energy into the leaves."
+    ],
+    "petSafety": [
+      "The ASPCA lists the polka dot plant as non-toxic to dogs, cats and horses, and NC State tags it the same way. The ASPCA entry still records mild vomiting and diarrhea as possible signs, with the toxic principle unknown, so a pet that eats a lot of it may have a short-lived upset stomach. That makes it one of the better colorful plants for a home with animals. None of the sources consulted gives a rating for people."
+    ],
+    "faq": [
+      {
+        "q": "Why is my polka dot plant losing its pink color?",
+        "a": "Almost always too little light. NC State explains that low light makes the leaves fade and the plant leggy, while bright, filtered light gives the best color. Move it to an east window or behind a sheer curtain on a sunnier side. Existing leaves rarely recolor, but new growth comes in brighter within a few weeks. Pinch the faded stems back to speed that up."
+      },
+      {
+        "q": "How do I keep a polka dot plant from getting leggy?",
+        "a": "Pinch it. NC State and Missouri Botanical Garden both recommend pinching the stem tips to keep plants compact and bushy. Nip off the top pair of leaves on each stem every few weeks during spring and summer, and remove flower spikes as they appear. Combine that with bright light. A badly stretched plant can be cut back hard and restarted from the tips."
+      },
+      {
+        "q": "Should I let my polka dot plant flower?",
+        "a": "It is better not to. The flowers are small, tubular and lilac, on spikes about 6 inches long, and NC State says cutting them off lets the plant put more energy into its foliage. Missouri Botanical Garden notes that some gardeners remove the spikes because they detract from the leaves. Leaving them often coincides with a thinner, less colorful plant."
+      },
+      {
+        "q": "Can I grow polka dot plants from seed indoors?",
+        "a": "Yes, and NC State lists seed alongside stem cuttings as a recommended method. Do not panic when the seedlings come up plain green: the seed leaves are always green, and the spotted color appears on the first true leaves. Give seedlings bright light from the start so they do not stretch, and pinch them once they have a few pairs of leaves."
+      },
+      {
+        "q": "Is a polka dot plant safe if my cat chews it?",
+        "a": "The ASPCA lists the polka dot plant as non-toxic to cats and dogs, so it is a low-risk choice. Its entry does mention mild vomiting and diarrhea as possible signs, with the toxic principle unknown, which usually means a brief stomach upset from eating plant material. Call your veterinarian if symptoms last, or if you are not sure which plant your cat ate."
+      }
+    ]
+  }
+}

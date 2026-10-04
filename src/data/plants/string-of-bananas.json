@@ -1,0 +1,309 @@
+{
+  "slug": "string-of-bananas",
+  "commonName": "String of bananas",
+  "otherNames": [
+    "Banana vine",
+    "String of fishhooks",
+    "Necklace plant",
+    "Creeping berry"
+  ],
+  "botanicalName": "Curio radicans",
+  "formerNames": [
+    "Senecio radicans",
+    "Kleinia adenocalyx",
+    "Cacalia radicans"
+  ],
+  "family": "Asteraceae",
+  "kind": "succulent",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "east",
+      "west",
+      "south"
+    ],
+    "directSun": "morning-only",
+    "src": [
+      0,
+      4
+    ]
+  },
+  "water": {
+    "rule": "half-dry",
+    "ruleText": "Water only when the top half of the soil feels dry, then let excess drain away",
+    "winter": "Water sparingly during the cooler winter rest, only enough to stop the leaves shriveling, as the RHS advises for indoor succulents.",
+    "factors": [
+      "NC State says overwatering must be avoided; root rot follows soggy soil.",
+      "Each leaf has a translucent window and stores water, so firm, plump leaves mean the plant is not thirsty.",
+      "A hanging basket in a warm, bright spot dries much faster than a pot on a shelf."
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "soil": {
+    "mix": "Well-drained, coarse or sandy potting mix or cactus mix in a pot with drainage holes.",
+    "components": [
+      "cactus mix",
+      "coarse sand or horticultural grit",
+      "loam-based potting soil"
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "Ordinary dry indoor air is fine; the RHS notes succulents cope well with central heating.",
+    "src": [
+      1
+    ]
+  },
+  "temperature": {
+    "minF": 46,
+    "minC": 8,
+    "src": [
+      0,
+      1
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, April to September",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "Liquid cactus feed or balanced houseplant fertilizer at the label rate, never stronger",
+    "winter": "none",
+    "src": [
+      1,
+      5
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots fill the pot and the mix dries out within a day or two",
+      "Stems have rooted all over the surface and crowded the basket",
+      "The center of the pot has thinned while the edges trail"
+    ],
+    "season": "Spring",
+    "rootType": "fibrous",
+    "prefersSnug": true,
+    "src": [
+      0,
+      1
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "toxic",
+    "humanNote": "NC State rates the poison severity as low but lists pyrrolizidine alkaloids: eating it can cause loss of appetite, nausea and vomiting, large amounts can cause irreversible liver disease, and the sap can irritate skin.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Groundsel (Senecio species)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/groundsel",
+        "toxicPrinciples": "Pyrrolizidine alkaloids",
+        "clinicalSigns": "The plant is not very palatable, but will be eaten by animals with no other forage; poisonings typically occur from ingestion of green plant material or material in hay. The toxic components can cause liver failure, referred to as \"walking disease\" or \"sleepy staggers\". Signs include weight loss, weakness, sleepiness, yawning, incoordination, yellowish discoloration to mucous membranes (icterus), neurologic problems secondary to liver failure (aimless walking, chewing motions, head pressing). Animals may appear to be normal at first, then become suddenly affected; the syndrome progresses rapidly over a few days to a week. Liver damage, depression, anorexia, vomiting, diarrhea, muddy mucous membranes, weakness, ataxia."
+      }
+    ],
+    "src": [
+      0,
+      2,
+      3
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Leaves go soft and translucent, stems blacken near the soil",
+      "causeKey": "overwatering",
+      "cause": "Root rot from soil kept wet",
+      "remedy": "Stop watering, cut healthy stem tips and re-root them in fresh, dry, gritty mix; discard the rotted crown."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Leaves turn brown or reddish on the side facing the window",
+      "causeKey": "too-much-sun",
+      "cause": "Sunburn, which NC State names as the usual cause",
+      "remedy": "Move it back from hot afternoon sun or filter the light with a sheer curtain."
+    },
+    {
+      "symptomKey": "wrinkled-leaves",
+      "symptom": "Banana-shaped leaves look shriveled and thin",
+      "causeKey": "underwatering",
+      "cause": "Water stores depleted after the pot stayed bone dry",
+      "remedy": "Soak the pot thoroughly and let it drain; check the top half of the soil more often in summer."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long bare stretches of stem between small, pale leaves",
+      "causeKey": "low-light",
+      "cause": "Not enough bright light reaching all parts of the plant",
+      "remedy": "Hang it closer to a bright window and prune the stretched stems in spring to encourage branching."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony clusters where leaves join the stems",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Remove them with a cotton swab dipped in rubbing alcohol and repeat until no new colonies appear."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale stippling on leaves",
+      "causeKey": "pests",
+      "cause": "Spider mites, which NC State lists for this plant",
+      "remedy": "Rinse the stems in the shower, isolate the plant and treat with insecticidal soap labeled for succulents."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings",
+      "Stems pinned to soil to root in place",
+      "Seed"
+    ],
+    "season": "Spring and summer"
+  },
+  "size": {
+    "growth": "fast",
+    "note": "Trailing stems 1 to 3 feet long, up to about 40 inches; spread depends on the container (NC State).",
+    "src": [
+      0
+    ]
+  },
+  "varieties": [],
+  "sources": [
+    {
+      "title": "Curio radicans (String of Bananas)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/curio-radicans/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow houseplant cacti and succulents",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/types/cacti-succulents/houseplants/growing-guide",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Groundsel (Senecio species)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/groundsel",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Cats",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Curio rowleyanus (String of Pearls)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/curio-rowleyanus/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "burros-tail",
+    "succulents",
+    "pothos",
+    "echeveria"
+  ],
+  "seo": {
+    "title": "String of Bananas Care: Light, Watering & Toxicity (2026)",
+    "description": "String of bananas care in 2026: bright indirect light, water when the top half of the soil is dry, gritty mix. NC State lists it toxic to pets; cuttings tips.",
+    "h1": "String of bananas care: light, water and pet safety"
+  },
+  "content": {
+    "answer": "String of bananas needs bright, indirect light and a coarse cactus mix. NC State Extension says to water only when the top half of the soil feels dry. It is not full-sun or frost tolerant, and it is toxic to pets if eaten.",
+    "intro": "String of bananas, Curio radicans, is a trailing succulent from southern Africa in the daisy family, sold for years as Senecio radicans before botanists moved it to Curio along with its cousin string-of-pearls. Its leaves are about 1.2 inches long, curved and fleshy, and NC State Extension notes each one carries a translucent line, a leaf window that lets light into the water-storing interior. In the wild it forms mats at the base of trees, rooting wherever a stem touches soil, which is what radicans means. Indoors that habit makes it fast, easy and generous with cuttings, and the stems are thicker and less fragile than string-of-pearls. The catch is balance. It needs bright light but scorches in full sun, likes the mix to dry partway but rots in soggy soil, and it contains pyrrolizidine alkaloids, so it hangs well out of reach of cats, dogs and small children.",
+    "light": [
+      "NC State says this plant requires bright, indirect sunlight reaching all parts of the plant, and that it is not full-sun tolerant. In practice, hang it directly in front of an east or west window, the University of Illinois Extension's high light level, or a few feet back from a south window where midday rays do not hit the leaves directly. A couple of hours of morning sun is welcome.",
+      "The phrase all parts of the plant matters for a trailer. A basket hung high in a window lights the top beautifully while the strands below hang in shadow and thin out. Turn the basket every week or two, and if the crown looks sparse while the tips are lush, the top needs more light. Leaves that turn brown or reddish are, according to NC State, usually sunburned: pull the plant back from the glass or add a sheer curtain."
+    ],
+    "water": [
+      "The rule from NC State is precise: water only when the top half of the soil feels dry. That sits between a fern and a cactus. Push a finger or a wooden skewer halfway down the pot; if the upper half is dry and the lower half only slightly cool, water thoroughly until it drains, then empty the saucer or let the basket drip in the sink before rehanging it.",
+      "Overwatering is the one thing NC State singles out to avoid, and root rot is the result. The leaves help you read the plant. Firm, glossy, plump bananas mean it has water in reserve. Slightly wrinkled leaves after a hot week mean it is ready. Leaves that turn soft and see-through while the soil is still damp mean the roots are suffocating; let it dry out and check them.",
+      "In winter, when light and warmth drop, the plant slows and the soil stays wet much longer. The RHS advises giving most indoor succulents a cool rest from November to early March with minimal watering, just enough to keep them from shriveling. String of bananas is not a strict desert plant, so do not let it go bone dry for weeks, but expect to water far less often than in summer."
+    ],
+    "soil": [
+      "NC State recommends a well-drained, coarse or sandy potting medium or a cactus mix. If you mix your own, the RHS recipe for succulents works well: two parts loam-based potting compost to one part horticultural grit or sharp sand by volume. Plastic hanging baskets hold water longer than terra cotta, so lean grittier if you use one. A drainage hole is essential; decorative baskets with sealed liners are a common cause of rot."
+    ],
+    "humidity": [
+      "No extra humidity is needed. Like other succulents, it copes with the dry air of a heated home, and the RHS notes that succulents generally like good ventilation. Misting only wets the leaves without reaching the roots."
+    ],
+    "temperature": [
+      "NC State describes string of bananas as not frost tolerant and hardy outdoors only in USDA zones 10a to 11b, so it is a houseplant almost everywhere. NC State gives no indoor minimum for this species. The RHS asks for winter nights around 46 to 50°F (8 to 10°C) for most resting indoor succulents, and we treat 46°F as the floor. For comparison, NC State gives its close relative string-of-pearls 70 to 80°F in summer and 50 to 60°F in winter. Keep it away from cold glass and heater vents."
+    ],
+    "fertilizer": [
+      "A light, regular feed during the growing season keeps the strands lengthening. The RHS suggests feeding succulents monthly from April to September with a liquid cactus feed or a high-potassium fertilizer, and the University of Illinois Extension's general rule caps houseplant feeding at once every 1 to 3 months between March and September, never stronger than the label. Choose a point within that range and stop in winter."
+    ],
+    "repotting": [
+      "Repot in spring, when roots fill the pot or stems have rooted across the whole surface and the soil dries out almost as soon as you water. Move up only a little in size; the RHS warns that a pot too large holds excess wet compost that causes rot. Because the plant roots along its stems, repotting is also a good moment to coil a few long strands back onto the soil surface, where they will root and thicken the crown."
+    ],
+    "propagation": [
+      "NC State calls stem cuttings the quickest and most common method. Cut a few inches of healthy strand, strip the leaves from the bottom section, let the cut end dry and callus, then lay the bare part on or just under gritty mix, as the RHS describes for succulent cuttings, keeping it only slightly moist until roots form.",
+      "You can skip the cutting entirely. Since the stems take root along their length, pin a trailing strand onto a small pot of mix set beside the basket, wait for roots, then snip it free. NC State also notes seed is possible, but stem rooting is faster. Spring or summer pruning, which NC State recommends to manage growth and encourage branching, gives you plenty of material."
+    ],
+    "problems": [
+      "NC State lists aphids, mealybugs, scale and spider mites as the pests to monitor, root rot from overwatering as the main disease risk, and browning or reddish leaves as sunburn. Most failures are either too much water in a basket that never dries or too little light on the upper part of the plant. Check new plants carefully at the leaf joints before hanging them near others."
+    ],
+    "petSafety": [
+      "Treat string of bananas as toxic to pets. The ASPCA has no entry under that name or under Curio radicans. Its Groundsel entry covers Senecio species, the genus this plant was filed under until recently, and lists it as toxic to dogs, cats and horses because of pyrrolizidine alkaloids, which can cause liver damage, vomiting, diarrhea, weakness and incoordination. NC State confirms the plant contains pyrrolizidine alkaloids and flags it as a problem for cats, dogs, horses and children, with low severity but possible irreversible liver disease after large amounts. Hang it high, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if a pet chews it."
+    ],
+    "faq": [
+      {
+        "q": "Is string of bananas the same plant as string of fishhooks?",
+        "a": "Often, yes. NC State lists string of fishhooks among the common names of Curio radicans, alongside banana vine, necklace plant and creeping berry. Common names are not regulated, though, and plant shops do not always use them consistently. Check the botanical name on the label; if it says Curio radicans or Senecio radicans, it is the same plant."
+      },
+      {
+        "q": "How is string of bananas different from string of pearls?",
+        "a": "They are close relatives in the genus Curio. String of bananas has curved leaves about 1.2 inches long and stems that NC State describes as thicker and less delicate than those of string-of-pearls, whose leaves are round. In practice that makes the banana version sturdier to handle, while both share the same toxicity and dislike of soggy soil."
+      },
+      {
+        "q": "Why are my string of bananas leaves turning red or brown?",
+        "a": "NC State says browning or reddish leaves are usually sunburn. The plant wants bright light but is not full-sun tolerant, so a south or west window with hot afternoon rays through the glass can scorch the side facing out. Move it back a few feet or filter the light. If the discolored leaves are also soft, check for overwatering instead."
+      },
+      {
+        "q": "What do string of bananas flowers look and smell like?",
+        "a": "NC State describes tiny white or pale mauve flowers in clusters, with a cinnamon scent, blooming from late summer into fall. They are small daisy-family flower heads rather than showy blooms, and they attract insects outdoors. After flowering the plant forms seeds with long white hairs that the wind disperses. Bright light is the best encouragement for flowering indoors."
+      },
+      {
+        "q": "Why does my string of bananas grow roots along its stems?",
+        "a": "It is built to. The species name radicans means taking root, and NC State explains that in its native habitat the stems form mats, rooting along the length of the trailing vine. Indoors, those aerial roots are a free propagation tool: lay a strand on moist mix and it will anchor itself where it touches. They do not mean the plant is sick."
+      }
+    ]
+  }
+}

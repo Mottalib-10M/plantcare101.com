@@ -1,0 +1,398 @@
+{
+  "slug": "schefflera",
+  "commonName": "Schefflera",
+  "otherNames": [
+    "Umbrella tree",
+    "Dwarf schefflera",
+    "Octopus tree",
+    "Australian ivy palm",
+    "Hawaiian schefflera"
+  ],
+  "botanicalName": "Heptapleurum actinophyllum and Heptapleurum arboricola",
+  "formerNames": [
+    "Schefflera actinophylla",
+    "Schefflera arboricola",
+    "Brassaia actinophylla"
+  ],
+  "family": "Araliaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "east",
+      "west",
+      "south"
+    ],
+    "directSun": "avoid",
+    "src": [
+      0,
+      1,
+      2,
+      3,
+      6
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water thoroughly, then let the soil dry at least half an inch deep before watering again",
+    "winter": "Missouri Botanical Garden advises reducing watering somewhat from fall to late winter, when growth slows.",
+    "factors": [
+      "Leaves drop when the soil stays too wet or gets too dry, Missouri Botanical Garden and NC State warn.",
+      "Never let the pot sit in water in its saucer (Clemson).",
+      "NC State suggests rainwater or filtered water for the umbrella tree."
+    ],
+    "src": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "soil": {
+    "mix": "A general-purpose, peaty potting soil that drains well, in a pot with drainage holes and no gravel layer.",
+    "components": [
+      "general-purpose houseplant potting soil",
+      "peat or other organic matter"
+    ],
+    "src": [
+      0,
+      1,
+      3,
+      11
+    ]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "NC State says the dwarf schefflera likes high humidity, and the Illinois Extension warns that warm, dry rooms bring spider mites.",
+    "src": [
+      2,
+      3,
+      4
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      65,
+      75
+    ],
+    "idealC": [
+      18,
+      24
+    ],
+    "minF": 60,
+    "minC": 16,
+    "src": [
+      0,
+      1,
+      3
+    ]
+  },
+  "fertilizer": {
+    "season": "March to September, while the plant is growing",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "Water-soluble or time-release houseplant fertilizer at the label rate, less often for plants in reduced light",
+    "winter": "none",
+    "src": [
+      0,
+      7
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "The plant is overcrowded and roots fill the pot",
+      "Roots grow out of the drainage hole",
+      "The plant wilts shortly after watering"
+    ],
+    "season": "Any season according to Clemson; spring or early summer is easiest",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [
+      0,
+      11
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low for the dwarf schefflera and medium for the umbrella tree; the sap can irritate sensitive skin, so wear gloves.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Schefflera",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/schefflera",
+        "toxicPrinciples": "Calcium oxalate crystals",
+        "clinicalSigns": "Oral irritation, intense burning and irritation of the mouth, lips, tongue, excessive drooling, vomiting, difficulty in swallowing."
+      },
+      {
+        "name": "Umbrella Tree (Brassaia actinophylla)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/umbrella-tree",
+        "toxicPrinciples": "Terpenoids, saponins, insoluble oxalates",
+        "clinicalSigns": "While this plant does contain potentially toxic substances, the most common effects seen are mild vomiting and diarrhea."
+      }
+    ],
+    "src": [
+      1,
+      2,
+      8,
+      9
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and speckled, dull leaves",
+      "causeKey": "pests",
+      "cause": "Spider mites, which attack scheffleras in warm, dry rooms",
+      "remedy": "Wash both sides of the leaves in the shower, raise the humidity, and treat with insecticidal soap until no new webbing appears."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Healthy-looking leaves fall in numbers",
+      "causeKey": "overwatering",
+      "cause": "Soil kept too wet, one of the leaf-drop triggers Clemson lists with low humidity and chilling",
+      "remedy": "Let the soil dry half an inch deep before watering, empty the saucer, and check the roots if the drop continues."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Dead patches appear on leaves a few days after a cold night",
+      "causeKey": "cold",
+      "cause": "Exposure to excessive cold or an air conditioning vent",
+      "remedy": "Keep the plant above 60°F at night, away from vents, open windows and cold glass; remove badly damaged leaves."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Yellowing leaves on spindly, weak stems",
+      "causeKey": "low-light",
+      "cause": "Too little light, as Clemson describes",
+      "remedy": "Move it to bright, filtered light near an east, west or south window and prune just above a leaf to make it branch."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony clusters in leaf joints and on stems",
+      "causeKey": "pests",
+      "cause": "Mealybugs, common on scheffleras along with scale",
+      "remedy": "Remove them with a cotton swab dipped in rubbing alcohol and repeat weekly until none return."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Wilting and blackened, soft roots in a wet pot",
+      "causeKey": "poor-drainage",
+      "cause": "A soil mix that does not drain quickly, combined with frequent watering",
+      "remedy": "Repot into fresh general-purpose mix in a pot with drainage holes, trimming away rotten roots first."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings",
+      "Air layering",
+      "Seed"
+    ],
+    "season": "Spring or summer"
+  },
+  "size": {
+    "heightIn": [
+      36,
+      120
+    ],
+    "note": "Clemson says scheffleras grow to 8 feet or more and the umbrella tree to 8 to 10 feet indoors; Missouri Botanical Garden gives 3 to 6 feet for the dwarf schefflera.",
+    "src": [
+      0,
+      2,
+      3
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Umbrella tree 'Amate'",
+      "note": "Resists Alternaria leaf spot and spider mites and stays compact even in low light, according to Clemson."
+    },
+    {
+      "name": "Dwarf schefflera 'Gold Capella'",
+      "note": "Leaves variegated in yellow or gold and green."
+    },
+    {
+      "name": "Dwarf schefflera 'Trinette'",
+      "note": "Leaves variegated cream and green."
+    },
+    {
+      "name": "Dwarf schefflera 'Compacta'",
+      "note": "Smaller plant with dense clusters of glossy green leaves."
+    },
+    {
+      "name": "Dwarf schefflera 'Pittmans Pride'",
+      "note": "A dwarf, compact form listed by Clemson."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Schefflera",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/schefflera-2/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Heptapleurum actinophyllum (Umbrella Tree)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/heptapleurum-actinophyllum/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Heptapleurum arboricola (Dwarf Umbrella Tree)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/heptapleurum-arboricola/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Schefflera arboricola",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=276622",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Umbrella tree",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/umbrella-tree",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Australian Umbrella Tree",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/australian-umbrella-tree",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Schefflera",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/schefflera",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Umbrella Tree",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/umbrella-tree",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Air layering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/air-layering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "money-tree",
+    "dracaena",
+    "rubber-plant",
+    "fiddle-leaf-fig"
+  ],
+  "seo": {
+    "title": "Schefflera Care: Umbrella Tree Light & Water Guide (2026)",
+    "description": "Schefflera care in 2026: medium to bright filtered light, soil dried half an inch deep between waterings, and nights above 60°F, per Clemson. Toxic to pets.",
+    "h1": "Schefflera care: umbrella tree and dwarf schefflera"
+  },
+  "content": {
+    "answer": "Give a schefflera medium to bright, filtered light, water thoroughly and let the top half inch of soil dry before the next watering, and keep it at 65 to 75°F by day and above 60°F at night, the ranges Clemson Extension recommends.",
+    "intro": "Schefflera is the label name for two related umbrella trees in the ginseng and ivy family, Araliaceae. The umbrella tree, sold as Schefflera actinophylla and long known as Brassaia, comes from northern Australia and New Guinea and carries big, leathery leaves of seven or more leaflets, each up to 12 inches long according to Clemson. The dwarf schefflera, Schefflera arboricola, comes from Taiwan and Hainan, with leaves split into 7 to 11 glossy leaflets no longer than 4 inches. NC State now files both under the genus Heptapleurum. Their leaflets radiate from the leafstalk like the spokes of an umbrella, and NC State notes that young actinophylla plants begin life as epiphytes, clinging to other trees before they root in the ground. Indoors both are long-lived, forgiving plants whose care turns on bright filtered light, a short dry spell between waterings, and enough humidity to keep spider mites away.",
+    "light": [
+      "Clemson says scheffleras prefer medium to bright light, and the Illinois Extension rates both species as medium-light plants, about 150 foot-candles. Missouri Botanical Garden is more specific for the dwarf schefflera: an east, west or south window with curtain-filtered sun for 3 to 4 hours a day, and no direct sun. NC State gives the same 3 to 4 hours of filtered light and warns that bright, direct light burns the leaves of indoor plants.",
+      "The larger umbrella tree takes more brightness. NC State describes it as preferring a bright, sunny spot as a houseplant, protected from hot afternoon sun. Too little light shows quickly in both species: Clemson notes that low light causes yellowing leaves on spindly, weak stems, the classic stretched schefflera reaching for a window. Clemson also notes that the umbrella tree cultivar 'Amate' keeps its compact growth even in low light, which makes it the better choice for a dim office."
+    ],
+    "water": [
+      "Clemson's rule is precise: water thoroughly, then let the soil dry to half an inch deep before watering again, and never let the plant sit with water in its saucer. Missouri Botanical Garden suggests a deep watering followed by letting the soil nearly dry, and the Illinois Extension says to let it dry moderately. The three agree on the shape of the cycle, a full soak followed by a dry-down, and differ only on how far to let it go, so start with Clemson's half inch and adjust to your room.",
+      "Leaf drop is the schefflera's signal for both mistakes. Missouri Botanical Garden and NC State say the leaves drop if the soil becomes too moist or too dry, and Clemson adds that root rot usually comes from a mix that drains slowly or from watering too often. NC State recommends rainwater or filtered water for the umbrella tree. From fall to late winter, Missouri Botanical Garden advises reducing water somewhat, since the plant grows more slowly in short days."
+    ],
+    "soil": [
+      "Clemson recommends a general-purpose potting soil, Missouri Botanical Garden a peaty, well-drained mix, and NC State a well-drained medium rich in organic matter. Any good peat-based houseplant mix satisfies all three. Drainage is the real requirement: a pot with holes, no layer of gravel in the bottom, which Clemson's repotting guide says actually slows water movement through the pot, and a mix that does not stay soggy for days after watering."
+    ],
+    "humidity": [
+      "Both species come from humid tropical forests, and dry indoor air invites their worst pest. The Illinois Extension warns that umbrella trees in warm, dry rooms tend to be attacked by spider mites and recommends raising the humidity and carefully washing the leaves, top and underside, on a regular basis. Missouri Botanical Garden suggests misting or a tray of wet pebbles for the dwarf schefflera, and NC State says it likes high humidity, with the water line in the tray kept below the top of the pebbles so the pot never stands in water. Clemson lists low humidity among the causes of leaf drop."
+    ],
+    "temperature": [
+      "Clemson recommends day temperatures of 65 to 75°F (18 to 24°C) with nights above 60°F (16°C), and Missouri Botanical Garden and NC State also treat 60°F as the floor; NC State gives 65 to 90°F as the umbrella tree's preferred range. Clemson's problem section mentions keeping plants above 50°F, but because dead patches show up on the leaves several days after excessive cold, 60°F is the safer line. Keep scheffleras away from heating vents, radiators, open windows and air conditioners, since Clemson notes that hot or cold drafts damage them."
+    ],
+    "fertilizer": [
+      "Clemson advises regular feeding with a water-soluble or time-release houseplant fertilizer at the label rate, adding that plants in reduced light need less frequent feeding than plants in bright light. The Illinois Extension's general schedule, no more than once every one to three months from March to September, suits a schefflera in typical indoor light, and its advice to leach the pot with plain water every four to six months keeps salts from building up. Hold off in winter, when growth slows."
+    ],
+    "repotting": [
+      "Clemson allows repotting an overcrowded schefflera at any season, using a general-purpose potting soil, and its repotting guide calls for a pot 1 or 2 inches larger in diameter. Spring or early summer is still the easiest time, while new growth is starting. Signs that it is due are roots growing out of the drainage hole, a solid mass of roots around the root ball, and a plant that needs frequent watering or wilts shortly after watering. For a tall umbrella tree in a container too heavy to handle, Clemson suggests topdressing instead: replace the top 2 or 3 inches of soil with fresh mix every other year or so."
+    ],
+    "propagation": [
+      "Clemson lists seed, cuttings and air layering, and NC State recommends layering, seed or stem cuttings for the umbrella tree. Stem cuttings taken in spring or summer root in moist mix under a clear plastic cover in bright, indirect light, following the Illinois Extension's method. A tall, bare umbrella tree is a good candidate for air layering, which roots the top while it is still attached to the plant; the Illinois Extension says roots usually show through the plastic after 3 to 4 months.",
+      "Pruning keeps both species in shape. To keep plants small, Clemson says to prune just above a leaf, and the Illinois Extension recommends tip pruning the umbrella tree and pinching out the growing tips of the dwarf schefflera to keep them bushy. NC State notes that the umbrella tree can be cut back in winter to control its size."
+    ],
+    "problems": [
+      "Spider mites are the pest to expect, especially on the umbrella tree; the Illinois Extension says they attack the dwarf schefflera less often, and Clemson notes that 'Amate' resists both mites and Alternaria leaf spot. Mealybugs and scale insects are the other common pests in Clemson's list, with aphids and thrips added by NC State. Leaf drop has several triggers, which Clemson names as excessive watering, low humidity and chilling, and NC State adds that underwatered plants drop their leaves too. Bacterial leaf spot and soft rot follow soil that stays too wet, according to NC State."
+    ],
+    "petSafety": [
+      "The ASPCA lists scheffleras as toxic to cats and dogs under two entries with different details. Its Schefflera entry names calcium oxalate crystals, with oral irritation, intense burning and irritation of the mouth, lips and tongue, excessive drooling, vomiting and difficulty swallowing. Its Umbrella Tree entry, for Brassaia actinophylla, lists terpenoids, saponins and insoluble oxalates, and says the most common effects are mild vomiting and diarrhea. NC State calls all parts of the umbrella tree toxic if ingested and says all parts of the dwarf schefflera are seriously toxic to dogs and cats; the sap of both can irritate skin, so wear gloves when pruning. Keep the plant out of reach and call your veterinarian or the ASPCA Animal Poison Control Center if a pet chews it."
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between an umbrella tree and a dwarf schefflera?",
+        "a": "Size and leaf scale. Clemson says the umbrella tree, Schefflera actinophylla, grows 8 to 10 feet tall indoors with leaflets up to 12 inches long, while the dwarf schefflera, Schefflera arboricola, has 7 to 11 leaflets up to 4 inches long and thicker leaves; Missouri Botanical Garden puts it at 3 to 6 feet indoors. The Illinois Extension finds the dwarf species easier to grow and less prone to spider mites."
+      },
+      {
+        "q": "Why is my schefflera dropping leaves?",
+        "a": "Clemson lists three usual causes: excessive watering, low humidity and chilling. NC State and Missouri Botanical Garden add soil that gets too dry. Check the soil first: if it is wet, let it dry half an inch deep before watering again; if it is bone dry, soak it. Then look for cold drafts, air conditioning vents and dry heated air, and raise the humidity in winter."
+      },
+      {
+        "q": "How do I make a leggy schefflera bushier?",
+        "a": "Give it more light and prune. Clemson says low light causes spindly, weak stems, so move the plant to bright, filtered light first. Then cut just above a leaf at the height you want, as Clemson advises; the Illinois Extension recommends pinching out the growing tips of dwarf scheffleras to keep them bushy. A very tall, bare umbrella tree can be air layered and its top rerooted."
+      },
+      {
+        "q": "Can a schefflera live outside in the summer?",
+        "a": "Yes, in a sheltered spot. NC State says the dwarf schefflera can safely go outside when temperatures will not dip below 60°F, and that the umbrella tree can spend summer outdoors in a protected location in a container but must come in for winter. The Illinois Extension advises shade rather than direct sun and a gradual move over one to two weeks, with a pest check before it returns indoors."
+      },
+      {
+        "q": "Is schefflera now called Heptapleurum?",
+        "a": "NC State's Plant Toolbox now lists the umbrella tree as Heptapleurum actinophyllum and the dwarf schefflera as Heptapleurum arboricola, giving Schefflera and Brassaia as former names. Missouri Botanical Garden still uses Schefflera arboricola and notes it is synonymous with Heptapleurum. Clemson, the Illinois Extension and the ASPCA still use Schefflera; only the name changed, not the plant or its care."
+      }
+    ]
+  }
+}

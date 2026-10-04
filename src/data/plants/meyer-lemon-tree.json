@@ -1,0 +1,228 @@
+{
+  "slug": "meyer-lemon-tree",
+  "commonName": "Meyer lemon tree",
+  "otherNames": ["Meyer lemon", "Improved Meyer lemon", "Potted lemon tree"],
+  "botanicalName": "Citrus × meyeri",
+  "formerNames": ["Citrus limon 'Meyer'"],
+  "family": "Rutaceae",
+  "kind": "shrub",
+  "isGroup": false,
+  "light": {
+    "minLevel": "direct",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [1500, 1500],
+    "lux": [16146, 16146],
+    "windows": ["south"],
+    "directSun": "needs",
+    "src": [0, 2, 3]
+  },
+  "water": {
+    "rule": "top-2-inches",
+    "ruleText": "Check the top 2 to 3 inches before watering; the root ball should never dry out completely or stay saturated",
+    "winter": "Indoors in winter, the RHS lets the surface of the compost partly dry, then waters thoroughly with tepid rainwater and lets the excess drain; it calls winter overwatering one of the commonest problems.",
+    "factors": [
+      "In hot, dry weather a potted citrus outdoors may need water almost daily, according to Clemson.",
+      "Yellowing or falling leaves can mean overwatering (RHS), so check the mix before adding more.",
+      "Rainwater is preferred because it tends to have a lower pH than municipal water (Clemson)."
+    ],
+    "src": [0, 2]
+  },
+  "soil": {
+    "mix": "A fast-draining, slightly acidic mix such as Clemson's 4 parts aged pine bark to 1 part peat or coir, or a citrus compost.",
+    "components": ["shredded aged pine bark", "peat moss or coir", "sharp sand (RHS: about 20 percent in a loam-based mix)"],
+    "ph": [5.5, 6.5],
+    "src": [0, 2]
+  },
+  "humidity": {
+    "level": "average",
+    "idealPct": [30, 60],
+    "note": "Clemson asks for 30 to 60 percent; the RHS warns that centrally heated rooms are usually too dry for citrus in winter.",
+    "src": [0, 2]
+  },
+  "temperature": {
+    "idealF": [65, 85],
+    "idealC": [18, 29],
+    "minF": 50,
+    "minC": 10,
+    "src": [0, 1, 2]
+  },
+  "fertilizer": {
+    "season": "Growing season with slow-release feed; the RHS feeds citrus year round, switching to a winter formula from November to mid-March",
+    "everyWeeks": [8, 13],
+    "strength": "full",
+    "type": "Slow-release citrus fertilizer such as 12-6-6 or 12-4-6, 2 to 3 applications per growing season (Clemson), with an acidic water-soluble feed as a supplement",
+    "winter": "reduced",
+    "src": [0, 1, 2]
+  },
+  "repotting": {
+    "everyYears": [3, 5],
+    "signs": [
+      "Roots appear through the holes in the base of the pot",
+      "The pot dries out within hours on a warm day",
+      "The tree has become top-heavy for its container"
+    ],
+    "season": "Spring",
+    "rootType": "woody",
+    "prefersSnug": true,
+    "src": [0, 2]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "non-toxic",
+    "humanNote": "The fruit is edible. The RHS advises thick gloves when pruning because citrus stems are often armed with sharp thorns.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Lemon (Citrus limonia)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lemon",
+        "toxicPrinciples": "Essential oils and psoralens",
+        "clinicalSigns": "Vomiting, diarrhea, depression; potential dermatitis. Fruit is edible, skins and plant material can cause problems."
+      },
+      {
+        "name": "Orange (Citrus sinensis), the Meyer lemon's other parent",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/orange",
+        "toxicPrinciples": "Essential oils and psoralens",
+        "clinicalSigns": "Vomiting, diarrhea, depression; potential dermatitis. Fruit is edible, skins and plant material can cause problems."
+      }
+    ],
+    "src": [1, 2, 4, 5]
+  },
+  "problems": [
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Leaves yellow and fall in winter while the compost feels wet",
+      "causeKey": "overwatering",
+      "cause": "Watering on a summer rhythm in a cool, dim season",
+      "remedy": "Let the surface of the compost partly dry before each watering, water with tepid water and never leave the pot standing in a saucer."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Sudden leaf fall after the tree comes indoors or sits near a door",
+      "causeKey": "drafts",
+      "cause": "Cold drafts, fluctuating temperatures and dry indoor air, which the RHS names as causes of leaf loss",
+      "remedy": "Keep it in a bright room held at 55 to 65°F (13 to 18°C) in winter, away from doors and heaters, and raise humidity with a pebble tray."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Leaves pale or yellow all over, with weak flowering",
+      "causeKey": "nutrient-deficiency",
+      "cause": "A hungry plant: frequent watering flushes nutrients out of the pot (Clemson)",
+      "remedy": "Apply a slow-release citrus fertilizer, supplement with an acidic soluble feed, and add Epsom salt if magnesium is short, as Clemson suggests."
+    },
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "A healthy tree that never blooms indoors",
+      "causeKey": "low-light",
+      "cause": "Far less light than the 8 or more hours of sun Clemson asks for",
+      "remedy": "Give it the sunniest south window, or a summer outdoors in full sun after gradual hardening off."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky leaves turning black with sooty mold",
+      "causeKey": "pests",
+      "cause": "Honeydew from scale insects, aphids or whiteflies",
+      "remedy": "Wipe the leaves, treat the insects with horticultural oil or insecticidal soap, and the sooty mold fades once the honeydew stops."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Mottled leaves with fine webbing underneath, mostly indoors",
+      "causeKey": "pests",
+      "cause": "Spider mites, favored by warm, dry rooms",
+      "remedy": "Rinse the foliage, raise humidity and dust the leaves regularly, which Clemson says also reduces mites and scale."
+    }
+  ],
+  "propagation": {
+    "methods": ["Semi-ripe cuttings"],
+    "season": "Summer"
+  },
+  "size": {
+    "growth": "slow",
+    "note": "The RHS says most citrus form small trees under 5 feet in containers; Clemson notes the final pot can reach 18 to 36 inches across.",
+    "src": [0, 2]
+  },
+  "varieties": [
+    { "name": "Improved Meyer", "note": "The only form sold since the 1970s, selected for resistance to a virus that hurt the original (UF/IFAS)." }
+  ],
+  "sources": [
+    { "title": "Container Citrus Production (HGIC 1363)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/container-citrus-production/", "accessed": "2026-10-04" },
+    { "title": "Meyer Lemon", "publisher": "UF/IFAS Gardening Solutions, University of Florida", "url": "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/fruits/meyer-lemon/", "accessed": "2026-10-04" },
+    { "title": "How to grow citrus", "publisher": "Royal Horticultural Society", "url": "https://www.rhs.org.uk/fruit/citrus/grow-your-own", "accessed": "2026-10-04" },
+    { "title": "Lighting for houseplants", "publisher": "University of Illinois Extension", "url": "https://extension.illinois.edu/houseplants/lighting", "accessed": "2026-10-04" },
+    { "title": "Lemon", "publisher": "ASPCA Animal Poison Control Center", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lemon", "accessed": "2026-10-04" },
+    { "title": "Orange", "publisher": "ASPCA Animal Poison Control Center", "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/orange", "accessed": "2026-10-04" }
+  ],
+  "verified": "2026-10-04",
+  "related": ["olive-tree", "hibiscus", "bird-of-paradise"],
+  "seo": {
+    "title": "Meyer Lemon Tree Care: Sun, Soil & Winter Indoors (2026)",
+    "description": "Meyer lemon tree care in 2026: 8+ hours of sun, mix at pH 5.5 to 6.5, a winter room at 55 to 65°F (Clemson). Toxic to cats and dogs per ASPCA. Leaf drop help.",
+    "h1": "Meyer lemon tree care: sun, water and winter"
+  },
+  "content": {
+    "answer": "A Meyer lemon tree needs at least 8 hours of sun, a bark-based mix at pH 5.5 to 6.5 and water when the top 2 to 3 inches dry, per Clemson Extension. Winter it in a bright room at 55 to 65°F (13 to 18°C).",
+    "intro": "The Meyer lemon is thought to be a cross between a lemon and a sweet orange, brought from China in 1908 by the USDA explorer Frank Meyer, according to UF/IFAS. Its fruit is sweeter and more orange-yellow than a supermarket lemon, its flowers are powerfully fragrant, and it is self-pollinating, so one tree can crop. It is also the citrus most often sold as an indoor tree, which deserves a frank warning. UF/IFAS says a Meyer lemon can be grown in a container or even as a houseplant but is unlikely to fruit when kept inside, and the RHS writes that citrus do not make happy houseplants long term because heated homes are too warm and too dry in winter. The trees that do well spend summer outdoors in full sun and winter in a bright, cool room. Plan for that cycle and a potted Meyer can flower and fruit for years.",
+    "light": [
+      "Light is the limiting factor indoors. Clemson asks for at least 8 hours of sunlight, outdoors in full sun or indoors at a south-facing window with lots of bright natural light. The Illinois Extension puts citrus in its direct light category, about 1,500 foot-candles, which indoors means right in front of a south window and nowhere else. A few feet back, or behind a sheer curtain, the tree survives but rarely blooms.",
+      "Summer outdoors is the easiest way to build up the energy for flowers and fruit. When nights are reliably mild, move the pot out gradually, a few hours a day at first, because leaves grown indoors scorch in sudden full sun; the RHS calls this hardening off. In fall, bring it back before nights turn cold and give it the brightest room you have. A sunroom is ideal, Clemson says."
+    ],
+    "water": [
+      "Clemson's rule is to check the top 2 to 3 inches of soil for moisture before watering, and to aim for a root ball that never dries out completely but is never saturated for long either. A Meyer in a terracotta or plastic pot outdoors in July can need water almost daily in hot, dry spells, so check every morning. Water until it runs from the drainage holes and never leave the pot sitting in a full saucer.",
+      "Winter turns the risk around. The RHS lets the surface of the compost partly dry out before watering indoors, then waters thoroughly with tepid rainwater and lets the excess drain away. It names winter overwatering as one of the commonest problems with potted citrus and lists yellowing and shedding leaves as the warning signs. Err on the dry side from November to March.",
+      "Water quality matters more for citrus than for most houseplants. Clemson recommends rainwater where possible because it tends to have a lower pH than municipal supplies, which helps keep the mix in the slightly acidic range citrus prefer."
+    ],
+    "soil": [
+      "Use a coarse, fast-draining mix. Clemson suggests a homemade blend of 4 parts shredded aged pine bark to 1 part peat moss or coir; if you use coir, it recommends agricultural gypsum to replace the sodium it carries. The RHS uses a specially formulated citrus compost, or a loam-based compost such as John Innes No 2 or No 3 with about 20 percent sharp sand mixed in. Never use garden soil in the pot.",
+      "Clemson gives the target pH as 5.5 to 6.5. Acidic water-soluble fertilizers and occasional Epsom salt help hold it there. Plant at the same depth as before, with the root flare above the soil line; Clemson notes that burying the flare invites crown rot."
+    ],
+    "humidity": [
+      "Clemson lists 30 to 60 percent humidity for optimum growth, and suggests a humidifier or a pebble tray near the tree in winter. The RHS goes further, saying humidity is particularly important when citrus are kept in heated rooms, and recommends standing the pot on a tray of gravel kept wet just below the surface, plus early-morning misting in summer. Dry air is one of the triggers it names for leaf drop and failed flowering."
+    ],
+    "temperature": [
+      "Clemson puts optimum temperatures for fruiting between 65 and 85°F (18 and 29°C) and says most citrus tolerate cooler spells down to around 50°F (10°C). For the winter months indoors, it recommends a room with southern exposure held between 55 and 65°F (13 and 18°C). The RHS adds that some lemons cope with as low as 42°F (5°C), and UF/IFAS describes the Meyer as handling cold better than other citrus, needing protection below 20°F (-7°C) in the ground. A potted tree is more exposed than one in the soil, so bring it in well before frost.",
+      "The cool winter room is not only about survival. Clemson explains that citrus usually flower in mid to late spring after a rest period below 68°F (20°C), and the RHS names cool or fluctuating temperatures and cold drafts as reasons a tree fails to flower or drops leaves. Steady and cool, but never freezing, is the target."
+    ],
+    "fertilizer": [
+      "Containers lose nutrients every time you water. Clemson recommends a slow-release citrus fertilizer such as 12-6-6 or 12-4-6, applied 2 to 3 times through the growing season depending on the product's release rate, with an acidic water-soluble feed as a supplement. Most soluble fertilizers lack calcium and magnesium, so Clemson suggests Epsom salt or gypsum when a soilless media test shows a shortage. The RHS treats citrus as hungry plants that benefit from feeding all year: a high-nitrogen summer citrus feed from late March to October, then a balanced winter citrus feed from November to mid-March. UF/IFAS suggests a 6-6-6-2 mix with magnesium for Meyer lemons in the ground."
+    ],
+    "repotting": [
+      "The RHS says a newly bought citrus can usually stay in its original pot for several years and warns that overpotting into a much bigger container causes problems. Move it up once roots appear through the holes in the base, in spring, to a pot only slightly larger. Clemson's rule is a container about 2 inches wider and a new pot every three to five years, with a final pot that may be 18 to 36 inches across. Lightweight plastic beats heavy terracotta or concrete if you plan to move the tree twice a year; Clemson suggests a plant dolly for big ones. In the years between, topdress with fresh compost, as the RHS recommends."
+    ],
+    "propagation": [
+      "The RHS calls semi-ripe cuttings the easiest way to propagate citrus, because the new plants are clones and produce the same quality of fruit, usually within a few years. Take them in summer from firm current-season shoots. Growing from a supermarket seed is not worth it: the RHS notes seedlings take years to fruit, the fruit may be inferior, and seeds can carry disease. Clemson adds that Citrus cannot be sold or shipped outside three South Carolina counties under the citrus greening quarantine, so buy certified nursery stock, as UF/IFAS also advises."
+    ],
+    "problems": [
+      "Leaf drop is the signature complaint, and it has several causes: winter overwatering, cold drafts, dry heated air and shortage of nutrients, all named by the RHS. Root rots from Pythium or Phytophthora, which Clemson describes in poorly drained media, show as wilting with wet soil. Sap feeders are the main pests indoors: scale, aphids, whiteflies, mealybugs and spider mites, with sooty mold growing on their honeydew. The RHS recommends limiting a tree about 3 feet tall to 20 fruits at a time so it does not exhaust itself."
+    ],
+    "petSafety": [
+      "The ASPCA lists lemon and orange, the two parents of the Meyer lemon, as toxic to cats and dogs. Both entries name essential oils and psoralens as the toxic principles and list vomiting, diarrhea, depression and possible dermatitis as clinical signs. The ASPCA notes that the fruit is edible but that the skins and plant material can cause problems, so the risk is a pet chewing leaves, stems or peel rather than a lick of juice. Keep fallen fruit and pruned branches out of reach, and call your veterinarian or the ASPCA Animal Poison Control Center if a pet eats some."
+    ],
+    "faq": [
+      {
+        "q": "Will a Meyer lemon tree actually fruit inside the house?",
+        "a": "Sometimes, but do not count on it. UF/IFAS says a Meyer lemon kept inside is unlikely to fruit. The best odds come from a summer outdoors in full sun, a winter room at 55 to 65°F (13 to 18°C) as Clemson recommends, and a tree old enough to bear; Clemson says lemons need 1 to 3 years to outgrow juvenility."
+      },
+      {
+        "q": "How many lemons should I leave on a young Meyer lemon tree?",
+        "a": "Fewer than it sets. The RHS notes that citrus tend to produce more fruit than they can support and suggests that a tree about 3 feet tall carry no more than 20 fruits at once. Pinch off extra small fruits early. Fruits take nine to twelve months to ripen, so flowers and lemons often appear together."
+      },
+      {
+        "q": "Why are the leaves on my Meyer lemon tree turning yellow in winter?",
+        "a": "The two usual causes are overwatering and hunger. The RHS lists yellowing and leaf drop as signs of winter overwatering, so let the surface dry before watering. If the mix is not soggy, think nutrients: Clemson notes frequent watering flushes them out, and the RHS keeps feeding citrus in winter with a balanced winter formula."
+      },
+      {
+        "q": "Can a Meyer lemon tree stay outside in winter?",
+        "a": "Only in mild climates. UF/IFAS says Meyer lemons handle cold better than other citrus but need protection below 20°F (-7°C), and Clemson recommends moving container citrus to shelter during cold periods. Roots in a pot are more exposed to cold than roots in the ground, so in any area with freezing nights bring the tree in for winter."
+      },
+      {
+        "q": "Does a Meyer lemon tree need a second tree for pollination?",
+        "a": "No. UF/IFAS says Meyer lemons are self-pollinating, so a single tree can bear fruit. Outdoors, bees and bumble bees visit the fragrant flowers, as Clemson notes for citrus generally. Indoors there are no insects, which is one more reason a summer on the patio, during the spring and early summer bloom, improves the crop."
+      }
+    ]
+  }
+}

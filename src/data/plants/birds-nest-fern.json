@@ -1,0 +1,349 @@
+{
+  "slug": "birds-nest-fern",
+  "commonName": "Bird's nest fern",
+  "otherNames": [
+    "Nest fern",
+    "Birds nest fern"
+  ],
+  "botanicalName": "Asplenium nidus",
+  "formerNames": [],
+  "family": "Aspleniaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "medium",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "north",
+      "east"
+    ],
+    "directSun": "avoid",
+    "src": [
+      0,
+      1,
+      2,
+      5
+    ]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Keep the mix continually moist, never dry between waterings, and pour water onto the mix around the rosette rather than into the central cup",
+    "winter": "Growth slows in winter and the pot dries more slowly, so check before each watering, but do not let it dry out: UF/IFAS says this fern should never go dry between waterings.",
+    "factors": [
+      "The new fronds unfurl from a tight center; water left standing there can rot that growing point, so aim at the mix and tip out any pooled water.",
+      "UF/IFAS rates its drought tolerance as poor: a dry spell shows up as brown, crisp frond edges.",
+      "Clemson links root rot in ferns to a mix that drains slowly or watering too often."
+    ],
+    "src": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "soil": {
+    "mix": "A rich, moist but porous fern mix high in organic matter, such as equal parts houseplant mix and peat moss or leaf mold.",
+    "components": [
+      "fern or houseplant potting mix",
+      "peat moss or leaf mold",
+      "perlite or orchid bark for air"
+    ],
+    "src": [
+      0,
+      2,
+      4
+    ]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "NC State says a pebble tray may be needed to give it enough humidity indoors; a bright bathroom suits it.",
+    "src": [
+      0,
+      3,
+      8
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      60,
+      70
+    ],
+    "idealC": [
+      16,
+      21
+    ],
+    "minF": 55,
+    "minC": 13,
+    "src": [
+      0,
+      3,
+      4
+    ]
+  },
+  "fertilizer": {
+    "season": "During active growth, April through September",
+    "everyWeeks": [
+      4,
+      4
+    ],
+    "strength": "half",
+    "type": "Dilute liquid houseplant fertilizer, about half the label rate",
+    "winter": "none",
+    "src": [
+      0,
+      4
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "The rosette has outgrown the pot and tips it over",
+      "Roots fill the pot and the mix dries out quickly",
+      "Roots grow through the drainage holes"
+    ],
+    "season": "Spring, when new growth begins",
+    "rootType": "epiphytic",
+    "prefersSnug": false,
+    "src": [
+      1,
+      4
+    ]
+  },
+  "toxicity": {
+    "cats": "unknown",
+    "dogs": "unknown",
+    "humans": "unknown",
+    "humanNote": "None of the sources consulted reports Asplenium nidus as poisonous, and NC State gives it no poison rating; no source confirms it safe to eat either.",
+    "aspcaListed": false,
+    "aspca": [],
+    "src": [
+      0,
+      6,
+      7
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Fronds turn yellow and new growth stops",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sun, which UF/IFAS and NC State say yellows the fronds",
+      "remedy": "Move it to a north window or well back from an east window, in bright light without direct rays."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Large dead areas spreading across the fronds",
+      "causeKey": "disease",
+      "cause": "Fungal or bacterial leaf disease, worse on a stressed plant in dry, cool air",
+      "remedy": "Cut off badly marked fronds, keep water out of the center and off the leaves, and improve humidity and warmth."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Frond edges brown and papery, rippled cultivars worst",
+      "causeKey": "low-humidity",
+      "cause": "Dry heated air in winter",
+      "remedy": "Set the pot on a pebble tray or near a humidifier, and keep it away from heat vents and drafts."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Tips of several fronds go brown at once",
+      "causeKey": "underwatering",
+      "cause": "The mix was allowed to dry out",
+      "remedy": "Soak the pot until it drains, then keep the mix continually moist; trim brown tips following the frond's shape."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Small brown bumps along the midrib and undersides",
+      "causeKey": "pests",
+      "cause": "Scale insects",
+      "remedy": "Scrape or wipe them off by hand; NC State warns that chemical insecticides can damage this fern."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Fronds wilt and the base turns dark and soft",
+      "causeKey": "poor-drainage",
+      "cause": "A dense mix or a pot standing in water",
+      "remedy": "Repot into a porous, organic fern mix with drainage holes and empty the saucer after each watering."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Spores from the brown lines under mature fronds (slow; most growers buy plants)"
+    ],
+    "season": "Any time, indoors under cover"
+  },
+  "size": {
+    "heightIn": [
+      24,
+      48
+    ],
+    "widthIn": [
+      24,
+      48
+    ],
+    "growth": "slow",
+    "note": "UF/IFAS gives 2 to 4 feet tall and wide; NC State records up to 5 feet in the tropics. Potted plants indoors stay smaller.",
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Antiquum",
+      "note": "Wavy frond margins; Asplenium antiquum is also sold as a smaller separate species."
+    },
+    {
+      "name": "Crispy Wave",
+      "note": "Sword-shaped, strongly ruffled fronds."
+    },
+    {
+      "name": "Osaka",
+      "note": "Narrow, strap-like fronds with rippled edges."
+    },
+    {
+      "name": "Victoria",
+      "note": "Long, wavy, tongue-like fronds."
+    },
+    {
+      "name": "Campio",
+      "note": "Ruffled, almost feathery green fronds."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Asplenium nidus (Bird's Nest Fern)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/asplenium-nidus/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Bird's Nest Fern",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/birds-nest-fern/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Asplenium nidus: Bird's Nest Fern (FP054)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://ask.ifas.ufl.edu/publication/FP054",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Q: Large dead areas on the leaves of my bird's nest fern",
+      "publisher": "UF/IFAS Extension Nassau County",
+      "url": "https://blogs.ifas.ufl.edu/nassauco/2017/06/13/q-large-dead-areas-leaves-birds-nest-fern-wrong/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Ferns (HGIC 1505)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-ferns/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Cats (no Asplenium nidus entry)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Dogs (no Asplenium nidus entry)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "staghorn-fern",
+    "maidenhair-fern",
+    "peace-lily",
+    "calathea"
+  ],
+  "seo": {
+    "title": "Bird's Nest Fern Care: Watering the Rosette Right (2026)",
+    "description": "Bird's nest fern care in 2026: keep the mix moist, water around the rosette not into it, and hold it at 60 to 70°F. It dies below 40°F, per NC State Extension.",
+    "h1": "Bird's nest fern care: watering, light and humidity"
+  },
+  "content": {
+    "answer": "Keep a bird's nest fern's mix continually moist, pouring water onto the soil around the rosette rather than into the central cup. Give it bright, indirect light such as a north window, temperatures of 60 to 70°F, and extra humidity in winter.",
+    "intro": "Asplenium nidus grows wild on tree trunks and branches in the rainforests of Southeast Asia, tropical Australia and the Pacific, and its whole shape is a collecting device. The broad, undivided fronds, glossy green with a dark midrib, rise in a tight funnel that catches falling leaves; NC State calls it a litter trapper, because that debris rots in the center and feeds the plant. Indoors there is no leaf litter, but the design still matters, since the newest fronds uncurl from that same tight core and are easily damaged. UF/IFAS describes it as a fairly reliable houseplant, unusually so for a fern, provided it gets indirect light and never dries out. The two classic mistakes are both about placement: direct sun, which yellows the fronds, and a watering can aimed into the nest instead of at the soil.",
+    "light": [
+      "Bright, indirect light suits it best. NC State suggests bright light or light shade such as a north-facing window, UF/IFAS EDIS recommends bright indirect light indoors, and Illinois Extension lists the bird's nest fern among plants needing at least medium light, about 150 foot-candles. Directly in front of a north window or a few feet back from an east window is about right.",
+      "Sun is the danger. UF/IFAS notes that in sunnier spots the fronds turn yellow and the plant stops growing, and NC State says the same. A west or south window is too strong unless the fern sits well back or behind a sheer curtain. Too little light is less dramatic: growth simply slows to a frond or two a season."
+    ],
+    "water": [
+      "This fern wants mix that stays moist without turning soggy. The UF/IFAS Nassau County office says it needs continually moist soil and should never go dry between waterings, Clemson says to keep the soil moist, and EDIS rates its drought tolerance as poor. Check the surface every few days and water before it dries, pouring slowly onto the mix around the edge of the pot until water runs from the drainage hole.",
+      "Aim at the soil, not the nest. New fronds unfurl from the tight center of the rosette, and a cup of water sitting there for days can rot that growing point or encourage the leaf diseases this fern is prone to. If water does collect in the center, tip the pot gently to pour it out. Bottom watering, standing the pot in a few inches of water until the surface darkens, avoids the issue completely.",
+      "Do not compensate by drowning the roots. Clemson warns that root rot in ferns usually comes from a mix that drains slowly or from watering too often, and that water should never stand in the pot. Moist and airy is the target, the way a fern perched on a branch would get frequent rain that drains straight away."
+    ],
+    "soil": [
+      "NC State recommends a rich, moist, porous soil such as a fern potting mix, and EDIS lists high organic matter and acidic, occasionally wet soil among its tolerances. Clemson's fern blend of equal parts packaged houseplant mix and peat moss or leaf mold works well. Because this is an epiphyte, a little orchid bark or perlite in the mix keeps air around the roots."
+    ],
+    "humidity": [
+      "Humidity matters more in winter than in summer. NC State says a pebble tray may be needed to give it enough moisture in the air, and Illinois Extension notes that most homes drop below 30 percent humidity in winter. The Nassau County office suggests a bright, humid bathroom as an indoor home. Leathery fronds make it more forgiving than lacy ferns, but crisp edges on rippled cultivars are a sign the air is too dry."
+    ],
+    "temperature": [
+      "NC State gives ideal temperatures of 60 to 70°F (16 to 21°C), and Clemson's range for bird's nest ferns is 55 to 70°F (13 to 21°C). The hard limit is lower: NC State and the Nassau County office both say the plant will not survive or tolerate temperatures below 40°F (4°C), and it cannot take frost. NC State also warns against direct heat and drafts, so keep it clear of radiators, heating vents and doors that open onto winter air."
+    ],
+    "fertilizer": [
+      "Feed sparingly. NC State suggests a monthly application of dilute liquid fertilizer during periods of active growth, and Clemson's guidance for ferns is about half the label rate once a month from April through September, with nothing in winter. Ferns scorch when overfed. Clemson also suggests waiting six months before feeding a newly bought or repotted fern."
+    ],
+    "repotting": [
+      "Repot in spring, when new growth begins, and only once the plant has outgrown its pot; UF/IFAS gives that timing. Choose a container one size larger, with drainage holes, and keep the base of the rosette at the same level, never buried deeper. A heavy pot helps once the fronds spread wide. Because all the fronds rise from one central crown, this is not a fern you split into pieces at repotting."
+    ],
+    "propagation": [
+      "Every frond of a bird's nest fern rises from one central crown, so division is not the usual route; new plants come from spores. They form in the brown lines arranged in a herringbone pattern under mature fronds, which NC State describes and UF/IFAS points out are not a problem. Growing ferns from spores takes patience and sterile, humid conditions, and most people buy a new plant instead."
+    ],
+    "problems": [
+      "Yellow fronds usually mean too much sun; brown, crisp edges mean dry air or a dried-out pot. Large dead patches are, according to the Nassau County office, probably fungal, and plants grown outside their preferred conditions are more prone to them. NC State lists slugs, snails, scale, mealybugs, bacterial leaf diseases and leaf nematodes, and warns that chemical insecticides damage the fronds, so remove pests by hand. UF/IFAS adds that insecticides typically harm ferns. Groom off old yellow or brown fronds occasionally."
+    ],
+    "petSafety": [
+      "The ASPCA has no entry for Asplenium nidus on either its cats or its dogs list. NC State, which flags poisonous plants with a severity rating and warning tags, gives the bird's nest fern none, and the UF/IFAS pages mention no toxicity. The ASPCA does list a close relative in the same genus, Asplenium bulbiferum, the mother fern, as non-toxic to cats and dogs. That points toward low risk, yet a relative's listing is not a rating for this species, so this page marks the bird's nest fern as not rated rather than pet safe. Call your veterinarian if a pet eats a large amount and seems unwell."
+    ],
+    "faq": [
+      {
+        "q": "Why are the new fronds of my bird's nest fern brown or deformed?",
+        "a": "The growing center has been damaged. New fronds unfurl from the tight core of the rosette, and water standing there, cold drafts or handling can injure them before they open. NC State notes the foliage is fragile and prone to bacterial leaf diseases. Water the mix rather than the nest, tip out pooled water, and keep the plant out of cold drafts."
+      },
+      {
+        "q": "Can I grow a bird's nest fern mounted on wood like a staghorn?",
+        "a": "Yes, it is an epiphyte. UF/IFAS says it can grow on trees or rocks with very little media, or be wired to a fibrous slab, and EDIS also mentions growing it epiphytically. Indoors, a mounted plant dries out much faster than a potted one and needs frequent soaking and high humidity, so most people keep it in a pot with a porous mix."
+      },
+      {
+        "q": "Is a bird's nest fern easier to keep alive than other ferns?",
+        "a": "Generally, yes. UF/IFAS calls it a fairly reliable houseplant compared with many ferns, and Clemson describes it as easy to grow. Its thick, undivided fronds handle household air better than lacy maidenhairs or Boston ferns. It still needs moist mix, no direct sun and temperatures above 55°F, so it is easy rather than indestructible."
+      },
+      {
+        "q": "What are the brown lines under my bird's nest fern fronds?",
+        "a": "Those are spores, not pests. NC State describes the sori as clusters arranged in straight black or brown lines running from the midrib toward the edge in a herringbone pattern, and the Nassau County office confirms the lines are spores from which new plants can grow. Scale insects look different: small, separate bumps that can be scraped off with a fingernail."
+      },
+      {
+        "q": "How big will a bird's nest fern get indoors?",
+        "a": "Slowly, it can become large. UF/IFAS gives a mature size of 2 to 4 feet tall and wide, and NC State records fronds up to 4 or 5 feet long in tropical conditions. In a pot indoors, growth is slow and most plants stay well below that. If you want something smaller, EDIS notes that Asplenium antiquum is a more compact species."
+      }
+    ]
+  }
+}

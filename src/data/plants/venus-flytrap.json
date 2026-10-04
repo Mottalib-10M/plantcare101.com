@@ -1,0 +1,261 @@
+{
+  "slug": "venus-flytrap",
+  "commonName": "Venus flytrap",
+  "otherNames": [
+    "Venus fly trap",
+    "Flytrap"
+  ],
+  "botanicalName": "Dionaea muscipula",
+  "formerNames": [],
+  "family": "Droseraceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [300, 1500],
+    "lux": [3229, 16146],
+    "windows": ["south", "west"],
+    "directSun": "needs",
+    "src": [0, 1, 5]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Never let the mix dry out: keep it wet with distilled water or rainwater, ideally by standing the pot in a shallow tray",
+    "winter": "During winter dormancy keep the mix moist but not wet, in a cool spot; Clemson's outdoor method needs no extra light.",
+    "factors": [
+      "NC State warns that chlorinated or hard tap water can kill the plant; use rainwater, distilled or reverse osmosis water.",
+      "Keep the crown above the water: Clemson says roots drown if submerged too long, so remove water that rises above the crowns.",
+      "Never fertilize the soil; the plant evolved in nutrient-poor bogs and is damaged by fertilizer."
+    ],
+    "src": [0, 1, 2]
+  },
+  "soil": {
+    "mix": "A nutrient-free carnivorous plant mix: whole-fiber sphagnum moss, or equal parts peat moss and coarse vermiculite, perlite or sharp sand, with no fertilizer added.",
+    "components": [
+      "sphagnum peat moss with no added fertilizer",
+      "perlite, coarse vermiculite or washed sand",
+      "or whole-fiber sphagnum moss alone"
+    ],
+    "src": [0, 1, 2]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "NC State lists high humidity; Clemson aims for moderate to high humidity with good airflow, since stagnant air causes mold.",
+    "src": [0, 1]
+  },
+  "temperature": {
+    "minF": 32,
+    "minC": 0,
+    "src": [0, 1]
+  },
+  "fertilizer": {
+    "season": "Not fed in any season: the plant takes its nutrients from the insects it catches",
+    "everyWeeks": [0, 0],
+    "strength": "quarter",
+    "type": "None. Do not fertilize; NC State and Clemson both say fertilizer damages the plant. A few insects per season supply its nutrients.",
+    "winter": "none",
+    "src": [0, 1]
+  },
+  "repotting": {
+    "signs": [
+      "Several crowns crowd the pot",
+      "Roots grow out of the drainage hole",
+      "The peat has broken down and stays soggy or smells sour"
+    ],
+    "season": "Spring, as growth resumes after dormancy",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [0, 6]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "The ASPCA and NC State list it as non-toxic for cats, dogs and horses; neither gives a rating for people, and the traps are too weak to harm a finger.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Venus Fly Trap (Dionaea muscipula)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/venus-fly-trap"
+      }
+    ],
+    "src": [4, 0]
+  },
+  "problems": [
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long, weak leaf stalks with small green traps that rarely close",
+      "causeKey": "low-light",
+      "cause": "Too little direct light, the commonest indoor failure",
+      "remedy": "Give it full sun outdoors in summer or 12 to 14 hours a day under a full-spectrum LED; traps redden in strong light."
+    },
+    {
+      "symptomKey": "white-crust",
+      "symptom": "White crust on the moss and a plant that blackens and declines",
+      "causeKey": "water-quality",
+      "cause": "Minerals and chlorine from tap water building up in the mix",
+      "remedy": "Repot into fresh carnivorous mix and water only with rainwater, distilled or reverse osmosis water."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Traps and leaves turn black soon after feeding or fertilizing",
+      "causeKey": "fertilizer-salts",
+      "cause": "Fertilizer in the mix or on the leaves",
+      "remedy": "Flush the pot with plenty of distilled water or repot into fresh peat, and let the plant catch insects instead."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Traps dry and crisp from the edges, mix feels dry",
+      "causeKey": "underwatering",
+      "cause": "Mix allowed to dry out",
+      "remedy": "Stand the pot in a tray of distilled water so the mix wicks up moisture, and keep the tray topped up."
+    },
+    {
+      "symptomKey": "slow-growth",
+      "symptom": "In fall the plant stops making new traps and older leaves die back",
+      "causeKey": "dormancy",
+      "cause": "Normal seasonal dormancy of a temperate plant",
+      "remedy": "Give it a cool rest below 45°F for at least 45 days, keep the mix moist but not wet, and trim dead leaves to prevent mold."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing or clusters of tiny insects on young traps",
+      "causeKey": "pests",
+      "cause": "Spider mites or aphids",
+      "remedy": "Rinse with distilled water and remove affected leaves; avoid chemical sprays, to which carnivorous plants are particularly sensitive."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of crowded crowns",
+      "Seed from the summer capsules"
+    ],
+    "season": "Spring, at the end of dormancy, for division; seed ripens in June and July"
+  },
+  "size": {
+    "heightIn": [6, 12],
+    "widthIn": [6, 8],
+    "note": "NC State: a low rosette of up to 8 leaves, 2 to 5 in long; the flower stalk rises 4 to 12 in in May and June.",
+    "src": [0]
+  },
+  "varieties": [
+    { "name": "Red Dragon", "note": "Turns red throughout when grown in full sun." },
+    { "name": "Dente", "note": "Guard hairs shaped like shark's teeth, deep red traps and green leaf stalks." },
+    { "name": "King Henry", "note": "Large chartreuse to yellow traps with orange-red interiors; fast-growing." },
+    { "name": "Cupped Trap", "note": "Bright red-centered traps with a more rounded, cupped shape." }
+  ],
+  "sources": [
+    {
+      "title": "Dionaea muscipula (Venus Flytrap)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/dionaea-muscipula/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Creating an Indoor Carnivorous Wetland Terrarium: A Step-by-Step Guide (HGIC 1572)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/creating-an-indoor-carnivorous-wetland-terrarium-a-step-by-step-guide/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Carnivorous Plants",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/carnivorous-plants",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Carnivorous Plants",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/carnivorous-plants/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Venus Fly Trap",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/venus-fly-trap",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["air-plant", "bromeliad", "succulents", "african-violet", "pilea"],
+  "seo": {
+    "title": "Venus Flytrap Care: Water, Sun and Dormancy (2026)",
+    "description": "Venus flytrap care in 2026: distilled or rainwater only, mix kept wet, full sun or 12 to 14 hours of light, and a winter rest below 45°F. Tray method, pets.",
+    "h1": "Venus flytrap care: water, sun and winter dormancy"
+  },
+  "content": {
+    "answer": "Venus flytraps need full sun, a mix that never dries, and only rainwater or distilled water. NC State warns that tap water and fertilizer can kill them. Each winter they need a cool dormancy; Clemson cites at least 45 days below 45°F.",
+    "intro": "Dionaea muscipula grows wild in just one place on Earth: wet, sandy pine savannas of coastal North Carolina and a small corner of northeastern South Carolina. It is a member of the sundew family, and its leaves end in hinged traps edged with bristles. When an insect brushes two of the six trigger hairs inside, NC State explains, the trap snaps shut, digestive enzymes flow, and the nutrients go to the plant. That diet is a response to its habitat. Rain-fed bogs are so poor in minerals that the plant evolved to catch its fertilizer, and it is damaged by the minerals most houseplants need. So the rules are unusual: full sun, permanently wet peat, mineral-free water, no fertilizer, and a cold winter rest. A flytrap kept on a dim windowsill and watered from the tap rarely survives its first year.",
+    "light": [
+      "Flytraps are sun plants. NC State lists full sun to partial shade in the garden, and notes that the inside of the traps turns rich red in strong sun and stays green with less. Clemson's carnivorous plant guide asks for 12 to 14 hours of direct light a day, which is more than any windowsill delivers in most of the year. A south or west window is the minimum indoors; better still, keep the pot outdoors in full sun from spring through fall.",
+      "For indoor growing, Clemson recommends a full-spectrum LED on an outlet timer, and it advises against putting a glass terrarium in a sunny window, because the glass traps heat. On the Illinois Extension scale, a flytrap needs at least bright light of 300 foot-candles and grows best near direct-sun levels. Weak light shows quickly as long, floppy leaf stalks and small traps that are slow to close."
+    ],
+    "water": [
+      "The water rule has two parts: never let the mix dry out, and never use tap water. NC State says flatly that treated, chlorinated or hard water can kill the plant, and asks for rainwater or distilled water. Clemson adds reverse osmosis water and some low-TDS filtered water as safe options. Minerals accumulate in the peat with every watering, and the plant has no defense against them.",
+      "The easiest method is the tray. Stand the pot, which must have drainage holes, in a saucer or tray holding a shallow layer of distilled water or rainwater, and let the peat wick moisture up from below. Top the tray up before it runs dry. This mimics the high water table of a bog and matches NC State's instruction not to let the soil dry out, while Clemson's terrarium design uses the same idea with a visible reservoir of water in a perlite layer under the peat. Keep the water level well below the crown: Clemson cautions that even wetland roots need oxygen and drown if submerged too long, and says to remove any water rising above the crowns.",
+      "During winter dormancy, the plant uses little water. Clemson says to keep the mix moist but not wet during that rest, so let the tray go empty for a while between fillings and check the peat with a finger."
+    ],
+    "soil": [
+      "Flytraps must grow in a mix with no nutrients. NC State recommends whole-fiber sphagnum moss or equal parts peat moss and coarse vermiculite or sharp sand; Clemson suggests half sphagnum peat and half perlite or play sand, with no fertilizer and no high iron or other nutrient levels. Penn State advises soaking and rinsing the ingredients in distilled water or rainwater before use. Never use regular potting soil, compost or anything labeled as containing plant food."
+    ],
+    "humidity": [
+      "NC State lists high humidity as one of the plant's needs, and Clemson aims for moderate to high humidity with good airflow. A plant in a tray of water already enjoys some extra humidity at leaf level. Inside a terrarium, Clemson's guidance is to cover it slightly if plants look dry, and to remove the cover and add airflow, even a small computer fan, if mold appears. Stagnant, saturated air is as harmful as dry air."
+    ],
+    "temperature": [
+      "Flytraps are temperate plants, not tropicals. NC State lists them as winter hardy in USDA Zones 7 to 10, and as growable in Zones 5 and 6 with winter protection. During the growing season normal summer warmth is fine. In winter they need cold, which is covered under dormancy below, but potted plants should not freeze solid: Clemson warns not to let a terrarium freeze and not to put plants in a freezer. Treat 32°F as the floor for a plant in a container."
+    ],
+    "fertilizer": [
+      "Do not fertilize a Venus flytrap. NC State says so directly, and Clemson explains why: rain-fed wetlands lack minerals, and fertilizing plants adapted to them can damage them. The plant gets nitrogen and other nutrients from prey. Clemson notes it only needs a few invertebrates each season; outdoors it catches its own, and indoors you can occasionally offer live or freeze-dried insects or dried bloodworms. Stick to invertebrates, the only foods Clemson lists, and make sure any wild-caught insects have not been exposed to pesticides."
+    ],
+    "repotting": [
+      "Repot when crowns crowd the pot, roots push out of the drainage hole, or the peat has broken down into a dense, sour mass. Do it in spring as the plant wakes from dormancy and starts growing, the active-growth timing the University of Illinois Extension recommends for repotting. Use fresh carnivorous mix, never reuse old peat, and plant at the same depth: Clemson cautions against burying the crown, the point where roots meet the leaves."
+    ],
+    "propagation": [
+      "NC State lists division and seed. Division is the practical route: a mature flytrap forms several crowns from its underground stem, and in spring you can tease them apart, keeping roots on each, and pot them separately in fresh mix. Seed comes from the white flowers, about 0.7 inch across on a 4 to 12 inch stalk in May and June; capsules ripen in June and July. Never dig plants from the wild: NC State notes the species is endangered and cannot be legally collected, and nursery plants are widely available."
+    ],
+    "problems": [
+      "Most flytrap deaths come from three habits: tap water, fertilizer or rich soil, and too little light. All three show as weak, blackening growth. Individual traps also blacken naturally after a few catches or after closing on something they cannot digest; Penn State notes digestion takes three to five days before a trap reopens, and constant triggering wastes the plant's energy, so do not set traps off for fun. NC State lists aphids, spider mites and black spot as the possible pests and diseases, and Clemson warns that carnivorous plants are particularly sensitive to chemical pesticides."
+    ],
+    "petSafety": [
+      "The ASPCA lists the Venus fly trap as non-toxic to dogs, cats and horses, and NC State also tags it as non-toxic for cats, dogs and horses. The traps are far too small and weak to hurt a pet's nose or tongue. The bigger danger runs the other way: a cat that chews or knocks over the pot can quickly kill the plant, and the shallow tray of water is tempting to drink from. Keep it where pets cannot reach, and if a pet eats peat mix or appears unwell, call your veterinarian."
+    ],
+    "faq": [
+      {
+        "q": "Can I water a Venus flytrap with tap water?",
+        "a": "No. NC State Extension warns that treated, chlorinated or hard water can kill the plant. Minerals build up in the peat with every watering, and the flytrap evolved in rain-fed bogs where water is almost mineral-free. Use rainwater, distilled water or reverse osmosis water. Clemson Extension adds that some filter pitchers reduce dissolved solids enough to be safe."
+      },
+      {
+        "q": "Does a Venus flytrap need a dormant period every winter?",
+        "a": "Yes. Clemson Extension explains that temperate carnivorous plants deteriorate over time without dormancy, and cites the common guideline of at least 45 days below 45°F. An unheated garage, porch or cold windowsill works, with the mix kept moist but not wet. If no cool spot exists, Clemson describes refrigerating the plant in a lidded container, never in a freezer."
+      },
+      {
+        "q": "Should I feed my Venus flytrap insects?",
+        "a": "Only occasionally. Clemson Extension says these plants need just a few insects per season, and outdoors they catch their own. Indoors, offer a live insect, a freeze-dried insect from a pet store or dried bloodworms now and then. Stick to invertebrates, never fertilizer, and avoid wild insects exposed to pesticides. A plant in poor light will not be saved by feeding."
+      },
+      {
+        "q": "Why are my Venus flytrap traps turning black?",
+        "a": "A few black traps are normal: old leaves die back as new ones grow, and Clemson says to trim dead leaves to discourage mold. Many blackening at once points to tap water, fertilizer or rich soil, or to dormancy in fall. Penn State notes digestion takes three to five days, so avoid triggering traps for fun."
+      },
+      {
+        "q": "Can a Venus flytrap grow on a windowsill?",
+        "a": "Only on a very sunny one, and even then it struggles in winter. Clemson Extension asks for 12 to 14 hours of direct light a day, and NC State notes traps stay green rather than red without strong sun. A south-facing sill plus a summer outdoors works for many growers; otherwise use a full-spectrum LED on a timer, as Clemson recommends."
+      }
+    ]
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "slug": "lavender",
+  "commonName": "Lavender",
+  "otherNames": [
+    "English lavender",
+    "Common lavender",
+    "Narrow-leaved lavender"
+  ],
+  "botanicalName": "Lavandula angustifolia",
+  "formerNames": [],
+  "family": "Lamiaceae",
+  "kind": "shrub",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [
+      300,
+      1500
+    ],
+    "lux": [
+      3229,
+      16146
+    ],
+    "windows": [
+      "south",
+      "west"
+    ],
+    "directSun": "needs",
+    "src": [
+      0,
+      4,
+      6
+    ]
+  },
+  "water": {
+    "rule": "half-dry",
+    "ruleText": "Water a potted lavender once the mix has dried about halfway down the pot, then soak it and let every drop drain away",
+    "winter": "From late fall to early spring keep the pot fairly dry, as the RHS advises for container lavender, giving only enough water to stop the stems from shriveling.",
+    "factors": [
+      "Dampness kills lavender more often than cold does, according to the University of Illinois Extension.",
+      "Small pots in summer dry out fast; the RHS says containers may need water once or twice a week in hot weather.",
+      "A pot left standing in a saucer of water starts root rot, the disease NC State links to overwatering."
+    ],
+    "src": [
+      0,
+      2,
+      3
+    ]
+  },
+  "soil": {
+    "mix": "A lean, gritty, fast-draining mix that leans neutral to alkaline; a pot with large drainage holes is mandatory.",
+    "components": [
+      "loam-based or multipurpose potting mix",
+      "coarse grit or perlite",
+      "gravel top dressing to keep the crown dry"
+    ],
+    "ph": [
+      6,
+      8
+    ],
+    "src": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "humidity": {
+    "level": "low",
+    "note": "Dry, moving air suits it; high humidity and crowding bring leaf spot and decline.",
+    "src": [
+      1,
+      3
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      55,
+      70
+    ],
+    "idealC": [
+      13,
+      21
+    ],
+    "minF": 45,
+    "minC": 7,
+    "src": [
+      2,
+      4
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring and summer only, and sparingly",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "Balanced houseplant fertilizer at the label rate, used at the long end of the interval; plants in the ground rarely need any",
+    "winter": "none",
+    "src": [
+      1,
+      2,
+      7
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots push through the drainage holes",
+      "The mix dries out within a day of a thorough watering in summer",
+      "New shoots come in smaller than last year"
+    ],
+    "season": "Spring, as new growth starts",
+    "rootType": "woody",
+    "prefersSnug": false,
+    "src": [
+      2,
+      4,
+      8
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low for people: nausea, vomiting and loss of appetite, from the linalool and linalyl acetate in leaves, stems and flowers.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Lavender (Lavandula angustifolia)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lavender",
+        "toxicPrinciples": "Linalool, linalyl acetate",
+        "clinicalSigns": "Nausea, vomiting (not in horses), inappetence"
+      }
+    ],
+    "src": [
+      0,
+      5
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Gray foliage wilts and whole stems die back from the base",
+      "causeKey": "overwatering",
+      "cause": "Root rot in mix that stayed wet, worst in cold weather",
+      "remedy": "Unpot, cut off dark mushy roots, and replant in fresh gritty mix in a clay pot; water again only when the pot feels light."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long, floppy, pale stems with wide gaps between leaves",
+      "causeKey": "low-light",
+      "cause": "A window that gives far less than full sun",
+      "remedy": "Move it to the brightest south window or put it under grow lights for 14 to 16 hours, and set it outdoors for the summer."
+    },
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Healthy leaves but no flower spikes in summer",
+      "causeKey": "low-light",
+      "cause": "Too few hours of direct sun to set buds",
+      "remedy": "Give it at least six hours of direct sun; outdoors on a sunny patio from late spring is the surest fix."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Small brown spots on the narrow leaves",
+      "causeKey": "disease",
+      "cause": "Leaf spot encouraged by humid, still air",
+      "remedy": "Space pots apart, water the mix rather than the foliage, and clip out spotted shoots."
+    },
+    {
+      "symptomKey": "slow-growth",
+      "symptom": "Bare woody base with tufts of leaves only at the tips",
+      "causeKey": "natural-aging",
+      "cause": "Old wood that no longer breaks new shoots",
+      "remedy": "Trim lightly every year after flowering and never into bare wood; replace very old plants with rooted cuttings."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Soft, lush, pale growth that flops open",
+      "causeKey": "fertilizer-salts",
+      "cause": "Too much fertilizer for a plant that wants lean soil",
+      "remedy": "Stop feeding, flush the pot with plain water, and feed no more than the low end of the label rate next season."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Softwood or semi-ripe stem cuttings",
+      "Hardwood cuttings after flowering",
+      "Seed (variable for named cultivars)"
+    ],
+    "season": "Early to midsummer for softwood cuttings; late fall for hardwood cuttings"
+  },
+  "size": {
+    "heightIn": [
+      12,
+      36
+    ],
+    "widthIn": [
+      24,
+      36
+    ],
+    "growth": "moderate",
+    "src": [
+      0,
+      1,
+      2
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Hidcote",
+      "note": "Compact mound with silver-gray foliage and deep purple flowers."
+    },
+    {
+      "name": "Munstead",
+      "note": "Compact, greener leaves and lavender-blue spikes."
+    },
+    {
+      "name": "Mini Blue",
+      "note": "Very uniform, compact plant that Illinois Extension recommends for containers."
+    },
+    {
+      "name": "Phenomenal",
+      "note": "Vigorous hybrid that tolerates heat and humidity better than most."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lavandula angustifolia (English Lavender)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/lavandula-angustifolia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lavandula angustifolia",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=281393",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow lavender",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/lavender/growing-guide",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lavender",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/herbs/lavender",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Growing Herbs Indoors",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/growing-herbs-indoors",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lavender",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lavender",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "rosemary",
+    "basil"
+  ],
+  "seo": {
+    "title": "Lavender Care in Pots: Sun, Drainage & Winter (2026)",
+    "description": "Lavender care in 2026: NC State calls for 6+ hours of direct sun and perfectly drained soil. How to keep potted lavender alive indoors and when to move it out.",
+    "h1": "Lavender care: growing it in a pot and on a sunny sill"
+  },
+  "content": {
+    "answer": "Lavender needs at least six hours of direct sun and a gritty, fast-draining mix that dries well between waterings. Indoors only a bright south window or grow lights come close, so most potted lavender does far better outside from spring to fall.",
+    "intro": "Six hours of direct sun is the line NC State Extension draws for English lavender, and that single number explains why the plant so often disappoints as a houseplant. Lavandula angustifolia is a small evergreen shrub from the dry, rocky hills of the Mediterranean, with narrow silver leaves built to shed heat and hold little water. It wants blazing light, lean soil that drains in seconds and air that moves. A living room offers the opposite: weak light through glass, still air and a pot that stays damp. The University of Illinois Extension puts it bluntly when it says dampness, more than cold, kills lavender. So be realistic. A potted lavender can live indoors through winter on the sunniest sill you have, but it flowers and thrives only when it spends the warm months outdoors in full sun, and the advice below is built around that rhythm.",
+    "light": [
+      "Outdoors in summer, sunlight measures roughly 10,000 to 12,000 foot-candles, according to the University of Illinois Extension. Directly in front of a south window, the brightest spot in most homes, that drops to about 1,500. Lavender is a full-sun plant even by outdoor standards, so a sill gives it a fraction of what it evolved with. Expect thinner, paler stems indoors and few or no flower spikes. That is not a care mistake; it is physics.",
+      "To give it the best odds inside, choose an unobstructed south window, or west as a second choice, and turn the pot every few days so all sides get light. Penn State Extension suggests a backup for herbs that need full sun: two 40-watt cool white fluorescent tubes hung 6 to 12 inches above the foliage for 14 to 16 hours a day. Modern LED grow lights do the same job. As soon as nights warm in late spring, move the pot outside. Illinois Extension suggests easing houseplants into the outdoors over one to two weeks, a few more hours each day, before giving lavender the full exposure it craves."
+    ],
+    "water": [
+      "Water deeply and then wait. Push a finger or a wooden skewer into the pot: when the top half of the mix is dry, pour water slowly over the surface until it runs freely from the drainage holes, then tip out the saucer. A pot that never fully drains is the commonest way to lose lavender, because NC State links its root rot directly to overwatering.",
+      "Summer outdoors is the thirsty season. The RHS notes that container lavender dries out quickly because the roots have only a small volume of soil to search, and in hot spells it may need water once or twice a week. Clay pots dry faster than plastic, which suits this plant, but check them more often in heat waves.",
+      "Indoors in winter, flip the habit. Growth almost stops under weak light, the mix stays wet far longer, and cold wet roots rot. The RHS advises keeping container lavender fairly dry in winter, and that applies doubly on a windowsill. Give a small drink only when the pot feels light and the top few inches are dry. Slightly limp foliage in January recovers; rotted roots do not."
+    ],
+    "soil": [
+      "Think gravel, not potting soil. NC State asks for perfectly drained soil on the dry side, and both NC State and Missouri Botanical Garden favor neutral to alkaline conditions with fairly low fertility. A peat-heavy houseplant mix holds too much water. Start with a loam-based or multipurpose mix, as the RHS suggests, and cut in a generous share of coarse grit or perlite so water drains straight through.",
+      "Use a container with large drainage holes; the RHS recommends 12 to 16 inches across for a mature plant. A layer of gravel on top, the inorganic mulch Illinois Extension recommends outdoors, keeps the crown dry and discourages fungal spots on the lower leaves."
+    ],
+    "humidity": [
+      "Low humidity is no problem for lavender. The opposite is. Missouri Botanical Garden blames humid summers for many failures, and Illinois Extension lists high humidity and poor air circulation among the causes of decline. Indoors, never group lavender tightly with tropical plants or set it on a pebble tray. A spot near a window that is opened on mild days, or a small fan on low, helps the leaves dry quickly."
+    ],
+    "temperature": [
+      "Inside, Penn State Extension recommends herb rooms run 65 to 70°F (18 to 21°C) by day and 55 to 60°F (13 to 16°C) at night, and notes that most herbs survive the mid to low 40s. Lavender fits that pattern well, and a cool, bright room is better than a warm, dim one because cool temperatures slow growth to match the poor winter light.",
+      "English lavender is the hardiest type, and the RHS says it can usually stay outdoors in winter if the soil drains freely. Roots in a pot are less insulated than roots in the ground, though, so a container plant is more vulnerable. If you overwinter outside, shelter the pot against a house wall out of the rain. Tender types such as Lavandula dentata must come in before frost."
+    ],
+    "fertilizer": [
+      "Lavender evolved in poor soil, and rich feeding makes it soft and floppy with less fragrance. The RHS says plants generally do not need feeding, and Missouri Botanical Garden prefers soil of low fertility. A pot does run out of nutrients eventually, so in spring and summer give a balanced houseplant fertilizer at the label rate at the long end of the University of Illinois Extension guideline of once every one to three months. Skip feeding entirely from fall through winter."
+    ],
+    "repotting": [
+      "Move lavender into fresh mix in spring as growth resumes, when roots show through the drainage holes or the pot dries out almost as soon as you water it. Penn State Extension sets the same trigger for potted herbs. Go up only a size or two at a time, because a big pot of wet mix around a small root ball is exactly what this plant cannot tolerate. Keep the plant at its original depth; burying the woody base invites rot."
+    ],
+    "propagation": [
+      "Cuttings are the reliable route. The RHS recommends softwood or semi-ripe cuttings from young shoots in early to midsummer, or hardwood cuttings taken in late fall from a fresh flush of growth. Strip the lower leaves from a nonflowering shoot, insert it in a gritty mix, and keep it bright but out of hot sun until roots form. Plants from cuttings match the parent exactly.",
+      "Seed is slow to germinate and, as Illinois Extension points out, many varieties do not come true, so seedlings of a named cultivar will vary."
+    ],
+    "problems": [
+      "Most lavender problems come back to water and light. A plant that wilts while the mix is wet has root rot; one that stretches toward the window with pale, widely spaced leaves is starving for sun. NC State and Missouri Botanical Garden both name leaf spot and root rot as the main diseases. Woody, bare stems are a pruning issue: the RHS advises trimming each year just after flowering, removing spent stalks and about an inch of leafy growth, but never cutting into old wood, which rarely sprouts again."
+    ],
+    "petSafety": [
+      "The ASPCA lists lavender as toxic to cats, dogs and horses. Its toxic principles are linalool and linalyl acetate, the same aromatic compounds that give the plant its scent, and a pet that chews the plant may show nausea, vomiting and loss of appetite. NC State rates the severity as low and tags it as a problem for dogs, cats and horses. Keep potted lavender out of reach of a cat that likes to nibble, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if a pet eats a significant amount."
+    ],
+    "faq": [
+      {
+        "q": "Can lavender survive all winter on an apartment windowsill?",
+        "a": "It can, if the window faces south, the room stays cool and you water sparingly. Expect it to look tired by March: thin stems, few new leaves and no flowers. That is normal under weak winter light. Trim nothing until new growth appears in spring, then harden it off outdoors once nights are mild. Plants grown indoors year round rarely bloom well."
+      },
+      {
+        "q": "Why does the lavender I bought at the grocery store die so fast indoors?",
+        "a": "Those pots are usually grown in a greenhouse at high light, packed in a peat-rich mix that stays wet, and often wrapped in foil that traps water. Indoors they get a fraction of the light and drown slowly. Remove any sleeve, repot into a gritty mix in a clay pot, and put it in the sunniest window or outside."
+      },
+      {
+        "q": "What size pot does a lavender plant need on a balcony?",
+        "a": "The RHS recommends containers about 12 to 16 inches in diameter with large drainage holes for an established lavender. Smaller pots work for a young plant but dry out very quickly in summer. Unglazed clay or terracotta is the best material, since it breathes and dries faster than plastic. Raise the pot on feet so water escapes freely."
+      },
+      {
+        "q": "Should I cut back my potted lavender in the fall?",
+        "a": "No. Illinois Extension advises against fall pruning; wait until new growth appears in spring before trimming. The main yearly cut, according to the RHS, comes in late summer right after flowering, when you remove spent stalks and about an inch of leafy growth. Never cut into bare woody stems, because lavender rarely regrows from old wood."
+      },
+      {
+        "q": "Is a tender lavender easier than English lavender as a houseplant?",
+        "a": "It tolerates warmth slightly better, but it is less hardy, and the RHS says tender types such as Lavandula dentata are best grown in containers kept frost-free over winter. That makes them convenient to bring indoors. Their light needs are just as high, though, so neither type is a true low-maintenance houseplant without a very sunny spot."
+      }
+    ]
+  }
+}

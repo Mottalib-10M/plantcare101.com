@@ -1,0 +1,321 @@
+{
+  "slug": "majesty-palm",
+  "commonName": "Majesty palm",
+  "otherNames": [
+    "Majestic palm"
+  ],
+  "botanicalName": "Ravenea rivularis",
+  "formerNames": [],
+  "family": "Arecaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "east",
+      "west",
+      "south"
+    ],
+    "directSun": "avoid",
+    "src": [
+      0,
+      1,
+      3
+    ]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Keep the mix consistently moist, never dry and never waterlogged",
+    "winter": "The palm slows in short days and the pot stays wet longer; keep the mix lightly moist rather than wet and empty the saucer every time.",
+    "factors": [
+      "NC State calls for consistent moisture: this is a riverbank palm that does not tolerate drying out.",
+      "Overwatering in a pot without drainage still causes root rot, which NC State lists among its problems.",
+      "Several plants share one nursery pot, so the root mass uses water faster than its size suggests."
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "soil": {
+    "mix": "A moisture-retentive, organic potting mix that still drains; NC State lists loam or clay soils of neutral pH in the ground.",
+    "components": [
+      "peat- or coir-based potting mix",
+      "pine bark fines",
+      "a little perlite"
+    ],
+    "ph": [
+      6,
+      8
+    ],
+    "src": [
+      0,
+      1,
+      7
+    ]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "NC State says the palm requires high humidity and that dry air brings pests; Clemson recommends a gravel tray or humidifier below 50 percent.",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      65,
+      85
+    ],
+    "idealC": [
+      18,
+      29
+    ],
+    "minF": 65,
+    "minC": 18,
+    "src": [
+      0,
+      1
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring and summer",
+    "everyWeeks": [
+      8,
+      13
+    ],
+    "strength": "full",
+    "type": "Slow-release palm fertilizer such as 12-4-12 or 8-2-12 with micronutrients (iron, manganese, zinc, boron, copper), two or three times a season",
+    "winter": "none",
+    "src": [
+      1,
+      6
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots wind around the bottom or escape the drainage hole",
+      "The mix dries out within a day of watering despite consistent care",
+      "The crowded stems push against one another and the pot rim"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": true,
+    "src": [
+      0,
+      1,
+      5
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "NC State lists no poison characteristics for this palm and notes that the palm heart is eaten by local people in Madagascar; no extension source rates it for people.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Majesty Palm (Ravenea rivularis)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/majesty-palm"
+      }
+    ],
+    "src": [
+      0,
+      2
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Fronds turning yellow from the bottom of the crown",
+      "causeKey": "low-light",
+      "cause": "Too little light, the first of several causes NC State lists alongside water extremes, dry air and nutrient shortages",
+      "remedy": "Move it to the brightest spot that gets no direct midday sun, then look at watering and feeding if yellowing continues."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and dusty, stippled leaflets",
+      "causeKey": "pests",
+      "cause": "Spider mites, encouraged by the low humidity NC State warns about",
+      "remedy": "Rinse the fronds in the shower, wipe the leaflets, and run a humidifier; repeat every week until the webbing stops."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White fluffy clusters at the base of the fronds",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Remove them with a cotton swab dipped in rubbing alcohol and recheck the hidden frond bases every few days."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Pale, scorched patches on fronds facing the window",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sunlight, which NC State says can scorch the leaves",
+      "remedy": "Pull the pot back from the glass or add a sheer curtain; cut off fronds that are mostly scorched."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Leaflet tips dry and brown, crown looks ragged",
+      "causeKey": "underwatering",
+      "cause": "Mix allowed to dry out, often together with dry air",
+      "remedy": "Water as soon as the surface loses its dampness, add humidity, and trim the dead tips along their natural shape."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Stems collapse at the soil line while the mix is wet",
+      "causeKey": "poor-drainage",
+      "cause": "Root rot in a pot that cannot drain, a risk NC State names for overwatering",
+      "remedy": "Repot into a container with a drainage hole and fresh mix, removing any soft, dark roots and dead stems."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of a multi-plant pot",
+      "Seed"
+    ],
+    "season": "Spring or early summer"
+  },
+  "size": {
+    "heightIn": [
+      60,
+      120
+    ],
+    "growth": "slow",
+    "note": "NC State gives 5 to 10 feet as a houseplant, with fronds 6 to 8 feet long; in Madagascar the palm can reach 100 feet.",
+    "src": [
+      0
+    ]
+  },
+  "varieties": [],
+  "sources": [
+    {
+      "title": "Ravenea rivularis (Majesty Palm)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/ravenea-rivularis/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Palms (HGIC 1508)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Majesty Palm",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/majesty-palm",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Ornamental Palms for South Florida (ENH21)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://edis.ifas.ufl.edu/publication/EP009",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting and Repotting (HGIC 1458)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Nutrition and Fertilization of Palms in Containers (ENH1010)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://edis.ifas.ufl.edu/publication/EP262",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Soil Mixes (HGIC 1456)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-soil-mixes/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "areca-palm",
+    "parlor-palm",
+    "bird-of-paradise",
+    "boston-fern",
+    "calathea",
+    "fiddle-leaf-fig"
+  ],
+  "seo": {
+    "title": "Majesty Palm Care: Humidity, Light and Watering (2026)",
+    "description": "Majesty palm care in 2026: NC State gives 65 to 85°F, bright indirect light, steady moisture and high humidity. Why fronds yellow, how to split a crowded pot.",
+    "h1": "Majesty palm care: humidity, light and watering"
+  },
+  "content": {
+    "answer": "Majesty palms need bright, indirect light, mix kept consistently moist, high humidity and temperatures between 65 and 85°F, according to NC State Extension. Keep them out of direct sun, which scorches the fronds, and away from cold drafts and heaters.",
+    "intro": "Ravenea rivularis grows wild along rivers and streams in a small corner of Madagascar, and its species name means just that: of the riverbanks. In that habitat it becomes a massive single-trunked tree up to 100 feet tall, now increasingly rare as forest is cleared. Indoors it is sold as a lush, inexpensive palm, and NC State Extension is frank that it may be difficult to grow there. The reason is its origin. A palm adapted to wet soil, humid air and bright filtered light meets a heated living room with dry air and a single window, and the fronds pay for it. The pot at the store usually holds three or more seedlings, since NC State notes the species is naturally solitary. Grown with steady moisture, real humidity, good light and warmth between 65 and 85°F, it can reach 5 to 10 feet indoors, slowly, with long arching fronds.",
+    "light": [
+      "Majesty palm sits between the shade-loving parlor palm and the light-hungry areca. NC State asks for bright, indirect light and warns that direct sunlight can scorch the leaves. On the Illinois Extension scale that is high light, around 300 foot-candles, roughly a spot right beside an east window or a few feet back from a south or west one. Clemson's general rule for indoor palms, filtered light near a south, east or west window, fits it well.",
+      "Light is often the hidden cause when fronds yellow. NC State lists inadequate light first among the reasons for yellow leaves, and a majesty palm placed in a dim corner to decorate the room tends to lose a frond every few weeks without replacing it. If the brightest window in the house is a south or west one, a sheer curtain lets you put the palm close enough to benefit without sunburn. In summer a shaded patio, which NC State suggests, gives it a welcome boost; bring it back before nights turn cool."
+    ],
+    "water": [
+      "This is a riverbank plant, and it should be watered like one. NC State calls for consistent moisture and notes a tolerance for occasionally wet soil in the ground, which is unusual among houseplants. Indoors, aim for mix that always feels damp an inch down, like a wrung-out sponge, never dusty and never sloppy. Water until it drains from the bottom, then empty the saucer. Clemson's guidance for palms is the same: do not let them dry out, and do not leave them standing in water.",
+      "The trap is mistaking a pot without drainage for a riverbank. Roots that sit in stagnant water lose oxygen and rot, and NC State lists root rot from overwatering as one of the palm's problems. Use a pot with a drainage hole, or double-pot with gravel in the outer container so the inner pot never sits in water. Because several seedlings share one pot, the root mass drinks quickly in summer; check every few days in warm weather.",
+      "In winter growth slows and evaporation drops, so the same amount of water lasts longer. Keep the mix lightly moist rather than wet, and keep checking by touch rather than repeating the summer pace."
+    ],
+    "soil": [
+      "In the ground NC State lists moist loam or clay of neutral pH, around 6.0 to 8.0. In a pot, heavy clay soil would compact and suffocate the roots, so translate that into a moisture-holding, organic potting mix with enough structure to drain. Clemson's mixes for foliage plants, such as equal parts peat, pine bark and perlite, work well; leaning toward more peat or coir and less perlite suits this thirsty palm. Avoid cactus mixes, which dry out far too quickly."
+    ],
+    "humidity": [
+      "NC State states plainly that the majesty palm requires high humidity, and adds that low humidity brings unwanted insect pests. In a heated home in January, humidity often drops far below what the palm wants. Clemson recommends a saucer of wet gravel or a room humidifier once humidity falls under 50 percent. A humidifier running nearby is the single most useful purchase for this plant, and grouping it with other plants helps a little more."
+    ],
+    "temperature": [
+      "NC State gives a preferred range of 65 to 85°F and warns against both cold drafts and direct heat. That means no spot beside a forced-air register, a radiator or a door that opens onto winter air. Clemson notes that most indoor palms show chilling damage below 45°F, with reddish-brown dead areas appearing days later, but this palm is already out of its comfort zone well above that, so treat 65°F as the practical floor. In USDA zones 10 and 11 it can live outdoors year-round."
+    ],
+    "fertilizer": [
+      "NC State lists nutritional deficiencies among the causes of yellow fronds. Clemson's recommendation for indoor palms is a slow-release palm fertilizer with an analysis like 12-4-12 or 8-2-12 that includes micronutrients such as iron, manganese and zinc, applied two to three times a year in spring and summer. UF/IFAS adds that nitrogen is the element potted palms most often run short of, and that iron deficiency shows on the newest fronds when old, broken-down mix starves the roots of air. Skip feeding in winter."
+    ],
+    "repotting": [
+      "Repot in spring or early summer when roots circle the bottom, emerge from the drainage hole, or the mix dries out almost as soon as you water it. Clemson's guidance for palms is that they do best with confined roots and that their root systems are fragile, so move up only 1 to 2 inches in pot width and disturb the roots as little as possible. The exception is when you want to split the seedlings apart, covered below."
+    ],
+    "propagation": [
+      "NC State recommends division, and the reason is a quirk of how the plant is sold. Although the majesty palm is a solitary palm, growers plant three or more seedlings in one pot to make it look full, and NC State points out that you can divide the cluster and give each plant its own pot. In spring, slide out the root ball, find where the separate stems meet, and gently pull or cut them apart with as many roots as possible. Pot each in moisture-holding mix and keep it humid and shaded for a few weeks. Each seedling grows into a single, fuller-looking palm with time. Seed is the commercial route but rarely practical at home."
+    ],
+    "problems": [
+      "NC State notes no serious diseases or pests, but tells growers to monitor for spider mites, aphids, whiteflies, mealybugs and scale. Clemson adds that mites are often a problem in homes because of low humidity and warm temperatures. Yellowing is the most common complaint, and NC State lists five causes: inadequate light, insufficient water, overwatering, lack of humidity and nutritional deficiencies. Check them in that order, since light and water account for most cases. Brown, scorched patches on the side facing the glass point to direct sun."
+    ],
+    "petSafety": [
+      "The ASPCA lists the majesty palm as non-toxic to cats, dogs and horses. Its toxicity for people has not been rated by the extension sources consulted; NC State lists no poison characteristics for it and records that the palm heart is eaten by local people in Madagascar. A cat that chews the long fronds may still vomit from the fiber, so keep an eye on persistent chewing, but no poisoning is expected."
+    ],
+    "faq": [
+      {
+        "q": "Why do majesty palms struggle more than other indoor palms?",
+        "a": "NC State notes that the majesty palm needs high humidity, bright indirect light and consistent moisture, and says it may be difficult to grow indoors. Most homes offer dry air and modest light, so fronds yellow and spider mites move in. Parlor palms and kentia palms tolerate lower light and humidity, which makes them easier choices for darker rooms."
+      },
+      {
+        "q": "Can I put my majesty palm outside for the summer?",
+        "a": "Yes, on a shaded patio or balcony, which NC State suggests for the warmer months. Introduce it gradually and keep it out of direct sun, which scorches the fronds. Bring the majesty palm back inside before nights drop below about 65°F, the bottom of its preferred range, and inspect it for insects before it rejoins your other plants."
+      },
+      {
+        "q": "Should I separate the plants in my majesty palm pot?",
+        "a": "You can. NC State explains that the majesty palm is naturally solitary and growers combine several seedlings in one pot for a fuller look. Dividing them in spring gives each its own roots and space, though the individual palms look sparse at first. Leave the group together if it is healthy and you prefer the fuller look."
+      },
+      {
+        "q": "Is a majesty palm the same as a kentia palm?",
+        "a": "No. The majesty palm is Ravenea rivularis from Madagascar, while the kentia palm is Howea forsteriana. Clemson describes the kentia as one of the most tolerant indoor palms, coping with relatively low light and humidity. The majesty palm needs brighter light, more humidity and steadier moisture, so it is the harder of the two."
+      }
+    ]
+  }
+}

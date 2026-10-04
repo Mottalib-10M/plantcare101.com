@@ -1,0 +1,311 @@
+{
+  "slug": "rhaphidophora-tetrasperma",
+  "commonName": "Rhaphidophora tetrasperma",
+  "otherNames": [
+    "Mini monstera",
+    "Philodendron Ginny",
+    "Ginny philodendron"
+  ],
+  "botanicalName": "Rhaphidophora tetrasperma",
+  "formerNames": [],
+  "family": "Araceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "east",
+      "west"
+    ],
+    "directSun": "morning-only",
+    "src": [
+      0,
+      3
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water when the top inch of the potting mix is dry, then let the excess drain",
+    "winter": "Growth slows in the short days and the top inch takes longer to dry; keep using the finger test instead of a summer schedule.",
+    "factors": [
+      "NC State links yellowing leaves to overwatering (or too little light) and drooping, curling leaves to lack of water.",
+      "Root rot and fungus gnats both thrive in mix that never dries at the surface.",
+      "A plant climbing a moss pole loses water from many leaves at once, so a bigger plant in a bright spot dries faster."
+    ],
+    "src": [
+      0,
+      5
+    ]
+  },
+  "soil": {
+    "mix": "A moist but well-drained potting mix high in organic matter, acid to neutral, per NC State.",
+    "components": [
+      "peat-based or coir-based potting mix",
+      "orchid bark",
+      "perlite"
+    ],
+    "src": [
+      0
+    ]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "NC State says it thrives at humidity levels of 60% and links brown margins and spots to low moisture or humidity.",
+    "src": [
+      0,
+      4
+    ]
+  },
+  "temperature": {
+    "minF": 65,
+    "minC": 18,
+    "maxF": 80,
+    "maxC": 27,
+    "src": [
+      0
+    ]
+  },
+  "fertilizer": {
+    "season": "March to September, while the vine is growing",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "Houseplant fertilizer, balanced (10-10-10) or 1:2:1 (10-20-10), at the label rate and never stronger",
+    "winter": "none",
+    "src": [
+      4
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow out of the drainage hole or across the surface",
+      "The plant wilts between normal waterings",
+      "The vine has outgrown its pole and the pot is top-heavy"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [
+      7
+    ]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates the poison severity as low: calcium oxalate crystals in every part cause mouth irritation, drooling and difficulty swallowing if eaten, and the sap irritates skin.",
+    "aspcaListed": false,
+    "aspca": [],
+    "src": [
+      0,
+      1,
+      2,
+      8
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Older leaves turn yellow while the mix stays damp",
+      "causeKey": "overwatering",
+      "cause": "Soggy mix around the roots, the first cause NC State gives",
+      "remedy": "Let the top inch dry before each watering, empty the saucer and check the roots for rot if yellowing continues."
+    },
+    {
+      "symptomKey": "curling-leaves",
+      "symptom": "Leaves droop and curl inward",
+      "causeKey": "underwatering",
+      "cause": "Mix left dry too long",
+      "remedy": "Water thoroughly until it drains, then go back to checking the top inch more often."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Brown leaf margins and dry brown spots",
+      "causeKey": "low-humidity",
+      "cause": "Dry air or uneven moisture, as NC State notes",
+      "remedy": "Raise humidity toward the 60% NC State mentions with a humidifier or grouped plants, and water more evenly."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Bleached or burned patches on leaves facing the window",
+      "causeKey": "too-much-sun",
+      "cause": "Too much direct sun",
+      "remedy": "Limit it to gentle morning sun or move it a few feet back from a bright window."
+    },
+    {
+      "symptomKey": "small-flies",
+      "symptom": "Tiny dark flies hovering around the pot",
+      "causeKey": "pests",
+      "cause": "Fungus gnats breeding in constantly wet mix",
+      "remedy": "Let the surface dry between waterings and use yellow sticky traps until the adults disappear."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale stippling on leaves",
+      "causeKey": "pests",
+      "cause": "Spider mites, listed by NC State with scale",
+      "remedy": "Rinse the foliage, isolate the plant and treat with insecticidal soap until the mites are gone."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings with a node and aerial root"
+    ],
+    "season": "Spring to summer"
+  },
+  "size": {
+    "heightIn": [
+      24,
+      180
+    ],
+    "widthIn": [
+      12,
+      48
+    ],
+    "growth": "fast",
+    "src": [
+      0
+    ]
+  },
+  "varieties": [
+    {
+      "name": "'Variegata'",
+      "note": "Small, variegated plant with deeply serrated leaves, listed by NC State."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Rhaphidophora tetrasperma (Mini Monstera)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/rhaphidophora-tetrasperma/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Cats (no Rhaphidophora entry)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Dogs (no Rhaphidophora entry)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Philodendron, Pothos & Monstera (HGIC 1509)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/philodendron-pothos-monstera/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "monstera-adansonii",
+    "monstera",
+    "philodendron",
+    "pothos"
+  ],
+  "seo": {
+    "title": "Rhaphidophora Tetrasperma Care: Mini Monstera Guide (2026)",
+    "description": "Rhaphidophora tetrasperma care for 2026: water when the top inch is dry, keep it at 65 to 80°F and near 60% humidity (NC State). Light, climbing, pet risk.",
+    "h1": "Rhaphidophora tetrasperma care: the mini monstera"
+  },
+  "content": {
+    "answer": "Rhaphidophora tetrasperma wants bright, indirect light, water once the top inch of mix is dry, temperatures between 65 and 80°F, and humidity around 60%. Give it a moss pole or trellis; it climbs fast and is toxic to pets.",
+    "intro": "Rhaphidophora tetrasperma is sold as mini monstera or Philodendron Ginny, and it is neither. NC State Extension, the only US extension service with a dedicated page for it, explains that it belongs to a third genus in the same arum family, native to the wet tropics of peninsular Thailand and Malaysia. The nickname comes from its leaves, which look like a small Monstera deliciosa and split into fenestrations at a younger age. It is an epiphytic climber: slender green stems grip bark with aerial roots and race upward, reaching 2 to 15 feet on a support. Care is not complicated, but the published guidance is thin. NC State gives the numbers used here, water when the top inch is dry, 65 to 80°F, humidity of 60%, bright indirect light, and for everything else this page falls back on general houseplant rules from the University of Illinois Extension and says so.",
+    "light": [
+      "NC State recommends bright, indirect light and says the plant may tolerate a small amount of direct sun, but that too much bright sun burns the leaves. In a home that means a spot near an east window, where it gets a little soft morning sun, or a little back from a west window. On the University of Illinois Extension scale, aim for the high-light range of about 300 foot-candles; medium light, around 150, keeps it alive but slows it down.",
+      "Light shows in the leaves. NC State notes that yellowing can come from inadequate light as well as from overwatering, and in dim rooms the new leaves tend to stay smaller, with fewer splits. If a plant on a shelf keeps producing long stems with sparse, solid leaves, move it closer to the glass before blaming the watering."
+    ],
+    "water": [
+      "NC State's rule is simple: water when the top inch of the potting mix is dry. Push a finger in to the first knuckle; if it feels dry, water slowly until water runs from the drainage hole, then empty the saucer. The University of Illinois Extension suggests room-temperature water and adds that a schedule rarely works, because light, warmth, pot size and mix all change how fast the plant drinks.",
+      "The leaves tell you which way you have gone wrong. Drooping or curling means it has dried out, according to NC State, and a thorough soak usually fixes it within hours. Yellowing leaves point to overwatering or poor light, and root rot is one of the diseases NC State lists. Fungus gnats, also on its list, are a further sign the surface stays wet too long.",
+      "Expect it to drink more as it grows. A young plant in a small pot may go a while between waterings, while a mature vine covering a moss pole in a bright window loses water from dozens of leaves. In winter, growth slows and the top inch takes longer to dry, so keep testing rather than counting."
+    ],
+    "soil": [
+      "NC State asks for a moist, well-drained potting mix with high organic matter and an acid to neutral reaction. Since the roots evolved to cling to bark rather than sit in dense soil, many growers open up a standard potting mix with orchid bark and perlite; the goal is a mix that holds some moisture but lets air reach the roots. Use a pot with a drainage hole."
+    ],
+    "humidity": [
+      "NC State says the plant thrives at humidity levels of 60% and links brown margins and spots to a lack of moisture or humidity. That is well above a heated home in winter, which the University of Illinois Extension puts under 30 percent. A humidifier nearby is the most reliable fix; grouping plants or a pebble tray with the pot above the water line helps a little. A bright bathroom works well if the light is good."
+    ],
+    "temperature": [
+      "NC State says Rhaphidophora tetrasperma tolerates temperatures of 65 to 80°F (18 to 27°C) and should be kept out of drafts. That is a narrower range than many tropical houseplants are given, so keep it well away from winter windows, exterior doors and air conditioner vents. None of the sources gives a lower survival limit, so treat 65°F as the floor."
+    ],
+    "fertilizer": [
+      "No extension source gives a feeding rate specifically for this plant, so the University of Illinois Extension's general houseplant rule applies: no more than once every one to three months between March and September, with a balanced or 1:2:1 fertilizer at the label rate, never stronger. A fast vine in good light can take the shorter interval. Skip winter, when growth slows and salts build up."
+    ],
+    "repotting": [
+      "Repot in spring or early summer, the timing the University of Illinois Extension recommends for actively growing plants, when roots emerge from the drainage hole, mat across the surface, or the plant wilts between normal waterings. Move up only one pot size, keep the planting depth the same, and fit the moss pole or trellis at the same time; NC State suggests a trellis, totem or moss pole for support."
+    ],
+    "propagation": [
+      "NC State recommends stem cuttings. Each cutting needs a node, the point where a leaf and usually an aerial root emerge; a piece with two or three nodes, following the University of Illinois Extension guideline of two to six nodes per cutting, roots more reliably. Root it in water or in damp mix under a clear cover in bright, indirect light, and pot it up once the roots are about an inch long. Spring and summer give the fastest results."
+    ],
+    "problems": [
+      "NC State gives a compact list: spider mites, fungus gnats and scale as pests; bacterial leaf spot and fungal root rot as diseases; yellowing from overwatering or poor light; drooping or curling from thirst; brown margins and spots from low moisture or humidity; and leaf burn from too much sun. Nearly everything traces back to water, light or air. Check leaf undersides for mites when the air is dry, and let the surface of the mix dry to keep gnats away."
+    ],
+    "petSafety": [
+      "The ASPCA has no entry for Rhaphidophora on either its cats or its dogs plant list, so the information here comes from NC State, which flags the plant as a problem for cats, dogs and children. Every part contains calcium oxalate crystals; chewing causes mouth irritation, excessive drooling, difficulty swallowing and stomach irritation, and difficulty breathing is also listed. The sap can irritate skin, so NC State suggests gloves when pruning. Clemson notes the same crystals in its arum relatives, pothos and monstera. Keep it out of reach of pets and call your veterinarian if one chews it."
+    ],
+    "faq": [
+      {
+        "q": "Is Rhaphidophora tetrasperma a real monstera?",
+        "a": "No. NC State explains that the plant sold as mini monstera is neither a monstera nor a philodendron, although all three belong to the arum family. The name comes from its leaves, which resemble a small Monstera deliciosa and split at a younger age. It is native to peninsular Thailand and Malaysia, not the Americas where true monsteras grow."
+      },
+      {
+        "q": "Why is my mini monstera Rhaphidophora not splitting its leaves?",
+        "a": "Young leaves are often solid, and low light keeps them small. NC State notes that some leaf blades have fenestrations and split tips, appearing earlier than on Monstera deliciosa, but not every leaf does. Give the plant bright, indirect light and a moss pole or trellis to climb; as stems mature and climb, new leaves usually show more splits."
+      },
+      {
+        "q": "How fast does Rhaphidophora tetrasperma grow indoors?",
+        "a": "Quickly. NC State rates the growth rate as rapid and gives a size of 2 to 15 feet tall and 1 to 4 feet wide, depending on support. Growth is fastest in bright, indirect light and steady warmth during spring and summer. Without a pole it sprawls and trails, so many growers train it up a trellis or totem early."
+      },
+      {
+        "q": "Can I grow Rhaphidophora tetrasperma in a hanging basket?",
+        "a": "Yes. NC State describes it as easy to grow in a hanging basket with the vines trailing over the edge, or on a shelf or tabletop. Trailing stems tend to produce smaller leaves than stems climbing a support, because the aerial roots have nothing to grip. Keep the basket out of reach of pets, since the plant is toxic if chewed."
+      }
+    ]
+  }
+}

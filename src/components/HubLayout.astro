@@ -19,7 +19,7 @@ const jsonLd = [webPageSchema({ name: h1, description, path, lang }), itemList, 
 <PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} faqs={faqs} related={related} sources={sources} breadcrumbs={[{ label: label(id) }]}>
   <header class="mb-4"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">{h1}</h1></header>
   <p class="text-lg leading-relaxed text-navy-800">{answer}</p>
+  <div class="mt-4 text-navy-800"><Clamp id={`intro-${id}`} text={intro} class="text-base leading-relaxed" /></div>
   <div data-chrome class="mt-6"><slot name="tool" /></div>
-  <div class="mt-8 text-navy-800"><Clamp id={`intro-${id}`} text={intro} class="text-base leading-relaxed" /></div>
   <article class="prose prose-slate mt-6 max-w-none"><slot /></article>
 </PageLayout>

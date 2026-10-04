@@ -1,0 +1,271 @@
+{
+  "slug": "air-plant",
+  "commonName": "Air plant",
+  "otherNames": [
+    "Air plants",
+    "Tillandsia",
+    "Sky plant",
+    "Spanish moss (T. usneoides)"
+  ],
+  "botanicalName": "Tillandsia spp.",
+  "formerNames": [],
+  "family": "Bromeliaceae",
+  "kind": "foliage",
+  "isGroup": true,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [150, 300],
+    "lux": [1615, 3229],
+    "windows": ["east", "south", "west"],
+    "directSun": "avoid",
+    "src": [0, 1, 2, 4, 5, 6]
+  },
+  "water": {
+    "rule": "fully-dry",
+    "ruleText": "Soak or drench the whole plant, shake it out, and let it dry completely before the next watering",
+    "winter": "Water less often in cool, humid conditions, and not at all when the room drops to 54°F (12°C), when the RHS warns the plant stays wet too long.",
+    "factors": [
+      "Turn the plant upside down after watering so no water sits in the crown, the classic cause of rot.",
+      "The RHS advises rainwater over hard tap water, whose minerals can block the absorbent leaf scales.",
+      "Misting between soaks helps in warm weather but, according to the RHS, never replaces immersion.",
+      "Silver, stiff-leaved species need less water and more light than soft green ones."
+    ],
+    "src": [0, 1, 2, 4, 5]
+  },
+  "soil": {
+    "mix": "No soil. Mount the plant on wood, cork, shells or stone, or set it in a dish or glass globe; whatever holds it must not hold water.",
+    "components": [
+      "driftwood, cork or bark mount",
+      "shallow dish of dry pebbles",
+      "open glass globe with good airflow"
+    ],
+    "src": [0, 1, 2, 4]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "NC State says Tillandsia ionantha requires high humidity; the RHS stresses that airflow matters just as much, so the plant dries between waterings.",
+    "src": [3, 4, 5]
+  },
+  "temperature": {
+    "minF": 54,
+    "minC": 12,
+    "maxF": 86,
+    "maxC": 30,
+    "src": [4]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, during active growth",
+    "everyWeeks": [4, 4],
+    "strength": "quarter",
+    "type": "Liquid bromeliad or orchid fertilizer diluted to one quarter of the label rate, added to the soaking water",
+    "winter": "reduced",
+    "src": [0, 3, 4]
+  },
+  "repotting": {
+    "signs": [
+      "Pups have reached about a third the size of the parent",
+      "The clump has outgrown its mount or globe",
+      "The mount stays damp after watering"
+    ],
+    "season": "Spring to summer, while the plant is actively growing",
+    "rootType": "epiphytic",
+    "prefersSnug": true,
+    "src": [0, 4]
+  },
+  "toxicity": {
+    "cats": "varies",
+    "dogs": "varies",
+    "humans": "unknown",
+    "humanNote": "None of the sources reviewed here (ASPCA, NC State, Clemson, UF/IFAS, RHS) gives a toxicity rating for Tillandsia.",
+    "aspcaListed": false,
+    "aspca": [],
+    "src": [7, 8, 2, 3]
+  },
+  "problems": [
+    {
+      "symptomKey": "curling-leaves",
+      "symptom": "Leaves curl or roll inward and look dull",
+      "causeKey": "underwatering",
+      "cause": "Dehydration from infrequent watering, heat or dry air",
+      "remedy": "Soak the whole plant for 20 to 30 minutes, or overnight if badly dried, then shake it out and water more often."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Leaf tips turn brown and crisp",
+      "causeKey": "low-humidity",
+      "cause": "Too little moisture between waterings in a dry room",
+      "remedy": "Soak more regularly, mist between soaks in warm weather, and move it to a brighter kitchen or bathroom."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Center turns brown or black and leaves fall out of the base",
+      "causeKey": "overwatering",
+      "cause": "Water trapped in the crown with poor air circulation",
+      "remedy": "Always dry the plant upside down after watering, improve airflow, and remove any rotted leaves; a badly rotted core cannot be saved."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Leaves bleached or scorched brown on one side",
+      "causeKey": "too-much-sun",
+      "cause": "Overheating in direct sun, especially behind glass or inside a globe",
+      "remedy": "Move it out of direct sun to bright, filtered light, such as behind a sheer curtain."
+    },
+    {
+      "symptomKey": "white-crust",
+      "symptom": "White mineral film on the leaves and a plant that dehydrates despite watering",
+      "causeKey": "water-quality",
+      "cause": "Hard tap water leaving deposits that block the leaf scales",
+      "remedy": "Switch to rainwater or distilled water for soaking."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony clusters deep between the leaves",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Remove them with a soft brush or swab dipped in rubbing alcohol, then rinse and dry the plant upside down."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Pups (offsets) detached from the parent",
+      "Seed (very slow)"
+    ],
+    "season": "Whenever pups reach about a third of the parent's size, usually spring or summer"
+  },
+  "size": {
+    "heightIn": [6, 12],
+    "note": "Sizes vary by species: NC State gives 6 to 12 in for T. ionantha; for T. xerographica the RHS gives 8 to 9 in while NC State gives 1 to 3 ft.",
+    "src": [3, 2, 4]
+  },
+  "varieties": [
+    { "name": "Tillandsia ionantha", "note": "Small, popular species whose inner leaves blush red before it flowers violet." },
+    { "name": "Tillandsia xerographica", "note": "Medium to large silvery rosette that turns blush-pink in bright light." },
+    { "name": "Tillandsia caput-medusae", "note": "Twisting silver leaves from a swollen, bulb-like base; easy to grow." },
+    { "name": "Tillandsia usneoides (Spanish moss)", "note": "Hanging strands with tiny fragrant flowers; native to the southern US." },
+    { "name": "Tillandsia cyanea", "note": "Green-leaved species with a pink quill and purple flowers; grown in moist soil, unlike most air plants." }
+  ],
+  "sources": [
+    {
+      "title": "Air Plants (HGIC 1515)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/air-plants/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Air Plant: Tillandsia",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/air-plants/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Tillandsia (Air Plants)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/tillandsia/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Tillandsia ionantha (Air Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/tillandsia-ionantha/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Air plants",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/air-plants",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Bromeliads (HGIC 1501)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/bromeliads/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Cats (no Tillandsia or air plant entry)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Toxic and Non-Toxic Plant List: Dogs (no Tillandsia or air plant entry)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/dogs-plant-list",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["bromeliad", "orchid", "succulents", "string-of-pearls", "hoya"],
+  "seo": {
+    "title": "Air Plant Care: Soaking, Light and Drying Guide (2026)",
+    "description": "Air plant care in 2026: soak the whole Tillandsia, dry it upside down, give bright filtered light and keep it above 54°F. Calculator, rot fixes, pet notes.",
+    "h1": "Air plant care: soaking, light and drying"
+  },
+  "content": {
+    "answer": "Air plants grow without soil. Soak or drench the whole plant, shake it, let it dry upside down within a few hours, and give bright, filtered light. Clemson suggests a 20 to 30 minute soak weekly; the RHS keeps them above 54°F.",
+    "intro": "Tillandsia is the largest genus of the bromeliad family, with more than 500 species from the southern United States to South America, and most of them grow on tree bark, rocks or even power lines instead of in soil. Their roots are only holdfasts. Water and nutrients enter through the leaves, which are covered in tiny shield-shaped scales, the trichomes that give many species their silvery, frosted look; NC State explains that the roots cannot absorb enough water to supply the plant. That is why air plants are watered by soaking or drenching the whole plant rather than by wetting a pot, and why they must dry quickly afterward. The care is simple but not hands-off: a Tillandsia left on a shelf with an occasional misting slowly dehydrates, and one left wet in its crown rots from the center.",
+    "light": [
+      "Air plants want bright light, but the sources disagree on how much sun. Clemson asks for bright, filtered light from an east, south or west exposure and says not to place them in direct sunlight; UF/IFAS and the RHS agree, the RHS suggesting a south-facing window behind a net curtain. NC State takes a bolder view: most species tolerate full sun in nature, so the sunniest window is not too much, and flowering demands high light. The reconciling detail is heat. Behind glass or inside a closed globe, direct sun overheats the plant, and the RHS lists scorched, bleached leaves as the result.",
+      "So start in bright, filtered light, about 150 to 300 foot-candles on the Illinois Extension scale, and match the plant to its leaves. Clemson notes that hard, silver-gray species handle the brightest spots, while soft, green-leaved Tillandsia prefer less light and more moisture. NC State adds that LED grow lights can make up for a dim room."
+    ],
+    "water": [
+      "Watering advice varies more for air plants than for almost any other houseplant, so it helps to see the range. Clemson's air plant sheet says to water once a week, either by misting well or by submerging the plant for 20 to 30 minutes. Its bromeliad sheet suggests misting every two to three days, or a half-hour soak every week to 10 days. UF/IFAS describes a weekly misting heavy enough that water runs off. The RHS, writing for brighter conditions, immerses plants in rainwater two to three times a week from spring until autumn, while NC State asks for at least one thorough watering a week.",
+      "What every source agrees on is drying. After a soak, shake the plant gently and turn it upside down so water drains from the crown; Clemson calls this important to prevent rot, and the RHS says plants should even be mounted facing downward. Good air circulation lets the leaves dry within a few hours. The RHS also warns that Tillandsia will not tolerate being kept continuously wet. A soak followed by a full dry-off is the cycle; how often you repeat it depends on heat, light and dryness of the air.",
+      "Watch the leaves for feedback. Clemson and UF/IFAS both say curled or rolled leaves signal dehydration, along with dull color and brown tips. In winter, the RHS advises watering less often in cool, humid conditions and not at all if the room falls to 54°F, because the plant then stays wet too long. Use rainwater where tap water is hard."
+    ],
+    "soil": [
+      "There is no soil to choose. Air plants are displayed on bark, cork, driftwood, shells or rocks, laid on dry pebbles in a shallow dish, or hung in glass globes. UF/IFAS suggests fixing them with wire or an adhesive, letting hot glue cool slightly first, and both Clemson and UF/IFAS insist that the mount must not hold water. Avoid moss packed around the base, which stays wet against the plant. Glass globes look good but trap moisture, so take the plant out to soak and let it dry fully before returning it."
+    ],
+    "humidity": [
+      "NC State notes that Tillandsia ionantha requires high humidity, with the leaf scales capturing some moisture from the air, and Clemson's bromeliad sheet suggests a kitchen or bathroom window, where steam from dishes and showers helps. The RHS adds the counterweight: air plants evolved in places with superior airflow, and a well-ventilated position is very important. Humid air with moving air around the plant is the target; stagnant humidity in a closed container leads to rot."
+    ],
+    "temperature": [
+      "The RHS gives the clearest figures: air plants do best when the temperature does not fall below 54°F (12°C), and they tolerate a maximum of about 86°F (30°C) if humidity is high. Normal room temperatures are ideal. They can spend summer outdoors in light shade, as NC State and the RHS both suggest, but bring them in before nights cool in early autumn. Keep them away from heaters, which dry them out within days."
+    ],
+    "fertilizer": [
+      "Feeding is optional. Clemson says fertilization is not necessary but makes plants more vigorous, and recommends a liquid bromeliad fertilizer once a month at one quarter of the recommended rate, added to the normal watering. NC State suggests half strength or less during the growing season, and the RHS sometimes soaks plants overnight in summer with orchid fertilizer added. Use the weaker dilution and feed only in spring and summer."
+    ],
+    "repotting": [
+      "There is nothing to repot, but plants do outgrow their displays. When pups form a clump too big for the mount or globe, move the clump to a larger support or divide it. The RHS advises waiting until pups reach about a third of the size of the mother plant before detaching them. Check the mount at the same time: Clemson warns that any material that holds water will rot the base."
+    ],
+    "propagation": [
+      "Most Tillandsia are monocarpic: the RHS explains that each rosette grows to maturity, flowers, sets seed and dies, but produces offsets from its base first. Flowering is a sign of good care, often with leaves flushing red beforehand, and UF/IFAS notes indoor blooms appear in late winter or midsummer and last days to months. Detach pups once they reach about a third of the parent's size, or leave them to form a clump. Seed is possible but, as NC State puts it, a very slow process."
+    ],
+    "problems": [
+      "Air plants fail in two opposite ways. Dehydration shows as curled, rolled, dull leaves with brown tips and is the common result of misting alone; an overnight soak can revive a dried plant, according to the RHS. Rot shows as a brown or black center, with leaves falling out of the base, and comes from water trapped in the crown without enough airflow. The RHS also lists bleaching from overheating in sun and gradual dehydration from long use of hard water. NC State names mealybug and scale as the usual pests."
+    ],
+    "petSafety": [
+      "The ASPCA has no entry for Tillandsia or air plants on either its cats or its dogs list, and none of the extension sources we reviewed rates them as toxic or non-toxic. The ASPCA does list several other bromeliads as non-toxic, including Neoregelia, Guzmania and Cryptanthus, but that is not a rating for Tillandsia itself, so we mark its status as unconfirmed rather than safe. The practical risk is a cat batting a light air plant off a shelf and chewing it, which also destroys the plant. Display air plants out of reach, and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if a pet eats one and seems unwell."
+    ],
+    "faq": [
+      {
+        "q": "Is misting enough to keep an air plant alive?",
+        "a": "Usually not on its own. Clemson Extension accepts a heavy weekly misting, but the RHS says misting between soaks does not provide enough moisture to replace immersion. Most indoor air plants that slowly shrivel are mist-only plants. Soak the whole plant in room-temperature water, shake it, dry it upside down, and use misting as a top-up in warm weather."
+      },
+      {
+        "q": "How long should I soak my air plant?",
+        "a": "Clemson Extension suggests 20 to 30 minutes in its air plant fact sheet and about half an hour in its bromeliad sheet. A badly dehydrated plant can be left overnight, according to the RHS, which also feeds plants this way in summer. Do not leave it longer or repeat daily; Tillandsia will not tolerate staying wet, and it must dry within a few hours."
+      },
+      {
+        "q": "Why is my air plant turning brown or black in the middle?",
+        "a": "That is crown rot. Water collected between the leaves at the center and stayed there, usually because the plant was not turned upside down after watering or sits in a closed globe without airflow. The RHS lists rot from water in the crown as a main problem. Remove soft leaves, dry the plant thoroughly and improve air circulation; a mushy core rarely recovers."
+      },
+      {
+        "q": "Does my air plant die after it flowers?",
+        "a": "Slowly, yes. The RHS explains that most Tillandsia are monocarpic: each rosette flowers once and then declines, but not before producing pups from its base. UF/IFAS confirms the mother plant slowly dies after blooming while new plants sprout from it. Keep caring for it normally and detach the pups once they reach about a third of the parent's size."
+      },
+      {
+        "q": "Can I keep an air plant in a closed glass globe?",
+        "a": "Only if it gets out regularly. Globes are popular displays, and Clemson Extension shows them, but the RHS stresses that air plants need excellent airflow to dry between waterings. A closed or narrow globe traps moisture and heat. Choose an open globe, keep it out of direct sun, and take the plant out to soak and dry fully before putting it back."
+      }
+    ]
+  }
+}

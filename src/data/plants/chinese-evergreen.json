@@ -1,0 +1,311 @@
+{
+  "slug": "chinese-evergreen",
+  "commonName": "Chinese evergreen",
+  "otherNames": [
+    "Aglaonema",
+    "Philippine evergreen",
+    "Golden evergreen"
+  ],
+  "botanicalName": "Aglaonema spp.",
+  "formerNames": [],
+  "family": "Araceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "low",
+    "idealLevel": "medium",
+    "maxLevel": "high",
+    "fc": [75, 300],
+    "lux": [807, 3229],
+    "windows": ["north", "east", "west"],
+    "directSun": "avoid",
+    "src": [0, 1, 2, 4, 7, 8]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Keep the mix evenly moist but never soggy, watering when the top inch feels dry",
+    "winter": "NC State notes it needs no winter dormancy but prefers less water in winter, when the mix dries more slowly.",
+    "factors": [
+      "Use water at room temperature: NC State warns against cold water for this chill-sensitive plant.",
+      "Low water needs for its size; UF/IFAS links overwatering to root rot and yellow leaves.",
+      "Clemson allows the top 1 to 2 inches to dry; test with two fingers pushed about 2 inches into the pot."
+    ],
+    "src": [0, 1, 6, 7]
+  },
+  "soil": {
+    "mix": "A standard soilless potting mix with extra humus (Clemson); growers use peat, pine bark, vermiculite or perlite with 10 to 20 percent air space.",
+    "components": [
+      "soilless houseplant mix",
+      "humus or compost",
+      "perlite or vermiculite"
+    ],
+    "src": [0, 1, 2, 4, 7]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Clemson says it tolerates low humidity but prefers moderate levels; UF/IFAS counts low humidity tolerance among its strengths.",
+    "src": [0, 1, 5]
+  },
+  "temperature": {
+    "idealF": [68, 77],
+    "idealC": [20, 25],
+    "minF": 55,
+    "minC": 13,
+    "src": [1, 4, 5, 6]
+  },
+  "fertilizer": {
+    "season": "March to September, while it is growing",
+    "everyWeeks": [4, 4],
+    "strength": "quarter",
+    "type": "20-20-20 water-soluble fertilizer diluted to about 50 ppm nitrogen (UF/IFAS interior rate), with micronutrients",
+    "winter": "none",
+    "src": [4, 10]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage holes",
+      "The plant wilts between normal waterings",
+      "Suckers crowd the pot edge"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [6, 9]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State and UF/IFAS rate the toxicity as low: the calcium oxalate crystals irritate the mouth if chewed, and the sap can cause a rash.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Chinese Evergreen (Aglaonema modestum)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/chinese-evergreen",
+        "toxicPrinciples": "Insoluble calcium oxalates",
+        "clinicalSigns": "Oral irritation, pain and swelling of mouth, tongue and lips, excessive drooling, vomiting (not horses), difficulty swallowing"
+      }
+    ],
+    "src": [0, 3, 7]
+  },
+  "problems": [
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Dark, greasy patches between the midrib and leaf edge on older leaves",
+      "causeKey": "cold",
+      "cause": "Chilling injury after exposure below about 55°F (13°C)",
+      "remedy": "Move the plant somewhere warmer, away from cold glass and drafts; remove leaves more than half damaged."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Lower leaves yellow while the mix stays wet",
+      "causeKey": "overwatering",
+      "cause": "Root rot from watering too often or from poor drainage",
+      "remedy": "Let the top inch dry before watering, empty the saucer, and repot into fresh mix if roots are brown and soft."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Leaves washed out and held stiffly upright",
+      "causeKey": "too-much-sun",
+      "cause": "Light at the top of its range or direct sun",
+      "remedy": "Move it back from the window; leaves return to their normal angle in suitable light, though badly bleached ones may not recover."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Leaf tips and margins turn brown",
+      "causeKey": "fertilizer-salts",
+      "cause": "Overfeeding indoors builds salts in the mix",
+      "remedy": "Flush the pot with plain water and feed only a dilute solution once a month in the growing season."
+    },
+    {
+      "symptomKey": "curling-leaves",
+      "symptom": "New leaf emerges bent like a fishhook",
+      "causeKey": "drafts",
+      "cause": "Fluctuating light, water or temperature",
+      "remedy": "Keep conditions steady: a fixed spot away from vents, regular watering and no sudden moves."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony clusters where leaves meet the stem",
+      "causeKey": "pests",
+      "cause": "Mealybugs",
+      "remedy": "Dab colonies with rubbing alcohol on a cotton swab and treat with insecticidal soap until no new clusters appear."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of basal shoots (suckers)",
+      "Stem and tip cuttings",
+      "Air layering"
+    ],
+    "season": "Spring to summer"
+  },
+  "size": {
+    "heightIn": [12, 36],
+    "widthIn": [12, 36],
+    "growth": "moderate",
+    "note": "NC State gives 1 foot to 1 foot 8 inches tall; Clemson and UF/IFAS give 1 to 3 feet tall and wide, depending on cultivar.",
+    "src": [0, 1, 6]
+  },
+  "varieties": [
+    {
+      "name": "Silver Queen",
+      "note": "Silver-gray leaves with green margins; one of the most chill-sensitive, injured at 55°F in UF/IFAS trials."
+    },
+    {
+      "name": "Emerald Bay",
+      "note": "A UF/IFAS introduction with silvery-green leaves and darker dapples along the margins."
+    },
+    {
+      "name": "Maria",
+      "note": "Dark green leaves with silver stripes, known for shade tolerance."
+    },
+    {
+      "name": "Siam Aurora",
+      "note": "Green leaves with deep crimson veins and edges; colored types need brighter indirect light."
+    },
+    {
+      "name": "Red Anjamani",
+      "note": "Bright red, lance-shaped leaves with thin green edges."
+    },
+    {
+      "name": "Jewel of India",
+      "note": "Among the most chill-resistant cultivars, uninjured after 24 hours at 35°F."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aglaonema (Chinese Evergreen)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/aglaonema/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Chinese Evergreen (Aglaonema): Care, Cultivation and Growing Guide",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/chinese-evergreen-aglaonema-care-cultivation-growing-guide/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Chinese Evergreen",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/chinese-evergreen",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Chinese Evergreen",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/chinese-evergreen",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cultural Guidelines for Commercial Production of Interiorscape Aglaonema (EP160)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://ask.ifas.ufl.edu/publication/EP160",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Chilling Injury in Tropical Foliage Plants: II. Aglaonema (EP103)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://ask.ifas.ufl.edu/publication/EP103",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Aglaonema",
+      "publisher": "UF/IFAS Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/aglaonema/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Aglaonema spp.: Chinese Evergreen, Aglaonema (FP025)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://ask.ifas.ufl.edu/publication/FP025",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Lighting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplants: Care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["dieffenbachia", "zz-plant", "snake-plant", "pothos", "cast-iron-plant"],
+  "seo": {
+    "title": "Chinese Evergreen Care: Low Light, Water, Cold (2026)",
+    "description": "Chinese evergreen care in 2026: low to medium indirect light, water when the top inch dries, 68 to 77°F. Below 55°F (13°C) leaves get chill spots. Pet toxicity.",
+    "h1": "Chinese evergreen care: light, water and cold protection"
+  },
+  "content": {
+    "answer": "Chinese evergreen thrives in low to medium indirect light between 68 and 77°F (20 and 25°C), watered when the top inch of mix feels dry. Keep it above 55°F (13°C): cold drafts mark the older leaves with dark, greasy patches.",
+    "intro": "Aglaonema, the Chinese evergreen, comes from the floor of humid, heavily shaded forests stretching from northeast India and southern China to New Guinea, and that origin explains why it copes with dim offices better than almost any other foliage plant. UF/IFAS notes that it was grown in China and neighboring countries for centuries as a plant of good fortune before it reached the West in 1885. It forms a clump of short stems that become ringed with leaf scars, and each leaf carries only five to eight main side veins, the detail NC State uses to tell it apart from the look-alike dieffenbachia. Modern hybrids run from silver-green to hot pink and red, and those colors are the main care variable: green and silver types thrive in low light, while pink and red selections need bright, indirect light to keep their color. What every aglaonema shares is a strong dislike of cold.",
+    "light": [
+      "The University of Illinois Extension puts aglaonema in its low-light group, around 75 foot-candles, and singles out the shadowless light of a north window. UF/IFAS research goes further: established plants tolerate as little as 25 foot-candles, which is why the genus became a staple of commercial interior plantings. Clemson recommends low to moderate indirect light and warns against direct sun, which scorches the leaves.",
+      "Colorful cultivars change the picture. UF/IFAS advises bright, indirect light for high-color selections, and Clemson notes that variegated types need more light than solid greens. Too much light has its own telltale sign: UF/IFAS describes leaves that fade and stand stiffly upright instead of at their usual 45 to 90 degree angle from the stem. Rotating the pot every week or two, as professional plant-care crews do, keeps the clump symmetrical."
+    ],
+    "water": [
+      "Clemson's guidance is to keep the soil evenly moist but not wet, letting the top 1 to 2 inches dry before watering; UF/IFAS Gardening Solutions sets the trigger at the top inch feeling dry. Clemson suggests testing with two fingers pushed about 2 inches into the pot. Use water at room temperature: NC State specifically warns against cold water, a sensible precaution for a plant this sensitive to chilling.",
+      "For its size, aglaonema needs little water, and UF/IFAS cautions that overwatering is the usual trigger for root rot and yellowing leaves. NC State notes that it does not require a winter dormancy, unlike some aroids, but it benefits from less water in winter, when light is weaker and the mix dries slowly. The University of Illinois Extension even lists growing it in plain water as an option, a sign of how well the roots tolerate moisture as long as they are not suffocating in compacted, sour soil."
+    ],
+    "soil": [
+      "Clemson recommends a standard soilless mix with extra humus, and Illinois likewise describes a humus-rich potting soil. UF/IFAS adds that aglaonema accepts almost any fertile medium, from peat and perlite to sand or loam, and that commercial growers use peat, pine bark, vermiculite or perlite with 10 to 20 percent air space. On acidity the sources differ slightly: NC State lists acidic soil, while UF/IFAS production guidelines target pH 6.0 to 6.5. A standard houseplant mix sits comfortably in that zone. Use a pot with a drainage hole."
+    ],
+    "humidity": [
+      "Despite its rainforest origins, aglaonema tolerates the dry air of most homes. Clemson says it tolerates low humidity but prefers moderate levels, and UF/IFAS research lists low humidity tolerance among the reasons it is so popular. NC State prefers high humidity but agrees the plant will accept drier air. Tips that brown in a heated room or a drafty hallway are the cue to add a pebble tray or humidifier. Very damp, stagnant air has its own risk: Clemson links high humidity to powdery mildew."
+    ],
+    "temperature": [
+      "Cold is the real enemy. Clemson gives an ideal range of 68 to 80°F (20 to 27°C) and UF/IFAS Gardening Solutions 68 to 77°F (20 to 25°C); both allow brief dips to 55°F (13°C). UF/IFAS trials describe chilling injury as dark, greasy patches between the midrib and the leaf edge, appearing about two days after exposure. Unusually, the mature and older leaves suffer first while the youngest are largely spared. Tolerance varies enormously: 'Silver Queen' was damaged after 24 hours at 55°F, while 'Emerald Star', 'Stars' and 'Jewel of India' came through 35°F unharmed. Keep pots off cold windowsills in winter."
+    ],
+    "fertilizer": [
+      "Indoor aglaonemas need very little food. UF/IFAS recommends a 20-20-20 water-soluble fertilizer diluted to about 50 ppm nitrogen once a month, a weak solution compared with most label rates, and warns that overfeeding builds salts that burn leaf margins and tips. UF/IFAS also reports that most cultivars are prone to copper and other micronutrient deficiencies, which show as pale, dwarfed new leaves with serrated edges, so choose a fertilizer that includes micronutrients. Skip feeding in winter, following the Illinois Extension rule of fertilizing only between March and September."
+    ],
+    "repotting": [
+      "Aglaonema grows slowly enough to stay in the same pot for years. Repot in spring or early summer when roots escape the drainage holes or the plant wilts between normal waterings, the signs Illinois uses. UF/IFAS Gardening Solutions points out a choice at that stage: move the whole plant to a larger pot, or divide the clump into two smaller plants and pot each one. Keep the crown at its old depth and water it in well."
+    ],
+    "propagation": [
+      "Division of basal shoots, or suckers, and stem cuttings are the standard methods. UF/IFAS notes that tissue culture has not been successful with this genus, so nurseries still root cuttings, ideally with four or five leaves each. Cultivars differ widely in how readily they sucker: some produce more than four basal shoots and are easy to split, while others produce none at all. When a stem becomes long and bare, Illinois suggests rooting the tip as a cutting or air layering it, and Clemson adds that the top of a leggy plant can simply be removed and rooted."
+    ],
+    "problems": [
+      "NC State reports no serious disease or insect problems, but aphids, mealybugs, spider mites and scale do appear. Root rot follows overwatering or cold water. Two quirks are specific to aglaonema: a new leaf that emerges bent like a fishhook, which UF/IFAS ties to fluctuating light, water or temperature, and the dark, greasy blotches of chilling injury. When a spathe and spadix appear, UF/IFAS recommends removing them so the plant puts its energy into leaves rather than red berries."
+    ],
+    "petSafety": [
+      "The ASPCA lists the Chinese evergreen (Aglaonema modestum) as toxic to dogs, cats and horses. Its toxic principle is insoluble calcium oxalates, and the clinical signs are oral irritation, pain and swelling of the mouth, tongue and lips, excessive drooling, vomiting (not horses) and difficulty swallowing. The ASPCA entry names a single species, but NC State and UF/IFAS describe the same crystals across the genus, so treat every aglaonema as toxic. For people, NC State and UF/IFAS rate the severity as low, with possible skin irritation from the sap. Place it out of reach and call your veterinarian or the ASPCA Animal Poison Control Center at (888) 426-4435 if a pet chews it."
+    ],
+    "faq": [
+      {
+        "q": "Why does my Chinese evergreen have dark, greasy patches on its leaves?",
+        "a": "That is the classic sign of chilling injury. UF/IFAS trials found dark, greasy patches appearing between the midrib and leaf margin about two days after exposure to 55°F or below, mostly on mature and older leaves. Move the plant somewhere warmer and away from drafts. Leaves with less than half their area damaged can live for months; more than that, and they usually yellow and drop."
+      },
+      {
+        "q": "Can a Chinese evergreen live in an office with no window?",
+        "a": "It is one of the best candidates. UF/IFAS reports that established aglaonemas tolerate light as low as 25 foot-candles, a third of what Illinois calls low light. Green and silver cultivars handle it best; pink and red types fade. The University of Illinois Extension notes that plants in low light benefit from 14 to 16 hours of light a day, so leaving lamps on longer helps."
+      },
+      {
+        "q": "Do red and pink Chinese evergreen varieties need more light?",
+        "a": "Yes. UF/IFAS advises bright, indirect light for high-color selections to keep their color, while green and silver forms perform well in low light. Clemson agrees that variegated types need more light than solid greens. A spot close to an east window or a few feet from a bright south window suits the colorful hybrids; direct sun still scorches them."
+      },
+      {
+        "q": "Should I remove the flowers on my Chinese evergreen?",
+        "a": "UF/IFAS recommends it. When a spathe and spadix appear in the center of the foliage, removing them helps the plant stay full and live longer, and NC State adds that cutting off flowers and fruit directs energy to leaf growth. If left, the blooms are followed by clusters of berries that ripen red, which UF/IFAS Gardening Solutions considers unattractive on a houseplant."
+      },
+      {
+        "q": "How can I tell a Chinese evergreen from a dieffenbachia?",
+        "a": "Count the side veins. NC State notes that aglaonema leaves usually have five to eight main lateral veins, while dieffenbachia has more than eight, typically 20 to 30. Aglaonema is also smaller, often 1 to 3 feet, and forms a dense clump, whereas dieffenbachia grows a single thick cane several feet tall. Both are toxic aroids with similar variegated leaves."
+      }
+    ]
+  }
+}

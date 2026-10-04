@@ -1,0 +1,303 @@
+{
+  "slug": "jasmine",
+  "commonName": "Jasmine",
+  "otherNames": [
+    "Pink jasmine",
+    "Chinese jasmine",
+    "Winter-blooming jasmine"
+  ],
+  "botanicalName": "Jasminum polyanthum",
+  "formerNames": [],
+  "family": "Oleaceae",
+  "kind": "flowering",
+  "isGroup": false,
+  "light": {
+    "minLevel": "high",
+    "idealLevel": "direct",
+    "maxLevel": "direct",
+    "fc": [
+      300,
+      1500
+    ],
+    "lux": [
+      3229,
+      16146
+    ],
+    "windows": [
+      "south",
+      "west"
+    ],
+    "directSun": "needs",
+    "src": [
+      0,
+      3
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water regularly while it grows and blooms, as soon as the surface of the mix feels dry",
+    "winter": "The RHS advises only very light watering for indoor jasmines in winter; give enough to keep the mix from drying out completely, especially once buds form.",
+    "factors": [
+      "A pot has little reserve, so the RHS says container jasmines need regular water throughout the growing season.",
+      "Cool winter nights slow drying; heavy watering at that time risks soggy roots.",
+      "A root ball that dries out fully while in bud is a common reason for dropped flower buds."
+    ],
+    "src": [
+      1
+    ]
+  },
+  "soil": {
+    "mix": "A fertile, well-drained potting mix in a container with drainage holes, with a hoop or small trellis for the twining stems.",
+    "components": [
+      "multipurpose or loam-based potting mix",
+      "compost for fertility",
+      "perlite if the mix is heavy"
+    ],
+    "src": [
+      1
+    ]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "No source gives a figure for this species; winter homes often fall below 30 percent, so a pebble tray helps in heated rooms.",
+    "src": [
+      4
+    ]
+  },
+  "temperature": {
+    "minF": 50,
+    "minC": 10,
+    "src": [
+      0,
+      1
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, while new stems grow",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "High-potassium liquid feed such as tomato fertilizer, at the manufacturer's rate",
+    "winter": "reduced",
+    "src": [
+      1,
+      4
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Roots circle the pot or grow through the drainage holes",
+      "The plant wilts between normal waterings",
+      "New leaves come in smaller than usual"
+    ],
+    "season": "Late spring, after flowering, while it is actively growing",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [
+      5
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "The ASPCA data cover pets only, and none of our sources rates Jasminum for people; it is not a food plant, so keep it away from children.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Jasmine (Jasminum species)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jasmine"
+      }
+    ],
+    "src": [
+      2,
+      6,
+      7
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "no-flowers",
+      "symptom": "Plenty of leafy growth but no flower buds by late winter",
+      "causeKey": "low-light",
+      "cause": "Less than four hours of direct sun a day",
+      "remedy": "Move it to a south or west window, or give 14 to 16 hours of strong artificial light, and spend summer outdoors."
+    },
+    {
+      "symptomKey": "bud-drop",
+      "symptom": "Pink buds shrivel and fall before opening",
+      "causeKey": "drafts",
+      "cause": "Cold blasts from a door or icy window glass, or hot air from a vent",
+      "remedy": "Keep the pot away from drafts and heaters, nights around 50 to 55°F, and water so the root ball never dries out while in bud."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale, speckled leaves",
+      "causeKey": "pests",
+      "cause": "Red spider mites, common on indoor jasmine",
+      "remedy": "Shower the foliage, isolate the plant and treat with insecticidal soap, repeating until no new webbing appears."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony tufts in leaf joints and along stems",
+      "causeKey": "pests",
+      "cause": "Mealybugs feeding on sap",
+      "remedy": "Remove colonies with a swab dipped in rubbing alcohol and prune out heavily infested shoots."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Leaves yellow and drop in winter while the mix stays wet",
+      "causeKey": "overwatering",
+      "cause": "Heavy watering during the cool, slow-growing months",
+      "remedy": "Water lightly in winter, empty the saucer, and let the surface dry before the next drink."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "A tangle of long, bare stems with flowers only at the ends",
+      "causeKey": "natural-aging",
+      "cause": "Several years without pruning",
+      "remedy": "Right after flowering, cut flowered stems back to a strong side shoot and thin weak or crossing stems."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Internodal softwood cuttings",
+      "Semi-ripe cuttings",
+      "Seed, if berries form"
+    ],
+    "season": "Spring or summer"
+  },
+  "size": {
+    "note": "A twining climber, grown on a hoop or trellis; none of our sources gives a fixed indoor height, so size is set by the support and by pruning after flowering.",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [],
+  "sources": [
+    {
+      "title": "Jasmine (HGIC 1106)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/jasmine/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "How to grow jasmine",
+      "publisher": "Royal Horticultural Society",
+      "url": "https://www.rhs.org.uk/plants/jasmine/growing-guide",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Jasmine (Jasminum species)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/jasmine",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Gardenia (Cape Jasmine)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/gardenia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Paraguayan Jasmine (Brunfelsia)",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/paraguayan-jasmine",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "oxalis",
+    "lavender"
+  ],
+  "seo": {
+    "title": "Jasmine Care: Getting Pink Jasmine to Bloom Indoors (2026)",
+    "description": "Jasmine care for 2026: Clemson says indoor jasmine needs 4+ hours of direct sun and 50 to 55°F nights. Light, water, pruning and pet safety for pink jasmine.",
+    "h1": "Jasmine care: pink jasmine as a winter-flowering houseplant"
+  },
+  "content": {
+    "answer": "Pink jasmine needs at least four hours of direct sun indoors, steady watering while it grows, and cool nights of about 50 to 55°F in winter. Feed with a high-potassium fertilizer in summer and prune right after the late winter flowers fade.",
+    "intro": "Four hours of direct sun a day is the minimum Clemson Extension sets for semi-tropical jasmines grown indoors, and pink jasmine is no exception. Jasminum polyanthum, which the RHS calls Chinese jasmine, is a tender twining climber usually sold in late winter wound around a wire hoop and covered in pink buds. Those buds open into masses of small white, intensely fragrant flowers, and a single plant can scent a room. After that show, many plants decline, not because the species is fussy but because it needs things a typical living room lacks: strong light, a cool spell at night and a summer of real growth. Treat it as a vigorous vine that rests and blooms on a seasonal rhythm, rather than a permanent ornament, and it can flower again every winter. Be aware that several unrelated plants share the jasmine name, and their care and pet safety differ.",
+    "light": [
+      "Clemson Extension says indoor jasmines need at least four hours of direct sunlight daily, or 14 to 16 hours of strong artificial light. A south window is the best match; by University of Illinois Extension measurements, the spot directly in front of a south window receives about 1,500 foot-candles, while a few feet back the level falls quickly. A west window works as a second choice, especially in winter when the sun is lower and reaches farther into the room.",
+      "Light is what builds next winter's flowers, so summer counts as much as winter. The RHS suggests moving tender jasmines outside to a warm, sheltered spot in summer, which gives far more light than any window. Ease the plant into full outdoor exposure over a week or two, as Illinois Extension recommends for houseplants moved outdoors, so leaves grown indoors do not scorch."
+    ],
+    "water": [
+      "The RHS gives the pattern plainly: houseplant jasmines need regular watering while in growth, and only very light watering in winter. During spring and summer, check the pot often and water thoroughly as soon as the surface feels dry, letting the excess drain away. A pot outdoors in summer, packed with roots and leaves, can dry out remarkably fast.",
+      "Winter is trickier because that is when buds form and open. Growth slows in cool rooms, so the mix stays damp longer, and heavy watering then leads to yellow leaves and weak roots. Yet a root ball that dries out completely while the plant is in bud often drops those buds. Aim for light, regular drinks that keep the mix just moist, and always empty the saucer.",
+      "Tap water is generally fine. If white crust builds up on the surface, the University of Illinois Extension recommends leaching the pot every four to six months with a large volume of plain water to wash out fertilizer salts."
+    ],
+    "soil": [
+      "The RHS says jasmines need fertile, well-drained soil. For a pot, that translates into a good multipurpose or loam-based potting mix, with some compost for fertility and perlite if the mix feels heavy, in a container with drainage holes. Because the plant twines, give it something to climb: the wire hoop it is sold on works for a year or two, then a small trellis set into a larger pot lets you train new stems around it."
+    ],
+    "humidity": [
+      "None of our sources gives a humidity figure for pink jasmine, so we will not invent one. The University of Illinois Extension notes that most homes drop below 30 percent humidity in winter, which is when this plant is in bud and bloom. If the leaves look dull and dry in a heated room, set the pot on a tray of moist pebbles, with the pot above the water line, or group it with other plants. Keep the plant away from heat vents, which dry the air around it even further."
+    ],
+    "temperature": [
+      "Clemson Extension gives ideal indoor temperatures for semi-tropical jasmines of 68 to 72°F (20 to 22°C) by day and 50 to 55°F (10 to 13°C) at night. Those cool nights are the reason pink jasmine often blooms well in a chilly sunroom or by a cool window but sulks in a warm, evenly heated apartment. None of our sources spells out an exact chilling requirement for flower buds, but the cool night range is the closest guidance available.",
+      "The RHS is more cautious about cold. It says J. polyanthum needs to be kept consistently above 55°F (13°C) and should come indoors before night temperatures fall to 55 to 59°F. The two sources overlap at about 55°F, so a practical target is nights near 55°F, never colder than 50°F, and no icy drafts. Illinois Extension warns that cold window glass can damage foliage."
+    ],
+    "fertilizer": [
+      "To boost flowering, the RHS recommends feeding container jasmines with a high-potassium liquid fertilizer such as tomato feed, following the label. No source gives an interval for this species, so use the University of Illinois Extension houseplant guideline of once every one to three months between spring and early fall, while new stems grow. Those summer stems carry next year's flowers, so a well-fed, well-lit summer matters more than anything you do in winter. Ease off in late fall."
+    ],
+    "repotting": [
+      "Repot when roots grow through the drainage holes, the soil mass fills with roots or the plant wilts between normal waterings, the signs the University of Illinois Extension lists. Do it after flowering, in late spring, when the plant is actively growing and has time to settle before next winter's buds form. Move up one pot size, set the plant at the same depth, and transfer or replace its support at the same time so the twining stems are not torn."
+    ],
+    "propagation": [
+      "The RHS says tender jasmines root best from internodal softwood or semi-ripe cuttings taken in spring or summer. Internodal means you cut between two leaf joints rather than just below one. Take a few lengths of healthy, nonflowering stem, strip the lowest leaves, and insert them in a moist, free-draining cutting mix under a clear cover in bright, indirect light until new growth shows they have rooted.",
+      "Seed is rarely an option. The RHS notes that jasmines seldom produce berries in a cool climate, but if yours does, the seed can be sown; cuttings remain faster and give a plant identical to the parent."
+    ],
+    "problems": [
+      "The RHS lists mealybugs and red spider mites as the sap-feeding pests that most often attack jasmine indoors, and urges regular checks because early outbreaks are much easier to control. Dry, warm rooms favor spider mites in particular. The other big complaint is a plant that grows but never blooms, which almost always traces back to too little light in summer or nights that stay too warm in fall and winter. A tangled, bare-stemmed plant needs pruning: the RHS recommends cutting flowered stems back to a strong side shoot and thinning weak ones."
+    ],
+    "petSafety": [
+      "The ASPCA lists true jasmine, Jasminum species, as non-toxic to dogs, cats and horses, so pink jasmine is a reasonable choice for a home with pets. The name causes confusion, though. Clemson Extension points out that star or Confederate jasmine is a Trachelospermum, not a true jasmine, and that Carolina jessamine (Gelsemium sempervirens) is a different plant again. More importantly, the ASPCA lists Cape jasmine (gardenia) as toxic, with mild vomiting, diarrhea and hives, and Paraguayan jasmine (Brunfelsia) as toxic, with tremors and seizures possible. Check the botanical name on the label before bringing any jasmine home."
+    ],
+    "faq": [
+      {
+        "q": "Why won't my pink jasmine bloom again after the first winter?",
+        "a": "The usual causes are low light and warm nights. Clemson Extension asks for at least four hours of direct sun indoors and nights of 50 to 55°F. Give the plant a sunny summer outdoors, feed it with a high-potassium fertilizer while it grows, then keep it in a cool, bright room through fall and winter so buds can form."
+      },
+      {
+        "q": "When should I prune Jasminum polyanthum?",
+        "a": "Right after it finishes flowering in spring. The RHS advises pruning winter-flowering jasmine immediately after bloom, because its flowers form on the previous year's growth, and pink jasmine follows the same late winter schedule. Cutting later in summer or fall removes the stems that would carry next winter's flowers. Trim flowered stems back to a strong side shoot and thin out weak or tangled growth."
+      },
+      {
+        "q": "Is star jasmine the same plant as pink jasmine?",
+        "a": "No. Clemson Extension explains that star or Confederate jasmine is Trachelospermum jasminoides, not a true jasmine, while pink jasmine is Jasminum polyanthum. Both are fragrant climbers, and the ASPCA lists both as non-toxic to cats and dogs. Star jasmine flowers in spring and summer and is grown mostly outdoors, whereas pink jasmine blooms indoors in late winter."
+      },
+      {
+        "q": "Can I leave my potted jasmine outside all summer?",
+        "a": "Yes, and it usually benefits. The RHS suggests a warm, sheltered spot outdoors in summer, but says tender jasmines such as J. polyanthum should come back indoors before night temperatures drop below 55 to 59°F. Check for mealybugs and spider mites before bringing it in, and acclimate it gradually in both directions."
+      },
+      {
+        "q": "Why does my jasmine plant drop its buds before they open?",
+        "a": "Bud drop usually follows a sudden change: a cold draft from a door or icy glass, hot air from a heater, or a root ball that dried out completely. Keep the plant in a steady, cool, bright spot, away from vents, and water lightly but regularly while it is in bud. Moving a budded plant to a new room can also trigger drop."
+      }
+    ]
+  }
+}

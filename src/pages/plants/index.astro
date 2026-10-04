@@ -17,6 +17,7 @@ const faqs = [
   { q: 'Do the plant guides cover pet safety for cats and dogs?', a: 'Yes. Every guide records the ASPCA entry for the plant, the toxic principle and the clinical signs, and links to the ASPCA page. When the ASPCA has no entry, as with the ZZ plant, the guide says so and cites the extension source it relies on instead. The pet filter above uses the same data.' },
   { q: 'Where do the foot-candle ranges on the plant pages come from?', a: 'From the light categories of the University of Illinois Extension: about 75 foot-candles for low light, 150 for medium, 300 for high and 1,500 for direct sun. Each guide records the lowest and highest category its sources accept for the plant and converts them, multiplying by 10.764 to get lux.' },
 ];
+const groups = PLANTS.filter((p) => p.isGroup);
 const rules = Object.entries(RULE_TEXT).map(([r, t]) => ({ t, ps: PLANTS.filter((p) => p.water.rule === r) })).filter((x) => x.ps.length);
 ---
 <HubLayout id="plants" title={`Houseplant Care Guides: ${n} Indoor Plants A to Z (2026)`}
@@ -34,7 +35,7 @@ const rules = Object.entries(RULE_TEXT).map(([r, t]) => ({ t, ps: PLANTS.filter(
 
   <h2>How to read a plant guide</h2>
   <p>Start with the answer at the top and the care card beside it, then try the watering calculator with your own pot. The light section translates the plant's range into foot-candles and lux and names the windows that suit it; the problems table pairs each symptom with its cause and fix; the pet safety section quotes the ASPCA entry word for word. Varieties sit in a fold at the end, since most readers come for care, not cultivars.</p>
-  <p>Two plants are group guides: succulents, which cover several genera with different toxicity, and bonsai, which compares the indoor-friendly ficus with the juniper, an outdoor plant often sold as an indoor gift. Their guides explain where the members part ways.</p>
+  <p>{groups.length} guides cover a group rather than a single species: {groups.map((p, i) => <>{i > 0 && (i === groups.length - 1 ? ' and ' : ', ')}<a href={plantPath(p.slug)}>{p.commonName.toLowerCase()}</a></>)}. The succulents guide, for example, spans several genera with different toxicity, and the bonsai guide compares the indoor-friendly ficus with the juniper, an outdoor plant often sold as an indoor gift. Each group guide explains where its members part ways.</p>
 
   <h2>Light first, then everything else</h2>
   <p>If you are choosing a plant rather than rescuing one, decide on the spot before the species. The ideal light recorded for these guides ranges from {LEVEL_LABEL[PLANTS.reduce((a, p) => (['low', 'medium', 'high', 'direct'].indexOf(p.light.idealLevel) < ['low', 'medium', 'high', 'direct'].indexOf(a) ? p.light.idealLevel : a), 'direct' as 'low' | 'medium' | 'high' | 'direct')].toLowerCase()} to {LEVEL_LABEL[PLANTS.reduce((a, p) => (['low', 'medium', 'high', 'direct'].indexOf(p.light.idealLevel) > ['low', 'medium', 'high', 'direct'].indexOf(a) ? p.light.idealLevel : a), 'low' as 'low' | 'medium' | 'high' | 'direct')].toLowerCase()}, and no amount of watering skill makes up for the wrong window. The <a href={route('lightfinder', lang)}>light finder</a> estimates what your spot receives and lists the plants that suit it.</p>

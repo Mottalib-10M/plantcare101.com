@@ -1,0 +1,306 @@
+{
+  "slug": "tradescantia",
+  "commonName": "Tradescantia",
+  "otherNames": [
+    "Inch plant",
+    "Zebra plant (T. zebrina)",
+    "Small-leaf spiderwort (T. fluminensis)",
+    "Speedy Henry"
+  ],
+  "botanicalName": "Tradescantia zebrina and Tradescantia fluminensis",
+  "formerNames": [
+    "Zebrina pendula",
+    "Tradescantia pendula"
+  ],
+  "family": "Commelinaceae",
+  "kind": "foliage",
+  "isGroup": true,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "direct",
+    "fc": [150, 1500],
+    "lux": [1615, 16146],
+    "windows": ["east", "west", "south"],
+    "directSun": "morning-only",
+    "src": [0, 1, 2, 3, 6]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water when the surface of the mix has dried; keep it lightly moist, never soggy, in the growing season",
+    "winter": "Water less from fall to late winter, as both NC State and Missouri Botanical Garden advise, letting more of the mix dry between drinks.",
+    "factors": [
+      "Soggy soil causes root and stem rot at the base of the trailing stems.",
+      "Water the mix, not the leaves: NC State links wet foliage and overcrowding to leaf spot.",
+      "Sources differ: NC State says to let the soil dry between waterings, Missouri Botanical Garden asks for consistently moist but well-drained soil in the growing season."
+    ],
+    "src": [0, 1, 2, 3]
+  },
+  "soil": {
+    "mix": "A peaty, soil-based potting mix that stays moist but drains well, in a pot or hanging basket with drainage holes.",
+    "components": [
+      "peat-based or soil-based potting mix",
+      "a container with drainage"
+    ],
+    "src": [2, 3, 0]
+  },
+  "humidity": {
+    "level": "average",
+    "note": "Tolerates average home humidity as well as high humidity; no special measures needed.",
+    "src": [0]
+  },
+  "temperature": {
+    "idealF": [65, 75],
+    "idealC": [18, 24],
+    "minF": 55,
+    "minC": 13,
+    "src": [0, 7]
+  },
+  "fertilizer": {
+    "season": "March to September, while the plant is growing",
+    "everyWeeks": [4, 13],
+    "strength": "full",
+    "type": "Houseplant fertilizer, balanced (10-10-10) or 1:2:1 (10-20-10), at the label rate and never stronger",
+    "winter": "none",
+    "src": [7]
+  },
+  "repotting": {
+    "signs": [
+      "Roots grow through the drainage holes",
+      "The plant wilts between normal waterings",
+      "Stems are bare at the crown and leafy only at the tips"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": false,
+    "src": [9, 0]
+  },
+  "toxicity": {
+    "cats": "toxic",
+    "dogs": "toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates poison severity as low for both species: eating it can irritate the mouth and stomach, and the watery sap can cause skin redness and irritation.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Inch Plant (Tradescantia flumeninsis)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/inch-plant",
+        "clinicalSigns": "Dermatitis"
+      },
+      {
+        "name": "Variegated Inch Plant (Tradescantia flumeninsis)",
+        "cats": "toxic",
+        "dogs": "toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/variegated-inch-plant",
+        "clinicalSigns": "Dermatitis"
+      }
+    ],
+    "src": [4, 5, 0, 1]
+  },
+  "problems": [
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long stems bare near the pot, with small leaves only at the tips",
+      "causeKey": "low-light",
+      "cause": "Low light, which makes stems drop their lower leaves; age makes it worse",
+      "remedy": "Move it to bright, filtered light, cut the stems back hard in spring and root the tips back into the pot."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Silver stripes and purple tones fade to dull green",
+      "causeKey": "low-light",
+      "cause": "Not enough light to keep the leaf color, which NC State says fades in dim spots",
+      "remedy": "Give it bright light with some morning sun; color is most intense in strong light."
+    },
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Stems turn black and soft at the soil line",
+      "causeKey": "overwatering",
+      "cause": "Root and stem rot from soggy soil",
+      "remedy": "Cut healthy tips above the rot, root them in fresh mix, and let the surface dry before each watering."
+    },
+    {
+      "symptomKey": "crispy-edges",
+      "symptom": "Bleached, scorched patches on leaves in a hot window",
+      "causeKey": "too-much-sun",
+      "cause": "Hot afternoon sun, which scorches the leaves and can wash out their color",
+      "remedy": "Keep the direct sun to the morning, or hang a sheer curtain in a south or west window."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Brown or dark spots on a dense, crowded mat of leaves",
+      "causeKey": "disease",
+      "cause": "Leaf spot from overcrowding or from wetting the foliage when watering",
+      "remedy": "Thin out the oldest stems, water at the soil line, and improve air movement around the plant."
+    },
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webbing and pale speckles, with sticky leaves or white tufts nearby",
+      "causeKey": "pests",
+      "cause": "Spider mites, aphids, whiteflies, scale or mealybugs",
+      "remedy": "Rinse the stems in the shower, cut out the worst growth and treat with insecticidal soap until no pests return."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings in water or moist mix",
+      "Rooted stem pieces (stems root at the nodes)"
+    ],
+    "season": "Spring or summer, though cuttings root most of the year"
+  },
+  "size": {
+    "heightIn": [6, 9],
+    "widthIn": [12, 24],
+    "growth": "fast",
+    "src": [0, 1, 2, 3]
+  },
+  "varieties": [
+    {
+      "name": "T. zebrina 'Quadricolor'",
+      "note": "Leaves striped pink, purple, silver and green."
+    },
+    {
+      "name": "T. zebrina 'Burgundy'",
+      "note": "Dark purple foliage."
+    },
+    {
+      "name": "T. fluminensis 'Albovittata'",
+      "note": "White stripes on top, purple underneath."
+    },
+    {
+      "name": "T. fluminensis 'Nanouk'",
+      "note": "Green leaves striped cream and pink, with purple undersides."
+    },
+    {
+      "name": "T. fluminensis 'Aurea'",
+      "note": "Glossy chartreuse leaves on lime-green stems."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tradescantia zebrina (Inch Plant, Zebra Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/tradescantia-zebrina/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Tradescantia fluminensis (Small-leaf Spiderwort)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/tradescantia-fluminensis/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Tradescantia zebrina",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=279286",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Tradescantia fluminensis",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=279259",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Inch Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/inch-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Variegated Inch Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/variegated-inch-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["pothos", "english-ivy", "string-of-hearts", "spider-plant", "peperomia"],
+  "seo": {
+    "title": "Tradescantia Care: Inch Plant Light, Water and Pets (2026)",
+    "description": "Tradescantia care in 2026: bright filtered light, 65 to 75°F, water as the surface dries, and prune hard each spring. The ASPCA lists the inch plant as toxic.",
+    "h1": "Tradescantia care: growing inch plants indoors"
+  },
+  "content": {
+    "answer": "Tradescantia, the inch plant, grows best in bright filtered light with only morning sun, at 65 to 75°F, in a peaty mix watered as the surface dries. Cut it back hard each spring, root the tips, and keep it from pets: the ASPCA lists it as toxic.",
+    "intro": "The plants sold as inch plant belong to the spiderwort genus Tradescantia, and two species account for most of them: T. zebrina, native from Mexico to Colombia, with silver-striped leaves and purple undersides, and T. fluminensis, from southeastern Brazil to northern Argentina, with plain or cream-striped green leaves. Both are fast, trailing perennials with fleshy, jointed stems that root wherever a node touches moist soil, which is why a single cutting fills a basket in a season and why the name inch plant refers to the roughly inch-long gaps between nodes. NC State Extension describes T. zebrina as tolerant of a wide range of conditions, thriving at 65 to 75°F in filtered sun and moist but well-drained soil. Both species also carry a watery sap that can irritate skin. This page covers what they share and flags where the two species, and the sources describing them, part ways.",
+    "light": [
+      "Light is what keeps a tradescantia compact and colorful. Missouri Botanical Garden says both species do best in filtered sun and will grow in direct sun with some afternoon protection, and NC State warns that T. fluminensis needs that afternoon shade to avoid leaf scorch. NC State notes that zebrina shows its strongest color in full sun, though in southern locations strong sun can wash the color out, and that in low light the stems drop their lower leaves and the remaining ones fade.",
+      "The University of Illinois Extension puts the inch plant in its medium-light group, about 150 foot-candles, which means directly in front of a north window or a few feet from an east or west one. That is the minimum for a plant that merely survives. For dense, striped growth, choose a bright east window with morning sun, or a spot just to the side of a south or west window where the hot midday rays do not reach the leaves."
+    ],
+    "water": [
+      "Tradescantia stems are fleshy and hold some water, but the roots are fine and rot quickly in a wet pot. NC State's advice for T. zebrina is to water regularly but let the soil dry out between waterings, while Missouri Botanical Garden asks for consistently moist but well-drained soil during the growing season for both species. The workable middle ground is to water thoroughly as soon as the surface of the mix feels dry, then let the excess drain away completely.",
+      "Aim the water at the soil, not the leaves. A dense, trailing mat holds moisture against the foliage, and NC State links leaf spot to overcrowding and wet leaves. Hanging baskets near the ceiling dry faster than pots on a shelf, so lift them now and then: a light basket needs water, a heavy one does not.",
+      "From fall to late winter, both NC State and Missouri Botanical Garden say to cut back on watering. With shorter days the plant grows slowly and the mix stays damp longer, so let a little more of it dry before each watering. Soggy soil in a cool room is the quickest route to black, collapsing stems."
+    ],
+    "soil": [
+      "Missouri Botanical Garden recommends a peaty, soil-based potting mix for both species, and NC State asks for soil that is moist but well-drained. A standard bagged houseplant mix meets both, as long as the container has drainage holes. Hanging baskets are the classic choice because the stems cascade over the edge, and a shallow, wide pot suits a plant whose roots stay near the surface."
+    ],
+    "humidity": [
+      "Humidity is the easy part. NC State says T. zebrina tolerates average home humidity as well as high humidity, so there is no need for pebble trays or misting, and misting a dense mat of leaves can encourage the leaf spot mentioned above. The exception is a plant beside a heating vent, where dry, moving air browns the leaf tips and invites spider mites; moving it a few feet away is enough."
+    ],
+    "temperature": [
+      "NC State gives 65 to 75°F (18 to 24°C) as the range where T. zebrina thrives, close to the University of Illinois Extension's general rule for foliage plants of 65 to 75°F by day with nights 5 to 10 degrees cooler, or about 55 to 60°F (13 to 16°C). Neither source gives a precise cold limit for the plant indoors, so treat the mid-50s as the floor. Both species are hardy outdoors only in frost-light climates, roughly USDA zones 8 or 9 to 12, so a pot taken out for summer must come back inside before cool fall nights."
+    ],
+    "fertilizer": [
+      "Neither NC State nor Missouri Botanical Garden gives a feeding schedule for tradescantia, so the University of Illinois Extension's general houseplant rule applies: fertilize no more than once every one to three months from March to September, with a balanced or 1:2:1 houseplant fertilizer at the label rate, and stop in winter. A fast grower in bright light can take the shorter interval; overfeeding produces long, soft stems that flop rather than fuller growth."
+    ],
+    "repotting": [
+      "Tradescantia rarely needs a big pot, because the stems age faster than the roots fill the container. NC State says the plant can be pruned back hard every spring, which keeps it contained and denser. When roots grow through the drainage holes or the plant wilts between normal waterings, the signs the University of Illinois Extension lists, repot in spring or early summer. Often the better move is to start over: root a handful of fresh tips in a new pot of mix and retire the leggy old plant."
+    ],
+    "propagation": [
+      "Few houseplants are easier to multiply. The stems root at the nodes, and NC State and Missouri Botanical Garden both describe the plant as easily propagated by stem cuttings. Cut 3 to 6 inch tips with at least two nodes, as the University of Illinois Extension recommends for stem cuttings, remove the lower leaves, and set them in water or moist mix in bright, indirect light. Tender, water-filled stems like these often root within a week.",
+      "Pushing several rooted cuttings back into the same pot, around the base of the plant, is the simplest way to fix thin, straggly growth and keep a basket full for years."
+    ],
+    "problems": [
+      "Most tradescantia problems are about light and water. Long bare stems with tufts of leaves at the ends mean too little light and too little pruning; faded stripes mean the same. Root and stem rot follow soggy soil, and leaf spot follows crowding and wet foliage. For pests, NC State and Missouri Botanical Garden list aphids, mealybugs, scale, whiteflies and spider mites. Outdoors, the plant becomes a problem in its own right: NC State calls T. fluminensis an invasive species, noxious weed or pest plant in many places, including the southeastern United States, Australia and New Zealand, where it smothers native ground covers. Never dump trimmings in the yard in a warm climate."
+    ],
+    "petSafety": [
+      "The ASPCA lists the inch plant and the variegated inch plant, both entered under T. fluminensis, as toxic to cats, dogs and horses. The only clinical sign it records is dermatitis, that is, skin irritation, and it names no toxic principle. The ASPCA has no separate entry for T. zebrina, but NC State tags zebrina as a problem for cats, dogs and children, with low severity: mouth and stomach irritation if eaten and skin redness from the sap. For T. fluminensis, NC State adds vomiting, swelling of the mouth and difficulty breathing if eaten. A pet brushing past or lying on a trailing mat can also react, so hang the plant out of reach and wear gloves when pruning."
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between Tradescantia zebrina and Tradescantia fluminensis?",
+        "a": "T. zebrina, from Mexico to Colombia, has blue-green leaves with two broad silvery stripes and solid purple undersides, and lavender-purple flowers. T. fluminensis, from Brazil to northern Argentina, has glossy green leaves, often striped cream in cultivars, with purplish undersides and white flowers. Care is nearly identical, but fluminensis is the one NC State flags as invasive in warm climates."
+      },
+      {
+        "q": "Why is my tradescantia losing its stripes and turning green?",
+        "a": "It is usually short of light. NC State notes that in low light the stems drop their lower leaves and the remaining ones lose much of their color. Move the plant to bright, filtered light with some morning sun and pinch off the dull growth. Be careful with hot afternoon sun, though, which NC State says can scorch the leaves and wash out the color."
+      },
+      {
+        "q": "Can tradescantia irritate my skin when I prune it?",
+        "a": "It can. NC State says both T. zebrina and T. fluminensis have a watery sap that can cause skin redness and irritation, and lists contact dermatitis as a problem for both. The ASPCA's only listed clinical sign for pets is also dermatitis. Wear gloves when cutting back or repotting a large plant, and wash your hands before touching your face."
+      },
+      {
+        "q": "How hard can I cut back a leggy tradescantia?",
+        "a": "Very hard. NC State says T. zebrina can be pruned back hard every spring, and Missouri Botanical Garden agrees that plants may be cut back severely in very early spring. Shorten the stems to a few inches above the soil, keep the plant in bright light, and stick the healthy tips back into the pot as cuttings. Within weeks the pot is full again."
+      }
+    ]
+  }
+}

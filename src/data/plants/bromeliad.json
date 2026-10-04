@@ -1,0 +1,315 @@
+{
+  "slug": "bromeliad",
+  "commonName": "Bromeliads",
+  "otherNames": [
+    "Bromeliad",
+    "Urn plant",
+    "Scarlet star",
+    "Flaming sword",
+    "Blushing bromeliad",
+    "Earth star"
+  ],
+  "botanicalName": "Guzmania, Vriesea, Neoregelia, Aechmea and Cryptanthus spp.",
+  "formerNames": [],
+  "family": "Bromeliaceae",
+  "kind": "flowering",
+  "isGroup": true,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [150, 300],
+    "lux": [1615, 3229],
+    "windows": ["east", "west", "north"],
+    "directSun": "avoid",
+    "src": [0, 1, 2, 4, 9]
+  },
+  "water": {
+    "rule": "half-dry",
+    "ruleText": "Keep water in the central cup, and let the top half of the potting mix dry before watering the mix again",
+    "winter": "Water the mix less in winter, as NC State advises for Aechmea, and keep only a little fresh water in the cup when the room is cool.",
+    "factors": [
+      "Clemson: fill the tank without soaking the soil; bromeliads are prone to root rot if the mix stays wet.",
+      "Flush the cup with fresh water regularly so it does not stagnate or collect mineral salts; NC State changes Aechmea cup water once a month.",
+      "Genera differ: Aechmea likes the mix lightly moist, Neoregelia does best on the dry side, earth stars should dry only slightly."
+    ],
+    "src": [0, 2, 3, 4]
+  },
+  "soil": {
+    "mix": "A loose, fast-draining epiphyte mix, such as equal parts peat, bark and coarse sand, or an orchid or bromeliad mix; earth stars want richer, organic soil.",
+    "components": [
+      "peat or coir",
+      "orchid bark",
+      "coarse sand or perlite"
+    ],
+    "src": [0, 1, 2, 3]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "Clemson says bromeliads need humid air and that most houses are too dry; Guzmania and Vriesea are the most demanding.",
+    "src": [0, 2, 3]
+  },
+  "temperature": {
+    "minF": 60,
+    "minC": 16,
+    "maxF": 85,
+    "maxC": 29,
+    "src": [0, 3, 4]
+  },
+  "fertilizer": {
+    "season": "Summer, or mid-spring to early fall for earth stars",
+    "everyWeeks": [4, 13],
+    "strength": "half",
+    "type": "Liquid fertilizer at half strength or less, poured on the mix or misted onto the leaves",
+    "winter": "none",
+    "src": [0, 10]
+  },
+  "repotting": {
+    "signs": [
+      "Pups crowd the base of the old rosette",
+      "The plant tips over in a pot too light for it",
+      "The mix has broken down and stays soggy"
+    ],
+    "season": "Spring or summer, while the plant is actively growing",
+    "rootType": "epiphytic",
+    "prefersSnug": true,
+    "src": [0, 1, 11]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "None of the sources reviewed here gives a toxicity rating for people; Aechmea and Neoregelia leaves have spiny edges that can scratch.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Neoregelia (Neoregelia spp.)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/neoregelia"
+      },
+      {
+        "name": "Mosaic Vase (Guzmania musaica)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mosaic-vase"
+      },
+      {
+        "name": "Orange Star (Guzmania lingulata minor)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/orange-star"
+      },
+      {
+        "name": "Earth Star (Cryptanthus bivattus minor)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/earth-star"
+      }
+    ],
+    "src": [5, 6, 7, 8, 2, 4]
+  },
+  "problems": [
+    {
+      "symptomKey": "mushy-stem",
+      "symptom": "Base of the rosette turns soft and brown, and leaves pull out easily",
+      "causeKey": "overwatering",
+      "cause": "Root and crown rot from mix kept wet",
+      "remedy": "Let the mix dry, water only the cup for a while, and repot into a coarser mix if it stays soggy; save any healthy pups."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "After flowering, the whole rosette slowly yellows and collapses",
+      "causeKey": "natural-aging",
+      "cause": "The parent dies after blooming once; this is the plant's life cycle",
+      "remedy": "Keep caring for it until the pups at the base are large enough to separate, then cut the old rosette away."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Leaves long, thin and greener than when you bought it",
+      "causeKey": "low-light",
+      "cause": "Less light than the variety needs",
+      "remedy": "Move it closer to a bright window with filtered light; Neoregelia in particular needs strong light to keep its color."
+    },
+    {
+      "symptomKey": "pale-leaves",
+      "symptom": "Leaves short, thick and faded or bleached",
+      "causeKey": "too-much-sun",
+      "cause": "More light than the variety tolerates, usually direct sun through glass",
+      "remedy": "Pull the plant back from the window or filter the light with a sheer curtain."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Leaf tips turn brown and dry",
+      "causeKey": "cold",
+      "cause": "Exposure to cold, or too little water in the cup and mix",
+      "remedy": "Keep it above 60°F and away from cold windows, and keep a little fresh water in the cup."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White cottony tufts or small brown bumps at the leaf bases",
+      "causeKey": "pests",
+      "cause": "Mealybugs and scale, the most frequent bromeliad pests",
+      "remedy": "Wipe them off with a cotton swab dipped in rubbing alcohol and inspect the leaf axils weekly."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Pups (offsets) separated from the parent",
+      "Seed (slow and unreliable)"
+    ],
+    "season": "When pups are well grown, ideally in spring or summer"
+  },
+  "size": {
+    "heightIn": [1, 36],
+    "note": "Clemson: houseplant bromeliads range from one inch to 2 to 3 feet tall; Vriesea is among the largest.",
+    "src": [0, 3, 4]
+  },
+  "varieties": [
+    { "name": "Guzmania lingulata (scarlet star)", "note": "Funnel of smooth green leaves with red or orange bracts that last 2 to 4 months; tolerates shade and artificial light." },
+    { "name": "Vriesea splendens (flaming sword)", "note": "Banded leaves and a tall red spike; NC State now lists it as Lutheria splendens. Pups bloom in 3 to 5 years." },
+    { "name": "Aechmea fasciata (urn plant, silver vase)", "note": "Stiff silvery leaves with black spines and a long-lasting pink bloom; matures in 3 to 5 years." },
+    { "name": "Neoregelia carolinae (blushing bromeliad)", "note": "Grown for its leaves, whose centers turn red at flowering; small flowers sit inside the cup." },
+    { "name": "Cryptanthus (earth stars)", "note": "Flat, starfish-like terrestrial rosettes for dish gardens; grown in soil, not mounted." }
+  ],
+  "sources": [
+    {
+      "title": "Bromeliads (HGIC 1501)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/bromeliads/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Bromeliads",
+      "publisher": "UF/IFAS Extension, Gardening Solutions",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/ornamentals/bromeliads/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Guzmania lingulata (Scarlet Star)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/guzmania-lingulata/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lutheria splendens (Flaming Sword, formerly Vriesea splendens)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/lutheria-splendens/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Aechmea fasciata (Urn Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/aechmea-fasciata/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Neoregelia",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/neoregelia",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Mosaic Vase",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mosaic-vase",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Orange Star",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/orange-star",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Earth Star",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/earth-star",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting & Repotting",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": ["air-plant", "orchid", "anthurium", "calathea", "peace-lily"],
+  "seo": {
+    "title": "Bromeliad Care: Watering the Cup, Light and Pups (2026)",
+    "description": "Bromeliad care in 2026: keep water in the central cup, let the mix dry between waterings, 60 to 85°F per Clemson. Calculator, pups after bloom, pet safety.",
+    "h1": "Bromeliad care: the water cup, light and pups"
+  },
+  "content": {
+    "answer": "Bromeliads drink through a cup formed by their leaves: keep a little fresh water in it, flush it often, and water the potting mix only when its top half is dry. Give bright, filtered light and 60°F to 85°F, per Clemson.",
+    "intro": "Bromeliads are the pineapple family, a group that runs from the pineapple itself to Spanish moss, and the ones sold as houseplants, Guzmania, Vriesea, Neoregelia and Aechmea above all, share an unusual design. Most are epiphytes that cling to tree branches in tropical American forests, using their roots mainly as anchors. Their stiff leaves overlap into a funnel, called a tank or cup, that catches rain and leaf litter, and the plant absorbs water and nutrients through its leaves and that cup. Care follows from that biology: water goes in the cup, the potting mix stays on the dry side, and humidity matters more than soil. Clemson Extension adds the fact that surprises most buyers: each rosette flowers once and then dies, after producing pups at its base that carry the plant on. A bromeliad that fades after blooming is not a failure.",
+    "light": [
+      "Most bromeliads want bright, indirect light. UF/IFAS says they grow well indoors in any spot with bright, diffused light but not direct sun, and Clemson says they need indirect sunlight to grow well and flower. The genera vary, though. NC State notes that Guzmania lingulata grows in part to full shade and does well under artificial lights, so it suits a north or east room. Neoregelia sits at the other end: Clemson says it does best in strong light and that too little light turns its colored leaves green.",
+      "UF/IFAS gives a simple way to read the plant. Leaves that grow long, thin and greener mean too little light for that variety; leaves that come out short, thick and paler mean too much. Adjust the distance from the window until new leaves match the shape and color the plant had when you bought it. On the Illinois Extension scale, medium to bright light, about 150 to 300 foot-candles, covers most of the group."
+    ],
+    "water": [
+      "Water a bromeliad from the top, into the cup. Clemson says the tank should be kept filled at all times, and NC State's Aechmea profile is more precise: about an inch of water in the central cup, removed and replaced once a month so it does not stagnate and breed insects. Pour carefully so the overflow does not soak the soil, and flush the cup periodically by filling it, tipping the plant to empty it, and filling it again. That rinse also stops mineral salts from building up on the leaves.",
+      "The potting mix is a separate question, and here the advice varies by genus. Clemson's general rule is to water well and let the soil dry before watering again, because bromeliads are prone to root rot if it stays wet. NC State says to let the top half of the mix dry for the flaming sword, while for the urn plant it asks for a consistently moist, well-drained medium. Neoregelia does best grown on the dry side. Letting the top half dry is a safe middle course for a mixed collection.",
+      "In winter, water the mix less, as NC State advises for Aechmea, and keep the cup only lightly filled if the room drops toward 60°F, since cold standing water in the crown invites rot. Earth stars (Cryptanthus) have no cup to speak of; Clemson says to let their soil dry only slightly between waterings."
+    ],
+    "soil": [
+      "Bromeliad roots are mostly holdfasts, so the mix exists to anchor the plant and drain fast. UF/IFAS suggests one part peat, one part bark and one part coarse sand; NC State recommends bromeliad or orchid mix and says air must reach the roots. Clemson goes further and notes that for epiphytic types the potting mix is almost insignificant, which is why many can be mounted on wood. Earth stars are the exception: they are terrestrial and need rich, organic soil."
+    ],
+    "humidity": [
+      "Clemson states that bromeliads need humid air to prosper and that most houses are not moist enough, recommending frequent misting. Guzmania and Vriesea are the most demanding: Clemson describes them as needing constantly moist air and good air movement, and NC State suggests a humidifier or a tray of wet pebbles for Guzmania. Bathrooms and kitchens with bright windows suit them well. Silver-scaled and stiff-leaved types such as Aechmea tolerate drier rooms better."
+    ],
+    "temperature": [
+      "Clemson gives 60°F to 85°F as the range in which bromeliads survive and grow well. NC State is a little narrower for individual species: 60°F to 80°F for the flaming sword and 65°F to 75°F for the urn plant. Normal room temperatures suit the whole group. Keep them off cold windowsills in winter, since NC State lists cold exposure as a cause of brown leaf tips on Aechmea, and away from heaters that dry the air."
+    ],
+    "fertilizer": [
+      "Bromeliads need little food. Clemson recommends fertilizer at half strength or less during the summer months, and also suggests misting the leaves with diluted liquid fertilizer, since the leaves absorb nutrients. For earth stars it gives a monthly feeding from mid-spring through early fall. For the rest of the group, the University of Illinois Extension general rule of one feeding every one to three months in the growing season, here at half strength, is enough. Neoregelia in particular should be underfed: Clemson warns that frequent fertilization turns its leaves green."
+    ],
+    "repotting": [
+      "Bromeliads rarely need a bigger pot. Clemson says Neoregelia does best underpotted, and UF/IFAS notes their limited root systems serve mainly as anchors. Repot only when a heavy plant keeps tipping over, when pups crowd the base, or when the mix has broken down and stays soggy. Do it in spring or summer, the season Clemson recommends for indoor plants, using a pot just large enough to hold the plant upright, and weight a light pot with a heavier outer container."
+    ],
+    "propagation": [
+      "Pups are the way to keep a bromeliad going. After flowering, the parent rosette declines and dies, but it first produces offsets at its base. NC State advises waiting until Aechmea pups are about 6 inches tall before separating them; cut each one away with a clean knife, keeping any roots, and pot it in fresh mix. You can also leave pups attached to form a clump. NC State notes that Vriesea pups take 3 to 5 years to bloom. To force a mature plant into flower, Clemson suggests sealing it in a clear plastic bag with a ripe apple for two to three days; blooms follow in six to fourteen weeks."
+    ],
+    "problems": [
+      "In the home, Clemson says disease is rarely a problem; too much or too little water, plus insects and mites, cause most trouble. Root rot comes from a mix that drains slowly or from watering the soil too often. Scale and mealybugs are the most frequent pests, hiding at leaf bases. NC State adds leaf spots and spider mites for Guzmania, and bacterial soft rot for Vriesea. Outdoors in summer, UF/IFAS warns that some mosquitoes breed in bromeliad cups, another reason to flush them regularly."
+    ],
+    "petSafety": [
+      "The ASPCA lists several bromeliads, all as non-toxic to cats and dogs: Neoregelia (also listed as blushing bromeliad and crimson cup), two Guzmania entries (mosaic vase and orange star) and Cryptanthus earth stars. NC State also tags Guzmania lingulata and Aechmea fasciata as non-toxic for cats and dogs. Be aware of the gaps: the ASPCA has no entry for Aechmea or Vriesea, and NC State's flaming sword profile gives no toxicity rating, so for those two genera the reassurance rests on NC State's Aechmea tag and the family's record rather than on a specific ASPCA review. Spiny leaf edges on Aechmea can still scratch a curious pet."
+    ],
+    "faq": [
+      {
+        "q": "Should I pour water into the center of my bromeliad?",
+        "a": "Yes, for cup-forming types. Clemson Extension says to keep the central tank filled, and NC State suggests about an inch of water in the Aechmea cup, replaced once a month. Use fresh water, avoid soaking the soil while filling, and flush the cup now and then. Earth stars and air plants have no cup and are watered differently."
+      },
+      {
+        "q": "Why is my bromeliad dying after it flowered?",
+        "a": "Because that is its life cycle. Each bromeliad rosette blooms once, and Clemson Extension explains that the parent plant dies after flowering while producing pups at its base. Keep watering and give it light until the pups grow. NC State suggests separating Aechmea pups once they reach about 6 inches tall, then removing the old rosette."
+      },
+      {
+        "q": "How can I get a bromeliad pup to bloom?",
+        "a": "Patience first: NC State says Vriesea pups take 3 to 5 years to flower, and Aechmea matures in a similar time. Once a pup is full-sized, Clemson Extension suggests enclosing it in a clear plastic bag with a ripe apple for two to three days. Depending on the type, Clemson says flowering begins six to fourteen weeks later."
+      },
+      {
+        "q": "Can a bromeliad grow in a bathroom with no direct sun?",
+        "a": "Many can, as long as the room has a bright window. Bathrooms supply the humid air Clemson Extension says bromeliads need, and UF/IFAS recommends bright, diffused light rather than direct sun. Guzmania is the best choice, since NC State says it grows in part to full shade and under artificial light. Neoregelia needs more light to keep its color."
+      },
+      {
+        "q": "Do bromeliads in outdoor pots breed mosquitoes?",
+        "a": "They can. UF/IFAS notes that some mosquito species breed specifically in the water held in bromeliad cups. Flush the cups with fresh water regularly to wash out larvae, or sprinkle in granules of Bacillus thuringiensis israelensis, the Bti strain that targets mosquito larvae. Indoors, changing the cup water monthly, as NC State advises for Aechmea, prevents the problem."
+      }
+    ]
+  }
+}

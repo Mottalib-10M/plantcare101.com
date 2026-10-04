@@ -1,0 +1,349 @@
+{
+  "slug": "areca-palm",
+  "commonName": "Areca palm",
+  "otherNames": [
+    "Yellow butterfly palm",
+    "Golden cane palm",
+    "Golden feather palm"
+  ],
+  "botanicalName": "Chrysalidocarpus lutescens",
+  "formerNames": [
+    "Dypsis lutescens"
+  ],
+  "family": "Arecaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "east",
+      "west",
+      "south"
+    ],
+    "directSun": "avoid",
+    "src": [
+      0,
+      1,
+      3,
+      5
+    ]
+  },
+  "water": {
+    "rule": "top-inch",
+    "ruleText": "Water thoroughly when the surface of the mix dries; keep it moist but never soggy during the growing season",
+    "winter": "Growth slows in short days and the mix dries more slowly; keep checking the surface and water only when it has dried, without letting the root ball go dry.",
+    "factors": [
+      "NC State asks for mix kept moist but not soggy; Clemson warns palms should never dry out or stand in water.",
+      "A clump of many canes in one pot uses water quickly in summer, especially in a bright window.",
+      "Tap water heavy in salts and frequent feeding combine to burn leaflet tips; flush the pot now and then."
+    ],
+    "src": [
+      0,
+      1,
+      7
+    ]
+  },
+  "soil": {
+    "mix": "A well-drained, organic potting mix that holds moisture without staying wet; UF/IFAS notes the palm prefers fertile, acid conditions.",
+    "components": [
+      "peat- or coir-based potting mix",
+      "pine bark fines",
+      "perlite"
+    ],
+    "src": [
+      0,
+      1,
+      2,
+      6
+    ]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "NC State recommends high humidity and a humidifier if needed; Clemson suggests a gravel tray or humidifier when indoor humidity falls below 50 percent.",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "temperature": {
+    "idealF": [
+      65,
+      85
+    ],
+    "idealC": [
+      18,
+      29
+    ],
+    "minF": 65,
+    "minC": 18,
+    "src": [
+      1
+    ]
+  },
+  "fertilizer": {
+    "season": "Spring and summer, while new fronds are growing",
+    "everyWeeks": [
+      8,
+      13
+    ],
+    "strength": "full",
+    "type": "Slow-release palm fertilizer such as 12-4-12 or 8-2-12 that contains micronutrients (iron, manganese, zinc, boron, copper), two or three times a season",
+    "winter": "none",
+    "src": [
+      1,
+      6
+    ]
+  },
+  "repotting": {
+    "everyYears": [
+      2,
+      3
+    ],
+    "signs": [
+      "Roots fill the pot and push up at the surface or out of the drainage hole",
+      "The mix dries out within a day or two of a thorough watering",
+      "The clump of canes presses against the pot rim"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": true,
+    "src": [
+      0,
+      1,
+      8
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "mildly-toxic",
+    "humanNote": "NC State rates poison severity as low: the heart of palm (growing tip) contains cyanogenic compounds and should not be eaten; symptoms are nausea and vomiting.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Areca Palm (Dypsis lutescens)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm"
+      }
+    ],
+    "src": [
+      0,
+      4
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "webbing",
+      "symptom": "Fine webs and pale stippling on the leaflets",
+      "causeKey": "pests",
+      "cause": "Spider mites, to which Clemson says areca palms are very susceptible",
+      "remedy": "Shower the whole plant, wipe both sides of the leaflets, raise humidity, and repeat weekly until no new webbing forms."
+    },
+    {
+      "symptomKey": "sticky-leaves",
+      "symptom": "Sticky leaflets, black sooty film, small bumps on the canes",
+      "causeKey": "pests",
+      "cause": "Scale insects, which UF/IFAS says are often followed by sooty mold",
+      "remedy": "Scrape off scales with a fingernail or soft brush, wipe the honeydew away, and treat with horticultural oil or insecticidal soap."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Oldest fronds turn uniformly pale, petioles go golden yellow",
+      "causeKey": "nutrient-deficiency",
+      "cause": "Nitrogen deficiency, which UF/IFAS identifies as the cause of golden petioles on potted areca palms",
+      "remedy": "Feed with a palm fertilizer containing nitrogen and micronutrients in spring and summer; new fronds will come in green."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Translucent yellow-orange spots and frizzled brown tips on the oldest fronds",
+      "causeKey": "nutrient-deficiency",
+      "cause": "Potassium deficiency, described by UF/IFAS on areca palm",
+      "remedy": "Use a palm fertilizer with a high potassium number such as 8-2-12; damaged fronds stay marked, so judge progress on new growth."
+    },
+    {
+      "symptomKey": "brown-tips",
+      "symptom": "Brown tips spreading along many leaflets",
+      "causeKey": "low-humidity",
+      "cause": "Dry air or a pot allowed to dry out",
+      "remedy": "Water as soon as the surface dries, add a humidifier or gravel tray, and trim dead tips with clean scissors."
+    },
+    {
+      "symptomKey": "root-rot",
+      "symptom": "Canes yellow and loosen at the base, mix stays wet and sour",
+      "causeKey": "overwatering",
+      "cause": "Root rot from mix that does not drain or a saucer full of water",
+      "remedy": "Unpot, remove soft dark roots and dead canes, and replant in fresh porous mix in a pot with a drainage hole."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Division of the clump",
+      "Seed"
+    ],
+    "season": "Spring or early summer"
+  },
+  "size": {
+    "heightIn": [
+      72,
+      84
+    ],
+    "growth": "moderate",
+    "note": "Clemson gives 6 to 7 feet indoors and 6 to 10 inches of growth a year; outdoors in the tropics UF/IFAS lists 20 to 30 feet.",
+    "src": [
+      1,
+      2
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Dwarf and fastigiate selections",
+      "note": "NC State reports compact and narrow forms bred in Thailand, very rarely available in the US."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Chrysalidocarpus lutescens (Areca Palm)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/dypsis-lutescens/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Palms (HGIC 1508)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-palms/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Dypsis lutescens: Yellow Butterfly Palm (ENH324)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://edis.ifas.ufl.edu/publication/ST165",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Areca Palm",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/areca-palm",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Cleaning, Fertilizing, Containers and Light Requirements (HGIC 1450)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Nutrition and Fertilization of Palms in Containers (ENH1010)",
+      "publisher": "UF/IFAS Extension, EDIS",
+      "url": "https://edis.ifas.ufl.edu/publication/EP262",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Indoor Plants: Transplanting and Repotting (HGIC 1458)",
+      "publisher": "Clemson Cooperative Extension, Home & Garden Information Center",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Division",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/division",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "parlor-palm",
+    "majesty-palm",
+    "bird-of-paradise",
+    "fiddle-leaf-fig",
+    "boston-fern",
+    "money-tree"
+  ],
+  "seo": {
+    "title": "Areca Palm Care: Bright Light, Water and Feeding (2026)",
+    "description": "Areca palm care in 2026: bright indirect light, nights of 65 to 70°F, moist but never soggy mix, and palm fertilizer two or three times a year. Spider mite fix.",
+    "h1": "Areca palm care: light, water and feeding"
+  },
+  "content": {
+    "answer": "Areca palms need bright, indirect light from an east, west or south window, mix that stays moist but never soggy, and high humidity. Clemson Extension gives ideal temperatures of 65 to 70°F at night and 75 to 85°F by day.",
+    "intro": "The areca palm is a clustering feather palm from Madagascar that sends up many slender, ringed canes from one base, each topped with arching yellow-green fronds. NC State Extension now lists it as Chrysalidocarpus lutescens, the same name Clemson's older fact sheet uses, after a period under Dypsis lutescens, which is still the name on the ASPCA list and many plant tags. In the wild it reaches 20 to 30 feet, and even in a pot Clemson Extension expects 6 to 7 feet with 6 to 10 inches of new growth a year, which makes it one of the fastest indoor palms. That speed comes at a price. The areca needs more light than a parlor palm, steady moisture, warmth, humid air and regular feeding, and it is a magnet for spider mites when the air turns dry. Meet those needs and it fills a bright corner like no other houseplant.",
+    "light": [
+      "Arecas are sun palms in the wild, and they bring that appetite indoors. Clemson recommends bright indirect light near an east, west or south window, and NC State says the same. On the Illinois Extension scale that means medium light at the very least, about 150 foot-candles, and the high band of around 300 foot-candles for real growth. In a dim room the canes stop producing fronds, the crown thins as old fronds die, and the plant slowly declines over a season or two.",
+      "Strong midday sun through glass is another matter. Outdoors the palm tolerates full sun, but UF/IFAS notes that young palms in full sun develop yellow leaves and benefit from shade until they are several feet tall. Indoors, place the pot a few feet back from a south or west window or behind a sheer curtain, and if you summer it outside, follow Clemson's advice to step it up to brighter light gradually and keep it out of direct sun."
+    ],
+    "water": [
+      "NC State asks for mix that stays moist but not soggy through the growing season, and Clemson's palm rule is to water thoroughly when the surface dries, never let the pot dry out, and never let it stand in water. A finger pushed an inch into the mix tells you when: dry at that depth means water until it runs from the drainage hole, then empty the saucer within half an hour. A big clump of canes in a sunny window can use water surprisingly fast in July.",
+      "The areca is sensitive to what is in the water as well as how much. Fertilizer salts and minerals from hard tap water collect in the mix and burn the leaflet tips. The Illinois Extension suggests leaching houseplant pots every 4 to 6 months by running a large volume of plain water through and letting it drain completely. Rainwater or filtered water helps if your tap water leaves white crust on the pot rim.",
+      "In winter the palm slows and the mix stays wet longer. Keep checking the top inch instead of keeping a summer rhythm, and keep the pot away from cold glass where wet roots chill."
+    ],
+    "soil": [
+      "NC State recommends a well-drained potting soil. UF/IFAS notes that in the ground the palm prefers fertile, well-drained, acid soil, and Clemson asks for a porous palm mix with plenty of organic matter so it holds water and still drains. A peat- or coir-based mix lightened with pine bark fines and perlite fits that description. As organic mixes age they break down into poorly aerated muck, which UF/IFAS links to iron deficiency in long-potted palms, another reason not to leave an areca in the same mix for many years."
+    ],
+    "humidity": [
+      "This is the palm that suffers most in a heated apartment. NC State recommends high humidity and a humidifier if needed. Clemson suggests filling the pot saucer with gravel and water once indoor humidity drops below 50 percent, or using a room humidifier. Dry air does double damage: leaflet tips brown, and spider mites, which Clemson says attack areca palms readily, multiply fastest in warm, dry rooms."
+    ],
+    "temperature": [
+      "Clemson gives the ideal range as 65 to 70°F at night and 75 to 85°F during the day, which is warmer than most palms need. Normal room temperatures meet it in summer; in winter, keep the plant away from drafty doors, windows and air-conditioning vents. Clemson notes that most indoor palms suffer chilling damage below 45°F, with reddish-brown dead areas appearing a few days later, but Clemson's ideal night range for this palm starts at 65°F, so treat that as the floor."
+    ],
+    "fertilizer": [
+      "Fast growth means real nutrient demand. UF/IFAS lists nitrogen as the element most often in short supply for potted palms and points out that the golden petioles common on container-grown arecas are a nitrogen-deficiency symptom, not a variety trait. Clemson recommends a slow-release palm fertilizer with an analysis like 12-4-12 or 8-2-12, containing micronutrients such as iron, manganese, zinc, boron and copper, applied two to three times a year during spring and summer. More is not better: excess fertilizer browns lower leaf tips."
+    ],
+    "repotting": [
+      "NC State says to repot every 2 or 3 years. Clemson adds that palms do best with somewhat confined roots and warns that their root systems are fragile, so tease the root ball apart as little as possible. Move up in spring or early summer, when roots fill the pot or the mix dries out within a day or two, and go only 1 to 2 inches wider. A heavy pot helps keep a tall clump from tipping."
+    ],
+    "propagation": [
+      "Unlike a single-stemmed palm, the areca forms a true clump, and NC State recommends division or seed. In spring, unpot a large plant and cut the root mass into sections with a sharp knife so each has several canes and a good share of roots, as the Illinois Extension describes for clumping plants. Pot each division at once in fresh mix and keep it warm, humid and out of direct sun while it recovers. Seed is how nurseries start the palm, but plants indoors rarely flower or fruit."
+    ],
+    "problems": [
+      "Spider mites top the list. Clemson calls areca palms very susceptible, and NC State adds scale and whiteflies; UF/IFAS notes that scale is often followed by black sooty mold growing on the honeydew. Inspect the undersides of leaflets whenever you water. The other common complaints are nutritional, and the pattern on the fronds tells you which: uniform paling of the oldest fronds points to nitrogen, while translucent yellow-orange spotting with frizzled tips on old fronds is the potassium deficiency UF/IFAS describes on this species."
+    ],
+    "petSafety": [
+      "The ASPCA lists the areca palm, under Dypsis lutescens, as non-toxic to cats, dogs and horses, so a pet chewing the fronds is not a poisoning emergency. For people, NC State notes one caution: the heart of palm, meaning the growing tip and young leaf buds, contains cyanogenic compounds and should not be eaten, with nausea and vomiting as the symptoms. That part is buried in the crown and does not come off with a nibbled leaflet."
+    ],
+    "faq": [
+      {
+        "q": "Why are the stems of my areca palm turning golden yellow?",
+        "a": "Golden petioles and leaf bases on a potted areca palm are a nitrogen-deficiency symptom, according to UF/IFAS research on palms in containers. Many people assume it is the natural color of the variety. Feed with a slow-release palm fertilizer that contains nitrogen and micronutrients in spring and summer, and the new fronds should emerge a healthier green."
+      },
+      {
+        "q": "Is it Dypsis lutescens or Chrysalidocarpus lutescens for the areca palm?",
+        "a": "Both names refer to the same plant. NC State now lists it as Chrysalidocarpus lutescens, with Dypsis lutescens as the former name, while the ASPCA and UF/IFAS still use Dypsis lutescens. Plant tags vary too. Care does not change with the name, so search under both when looking up pests or toxicity."
+      },
+      {
+        "q": "How fast does an areca palm grow indoors?",
+        "a": "Clemson says areca palms grow 6 to 10 inches a year indoors and reach 6 to 7 feet, often outgrowing the space set aside for them. Growth depends on light: in a bright window it pushes new canes steadily, while in a dim room it barely moves. Plan for a tall, wide clump before you buy a large one."
+      },
+      {
+        "q": "Can I split an overgrown areca palm into smaller plants?",
+        "a": "Yes. NC State lists division as a recommended way to propagate the areca palm. In spring, unpot it and cut the root mass into sections with a sharp knife, keeping several canes and plenty of roots in each. Pot the pieces right away, keep them warm and humid, and expect some brown fronds while they settle."
+      },
+      {
+        "q": "Why does my areca palm keep getting spider mites?",
+        "a": "Clemson calls areca palms very susceptible to spider mites, and the mites breed fastest in warm, dry indoor air. Raise humidity with a humidifier or gravel tray, rinse the fronds in the shower every few weeks, and check the undersides of the leaflets for fine webbing whenever you water the areca palm."
+      }
+    ]
+  }
+}

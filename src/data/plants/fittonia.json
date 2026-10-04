@@ -1,0 +1,338 @@
+{
+  "slug": "fittonia",
+  "commonName": "Fittonia",
+  "otherNames": [
+    "Nerve plant",
+    "Mosaic plant",
+    "Silver nerve",
+    "Jewel plant",
+    "Silver threads"
+  ],
+  "botanicalName": "Fittonia albivenis",
+  "formerNames": [
+    "Fittonia verschaffeltii",
+    "Fittonia argyroneura"
+  ],
+  "family": "Acanthaceae",
+  "kind": "foliage",
+  "isGroup": false,
+  "light": {
+    "minLevel": "medium",
+    "idealLevel": "high",
+    "maxLevel": "high",
+    "fc": [
+      150,
+      300
+    ],
+    "lux": [
+      1615,
+      3229
+    ],
+    "windows": [
+      "east",
+      "north"
+    ],
+    "directSun": "avoid",
+    "src": [
+      0,
+      1,
+      4
+    ]
+  },
+  "water": {
+    "rule": "evenly-moist",
+    "ruleText": "Keep the potting mix lightly and evenly moist, never soggy and never bone dry",
+    "winter": "Missouri Botanical Garden advises regular, moderate watering through the year; in a cooler, dimmer winter room the mix dries more slowly, so test it before each watering.",
+    "factors": [
+      "The shallow roots in a small pot dry out fast, and NC State notes the plant wilts dramatically when too dry, then recovers after a drink.",
+      "Yellowing leaves point to overwatering, according to both NC State and Missouri Botanical Garden.",
+      "Repeated collapses weaken the plant even though each one looks reversible, so aim to water just before it flops."
+    ],
+    "src": [
+      0,
+      1,
+      6
+    ]
+  },
+  "soil": {
+    "mix": "A peaty or soil-based potting mix that holds moisture but drains well, in a small pot with a drainage hole.",
+    "components": [
+      "peat-based houseplant mix",
+      "a little perlite for drainage"
+    ],
+    "src": [
+      0,
+      1
+    ]
+  },
+  "humidity": {
+    "level": "high",
+    "note": "Missouri Botanical Garden asks for high humidity and links withered leaves to dry air; NC State lists medium humidity and warns that air that is too humid can also wither leaves.",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "temperature": {
+    "minF": 55,
+    "minC": 13,
+    "src": [
+      0,
+      1
+    ]
+  },
+  "fertilizer": {
+    "season": "March to September, while the plant is growing",
+    "everyWeeks": [
+      4,
+      13
+    ],
+    "strength": "full",
+    "type": "Houseplant fertilizer, balanced (10-10-10) or 1:2:1 (10-20-10), at the label rate and never stronger",
+    "winter": "none",
+    "src": [
+      5
+    ]
+  },
+  "repotting": {
+    "signs": [
+      "Water runs straight through and the plant wilts sooner than it used to",
+      "Roots appear on the surface or through the drainage hole",
+      "Creeping stems have rooted over the rim into neighboring pots"
+    ],
+    "season": "Spring or early summer",
+    "rootType": "fibrous",
+    "prefersSnug": true,
+    "src": [
+      0,
+      7
+    ]
+  },
+  "toxicity": {
+    "cats": "non-toxic",
+    "dogs": "non-toxic",
+    "humans": "unknown",
+    "humanNote": "The ASPCA lists the nerve plant as non-toxic to cats, dogs and horses; none of the sources consulted rates it for people, so keep it away from small children anyway.",
+    "aspcaListed": true,
+    "aspca": [
+      {
+        "name": "Nerve Plant (Fittonia verschaffeltii)",
+        "cats": "non-toxic",
+        "dogs": "non-toxic",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/nerve-plant",
+        "toxicPrinciples": "Non-toxic"
+      }
+    ],
+    "src": [
+      0,
+      3
+    ]
+  },
+  "problems": [
+    {
+      "symptomKey": "drooping",
+      "symptom": "The whole plant collapses flat over the rim of the pot",
+      "causeKey": "underwatering",
+      "cause": "Shallow roots ran out of water in a small pot",
+      "remedy": "Water thoroughly at once; the stems usually stand back up within hours. Check the mix more often from then on."
+    },
+    {
+      "symptomKey": "yellow-leaves",
+      "symptom": "Lower leaves turn yellow and the stems feel soft at the base",
+      "causeKey": "overwatering",
+      "cause": "Mix kept wet with no air around the roots, which leads to rot",
+      "remedy": "Let the surface dry slightly, empty the saucer, and repot into fresh mix if the roots are brown and mushy."
+    },
+    {
+      "symptomKey": "leaf-drop",
+      "symptom": "Leaves shrivel and fall even though the soil is moist",
+      "causeKey": "low-humidity",
+      "cause": "Dry air or drafts, which NC State names along with direct sun",
+      "remedy": "Move the pot away from vents and doors, group it with other plants or grow it in a terrarium."
+    },
+    {
+      "symptomKey": "brown-spots",
+      "symptom": "Bleached or brown scorched patches on top leaves",
+      "causeKey": "too-much-sun",
+      "cause": "Direct sun through glass",
+      "remedy": "Shift it to bright indirect light, such as an east or north window, and trim the damaged leaves."
+    },
+    {
+      "symptomKey": "leggy-growth",
+      "symptom": "Long bare stems with small leaves only at the tips",
+      "causeKey": "low-light",
+      "cause": "Too little light, or stems never pinched",
+      "remedy": "Pinch stem tips regularly and give it brighter indirect light; root the trimmings to fill the pot."
+    },
+    {
+      "symptomKey": "white-cotton",
+      "symptom": "White fluffy clusters in the leaf joints",
+      "causeKey": "pests",
+      "cause": "Mealybugs, listed by NC State with scale, spider mites and slugs",
+      "remedy": "Remove them with a cotton swab dipped in rubbing alcohol and repeat until no new tufts appear."
+    }
+  ],
+  "propagation": {
+    "methods": [
+      "Stem cuttings",
+      "Rooted creeping stems (layering)"
+    ],
+    "season": "Spring to summer"
+  },
+  "size": {
+    "heightIn": [
+      3,
+      8
+    ],
+    "widthIn": [
+      6,
+      18
+    ],
+    "growth": "slow",
+    "src": [
+      0,
+      1
+    ]
+  },
+  "varieties": [
+    {
+      "name": "Argyroneura Group",
+      "note": "White or silver veins on deep green leaves, the classic silver nerve plant (Missouri Botanical Garden)."
+    },
+    {
+      "name": "Verschaffeltii Group",
+      "note": "Red or pink venation, sold as red or pink nerve plant."
+    },
+    {
+      "name": "Dwarf forms",
+      "note": "Compact plants that NC State and Missouri Botanical Garden recommend for terrariums."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fittonia albivenis (Nerve Plant)",
+      "publisher": "North Carolina Extension Gardener Plant Toolbox, NC State University",
+      "url": "https://plants.ces.ncsu.edu/plants/fittonia-albivenis/",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Fittonia albivenis (Verschaffeltii Group)",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=260587",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Fittonia albivenis (Argyroneura Group)",
+      "publisher": "Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=263705",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Nerve Plant",
+      "publisher": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/nerve-plant",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Lighting for houseplants",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/lighting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Houseplant care",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/care",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Watering",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Repotting",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/repotting",
+      "accessed": "2026-10-04"
+    },
+    {
+      "title": "Cuttings",
+      "publisher": "University of Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/cuttings",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "verified": "2026-10-04",
+  "related": [
+    "polka-dot-plant",
+    "calathea",
+    "prayer-plant",
+    "begonia"
+  ],
+  "seo": {
+    "title": "Fittonia Care: Nerve Plant Wilting, Water & Humidity (2026)",
+    "description": "Fittonia care for 2026: keep the mix evenly moist, light bright but indirect, rooms above 55°F. Why nerve plants faint when dry and how to revive one. Pet-safe.",
+    "h1": "Fittonia care: keeping a nerve plant from fainting"
+  },
+  "content": {
+    "answer": "Keep a fittonia's mix evenly moist, give it bright indirect light from an east or north window, and hold the room above 55°F. It faints flat when dry and revives after watering, but repeated collapses weaken it.",
+    "intro": "Fittonia albivenis, the nerve plant, is a creeping evergreen from the rainforest floor of Colombia, Peru and neighboring parts of South America, where it grows in shade, warmth and constant moisture. Indoors it stays small, 3 to 8 inches tall according to NC State Extension, and is grown for the white, pink or red veins netted across its olive-green leaves. It is also famous for fainting. When the mix runs dry, every stem drops flat over the pot rim, and NC State confirms that a plant that gets too dry wilts dramatically but comes back after a drink. That reliable recovery makes fittonia a good teacher, since it tells you exactly when it is thirsty, but a plant that collapses every week loses leaves and vigor. The goal is steady moisture, bright indirect light, humid air and temperatures that never dip below 55°F.",
+    "light": [
+      "Bright, indirect light is the target. Missouri Botanical Garden recommends an east or north window, or dappled light, and says to avoid direct sun; NC State says the plant thrives in bright to medium light and does well under fluorescent fixtures. On the University of Illinois Extension scale, that is roughly 150 to 300 foot-candles. Its rainforest-floor origin explains both limits: in deep shade the stems stretch and the veins fade, while direct sun through glass scorches the thin leaves.",
+      "Because fittonia handles artificial light so well, a shelf under an LED grow light or a closed terrarium on a desk is a perfectly good home. Watch the top leaves for bleached patches, the first sign that a lamp sits too close or a sunny window is too strong."
+    ],
+    "water": [
+      "Fittonia wants a mix that stays lightly moist all the time. Its roots are shallow, NC State notes, so it lives in a small pot that holds little water and dries quickly in a warm room. Check the surface with a fingertip: as soon as it feels dry, water slowly until it drains from the bottom, then tip out the saucer. NC State goes as far as recommending watering two times a week, which suits a small pot in a warm, bright spot but can be too much in a cool room, so let the feel of the soil decide.",
+      "The famous faint is the plant's emergency signal. Stems lose turgor, leaves hang limp and the whole thing looks finished. Water at once, ideally by setting the pot in a bowl of room-temperature water until the surface of the mix darkens, and it usually stands back up within a few hours. Do not make this the routine. Each collapse costs a few lower leaves, which turn crisp and drop over the following days.",
+      "The opposite mistake shows more slowly. Missouri Botanical Garden and NC State both read yellowing leaves as a sign of overwatering, and NC State lists root rot among its problems. Soggy mix in a pot without drainage, or a saucer left full, suffocates the fine roots. Moist is right; wet is not."
+    ],
+    "soil": [
+      "Missouri Botanical Garden suggests growing fittonia in a peaty or soil-based potting mixture, and NC State simply asks for well-drained potting soil. A standard peat-based houseplant mix with a small amount of perlite holds moisture between waterings without staying waterlogged. Choose a shallow, small pot with a drainage hole; the roots never need depth, and a large volume of mix stays wet too long."
+    ],
+    "humidity": [
+      "Humidity is where the sources pull in different directions. Missouri Botanical Garden says fittonia prefers high humidity and that withering leaves may signal a need for more, recommending a humidifier, a wet pebble tray or misting. NC State describes medium humidity as enough and adds that leaves may wither if humidity is too high. In practice, dry heated air in winter, which the University of Illinois Extension puts below 30 percent in most homes, is the far more common problem. Grouping plants or using a humidifier helps, and dwarf forms thrive in a terrarium, as long as some air moves and condensation does not sit on the leaves for days."
+    ],
+    "temperature": [
+      "Missouri Botanical Garden says room temperature should always stay above 55°F (13°C), and NC State describes average to cool room temperatures as ideal. Fittonia dislikes drafts in either direction: NC State lists drafts with dry air and direct sun as reasons leaves shrivel and fall. Keep it away from exterior doors, air conditioner outlets and radiators, and off a cold windowsill on winter nights."
+    ],
+    "fertilizer": [
+      "A slow-growing groundcover needs very little food. The University of Illinois Extension recommends feeding most houseplants no more than once every one to three months between March and September with a balanced or 1:2:1 fertilizer at the label rate, and that general rule fits fittonia well. Its small root system in a small pot is easy to burn, so stay at the low end and flush the pot with plain water now and then to clear salts."
+    ],
+    "repotting": [
+      "NC State notes that the roots are shallow, so a fittonia can stay in a small pot for a long time. Move it up only when roots fill the pot or the plant starts fainting much sooner after each watering, two of the signs the University of Illinois Extension lists. Spring or early summer is the best time. Go just one size up and keep the planting depth the same, and consider dividing or taking cuttings instead if the plant has become sparse in the middle."
+    ],
+    "propagation": [
+      "Stem cuttings are NC State's recommended method, and the creeping stems make it even easier because they root on their own wherever a node touches moist soil. Snip a tip 3 to 6 inches long with at least two nodes, the University of Illinois Extension guideline, strip the lowest pair of leaves, and insert it in damp mix under a clear cover. Tender, juicy stems like these often root within a week. Pinning a trailing stem to a second pot and cutting it free once rooted works too."
+    ],
+    "problems": [
+      "Almost every fittonia problem is about moisture, either in the soil or the air. Collapse means thirst; yellow leaves mean the reverse. Shriveling leaves on a plant in moist mix point to dry air, drafts or direct sun, the three causes NC State names. Missouri Botanical Garden and NC State both list mealybugs, scale, spider mites and slugs as pests, and leaf spots as a disease risk. Pinch stem tips to keep the plant dense, and remove the small flower spikes if you want the energy to go to the leaves."
+    ],
+    "petSafety": [
+      "The nerve plant is one of the safer choices for a home with animals. The ASPCA lists it under the older name Fittonia verschaffeltii as non-toxic to dogs, cats and horses, and NC State tags it the same way. A cat that chews the leaves may still vomit from the plant material itself, as with any foliage, but no toxic principle is recorded. None of the sources gives a rating for people, so keep it out of reach of toddlers as a matter of habit."
+    ],
+    "faq": [
+      {
+        "q": "My fittonia collapsed completely; is it dead?",
+        "a": "Probably not. NC State notes that a nerve plant that gets too dry wilts dramatically but comes back after a drink. Stand the pot in room-temperature water until the surface of the mix darkens, then let it drain. Most plants stand back up within a few hours. If it stays limp the next day and the mix was already wet, suspect root rot rather than thirst."
+      },
+      {
+        "q": "Why do my fittonia leaves turn crispy after it recovers from wilting?",
+        "a": "Each collapse damages some of the leaf tissue, and those leaves often brown and drop a few days later even though the plant revives. Lower leaves usually go first. Trim them off and focus on watering before the next faint. A self-watering pot, a terrarium, or simply checking the surface of the mix more often keeps the cycle from repeating."
+      },
+      {
+        "q": "Can a fittonia live in a closed terrarium?",
+        "a": "Yes, dwarf forms are a classic terrarium plant, recommended by both NC State and Missouri Botanical Garden. The enclosed air solves the humidity problem. Give the terrarium bright indirect light, never direct sun, which overheats the glass. Open the lid if condensation stays heavy for days, since NC State warns that excessively humid air can also make the leaves wither."
+      },
+      {
+        "q": "What is the difference between red and white nerve plants?",
+        "a": "Care is the same. Missouri Botanical Garden separates the Argyroneura Group, with white or silver veins, from the Verschaffeltii Group, with red or pink veins; both belong to Fittonia albivenis. Pink and red forms tend to show their color best in bright indirect light. Both are listed as non-toxic to pets by the ASPCA."
+      },
+      {
+        "q": "Should I cut the flower spikes off my nerve plant?",
+        "a": "You can. NC State describes the flowers as insignificant: small white tubes peeking from a 3-inch spike of overlapping bracts, and notes that indoor plants often do not bloom at all. Missouri Botanical Garden says many growers pinch off the buds. Removing them, together with regular tip pinching, keeps the plant compact and leafy."
+      }
+    ]
+  }
+}

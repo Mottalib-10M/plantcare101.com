@@ -22,12 +22,13 @@ export const THEME_COLOR = '#2D6A45';
 export const LOGO_SYMBOL = 'leaf';
 export const BING_VERIFY_CODE = '';
 export const GOOGLE_VERIFY_CODE = '';
-/** Régime de consentement : 'opt-in' = rien avant l'accord (UE, Suisse) ;
- *  'notice' = mesure d'audience active avec information préalable et retrait (CA, AU). */
+/** Régime de consentement. 'none' = choix de l'éditeur : aucun bandeau, la mesure
+ *  d'audience se charge à l'ouverture de la page et n'est décrite que dans les pages
+ *  cookies et confidentialité. */
 export const CONSENT_MODE: 'opt-in' | 'notice' | 'none' = 'none';
-export const GA4_ID = '';
-/** Projet Microsoft Clarity (compte amradif). Vide = aucun traceur ni bandeau. */
-export const CLARITY_ID = '';
+export const GA4_ID = 'G-E9EV1P52L4';
+/** Projet Microsoft Clarity (compte amradif). */
+export const CLARITY_ID = 'ysy2vg19g5';
 export const INDEXNOW_KEY = '7c2e9a41f05b4d6e8a3c1b7f92d4e058';
 
 /* ------------------------------------------------------------------------- *

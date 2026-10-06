@@ -4,25 +4,21 @@ import { route } from '../i18n/routes';
 import { breadcrumbSchema } from '../lib/seo';
 import { CONTACT_EMAIL } from '../data/site-config';
 const lang = 'en';
-const updated = '2026-10-05';
+const updated = '2026-10-06';
 ---
-<PageLayout title="Cookies on PlantCare101: Microsoft Clarity and Google GA4" description="Cookies on PlantCare101: Microsoft Clarity and Google Analytics 4 load without a banner; what each cookie does, how long it lasts and how to block them." lang={lang} noindex={true} jsonLd={[breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Cookies', path: route('cookies', lang) }])]} breadcrumbs={[{ label: 'Cookies' }]}>
+<PageLayout title="Cookies on PlantCare101: None, Even in the Plant Tools" description="PlantCare101 sets no cookies and saves no plant settings on your device; Microsoft Clarity runs cookieless only to catch errors in the guides and tools." lang={lang} noindex={true} jsonLd={[breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Cookies', path: route('cookies', lang) }])]} breadcrumbs={[{ label: 'Cookies' }]}>
   <header class="mb-6"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">Cookies</h1></header>
   <div class="prose prose-slate max-w-none">
-    <p>This page lists the cookies set when you visit PlantCare101 and explains how to block them. It complements the <a href={route('privacy', lang)}>privacy policy</a>.</p>
-    <h2>The plant tools need none</h2>
-    <p>The watering calculator, the pet-safe plant checker, the light finder, the fertilizer dilution calculator and the diagnosis tool run in your browser. The plant, pot size, light and season you choose are kept in the page itself, and in the address bar when you use the share link of the watering calculator, never in a cookie. The only cookies on the site come from the audience measurement below.</p>
-    <h2>Audience measurement</h2>
-    <h3>Microsoft Clarity</h3>
-    <p>Clarity loads as soon as a page opens; the site shows no consent banner. It tells us how the plant guides and tools are really used, through session recordings (clicks, scrolling, movement on the page) and heatmaps. What you type into fields, such as a plant name in the pet-safe checker, is masked in your browser before anything is sent. Cookies set: <code>_clck</code> (one year) and <code>_clsk</code> (one day); Microsoft may also set <code>MUID</code> and <code>CLID</code> on its own domains.</p>
-    <h3>Google Analytics 4</h3>
-    <p>Google Analytics 4, provided by Google Ireland Limited, loads the same way, without a banner. It counts page views and shows where visits come from, how long they last, which kind of device is used and the approximate location. Cookies set: <code>_ga</code> and <code>_ga_E9EV1P52L4</code>, two years each. Data is kept for 14 months.</p>
-    <h3>Advertising and social media</h3>
-    <p>The site shows no advertising and loads no social media button, so no advertising cookie is set.</p>
+    <p>PlantCare101 drops no cookie in your browser: not one of its own, not one from a partner. So there is no pop-up to dismiss before you check whether a pothos is safe for your cat. This page sits alongside the <a href={route('privacy', lang)}>privacy policy</a>.</p>
+    <h2>The plant tools keep nothing on your device</h2>
+    <p>The watering calculator, the pet-safe plant checker, the light finder, the fertilizer dilution calculator and the diagnosis tool run in your browser. The plant, pot size, light, season or symptom you pick stays in the page, and in the address bar when you share a watering result. None of it goes into a cookie, local storage or session storage.</p>
+    <h2>Microsoft Clarity without cookies</h2>
+    <p>One technical script runs on the guides and tools: Microsoft Clarity, used to find out when something breaks. Before it loads, the page tells it that storage is refused, so it writes no <code>_clck</code> or <code>_clsk</code> cookie and Microsoft sets no <code>MUID</code> or <code>CLID</code>. Each page view receives its own short-lived identifier, and visits are never stitched together. Clarity reports script errors, loading times, taps that do nothing and how far a care guide is scrolled; the text of the page and anything you type, such as a plant name in the pet-safe checker, are masked in your browser first.</p>
+    <p>Clarity is operated by Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland. Recordings are kept 30 days, aggregated figures 13 months. Legal basis: our legitimate interest in a site that works (Art. 6(1)(f) GDPR). To opt out, block clarity.ms in your browser or a content blocker, or write to us; every guide and tool keeps working.</p>
     <h2>The embedded calculator</h2>
-    <p>The iframe version of the watering calculator offered to other websites loads neither Clarity nor Google Analytics and sets no cookie.</p>
-    <h2>How to block these cookies</h2>
-    <p>To object to audience measurement, block third-party cookies or the clarity.ms and google-analytics.com domains in your browser or with a content blocker, or install the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener" target="_blank">Google Analytics opt-out browser add-on</a>. Then clear this site’s data to delete cookies already set. Every guide and tool keeps working without them.</p>
+    <p>The iframe version of the watering calculator offered to other websites loads no Clarity at all and sets no cookie.</p>
+    <h2>What PlantCare101 does not use</h2>
+    <p>No audience analytics, no advertising, no social media button. The publisher records no personal data about visitors.</p>
     <p>Questions: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Last updated: {updated}.</p>
   </div>
 </PageLayout>

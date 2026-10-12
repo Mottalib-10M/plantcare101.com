@@ -28,7 +28,7 @@ export default function Diagnosis({ plants, symptoms, defaultSymptom, defaultPla
         <SelectField id={`${idPrefix}-plant`} label="Plant" value={plant} onChange={setPlant} options={[{ value: 'any', label: 'Any houseplant' }, ...plants.map((p) => ({ value: p.slug, label: p.name }))]} />
         <SelectField id={`${idPrefix}-soil`} label="Potting mix right now" value={soil} onChange={(v) => setSoil(v as Soil)} options={[{ value: 'unknown', label: 'Not sure' }, { value: 'wet', label: 'Wet or soggy' }, { value: 'dry', label: 'Bone dry' }]} />
       </form>
-      <div aria-live="polite" className="mt-5">
+      <div aria-live="polite" data-resultat className="mt-5">
         {results.length === 0 ? <p className="rounded-lg bg-navy-50 p-4 text-sm text-navy-800">None of our plant guides documents this symptom for this plant yet. Try “Any houseplant”.</p> : (
           <ol className="space-y-3">
             {results.map((d, k) => (

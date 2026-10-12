@@ -1,6 +1,6 @@
 /** Pièces communes des calculateurs : carte de résultat (seule pièce spectaculaire, §10.2), lignes
  *  de détail avec barre proportionnelle, formatage US. */
-import type { ReactNode } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 
 export const fmt = (n: number, d = 0) => new Intl.NumberFormat('en-US', { maximumFractionDigits: d, minimumFractionDigits: 0 }).format(n);
 /** Fraction lisible pour les cuillères : 0.125 → "1/8". */
@@ -17,12 +17,31 @@ export function fraction(x: number): string {
 }
 
 export function ResultCard({ label, value, sub, children }: { label: string; value: string; sub?: ReactNode; children?: ReactNode }) {
+  // Téléphone : tant que la carte du simulateur principal est sous l'écran, une barre collée en bas
+  // montre le chiffre clé (RECETTE §5, 2026-10-11). Seule la première carte de la page la porte.
+  const card = useRef<HTMLDivElement>(null);
+  const [below, setBelow] = useState(false);
+  useEffect(() => {
+    const el = card.current;
+    if (!el || typeof IntersectionObserver === 'undefined') return;
+    if (document.querySelector('main [data-resultat]') !== el || el.closest('[data-simulateur-secondaire]')) return;
+    const io = new IntersectionObserver(([e]) => setBelow(!e.isIntersecting && e.boundingClientRect.top > 0));
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
   return (
-    <div aria-live="polite" className="rounded-lg border border-accent-200 bg-accent-50 p-4 sm:p-5">
+    <div ref={card} aria-live="polite" data-resultat className="rounded-lg border border-accent-200 bg-accent-50 p-4 sm:p-5">
       <p className="text-sm font-medium text-navy-700">{label}</p>
       <p className="tabular-nums mt-1 font-serif text-4xl font-bold text-accent-800">{value}</p>
       {sub && <div className="mt-1 text-sm text-navy-700">{sub}</div>}
       {children}
+      {below && (
+        <button type="button" aria-hidden="true" tabIndex={-1} onClick={() => card.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+          className="fixed inset-x-0 bottom-0 z-40 flex items-baseline justify-between gap-3 border-t border-accent-200 bg-accent-50 px-4 py-3 text-left shadow-lg lg:hidden">
+          <span className="text-sm font-medium text-navy-700">{label}</span>
+          <span className="tabular-nums shrink-0 font-serif text-lg font-bold text-accent-800">{value}</span>
+        </button>
+      )}
     </div>
   );
 }

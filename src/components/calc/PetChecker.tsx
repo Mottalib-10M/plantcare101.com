@@ -36,7 +36,7 @@ export default function PetChecker({ defaultQuery = 'snake plant', plantPages = 
         </div>
         <SelectField id={`${idPrefix}-pet`} label="Your pet" value={pet} onChange={(v) => setPet(v as typeof pet)} options={[{ value: 'both', label: 'Cat and dog' }, { value: 'cats', label: 'Cat' }, { value: 'dogs', label: 'Dog' }]} />
       </form>
-      <div aria-live="polite" className="mt-5">
+      <div aria-live="polite" data-resultat className="mt-5">
         {top ? (
           <div className="rounded-lg border border-accent-200 bg-accent-50 p-4 sm:p-5">
             <p className="text-sm font-medium text-navy-700">{top.row.n}{top.row.sci && <> · <i>{top.row.sci}</i></>}</p>

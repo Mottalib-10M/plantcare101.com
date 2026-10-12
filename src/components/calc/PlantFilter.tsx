@@ -29,7 +29,7 @@ export default function PlantFilter({ plants, defaultLight = 'any', defaultPets 
         <SelectField id={`${idPrefix}-pets`} label="Pets at home" value={pets} onChange={setPets} options={[{ value: 'any', label: 'No filter' }, { value: 'both', label: 'Cats and dogs' }, { value: 'cats', label: 'Cats' }, { value: 'dogs', label: 'Dogs' }]} />
         <SelectField id={`${idPrefix}-care`} label="What suits you" value={care} onChange={setCare} options={[{ value: 'any', label: 'Show all' }, { value: 'forgiving', label: 'Forgives missed waterings' }, { value: 'humid', label: 'Likes humid rooms' }, { value: 'flowering', label: 'Flowering plants' }, { value: 'succulent', label: 'Succulents and cacti' }]} />
       </form>
-      <p aria-live="polite" className="mt-3 text-sm text-navy-700">{shown.length} of {plants.length} plants match.</p>
+      <p aria-live="polite" data-resultat className="mt-3 text-sm text-navy-700">{shown.length} of {plants.length} plants match.</p>
       <ul data-sommaire className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {shown.map((p) => (
           <li key={p.slug} className="rounded-lg border border-navy-200 p-4 hover:border-accent-300">

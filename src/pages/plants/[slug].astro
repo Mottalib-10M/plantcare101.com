@@ -60,12 +60,10 @@ const aliases = [...p.otherNames, ...p.formerNames.map((n) => `formerly ${n}`)];
     <h1 class="text-3xl font-bold text-navy-900 md:text-4xl">{p.seo.h1}</h1>
     <p class="mt-2 text-sm text-navy-600"><i>{p.botanicalName}</i> · {p.family}{aliases.length > 0 && <> · {aliases.join(', ')}</>}</p>
   </header>
-  <div class="grid gap-6 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)]">
-    <div>
-      <p class="text-lg leading-relaxed text-navy-800">{c.answer}</p>
-      <CareCard plant={p} />
-    </div>
-    <div data-chrome>
+  <div class="grid gap-x-6 gap-y-5 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)] lg:grid-rows-[auto_1fr] lg:gap-y-0">
+    <p class="text-lg leading-relaxed text-navy-800 lg:col-start-1 lg:row-start-1">{c.answer}</p>
+    <div class="order-last lg:order-none lg:col-start-1 lg:row-start-2"><CareCard plant={p} /></div>
+    <div data-chrome class="lg:col-start-2 lg:row-start-1 lg:row-span-2">
       <p class="mb-2 text-sm font-semibold text-navy-900">Watering calculator for your {nameInText(p.commonName)}</p>
       <WateringCalc client:load fixedPlant={wateringOption} methodHref={route('method', lang)} toolHref={route('watering', lang)} idPrefix={`w-${p.slug}`} />
     </div>

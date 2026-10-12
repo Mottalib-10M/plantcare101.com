@@ -53,7 +53,9 @@ h1 { font-weight: 700; } h2 { font-weight: 650; } h3 { font-weight: 600; }
   .clamp-toggle { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
   .clamp-rest { display: none; }
   .clamp-toggle:checked ~ p .clamp-rest { display: inline; }
-  .clamp-more { display: inline-block; margin-top: .25rem; cursor: pointer; font-size: .9rem; font-weight: 600; color: var(--color-accent-700); text-decoration: underline; }
+  /* Le lien suit la dernière ligne visible au lieu de prendre une ligne (premier écran, 2026-10-11). */
+  .clamp > p { display: inline; }
+  .clamp-more { display: inline-block; margin-left: .25rem; cursor: pointer; font-size: .9rem; font-weight: 600; color: var(--color-accent-700); text-decoration: underline; }
   .clamp-toggle:checked ~ .clamp-more { display: none; }
   .clamp-toggle:focus-visible ~ .clamp-more { outline: 2px solid var(--color-accent-500); outline-offset: 2px; }
   @media print { .clamp-rest { display: inline; } .clamp-more { display: none; } }

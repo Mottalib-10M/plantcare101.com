@@ -4,6 +4,7 @@ import LegalIdentity from '../components/LegalIdentity.astro';
 import { route } from '../i18n/routes';
 import { breadcrumbSchema } from '../lib/seo';
 const lang = 'en';
+import { CLARITY_ID, CONTACT_EMAIL, GA4_ID } from '../data/site-config';
 ---
 <PageLayout title="Terms of Use and Legal Notice of PlantCare101 (2026)" description="Terms of use and legal notice of PlantCare101: publisher, host, nature of the plant care estimates, pet safety disclaimer, liability, reuse of content and the free widget." lang={lang} noindex={true} jsonLd={[breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Terms of use', path: route('terms', lang) }])]} breadcrumbs={[{ label: 'Terms of use' }]}>
   <header class="mb-6"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">Terms of use and legal notice</h1></header>
@@ -20,6 +21,10 @@ const lang = 'en';
     <p>We take care to keep the information accurate and to correct reported errors promptly, but we cannot guarantee that the site is free of error or always available, and we are not liable for the loss of a plant or for decisions taken on the basis of the estimates. Nothing in these terms limits a liability that cannot be limited by law.</p>
     <h2>Reuse</h2>
     <p>Texts, tables and code on this site are protected by copyright. You may quote short extracts with a link to the page. The watering calculator may be embedded freely using the code on the <a href={route('widget', lang)}>widget page</a>, provided the credit link stays visible.</p>
+    {/* gen-legal-pages:terms */}
+    <h2>Personal data and cookies</h2>
+    {GA4_ID ? (<p>What you type in the calculators stays in your browser. The site sets Google Analytics audience measurement cookies (<code>_ga</code>, <code>_ga_{GA4_ID.replace('G-', '')}</code>, 13 months at most), with no advertising{CLARITY_ID && '; page stability is monitored with Microsoft Clarity, cookie-free'}. Details, legal basis and how to object: <a href={route('privacy', lang)}>privacy policy</a> and <a href={route('cookies', lang)}>cookies</a> page.</p>) : (<p>What you type in the calculators stays in your browser and the site sets no cookies{CLARITY_ID && '; page stability is monitored anonymously with Microsoft Clarity, cookie-free'}. See the <a href={route('privacy', lang)}>privacy policy</a> and the <a href={route('cookies', lang)}>cookies</a> page.</p>)}
+    {/* /gen-legal-pages:terms */}
     <h2>Applicable law</h2>
     <p>These terms are governed by French law, the law of the publisher's establishment, without prejudice to mandatory consumer protection rules of your country of residence.</p>
   </div>
